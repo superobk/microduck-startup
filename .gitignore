@@ -1,0 +1,11 @@
+work/
+logs/
+artifacts/
+*.onnx
+*.pt
+*.mp4
+*.csv
+.env
+.venv/
+node_modules/
+__pycache__/
