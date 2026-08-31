@@ -9,3 +9,6 @@ artifacts/
 .venv/
 node_modules/
 __pycache__/
+*.pyc
+configs/experiment.env
+.DS_Store
