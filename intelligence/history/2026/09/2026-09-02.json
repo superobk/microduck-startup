@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T16:37:54Z",
+  "generated_at": "2026-09-02T21:06:00Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e",
-        "url": "https://github.com/superobk/microduck-startup/commit/c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e"
+        "sha": "fc6aebf06d2fadad1651f5435eb90421ab06a957",
+        "url": "https://github.com/superobk/microduck-startup/commit/fc6aebf06d2fadad1651f5435eb90421ab06a957"
       },
-      "updated_at": "2026-09-02T14:22:12Z",
-      "pushed_at": "2026-09-02T14:14:11Z",
+      "updated_at": "2026-09-02T16:40:11Z",
+      "pushed_at": "2026-09-02T16:38:09Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "fc6aebf06d2fadad1651f5435eb90421ab06a957",
+          "sha": "fc6aebf06d2fadad1651f5435eb90421ab06a957",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-02T16:38:08Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/fc6aebf06d2fadad1651f5435eb90421ab06a957"
+        },
         {
           "id": "c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e",
           "sha": "c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e",
@@ -69,14 +77,6 @@
           "author": "superobk",
           "date": "2026-09-02T03:43:09Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2ddf4d8f2849c211a9a96322c6a65a8c41e11089"
-        },
-        {
-          "id": "01b2f92df00d722a304765a686163dcb5ab295e4",
-          "sha": "01b2f92df00d722a304765a686163dcb5ab295e4",
-          "message": "docs: add complete command reference",
-          "author": "superobk",
-          "date": "2026-08-31T08:04:22Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/01b2f92df00d722a304765a686163dcb5ab295e4"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "2c61dcc1f03440541cdc0729f7a375b2a9ea3005",
         "url": "https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005"
       },
-      "updated_at": "2026-09-02T16:32:30Z",
-      "pushed_at": "2026-09-02T16:18:47Z",
+      "updated_at": "2026-09-02T21:05:45Z",
+      "pushed_at": "2026-09-02T20:58:22Z",
       "open_issues_count": 33,
       "commits": [
         {
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "381570035",
+          "tag": "daemon-dev-sim-remote-io",
+          "name": "daemon 0.10.0-dev.817.0cd676d (sim-remote-io)",
+          "published_at": "2026-09-02T20:58:23Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-sim-remote-io"
+        },
+        {
           "id": "381407229",
           "tag": "daemon-dev-remote-access-design",
           "name": "daemon 0.10.0-dev.813.72dde90 (remote-access-design)",
@@ -176,17 +184,19 @@
           "published_at": "2026-09-02T15:25:06Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-reboot-motors"
-        },
-        {
-          "id": "381391454",
-          "tag": "daemon-dev-policy-hub-design",
-          "name": "daemon 0.10.0-dev.811.068e8e2 (policy-hub-design)",
-          "published_at": "2026-09-02T15:54:06Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design"
         }
       ],
       "pulls": [
+        {
+          "id": "202",
+          "number": 202,
+          "title": "maploc on the MuJoCo twin: a mirrored sensor, a fall at enable, and a route steered on stale odometry",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-02T18:45:30Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/202"
+        },
         {
           "id": "205",
           "number": 205,
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-02T15:23:23Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/204"
-        },
-        {
-          "id": "202",
-          "number": 202,
-          "title": "maploc on the MuJoCo twin: a mirrored sensor, a fall at enable, and a route steered on stale odometry",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-02T14:51:33Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/202"
         }
       ],
       "issues": []
@@ -245,13 +245,45 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "5bbe9637294d0c794edb185e284cfb1a77c6a0b4",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/5bbe9637294d0c794edb185e284cfb1a77c6a0b4"
+        "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-02T16:27:00Z",
-      "pushed_at": "2026-09-02T15:44:51Z",
-      "open_issues_count": 18,
+      "updated_at": "2026-09-02T20:57:18Z",
+      "pushed_at": "2026-09-02T20:20:08Z",
+      "open_issues_count": 17,
       "commits": [
+        {
+          "id": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
+          "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
+          "message": "Merge pull request #30 from peterschade/sim-body-server",
+          "author": "apirrone",
+          "date": "2026-09-02T20:20:08Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
+        },
+        {
+          "id": "5b63797c3189128c84f87a6f3740fe5452946f6a",
+          "sha": "5b63797c3189128c84f87a6f3740fe5452946f6a",
+          "message": "Merge branch 'develop' into sim-body-server",
+          "author": "apirrone",
+          "date": "2026-09-02T20:19:26Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/5b63797c3189128c84f87a6f3740fe5452946f6a"
+        },
+        {
+          "id": "b4f1bb7ccda00118e2d636ef70460ce2ad3adbf2",
+          "sha": "b4f1bb7ccda00118e2d636ef70460ce2ad3adbf2",
+          "message": "Merge pull request #33 from pollen-robotics/bam_infer_policy",
+          "author": "apirrone",
+          "date": "2026-09-02T20:03:15Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/b4f1bb7ccda00118e2d636ef70460ce2ad3adbf2"
+        },
+        {
+          "id": "efddced3bc85dd913e26721c91187b682c1eb76e",
+          "sha": "efddced3bc85dd913e26721c91187b682c1eb76e",
+          "message": "bam m6 actuator in infer_policy.py (mujoco cpu)",
+          "author": "apirrone",
+          "date": "2026-09-02T20:02:35Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/efddced3bc85dd913e26721c91187b682c1eb76e"
+        },
         {
           "id": "5bbe9637294d0c794edb185e284cfb1a77c6a0b4",
           "sha": "5bbe9637294d0c794edb185e284cfb1a77c6a0b4",
@@ -283,42 +315,40 @@
           "author": "apirrone",
           "date": "2026-09-02T15:27:35Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/e2b81dbd1803c2314983cfff30d87213ee5bb50e"
-        },
-        {
-          "id": "badc4e7ffe5507fd7acb1a21487bd2925c1afe5a",
-          "sha": "badc4e7ffe5507fd7acb1a21487bd2925c1afe5a",
-          "message": "Merge pull request #29 from pollen-robotics/update_models",
-          "author": "apirrone",
-          "date": "2026-09-02T13:39:43Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/badc4e7ffe5507fd7acb1a21487bd2925c1afe5a"
-        },
-        {
-          "id": "08680d3d6ec76e4b23f8db6e469766dfe3c7386a",
-          "sha": "08680d3d6ec76e4b23f8db6e469766dfe3c7386a",
-          "message": "feat: add true all-collisions robot model",
-          "author": "apirrone",
-          "date": "2026-09-01T14:39:14Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/08680d3d6ec76e4b23f8db6e469766dfe3c7386a"
-        },
-        {
-          "id": "8dfc08f33d408e62ca2e9d3ec107d0acbe747a91",
-          "sha": "8dfc08f33d408e62ca2e9d3ec107d0acbe747a91",
-          "message": "chore: re-export all robot models from updated CAD (new colors)",
-          "author": "apirrone",
-          "date": "2026-09-01T14:39:02Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/8dfc08f33d408e62ca2e9d3ec107d0acbe747a91"
-        },
-        {
-          "id": "8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a",
-          "sha": "8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a",
-          "message": "refactor: rename \"allcollisions\" model family to \"groundcontact\"",
-          "author": "apirrone",
-          "date": "2026-09-01T13:07:10Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "30",
+          "number": 30,
+          "title": "sim: the ToF numbered its columns backwards",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-02T20:20:09Z",
+          "merged_at": "2026-09-02T20:20:09Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/30"
+        },
+        {
+          "id": "33",
+          "number": 33,
+          "title": "bam m6 actuator in infer_policy.py (mujoco cpu)",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-02T20:03:16Z",
+          "merged_at": "2026-09-02T20:03:16Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/33"
+        },
+        {
+          "id": "32",
+          "number": 32,
+          "title": "Train strict grounded MicroDuck backrolls",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-02T17:31:36Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/32"
+        },
         {
           "id": "31",
           "number": 31,
@@ -330,16 +360,6 @@
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/31"
         },
         {
-          "id": "30",
-          "number": 30,
-          "title": "sim: the ToF numbered its columns backwards",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-02T14:41:39Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/30"
-        },
-        {
           "id": "29",
           "number": 29,
           "title": "Re-export robot models (new CAD colors) + true all-collisions variant",
@@ -348,35 +368,31 @@
           "updated_at": "2026-09-02T13:39:44Z",
           "merged_at": "2026-09-02T13:39:43Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/29"
-        },
-        {
-          "id": "28",
-          "number": 28,
-          "title": "feat(tasks): Mjlab-Jump-Flat-MicroDuck — phase-driven periodic hop",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-02T07:08:27Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/28"
-        },
-        {
-          "id": "26",
-          "number": 26,
-          "title": "fix(rom): fence terminal responses and recover readiness",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-01T22:51:37Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/26"
         }
       ],
       "issues": [
+        {
+          "id": "11",
+          "number": 11,
+          "title": "Community port: training the walking task on AMD GPUs (ROCm) via Genesis",
+          "state": "open",
+          "updated_at": "2026-09-02T18:44:09Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/11"
+        },
+        {
+          "id": "6",
+          "number": 6,
+          "title": "Default Walking Policy?",
+          "state": "closed",
+          "updated_at": "2026-09-02T18:42:46Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/6"
+        },
         {
           "id": "27",
           "number": 27,
           "title": "How is the articulated beak/grasp modeled in simulation?",
           "state": "open",
-          "updated_at": "2026-09-02T03:55:42Z",
+          "updated_at": "2026-09-02T18:42:17Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/27"
         }
       ]
@@ -430,7 +446,7 @@
         "sha": "d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6",
         "url": "https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6"
       },
-      "updated_at": "2026-09-02T16:26:55Z",
+      "updated_at": "2026-09-02T19:59:25Z",
       "pushed_at": "2026-09-01T16:14:34Z",
       "open_issues_count": 9,
       "commits": [
@@ -561,7 +577,7 @@
         "sha": "6298c095fe68c4ca45a5aa4ae7d33b4be925692d",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d"
       },
-      "updated_at": "2026-09-02T12:14:13Z",
+      "updated_at": "2026-09-02T20:05:36Z",
       "pushed_at": "2026-09-02T06:26:16Z",
       "open_issues_count": 0,
       "commits": [
@@ -653,9 +669,9 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-02T16:14:25Z",
+      "updated_at": "2026-09-02T20:43:10Z",
       "pushed_at": "2026-09-02T10:33:01Z",
-      "open_issues_count": 33,
+      "open_issues_count": 34,
       "commits": [
         {
           "id": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
