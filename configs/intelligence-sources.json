@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "description": "Public sources tracked by the Microduck intelligence refresh.",
+  "limits": {
+    "commits": 8,
+    "releases": 3,
+    "pulls": 5,
+    "issues": 5,
+    "social_items": 10
+  },
+  "github": [
+    {
+      "repo": "superobk/microduck-startup",
+      "branch": "main",
+      "role": "workspace orchestrator",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "pollen-robotics/microduck",
+      "branch": "main",
+      "role": "official runtime and hardware software",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "pollen-robotics/microduck_rl",
+      "branch": "develop",
+      "role": "official PPO and MuJoCo training",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "IronSpiderMan/MicroDuckModels",
+      "branch": "main",
+      "role": "browser MuJoCo and ONNX simulator",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "fanhao375/microduck-replica",
+      "branch": "master",
+      "role": "mechanical reconstruction",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "joeynyc/awesome-microduck",
+      "branch": "main",
+      "role": "community index",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": true
+    },
+    {
+      "repo": "mujocolab/mjlab",
+      "branch": "main",
+      "role": "MuJoCo Warp RL framework",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": false
+    },
+    {
+      "repo": "leggedrobotics/rsl_rl",
+      "branch": "main",
+      "role": "PPO runner and algorithms",
+      "include_releases": true,
+      "include_pulls": true,
+      "include_issues": false
+    }
+  ],
+  "social_feeds": [
+    {
+      "id": "target-social-account",
+      "name": "Configured Microduck social account",
+      "account": "set-account-name",
+      "kind": "rss",
+      "enabled": "auto",
+      "url_env": "MICRODUCK_SOCIAL_FEED_URL",
+      "notes": "Use a public RSS/Atom feed, an official API feed, or a self-controlled bridge."
+    }
+  ]
+}

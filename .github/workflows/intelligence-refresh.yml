@@ -1,0 +1,48 @@
+name: refresh-intelligence
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: microduck-intelligence-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect GitHub and configured social feeds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MICRODUCK_SOCIAL_FEED_URL: ${{ vars.MICRODUCK_SOCIAL_FEED_URL }}
+        run: |
+          python scripts/intelligence/refresh.py \
+            --config configs/intelligence-sources.json \
+            --output-root intelligence
+
+      - name: Commit changed public snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add intelligence/snapshots intelligence/history intelligence/digests
+          if git diff --cached --quiet; then
+            echo "No intelligence changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(intel): refresh Microduck sources [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

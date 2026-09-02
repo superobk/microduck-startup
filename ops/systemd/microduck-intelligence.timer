@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh Microduck intelligence every six hours
+
+[Timer]
+OnBootSec=10m
+OnUnitActiveSec=6h
+RandomizedDelaySec=15m
+Persistent=true
+Unit=microduck-intelligence.service
+
+[Install]
+WantedBy=timers.target

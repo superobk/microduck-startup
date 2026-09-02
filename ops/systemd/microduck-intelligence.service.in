@@ -1,0 +1,15 @@
+[Unit]
+Description=Refresh Microduck GitHub and configured social intelligence
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=@STARTUP_ROOT@
+EnvironmentFile=-%h/.config/microduck/intelligence.env
+ExecStart=@PYTHON@ @STARTUP_ROOT@/scripts/intelligence/refresh.py --config @STARTUP_ROOT@/configs/intelligence-sources.json --output-root @OUTPUT_ROOT@
+Nice=10
+IOSchedulingClass=idle
+
+[Install]
+WantedBy=default.target
