@@ -1,14 +1,43 @@
+# Local startup worktree and generated training state
 work/
 logs/
 artifacts/
+.workspace/
+
+# Model and experiment artifacts
 *.onnx
 *.pt
+*.pth
+*.ckpt
 *.mp4
+*.mkv
 *.csv
+*.parquet
+*.arrow
+*.npz
+*.npy
+*.bag
+*.db3
+
+# Local configuration and credentials
 .env
+.env.*
+!.env.example
+configs/experiment.env
+configs/intelligence-sources.local.json
+
+# Python / Node / editors
 .venv/
 node_modules/
 __pycache__/
 *.pyc
-configs/experiment.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .DS_Store
+.vscode/
+.idea/
+
+# Intelligence data that must remain local
+intelligence/cache/
+intelligence/private/

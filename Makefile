@@ -1,9 +1,15 @@
 SHELL := /usr/bin/env bash
 
-.PHONY: help preflight clone browser-setup browser rl-setup rl-test smoke train checkpoint export infer-official infer-custom browser-install-policy no-push manifest replica-setup replica-build tunnel tensorboard models-check validate
+.PHONY: help preflight clone browser-setup browser rl-setup rl-test smoke train checkpoint export infer-official infer-custom browser-install-policy no-push manifest replica-setup replica-build tunnel tensorboard models-check workspace-bootstrap workspace-sync workspace-status handoff intelligence-refresh intelligence-timer-install validate
 
 help:
 	@printf '%s\n' \
+	  'make workspace-bootstrap      Create ~/Microduck and clone/link every repository' \
+	  'make workspace-sync           Fetch all official/community remotes without changing work' \
+	  'make workspace-status         Show pins, branches, dirty state and local revisions' \
+	  'make handoff                  Generate a GPU-workstation handoff snapshot' \
+	  'make intelligence-refresh     Refresh GitHub and configured social feeds locally' \
+	  'make intelligence-timer-install Install a six-hour user timer on the workstation' \
 	  'make preflight               Inspect host, GPU and tools' \
 	  'make clone                   Clone all pinned upstream repositories' \
 	  'make models-check            Verify the nine official ONNX policies' \
@@ -23,7 +29,25 @@ help:
 	  'make manifest                Record versions, environment and hashes' \
 	  'make replica-setup           Prepare mechanical reconstruction venv' \
 	  'make replica-build           Rebuild drawings/STL/hole analysis' \
-	  'make validate                Syntax-check startup scripts'
+	  'make validate                Check shell, Python and JSON syntax'
+
+workspace-bootstrap:
+	bash scripts/workspace/bootstrap.sh
+
+workspace-sync:
+	bash scripts/workspace/sync.sh
+
+workspace-status:
+	bash scripts/workspace/status.sh
+
+handoff:
+	bash scripts/workspace/handoff.sh
+
+intelligence-refresh:
+	python3 scripts/intelligence/refresh.py
+
+intelligence-timer-install:
+	bash scripts/intelligence/install_user_timer.sh
 
 preflight:
 	bash scripts/00_preflight_host.sh
@@ -86,6 +110,8 @@ tunnel:
 	@echo 'Usage: bash scripts/18_ssh_tunnel.sh USER@GPU_HOST'
 
 validate:
-	bash -n scripts/*.sh
-	python3 -m py_compile scripts/10_verify_onnx.py
-	@echo 'PASS: startup script syntax'
+	@find scripts -type f -name '*.sh' -print0 | xargs -0 -n1 bash -n
+	@find scripts -type f -name '*.py' -print0 | xargs -0 -n1 python3 -m py_compile
+	@python3 -m json.tool configs/workspace-repos.json >/dev/null
+	@python3 -m json.tool configs/intelligence-sources.json >/dev/null
+	@echo 'PASS: shell, Python and JSON syntax'

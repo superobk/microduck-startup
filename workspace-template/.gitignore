@@ -1,0 +1,33 @@
+# Nested repositories managed independently
+/startup/
+/official/
+/community/
+
+# Generated symlinks
+/simulation/envs/
+/simulation/browser/
+/simulation/policies/official
+/hardware/mechanical/references/
+/intelligence/tracked
+
+# Heavy or local data
+/datasets/raw/
+/datasets/curated/
+/datasets/frozen-eval/
+/experiments/runs/
+/experiments/worktrees/
+/artifacts/
+/intelligence/local/
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.arrow
+*.npz
+*.npy
+*.mp4
+*.mkv
+*.csv
+.env
+.DS_Store

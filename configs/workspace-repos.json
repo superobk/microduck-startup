@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "workspace_name": "Microduck",
+  "snapshot_date": "2026-08-31",
+  "repos": [
+    {
+      "name": "microduck-startup",
+      "category": "orchestrator",
+      "path": "startup",
+      "url": "https://github.com/superobk/microduck-startup.git",
+      "ref": "main",
+      "tracking_branch": "main",
+      "checkout": "branch",
+      "required": true
+    },
+    {
+      "name": "microduck",
+      "category": "official",
+      "path": "official/microduck",
+      "url": "https://github.com/pollen-robotics/microduck.git",
+      "ref": "590b986bd8c0d50ae02cb3ea2f59c463b6828168",
+      "tracking_branch": "main",
+      "checkout": "detached",
+      "required": true
+    },
+    {
+      "name": "microduck_rl",
+      "category": "official",
+      "path": "official/microduck_rl",
+      "url": "https://github.com/pollen-robotics/microduck_rl.git",
+      "ref": "d424a0c899f6b33cbd3daeb279913134349c0b63",
+      "tracking_branch": "develop",
+      "checkout": "detached",
+      "required": true
+    },
+    {
+      "name": "MicroDuckModels",
+      "category": "community",
+      "path": "community/MicroDuckModels",
+      "url": "https://github.com/IronSpiderMan/MicroDuckModels.git",
+      "ref": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
+      "tracking_branch": "main",
+      "checkout": "detached",
+      "required": true
+    },
+    {
+      "name": "microduck-replica",
+      "category": "community",
+      "path": "community/microduck-replica",
+      "url": "https://github.com/fanhao375/microduck-replica.git",
+      "ref": "652f7ba86f56e7243b91b36c229977d882e36bc6",
+      "tracking_branch": "master",
+      "checkout": "detached",
+      "required": true
+    },
+    {
+      "name": "awesome-microduck",
+      "category": "community",
+      "path": "community/awesome-microduck",
+      "url": "https://github.com/joeynyc/awesome-microduck.git",
+      "ref": "9ef86882a1ea913c771c3169b533c020a3a1b286",
+      "tracking_branch": "main",
+      "checkout": "detached",
+      "required": true
+    }
+  ]
+}
