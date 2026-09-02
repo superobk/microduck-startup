@@ -17,7 +17,10 @@
 /experiments/runs/
 /experiments/worktrees/
 /artifacts/
+/registry/huggingface/model-cache/
+/registry/huggingface/space-staging/
 /intelligence/local/
+/sync/state/
 *.onnx
 *.pt
 *.pth

@@ -2,13 +2,21 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-STARTUP="$(cd "${SCRIPT_DIR}/../.." && pwd)"
-ROOT="${1:-${MICRODUCK_HOME:-${HOME}/Microduck}}"
-ROOT="$(realpath -m "${ROOT}")"
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/../lib/portable.sh"
+
+if ! md_is_linux; then
+  printf '[ERROR] systemd user timers are Linux-only.\n' >&2
+  printf 'On macOS use: bash scripts/sync/install_macos_agent.sh\n' >&2
+  exit 1
+fi
+
+STARTUP="$(md_abs_path "${SCRIPT_DIR}/../..")"
+ROOT="$(md_abs_path "${MICRODUCK_HOME:-${HOME}/Microduck}")"
 if [[ -d "${ROOT}/startup" ]]; then
   STARTUP="${ROOT}/startup"
 else
-  ROOT="$(realpath -m "${STARTUP}/..")"
+  ROOT="$(md_abs_path "${STARTUP}/..")"
 fi
 
 PYTHON="$(command -v python3)"

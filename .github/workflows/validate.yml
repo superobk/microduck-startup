@@ -6,8 +6,14 @@ on:
 
 jobs:
   startup-static-checks:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - name: Validate shell and Python syntax
+      - name: Validate shell, JSON and Python helpers
         run: make validate

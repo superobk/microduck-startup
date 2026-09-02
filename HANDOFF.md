@@ -1,85 +1,99 @@
-# HANDOFF · GPU 工作站继续深化
+# HANDOFF · macOS 控制端与 GPU 计算端
 
-## 当前仓库职责
+## 当前职责
 
-`superobk/microduck-startup` 是工作区编排与复现手册，不重新托管上游大模型、STL、MJCF 或完整 Git 历史。它负责：
+`superobk/microduck-startup` 负责：
 
-- 建立 `~/Microduck` 多仓库工作区；
-- 固定第一轮上游 SHA；
-- PPO/MuJoCo 环境安装、测试、训练、导出与回灌；
-- 机械参考链接与结构件验证目录；
-- GitHub/RSS 资讯更新；
-- 生成下一次 session 可读的 handoff。
+- 建立两端一致但独立的 `~/Microduck`；
+- 固定官方/社区仓库版本；
+- PPO/MuJoCo 安装、smoke、训练、导出、replay；
+- 结构件、系统辨识和主控替代研究目录；
+- GitHub/RSS 资讯；
+- Hugging Face model bundle 和 duplicate Space；
+- 跨 session 状态报告。
 
-## GPU 工作站第一条命令
+## 下一台机器的第一条命令
 
 ```bash
 git clone https://github.com/superobk/microduck-startup.git ~/Microduck/startup
 cd ~/Microduck/startup
 bash scripts/workspace/bootstrap.sh ~/Microduck
+nano configs/machine.env
+make sync-doctor
 ```
 
-随后严格执行：
+GPU 继续：
 
 ```bash
-make workspace-status
 make preflight
 make models-check
-make browser-setup
 make rl-setup
 make rl-test
 make smoke
 ```
 
-Smoke 通过后才进入正式训练。
+Mac 继续：
 
-## 不变量
+```bash
+make sync-refresh
+make sync-pull
+make tunnel
+```
 
-后续 session 不应无意破坏：
+## 同步不变量
+
+```text
+代码/配置/文档           GitHub
+活动 PPO 数据和日志       GPU 本地
+正式 ONNX/replay/preview Hugging Face + artifacts/published
+临时 handoff             白名单 rsync
+worktree/.git/.venv      不跨机器复制
+```
+
+一个 branch 同时只有一个写入者。`main` 只做 fast-forward 集成。
+
+## RL 不变量
 
 ```text
 61D actor observation
-13D command block
-14D policy action
+13D command
+14D action
 固定 joint order
-0.005 s physics × 4 decimation = 50 Hz policy loop
+0.005 s × 4 = 50 Hz
 官方 exporter 包含 observation normalizer
-固定评测集不用于训练
-原始 upstream checkout 不承载长期实验修改
+PPO rollout 是 fresh on-policy data
+rollout.npz 是固定评测，不是 PPO replay buffer
 ```
 
-## Git 工作方式
+## 一天流水线
 
-- `official/*` 和 `community/*` 是独立仓库；
-- 第一轮 checkout 固定 SHA；
-- `make workspace-sync` 只 fetch，不 checkout；
-- 修改任务时在 `experiments/worktrees/<experiment>` 建 worktree；
-- 每个实验保留 config diff、seed、GPU、checkpoint hash、ONNX hash 和视频；
-- 不把数据集、模型、视频或凭据提交到 startup。
+```bash
+cp configs/one-day.env.example configs/one-day.env
+nano configs/one-day.env
+make one-day
+```
 
-## 资讯任务尚需一次人工配置
+恢复指定阶段：
 
-GitHub 源已配置。社交账号身份尚未由用户指定，因此默认 social feed 为 disabled。
+```bash
+bash scripts/one_day/run.sh replay --run-id RUN_ID
+bash scripts/one_day/run.sh package --run-id RUN_ID
+bash scripts/one_day/run.sh publish-model --run-id RUN_ID
+bash scripts/one_day/run.sh publish-space --run-id RUN_ID
+```
 
-配置位置：
+## HF 发布顺序
 
 ```text
-configs/intelligence-sources.json
+本地 bundle
+→ 个人 model repo
+→ 个人 duplicate Space
+→ build/keyboard/gamepad/mobile 验证
+→ Community PR/Discussion
 ```
 
-推荐为目标账号提供公开 RSS/Atom 或合规 API feed URL，并通过 repository variable 或本地环境变量 `MICRODUCK_SOCIAL_FEED_URL` 注入。不要在公开仓库写 API token。
-
-## 机械与主控研究
-
-参考入口：
-
-```text
-hardware/mechanical/references/official-assets
-hardware/mechanical/references/microduck-replica
-hardware/controller-alternatives
-```
-
-任何修改后的 STL/CAD 放入 `hardware/mechanical/printable`，并把实测、试装和失败记录放入 `measurements` 与 `validation`。不要覆盖上游衍生资产。
+不要假定自己可以直接写
+`pollen-robotics/microduck-simulator/main`。
 
 ## 每次结束前
 
@@ -90,19 +104,23 @@ make handoff
 make workspace-status
 ```
 
-检查：
+GPU 还应把已选择的 run 放入：
 
 ```text
-是否有未提交代码
-最新 checkpoint 是否属于正确 run
-ONNX 是否为 61→14
-数据集 manifest 是否存在
-资讯抓取是否有 error
-下一步实验是否只改变一个主要变量
+~/Microduck/artifacts/published/<RUN_ID>/
 ```
 
-最后读取并交给下一 session：
+Handoff 人工补充：
 
 ```text
-~/Microduck/notes/handoffs/LATEST.md
+Active repository/branch:
+Active worktree:
+Run ID:
+Checkpoint:
+ONNX:
+HF model repo:
+HF duplicate Space:
+Current blocker:
+Next exact command:
+Pass condition:
 ```

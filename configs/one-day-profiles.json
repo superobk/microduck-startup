@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "note": "Starting budgets for a one-day reproduction on a modern NVIDIA GPU. They are not convergence guarantees.",
+  "profiles": {
+    "walking": {
+      "task_id": "Mjlab-Velocity-Flat-MicroDuck",
+      "space_slot": "walk",
+      "train_envs": 4096,
+      "train_iterations": 1000,
+      "replay_steps": 500,
+      "description": "Fastest end-to-end validation; retrains the continuous velocity policy."
+    },
+    "sitstand": {
+      "task_id": "Mjlab-SitStand-Flat-MicroDuck",
+      "space_slot": "sitstand",
+      "train_envs": 4096,
+      "train_iterations": 2500,
+      "replay_steps": 250,
+      "description": "One policy controlled by the existing sit/stand command slot."
+    },
+    "roulade": {
+      "task_id": "Mjlab-Roulade-Flat-MicroDuck",
+      "space_slot": "roll",
+      "train_envs": 4096,
+      "train_iterations": 4000,
+      "replay_steps": 250,
+      "description": "Existing one-shot roll slot; best template for a new short episodic action."
+    },
+    "ball-kick": {
+      "task_id": "Mjlab-BallKick-Flat-MicroDuck",
+      "space_slot": "kickR",
+      "train_envs": 4096,
+      "train_iterations": 3000,
+      "replay_steps": 200,
+      "description": "Existing right-kick preview slot. A left-foot policy needs a mirrored/exported counterpart."
+    },
+    "roller-crouch": {
+      "task_id": "Mjlab-RollerCrouch-Flat-MicroDuck",
+      "space_slot": "crouch",
+      "train_envs": 4096,
+      "train_iterations": 3000,
+      "replay_steps": 300,
+      "description": "Existing roller one-shot/phase slot."
+    },
+    "ground-pick": {
+      "task_id": "Mjlab-GroundPick-Flat-MicroDuck",
+      "space_slot": null,
+      "train_envs": 4096,
+      "train_iterations": 3000,
+      "replay_steps": 250,
+      "description": "Trainable in microduck_rl, but the current official Space needs a new trigger/state-machine/UI integration."
+    }
+  }
+}

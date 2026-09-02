@@ -24,11 +24,20 @@ artifacts/
 .env.*
 !.env.example
 configs/experiment.env
+configs/machine.env
+configs/one-day.env
+configs/hf-publish.env
 configs/intelligence-sources.local.json
+
+# Hugging Face and staged repositories
+.huggingface/
+.hf/
+space-staging/
 
 # Python / Node / editors
 .venv/
 node_modules/
+dist/
 __pycache__/
 *.pyc
 .pytest_cache/

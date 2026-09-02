@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source_space": "pollen-robotics/microduck-simulator",
+  "slots": {
+    "walk": {
+      "variant": "legs",
+      "mode": "continuous_velocity",
+      "trigger": "WASD/arrows",
+      "command_contract": "command[0:3] = vx, vy, wz",
+      "expected_task": "Mjlab-Velocity-Flat-MicroDuck"
+    },
+    "sitstand": {
+      "variant": "legs",
+      "mode": "commanded_one_policy",
+      "trigger": "D-pad down / UI",
+      "command_contract": "command[0] = posture flag",
+      "expected_task": "Mjlab-SitStand-Flat-MicroDuck"
+    },
+    "roll": {
+      "variant": "legs",
+      "mode": "one_shot",
+      "trigger": "R / gamepad X",
+      "command_contract": "zero 13D command during action; existing timed return",
+      "expected_task": "Mjlab-Roulade-Flat-MicroDuck"
+    },
+    "kickL": {
+      "variant": "legs",
+      "mode": "one_shot",
+      "trigger": "Q / LB",
+      "command_contract": "zero 13D command during existing kick window",
+      "expected_task": "left-foot compatible ball-kick policy"
+    },
+    "kickR": {
+      "variant": "legs",
+      "mode": "one_shot",
+      "trigger": "E / RB",
+      "command_contract": "zero 13D command during existing kick window",
+      "expected_task": "Mjlab-BallKick-Flat-MicroDuck or compatible mirrored export"
+    },
+    "roller": {
+      "variant": "rollers",
+      "mode": "continuous_velocity",
+      "trigger": "M then WASD/arrows",
+      "command_contract": "roller velocity command",
+      "expected_task": "Mjlab-Velocity-Flat-MicroDuck-Rollers"
+    },
+    "crouch": {
+      "variant": "rollers",
+      "mode": "phase_one_shot",
+      "trigger": "R / gamepad X in roller mode",
+      "command_contract": "existing phase-encoded command and timed return",
+      "expected_task": "Mjlab-RollerCrouch-Flat-MicroDuck"
+    }
+  }
+}

@@ -2,7 +2,10 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-STARTUP="$(cd "${SCRIPT_DIR}/../.." && pwd)"
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/../lib/portable.sh"
+
+STARTUP="$(md_abs_path "${SCRIPT_DIR}/../..")"
 ROOT="${MICRODUCK_HOME:-${HOME}/Microduck}"
 APPLY_PINS=false
 
@@ -12,7 +15,7 @@ for arg in "$@"; do
     *) ROOT="${arg}" ;;
   esac
 done
-ROOT="$(realpath -m "${ROOT}")"
+ROOT="$(md_abs_path "${ROOT}")"
 MANIFEST="${ROOT}/startup/configs/workspace-repos.json"
 [[ -f "${MANIFEST}" ]] || MANIFEST="${STARTUP}/configs/workspace-repos.json"
 
