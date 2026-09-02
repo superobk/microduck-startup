@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-02T14:13:53Z`
+Generated: `2026-09-02T16:37:54Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,30 +8,32 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `30a80a162c1e` [feat: optimize Mac GPU sync and add one-day PPO to HF pipeline](https://github.com/superobk/microduck-startup/commit/30a80a162c1e9fec25e22614f991c89af2821949)
-- Commit `71847ba22946` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/71847ba229465b8294abfca1315334c6f607e9da)
+- Commit `c07c5bc9ff60` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.10.0-dev.791.7fde70f (remote-access-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-remote-access-design) (prerelease)
-- Release [daemon 0.10.0-dev.795.a4b2c0a (policy-hub-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design) (prerelease)
-- Release [daemon 0.10.0-dev.794.4a6b68e (mediad-copies-a-frame-nobody-asked-for)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-copies-a-frame-nobody-asked-for) (prerelease)
-- Commit `2c61dcc1f034` [Merge pull request #200 from pollen-robotics/health-names-a-crash-loop](https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005)
-- Commit `2d6211582a78` [A crash-looping daemon reported as an active one running an unknown old build](https://github.com/pollen-robotics/microduck/commit/2d6211582a7893cc643bdf796d90a82f5604d40f)
+- Release [daemon 0.10.0-dev.813.72dde90 (remote-access-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-remote-access-design) (prerelease)
+- Release [daemon 0.10.0-dev.802.a565325 (reboot-motors)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-reboot-motors) (prerelease)
+- Release [daemon 0.10.0-dev.811.068e8e2 (policy-hub-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design) (prerelease)
+- PR #205 [Remote access: a robot can belong to a Hugging Face account](https://github.com/pollen-robotics/microduck/pull/205) — open
+- PR #203 [robot.rebootMotors: reboot servos in place (`robotctl robot reboot-motors`, D-pad-right)](https://github.com/pollen-robotics/microduck/pull/203) — open
+- PR #204 [Four daemons were doing work nobody had asked for](https://github.com/pollen-robotics/microduck/pull/204) — open
+- PR #202 [maploc on the MuJoCo twin: a mirrored sensor, a fall at enable, and a route steered on stale odometry](https://github.com/pollen-robotics/microduck/pull/202) — open
 
 ### pollen-robotics/microduck_rl
 
-- Commit `badc4e7ffe55` [Merge pull request #29 from pollen-robotics/update_models](https://github.com/pollen-robotics/microduck_rl/commit/badc4e7ffe5507fd7acb1a21487bd2925c1afe5a)
-- Commit `08680d3d6ec7` [feat: add true all-collisions robot model](https://github.com/pollen-robotics/microduck_rl/commit/08680d3d6ec76e4b23f8db6e469766dfe3c7386a)
-- Commit `8dfc08f33d40` [chore: re-export all robot models from updated CAD (new colors)](https://github.com/pollen-robotics/microduck_rl/commit/8dfc08f33d408e62ca2e9d3ec107d0acbe747a91)
-- Commit `8d5c18b34356` [refactor: rename "allcollisions" model family to "groundcontact"](https://github.com/pollen-robotics/microduck_rl/commit/8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a)
-- PR #29 [Re-export robot models (new CAD colors) + true all-collisions variant](https://github.com/pollen-robotics/microduck_rl/pull/29) — closed
+- Commit `5bbe9637294d` [Merge pull request #31 from pollen-robotics/publish_policies](https://github.com/pollen-robotics/microduck_rl/commit/5bbe9637294d0c794edb185e284cfb1a77c6a0b4)
+- Commit `53043f2fdd06` [publish: a perpetual gait needs no unwind](https://github.com/pollen-robotics/microduck_rl/commit/53043f2fdd06a65c27b7a27544b3e4dc9e864f44)
+- Commit `8dc749c4d4a1` [docs: README section on publishing a policy to the Hub](https://github.com/pollen-robotics/microduck_rl/commit/8dc749c4d4a13fa9ff060343e94d96d8e917aa78)
+- Commit `e2b81dbd1803` [feat: `uv run publish` — share a policy on the Hub in the shape the daemon loads](https://github.com/pollen-robotics/microduck_rl/commit/e2b81dbd1803c2314983cfff30d87213ee5bb50e)
+- PR #31 [feat: `uv run publish` — share a policy on the Hub in the shape the daemon loads](https://github.com/pollen-robotics/microduck_rl/pull/31) — closed
+- PR #30 [sim: the ToF numbered its columns backwards](https://github.com/pollen-robotics/microduck_rl/pull/30) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [30a80a162c1e](https://github.com/superobk/microduck-startup/commit/30a80a162c1e9fec25e22614f991c89af2821949); pushed `2026-09-02T14:13:44Z`
-- **pollen-robotics/microduck** `main` → [2c61dcc1f034](https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005); pushed `2026-09-02T14:09:57Z`
-- **pollen-robotics/microduck_rl** `develop` → [badc4e7ffe55](https://github.com/pollen-robotics/microduck_rl/commit/badc4e7ffe5507fd7acb1a21487bd2925c1afe5a); pushed `2026-09-02T13:39:43Z`
+- **superobk/microduck-startup** `main` → [c07c5bc9ff60](https://github.com/superobk/microduck-startup/commit/c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e); pushed `2026-09-02T14:14:11Z`
+- **pollen-robotics/microduck** `main` → [2c61dcc1f034](https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005); pushed `2026-09-02T16:18:47Z`
+- **pollen-robotics/microduck_rl** `develop` → [5bbe9637294d](https://github.com/pollen-robotics/microduck_rl/commit/5bbe9637294d0c794edb185e284cfb1a77c6a0b4); pushed `2026-09-02T15:44:51Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [d60cd2e89b0e](https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6); pushed `2026-09-01T16:14:34Z`
 - **joeynyc/awesome-microduck** `main` → [6298c095fe68](https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d); pushed `2026-09-02T06:26:16Z`
