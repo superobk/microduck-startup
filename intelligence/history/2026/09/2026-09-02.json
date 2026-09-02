@@ -1,19 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T11:23:48Z",
+  "generated_at": "2026-09-02T14:13:53Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f",
-        "url": "https://github.com/superobk/microduck-startup/commit/9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f"
+        "sha": "30a80a162c1e9fec25e22614f991c89af2821949",
+        "url": "https://github.com/superobk/microduck-startup/commit/30a80a162c1e9fec25e22614f991c89af2821949"
       },
-      "updated_at": "2026-09-02T03:48:50Z",
-      "pushed_at": "2026-09-02T03:48:47Z",
+      "updated_at": "2026-09-02T11:24:53Z",
+      "pushed_at": "2026-09-02T14:13:44Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "30a80a162c1e9fec25e22614f991c89af2821949",
+          "sha": "30a80a162c1e9fec25e22614f991c89af2821949",
+          "message": "feat: optimize Mac GPU sync and add one-day PPO to HF pipeline",
+          "author": "superobk",
+          "date": "2026-09-02T14:13:28Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/30a80a162c1e9fec25e22614f991c89af2821949"
+        },
+        {
+          "id": "71847ba229465b8294abfca1315334c6f607e9da",
+          "sha": "71847ba229465b8294abfca1315334c6f607e9da",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-02T11:23:59Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/71847ba229465b8294abfca1315334c6f607e9da"
+        },
         {
           "id": "9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f",
           "sha": "9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f",
@@ -61,22 +77,6 @@
           "author": "superobk",
           "date": "2026-08-31T08:04:11Z",
           "url": "https://github.com/superobk/microduck-startup/commit/89818307264b15f80e518f0051771c85869a1ed4"
-        },
-        {
-          "id": "71c6131b5197f29756be2d6f187a0bed0f9f6626",
-          "sha": "71c6131b5197f29756be2d6f187a0bed0f9f6626",
-          "message": "docs: add end-to-end troubleshooting guide",
-          "author": "superobk",
-          "date": "2026-08-31T08:03:58Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/71c6131b5197f29756be2d6f187a0bed0f9f6626"
-        },
-        {
-          "id": "0b5f166e574f7f3f3f888675e775619d661643f4",
-          "sha": "0b5f166e574f7f3f3f888675e775619d661643f4",
-          "message": "docs: explain the optional mechanical reconstruction module",
-          "author": "superobk",
-          "date": "2026-08-31T08:03:40Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0b5f166e574f7f3f3f888675e775619d661643f4"
         }
       ],
       "releases": [],
@@ -88,13 +88,29 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "9f7eaad1008fffd90ef871a33a18aecd066b51a9",
-        "url": "https://github.com/pollen-robotics/microduck/commit/9f7eaad1008fffd90ef871a33a18aecd066b51a9"
+        "sha": "2c61dcc1f03440541cdc0729f7a375b2a9ea3005",
+        "url": "https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005"
       },
-      "updated_at": "2026-09-02T11:17:41Z",
-      "pushed_at": "2026-09-02T10:06:19Z",
+      "updated_at": "2026-09-02T14:12:06Z",
+      "pushed_at": "2026-09-02T14:09:57Z",
       "open_issues_count": 29,
       "commits": [
+        {
+          "id": "2c61dcc1f03440541cdc0729f7a375b2a9ea3005",
+          "sha": "2c61dcc1f03440541cdc0729f7a375b2a9ea3005",
+          "message": "Merge pull request #200 from pollen-robotics/health-names-a-crash-loop",
+          "author": "pierre-rouanet",
+          "date": "2026-09-02T12:30:27Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2c61dcc1f03440541cdc0729f7a375b2a9ea3005"
+        },
+        {
+          "id": "2d6211582a7893cc643bdf796d90a82f5604d40f",
+          "sha": "2d6211582a7893cc643bdf796d90a82f5604d40f",
+          "message": "A crash-looping daemon reported as an active one running an unknown old build",
+          "author": "pierre-rouanet",
+          "date": "2026-09-02T09:59:18Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2d6211582a7893cc643bdf796d90a82f5604d40f"
+        },
         {
           "id": "9f7eaad1008fffd90ef871a33a18aecd066b51a9",
           "sha": "9f7eaad1008fffd90ef871a33a18aecd066b51a9",
@@ -142,70 +158,54 @@
           "author": "Nixxx19",
           "date": "2026-09-01T06:13:59Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/4e0a6344d12562dd73027b78810e28cab9eae6cd"
-        },
-        {
-          "id": "590b986bd8c0d50ae02cb3ea2f59c463b6828168",
-          "sha": "590b986bd8c0d50ae02cb3ea2f59c463b6828168",
-          "message": "Merge pull request #167 from pollen-robotics/install-path-rule-reachable",
-          "author": "pierre-rouanet",
-          "date": "2026-08-27T15:08:15Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/590b986bd8c0d50ae02cb3ea2f59c463b6828168"
-        },
-        {
-          "id": "f0eef25ed5a17f59c9b8a4974de09d7939752453",
-          "sha": "f0eef25ed5a17f59c9b8a4974de09d7939752453",
-          "message": "Prepare release 0.10.0",
-          "author": "pierre-rouanet",
-          "date": "2026-08-27T15:01:44Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/f0eef25ed5a17f59c9b8a4974de09d7939752453"
         }
       ],
       "releases": [
         {
-          "id": "381135603",
+          "id": "381278711",
+          "tag": "daemon-dev-remote-access-design",
+          "name": "daemon 0.10.0-dev.791.7fde70f (remote-access-design)",
+          "published_at": "2026-09-02T13:21:08Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-remote-access-design"
+        },
+        {
+          "id": "381307608",
           "tag": "daemon-dev-policy-hub-design",
-          "name": "daemon 0.10.0-dev.785.f99f457 (policy-hub-design)",
-          "published_at": "2026-09-02T09:47:02Z",
+          "name": "daemon 0.10.0-dev.795.a4b2c0a (policy-hub-design)",
+          "published_at": "2026-09-02T13:58:18Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design"
         },
         {
-          "id": "381147371",
-          "tag": "daemon-dev-health-names-a-crash-loop",
-          "name": "daemon 0.10.0-dev.786.2d62115 (health-names-a-crash-loop)",
-          "published_at": "2026-09-02T10:06:19Z",
+          "id": "381301261",
+          "tag": "daemon-dev-mediad-copies-a-frame-nobody-asked-for",
+          "name": "daemon 0.10.0-dev.794.4a6b68e (mediad-copies-a-frame-nobody-asked-for)",
+          "published_at": "2026-09-02T13:49:31Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-health-names-a-crash-loop"
-        },
-        {
-          "id": "380482943",
-          "tag": "daemon-dev-sim-remote-io",
-          "name": "daemon 0.10.0-dev.767.c536bfd (sim-remote-io)",
-          "published_at": "2026-09-01T12:35:56Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-sim-remote-io"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-copies-a-frame-nobody-asked-for"
         }
       ],
       "pulls": [
-        {
-          "id": "200",
-          "number": 200,
-          "title": "A crash-looping daemon reported as an active one running an unknown old build",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-02T10:03:39Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/200"
-        },
         {
           "id": "191",
           "number": 191,
           "title": "The policy channel: policies from the Hub, and skills from config",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-09-02T09:47:34Z",
+          "updated_at": "2026-09-02T14:08:48Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/191"
+        },
+        {
+          "id": "200",
+          "number": 200,
+          "title": "A crash-looping daemon reported as an active one running an unknown old build",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-02T12:30:30Z",
+          "merged_at": "2026-09-02T12:30:27Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/200"
         },
         {
           "id": "198",
@@ -240,12 +240,12 @@
       ],
       "issues": [
         {
-          "id": "168",
-          "number": 168,
-          "title": "Open source the hardware and 3d printable parts",
-          "state": "closed",
-          "updated_at": "2026-09-02T02:04:22Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/168"
+          "id": "201",
+          "number": 201,
+          "title": "add `robotctl reboot_motors`",
+          "state": "open",
+          "updated_at": "2026-09-02T13:53:14Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/201"
         }
       ]
     },
@@ -254,13 +254,45 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "5946fd9cdbc58956424420153e51975af3b30d77",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/5946fd9cdbc58956424420153e51975af3b30d77"
+        "sha": "badc4e7ffe5507fd7acb1a21487bd2925c1afe5a",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/badc4e7ffe5507fd7acb1a21487bd2925c1afe5a"
       },
-      "updated_at": "2026-09-02T10:51:11Z",
-      "pushed_at": "2026-09-02T11:20:06Z",
+      "updated_at": "2026-09-02T14:13:51Z",
+      "pushed_at": "2026-09-02T13:39:43Z",
       "open_issues_count": 17,
       "commits": [
+        {
+          "id": "badc4e7ffe5507fd7acb1a21487bd2925c1afe5a",
+          "sha": "badc4e7ffe5507fd7acb1a21487bd2925c1afe5a",
+          "message": "Merge pull request #29 from pollen-robotics/update_models",
+          "author": "apirrone",
+          "date": "2026-09-02T13:39:43Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/badc4e7ffe5507fd7acb1a21487bd2925c1afe5a"
+        },
+        {
+          "id": "08680d3d6ec76e4b23f8db6e469766dfe3c7386a",
+          "sha": "08680d3d6ec76e4b23f8db6e469766dfe3c7386a",
+          "message": "feat: add true all-collisions robot model",
+          "author": "apirrone",
+          "date": "2026-09-01T14:39:14Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/08680d3d6ec76e4b23f8db6e469766dfe3c7386a"
+        },
+        {
+          "id": "8dfc08f33d408e62ca2e9d3ec107d0acbe747a91",
+          "sha": "8dfc08f33d408e62ca2e9d3ec107d0acbe747a91",
+          "message": "chore: re-export all robot models from updated CAD (new colors)",
+          "author": "apirrone",
+          "date": "2026-09-01T14:39:02Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/8dfc08f33d408e62ca2e9d3ec107d0acbe747a91"
+        },
+        {
+          "id": "8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a",
+          "sha": "8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a",
+          "message": "refactor: rename \"allcollisions\" model family to \"groundcontact\"",
+          "author": "apirrone",
+          "date": "2026-09-01T13:07:10Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d5c18b34356dd3f72b10c4f3dd1ddeb8ca1391a"
+        },
         {
           "id": "5946fd9cdbc58956424420153e51975af3b30d77",
           "sha": "5946fd9cdbc58956424420153e51975af3b30d77",
@@ -292,42 +324,20 @@
           "author": "andrewginns",
           "date": "2026-08-27T15:25:40Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/52fc5efb54b5cd4275fad0b888aeac75175e082f"
-        },
-        {
-          "id": "51fa71dc3221b24ae4bf4061b50005fb0ab1afa6",
-          "sha": "51fa71dc3221b24ae4bf4061b50005fb0ab1afa6",
-          "message": "docs: add AGENTS.md guidance",
-          "author": "andrewginns",
-          "date": "2026-08-27T14:05:47Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/51fa71dc3221b24ae4bf4061b50005fb0ab1afa6"
-        },
-        {
-          "id": "c690e5599866893b11b3ab2764883a8b0800cbe7",
-          "sha": "c690e5599866893b11b3ab2764883a8b0800cbe7",
-          "message": "Revert \"Merge pull request #3 from pollen-robotics/fix/french-to-english\"",
-          "author": "tfrere",
-          "date": "2026-08-27T03:14:26Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/c690e5599866893b11b3ab2764883a8b0800cbe7"
-        },
-        {
-          "id": "1477b69173f333d2d522d9f2a0f1b22907db4279",
-          "sha": "1477b69173f333d2d522d9f2a0f1b22907db4279",
-          "message": "Merge pull request #3 from pollen-robotics/fix/french-to-english",
-          "author": "tfrere",
-          "date": "2026-08-26T21:20:27Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/1477b69173f333d2d522d9f2a0f1b22907db4279"
-        },
-        {
-          "id": "eb2eb4079924aa1affa712e972aff585ac8eda60",
-          "sha": "eb2eb4079924aa1affa712e972aff585ac8eda60",
-          "message": "A bit to verbose by the AI",
-          "author": "darkseed",
-          "date": "2026-08-26T19:50:33Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/eb2eb4079924aa1affa712e972aff585ac8eda60"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "29",
+          "number": 29,
+          "title": "Re-export robot models (new CAD colors) + true all-collisions variant",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-02T13:39:44Z",
+          "merged_at": "2026-09-02T13:39:43Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/29"
+        },
         {
           "id": "28",
           "number": 28,
@@ -367,16 +377,6 @@
           "updated_at": "2026-09-01T10:48:03Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/25"
-        },
-        {
-          "id": "12",
-          "number": 12,
-          "title": "Add AMD GPU (ROCm/HIP) training support",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-08-31T21:59:26Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/12"
         }
       ],
       "issues": [
@@ -439,9 +439,9 @@
         "sha": "d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6",
         "url": "https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6"
       },
-      "updated_at": "2026-09-02T11:03:12Z",
+      "updated_at": "2026-09-02T14:03:30Z",
       "pushed_at": "2026-09-01T16:14:34Z",
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "commits": [
         {
           "id": "d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6",
@@ -521,6 +521,14 @@
       "pulls": [],
       "issues": [
         {
+          "id": "9",
+          "number": 9,
+          "title": "舵机的最新情报",
+          "state": "open",
+          "updated_at": "2026-09-02T13:57:34Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/9"
+        },
+        {
           "id": "8",
           "number": 8,
           "title": "China Speed",
@@ -551,14 +559,6 @@
           "state": "open",
           "updated_at": "2026-09-01T14:33:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/6"
-        },
-        {
-          "id": "5",
-          "number": 5,
-          "title": "pcb不是问题",
-          "state": "open",
-          "updated_at": "2026-09-01T12:57:59Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/5"
         }
       ]
     },
@@ -570,7 +570,7 @@
         "sha": "6298c095fe68c4ca45a5aa4ae7d33b4be925692d",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d"
       },
-      "updated_at": "2026-09-02T10:21:29Z",
+      "updated_at": "2026-09-02T12:14:13Z",
       "pushed_at": "2026-09-02T06:26:16Z",
       "open_issues_count": 0,
       "commits": [
@@ -662,7 +662,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-02T11:06:45Z",
+      "updated_at": "2026-09-02T12:12:40Z",
       "pushed_at": "2026-09-02T10:33:01Z",
       "open_issues_count": 33,
       "commits": [
