@@ -1,6 +1,13 @@
 name: refresh-intelligence
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/intelligence/**"
+      - "configs/intelligence-sources.json"
+      - ".github/workflows/intelligence-refresh.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
