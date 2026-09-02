@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-02T03:48:31Z`
+Generated: `2026-09-02T11:23:48Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,127 +8,37 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `271dcf0c0b70` [ci: exercise intelligence collector when its code changes](https://github.com/superobk/microduck-startup/commit/271dcf0c0b7006ff6654200054c037d43612d828)
-- Commit `54ff3b43f427` [feat: add scheduled GitHub and social intelligence refresh](https://github.com/superobk/microduck-startup/commit/54ff3b43f42726112f6744557408ace38a37d347)
-- Commit `2ddf4d8f2849` [feat: add multi-repository Microduck workspace and GPU handoff](https://github.com/superobk/microduck-startup/commit/2ddf4d8f2849c211a9a96322c6a65a8c41e11089)
-- Commit `01b2f92df00d` [docs: add complete command reference](https://github.com/superobk/microduck-startup/commit/01b2f92df00d722a304765a686163dcb5ab295e4)
-- Commit `89818307264b` [docs: document upstream licenses, model provenance and secrets policy](https://github.com/superobk/microduck-startup/commit/89818307264b15f80e518f0051771c85869a1ed4)
-- Commit `71c6131b5197` [docs: add end-to-end troubleshooting guide](https://github.com/superobk/microduck-startup/commit/71c6131b5197f29756be2d6f187a0bed0f9f6626)
-- Commit `0b5f166e574f` [docs: explain the optional mechanical reconstruction module](https://github.com/superobk/microduck-startup/commit/0b5f166e574f7f3f3f888675e775619d661643f4)
-- Commit `3afb32874d29` [docs: add single-variable push versus no-push experiment](https://github.com/superobk/microduck-startup/commit/3afb32874d291ae91e0626f641f29124343b7fa6)
+- Commit `9ee191b08cf2` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.10.0-dev.767.c536bfd (sim-remote-io)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-sim-remote-io) (prerelease)
-- Release [daemon 0.10.0-dev.782.a9bd0a3 (policy-hub-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design) (prerelease)
-- Release [daemon 0.10.0-dev.773.9f7eaad (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `9f7eaad1008f` [Merge pull request #188 from Nixxx19/duck-detect-c-char-on-both-targets](https://github.com/pollen-robotics/microduck/commit/9f7eaad1008fffd90ef871a33a18aecd066b51a9)
-- Commit `87c9f1d52c74` [Merge branch 'main' into duck-detect-c-char-on-both-targets](https://github.com/pollen-robotics/microduck/commit/87c9f1d52c74460b9b28d8e334e75b817dc60264)
-- Commit `50ee06de6b52` [Merge pull request #192 from pollen-robotics/coverage-gate-enforces-and-forks-do-not-redden](https://github.com/pollen-robotics/microduck/commit/50ee06de6b52490acbe2047264afaa645d3dc536)
-- Commit `154dc8e8ba16` [ci: a pull request from a fork cannot post its coverage comment, and went red for it](https://github.com/pollen-robotics/microduck/commit/154dc8e8ba1666273b57b6c498d46c7a6a4c539e)
-- Commit `55374c1c373b` [ci: the coverage floor enforced nothing, because tee ate the exit code](https://github.com/pollen-robotics/microduck/commit/55374c1c373bccf842ecaec9570df6fda20e6bd2)
-- Commit `4e0a6344d125` [duck-detect: keep the c_char cast, which clippy only sees half of](https://github.com/pollen-robotics/microduck/commit/4e0a6344d12562dd73027b78810e28cab9eae6cd)
-- Commit `590b986bd8c0` [Merge pull request #167 from pollen-robotics/install-path-rule-reachable](https://github.com/pollen-robotics/microduck/commit/590b986bd8c0d50ae02cb3ea2f59c463b6828168)
-- Commit `f0eef25ed5a1` [Prepare release 0.10.0](https://github.com/pollen-robotics/microduck/commit/f0eef25ed5a17f59c9b8a4974de09d7939752453)
-- PR #197 [updater: boot recovery waits for a robot that is still starting, the way the gate does](https://github.com/pollen-robotics/microduck/pull/197) — open
-- PR #195 [robotd: a mode switch waits for what it needs and never stands a limp robot up](https://github.com/pollen-robotics/microduck/pull/195) — open
-- PR #191 [The policy channel: policies from the Hub, and skills from config](https://github.com/pollen-robotics/microduck/pull/191) — open
-- PR #187 [padd: refuse --hz 0 instead of dividing by it](https://github.com/pollen-robotics/microduck/pull/187) — open
-- PR #179 [auto-exposure: write the digital gain back down to 1x](https://github.com/pollen-robotics/microduck/pull/179) — open
+- Release [daemon 0.10.0-dev.785.f99f457 (policy-hub-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-hub-design) (prerelease)
+- Release [daemon 0.10.0-dev.786.2d62115 (health-names-a-crash-loop)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-health-names-a-crash-loop) (prerelease)
+- PR #200 [A crash-looping daemon reported as an active one running an unknown old build](https://github.com/pollen-robotics/microduck/pull/200) — open
+- PR #198 [updater: three correctness fixes in rollback journaling and apply](https://github.com/pollen-robotics/microduck/pull/198) — open
+- PR #199 [robotd, kinematics, robotd-params: four hardening fixes for the drive loop and startup](https://github.com/pollen-robotics/microduck/pull/199) — open
 
 ### pollen-robotics/microduck_rl
 
-- Commit `5946fd9cdbc5` [Merge pull request #20 from pollen-robotics/fix/hf-jobs-flag-interception](https://github.com/pollen-robotics/microduck_rl/commit/5946fd9cdbc58956424420153e51975af3b30d77)
-- Commit `bf19b34a1ef6` [fix: intercept `train --hf-jobs` from the mjlab plugin hook](https://github.com/pollen-robotics/microduck_rl/commit/bf19b34a1ef6a41823f42a5debf47c17c03a2c0d)
-- Commit `d424a0c899f6` [Merge pull request #4 from andrewginns/docs/add-agents-guidance](https://github.com/pollen-robotics/microduck_rl/commit/d424a0c899f6b33cbd3daeb279913134349c0b63)
-- Commit `52fc5efb54b5` [docs: make AGENTS.md canonical](https://github.com/pollen-robotics/microduck_rl/commit/52fc5efb54b5cd4275fad0b888aeac75175e082f)
-- Commit `51fa71dc3221` [docs: add AGENTS.md guidance](https://github.com/pollen-robotics/microduck_rl/commit/51fa71dc3221b24ae4bf4061b50005fb0ab1afa6)
-- Commit `c690e5599866` [Revert "Merge pull request #3 from pollen-robotics/fix/french-to-english"](https://github.com/pollen-robotics/microduck_rl/commit/c690e5599866893b11b3ab2764883a8b0800cbe7)
-- Commit `1477b69173f3` [Merge pull request #3 from pollen-robotics/fix/french-to-english](https://github.com/pollen-robotics/microduck_rl/commit/1477b69173f333d2d522d9f2a0f1b22907db4279)
-- Commit `eb2eb4079924` [A bit to verbose by the AI](https://github.com/pollen-robotics/microduck_rl/commit/eb2eb4079924aa1affa712e972aff585ac8eda60)
-- PR #26 [fix(rom): fence terminal responses and recover readiness](https://github.com/pollen-robotics/microduck_rl/pull/26) — closed
-- PR #20 [fix: intercept `train --hf-jobs` from the mjlab plugin hook (CLI unchanged)](https://github.com/pollen-robotics/microduck_rl/pull/20) — closed
-- PR #25 [Add a configurable household step-up training task](https://github.com/pollen-robotics/microduck_rl/pull/25) — open
-- PR #12 [Add AMD GPU (ROCm/HIP) training support](https://github.com/pollen-robotics/microduck_rl/pull/12) — open
-- PR #24 [feat: CPU-only device support (macOS / non-CUDA Linux)](https://github.com/pollen-robotics/microduck_rl/pull/24) — open
-
-### IronSpiderMan/MicroDuckModels
-
-- Commit `f336dc0a984e` [升级为完整 MicroDuck AI 模拟器](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8)
-- Commit `2e4fb0cb7b81` [添加项目效果图并更新 README](https://github.com/IronSpiderMan/MicroDuckModels/commit/2e4fb0cb7b81f9f0c04fccbaf63a89a97b7aa63c)
-- Commit `74f934a11417` [初始化提交](https://github.com/IronSpiderMan/MicroDuckModels/commit/74f934a11417ee358620af36b99c223751164913)
-
-### fanhao375/microduck-replica
-
-- Release [v1.0 — 装配图与 CAD 装配体 / Assembly drawings and CAD](https://github.com/fanhao375/microduck-replica/releases/tag/v1.0)
-- Commit `d60cd2e89b0e` [首批实物照片：M2 螺丝装进去了](https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6)
-- Commit `2d5b966d5f4e` [新增构建日志：从纸上分析走向实物验证](https://github.com/fanhao375/microduck-replica/commit/2d5b966d5f4e38ec1ba0182caf3fca9cf1b33507)
-- Commit `640d9bb315c5` [英文版紧固件反推文档，英文化告一段落](https://github.com/fanhao375/microduck-replica/commit/640d9bb315c5d7b053acc17c6521744f6da9b316)
-- Commit `7003bb75f0b2` [英文版执行器选型文档](https://github.com/fanhao375/microduck-replica/commit/7003bb75f0b238bed22ab8adf09604d040ff5000)
-- Commit `55a51af12f47` [英文版硬件逆向文档](https://github.com/fanhao375/microduck-replica/commit/55a51af12f471d9f6284fec4c31228e347852c61)
-- Commit `29c8f7572845` [深度评估宇树 S288：目前唯一全面对标 XL330 的产品](https://github.com/fanhao375/microduck-replica/commit/29c8f75728450ecc8c9e83c0e46c17175c5474db)
-- Commit `1224d8daf326` [补充同级别舵机横向对比，说明那个空档为什么还没被填上](https://github.com/fanhao375/microduck-replica/commit/1224d8daf326fb9b95afe0fc58cdf532138ef4fd)
-- Commit `a9e013666b0e` [执行器选型：解释为什么是 XL330，以及换舵机的真实代价](https://github.com/fanhao375/microduck-replica/commit/a9e013666b0ec4d5eecf846f2ee0e06cd58ae61a)
+- PR #28 [feat(tasks): Mjlab-Jump-Flat-MicroDuck — phase-driven periodic hop](https://github.com/pollen-robotics/microduck_rl/pull/28) — open
 
 ### joeynyc/awesome-microduck
 
-- Commit `6377312e7b13` [Track the policy channel: design published and partly built](https://github.com/joeynyc/awesome-microduck/commit/6377312e7b1335fff78a0f1a11e5c956ebb4e53d)
-- Commit `d0e09b09c399` [Explain the awesome-lint git-repository error in contributing](https://github.com/joeynyc/awesome-microduck/commit/d0e09b09c3992e2db788f17c3d1c2aa3690d7e45)
-- Commit `cacf877748fe` [Add ten entries; note that Pollen published the policies to the Hub](https://github.com/joeynyc/awesome-microduck/commit/cacf877748fee328b13facae399ff833ceb2c96f)
-- Commit `05920ea6aa3c` [Update microduck-replica entry (#1)](https://github.com/joeynyc/awesome-microduck/commit/05920ea6aa3cfa4fc364546e9b660df76e8b78b9)
-- Commit `9ef86882a1ea` [Drop the price from the description line](https://github.com/joeynyc/awesome-microduck/commit/9ef86882a1ea913c771c3169b533c020a3a1b286)
-- Commit `2046215ef1f9` [Center the hero illustration](https://github.com/joeynyc/awesome-microduck/commit/2046215ef1f9a572dc5a5a784e99cf70f2288747)
-- Commit `2c8f4f0cc10a` [Add original SVG hero illustration](https://github.com/joeynyc/awesome-microduck/commit/2c8f4f0cc10acee61d0976c4ddb39fbc3396105c)
-- Commit `fe4cc6e37acd` [Add non-affiliation notice and assets/trademark policy](https://github.com/joeynyc/awesome-microduck/commit/fe4cc6e37acd8b0990cb51caf92e857d26f36f48)
-- PR #1 [Update microduck-replica entry](https://github.com/joeynyc/awesome-microduck/pull/1) — closed
-
-### mujocolab/mjlab
-
-- Release [mjlab v1.6.0](https://github.com/mujocolab/mjlab/releases/tag/v1.6.0)
-- Release [mjlab v1.5.3](https://github.com/mujocolab/mjlab/releases/tag/v1.5.3)
-- Release [mjlab v1.5.2](https://github.com/mujocolab/mjlab/releases/tag/v1.5.2)
-- Commit `8ee51fbcf806` [Fix flat patch sampling collapsing to the center when patch_radius=0 (#1173)](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa)
-- Commit `b517e0c48913` [Fix sample_gaussian ignoring size when mean and std are tensors. (#1169)](https://github.com/mujocolab/mjlab/commit/b517e0c489139e7fcee95702cfb2b01931264985)
-- Commit `88a7ff8f36c6` [Cap wandb below 0.29 to fix crash on startup with --logger wandb (#1167)](https://github.com/mujocolab/mjlab/commit/88a7ff8f36c65643e5d708ce406dce34a216691b)
-- Commit `c19f713c415a` [Spec the rsl-rl Logger mock off a real instance in runner tests. (#1166)](https://github.com/mujocolab/mjlab/commit/c19f713c415a699a79d71cd96aa13c3104a05047)
-- Commit `83bca4971e8a` [Add microduck_rl to community projects. (#1165)](https://github.com/mujocolab/mjlab/commit/83bca4971e8a153ec979f7c44d8a3b702cceec5d)
-- Commit `5216d041d2ff` [Use the public rsl-rl import path for WandbLogWriter. (#1164)](https://github.com/mujocolab/mjlab/commit/5216d041d2fff5dc7497f1f670901ae36361a1c2)
-- Commit `e98d97e113a1` [Upgrade rsl-rl from 5.4.2 to 5.5.0 (#1163)](https://github.com/mujocolab/mjlab/commit/e98d97e113a17e6c613f4f05164ac9e1fabb0be9)
-- Commit `0fb8a681136b` [Prepare for 1.6.0 (#1149)](https://github.com/mujocolab/mjlab/commit/0fb8a681136be94ffc636a3dd423cabb97d91f10)
-- PR #1174 [Add teacher-student distillation with DAgger and RL fine-tuning](https://github.com/mujocolab/mjlab/pull/1174) — open
-- PR #1172 [Fix BuiltinPdActuator ctrl layout when sort_actuators=True](https://github.com/mujocolab/mjlab/pull/1172) — open
-- PR #1173 [Fix flat patch sampling collapsing to the center when patch_radius=0](https://github.com/mujocolab/mjlab/pull/1173) — closed
-- PR #1169 [Fix sample_gaussian ignoring size when mean and std are tensors.](https://github.com/mujocolab/mjlab/pull/1169) — closed
-- PR #1167 [Cap wandb below 0.29 to fix crash on startup with --logger wandb](https://github.com/mujocolab/mjlab/pull/1167) — closed
+- Commit `6298c095fe68` [Add thirteen entries from the 2 September sweep](https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d)
 
 ### leggedrobotics/rsl_rl
 
-- Release [v5.5.0](https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.5.0)
-- Release [v5.4.2](https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.4.2)
-- Release [v5.4.1](https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.4.1)
-- Commit `00e13d1aa49b` [Reduce multi-GPU gradients in bounded buckets (#228)](https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07)
-- Commit `a49e44e81084` [Avoid broadcast_object_list when broadcasting parameters (#233)](https://github.com/leggedrobotics/rsl_rl/commit/a49e44e810842f5d6249274139d212c832ef5444)
-- Commit `fe28cb03439d` [Remove `start_method=thread` causing errors in latest wandb (#232)](https://github.com/leggedrobotics/rsl_rl/commit/fe28cb03439d8e5ec335ecb9b0c945294db6001b)
-- Commit `89869d8ccbc5` [Bump version to 5.5.0](https://github.com/leggedrobotics/rsl_rl/commit/89869d8ccbc560d365026fb0cb127f93cbb3fb28)
-- Commit `a7c03152591b` [Add opt-in bfloat16 mixed precision to PPO and Distillation (#219)](https://github.com/leggedrobotics/rsl_rl/commit/a7c03152591bcef6557770a9ac1c1740ead58af4)
-- Commit `9965512d2c25` [Update normalizers after optimization (#225)](https://github.com/leggedrobotics/rsl_rl/commit/9965512d2c259bd7958847ef5c2c29575d05389e)
-- Commit `edacc38bea0a` [Synchronize normalization statistics across GPUs (#226)](https://github.com/leggedrobotics/rsl_rl/commit/edacc38bea0ae36c7b533ce2c4076c6618201a83)
-- Commit `8b8c22cbbf1f` [Copy configs to log class names (#230)](https://github.com/leggedrobotics/rsl_rl/commit/8b8c22cbbf1f477bd4021c419587117fdd4ed969)
-- PR #230 [Copy configs to log class names](https://github.com/leggedrobotics/rsl_rl/pull/230) — closed
-- PR #228 [Reduce multi-GPU gradients in bounded buckets](https://github.com/leggedrobotics/rsl_rl/pull/228) — closed
-- PR #233 [Avoid broadcast_object_list when broadcasting parameters](https://github.com/leggedrobotics/rsl_rl/pull/233) — closed
-- PR #232 [start_method=thread cause error with latest wandb](https://github.com/leggedrobotics/rsl_rl/pull/232) — closed
-- PR #219 [Feature: add opt-in bfloat16 mixed precision to PPO and Distillation](https://github.com/leggedrobotics/rsl_rl/pull/219) — closed
+- PR #234 [Preserve remainder samples in PPO mini-batches](https://github.com/leggedrobotics/rsl_rl/pull/234) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [271dcf0c0b70](https://github.com/superobk/microduck-startup/commit/271dcf0c0b7006ff6654200054c037d43612d828); pushed `2026-09-02T03:48:20Z`
-- **pollen-robotics/microduck** `main` → [9f7eaad1008f](https://github.com/pollen-robotics/microduck/commit/9f7eaad1008fffd90ef871a33a18aecd066b51a9); pushed `2026-09-01T16:06:54Z`
-- **pollen-robotics/microduck_rl** `develop` → [5946fd9cdbc5](https://github.com/pollen-robotics/microduck_rl/commit/5946fd9cdbc58956424420153e51975af3b30d77); pushed `2026-09-01T15:12:36Z`
+- **superobk/microduck-startup** `main` → [9ee191b08cf2](https://github.com/superobk/microduck-startup/commit/9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f); pushed `2026-09-02T03:48:47Z`
+- **pollen-robotics/microduck** `main` → [9f7eaad1008f](https://github.com/pollen-robotics/microduck/commit/9f7eaad1008fffd90ef871a33a18aecd066b51a9); pushed `2026-09-02T10:06:19Z`
+- **pollen-robotics/microduck_rl** `develop` → [5946fd9cdbc5](https://github.com/pollen-robotics/microduck_rl/commit/5946fd9cdbc58956424420153e51975af3b30d77); pushed `2026-09-02T11:20:06Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [d60cd2e89b0e](https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6); pushed `2026-09-01T16:14:34Z`
-- **joeynyc/awesome-microduck** `main` → [6377312e7b13](https://github.com/joeynyc/awesome-microduck/commit/6377312e7b1335fff78a0f1a11e5c956ebb4e53d); pushed `2026-09-01T09:24:26Z`
-- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-01T10:03:14Z`
+- **joeynyc/awesome-microduck** `main` → [6298c095fe68](https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d); pushed `2026-09-02T06:26:16Z`
+- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-02T10:33:01Z`
 - **leggedrobotics/rsl_rl** `main` → [00e13d1aa49b](https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07); pushed `2026-08-31T10:29:25Z`
 
 ## Social feeds
