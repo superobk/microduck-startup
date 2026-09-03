@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T16:29:02Z",
+  "generated_at": "2026-09-03T21:05:20Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "1cda6c406d6baecf7dca96b0a06f016a66ab1528",
-        "url": "https://github.com/superobk/microduck-startup/commit/1cda6c406d6baecf7dca96b0a06f016a66ab1528"
+        "sha": "0b9a2def7d45d2004c374dd23add13f35d0b2d03",
+        "url": "https://github.com/superobk/microduck-startup/commit/0b9a2def7d45d2004c374dd23add13f35d0b2d03"
       },
-      "updated_at": "2026-09-03T11:21:29Z",
-      "pushed_at": "2026-09-03T11:20:02Z",
+      "updated_at": "2026-09-03T16:33:49Z",
+      "pushed_at": "2026-09-03T16:29:15Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0b9a2def7d45d2004c374dd23add13f35d0b2d03",
+          "sha": "0b9a2def7d45d2004c374dd23add13f35d0b2d03",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-03T16:29:14Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0b9a2def7d45d2004c374dd23add13f35d0b2d03"
+        },
         {
           "id": "1cda6c406d6baecf7dca96b0a06f016a66ab1528",
           "sha": "1cda6c406d6baecf7dca96b0a06f016a66ab1528",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-02T11:23:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/71847ba229465b8294abfca1315334c6f607e9da"
-        },
-        {
-          "id": "9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f",
-          "sha": "9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-02T03:48:45Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/9ee191b08cf2ea605dc5c024ea0aa452c3f2b33f"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-03T16:27:47Z",
+      "updated_at": "2026-09-03T20:50:55Z",
       "pushed_at": "2026-09-03T15:41:56Z",
       "open_issues_count": 33,
       "commits": [
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "170",
+          "number": 170,
+          "title": "Shutdown must not stand the robot back up, and quack opens the beak",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-03T19:48:27Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/170"
+        },
+        {
+          "id": "198",
+          "number": 198,
+          "title": "updater: three correctness fixes in rollback journaling and apply",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-03T16:34:48Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/198"
+        },
+        {
           "id": "212",
           "number": 212,
           "title": "padd: Select press = robot.relax (torque off)",
@@ -216,36 +236,16 @@
           "updated_at": "2026-09-03T15:29:10Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/211"
-        },
-        {
-          "id": "210",
-          "number": 210,
-          "title": "padd: Start once stands the robot up, Start again drives",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-03T15:27:18Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/210"
-        },
-        {
-          "id": "209",
-          "number": 209,
-          "title": "A duck registers with the rendezvous service",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-03T13:06:24Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/209"
         }
       ],
       "issues": [
         {
-          "id": "182",
-          "number": 182,
-          "title": "Shipping / availability in mainland China",
-          "state": "open",
-          "updated_at": "2026-09-03T13:20:20Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/182"
+          "id": "168",
+          "number": 168,
+          "title": "Open source the hardware and 3d printable parts",
+          "state": "closed",
+          "updated_at": "2026-09-03T17:42:44Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/168"
         }
       ]
     },
@@ -257,8 +257,8 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-03T16:18:10Z",
-      "pushed_at": "2026-09-02T20:20:08Z",
+      "updated_at": "2026-09-03T17:40:26Z",
+      "pushed_at": "2026-09-03T16:42:46Z",
       "open_issues_count": 21,
       "commits": [
         {
@@ -381,20 +381,20 @@
       ],
       "issues": [
         {
+          "id": "27",
+          "number": 27,
+          "title": "How is the articulated beak/grasp modeled in simulation?",
+          "state": "open",
+          "updated_at": "2026-09-03T16:32:24Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/27"
+        },
+        {
           "id": "11",
           "number": 11,
           "title": "Community port: training the walking task on AMD GPUs (ROCm) via Genesis",
           "state": "open",
           "updated_at": "2026-09-03T15:59:48Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/11"
-        },
-        {
-          "id": "27",
-          "number": 27,
-          "title": "How is the articulated beak/grasp modeled in simulation?",
-          "state": "open",
-          "updated_at": "2026-09-03T11:36:51Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/27"
         }
       ]
     },
@@ -444,13 +444,53 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "28d8ee92638c42c8547aae5b194f357e25d51fc9",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/28d8ee92638c42c8547aae5b194f357e25d51fc9"
+        "sha": "254925717170cca6cd7fcacdbda49db781bad1ae",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/254925717170cca6cd7fcacdbda49db781bad1ae"
       },
-      "updated_at": "2026-09-03T16:26:28Z",
-      "pushed_at": "2026-09-03T13:51:07Z",
+      "updated_at": "2026-09-03T19:51:37Z",
+      "pushed_at": "2026-09-03T19:51:21Z",
       "open_issues_count": 11,
       "commits": [
+        {
+          "id": "254925717170cca6cd7fcacdbda49db781bad1ae",
+          "sha": "254925717170cca6cd7fcacdbda49db781bad1ae",
+          "message": "中英文 README 对齐；补全许可证覆盖范围；统一舵机价格口径",
+          "author": "fanhao375",
+          "date": "2026-09-03T19:51:20Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/254925717170cca6cd7fcacdbda49db781bad1ae"
+        },
+        {
+          "id": "3798a47d9299a48a20734009cb1320e6e890d5c2",
+          "sha": "3798a47d9299a48a20734009cb1320e6e890d5c2",
+          "message": "BOM 核数修正：删掉漏删的重复件，更正件数、价格、板宽、孔数与输入电容耐压",
+          "author": "fanhao375",
+          "date": "2026-09-03T19:40:14Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/3798a47d9299a48a20734009cb1320e6e890d5c2"
+        },
+        {
+          "id": "fe26a8f773b068644829ca57f6b9acbd9768a14e",
+          "sha": "fe26a8f773b068644829ca57f6b9acbd9768a14e",
+          "message": "新增整机 BOM；修正 XL330 电压口径与电池型号；print/ 按装配体重组",
+          "author": "fanhao375",
+          "date": "2026-09-03T19:21:05Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/fe26a8f773b068644829ca57f6b9acbd9768a14e"
+        },
+        {
+          "id": "419582615f8729ac05c2f70440512fdd98a61865",
+          "sha": "419582615f8729ac05c2f70440512fdd98a61865",
+          "message": "新增生态导航：把散落的官方与社区资源标注成一张索引",
+          "author": "fanhao375",
+          "date": "2026-09-03T18:53:01Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/419582615f8729ac05c2f70440512fdd98a61865"
+        },
+        {
+          "id": "23f2914197692e6b9468d037f460822409de76e2",
+          "sha": "23f2914197692e6b9468d037f460822409de76e2",
+          "message": "新增 print/：整机 46 个单件 STL，按打印件与标准件分类",
+          "author": "fanhao375",
+          "date": "2026-09-03T18:40:33Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/23f2914197692e6b9468d037f460822409de76e2"
+        },
         {
           "id": "28d8ee92638c42c8547aae5b194f357e25d51fc9",
           "sha": "28d8ee92638c42c8547aae5b194f357e25d51fc9",
@@ -474,46 +514,6 @@
           "author": "fanhao375",
           "date": "2026-09-01T16:14:33Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/d60cd2e89b0ebda6f60e92d44a5fa7e61d6d76f6"
-        },
-        {
-          "id": "2d5b966d5f4e38ec1ba0182caf3fca9cf1b33507",
-          "sha": "2d5b966d5f4e38ec1ba0182caf3fca9cf1b33507",
-          "message": "新增构建日志：从纸上分析走向实物验证",
-          "author": "fanhao375",
-          "date": "2026-09-01T16:12:32Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2d5b966d5f4e38ec1ba0182caf3fca9cf1b33507"
-        },
-        {
-          "id": "640d9bb315c5d7b053acc17c6521744f6da9b316",
-          "sha": "640d9bb315c5d7b053acc17c6521744f6da9b316",
-          "message": "英文版紧固件反推文档，英文化告一段落",
-          "author": "fanhao375",
-          "date": "2026-09-01T09:18:41Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/640d9bb315c5d7b053acc17c6521744f6da9b316"
-        },
-        {
-          "id": "7003bb75f0b238bed22ab8adf09604d040ff5000",
-          "sha": "7003bb75f0b238bed22ab8adf09604d040ff5000",
-          "message": "英文版执行器选型文档",
-          "author": "fanhao375",
-          "date": "2026-09-01T07:57:14Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7003bb75f0b238bed22ab8adf09604d040ff5000"
-        },
-        {
-          "id": "55a51af12f471d9f6284fec4c31228e347852c61",
-          "sha": "55a51af12f471d9f6284fec4c31228e347852c61",
-          "message": "英文版硬件逆向文档",
-          "author": "fanhao375",
-          "date": "2026-09-01T02:59:35Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/55a51af12f471d9f6284fec4c31228e347852c61"
-        },
-        {
-          "id": "29c8f75728450ecc8c9e83c0e46c17175c5474db",
-          "sha": "29c8f75728450ecc8c9e83c0e46c17175c5474db",
-          "message": "深度评估宇树 S288：目前唯一全面对标 XL330 的产品",
-          "author": "fanhao375",
-          "date": "2026-08-31T09:24:33Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/29c8f75728450ecc8c9e83c0e46c17175c5474db"
         }
       ],
       "releases": [
@@ -670,7 +670,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-03T15:13:19Z",
+      "updated_at": "2026-09-03T17:40:20Z",
       "pushed_at": "2026-09-03T10:09:16Z",
       "open_issues_count": 34,
       "commits": [
@@ -827,7 +827,7 @@
         "sha": "00e13d1aa49b398ae512f1765297f7ab8c50ca07",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07"
       },
-      "updated_at": "2026-09-03T13:38:51Z",
+      "updated_at": "2026-09-03T18:07:56Z",
       "pushed_at": "2026-08-31T10:29:25Z",
       "open_issues_count": 8,
       "commits": [
