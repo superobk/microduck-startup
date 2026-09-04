@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T16:24:54Z",
+  "generated_at": "2026-09-04T20:47:55Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "6f2c503fa5faa1eaf0407f9150d5d063a1990263",
-        "url": "https://github.com/superobk/microduck-startup/commit/6f2c503fa5faa1eaf0407f9150d5d063a1990263"
+        "sha": "b65428301c9805d9ac4a480df5f85d8712a23a90",
+        "url": "https://github.com/superobk/microduck-startup/commit/b65428301c9805d9ac4a480df5f85d8712a23a90"
       },
-      "updated_at": "2026-09-04T11:23:50Z",
-      "pushed_at": "2026-09-04T11:23:24Z",
+      "updated_at": "2026-09-04T16:27:04Z",
+      "pushed_at": "2026-09-04T16:25:07Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "b65428301c9805d9ac4a480df5f85d8712a23a90",
+          "sha": "b65428301c9805d9ac4a480df5f85d8712a23a90",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-04T16:25:06Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/b65428301c9805d9ac4a480df5f85d8712a23a90"
+        },
         {
           "id": "6f2c503fa5faa1eaf0407f9150d5d063a1990263",
           "sha": "6f2c503fa5faa1eaf0407f9150d5d063a1990263",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-02T21:06:16Z",
           "url": "https://github.com/superobk/microduck-startup/commit/646e361ff186576df0d745a4e71e91dadd5bab5c"
-        },
-        {
-          "id": "fc6aebf06d2fadad1651f5435eb90421ab06a957",
-          "sha": "fc6aebf06d2fadad1651f5435eb90421ab06a957",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-02T16:38:08Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/fc6aebf06d2fadad1651f5435eb90421ab06a957"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-04T16:22:26Z",
+      "updated_at": "2026-09-04T20:40:16Z",
       "pushed_at": "2026-09-03T15:41:56Z",
       "open_issues_count": 34,
       "commits": [
@@ -273,9 +273,9 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-04T16:20:36Z",
+      "updated_at": "2026-09-04T19:36:20Z",
       "pushed_at": "2026-09-04T14:29:43Z",
-      "open_issues_count": 23,
+      "open_issues_count": 24,
       "commits": [
         {
           "id": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
@@ -397,6 +397,14 @@
       ],
       "issues": [
         {
+          "id": "40",
+          "number": 40,
+          "title": "Immutable provenance inputs for alpha_walking.onnx",
+          "state": "open",
+          "updated_at": "2026-09-04T19:07:08Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/40"
+        },
+        {
           "id": "38",
           "number": 38,
           "title": "Jetson AGX Thor (JetPack 7): torch source marker cannot tell a Jetson from a GB10; SBSA wheel omits NVPL/cuDSS deps",
@@ -468,13 +476,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "12719b2f87fe53d67d538b67d8503d92e71af93f",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/12719b2f87fe53d67d538b67d8503d92e71af93f"
+        "sha": "da322f396826deb9dedceec70dc0ae77e113103b",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/da322f396826deb9dedceec70dc0ae77e113103b"
       },
-      "updated_at": "2026-09-04T16:11:09Z",
-      "pushed_at": "2026-09-04T16:10:58Z",
+      "updated_at": "2026-09-04T17:55:53Z",
+      "pushed_at": "2026-09-04T16:37:39Z",
       "open_issues_count": 14,
       "commits": [
+        {
+          "id": "da322f396826deb9dedceec70dc0ae77e113103b",
+          "sha": "da322f396826deb9dedceec70dc0ae77e113103b",
+          "message": "新增供电与过压保护图；补齐 imu_to_dxl 的板框、孔距与保护器件",
+          "author": "fanhao375",
+          "date": "2026-09-04T16:37:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/da322f396826deb9dedceec70dc0ae77e113103b"
+        },
         {
           "id": "12719b2f87fe53d67d538b67d8503d92e71af93f",
           "sha": "12719b2f87fe53d67d538b67d8503d92e71af93f",
@@ -530,14 +546,6 @@
           "author": "fanhao375",
           "date": "2026-09-03T19:21:05Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/fe26a8f773b068644829ca57f6b9acbd9768a14e"
-        },
-        {
-          "id": "419582615f8729ac05c2f70440512fdd98a61865",
-          "sha": "419582615f8729ac05c2f70440512fdd98a61865",
-          "message": "新增生态导航：把散落的官方与社区资源标注成一张索引",
-          "author": "fanhao375",
-          "date": "2026-09-03T18:53:01Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/419582615f8729ac05c2f70440512fdd98a61865"
         }
       ],
       "releases": [
