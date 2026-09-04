@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:38:50Z",
+  "generated_at": "2026-09-04T11:23:09Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "4cbf962c2157c69058a9869a6cc0c263d5324c5e",
-        "url": "https://github.com/superobk/microduck-startup/commit/4cbf962c2157c69058a9869a6cc0c263d5324c5e"
+        "sha": "1901776cc99e4721d0d0341323ddd49df23cb765",
+        "url": "https://github.com/superobk/microduck-startup/commit/1901776cc99e4721d0d0341323ddd49df23cb765"
       },
-      "updated_at": "2026-09-03T21:05:45Z",
-      "pushed_at": "2026-09-03T21:05:32Z",
+      "updated_at": "2026-09-04T04:39:10Z",
+      "pushed_at": "2026-09-04T04:39:05Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "1901776cc99e4721d0d0341323ddd49df23cb765",
+          "sha": "1901776cc99e4721d0d0341323ddd49df23cb765",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-04T04:39:04Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/1901776cc99e4721d0d0341323ddd49df23cb765"
+        },
         {
           "id": "4cbf962c2157c69058a9869a6cc0c263d5324c5e",
           "sha": "4cbf962c2157c69058a9869a6cc0c263d5324c5e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-02T14:14:10Z",
           "url": "https://github.com/superobk/microduck-startup/commit/c07c5bc9ff60e6a28d34bd9d7c5720b9c041bb3e"
-        },
-        {
-          "id": "30a80a162c1e9fec25e22614f991c89af2821949",
-          "sha": "30a80a162c1e9fec25e22614f991c89af2821949",
-          "message": "feat: optimize Mac GPU sync and add one-day PPO to HF pipeline",
-          "author": "superobk",
-          "date": "2026-09-02T14:13:28Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/30a80a162c1e9fec25e22614f991c89af2821949"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-04T04:37:38Z",
+      "updated_at": "2026-09-04T11:15:48Z",
       "pushed_at": "2026-09-03T15:41:56Z",
       "open_issues_count": 34,
       "commits": [
@@ -244,7 +244,7 @@
           "number": 213,
           "title": "docs: duck_detector training repo link is 404 — can it be made public?",
           "state": "open",
-          "updated_at": "2026-09-04T02:04:31Z",
+          "updated_at": "2026-09-04T07:06:23Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/213"
         },
         {
@@ -265,9 +265,9 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-04T03:57:51Z",
-      "pushed_at": "2026-09-03T16:42:46Z",
-      "open_issues_count": 21,
+      "updated_at": "2026-09-04T10:50:27Z",
+      "pushed_at": "2026-09-04T09:55:09Z",
+      "open_issues_count": 23,
       "commits": [
         {
           "id": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
@@ -337,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "39",
+          "number": 39,
+          "title": "Jetson AGX Thor (JetPack 7.2): route torch to NVIDIA's SBSA index, keep GB10 on cu129",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-04T10:03:58Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/39"
+        },
+        {
           "id": "34",
           "number": 34,
           "title": "feat: re-structured task configs into readable IsaacLab style",
@@ -375,19 +385,17 @@
           "updated_at": "2026-09-03T02:48:40Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/35"
-        },
-        {
-          "id": "30",
-          "number": 30,
-          "title": "sim: the ToF numbered its columns backwards",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-02T20:20:09Z",
-          "merged_at": "2026-09-02T20:20:09Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/30"
         }
       ],
       "issues": [
+        {
+          "id": "38",
+          "number": 38,
+          "title": "Jetson AGX Thor (JetPack 7): torch source marker cannot tell a Jetson from a GB10; SBSA wheel omits NVPL/cuDSS deps",
+          "state": "open",
+          "updated_at": "2026-09-04T10:04:25Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/38"
+        },
         {
           "id": "27",
           "number": 27,
@@ -414,7 +422,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-09-04T03:34:15Z",
+      "updated_at": "2026-09-04T08:41:38Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -455,9 +463,9 @@
         "sha": "254925717170cca6cd7fcacdbda49db781bad1ae",
         "url": "https://github.com/fanhao375/microduck-replica/commit/254925717170cca6cd7fcacdbda49db781bad1ae"
       },
-      "updated_at": "2026-09-04T03:35:45Z",
+      "updated_at": "2026-09-04T11:09:45Z",
       "pushed_at": "2026-09-03T19:51:21Z",
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "commits": [
         {
           "id": "254925717170cca6cd7fcacdbda49db781bad1ae",
@@ -534,14 +542,25 @@
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/v1.0"
         }
       ],
-      "pulls": [],
+      "pulls": [
+        {
+          "id": "12",
+          "number": 12,
+          "title": "新增 imu_to_dxl v2 板 KiCad 工程（含 J2/J3 走线修复与 BOM）",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-04T08:20:42Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/12"
+        }
+      ],
       "issues": [
         {
           "id": "11",
           "number": 11,
           "title": "求个微信群啊，大佬",
           "state": "open",
-          "updated_at": "2026-09-03T14:00:56Z",
+          "updated_at": "2026-09-04T06:06:08Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/11"
         },
         {
@@ -567,14 +586,6 @@
           "state": "open",
           "updated_at": "2026-09-03T06:14:41Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/10"
-        },
-        {
-          "id": "8",
-          "number": 8,
-          "title": "China Speed",
-          "state": "open",
-          "updated_at": "2026-09-02T08:58:55Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/8"
         }
       ]
     },
@@ -586,7 +597,7 @@
         "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49"
       },
-      "updated_at": "2026-09-03T22:04:30Z",
+      "updated_at": "2026-09-04T07:27:42Z",
       "pushed_at": "2026-09-03T12:06:18Z",
       "open_issues_count": 0,
       "commits": [
@@ -678,9 +689,9 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-04T03:24:40Z",
-      "pushed_at": "2026-09-03T10:09:16Z",
-      "open_issues_count": 34,
+      "updated_at": "2026-09-04T11:12:13Z",
+      "pushed_at": "2026-09-04T10:05:19Z",
+      "open_issues_count": 36,
       "commits": [
         {
           "id": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
@@ -775,6 +786,16 @@
       ],
       "pulls": [
         {
+          "id": "1176",
+          "number": 1176,
+          "title": "fix(tracking): make adaptive sampling scale invariant",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-04T05:26:06Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1176"
+        },
+        {
           "id": "1174",
           "number": 1174,
           "title": "Add teacher-student distillation with DAgger and RL fine-tuning",
@@ -813,16 +834,6 @@
           "updated_at": "2026-08-28T18:43:15Z",
           "merged_at": "2026-08-28T18:43:14Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1169"
-        },
-        {
-          "id": "1167",
-          "number": 1167,
-          "title": "Cap wandb below 0.29 to fix crash on startup with --logger wandb",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-28T18:04:44Z",
-          "merged_at": "2026-08-28T18:04:44Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1167"
         }
       ],
       "issues": []
