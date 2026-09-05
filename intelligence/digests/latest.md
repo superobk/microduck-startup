@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-05T10:40:13Z`
+Generated: `2026-09-05T15:17:23Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,25 +8,15 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `79d860bbcfa7` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/79d860bbcfa705c07b08d885b264cd99ee3c4e0b)
+- Commit `f7e738f1f1d3` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/f7e738f1f1d39d9336d9c400ff2bea7440e169f1)
 
 ### pollen-robotics/microduck
 
-- PR #214 [Add guarded model update channel and experiment budgets](https://github.com/pollen-robotics/microduck/pull/214) — open
-- PR #199 [robotd, kinematics, robotd-params: four hardening fixes for the drive loop and startup](https://github.com/pollen-robotics/microduck/pull/199) — open
-
-### pollen-robotics/microduck_rl
-
-- PR #42 [Distill neutral-head Flamingo controller](https://github.com/pollen-robotics/microduck_rl/pull/42) — open
-
-### fanhao375/microduck-replica
-
-- Commit `aaa2026d5ff3` [补全 .gitattributes 的二进制声明，避免 Windows 上 clone 损坏文件](https://github.com/fanhao375/microduck-replica/commit/aaa2026d5ff30d9f055a75e47de3285023d3a26f)
-- Commit `3ab9e1f34774` [放出 imu_to_dxl 原理图求评审；接口与去耦按官方手册修正](https://github.com/fanhao375/microduck-replica/commit/3ab9e1f34774dfc4cdc95c9dd928036ccb8a7cae)
+- PR #195 [robotd: a mode switch waits for what it needs and never stands a limp robot up](https://github.com/pollen-robotics/microduck/pull/195) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [79d860bbcfa7](https://github.com/superobk/microduck-startup/commit/79d860bbcfa705c07b08d885b264cd99ee3c4e0b); pushed `2026-09-05T04:34:46Z`
+- **superobk/microduck-startup** `main` → [f7e738f1f1d3](https://github.com/superobk/microduck-startup/commit/f7e738f1f1d39d9336d9c400ff2bea7440e169f1); pushed `2026-09-05T10:40:28Z`
 - **pollen-robotics/microduck** `main` → [bc41fb5c9a9b](https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382); pushed `2026-09-03T15:41:56Z`
 - **pollen-robotics/microduck_rl** `develop` → [29e887ecfbf5](https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547); pushed `2026-09-05T08:46:18Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
