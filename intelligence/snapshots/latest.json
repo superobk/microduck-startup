@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T15:30:26Z",
+  "generated_at": "2026-09-06T20:27:16Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
-        "url": "https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834"
+        "sha": "66a955366ef6862f87292be0ae224433d23d5386",
+        "url": "https://github.com/superobk/microduck-startup/commit/66a955366ef6862f87292be0ae224433d23d5386"
       },
-      "updated_at": "2026-09-06T11:01:53Z",
-      "pushed_at": "2026-09-06T11:01:49Z",
+      "updated_at": "2026-09-06T15:30:51Z",
+      "pushed_at": "2026-09-06T15:30:46Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "66a955366ef6862f87292be0ae224433d23d5386",
+          "sha": "66a955366ef6862f87292be0ae224433d23d5386",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-06T15:30:44Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/66a955366ef6862f87292be0ae224433d23d5386"
+        },
         {
           "id": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
           "sha": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-04T20:48:12Z",
           "url": "https://github.com/superobk/microduck-startup/commit/81cf6ff9a11d40d1ca7473d7c5a9e80280c871b9"
-        },
-        {
-          "id": "b65428301c9805d9ac4a480df5f85d8712a23a90",
-          "sha": "b65428301c9805d9ac4a480df5f85d8712a23a90",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-04T16:25:06Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/b65428301c9805d9ac4a480df5f85d8712a23a90"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-06T15:15:42Z",
+      "updated_at": "2026-09-06T20:21:09Z",
       "pushed_at": "2026-09-03T15:41:56Z",
       "open_issues_count": 35,
       "commits": [
@@ -273,7 +273,7 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-06T15:10:02Z",
+      "updated_at": "2026-09-06T20:25:38Z",
       "pushed_at": "2026-09-05T16:24:45Z",
       "open_issues_count": 26,
       "commits": [
@@ -422,7 +422,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-09-06T07:07:21Z",
+      "updated_at": "2026-09-06T16:17:18Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -460,13 +460,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/69eeb730a53e31fc7d9b6288ceed4bdd695e8e34"
+        "sha": "0a50a5a5b147dc2f897236bc167c8d4d455df8b4",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0a50a5a5b147dc2f897236bc167c8d4d455df8b4"
       },
-      "updated_at": "2026-09-06T14:19:22Z",
-      "pushed_at": "2026-09-06T05:17:59Z",
+      "updated_at": "2026-09-06T18:15:58Z",
+      "pushed_at": "2026-09-06T18:15:43Z",
       "open_issues_count": 17,
       "commits": [
+        {
+          "id": "0a50a5a5b147dc2f897236bc167c8d4d455df8b4",
+          "sha": "0a50a5a5b147dc2f897236bc167c8d4d455df8b4",
+          "message": "imu_to_dxl 从原理图做到 PCB：45×22 双层板，底层整片地",
+          "author": "fanhao375",
+          "date": "2026-09-06T18:15:35Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0a50a5a5b147dc2f897236bc167c8d4d455df8b4"
+        },
         {
           "id": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
           "sha": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
@@ -522,14 +530,6 @@
           "author": "fanhao375",
           "date": "2026-09-04T16:37:37Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/da322f396826deb9dedceec70dc0ae77e113103b"
-        },
-        {
-          "id": "12719b2f87fe53d67d538b67d8503d92e71af93f",
-          "sha": "12719b2f87fe53d67d538b67d8503d92e71af93f",
-          "message": "一轮审核勘误：摄像头角度、飞特协议论证、板卡口径，并收敛重复陈述",
-          "author": "fanhao375",
-          "date": "2026-09-04T16:10:57Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/12719b2f87fe53d67d538b67d8503d92e71af93f"
         }
       ],
       "releases": [
@@ -602,13 +602,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49"
+        "sha": "8f0239473ce626629341c0bbc97ed2471543e9cb",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/8f0239473ce626629341c0bbc97ed2471543e9cb"
       },
-      "updated_at": "2026-09-06T14:17:32Z",
-      "pushed_at": "2026-09-03T12:06:18Z",
+      "updated_at": "2026-09-06T18:08:37Z",
+      "pushed_at": "2026-09-06T18:08:28Z",
       "open_issues_count": 1,
       "commits": [
+        {
+          "id": "8f0239473ce626629341c0bbc97ed2471543e9cb",
+          "sha": "8f0239473ce626629341c0bbc97ed2471543e9cb",
+          "message": "Add twelve entries across simulation, policies, agents and apps",
+          "author": "joeynyc",
+          "date": "2026-09-06T18:08:27Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/8f0239473ce626629341c0bbc97ed2471543e9cb"
+        },
         {
           "id": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
           "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
@@ -664,14 +672,6 @@
           "author": "joeynyc",
           "date": "2026-08-30T14:14:13Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/9ef86882a1ea913c771c3169b533c020a3a1b286"
-        },
-        {
-          "id": "2046215ef1f9a572dc5a5a784e99cf70f2288747",
-          "sha": "2046215ef1f9a572dc5a5a784e99cf70f2288747",
-          "message": "Center the hero illustration",
-          "author": "joeynyc",
-          "date": "2026-08-30T14:11:09Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/2046215ef1f9a572dc5a5a784e99cf70f2288747"
         }
       ],
       "releases": [],
@@ -864,7 +864,7 @@
         "sha": "00e13d1aa49b398ae512f1765297f7ab8c50ca07",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07"
       },
-      "updated_at": "2026-09-06T14:40:44Z",
+      "updated_at": "2026-09-06T17:34:34Z",
       "pushed_at": "2026-08-31T10:29:25Z",
       "open_issues_count": 8,
       "commits": [
