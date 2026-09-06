@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T04:44:18Z",
+  "generated_at": "2026-09-06T11:01:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "05516793d231a327e7cdbdf06dacae700e143563",
-        "url": "https://github.com/superobk/microduck-startup/commit/05516793d231a327e7cdbdf06dacae700e143563"
+        "sha": "54bee97de8a650b87072c5e72601545e63b677e0",
+        "url": "https://github.com/superobk/microduck-startup/commit/54bee97de8a650b87072c5e72601545e63b677e0"
       },
-      "updated_at": "2026-09-05T20:25:49Z",
-      "pushed_at": "2026-09-05T20:25:45Z",
+      "updated_at": "2026-09-06T04:44:40Z",
+      "pushed_at": "2026-09-06T04:44:36Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "54bee97de8a650b87072c5e72601545e63b677e0",
+          "sha": "54bee97de8a650b87072c5e72601545e63b677e0",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-06T04:44:35Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/54bee97de8a650b87072c5e72601545e63b677e0"
+        },
         {
           "id": "05516793d231a327e7cdbdf06dacae700e143563",
           "sha": "05516793d231a327e7cdbdf06dacae700e143563",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-04T11:23:23Z",
           "url": "https://github.com/superobk/microduck-startup/commit/6f2c503fa5faa1eaf0407f9150d5d063a1990263"
-        },
-        {
-          "id": "1901776cc99e4721d0d0341323ddd49df23cb765",
-          "sha": "1901776cc99e4721d0d0341323ddd49df23cb765",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-04T04:39:04Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/1901776cc99e4721d0d0341323ddd49df23cb765"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-06T04:36:22Z",
+      "updated_at": "2026-09-06T10:26:19Z",
       "pushed_at": "2026-09-03T15:41:56Z",
-      "open_issues_count": 36,
+      "open_issues_count": 37,
       "commits": [
         {
           "id": "bc41fb5c9a9b39894669c1e022e375cf83800382",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "216",
+          "number": 216,
+          "title": "duck-control: the safety layer says what it refused, clamped or zeroedfeat(safety): say what the safety layer refused, clamped or zeroed",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-06T09:54:49Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/216"
+        },
+        {
           "id": "195",
           "number": 195,
           "title": "robotd: a mode switch waits for what it needs and never stands a limp robot up",
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-03T19:48:27Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/170"
-        },
-        {
-          "id": "198",
-          "number": 198,
-          "title": "updater: three correctness fixes in rollback journaling and apply",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-03T16:34:48Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/198"
         }
       ],
       "issues": [
@@ -246,14 +246,6 @@
           "state": "open",
           "updated_at": "2026-09-05T22:44:25Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/215"
-        },
-        {
-          "id": "173",
-          "number": 173,
-          "title": "Missing 3D printables source",
-          "state": "open",
-          "updated_at": "2026-09-04T12:26:00Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/173"
         }
       ]
     },
@@ -265,7 +257,7 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-06T04:17:50Z",
+      "updated_at": "2026-09-06T10:53:49Z",
       "pushed_at": "2026-09-05T16:24:45Z",
       "open_issues_count": 26,
       "commits": [
@@ -414,7 +406,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-09-04T08:41:38Z",
+      "updated_at": "2026-09-06T07:07:21Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -452,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "3a99107620fec3dcc519f63b8fc5f9bf70d9c16d",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/3a99107620fec3dcc519f63b8fc5f9bf70d9c16d"
+        "sha": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/69eeb730a53e31fc7d9b6288ceed4bdd695e8e34"
       },
-      "updated_at": "2026-09-06T03:41:03Z",
-      "pushed_at": "2026-09-05T19:20:00Z",
+      "updated_at": "2026-09-06T10:21:09Z",
+      "pushed_at": "2026-09-06T05:17:59Z",
       "open_issues_count": 17,
       "commits": [
+        {
+          "id": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
+          "sha": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
+          "message": "对照官方 HAT 复审：补数据线串阻与钳位；阻容统一改 0603",
+          "author": "fanhao375",
+          "date": "2026-09-06T05:17:57Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/69eeb730a53e31fc7d9b6288ceed4bdd695e8e34"
+        },
         {
           "id": "3a99107620fec3dcc519f63b8fc5f9bf70d9c16d",
           "sha": "3a99107620fec3dcc519f63b8fc5f9bf70d9c16d",
@@ -514,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-09-04T16:10:57Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/12719b2f87fe53d67d538b67d8503d92e71af93f"
-        },
-        {
-          "id": "742c1599ca29b1f75b11472f5e99217e646840ec",
-          "sha": "742c1599ca29b1f75b11472f5e99217e646840ec",
-          "message": "新增硬件入门：一块板一块板讲清楚",
-          "author": "fanhao375",
-          "date": "2026-09-04T14:42:28Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/742c1599ca29b1f75b11472f5e99217e646840ec"
         }
       ],
       "releases": [
@@ -597,7 +589,7 @@
         "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49"
       },
-      "updated_at": "2026-09-05T19:05:20Z",
+      "updated_at": "2026-09-06T10:24:47Z",
       "pushed_at": "2026-09-03T12:06:18Z",
       "open_issues_count": 1,
       "commits": [
@@ -699,8 +691,8 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-06T04:01:24Z",
-      "pushed_at": "2026-09-05T10:14:18Z",
+      "updated_at": "2026-09-06T10:17:32Z",
+      "pushed_at": "2026-09-06T10:19:24Z",
       "open_issues_count": 36,
       "commits": [
         {
@@ -856,7 +848,7 @@
         "sha": "00e13d1aa49b398ae512f1765297f7ab8c50ca07",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07"
       },
-      "updated_at": "2026-09-05T15:01:31Z",
+      "updated_at": "2026-09-06T09:29:22Z",
       "pushed_at": "2026-08-31T10:29:25Z",
       "open_issues_count": 8,
       "commits": [
