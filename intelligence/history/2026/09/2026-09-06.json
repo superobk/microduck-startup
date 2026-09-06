@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T11:01:37Z",
+  "generated_at": "2026-09-06T15:30:26Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "54bee97de8a650b87072c5e72601545e63b677e0",
-        "url": "https://github.com/superobk/microduck-startup/commit/54bee97de8a650b87072c5e72601545e63b677e0"
+        "sha": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
+        "url": "https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834"
       },
-      "updated_at": "2026-09-06T04:44:40Z",
-      "pushed_at": "2026-09-06T04:44:36Z",
+      "updated_at": "2026-09-06T11:01:53Z",
+      "pushed_at": "2026-09-06T11:01:49Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
+          "sha": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-06T11:01:48Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834"
+        },
         {
           "id": "54bee97de8a650b87072c5e72601545e63b677e0",
           "sha": "54bee97de8a650b87072c5e72601545e63b677e0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-04T16:25:06Z",
           "url": "https://github.com/superobk/microduck-startup/commit/b65428301c9805d9ac4a480df5f85d8712a23a90"
-        },
-        {
-          "id": "6f2c503fa5faa1eaf0407f9150d5d063a1990263",
-          "sha": "6f2c503fa5faa1eaf0407f9150d5d063a1990263",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-04T11:23:23Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/6f2c503fa5faa1eaf0407f9150d5d063a1990263"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "bc41fb5c9a9b39894669c1e022e375cf83800382",
         "url": "https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382"
       },
-      "updated_at": "2026-09-06T10:26:19Z",
+      "updated_at": "2026-09-06T15:15:42Z",
       "pushed_at": "2026-09-03T15:41:56Z",
-      "open_issues_count": 37,
+      "open_issues_count": 35,
       "commits": [
         {
           "id": "bc41fb5c9a9b39894669c1e022e375cf83800382",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "217",
+          "number": 217,
+          "title": "Dance to heard music, with an optional hop-travel gait",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-06T14:27:47Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/217"
+        },
+        {
           "id": "216",
           "number": 216,
           "title": "duck-control: the safety layer says what it refused, clamped or zeroedfeat(safety): say what the safety layer refused, clamped or zeroed",
@@ -226,19 +236,25 @@
           "updated_at": "2026-09-05T09:22:54Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/199"
-        },
-        {
-          "id": "170",
-          "number": 170,
-          "title": "Shutdown must not stand the robot back up, and quack opens the beak",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-03T19:48:27Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/170"
         }
       ],
       "issues": [
+        {
+          "id": "174",
+          "number": 174,
+          "title": "Charging the pack in place: is there onboard charge management, or is the external charger the only path?",
+          "state": "closed",
+          "updated_at": "2026-09-06T13:07:39Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/174"
+        },
+        {
+          "id": "213",
+          "number": 213,
+          "title": "docs: duck_detector training repo link is 404 — can it be made public?",
+          "state": "closed",
+          "updated_at": "2026-09-06T13:06:33Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/213"
+        },
         {
           "id": "215",
           "number": 215,
@@ -257,7 +273,7 @@
         "sha": "29e887ecfbf5d37144759e5a9f8a176dfb83d547",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547"
       },
-      "updated_at": "2026-09-06T10:53:49Z",
+      "updated_at": "2026-09-06T15:10:02Z",
       "pushed_at": "2026-09-05T16:24:45Z",
       "open_issues_count": 26,
       "commits": [
@@ -447,7 +463,7 @@
         "sha": "69eeb730a53e31fc7d9b6288ceed4bdd695e8e34",
         "url": "https://github.com/fanhao375/microduck-replica/commit/69eeb730a53e31fc7d9b6288ceed4bdd695e8e34"
       },
-      "updated_at": "2026-09-06T10:21:09Z",
+      "updated_at": "2026-09-06T14:19:22Z",
       "pushed_at": "2026-09-06T05:17:59Z",
       "open_issues_count": 17,
       "commits": [
@@ -589,7 +605,7 @@
         "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49"
       },
-      "updated_at": "2026-09-06T10:24:47Z",
+      "updated_at": "2026-09-06T14:17:32Z",
       "pushed_at": "2026-09-03T12:06:18Z",
       "open_issues_count": 1,
       "commits": [
@@ -691,7 +707,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-06T10:17:32Z",
+      "updated_at": "2026-09-06T14:34:21Z",
       "pushed_at": "2026-09-06T10:19:24Z",
       "open_issues_count": 36,
       "commits": [
@@ -848,7 +864,7 @@
         "sha": "00e13d1aa49b398ae512f1765297f7ab8c50ca07",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07"
       },
-      "updated_at": "2026-09-06T09:29:22Z",
+      "updated_at": "2026-09-06T14:40:44Z",
       "pushed_at": "2026-08-31T10:29:25Z",
       "open_issues_count": 8,
       "commits": [

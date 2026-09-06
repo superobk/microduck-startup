@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-06T11:01:37Z`
+Generated: `2026-09-06T15:30:26Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,19 +8,15 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `54bee97de8a6` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/54bee97de8a650b87072c5e72601545e63b677e0)
+- Commit `0a2b56310e1c` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834)
 
 ### pollen-robotics/microduck
 
-- PR #216 [duck-control: the safety layer says what it refused, clamped or zeroedfeat(safety): say what the safety layer refused, clamped or zeroed](https://github.com/pollen-robotics/microduck/pull/216) — open
-
-### fanhao375/microduck-replica
-
-- Commit `69eeb730a53e` [对照官方 HAT 复审：补数据线串阻与钳位；阻容统一改 0603](https://github.com/fanhao375/microduck-replica/commit/69eeb730a53e31fc7d9b6288ceed4bdd695e8e34)
+- PR #217 [Dance to heard music, with an optional hop-travel gait](https://github.com/pollen-robotics/microduck/pull/217) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [54bee97de8a6](https://github.com/superobk/microduck-startup/commit/54bee97de8a650b87072c5e72601545e63b677e0); pushed `2026-09-06T04:44:36Z`
+- **superobk/microduck-startup** `main` → [0a2b56310e1c](https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834); pushed `2026-09-06T11:01:49Z`
 - **pollen-robotics/microduck** `main` → [bc41fb5c9a9b](https://github.com/pollen-robotics/microduck/commit/bc41fb5c9a9b39894669c1e022e375cf83800382); pushed `2026-09-03T15:41:56Z`
 - **pollen-robotics/microduck_rl** `develop` → [29e887ecfbf5](https://github.com/pollen-robotics/microduck_rl/commit/29e887ecfbf5d37144759e5a9f8a176dfb83d547); pushed `2026-09-05T16:24:45Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
