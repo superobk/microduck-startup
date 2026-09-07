@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-07T12:39:59Z`
+Generated: `2026-09-07T21:33:19Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,37 +8,37 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `0a06823fa233` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0a06823fa233949bc852d89434e26d09329e2de1)
+- Commit `c2b997037f4a` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c2b997037f4a0894207a705bee513c9b2982366f)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.10.0-dev.852.4ef3aee (relay-session)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-relay-session) (prerelease)
-- Release [daemon 0.10.0-dev.842.18eb409 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `18eb409d8214` [Merge pull request #209 from pollen-robotics/relay-producer](https://github.com/pollen-robotics/microduck/commit/18eb409d82141397362d03afd77303ad6701e6fb)
-- Commit `8088ac44bc40` [Signing a robot out has to reach the relay, or it does not mean anything](https://github.com/pollen-robotics/microduck/commit/8088ac44bc40c937591f36c6a1085e2a87ee0d74)
-- Commit `3ea772936951` [A duck registers with the rendezvous service, which is half of reaching one](https://github.com/pollen-robotics/microduck/commit/3ea77293695116a3b26120e806f731434f615462)
-- PR #219 [The console page learns a second way in, and §5 stops being open](https://github.com/pollen-robotics/microduck/pull/219) — open
-- PR #181 [apply clippy float optimization recommendations](https://github.com/pollen-robotics/microduck/pull/181) — open
+- Release [daemon 0.11.0](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.11.0)
+- Release [daemon 0.11.0-dev.883.00f61f8 (vslam)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vslam) (prerelease)
+- Release [daemon 0.10.0-dev.879.2235e6c (vision-demo)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vision-demo) (prerelease)
+- Commit `5984efb77085` [Merge pull request #222 from pollen-robotics/prepare-release-0.11.0](https://github.com/pollen-robotics/microduck/commit/5984efb770855432b03dafd3d879e9929981e45b)
+- Commit `a7870ddd5bf3` [Prepare release 0.11.0](https://github.com/pollen-robotics/microduck/commit/a7870ddd5bf379e5c4433e375181db07868d3562)
+- Commit `562d330ec5db` [Merge pull request #207 from Nixxx19/a-restarted-daemon-gets-the-next-request](https://github.com/pollen-robotics/microduck/commit/562d330ec5dba0d7072b9b6b05cc84c7699e7c04)
+- Commit `b6b9f163250b` [Merge pull request #210 from pollen-robotics/start-twice](https://github.com/pollen-robotics/microduck/commit/b6b9f163250b5043ae24667f6689226a26dd7fa0)
+- Commit `9697804354f2` [Merge pull request #218 from tianrking/fix/robotd-single-instance](https://github.com/pollen-robotics/microduck/commit/9697804354f2c2dba11fb8fb478b94c91a7417f2)
+- Commit `7c3fe039e029` [Merge main: Select's torque off and Start's two presses in one pad](https://github.com/pollen-robotics/microduck/commit/7c3fe039e029eb7d37a0141c4436c7996c73d855)
+- Commit `4eb5ec5a4e34` [Merge pull request #212 from pollen-robotics/select-relax](https://github.com/pollen-robotics/microduck/commit/4eb5ec5a4e34d7147699ee5d18c9b2f5cd6829d2)
+- Commit `034c1a5435c9` [robotd: hold the endpoint lock throughout standalone init](https://github.com/pollen-robotics/microduck/commit/034c1a5435c974c8deed1cba91d0d3f9f92e6e89)
+- PR #234 [configd: reading the pairing pin takes the authority that sets it](https://github.com/pollen-robotics/microduck/pull/234) — open
+- PR #232 [VSLAM telemetry on top of the MuJoCo twin: shared clock, head IMU, sensor poses, skeleton (API v24–v25)](https://github.com/pollen-robotics/microduck/pull/232) — open
+- PR #231 [Support LSTM ONNX policies with recurrent state handling](https://github.com/pollen-robotics/microduck/pull/231) — open
+- PR #230 [the account token gets a group of its own, with mediad as its only member](https://github.com/pollen-robotics/microduck/pull/230) — open
+- PR #228 [robotd: a mode switch waits for a policy load, and a policy change waits for a shutdown](https://github.com/pollen-robotics/microduck/pull/228) — open
 
 ### pollen-robotics/microduck_rl
 
-- Commit `2b25a48b08f1` [apartment: 1.6 m walls so the camera never sees the skybox](https://github.com/pollen-robotics/microduck_rl/commit/2b25a48b08f1f17bc38c90bb03144c81fbd9ed07)
-- Commit `333120343134` [apartment: walls with texture, floors with contrast, so a camera has something to track](https://github.com/pollen-robotics/microduck_rl/commit/3331203431341f207f3f7ea8ebf1b0f1d966a889)
-- Commit `43bf151d57ac` [The head camera faces backwards; turn it about the right axis](https://github.com/pollen-robotics/microduck_rl/commit/43bf151d57ac963c6cd3e945af416dc4d39c81ec)
-- Commit `580f0d8596a5` [The head camera faces backwards; turn it around](https://github.com/pollen-robotics/microduck_rl/commit/580f0d8596a573bd2efe1fb56dec3528416d1a81)
-- Commit `a52752e4a629` [Run a forward pass before anything can ask, and never hand mj_ray a zero](https://github.com/pollen-robotics/microduck_rl/commit/a52752e4a629f8404ea18a443ad5a685169a89ff)
-- Commit `b5e6e6485727` [What a duck sees](https://github.com/pollen-robotics/microduck_rl/commit/b5e6e6485727455c61e7e0db3fb2eb854fa72eab)
-- PR #18 [Add new scenes: simple, intermediate, complex, parkour, maze](https://github.com/pollen-robotics/microduck_rl/pull/18) — open
-
-### fanhao375/microduck-replica
-
-- PR #18 [imu_to_dxl 改版：25×25 mm，四角金属化 M2，双面地，附生产文件](https://github.com/fanhao375/microduck-replica/pull/18) — open
+- PR #44 [reuse NUM_STEPS_PER_ENV in the RslRlOnPolicyRunnerCfg](https://github.com/pollen-robotics/microduck_rl/pull/44) — open
+- PR #43 [docs: note that the viewer needs mjpython on macOS](https://github.com/pollen-robotics/microduck_rl/pull/43) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [0a06823fa233](https://github.com/superobk/microduck-startup/commit/0a06823fa233949bc852d89434e26d09329e2de1); pushed `2026-09-07T04:47:51Z`
-- **pollen-robotics/microduck** `main` → [18eb409d8214](https://github.com/pollen-robotics/microduck/commit/18eb409d82141397362d03afd77303ad6701e6fb); pushed `2026-09-07T12:36:57Z`
-- **pollen-robotics/microduck_rl** `develop` → [2b25a48b08f1](https://github.com/pollen-robotics/microduck_rl/commit/2b25a48b08f1f17bc38c90bb03144c81fbd9ed07); pushed `2026-09-07T08:46:36Z`
+- **superobk/microduck-startup** `main` → [c2b997037f4a](https://github.com/superobk/microduck-startup/commit/c2b997037f4a0894207a705bee513c9b2982366f); pushed `2026-09-07T12:40:14Z`
+- **pollen-robotics/microduck** `main` → [5984efb77085](https://github.com/pollen-robotics/microduck/commit/5984efb770855432b03dafd3d879e9929981e45b); pushed `2026-09-07T20:22:09Z`
+- **pollen-robotics/microduck_rl** `develop` → [2b25a48b08f1](https://github.com/pollen-robotics/microduck_rl/commit/2b25a48b08f1f17bc38c90bb03144c81fbd9ed07); pushed `2026-09-07T17:13:27Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [73e2118dc0b5](https://github.com/fanhao375/microduck-replica/commit/73e2118dc0b5bf463ab7d422e5274c29adfd9ea7); pushed `2026-09-07T04:31:24Z`
 - **joeynyc/awesome-microduck** `main` → [8f0239473ce6](https://github.com/joeynyc/awesome-microduck/commit/8f0239473ce626629341c0bbc97ed2471543e9cb); pushed `2026-09-06T18:08:28Z`
