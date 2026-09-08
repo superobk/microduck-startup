@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T16:41:10Z",
+  "generated_at": "2026-09-08T21:12:52Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "118fab5ed34767d0250d79d71a988e919e7a0df9",
-        "url": "https://github.com/superobk/microduck-startup/commit/118fab5ed34767d0250d79d71a988e919e7a0df9"
+        "sha": "8f6b3eac25a69afd4e09b024be53ccbd0ffd2875",
+        "url": "https://github.com/superobk/microduck-startup/commit/8f6b3eac25a69afd4e09b024be53ccbd0ffd2875"
       },
-      "updated_at": "2026-09-08T11:24:36Z",
-      "pushed_at": "2026-09-08T11:24:17Z",
+      "updated_at": "2026-09-08T16:43:22Z",
+      "pushed_at": "2026-09-08T16:41:28Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "8f6b3eac25a69afd4e09b024be53ccbd0ffd2875",
+          "sha": "8f6b3eac25a69afd4e09b024be53ccbd0ffd2875",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-08T16:41:26Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/8f6b3eac25a69afd4e09b024be53ccbd0ffd2875"
+        },
         {
           "id": "118fab5ed34767d0250d79d71a988e919e7a0df9",
           "sha": "118fab5ed34767d0250d79d71a988e919e7a0df9",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-06T15:30:44Z",
           "url": "https://github.com/superobk/microduck-startup/commit/66a955366ef6862f87292be0ae224433d23d5386"
-        },
-        {
-          "id": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
-          "sha": "0a2b56310e1cf848a2bee62ac7f1b92649fa8834",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-06T11:01:48Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0a2b56310e1cf848a2bee62ac7f1b92649fa8834"
         }
       ],
       "releases": [],
@@ -88,13 +88,21 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "5e8213edf1ffd63b1bd92d7ce798d058243b3857",
-        "url": "https://github.com/pollen-robotics/microduck/commit/5e8213edf1ffd63b1bd92d7ce798d058243b3857"
+        "sha": "5620aa214e6e304eec00d5c376ac81d3001fb7a3",
+        "url": "https://github.com/pollen-robotics/microduck/commit/5620aa214e6e304eec00d5c376ac81d3001fb7a3"
       },
-      "updated_at": "2026-09-08T16:32:23Z",
-      "pushed_at": "2026-09-08T16:35:11Z",
+      "updated_at": "2026-09-08T19:45:47Z",
+      "pushed_at": "2026-09-08T19:19:43Z",
       "open_issues_count": 41,
       "commits": [
+        {
+          "id": "5620aa214e6e304eec00d5c376ac81d3001fb7a3",
+          "sha": "5620aa214e6e304eec00d5c376ac81d3001fb7a3",
+          "message": "mediad: publish the MuJoCo twin's camera intrinsics (self-describing sim)",
+          "author": "apirrone",
+          "date": "2026-09-08T19:05:42Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/5620aa214e6e304eec00d5c376ac81d3001fb7a3"
+        },
         {
           "id": "5e8213edf1ffd63b1bd92d7ce798d058243b3857",
           "sha": "5e8213edf1ffd63b1bd92d7ce798d058243b3857",
@@ -150,17 +158,17 @@
           "author": "pierre-rouanet",
           "date": "2026-09-08T08:53:55Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/78a9e58de6e4e3a28c380b59265419b8f619c2c6"
-        },
-        {
-          "id": "b04339b58b4d841c6ed581fcb1ee34965a13a99e",
-          "sha": "b04339b58b4d841c6ed581fcb1ee34965a13a99e",
-          "message": "the camera flags go with the cameras",
-          "author": "pierre-rouanet",
-          "date": "2026-09-08T08:48:34Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/b04339b58b4d841c6ed581fcb1ee34965a13a99e"
         }
       ],
       "releases": [
+        {
+          "id": "384994796",
+          "tag": "daemon-dev-sim-camera-intrinsics",
+          "name": "daemon 0.11.0-dev.899.5620aa2 (sim-camera-intrinsics)",
+          "published_at": "2026-09-08T19:08:26Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-sim-camera-intrinsics"
+        },
         {
           "id": "384899377",
           "tag": "daemon-dev-policy-space",
@@ -170,20 +178,12 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-space"
         },
         {
-          "id": "384892434",
+          "id": "385002182",
           "tag": "daemon-dev-main",
-          "name": "daemon 0.11.0-dev.895.5e8213e (main)",
-          "published_at": "2026-09-08T16:24:10Z",
+          "name": "daemon 0.11.0-dev.900.5620aa2 (main)",
+          "published_at": "2026-09-08T19:19:44Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
-        },
-        {
-          "id": "384142049",
-          "tag": "daemon-v0.11.0",
-          "name": "daemon 0.11.0",
-          "published_at": "2026-09-07T14:19:44Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.11.0"
         }
       ],
       "pulls": [
@@ -248,9 +248,9 @@
         "sha": "2b581c641406a48346e696212930ea881c222c52",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/2b581c641406a48346e696212930ea881c222c52"
       },
-      "updated_at": "2026-09-08T15:18:52Z",
+      "updated_at": "2026-09-08T17:24:23Z",
       "pushed_at": "2026-09-08T16:28:29Z",
-      "open_issues_count": 28,
+      "open_issues_count": 29,
       "commits": [
         {
           "id": "2b581c641406a48346e696212930ea881c222c52",
@@ -370,7 +370,16 @@
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/41"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "45",
+          "number": 45,
+          "title": "FYI: local training on Intel iGPUs (mjlab-sycl) — use it if you need it",
+          "state": "open",
+          "updated_at": "2026-09-08T17:06:11Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/45"
+        }
+      ]
     },
     {
       "repo": "IronSpiderMan/MicroDuckModels",
@@ -421,7 +430,7 @@
         "sha": "a1f4979c425bd9228622be89f2bfa4d1de7fbde3",
         "url": "https://github.com/fanhao375/microduck-replica/commit/a1f4979c425bd9228622be89f2bfa4d1de7fbde3"
       },
-      "updated_at": "2026-09-08T16:17:49Z",
+      "updated_at": "2026-09-08T17:13:45Z",
       "pushed_at": "2026-09-08T12:45:21Z",
       "open_issues_count": 19,
       "commits": [
@@ -565,7 +574,7 @@
         "sha": "8f0239473ce626629341c0bbc97ed2471543e9cb",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/8f0239473ce626629341c0bbc97ed2471543e9cb"
       },
-      "updated_at": "2026-09-08T13:53:58Z",
+      "updated_at": "2026-09-08T18:35:45Z",
       "pushed_at": "2026-09-06T18:08:28Z",
       "open_issues_count": 1,
       "commits": [
