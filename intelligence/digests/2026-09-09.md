@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-09T04:47:32Z`
+Generated: `2026-09-09T11:28:35Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,29 +8,38 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `ab74b0de0689` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/ab74b0de068947e660f491cb2d5022a8892d40dc)
+- Commit `a3f8092543d6` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a3f8092543d6811792f9c7a27c790e11d696c0b9)
 
 ### pollen-robotics/microduck
 
-- PR #237 [robotd: never start the homing ramp for a mode switch while limp](https://github.com/pollen-robotics/microduck/pull/237) — open
-- PR #238 [robotd: drop non-finite command targets instead of poisoning the command filters](https://github.com/pollen-robotics/microduck/pull/238) — open
-- PR #239 [kinematics: an empty band is no hand even when min_zones is 0](https://github.com/pollen-robotics/microduck/pull/239) — open
-- PR #216 [duck-control: the safety layer says what it refused, clamped or zeroedfeat(safety): say what the safety layer refused, clamped or zeroed](https://github.com/pollen-robotics/microduck/pull/216) — open
+- Release [daemon 0.11.0-dev.902.28c4b17 (policy-space)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-policy-space) (prerelease)
+- Release [daemon 0.11.0-dev.903.f2bda50 (duckctl-logs)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-duckctl-logs) (prerelease)
+- PR #214 [Add guarded model update channel and experiment budgets](https://github.com/pollen-robotics/microduck/pull/214) — open
+- PR #240 [`duckctl logs`: a daemon's last words, over the radio](https://github.com/pollen-robotics/microduck/pull/240) — open
+- PR #236 [A Space runs a model on a duck's camera, from anywhere, without a relay candidate](https://github.com/pollen-robotics/microduck/pull/236) — open
 
-### joeynyc/awesome-microduck
+### pollen-robotics/microduck_rl
 
-- Commit `ada0f88556cc` [Add three official Pollen entries and six community ones](https://github.com/joeynyc/awesome-microduck/commit/ada0f88556ccd4e06d59b0c0234e19623895c946)
+- Commit `53b8971b61ba` [new appartment](https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b)
+
+### fanhao375/microduck-replica
+
+- Commit `0f7955226b4a` [最近更新换成 CAD 图纸完成；新增配套图纸仓库的引导与署名](https://github.com/fanhao375/microduck-replica/commit/0f7955226b4a30ef5439e74136eca88b42f1f752)
+
+### leggedrobotics/rsl_rl
+
+- Commit `857de6165c5f` [Bump version to 5.5.1](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [ab74b0de0689](https://github.com/superobk/microduck-startup/commit/ab74b0de068947e660f491cb2d5022a8892d40dc); pushed `2026-09-08T21:13:09Z`
-- **pollen-robotics/microduck** `main` → [5620aa214e6e](https://github.com/pollen-robotics/microduck/commit/5620aa214e6e304eec00d5c376ac81d3001fb7a3); pushed `2026-09-08T19:19:43Z`
-- **pollen-robotics/microduck_rl** `develop` → [2b581c641406](https://github.com/pollen-robotics/microduck_rl/commit/2b581c641406a48346e696212930ea881c222c52); pushed `2026-09-08T16:28:29Z`
+- **superobk/microduck-startup** `main` → [a3f8092543d6](https://github.com/superobk/microduck-startup/commit/a3f8092543d6811792f9c7a27c790e11d696c0b9); pushed `2026-09-09T04:47:51Z`
+- **pollen-robotics/microduck** `main` → [5620aa214e6e](https://github.com/pollen-robotics/microduck/commit/5620aa214e6e304eec00d5c376ac81d3001fb7a3); pushed `2026-09-09T10:15:58Z`
+- **pollen-robotics/microduck_rl** `develop` → [53b8971b61ba](https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b); pushed `2026-09-09T10:24:22Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [a1f4979c425b](https://github.com/fanhao375/microduck-replica/commit/a1f4979c425bd9228622be89f2bfa4d1de7fbde3); pushed `2026-09-08T12:45:21Z`
+- **fanhao375/microduck-replica** `master` → [0f7955226b4a](https://github.com/fanhao375/microduck-replica/commit/0f7955226b4a30ef5439e74136eca88b42f1f752); pushed `2026-09-09T06:07:11Z`
 - **joeynyc/awesome-microduck** `main` → [ada0f88556cc](https://github.com/joeynyc/awesome-microduck/commit/ada0f88556ccd4e06d59b0c0234e19623895c946); pushed `2026-09-09T04:08:32Z`
-- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-08T10:39:27Z`
-- **leggedrobotics/rsl_rl** `main` → [00e13d1aa49b](https://github.com/leggedrobotics/rsl_rl/commit/00e13d1aa49b398ae512f1765297f7ab8c50ca07); pushed `2026-08-31T10:29:25Z`
+- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-09T10:06:28Z`
+- **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:28:44Z`
 
 ## Social feeds
 
