@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T04:45:41Z",
+  "generated_at": "2026-09-11T11:26:57Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d9d0c3b1fe1f1be83b45d1746248af67f0b203e0",
-        "url": "https://github.com/superobk/microduck-startup/commit/d9d0c3b1fe1f1be83b45d1746248af67f0b203e0"
+        "sha": "12101d5b587015b81fe6be514c4e34aca09781e8",
+        "url": "https://github.com/superobk/microduck-startup/commit/12101d5b587015b81fe6be514c4e34aca09781e8"
       },
-      "updated_at": "2026-09-10T20:55:20Z",
-      "pushed_at": "2026-09-10T20:55:16Z",
+      "updated_at": "2026-09-11T04:45:57Z",
+      "pushed_at": "2026-09-11T04:45:54Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "12101d5b587015b81fe6be514c4e34aca09781e8",
+          "sha": "12101d5b587015b81fe6be514c4e34aca09781e8",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-11T04:45:53Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/12101d5b587015b81fe6be514c4e34aca09781e8"
+        },
         {
           "id": "d9d0c3b1fe1f1be83b45d1746248af67f0b203e0",
           "sha": "d9d0c3b1fe1f1be83b45d1746248af67f0b203e0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-09T11:28:50Z",
           "url": "https://github.com/superobk/microduck-startup/commit/622bc69871569866105e2e8be922e53a8ac61c40"
-        },
-        {
-          "id": "a3f8092543d6811792f9c7a27c790e11d696c0b9",
-          "sha": "a3f8092543d6811792f9c7a27c790e11d696c0b9",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-09T04:47:50Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/a3f8092543d6811792f9c7a27c790e11d696c0b9"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
         "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
       },
-      "updated_at": "2026-09-11T04:35:18Z",
+      "updated_at": "2026-09-11T10:49:57Z",
       "pushed_at": "2026-09-10T15:46:06Z",
       "open_issues_count": 45,
       "commits": [
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "237",
+          "number": 237,
+          "title": "robotd: never start the homing ramp for a mode switch while limp",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-11T10:23:06Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/237"
+        },
+        {
           "id": "269",
           "number": 269,
           "title": "duckctl: scp, with `:path` for the robot",
@@ -226,19 +236,17 @@
           "updated_at": "2026-09-10T15:26:33Z",
           "merged_at": "2026-09-10T15:26:30Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/261"
-        },
-        {
-          "id": "262",
-          "number": 262,
-          "title": "systemd was not supervising the 3A engine at all",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-10T15:18:40Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/262"
         }
       ],
       "issues": [
+        {
+          "id": "182",
+          "number": 182,
+          "title": "Shipping / availability in mainland China",
+          "state": "open",
+          "updated_at": "2026-09-11T10:11:30Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/182"
+        },
         {
           "id": "270",
           "number": 270,
@@ -257,7 +265,7 @@
         "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
       },
-      "updated_at": "2026-09-11T04:40:07Z",
+      "updated_at": "2026-09-11T10:49:25Z",
       "pushed_at": "2026-09-10T15:54:27Z",
       "open_issues_count": 34,
       "commits": [
@@ -455,7 +463,7 @@
         "sha": "7e4a121d7216d627b885035031e6665f2e52c643",
         "url": "https://github.com/fanhao375/microduck-replica/commit/7e4a121d7216d627b885035031e6665f2e52c643"
       },
-      "updated_at": "2026-09-11T04:06:56Z",
+      "updated_at": "2026-09-11T09:30:53Z",
       "pushed_at": "2026-09-10T08:46:09Z",
       "open_issues_count": 21,
       "commits": [
@@ -596,13 +604,61 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "b724bae08caba353375dff1fa4ac842b4e9ebceb",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/b724bae08caba353375dff1fa4ac842b4e9ebceb"
+        "sha": "46c39bdb4e7e60496ccff362905b6879db975c57",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/46c39bdb4e7e60496ccff362905b6879db975c57"
       },
-      "updated_at": "2026-09-11T02:51:46Z",
-      "pushed_at": "2026-09-10T03:05:03Z",
+      "updated_at": "2026-09-11T11:14:59Z",
+      "pushed_at": "2026-09-11T11:14:56Z",
       "open_issues_count": 1,
       "commits": [
+        {
+          "id": "46c39bdb4e7e60496ccff362905b6879db975c57",
+          "sha": "46c39bdb4e7e60496ccff362905b6879db975c57",
+          "message": "Add community policy submission form (#4)",
+          "author": "joeynyc",
+          "date": "2026-09-11T11:14:54Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/46c39bdb4e7e60496ccff362905b6879db975c57"
+        },
+        {
+          "id": "e8d6adb75fc201b822c39174f6013be838e13039",
+          "sha": "e8d6adb75fc201b822c39174f6013be838e13039",
+          "message": "Add versioned policy registry (#3)",
+          "author": "joeynyc",
+          "date": "2026-09-11T11:04:01Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/e8d6adb75fc201b822c39174f6013be838e13039"
+        },
+        {
+          "id": "37eb4a585644fe9c9fd3428e07f100be413e81ca",
+          "sha": "37eb4a585644fe9c9fd3428e07f100be413e81ca",
+          "message": "Add the swing, stilts and running policies",
+          "author": "joeynyc",
+          "date": "2026-09-11T06:11:35Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/37eb4a585644fe9c9fd3428e07f100be413e81ca"
+        },
+        {
+          "id": "d0228bfb260a1ca4a5319a45b0c3588ddb61133d",
+          "sha": "d0228bfb260a1ca4a5319a45b0c3588ddb61133d",
+          "message": "Add microduck-onefoot-skate, an interim result published as measurements",
+          "author": "joeynyc",
+          "date": "2026-09-11T06:08:34Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/d0228bfb260a1ca4a5319a45b0c3588ddb61133d"
+        },
+        {
+          "id": "1f329bd46b8a58102db3671b5a05ec27229a2a20",
+          "sha": "1f329bd46b8a58102db3671b5a05ec27229a2a20",
+          "message": "Correct the microduck-tricks entry: the one-foot skate works",
+          "author": "joeynyc",
+          "date": "2026-09-11T06:06:36Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/1f329bd46b8a58102db3671b5a05ec27229a2a20"
+        },
+        {
+          "id": "6001489ff66c7ebae3ff32b271b2a6bc86996954",
+          "sha": "6001489ff66c7ebae3ff32b271b2a6bc86996954",
+          "message": "Add the official duck detector and two teaching projects",
+          "author": "joeynyc",
+          "date": "2026-09-11T05:24:36Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/6001489ff66c7ebae3ff32b271b2a6bc86996954"
+        },
         {
           "id": "b724bae08caba353375dff1fa4ac842b4e9ebceb",
           "sha": "b724bae08caba353375dff1fa4ac842b4e9ebceb",
@@ -618,58 +674,30 @@
           "author": "joeynyc",
           "date": "2026-09-09T04:08:29Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/ada0f88556ccd4e06d59b0c0234e19623895c946"
-        },
-        {
-          "id": "8f0239473ce626629341c0bbc97ed2471543e9cb",
-          "sha": "8f0239473ce626629341c0bbc97ed2471543e9cb",
-          "message": "Add twelve entries across simulation, policies, agents and apps",
-          "author": "joeynyc",
-          "date": "2026-09-06T18:08:27Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/8f0239473ce626629341c0bbc97ed2471543e9cb"
-        },
-        {
-          "id": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
-          "sha": "41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49",
-          "message": "Add ten entries and a Datasets and Benchmarks section",
-          "author": "joeynyc",
-          "date": "2026-09-03T12:06:16Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/41b44df19b6d879c3b51baa7f9bf0a5ab8e0ea49"
-        },
-        {
-          "id": "6298c095fe68c4ca45a5aa4ae7d33b4be925692d",
-          "sha": "6298c095fe68c4ca45a5aa4ae7d33b4be925692d",
-          "message": "Add thirteen entries from the 2 September sweep",
-          "author": "joeynyc",
-          "date": "2026-09-02T06:26:13Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/6298c095fe68c4ca45a5aa4ae7d33b4be925692d"
-        },
-        {
-          "id": "6377312e7b1335fff78a0f1a11e5c956ebb4e53d",
-          "sha": "6377312e7b1335fff78a0f1a11e5c956ebb4e53d",
-          "message": "Track the policy channel: design published and partly built",
-          "author": "joeynyc",
-          "date": "2026-09-01T09:24:24Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/6377312e7b1335fff78a0f1a11e5c956ebb4e53d"
-        },
-        {
-          "id": "d0e09b09c3992e2db788f17c3d1c2aa3690d7e45",
-          "sha": "d0e09b09c3992e2db788f17c3d1c2aa3690d7e45",
-          "message": "Explain the awesome-lint git-repository error in contributing",
-          "author": "joeynyc",
-          "date": "2026-09-01T08:43:53Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/d0e09b09c3992e2db788f17c3d1c2aa3690d7e45"
-        },
-        {
-          "id": "cacf877748fee328b13facae399ff833ceb2c96f",
-          "sha": "cacf877748fee328b13facae399ff833ceb2c96f",
-          "message": "Add ten entries; note that Pollen published the policies to the Hub",
-          "author": "joeynyc",
-          "date": "2026-09-01T08:05:27Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/cacf877748fee328b13facae399ff833ceb2c96f"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "4",
+          "number": 4,
+          "title": "Add community policy submission form",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-11T11:14:56Z",
+          "merged_at": "2026-09-11T11:14:54Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/4"
+        },
+        {
+          "id": "3",
+          "number": 3,
+          "title": "Add versioned policy registry",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-11T11:04:03Z",
+          "merged_at": "2026-09-11T11:04:02Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/3"
+        },
         {
           "id": "2",
           "number": 2,
@@ -701,8 +729,8 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-11T02:06:03Z",
-      "pushed_at": "2026-09-10T10:18:26Z",
+      "updated_at": "2026-09-11T08:17:02Z",
+      "pushed_at": "2026-09-11T09:55:22Z",
       "open_issues_count": 37,
       "commits": [
         {
