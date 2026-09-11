@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:26:57Z",
+  "generated_at": "2026-09-11T16:31:56Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "12101d5b587015b81fe6be514c4e34aca09781e8",
-        "url": "https://github.com/superobk/microduck-startup/commit/12101d5b587015b81fe6be514c4e34aca09781e8"
+        "sha": "95357945a1268b8e57face8a33c963eaf7fb8e86",
+        "url": "https://github.com/superobk/microduck-startup/commit/95357945a1268b8e57face8a33c963eaf7fb8e86"
       },
-      "updated_at": "2026-09-11T04:45:57Z",
-      "pushed_at": "2026-09-11T04:45:54Z",
+      "updated_at": "2026-09-11T11:27:16Z",
+      "pushed_at": "2026-09-11T11:27:12Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "95357945a1268b8e57face8a33c963eaf7fb8e86",
+          "sha": "95357945a1268b8e57face8a33c963eaf7fb8e86",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-11T11:27:11Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/95357945a1268b8e57face8a33c963eaf7fb8e86"
+        },
         {
           "id": "12101d5b587015b81fe6be514c4e34aca09781e8",
           "sha": "12101d5b587015b81fe6be514c4e34aca09781e8",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-09T16:42:00Z",
           "url": "https://github.com/superobk/microduck-startup/commit/7c322366f215b3e6cbdfd245aad410aaf91e1a20"
-        },
-        {
-          "id": "622bc69871569866105e2e8be922e53a8ac61c40",
-          "sha": "622bc69871569866105e2e8be922e53a8ac61c40",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-09T11:28:50Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/622bc69871569866105e2e8be922e53a8ac61c40"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
         "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
       },
-      "updated_at": "2026-09-11T10:49:57Z",
+      "updated_at": "2026-09-11T16:28:01Z",
       "pushed_at": "2026-09-10T15:46:06Z",
       "open_issues_count": 45,
       "commits": [
@@ -265,9 +265,9 @@
         "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
       },
-      "updated_at": "2026-09-11T10:49:25Z",
+      "updated_at": "2026-09-11T13:59:25Z",
       "pushed_at": "2026-09-10T15:54:27Z",
-      "open_issues_count": 34,
+      "open_issues_count": 35,
       "commits": [
         {
           "id": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
@@ -337,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "51",
+          "number": 51,
+          "title": "Add optional read-only MuJoCo visualization stream",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-11T12:44:53Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
+        },
+        {
           "id": "50",
           "number": 50,
           "title": "Approach-and-inspect task (Mjlab-ApproachInspect-*-MicroDuck)",
@@ -375,16 +385,6 @@
           "updated_at": "2026-09-07T14:25:48Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/43"
-        },
-        {
-          "id": "18",
-          "number": 18,
-          "title": "Add new scenes: simple, intermediate, complex, parkour, maze",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-07T05:41:15Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/18"
         }
       ],
       "issues": [
@@ -403,14 +403,6 @@
           "state": "open",
           "updated_at": "2026-09-10T13:06:48Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/47"
-        },
-        {
-          "id": "46",
-          "number": 46,
-          "title": "Velocity-family training converges to standing-in-place across all reward/curriculum variants — full diagnostic matrix",
-          "state": "open",
-          "updated_at": "2026-09-10T02:12:32Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/46"
         }
       ]
     },
@@ -422,7 +414,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-09-11T02:44:14Z",
+      "updated_at": "2026-09-11T15:44:59Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -463,7 +455,7 @@
         "sha": "7e4a121d7216d627b885035031e6665f2e52c643",
         "url": "https://github.com/fanhao375/microduck-replica/commit/7e4a121d7216d627b885035031e6665f2e52c643"
       },
-      "updated_at": "2026-09-11T09:30:53Z",
+      "updated_at": "2026-09-11T14:26:45Z",
       "pushed_at": "2026-09-10T08:46:09Z",
       "open_issues_count": 21,
       "commits": [
@@ -729,7 +721,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-11T08:17:02Z",
+      "updated_at": "2026-09-11T13:25:21Z",
       "pushed_at": "2026-09-11T09:55:22Z",
       "open_issues_count": 37,
       "commits": [
