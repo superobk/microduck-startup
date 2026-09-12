@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T04:40:22Z",
+  "generated_at": "2026-09-12T10:51:38Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5ed5e11397b99a4f38d78de92bc8df82904f4013",
-        "url": "https://github.com/superobk/microduck-startup/commit/5ed5e11397b99a4f38d78de92bc8df82904f4013"
+        "sha": "b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862",
+        "url": "https://github.com/superobk/microduck-startup/commit/b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862"
       },
-      "updated_at": "2026-09-11T21:00:22Z",
-      "pushed_at": "2026-09-11T21:00:18Z",
+      "updated_at": "2026-09-12T04:40:37Z",
+      "pushed_at": "2026-09-12T04:40:34Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862",
+          "sha": "b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-12T04:40:33Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862"
+        },
         {
           "id": "5ed5e11397b99a4f38d78de92bc8df82904f4013",
           "sha": "5ed5e11397b99a4f38d78de92bc8df82904f4013",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-10T11:25:16Z",
           "url": "https://github.com/superobk/microduck-startup/commit/16701abd5400f59c4b8717104447d6469fd847a3"
-        },
-        {
-          "id": "3bf69799832454ffe1dc7975764e838b431ad253",
-          "sha": "3bf69799832454ffe1dc7975764e838b431ad253",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-10T04:48:32Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/3bf69799832454ffe1dc7975764e838b431ad253"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
         "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
       },
-      "updated_at": "2026-09-12T04:33:18Z",
+      "updated_at": "2026-09-12T10:51:14Z",
       "pushed_at": "2026-09-10T15:46:06Z",
-      "open_issues_count": 46,
+      "open_issues_count": 52,
       "commits": [
         {
           "id": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
@@ -188,74 +188,57 @@
       ],
       "pulls": [
         {
-          "id": "271",
-          "number": 271,
-          "title": "sdk: a python client, so a script can fetch a frame and send an intent",
+          "id": "170",
+          "number": 170,
+          "title": "Shutdown must not stand the robot back up, and quack opens the beak",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-09-12T04:32:50Z",
+          "updated_at": "2026-09-12T08:43:20Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/271"
+          "url": "https://github.com/pollen-robotics/microduck/pull/170"
         },
         {
-          "id": "237",
-          "number": 237,
-          "title": "robotd: never start the homing ramp for a mode switch while limp",
+          "id": "277",
+          "number": 277,
+          "title": "padd: only the driving pad's buttons may act",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-09-11T10:23:06Z",
+          "updated_at": "2026-09-12T06:07:23Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/237"
+          "url": "https://github.com/pollen-robotics/microduck/pull/277"
         },
         {
-          "id": "269",
-          "number": 269,
-          "title": "duckctl: scp, with `:path` for the robot",
-          "state": "closed",
+          "id": "276",
+          "number": 276,
+          "title": "tof: back off before reopening the head IMU after a read failure",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-09-10T15:42:30Z",
-          "merged_at": "2026-09-10T15:42:27Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/269"
+          "updated_at": "2026-09-12T06:07:21Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/276"
         },
         {
-          "id": "267",
-          "number": 267,
-          "title": "The duck detector comes from the Hub, the way the policies do",
-          "state": "closed",
+          "id": "275",
+          "number": 275,
+          "title": "robotctl: the IMU panel goes away with a pad swap or a lost tap",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-09-10T15:39:30Z",
-          "merged_at": "2026-09-10T15:39:28Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/267"
+          "updated_at": "2026-09-12T06:07:19Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/275"
         },
         {
-          "id": "268",
-          "number": 268,
-          "title": "The valved H.264 sink held the whole pipeline in PAUSED, starving the…",
-          "state": "closed",
+          "id": "274",
+          "number": 274,
+          "title": "padd: an unreadable sibling does not end the IMU search",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-09-10T15:29:43Z",
-          "merged_at": "2026-09-10T15:29:40Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/268"
+          "updated_at": "2026-09-12T06:07:16Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/274"
         }
       ],
-      "issues": [
-        {
-          "id": "182",
-          "number": 182,
-          "title": "Shipping / availability in mainland China",
-          "state": "open",
-          "updated_at": "2026-09-11T10:11:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/182"
-        },
-        {
-          "id": "270",
-          "number": 270,
-          "title": "use  ubuntu22.04 Cross-compilation error",
-          "state": "open",
-          "updated_at": "2026-09-11T00:45:07Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/270"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -265,7 +248,7 @@
         "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
       },
-      "updated_at": "2026-09-12T04:27:21Z",
+      "updated_at": "2026-09-12T10:28:18Z",
       "pushed_at": "2026-09-10T15:54:27Z",
       "open_issues_count": 35,
       "commits": [
@@ -452,13 +435,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "7e4a121d7216d627b885035031e6665f2e52c643",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/7e4a121d7216d627b885035031e6665f2e52c643"
+        "sha": "c2d2ffefc133437add912961917fe5049a287a7b",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/c2d2ffefc133437add912961917fe5049a287a7b"
       },
-      "updated_at": "2026-09-12T03:17:36Z",
-      "pushed_at": "2026-09-10T08:46:09Z",
+      "updated_at": "2026-09-12T09:50:38Z",
+      "pushed_at": "2026-09-12T05:43:02Z",
       "open_issues_count": 21,
       "commits": [
+        {
+          "id": "c2d2ffefc133437add912961917fe5049a287a7b",
+          "sha": "c2d2ffefc133437add912961917fe5049a287a7b",
+          "message": "舵机到货：调试记录、踩坑记录、不打 HAT 方案、飞特调试软件入库",
+          "author": "fanhao375",
+          "date": "2026-09-12T05:43:01Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c2d2ffefc133437add912961917fe5049a287a7b"
+        },
         {
           "id": "7e4a121d7216d627b885035031e6665f2e52c643",
           "sha": "7e4a121d7216d627b885035031e6665f2e52c643",
@@ -514,14 +505,6 @@
           "author": "fanhao375",
           "date": "2026-09-08T08:42:15Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/cf347f2bff8ef8fe6a4dce8aa8411cab16f33e3c"
-        },
-        {
-          "id": "15d77163faf8ac0536f96991463e20cbf0cfa4d7",
-          "sha": "15d77163faf8ac0536f96991463e20cbf0cfa4d7",
-          "message": "按飞特 A/0 正式规格书更正舵机参数；晶振从 DNP 改为默认贴片",
-          "author": "fanhao375",
-          "date": "2026-09-08T08:42:04Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/15d77163faf8ac0536f96991463e20cbf0cfa4d7"
         }
       ],
       "releases": [
@@ -731,9 +714,9 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-12T03:27:52Z",
-      "pushed_at": "2026-09-11T09:55:22Z",
-      "open_issues_count": 37,
+      "updated_at": "2026-09-12T09:16:45Z",
+      "pushed_at": "2026-09-12T10:13:26Z",
+      "open_issues_count": 39,
       "commits": [
         {
           "id": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
@@ -828,6 +811,16 @@
       ],
       "pulls": [
         {
+          "id": "1181",
+          "number": 1181,
+          "title": "Extend contact history, add substep latch, fix stale cache",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-12T06:43:17Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1181"
+        },
+        {
           "id": "1172",
           "number": 1172,
           "title": "Fix BuiltinPdActuator ctrl layout when sort_actuators=True",
@@ -866,16 +859,6 @@
           "updated_at": "2026-08-28T18:43:15Z",
           "merged_at": "2026-08-28T18:43:14Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1169"
-        },
-        {
-          "id": "1167",
-          "number": 1167,
-          "title": "Cap wandb below 0.29 to fix crash on startup with --logger wandb",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-28T18:04:44Z",
-          "merged_at": "2026-08-28T18:04:44Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1167"
         }
       ],
       "issues": []
@@ -888,7 +871,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-11T01:34:47Z",
+      "updated_at": "2026-09-12T09:42:59Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 7,
       "commits": [
