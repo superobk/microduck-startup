@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T15:34:40Z",
+  "generated_at": "2026-09-12T20:36:08Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "783d7595ee2c95c196e365165f9c05b0eba9d287",
-        "url": "https://github.com/superobk/microduck-startup/commit/783d7595ee2c95c196e365165f9c05b0eba9d287"
+        "sha": "ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8",
+        "url": "https://github.com/superobk/microduck-startup/commit/ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8"
       },
-      "updated_at": "2026-09-12T10:51:53Z",
-      "pushed_at": "2026-09-12T10:51:50Z",
+      "updated_at": "2026-09-12T15:34:58Z",
+      "pushed_at": "2026-09-12T15:34:54Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8",
+          "sha": "ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-12T15:34:53Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8"
+        },
         {
           "id": "783d7595ee2c95c196e365165f9c05b0eba9d287",
           "sha": "783d7595ee2c95c196e365165f9c05b0eba9d287",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-10T20:55:15Z",
           "url": "https://github.com/superobk/microduck-startup/commit/d9d0c3b1fe1f1be83b45d1746248af67f0b203e0"
-        },
-        {
-          "id": "d0a0d71381a61e873d6b179abe58874190b5cb97",
-          "sha": "d0a0d71381a61e873d6b179abe58874190b5cb97",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-10T16:27:38Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/d0a0d71381a61e873d6b179abe58874190b5cb97"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
         "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
       },
-      "updated_at": "2026-09-12T15:25:23Z",
+      "updated_at": "2026-09-12T19:39:26Z",
       "pushed_at": "2026-09-10T15:46:06Z",
       "open_issues_count": 52,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
       },
-      "updated_at": "2026-09-12T14:37:40Z",
+      "updated_at": "2026-09-12T18:43:54Z",
       "pushed_at": "2026-09-10T15:54:27Z",
       "open_issues_count": 35,
       "commits": [
@@ -438,7 +438,7 @@
         "sha": "c2d2ffefc133437add912961917fe5049a287a7b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/c2d2ffefc133437add912961917fe5049a287a7b"
       },
-      "updated_at": "2026-09-12T14:57:49Z",
+      "updated_at": "2026-09-12T18:01:46Z",
       "pushed_at": "2026-09-12T05:43:02Z",
       "open_issues_count": 21,
       "commits": [
@@ -714,7 +714,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-12T14:40:25Z",
+      "updated_at": "2026-09-12T18:54:41Z",
       "pushed_at": "2026-09-12T10:13:26Z",
       "open_issues_count": 39,
       "commits": [
