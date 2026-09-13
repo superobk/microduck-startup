@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T04:52:53Z",
+  "generated_at": "2026-09-13T11:57:17Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "3c6823a17b613845bc8aad9a78232c607d22ac67",
-        "url": "https://github.com/superobk/microduck-startup/commit/3c6823a17b613845bc8aad9a78232c607d22ac67"
+        "sha": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
+        "url": "https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f"
       },
-      "updated_at": "2026-09-12T20:36:32Z",
-      "pushed_at": "2026-09-12T20:36:28Z",
+      "updated_at": "2026-09-13T04:53:08Z",
+      "pushed_at": "2026-09-13T04:53:05Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
+          "sha": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-13T04:53:04Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f"
+        },
         {
           "id": "3c6823a17b613845bc8aad9a78232c607d22ac67",
           "sha": "3c6823a17b613845bc8aad9a78232c607d22ac67",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-11T11:27:11Z",
           "url": "https://github.com/superobk/microduck-startup/commit/95357945a1268b8e57face8a33c963eaf7fb8e86"
-        },
-        {
-          "id": "12101d5b587015b81fe6be514c4e34aca09781e8",
-          "sha": "12101d5b587015b81fe6be514c4e34aca09781e8",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-11T04:45:53Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/12101d5b587015b81fe6be514c4e34aca09781e8"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
         "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
       },
-      "updated_at": "2026-09-13T04:19:34Z",
+      "updated_at": "2026-09-13T11:52:51Z",
       "pushed_at": "2026-09-10T15:46:06Z",
       "open_issues_count": 52,
       "commits": [
@@ -248,8 +248,8 @@
         "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
       },
-      "updated_at": "2026-09-12T18:43:54Z",
-      "pushed_at": "2026-09-10T15:54:27Z",
+      "updated_at": "2026-09-13T11:32:30Z",
+      "pushed_at": "2026-09-13T11:56:37Z",
       "open_issues_count": 35,
       "commits": [
         {
@@ -435,13 +435,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "f533679411d0ab4aee1fab2df8002df958965704",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/f533679411d0ab4aee1fab2df8002df958965704"
+        "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
       },
-      "updated_at": "2026-09-13T04:48:32Z",
-      "pushed_at": "2026-09-13T04:48:28Z",
+      "updated_at": "2026-09-13T10:39:05Z",
+      "pushed_at": "2026-09-13T08:40:45Z",
       "open_issues_count": 21,
       "commits": [
+        {
+          "id": "2aad5bb57bb085216351e78df5d464c14b80b524",
+          "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
+          "message": "cad/ 和 print/ 的路标加上图纸仓里的 Bambu Studio 3mf",
+          "author": "fanhao375",
+          "date": "2026-09-13T08:40:43Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
+        },
         {
           "id": "f533679411d0ab4aee1fab2df8002df958965704",
           "sha": "f533679411d0ab4aee1fab2df8002df958965704",
@@ -497,14 +505,6 @@
           "author": "fanhao375",
           "date": "2026-09-08T12:39:06Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/2edac7ba4a3a247126ca34061cc28b3cd91b3e93"
-        },
-        {
-          "id": "1c25baa867e7fd38d495004dcac655f6ca0a4df8",
-          "sha": "1c25baa867e7fd38d495004dcac655f6ca0a4df8",
-          "message": "加飞特 2.0mm 座子 J4/J5：两套舵机接口并存，脚序相反",
-          "author": "fanhao375",
-          "date": "2026-09-08T11:44:20Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/1c25baa867e7fd38d495004dcac655f6ca0a4df8"
         }
       ],
       "releases": [
@@ -714,8 +714,8 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-13T03:52:45Z",
-      "pushed_at": "2026-09-12T10:13:26Z",
+      "updated_at": "2026-09-13T11:44:10Z",
+      "pushed_at": "2026-09-13T09:55:21Z",
       "open_issues_count": 39,
       "commits": [
         {

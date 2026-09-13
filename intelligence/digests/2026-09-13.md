@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-13T04:52:53Z`
+Generated: `2026-09-13T11:57:17Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,29 +8,21 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `3c6823a17b61` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/3c6823a17b613845bc8aad9a78232c607d22ac67)
+- Commit `78300e81fd3f` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f)
 
 ### fanhao375/microduck-replica
 
-- Commit `f533679411d0` [加拓竹 MakerWorld 一键打印链接；cad/ 目录放路标；英文机械卡片同步](https://github.com/fanhao375/microduck-replica/commit/f533679411d0ab4aee1fab2df8002df958965704)
-- Commit `54e2923cb00b` [飞特 HD-1910 版装出来了；训练数据清单；调试手册补装机归零和分支；拨码改正](https://github.com/fanhao375/microduck-replica/commit/54e2923cb00b9b32a30d89ba5a1a443c8bedca1c)
-
-### joeynyc/awesome-microduck
-
-- Commit `c5dcf3d90361` [Add microdux](https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373)
-- Commit `dfc36b91c500` [Add the TorchRL skill policy, a container, a fly-circuit bridge and a course (#6)](https://github.com/joeynyc/awesome-microduck/commit/dfc36b91c50049593270c65ec72b7e3783b7b1a9)
-- PR #7 [Add microdux (rebase of #2 by @noahfarr)](https://github.com/joeynyc/awesome-microduck/pull/7) — closed
-- PR #6 [Add the TorchRL skill policy, a container, a fly-circuit bridge and a course](https://github.com/joeynyc/awesome-microduck/pull/6) — closed
+- Commit `2aad5bb57bb0` [cad/ 和 print/ 的路标加上图纸仓里的 Bambu Studio 3mf](https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [3c6823a17b61](https://github.com/superobk/microduck-startup/commit/3c6823a17b613845bc8aad9a78232c607d22ac67); pushed `2026-09-12T20:36:28Z`
+- **superobk/microduck-startup** `main` → [78300e81fd3f](https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f); pushed `2026-09-13T04:53:05Z`
 - **pollen-robotics/microduck** `main` → [6507d2e96041](https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2); pushed `2026-09-10T15:46:06Z`
-- **pollen-robotics/microduck_rl** `develop` → [53b8971b61ba](https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b); pushed `2026-09-10T15:54:27Z`
+- **pollen-robotics/microduck_rl** `develop` → [53b8971b61ba](https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b); pushed `2026-09-13T11:56:37Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [f533679411d0](https://github.com/fanhao375/microduck-replica/commit/f533679411d0ab4aee1fab2df8002df958965704); pushed `2026-09-13T04:48:28Z`
+- **fanhao375/microduck-replica** `master` → [2aad5bb57bb0](https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524); pushed `2026-09-13T08:40:45Z`
 - **joeynyc/awesome-microduck** `main` → [c5dcf3d90361](https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373); pushed `2026-09-13T02:14:14Z`
-- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-12T10:13:26Z`
+- **mujocolab/mjlab** `main` → [8ee51fbcf806](https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa); pushed `2026-09-13T09:55:21Z`
 - **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:38:40Z`
 
 ## Social feeds
