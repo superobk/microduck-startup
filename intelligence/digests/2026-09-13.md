@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-13T16:22:39Z`
+Generated: `2026-09-13T20:53:31Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,25 +8,11 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `5c9c6b409119` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/5c9c6b409119db4750ea9660e6227d1bde85eabd)
-
-### pollen-robotics/microduck
-
-- Release [daemon 0.12.0-dev.979.e9cca62 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `e9cca6272f63` [Merge pull request #278 from pollen-robotics/odom-anchor-sets](https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1)
-- Commit `dd0f8c221266` [odometry: ALPHA16 is the default anchor set](https://github.com/pollen-robotics/microduck/commit/dd0f8c221266132be75ac44426dcf7f9e5497b25)
-- Commit `09fd7e992b2c` [odometry: anchor sets sampled on the alpha sole mesh](https://github.com/pollen-robotics/microduck/commit/09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc)
-- PR #278 [Odom anchor sets](https://github.com/pollen-robotics/microduck/pull/278) — closed
-
-### pollen-robotics/microduck_rl
-
-- Commit `3412ae50e5e4` [Merge branch 'odom-anchor-viz' into develop](https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c)
-- Commit `b131352fc95b` [infer_policy: anchor sets on the sole mesh + --odom-compare](https://github.com/pollen-robotics/microduck_rl/commit/b131352fc95b767073a8c099442f44e5f6a5d3db)
-- Commit `7bb54adfa2a4` [infer_policy: --odom-anchor-points draws the odometry's sole corners](https://github.com/pollen-robotics/microduck_rl/commit/7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3)
+- Commit `9748b270676e` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/9748b270676e876dd5ee4138f77fc6c6aa3ad0a8)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [5c9c6b409119](https://github.com/superobk/microduck-startup/commit/5c9c6b409119db4750ea9660e6227d1bde85eabd); pushed `2026-09-13T11:57:31Z`
+- **superobk/microduck-startup** `main` → [9748b270676e](https://github.com/superobk/microduck-startup/commit/9748b270676e876dd5ee4138f77fc6c6aa3ad0a8); pushed `2026-09-13T16:22:59Z`
 - **pollen-robotics/microduck** `main` → [e9cca6272f63](https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1); pushed `2026-09-13T13:03:47Z`
 - **pollen-robotics/microduck_rl** `develop` → [3412ae50e5e4](https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c); pushed `2026-09-13T13:17:26Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
