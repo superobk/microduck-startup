@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T11:57:17Z",
+  "generated_at": "2026-09-13T16:22:39Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
-        "url": "https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f"
+        "sha": "5c9c6b409119db4750ea9660e6227d1bde85eabd",
+        "url": "https://github.com/superobk/microduck-startup/commit/5c9c6b409119db4750ea9660e6227d1bde85eabd"
       },
-      "updated_at": "2026-09-13T04:53:08Z",
-      "pushed_at": "2026-09-13T04:53:05Z",
+      "updated_at": "2026-09-13T11:57:35Z",
+      "pushed_at": "2026-09-13T11:57:31Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5c9c6b409119db4750ea9660e6227d1bde85eabd",
+          "sha": "5c9c6b409119db4750ea9660e6227d1bde85eabd",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-13T11:57:30Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5c9c6b409119db4750ea9660e6227d1bde85eabd"
+        },
         {
           "id": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
           "sha": "78300e81fd3fada2dbfa5507a5ce82bd4f948a9f",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-11T16:32:07Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2367c191ce3e9566222dfd99403fdeb5aef96c62"
-        },
-        {
-          "id": "95357945a1268b8e57face8a33c963eaf7fb8e86",
-          "sha": "95357945a1268b8e57face8a33c963eaf7fb8e86",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-11T11:27:11Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/95357945a1268b8e57face8a33c963eaf7fb8e86"
         }
       ],
       "releases": [],
@@ -88,13 +88,37 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
-        "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
+        "sha": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
+        "url": "https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1"
       },
-      "updated_at": "2026-09-13T11:52:51Z",
-      "pushed_at": "2026-09-10T15:46:06Z",
+      "updated_at": "2026-09-13T16:22:41Z",
+      "pushed_at": "2026-09-13T13:03:47Z",
       "open_issues_count": 52,
       "commits": [
+        {
+          "id": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
+          "sha": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
+          "message": "Merge pull request #278 from pollen-robotics/odom-anchor-sets",
+          "author": "apirrone",
+          "date": "2026-09-13T13:00:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1"
+        },
+        {
+          "id": "dd0f8c221266132be75ac44426dcf7f9e5497b25",
+          "sha": "dd0f8c221266132be75ac44426dcf7f9e5497b25",
+          "message": "odometry: ALPHA16 is the default anchor set",
+          "author": "apirrone",
+          "date": "2026-09-13T12:53:40Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/dd0f8c221266132be75ac44426dcf7f9e5497b25"
+        },
+        {
+          "id": "09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc",
+          "sha": "09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc",
+          "message": "odometry: anchor sets sampled on the alpha sole mesh",
+          "author": "apirrone",
+          "date": "2026-09-13T12:19:54Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc"
+        },
         {
           "id": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
           "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
@@ -134,33 +158,17 @@
           "author": "apirrone",
           "date": "2026-09-10T15:32:31Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/35edb84713ae47f4de5d74fedea6276cd4c7e915"
-        },
-        {
-          "id": "8bfe92fbe2306ea553dae55006698a4479a03844",
-          "sha": "8bfe92fbe2306ea553dae55006698a4479a03844",
-          "message": "Merge pull request #268 from pollen-robotics/raw-branch-starved",
-          "author": "apirrone",
-          "date": "2026-09-10T15:29:39Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/8bfe92fbe2306ea553dae55006698a4479a03844"
-        },
-        {
-          "id": "089269e9a7466db029889c5a32abee2118d40cf2",
-          "sha": "089269e9a7466db029889c5a32abee2118d40cf2",
-          "message": "Merge pull request #261 from pollen-robotics/cheap-test-pattern",
-          "author": "pierre-rouanet",
-          "date": "2026-09-10T15:26:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/089269e9a7466db029889c5a32abee2118d40cf2"
-        },
-        {
-          "id": "3d97b459fc11de93678c4cc38bc0e1eee484fb53",
-          "sha": "3d97b459fc11de93678c4cc38bc0e1eee484fb53",
-          "message": "The valved H.264 sink held the whole pipeline in PAUSED, starving the raw branch",
-          "author": "apirrone",
-          "date": "2026-09-10T15:10:03Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/3d97b459fc11de93678c4cc38bc0e1eee484fb53"
         }
       ],
       "releases": [
+        {
+          "id": "387902234",
+          "tag": "daemon-dev-main",
+          "name": "daemon 0.12.0-dev.979.e9cca62 (main)",
+          "published_at": "2026-09-13T13:03:47Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+        },
         {
           "id": "386138809",
           "tag": "daemon-v0.12.0",
@@ -176,17 +184,19 @@
           "published_at": "2026-09-10T14:06:53Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-rkaiq-supervision"
-        },
-        {
-          "id": "386418336",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.12.0-dev.976.6507d2e (main)",
-          "published_at": "2026-09-10T15:46:07Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
+        {
+          "id": "278",
+          "number": 278,
+          "title": "Odom anchor sets",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-13T13:00:25Z",
+          "merged_at": "2026-09-13T13:00:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/278"
+        },
         {
           "id": "170",
           "number": 170,
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-12T06:07:19Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/275"
-        },
-        {
-          "id": "274",
-          "number": 274,
-          "title": "padd: an unreadable sibling does not end the IMU search",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-12T06:07:16Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/274"
         }
       ],
       "issues": []
@@ -245,13 +245,37 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
+        "sha": "3412ae50e5e49baf8c638c80734deb140e30101c",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c"
       },
-      "updated_at": "2026-09-13T11:32:30Z",
-      "pushed_at": "2026-09-13T11:56:37Z",
+      "updated_at": "2026-09-13T15:49:55Z",
+      "pushed_at": "2026-09-13T13:17:26Z",
       "open_issues_count": 35,
       "commits": [
+        {
+          "id": "3412ae50e5e49baf8c638c80734deb140e30101c",
+          "sha": "3412ae50e5e49baf8c638c80734deb140e30101c",
+          "message": "Merge branch 'odom-anchor-viz' into develop",
+          "author": "apirrone",
+          "date": "2026-09-13T12:54:58Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c"
+        },
+        {
+          "id": "b131352fc95b767073a8c099442f44e5f6a5d3db",
+          "sha": "b131352fc95b767073a8c099442f44e5f6a5d3db",
+          "message": "infer_policy: anchor sets on the sole mesh + --odom-compare",
+          "author": "apirrone",
+          "date": "2026-09-13T12:18:33Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/b131352fc95b767073a8c099442f44e5f6a5d3db"
+        },
+        {
+          "id": "7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3",
+          "sha": "7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3",
+          "message": "infer_policy: --odom-anchor-points draws the odometry's sole corners",
+          "author": "apirrone",
+          "date": "2026-09-13T11:56:35Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3"
+        },
         {
           "id": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
           "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
@@ -291,30 +315,6 @@
           "author": "apirrone",
           "date": "2026-09-06T13:51:11Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/3331203431341f207f3f7ea8ebf1b0f1d966a889"
-        },
-        {
-          "id": "43bf151d57ac963c6cd3e945af416dc4d39c81ec",
-          "sha": "43bf151d57ac963c6cd3e945af416dc4d39c81ec",
-          "message": "The head camera faces backwards; turn it about the right axis",
-          "author": "apirrone",
-          "date": "2026-09-02T20:55:18Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/43bf151d57ac963c6cd3e945af416dc4d39c81ec"
-        },
-        {
-          "id": "580f0d8596a573bd2efe1fb56dec3528416d1a81",
-          "sha": "580f0d8596a573bd2efe1fb56dec3528416d1a81",
-          "message": "The head camera faces backwards; turn it around",
-          "author": "apirrone",
-          "date": "2026-09-02T20:54:03Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/580f0d8596a573bd2efe1fb56dec3528416d1a81"
-        },
-        {
-          "id": "a52752e4a629f8404ea18a443ad5a685169a89ff",
-          "sha": "a52752e4a629f8404ea18a443ad5a685169a89ff",
-          "message": "Run a forward pass before anything can ask, and never hand mj_ray a zero",
-          "author": "apirrone",
-          "date": "2026-09-02T20:47:55Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/a52752e4a629f8404ea18a443ad5a685169a89ff"
         }
       ],
       "releases": [],
@@ -438,7 +438,7 @@
         "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
         "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
       },
-      "updated_at": "2026-09-13T10:39:05Z",
+      "updated_at": "2026-09-13T16:09:16Z",
       "pushed_at": "2026-09-13T08:40:45Z",
       "open_issues_count": 21,
       "commits": [
@@ -582,7 +582,7 @@
         "sha": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373"
       },
-      "updated_at": "2026-09-13T02:14:17Z",
+      "updated_at": "2026-09-13T16:14:17Z",
       "pushed_at": "2026-09-13T02:14:14Z",
       "open_issues_count": 0,
       "commits": [
@@ -714,7 +714,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-13T11:44:10Z",
+      "updated_at": "2026-09-13T15:42:30Z",
       "pushed_at": "2026-09-13T09:55:21Z",
       "open_issues_count": 39,
       "commits": [
