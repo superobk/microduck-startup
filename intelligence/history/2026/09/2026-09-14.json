@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T05:01:22Z",
+  "generated_at": "2026-09-14T12:54:34Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "24cfa30156de548a1585947ff96008aba1c8e383",
-        "url": "https://github.com/superobk/microduck-startup/commit/24cfa30156de548a1585947ff96008aba1c8e383"
+        "sha": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
+        "url": "https://github.com/superobk/microduck-startup/commit/0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe"
       },
-      "updated_at": "2026-09-13T20:53:54Z",
-      "pushed_at": "2026-09-13T20:53:51Z",
+      "updated_at": "2026-09-14T05:01:38Z",
+      "pushed_at": "2026-09-14T05:01:35Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
+          "sha": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-14T05:01:33Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe"
+        },
         {
           "id": "24cfa30156de548a1585947ff96008aba1c8e383",
           "sha": "24cfa30156de548a1585947ff96008aba1c8e383",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-12T10:51:49Z",
           "url": "https://github.com/superobk/microduck-startup/commit/783d7595ee2c95c196e365165f9c05b0eba9d287"
-        },
-        {
-          "id": "b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862",
-          "sha": "b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-12T04:40:33Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/b9d19bf3e1dcae6ce1efa7fbc9ca11b490fdf862"
         }
       ],
       "releases": [],
@@ -88,154 +88,154 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
-        "url": "https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1"
+        "sha": "67a19637ee1018088fb6c72c48a9e287949ff7de",
+        "url": "https://github.com/pollen-robotics/microduck/commit/67a19637ee1018088fb6c72c48a9e287949ff7de"
       },
-      "updated_at": "2026-09-14T04:55:47Z",
-      "pushed_at": "2026-09-13T13:03:47Z",
-      "open_issues_count": 52,
+      "updated_at": "2026-09-14T12:44:28Z",
+      "pushed_at": "2026-09-14T12:49:43Z",
+      "open_issues_count": 46,
       "commits": [
         {
-          "id": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
-          "sha": "e9cca6272f633dd9054dd0e021f356fe086e5be1",
-          "message": "Merge pull request #278 from pollen-robotics/odom-anchor-sets",
-          "author": "apirrone",
-          "date": "2026-09-13T13:00:23Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/e9cca6272f633dd9054dd0e021f356fe086e5be1"
-        },
-        {
-          "id": "dd0f8c221266132be75ac44426dcf7f9e5497b25",
-          "sha": "dd0f8c221266132be75ac44426dcf7f9e5497b25",
-          "message": "odometry: ALPHA16 is the default anchor set",
-          "author": "apirrone",
-          "date": "2026-09-13T12:53:40Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/dd0f8c221266132be75ac44426dcf7f9e5497b25"
-        },
-        {
-          "id": "09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc",
-          "sha": "09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc",
-          "message": "odometry: anchor sets sampled on the alpha sole mesh",
-          "author": "apirrone",
-          "date": "2026-09-13T12:19:54Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/09fd7e992b2c62aa9753e5bebf1dfd6a2fac76bc"
-        },
-        {
-          "id": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
-          "sha": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
-          "message": "Merge pull request #269 from pollen-robotics/duckctl-scp",
+          "id": "67a19637ee1018088fb6c72c48a9e287949ff7de",
+          "sha": "67a19637ee1018088fb6c72c48a9e287949ff7de",
+          "message": "Merge pull request #286 from pollen-robotics/btd-netconnect-comment",
           "author": "pierre-rouanet",
-          "date": "2026-09-10T15:42:27Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2"
+          "date": "2026-09-14T12:44:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/67a19637ee1018088fb6c72c48a9e287949ff7de"
         },
         {
-          "id": "50de863b6c46d246803b9b372ff94bfbdd9b8fef",
-          "sha": "50de863b6c46d246803b9b372ff94bfbdd9b8fef",
-          "message": "Merge pull request #267 from pollen-robotics/detector-from-hub",
-          "author": "apirrone",
-          "date": "2026-09-10T15:39:28Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/50de863b6c46d246803b9b372ff94bfbdd9b8fef"
-        },
-        {
-          "id": "773a67dca564fff1baca1884d3780261b12171fa",
-          "sha": "773a67dca564fff1baca1884d3780261b12171fa",
-          "message": "duckctl: scp, with `:path` for the robot",
+          "id": "39c38f98fe1e506bea02f587b65f5f234f021236",
+          "sha": "39c38f98fe1e506bea02f587b65f5f234f021236",
+          "message": "btd: net.connect does not travel over an authenticated link, and the comment said it did",
           "author": "pierre-rouanet",
-          "date": "2026-09-10T15:27:12Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/773a67dca564fff1baca1884d3780261b12171fa"
+          "date": "2026-09-14T12:40:45Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/39c38f98fe1e506bea02f587b65f5f234f021236"
         },
         {
-          "id": "006de197d2768c0e01c11f6bade2e54e038731c2",
-          "sha": "006de197d2768c0e01c11f6bade2e54e038731c2",
-          "message": "ci: shellcheck seed-detector.sh with the other release scripts",
-          "author": "apirrone",
-          "date": "2026-09-10T15:32:47Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/006de197d2768c0e01c11f6bade2e54e038731c2"
+          "id": "0e6a759a9d799f85c9ea77c41290337036ce534f",
+          "sha": "0e6a759a9d799f85c9ea77c41290337036ce534f",
+          "message": "Merge pull request #241 from larai-w/feat/media-frame",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T12:25:14Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/0e6a759a9d799f85c9ea77c41290337036ce534f"
         },
         {
-          "id": "35edb84713ae47f4de5d74fedea6276cd4c7e915",
-          "sha": "35edb84713ae47f4de5d74fedea6276cd4c7e915",
-          "message": "Merge remote-tracking branch 'origin/main' into detector-from-hub",
-          "author": "apirrone",
-          "date": "2026-09-10T15:32:31Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/35edb84713ae47f4de5d74fedea6276cd4c7e915"
+          "id": "f23ad80ffb12ccc1c96478d5ba5f1428822a0f8e",
+          "sha": "f23ad80ffb12ccc1c96478d5ba5f1428822a0f8e",
+          "message": "mediad: pass the mount angle at the two test call sites that miss it",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T12:18:19Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/f23ad80ffb12ccc1c96478d5ba5f1428822a0f8e"
+        },
+        {
+          "id": "e68ca8d68c8fe87f8538634e3388756ccb4ca75d",
+          "sha": "e68ca8d68c8fe87f8538634e3388756ccb4ca75d",
+          "message": "Merge pull request #284 from pollen-robotics/publish-space-staleness",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T12:11:44Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/e68ca8d68c8fe87f8538634e3388756ccb4ca75d"
+        },
+        {
+          "id": "785614539b14d11e58082cc6ca6d23b9f44003d2",
+          "sha": "785614539b14d11e58082cc6ca6d23b9f44003d2",
+          "message": "media.frame: carry the mount angle, and serve an upright PNG",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T12:07:35Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/785614539b14d11e58082cc6ca6d23b9f44003d2"
+        },
+        {
+          "id": "9d17d6de832ff1a68b6f7c7bc5f80ee5fa4bebd6",
+          "sha": "9d17d6de832ff1a68b6f7c7bc5f80ee5fa4bebd6",
+          "message": "\"Already serves this\" was indistinguishable from success",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T12:07:12Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/9d17d6de832ff1a68b6f7c7bc5f80ee5fa4bebd6"
+        },
+        {
+          "id": "a180788e74d32d29c48b3f0cf689d059d341f0a9",
+          "sha": "a180788e74d32d29c48b3f0cf689d059d341f0a9",
+          "message": "Merge remote-tracking branch 'origin/main' into feat/media-frame",
+          "author": "pierre-rouanet",
+          "date": "2026-09-14T11:48:31Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/a180788e74d32d29c48b3f0cf689d059d341f0a9"
         }
       ],
       "releases": [
         {
-          "id": "387902234",
+          "id": "388391402",
+          "tag": "daemon-dev-typed-policy-spec",
+          "name": "daemon 0.12.0-dev.1002.6468f62 (typed-policy-spec)",
+          "published_at": "2026-09-14T12:48:17Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec"
+        },
+        {
+          "id": "388392363",
+          "tag": "daemon-dev-roller-policy-slots",
+          "name": "daemon 0.12.0-dev.1003.a256864 (roller-policy-slots)",
+          "published_at": "2026-09-14T12:49:43Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-policy-slots"
+        },
+        {
+          "id": "388391149",
           "tag": "daemon-dev-main",
-          "name": "daemon 0.12.0-dev.979.e9cca62 (main)",
-          "published_at": "2026-09-13T13:03:47Z",
+          "name": "daemon 0.12.0-dev.1001.67a1963 (main)",
+          "published_at": "2026-09-14T12:47:51Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
-        },
-        {
-          "id": "386138809",
-          "tag": "daemon-v0.12.0",
-          "name": "daemon 0.12.0",
-          "published_at": "2026-09-10T09:09:45Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.12.0"
-        },
-        {
-          "id": "386339057",
-          "tag": "daemon-dev-rkaiq-supervision",
-          "name": "daemon 0.12.0-dev.965.2dc6f7d (rkaiq-supervision)",
-          "published_at": "2026-09-10T14:06:53Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-rkaiq-supervision"
         }
       ],
       "pulls": [
         {
-          "id": "278",
-          "number": 278,
-          "title": "Odom anchor sets",
+          "id": "285",
+          "number": 285,
+          "title": "policy-playground: the Space gets its name, and a box for what the search misses",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-14T12:48:36Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/285"
+        },
+        {
+          "id": "286",
+          "number": 286,
+          "title": "btd: net.connect does not travel over an authenticated link, and the comment said it did",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-13T13:00:25Z",
-          "merged_at": "2026-09-13T13:00:23Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/278"
+          "updated_at": "2026-09-14T12:45:18Z",
+          "merged_at": "2026-09-14T12:44:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/286"
         },
         {
-          "id": "170",
-          "number": 170,
-          "title": "Shutdown must not stand the robot back up, and quack opens the beak",
+          "id": "107",
+          "number": 107,
+          "title": "docs: the phone app, before the first line of it",
           "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-12T08:43:20Z",
+          "draft": true,
+          "updated_at": "2026-09-14T12:43:44Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/170"
+          "url": "https://github.com/pollen-robotics/microduck/pull/107"
         },
         {
-          "id": "277",
-          "number": 277,
-          "title": "padd: only the driving pad's buttons may act",
-          "state": "open",
+          "id": "241",
+          "number": 241,
+          "title": "mediad: fresh snapshots through robotctl and console HTTP",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-12T06:07:23Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/277"
+          "updated_at": "2026-09-14T12:25:15Z",
+          "merged_at": "2026-09-14T12:25:15Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/241"
         },
         {
-          "id": "276",
-          "number": 276,
-          "title": "tof: back off before reopening the head IMU after a read failure",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-12T06:07:21Z",
+          "id": "223",
+          "number": 223,
+          "title": "A demo Space that processes the duck's camera, and what it measured",
+          "state": "closed",
+          "draft": true,
+          "updated_at": "2026-09-14T12:12:13Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/276"
-        },
-        {
-          "id": "275",
-          "number": 275,
-          "title": "robotctl: the IMU panel goes away with a pad swap or a lost tap",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-12T06:07:19Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/275"
+          "url": "https://github.com/pollen-robotics/microduck/pull/223"
         }
       ],
       "issues": []
@@ -245,13 +245,53 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "3412ae50e5e49baf8c638c80734deb140e30101c",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c"
+        "sha": "cb70b792312d559a4da09064d92009079671815f",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-14T04:41:03Z",
-      "pushed_at": "2026-09-13T13:17:26Z",
+      "updated_at": "2026-09-14T12:23:16Z",
+      "pushed_at": "2026-09-14T12:33:17Z",
       "open_issues_count": 35,
       "commits": [
+        {
+          "id": "cb70b792312d559a4da09064d92009079671815f",
+          "sha": "cb70b792312d559a4da09064d92009079671815f",
+          "message": "Revert \"fix yaw cmd\"",
+          "author": "apirrone",
+          "date": "2026-09-14T12:22:01Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
+        },
+        {
+          "id": "dc17d0236c5da9d18c383297b86fac127b1009f7",
+          "sha": "dc17d0236c5da9d18c383297b86fac127b1009f7",
+          "message": "fix yaw cmd",
+          "author": "apirrone",
+          "date": "2026-09-14T08:34:07Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/dc17d0236c5da9d18c383297b86fac127b1009f7"
+        },
+        {
+          "id": "e40fbda02332d726236dbe3b6ac1c9d462b2f615",
+          "sha": "e40fbda02332d726236dbe3b6ac1c9d462b2f615",
+          "message": "fix rough backlash velstand",
+          "author": "apirrone",
+          "date": "2026-09-13T13:17:24Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/e40fbda02332d726236dbe3b6ac1c9d462b2f615"
+        },
+        {
+          "id": "228732dfd99ff9f9e862181e10b466e146a91c8e",
+          "sha": "228732dfd99ff9f9e862181e10b466e146a91c8e",
+          "message": "fix rough backlash velstand",
+          "author": "apirrone",
+          "date": "2026-09-13T13:13:27Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/228732dfd99ff9f9e862181e10b466e146a91c8e"
+        },
+        {
+          "id": "ab33976d92d576725ec55618acccd62a6552c8be",
+          "sha": "ab33976d92d576725ec55618acccd62a6552c8be",
+          "message": "Merge branch 'develop' into protective_fall",
+          "author": "apirrone",
+          "date": "2026-09-13T13:02:35Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/ab33976d92d576725ec55618acccd62a6552c8be"
+        },
         {
           "id": "3412ae50e5e49baf8c638c80734deb140e30101c",
           "sha": "3412ae50e5e49baf8c638c80734deb140e30101c",
@@ -275,46 +315,6 @@
           "author": "apirrone",
           "date": "2026-09-13T11:56:35Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3"
-        },
-        {
-          "id": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
-          "sha": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
-          "message": "new appartment",
-          "author": "apirrone",
-          "date": "2026-09-09T09:04:44Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/53b8971b61baf5b7f3c16d135dd7cac37623de4b"
-        },
-        {
-          "id": "2b581c641406a48346e696212930ea881c222c52",
-          "sha": "2b581c641406a48346e696212930ea881c222c52",
-          "message": "vslam scene",
-          "author": "apirrone",
-          "date": "2026-09-08T14:54:49Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/2b581c641406a48346e696212930ea881c222c52"
-        },
-        {
-          "id": "025884f6560beec7f10748f9716729027fffdce3",
-          "sha": "025884f6560beec7f10748f9716729027fffdce3",
-          "message": "apartment: dense non-repeating texture on walls+floor for visual SLAM",
-          "author": "apirrone",
-          "date": "2026-09-07T12:40:36Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/025884f6560beec7f10748f9716729027fffdce3"
-        },
-        {
-          "id": "2b25a48b08f1f17bc38c90bb03144c81fbd9ed07",
-          "sha": "2b25a48b08f1f17bc38c90bb03144c81fbd9ed07",
-          "message": "apartment: 1.6 m walls so the camera never sees the skybox",
-          "author": "apirrone",
-          "date": "2026-09-06T16:16:00Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/2b25a48b08f1f17bc38c90bb03144c81fbd9ed07"
-        },
-        {
-          "id": "3331203431341f207f3f7ea8ebf1b0f1d966a889",
-          "sha": "3331203431341f207f3f7ea8ebf1b0f1d966a889",
-          "message": "apartment: walls with texture, floors with contrast, so a camera has something to track",
-          "author": "apirrone",
-          "date": "2026-09-06T13:51:11Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/3331203431341f207f3f7ea8ebf1b0f1d966a889"
         }
       ],
       "releases": [],
@@ -372,20 +372,20 @@
       ],
       "issues": [
         {
+          "id": "47",
+          "number": 47,
+          "title": "Make all policies behave when the robot is handled",
+          "state": "open",
+          "updated_at": "2026-09-14T11:46:00Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/47"
+        },
+        {
           "id": "48",
           "number": 48,
           "title": "Manufacturing CAD for the printed parts: STEP exports or a link-shareable Onshape document?",
           "state": "open",
           "updated_at": "2026-09-10T23:39:22Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/48"
-        },
-        {
-          "id": "47",
-          "number": 47,
-          "title": "Make all policies behave when the robot is handled",
-          "state": "open",
-          "updated_at": "2026-09-10T13:06:48Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/47"
         }
       ]
     },
@@ -438,9 +438,9 @@
         "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
         "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
       },
-      "updated_at": "2026-09-14T04:07:00Z",
+      "updated_at": "2026-09-14T12:34:19Z",
       "pushed_at": "2026-09-13T08:40:45Z",
-      "open_issues_count": 21,
+      "open_issues_count": 22,
       "commits": [
         {
           "id": "2aad5bb57bb085216351e78df5d464c14b80b524",
@@ -541,6 +541,22 @@
       ],
       "issues": [
         {
+          "id": "20",
+          "number": 20,
+          "title": "群满了",
+          "state": "open",
+          "updated_at": "2026-09-14T07:24:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/20"
+        },
+        {
+          "id": "23",
+          "number": 23,
+          "title": "结构图的问题",
+          "state": "open",
+          "updated_at": "2026-09-14T05:39:51Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/23"
+        },
+        {
           "id": "22",
           "number": 22,
           "title": "在线养鸭子，不方便查看的结构直观看",
@@ -555,22 +571,6 @@
           "state": "open",
           "updated_at": "2026-09-10T07:07:55Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/21"
-        },
-        {
-          "id": "20",
-          "number": 20,
-          "title": "群满了",
-          "state": "open",
-          "updated_at": "2026-09-08T08:49:22Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/20"
-        },
-        {
-          "id": "19",
-          "number": 19,
-          "title": "有人考虑飞特的 HD-1910-C001 吗？",
-          "state": "closed",
-          "updated_at": "2026-09-07T21:39:51Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/19"
         }
       ]
     },
@@ -582,7 +582,7 @@
         "sha": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373"
       },
-      "updated_at": "2026-09-13T16:31:30Z",
+      "updated_at": "2026-09-14T08:29:23Z",
       "pushed_at": "2026-09-13T02:14:14Z",
       "open_issues_count": 0,
       "commits": [
@@ -714,8 +714,8 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-14T04:45:18Z",
-      "pushed_at": "2026-09-13T09:55:21Z",
+      "updated_at": "2026-09-14T11:32:55Z",
+      "pushed_at": "2026-09-14T10:15:23Z",
       "open_issues_count": 39,
       "commits": [
         {
@@ -871,7 +871,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-12T14:45:12Z",
+      "updated_at": "2026-09-14T09:24:27Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 7,
       "commits": [
