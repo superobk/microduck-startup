@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T12:54:34Z",
+  "generated_at": "2026-09-14T21:52:20Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
-        "url": "https://github.com/superobk/microduck-startup/commit/0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe"
+        "sha": "a6c661313f7e108c3ef6b71cc4ecabb02154e6f5",
+        "url": "https://github.com/superobk/microduck-startup/commit/a6c661313f7e108c3ef6b71cc4ecabb02154e6f5"
       },
-      "updated_at": "2026-09-14T05:01:38Z",
-      "pushed_at": "2026-09-14T05:01:35Z",
+      "updated_at": "2026-09-14T12:54:59Z",
+      "pushed_at": "2026-09-14T12:54:54Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a6c661313f7e108c3ef6b71cc4ecabb02154e6f5",
+          "sha": "a6c661313f7e108c3ef6b71cc4ecabb02154e6f5",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-14T12:54:53Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/a6c661313f7e108c3ef6b71cc4ecabb02154e6f5"
+        },
         {
           "id": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
           "sha": "0ce00ffeb2c5fb8e1729f71a74699d418bbc35fe",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-12T15:34:53Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ba5b3a9cbdfd50abbf36994f497fa0948aeea2d8"
-        },
-        {
-          "id": "783d7595ee2c95c196e365165f9c05b0eba9d287",
-          "sha": "783d7595ee2c95c196e365165f9c05b0eba9d287",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-12T10:51:49Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/783d7595ee2c95c196e365165f9c05b0eba9d287"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "67a19637ee1018088fb6c72c48a9e287949ff7de",
         "url": "https://github.com/pollen-robotics/microduck/commit/67a19637ee1018088fb6c72c48a9e287949ff7de"
       },
-      "updated_at": "2026-09-14T12:44:28Z",
-      "pushed_at": "2026-09-14T12:49:43Z",
+      "updated_at": "2026-09-14T20:44:35Z",
+      "pushed_at": "2026-09-14T13:16:05Z",
       "open_issues_count": 46,
       "commits": [
         {
@@ -162,10 +162,10 @@
       ],
       "releases": [
         {
-          "id": "388391402",
+          "id": "388410335",
           "tag": "daemon-dev-typed-policy-spec",
-          "name": "daemon 0.12.0-dev.1002.6468f62 (typed-policy-spec)",
-          "published_at": "2026-09-14T12:48:17Z",
+          "name": "daemon 0.12.0-dev.1005.f1bbd8d (typed-policy-spec)",
+          "published_at": "2026-09-14T13:16:06Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec"
         },
@@ -193,7 +193,7 @@
           "title": "policy-playground: the Space gets its name, and a box for what the search misses",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-09-14T12:48:36Z",
+          "updated_at": "2026-09-14T13:16:36Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/285"
         },
@@ -248,8 +248,8 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-14T12:23:16Z",
-      "pushed_at": "2026-09-14T12:33:17Z",
+      "updated_at": "2026-09-14T19:35:11Z",
+      "pushed_at": "2026-09-14T17:19:34Z",
       "open_issues_count": 35,
       "commits": [
         {
@@ -435,13 +435,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
+        "sha": "0eb02b4a34b2d3c0d005fddd5647b941197c30a5",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0eb02b4a34b2d3c0d005fddd5647b941197c30a5"
       },
-      "updated_at": "2026-09-14T12:34:19Z",
-      "pushed_at": "2026-09-13T08:40:45Z",
-      "open_issues_count": 22,
+      "updated_at": "2026-09-14T18:19:23Z",
+      "pushed_at": "2026-09-14T17:37:33Z",
+      "open_issues_count": 24,
       "commits": [
+        {
+          "id": "0eb02b4a34b2d3c0d005fddd5647b941197c30a5",
+          "sha": "0eb02b4a34b2d3c0d005fddd5647b941197c30a5",
+          "message": "群二维码文件改名绕开 GitHub 图片缓存；补「一群到五群已满」那句",
+          "author": "fanhao375",
+          "date": "2026-09-14T17:37:31Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0eb02b4a34b2d3c0d005fddd5647b941197c30a5"
+        },
+        {
+          "id": "658b3b8e88c8b38b36dfa1e27717e02383a4c7a7",
+          "sha": "658b3b8e88c8b38b36dfa1e27717e02383a4c7a7",
+          "message": "换群二维码：鸭子复刻群 6，有效期到 2026-09-22",
+          "author": "fanhao375",
+          "date": "2026-09-14T17:35:13Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/658b3b8e88c8b38b36dfa1e27717e02383a4c7a7"
+        },
         {
           "id": "2aad5bb57bb085216351e78df5d464c14b80b524",
           "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
@@ -489,22 +505,6 @@
           "author": "fanhao375",
           "date": "2026-09-09T06:07:10Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/0f7955226b4a30ef5439e74136eca88b42f1f752"
-        },
-        {
-          "id": "a1f4979c425bd9228622be89f2bfa4d1de7fbde3",
-          "sha": "a1f4979c425bd9228622be89f2bfa4d1de7fbde3",
-          "message": "刷新 PCB / 原理图 PDF、STEP 与原理图 PNG 到含 J4/J5 的最终版",
-          "author": "fanhao375",
-          "date": "2026-09-08T12:45:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/a1f4979c425bd9228622be89f2bfa4d1de7fbde3"
-        },
-        {
-          "id": "2edac7ba4a3a247126ca34061cc28b3cd91b3e93",
-          "sha": "2edac7ba4a3a247126ca34061cc28b3cd91b3e93",
-          "message": "更新 .eprj2 到含 J4/J5 的最终版；PDF 与 STEP 仍待重导",
-          "author": "fanhao375",
-          "date": "2026-09-08T12:39:06Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2edac7ba4a3a247126ca34061cc28b3cd91b3e93"
         }
       ],
       "releases": [
@@ -541,6 +541,22 @@
       ],
       "issues": [
         {
+          "id": "25",
+          "number": 25,
+          "title": "Current walking progress and recommended hardware for a new build",
+          "state": "open",
+          "updated_at": "2026-09-14T15:37:24Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/25"
+        },
+        {
+          "id": "24",
+          "number": 24,
+          "title": "群满了",
+          "state": "open",
+          "updated_at": "2026-09-14T13:29:33Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/24"
+        },
+        {
           "id": "20",
           "number": 20,
           "title": "群满了",
@@ -563,14 +579,6 @@
           "state": "open",
           "updated_at": "2026-09-10T11:31:06Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/22"
-        },
-        {
-          "id": "21",
-          "number": 21,
-          "title": "Robotis 美国官网不能邮寄国内吧",
-          "state": "open",
-          "updated_at": "2026-09-10T07:07:55Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/21"
         }
       ]
     },
@@ -714,9 +722,9 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-14T11:32:55Z",
+      "updated_at": "2026-09-14T19:55:54Z",
       "pushed_at": "2026-09-14T10:15:23Z",
-      "open_issues_count": 39,
+      "open_issues_count": 40,
       "commits": [
         {
           "id": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
@@ -811,6 +819,16 @@
       ],
       "pulls": [
         {
+          "id": "1183",
+          "number": 1183,
+          "title": "Add Chinese documentation with bilingual (EN/中文) site switching",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-14T13:27:57Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1183"
+        },
+        {
           "id": "1181",
           "number": 1181,
           "title": "Extend contact history, add substep latch, fix stale cache",
@@ -849,16 +867,6 @@
           "updated_at": "2026-08-31T17:09:11Z",
           "merged_at": "2026-08-31T17:09:11Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1173"
-        },
-        {
-          "id": "1169",
-          "number": 1169,
-          "title": "Fix sample_gaussian ignoring size when mean and std are tensors.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-28T18:43:15Z",
-          "merged_at": "2026-08-28T18:43:14Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1169"
         }
       ],
       "issues": []
