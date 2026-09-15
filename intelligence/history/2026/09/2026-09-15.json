@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T17:03:08Z",
+  "generated_at": "2026-09-15T21:24:38Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "89f2e04ee4c1c073ae8ec0ac002713793696483d",
-        "url": "https://github.com/superobk/microduck-startup/commit/89f2e04ee4c1c073ae8ec0ac002713793696483d"
+        "sha": "dbee7bc2260671f3c7c87a42e6c3145d070894d7",
+        "url": "https://github.com/superobk/microduck-startup/commit/dbee7bc2260671f3c7c87a42e6c3145d070894d7"
       },
-      "updated_at": "2026-09-15T11:49:30Z",
-      "pushed_at": "2026-09-15T11:49:26Z",
+      "updated_at": "2026-09-15T17:03:31Z",
+      "pushed_at": "2026-09-15T17:03:27Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "dbee7bc2260671f3c7c87a42e6c3145d070894d7",
+          "sha": "dbee7bc2260671f3c7c87a42e6c3145d070894d7",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-15T17:03:25Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/dbee7bc2260671f3c7c87a42e6c3145d070894d7"
+        },
         {
           "id": "89f2e04ee4c1c073ae8ec0ac002713793696483d",
           "sha": "89f2e04ee4c1c073ae8ec0ac002713793696483d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-13T16:22:58Z",
           "url": "https://github.com/superobk/microduck-startup/commit/9748b270676e876dd5ee4138f77fc6c6aa3ad0a8"
-        },
-        {
-          "id": "5c9c6b409119db4750ea9660e6227d1bde85eabd",
-          "sha": "5c9c6b409119db4750ea9660e6227d1bde85eabd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-13T11:57:30Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5c9c6b409119db4750ea9660e6227d1bde85eabd"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "fead66bb21195971fcbb2858a19b1e290a9f2031",
         "url": "https://github.com/pollen-robotics/microduck/commit/fead66bb21195971fcbb2858a19b1e290a9f2031"
       },
-      "updated_at": "2026-09-15T15:49:35Z",
+      "updated_at": "2026-09-15T21:05:48Z",
       "pushed_at": "2026-09-15T15:54:35Z",
-      "open_issues_count": 49,
+      "open_issues_count": 48,
       "commits": [
         {
           "id": "fead66bb21195971fcbb2858a19b1e290a9f2031",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "202",
+          "number": 202,
+          "title": "maploc on the MuJoCo twin: a mirrored sensor, a fall at enable, and a route steered on stale odometry",
+          "state": "closed",
+          "draft": true,
+          "updated_at": "2026-09-15T19:32:29Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/202"
+        },
+        {
           "id": "293",
           "number": 293,
           "title": "duck-ble: the wire contract, extracted now that a second client wants it",
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-15T12:56:40Z",
           "merged_at": "2026-09-15T12:56:37Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/290"
-        },
-        {
-          "id": "107",
-          "number": 107,
-          "title": "docs: the phone app, before the first line of it",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-09-15T12:56:30Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/107"
         }
       ],
       "issues": [
@@ -439,7 +439,7 @@
         "sha": "62e569fc0675b1e0651837de163d4a56d7277d2d",
         "url": "https://github.com/fanhao375/microduck-replica/commit/62e569fc0675b1e0651837de163d4a56d7277d2d"
       },
-      "updated_at": "2026-09-15T17:02:11Z",
+      "updated_at": "2026-09-15T17:32:51Z",
       "pushed_at": "2026-09-15T14:05:29Z",
       "open_issues_count": 24,
       "commits": [
@@ -723,7 +723,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-15T16:16:41Z",
+      "updated_at": "2026-09-15T20:41:01Z",
       "pushed_at": "2026-09-15T10:02:20Z",
       "open_issues_count": 40,
       "commits": [
@@ -880,7 +880,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-15T16:20:06Z",
+      "updated_at": "2026-09-15T18:47:50Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 7,
       "commits": [
