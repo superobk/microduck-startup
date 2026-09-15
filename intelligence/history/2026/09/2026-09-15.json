@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T04:58:30Z",
+  "generated_at": "2026-09-15T11:49:09Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "e735ed5e27c9ee7cc688904ccabe0a3a291d3a10",
-        "url": "https://github.com/superobk/microduck-startup/commit/e735ed5e27c9ee7cc688904ccabe0a3a291d3a10"
+        "sha": "013c2df32b10c3a851a5c3f254f82a3e2ec95b77",
+        "url": "https://github.com/superobk/microduck-startup/commit/013c2df32b10c3a851a5c3f254f82a3e2ec95b77"
       },
-      "updated_at": "2026-09-14T21:52:41Z",
-      "pushed_at": "2026-09-14T21:52:37Z",
+      "updated_at": "2026-09-15T04:58:48Z",
+      "pushed_at": "2026-09-15T04:58:44Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "013c2df32b10c3a851a5c3f254f82a3e2ec95b77",
+          "sha": "013c2df32b10c3a851a5c3f254f82a3e2ec95b77",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-15T04:58:43Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/013c2df32b10c3a851a5c3f254f82a3e2ec95b77"
+        },
         {
           "id": "e735ed5e27c9ee7cc688904ccabe0a3a291d3a10",
           "sha": "e735ed5e27c9ee7cc688904ccabe0a3a291d3a10",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-13T04:53:04Z",
           "url": "https://github.com/superobk/microduck-startup/commit/78300e81fd3fada2dbfa5507a5ce82bd4f948a9f"
-        },
-        {
-          "id": "3c6823a17b613845bc8aad9a78232c607d22ac67",
-          "sha": "3c6823a17b613845bc8aad9a78232c607d22ac67",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-12T20:36:27Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/3c6823a17b613845bc8aad9a78232c607d22ac67"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "67a19637ee1018088fb6c72c48a9e287949ff7de",
         "url": "https://github.com/pollen-robotics/microduck/commit/67a19637ee1018088fb6c72c48a9e287949ff7de"
       },
-      "updated_at": "2026-09-15T04:51:54Z",
-      "pushed_at": "2026-09-14T13:16:05Z",
-      "open_issues_count": 46,
+      "updated_at": "2026-09-15T11:13:19Z",
+      "pushed_at": "2026-09-15T10:50:08Z",
+      "open_issues_count": 48,
       "commits": [
         {
           "id": "67a19637ee1018088fb6c72c48a9e287949ff7de",
@@ -162,31 +162,51 @@
       ],
       "releases": [
         {
+          "id": "389065250",
+          "tag": "daemon-dev-monitor-camera-block",
+          "name": "daemon 0.12.0-dev.1009.784e7bc (monitor-camera-block)",
+          "published_at": "2026-09-15T10:50:08Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-monitor-camera-block"
+        },
+        {
+          "id": "389061742",
+          "tag": "daemon-dev-mediad-count-gathered-candidates",
+          "name": "daemon 0.12.0-dev.1008.47b523c (mediad-count-gathered-candidates)",
+          "published_at": "2026-09-15T10:44:15Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-count-gathered-candidates"
+        },
+        {
           "id": "388410335",
           "tag": "daemon-dev-typed-policy-spec",
           "name": "daemon 0.12.0-dev.1005.f1bbd8d (typed-policy-spec)",
           "published_at": "2026-09-14T13:16:06Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec"
-        },
-        {
-          "id": "388392363",
-          "tag": "daemon-dev-roller-policy-slots",
-          "name": "daemon 0.12.0-dev.1003.a256864 (roller-policy-slots)",
-          "published_at": "2026-09-14T12:49:43Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-policy-slots"
-        },
-        {
-          "id": "388391149",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.12.0-dev.1001.67a1963 (main)",
-          "published_at": "2026-09-14T12:47:51Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
+        {
+          "id": "288",
+          "number": 288,
+          "title": "monitor: a camera frame, on c",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-15T10:50:15Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/288"
+        },
+        {
+          "id": "287",
+          "number": 287,
+          "title": "The clock bridge gets a reader, and states what its bound is worth",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-15T07:58:41Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/287"
+        },
         {
           "id": "285",
           "number": 285,
@@ -216,26 +236,6 @@
           "updated_at": "2026-09-14T12:43:44Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/107"
-        },
-        {
-          "id": "241",
-          "number": 241,
-          "title": "mediad: fresh snapshots through robotctl and console HTTP",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-14T12:25:15Z",
-          "merged_at": "2026-09-14T12:25:15Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/241"
-        },
-        {
-          "id": "223",
-          "number": 223,
-          "title": "A demo Space that processes the duck's camera, and what it measured",
-          "state": "closed",
-          "draft": true,
-          "updated_at": "2026-09-14T12:12:13Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/223"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-15T04:52:57Z",
+      "updated_at": "2026-09-15T11:04:15Z",
       "pushed_at": "2026-09-14T17:19:34Z",
       "open_issues_count": 35,
       "commits": [
@@ -438,7 +438,7 @@
         "sha": "0eb02b4a34b2d3c0d005fddd5647b941197c30a5",
         "url": "https://github.com/fanhao375/microduck-replica/commit/0eb02b4a34b2d3c0d005fddd5647b941197c30a5"
       },
-      "updated_at": "2026-09-15T04:50:31Z",
+      "updated_at": "2026-09-15T10:14:38Z",
       "pushed_at": "2026-09-14T17:37:33Z",
       "open_issues_count": 24,
       "commits": [
@@ -587,13 +587,29 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373"
+        "sha": "72640bc38e76a4c7c618c7635e67ba5502e7ceed",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/72640bc38e76a4c7c618c7635e67ba5502e7ceed"
       },
-      "updated_at": "2026-09-15T02:39:37Z",
-      "pushed_at": "2026-09-13T02:14:14Z",
+      "updated_at": "2026-09-15T07:56:25Z",
+      "pushed_at": "2026-09-15T07:40:50Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "72640bc38e76a4c7c618c7635e67ba5502e7ceed",
+          "sha": "72640bc38e76a4c7c618c7635e67ba5502e7ceed",
+          "message": "Add 21 entries on a broader \"worthy\" bar, including a hardware-run hop (#9)",
+          "author": "joeynyc",
+          "date": "2026-09-15T07:40:48Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/72640bc38e76a4c7c618c7635e67ba5502e7ceed"
+        },
+        {
+          "id": "52173dc5429fdb0b5ac788f92f7dd3e2e7defe00",
+          "sha": "52173dc5429fdb0b5ac788f92f7dd3e2e7defe00",
+          "message": "Record that the policy channel landed, and add seven entries (#8)",
+          "author": "joeynyc",
+          "date": "2026-09-15T07:35:49Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/52173dc5429fdb0b5ac788f92f7dd3e2e7defe00"
+        },
         {
           "id": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
           "sha": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
@@ -641,26 +657,30 @@
           "author": "joeynyc",
           "date": "2026-09-11T06:11:35Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/37eb4a585644fe9c9fd3428e07f100be413e81ca"
-        },
-        {
-          "id": "d0228bfb260a1ca4a5319a45b0c3588ddb61133d",
-          "sha": "d0228bfb260a1ca4a5319a45b0c3588ddb61133d",
-          "message": "Add microduck-onefoot-skate, an interim result published as measurements",
-          "author": "joeynyc",
-          "date": "2026-09-11T06:08:34Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/d0228bfb260a1ca4a5319a45b0c3588ddb61133d"
-        },
-        {
-          "id": "1f329bd46b8a58102db3671b5a05ec27229a2a20",
-          "sha": "1f329bd46b8a58102db3671b5a05ec27229a2a20",
-          "message": "Correct the microduck-tricks entry: the one-foot skate works",
-          "author": "joeynyc",
-          "date": "2026-09-11T06:06:36Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/1f329bd46b8a58102db3671b5a05ec27229a2a20"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "9",
+          "number": 9,
+          "title": "Add 21 entries on a broader \"worthy\" bar, including a hardware-run hop",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-15T07:40:51Z",
+          "merged_at": "2026-09-15T07:40:49Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/9"
+        },
+        {
+          "id": "8",
+          "number": 8,
+          "title": "Record that the policy channel landed, and add seven entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-15T07:35:51Z",
+          "merged_at": "2026-09-15T07:35:50Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/8"
+        },
         {
           "id": "7",
           "number": 7,
@@ -690,26 +710,6 @@
           "updated_at": "2026-09-13T02:11:36Z",
           "merged_at": "2026-09-13T02:11:34Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/6"
-        },
-        {
-          "id": "5",
-          "number": 5,
-          "title": "Add policy revocation registry",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-11T19:20:02Z",
-          "merged_at": "2026-09-11T19:20:00Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/5"
-        },
-        {
-          "id": "4",
-          "number": 4,
-          "title": "Add community policy submission form",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-11T11:14:56Z",
-          "merged_at": "2026-09-11T11:14:54Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/4"
         }
       ],
       "issues": []
@@ -722,8 +722,8 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-15T00:45:20Z",
-      "pushed_at": "2026-09-14T10:15:23Z",
+      "updated_at": "2026-09-15T07:47:25Z",
+      "pushed_at": "2026-09-15T10:02:20Z",
       "open_issues_count": 40,
       "commits": [
         {
@@ -819,6 +819,16 @@
       ],
       "pulls": [
         {
+          "id": "1155",
+          "number": 1155,
+          "title": "Add OneRobotics A1 project to mjlab project list",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-15T07:20:00Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1155"
+        },
+        {
           "id": "1183",
           "number": 1183,
           "title": "Add Chinese documentation with bilingual (EN/中文) site switching",
@@ -857,16 +867,6 @@
           "updated_at": "2026-09-03T15:01:49Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1174"
-        },
-        {
-          "id": "1173",
-          "number": 1173,
-          "title": "Fix flat patch sampling collapsing to the center when patch_radius=0",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-31T17:09:11Z",
-          "merged_at": "2026-08-31T17:09:11Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1173"
         }
       ],
       "issues": []
@@ -879,7 +879,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-15T01:35:29Z",
+      "updated_at": "2026-09-15T07:27:52Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 7,
       "commits": [
