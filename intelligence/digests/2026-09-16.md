@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-16T11:41:44Z`
+Generated: `2026-09-16T17:02:43Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,32 +8,39 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `e07b109af039` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/e07b109af039974819f39f36580e0855fda3fff3)
+- Commit `d5f836ebf1f9` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.13.0-dev.1027.2703e09 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Release [daemon 0.12.0-dev.1018.b30a9ca (docs-mobile-app-approach)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-docs-mobile-app-approach) (prerelease)
-- Commit `2703e0900da3` [Merge pull request #293 from pollen-robotics/duck-ble-crate](https://github.com/pollen-robotics/microduck/commit/2703e0900da3e3d84114461ca91400c374d1d741)
-- Commit `c1ef5ac52398` [duck-ble: the wire contract, extracted now that a second client wants it](https://github.com/pollen-robotics/microduck/commit/c1ef5ac52398171768a154459160863efb0f5237)
-- PR #295 [duck-control: the shutdown mask clears input-voltage, and the span says which rail](https://github.com/pollen-robotics/microduck/pull/295) — open
-- PR #287 [The clock bridge gets a reader, and states what its bound is worth](https://github.com/pollen-robotics/microduck/pull/287) — open
-- PR #266 [mediad: a websocket for programs, next to the datachannel for people](https://github.com/pollen-robotics/microduck/pull/266) — open
-- PR #271 [sdk: a python client, and a loop to write behaviours in](https://github.com/pollen-robotics/microduck/pull/271) — open
+- Release [daemon 0.12.0-dev.1053.8f3ed5b (typed-policy-spec)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec) (prerelease)
+- Release [daemon 0.13.0-dev.1041.768e192 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Release [daemon 0.13.0-dev.1051.9fcd5e4 (a-simulated-duck-is-a-duck)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-a-simulated-duck-is-a-duck) (prerelease)
+- Commit `768e19227159` [Merge pull request #296 from pollen-robotics/duck-sim-finds-the-sim-repo](https://github.com/pollen-robotics/microduck/commit/768e1922715942d8c6aa5254c6d1cd35cf099482)
+- Commit `02fe1c300668` [Merge pull request #297 from pollen-robotics/mediad-pipeline-off-the-robot](https://github.com/pollen-robotics/microduck/commit/02fe1c30066886c579c36dca4901fa83c6c7aa3a)
+- Commit `cc906dedc86b` [duck-sim: name a body that has no eye, and stop the right process](https://github.com/pollen-robotics/microduck/commit/cc906dedc86b8a8af6e47c5923195de054b37ad0)
+- Commit `809926571b7b` [mediad: the pipeline runs off the robot too, behind a feature](https://github.com/pollen-robotics/microduck/commit/809926571b7bde2fe03ae199a2a681aa1d5130d8)
+- PR #285 [policy-playground: the Space gets its name, and a box for what the search misses](https://github.com/pollen-robotics/microduck/pull/285) — open
+- PR #298 [A duck in MuJoCo registers like a real one, and says it is simulated](https://github.com/pollen-robotics/microduck/pull/298) — open
+- PR #296 [duck-sim: name a body that has no eye, and stop the right process](https://github.com/pollen-robotics/microduck/pull/296) — closed
+- PR #297 [mediad: the pipeline runs off the robot too, behind a feature](https://github.com/pollen-robotics/microduck/pull/297) — closed
 
-### joeynyc/awesome-microduck
+### pollen-robotics/microduck_rl
 
-- Commit `10b0cfd307c5` [Add a UniLab port, a MotrixLab roller environment and a measured hop (#10)](https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9)
-- PR #10 [Add a UniLab port, a MotrixLab roller environment and a measured hop](https://github.com/joeynyc/awesome-microduck/pull/10) — closed
+- PR #53 [Add Mjlab-PoliteBow-Flat-MicroDuck episodic task](https://github.com/pollen-robotics/microduck_rl/pull/53) — open
 
 ### mujocolab/mjlab
 
-- PR #1184 [Add history to commands](https://github.com/mujocolab/mjlab/pull/1184) — open
+- PR #1185 [Update wandb & rsl-rl-lib](https://github.com/mujocolab/mjlab/pull/1185) — open
+- PR #1186 [Allow python 3.14](https://github.com/mujocolab/mjlab/pull/1186) — open
+
+### leggedrobotics/rsl_rl
+
+- PR #218 [docs: config schema by release + ROCm PyTorch note + Chrono-style example YAML](https://github.com/leggedrobotics/rsl_rl/pull/218) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [e07b109af039](https://github.com/superobk/microduck-startup/commit/e07b109af039974819f39f36580e0855fda3fff3); pushed `2026-09-16T04:53:47Z`
-- **pollen-robotics/microduck** `main` → [2703e0900da3](https://github.com/pollen-robotics/microduck/commit/2703e0900da3e3d84114461ca91400c374d1d741); pushed `2026-09-16T07:02:25Z`
+- **superobk/microduck-startup** `main` → [d5f836ebf1f9](https://github.com/superobk/microduck-startup/commit/d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa); pushed `2026-09-16T11:42:05Z`
+- **pollen-robotics/microduck** `main` → [768e19227159](https://github.com/pollen-robotics/microduck/commit/768e1922715942d8c6aa5254c6d1cd35cf099482); pushed `2026-09-16T16:56:50Z`
 - **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-16T09:01:36Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [62e569fc0675](https://github.com/fanhao375/microduck-replica/commit/62e569fc0675b1e0651837de163d4a56d7277d2d); pushed `2026-09-15T14:05:29Z`
