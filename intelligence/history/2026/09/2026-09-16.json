@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T17:02:43Z",
+  "generated_at": "2026-09-16T21:21:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa",
-        "url": "https://github.com/superobk/microduck-startup/commit/d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa"
+        "sha": "cdeeaac927459c52aa0c29a801629604f27c2051",
+        "url": "https://github.com/superobk/microduck-startup/commit/cdeeaac927459c52aa0c29a801629604f27c2051"
       },
-      "updated_at": "2026-09-16T11:42:09Z",
-      "pushed_at": "2026-09-16T11:42:05Z",
+      "updated_at": "2026-09-16T17:03:06Z",
+      "pushed_at": "2026-09-16T17:03:01Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "cdeeaac927459c52aa0c29a801629604f27c2051",
+          "sha": "cdeeaac927459c52aa0c29a801629604f27c2051",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-16T17:03:00Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/cdeeaac927459c52aa0c29a801629604f27c2051"
+        },
         {
           "id": "d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa",
           "sha": "d5f836ebf1f9bbdbc471c24d9ef7a7699a4fe0fa",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-14T21:52:36Z",
           "url": "https://github.com/superobk/microduck-startup/commit/e735ed5e27c9ee7cc688904ccabe0a3a291d3a10"
-        },
-        {
-          "id": "a6c661313f7e108c3ef6b71cc4ecabb02154e6f5",
-          "sha": "a6c661313f7e108c3ef6b71cc4ecabb02154e6f5",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-14T12:54:53Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/a6c661313f7e108c3ef6b71cc4ecabb02154e6f5"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "768e1922715942d8c6aa5254c6d1cd35cf099482",
         "url": "https://github.com/pollen-robotics/microduck/commit/768e1922715942d8c6aa5254c6d1cd35cf099482"
       },
-      "updated_at": "2026-09-16T16:45:43Z",
+      "updated_at": "2026-09-16T18:00:00Z",
       "pushed_at": "2026-09-16T16:56:50Z",
       "open_issues_count": 49,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-16T16:21:40Z",
+      "updated_at": "2026-09-16T21:14:48Z",
       "pushed_at": "2026-09-16T09:01:36Z",
       "open_issues_count": 37,
       "commits": [
@@ -435,13 +435,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "62e569fc0675b1e0651837de163d4a56d7277d2d",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/62e569fc0675b1e0651837de163d4a56d7277d2d"
+        "sha": "97c794c17f85c8a83d46fc1d5352fa370f416b0e",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/97c794c17f85c8a83d46fc1d5352fa370f416b0e"
       },
-      "updated_at": "2026-09-16T16:50:58Z",
-      "pushed_at": "2026-09-15T14:05:29Z",
+      "updated_at": "2026-09-16T20:18:49Z",
+      "pushed_at": "2026-09-16T17:38:10Z",
       "open_issues_count": 24,
       "commits": [
+        {
+          "id": "97c794c17f85c8a83d46fc1d5352fa370f416b0e",
+          "sha": "97c794c17f85c8a83d46fc1d5352fa370f416b0e",
+          "message": "imu_to_dxl 首板实测：3.3 V 正常，J4/J5 PH 座外壳跟飞特插头不配（削壳能用，v2 换座）；躯干 IMU 两条路线",
+          "author": "fanhao375",
+          "date": "2026-09-16T17:38:07Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/97c794c17f85c8a83d46fc1d5352fa370f416b0e"
+        },
+        {
+          "id": "f0e2ee134336eb62a90691b89ba0fd2e08dcea9c",
+          "sha": "f0e2ee134336eb62a90691b89ba0fd2e08dcea9c",
+          "message": "不打HAT 第 2 步：extlinux 加 overlay 的方法，没接摄像头时 mediad 重启属正常",
+          "author": "fanhao375",
+          "date": "2026-09-16T17:28:15Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f0e2ee134336eb62a90691b89ba0fd2e08dcea9c"
+        },
+        {
+          "id": "c9e0e8ca1f315edd6d098da5f79d4dbbc991f2cd",
+          "sha": "c9e0e8ca1f315edd6d098da5f79d4dbbc991f2cd",
+          "message": "主控点亮：换瑞莎引导程序做卡脚本、不打HAT 第1/2步重写、五条新坑、两天调试记录",
+          "author": "fanhao375",
+          "date": "2026-09-16T17:24:56Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c9e0e8ca1f315edd6d098da5f79d4dbbc991f2cd"
+        },
         {
           "id": "62e569fc0675b1e0651837de163d4a56d7277d2d",
           "sha": "62e569fc0675b1e0651837de163d4a56d7277d2d",
@@ -481,30 +505,6 @@
           "author": "fanhao375",
           "date": "2026-09-13T04:48:26Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/f533679411d0ab4aee1fab2df8002df958965704"
-        },
-        {
-          "id": "54e2923cb00b9b32a30d89ba5a1a443c8bedca1c",
-          "sha": "54e2923cb00b9b32a30d89ba5a1a443c8bedca1c",
-          "message": "飞特 HD-1910 版装出来了；训练数据清单；调试手册补装机归零和分支；拨码改正",
-          "author": "fanhao375",
-          "date": "2026-09-13T03:57:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/54e2923cb00b9b32a30d89ba5a1a443c8bedca1c"
-        },
-        {
-          "id": "c2d2ffefc133437add912961917fe5049a287a7b",
-          "sha": "c2d2ffefc133437add912961917fe5049a287a7b",
-          "message": "舵机到货：调试记录、踩坑记录、不打 HAT 方案、飞特调试软件入库",
-          "author": "fanhao375",
-          "date": "2026-09-12T05:43:01Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c2d2ffefc133437add912961917fe5049a287a7b"
-        },
-        {
-          "id": "7e4a121d7216d627b885035031e6665f2e52c643",
-          "sha": "7e4a121d7216d627b885035031e6665f2e52c643",
-          "message": "换微信群二维码：四群已满，改挂五群的码（有效期到 2026-09-17）",
-          "author": "fanhao375",
-          "date": "2026-09-10T08:40:10Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7e4a121d7216d627b885035031e6665f2e52c643"
         }
       ],
       "releases": [
@@ -590,7 +590,7 @@
         "sha": "10b0cfd307c5f3e4c06e3824a315b4cea8c638c9",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9"
       },
-      "updated_at": "2026-09-16T14:07:45Z",
+      "updated_at": "2026-09-16T21:06:24Z",
       "pushed_at": "2026-09-16T08:52:30Z",
       "open_issues_count": 0,
       "commits": [
