@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T17:03:18Z",
+  "generated_at": "2026-09-17T21:26:26Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
-        "url": "https://github.com/superobk/microduck-startup/commit/f54fcafad0c43c6d4d443ca033709d2d9d418132"
+        "sha": "07b4d801aa521611b3320ac5ba10e06cedfda08b",
+        "url": "https://github.com/superobk/microduck-startup/commit/07b4d801aa521611b3320ac5ba10e06cedfda08b"
       },
-      "updated_at": "2026-09-17T11:47:23Z",
-      "pushed_at": "2026-09-17T11:47:19Z",
+      "updated_at": "2026-09-17T17:03:42Z",
+      "pushed_at": "2026-09-17T17:03:37Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "07b4d801aa521611b3320ac5ba10e06cedfda08b",
+          "sha": "07b4d801aa521611b3320ac5ba10e06cedfda08b",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-17T17:03:35Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/07b4d801aa521611b3320ac5ba10e06cedfda08b"
+        },
         {
           "id": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
           "sha": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-15T21:24:49Z",
           "url": "https://github.com/superobk/microduck-startup/commit/aae5ac0809cfce6a969847d3fca6864f4d5de1ce"
-        },
-        {
-          "id": "dbee7bc2260671f3c7c87a42e6c3145d070894d7",
-          "sha": "dbee7bc2260671f3c7c87a42e6c3145d070894d7",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-15T17:03:25Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/dbee7bc2260671f3c7c87a42e6c3145d070894d7"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "344925c9f8fa031f85428a305b1e8ec2eaae29c1",
         "url": "https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1"
       },
-      "updated_at": "2026-09-17T16:41:25Z",
+      "updated_at": "2026-09-17T20:52:26Z",
       "pushed_at": "2026-09-17T13:18:55Z",
       "open_issues_count": 46,
       "commits": [
@@ -435,13 +435,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "64ad6416aeb9e6a83886c1be3eec4466803dad73",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/64ad6416aeb9e6a83886c1be3eec4466803dad73"
+        "sha": "3599731c250a06648e18ca9fb1453b8a88410769",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/3599731c250a06648e18ca9fb1453b8a88410769"
       },
-      "updated_at": "2026-09-17T16:48:46Z",
-      "pushed_at": "2026-09-17T04:41:09Z",
+      "updated_at": "2026-09-17T17:13:43Z",
+      "pushed_at": "2026-09-17T17:13:36Z",
       "open_issues_count": 25,
       "commits": [
+        {
+          "id": "3599731c250a06648e18ca9fb1453b8a88410769",
+          "sha": "3599731c250a06648e18ca9fb1453b8a88410769",
+          "message": "整机 15 颗舵机首次上电、能站起来坐下；网页调试台；飞特适配架构；飞特官方资料快照",
+          "author": "fanhao375",
+          "date": "2026-09-17T17:13:32Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/3599731c250a06648e18ca9fb1453b8a88410769"
+        },
         {
           "id": "64ad6416aeb9e6a83886c1be3eec4466803dad73",
           "sha": "64ad6416aeb9e6a83886c1be3eec4466803dad73",
@@ -497,14 +505,6 @@
           "author": "fanhao375",
           "date": "2026-09-14T17:35:13Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/658b3b8e88c8b38b36dfa1e27717e02383a4c7a7"
-        },
-        {
-          "id": "2aad5bb57bb085216351e78df5d464c14b80b524",
-          "sha": "2aad5bb57bb085216351e78df5d464c14b80b524",
-          "message": "cad/ 和 print/ 的路标加上图纸仓里的 Bambu Studio 3mf",
-          "author": "fanhao375",
-          "date": "2026-09-13T08:40:43Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2aad5bb57bb085216351e78df5d464c14b80b524"
         }
       ],
       "releases": [
@@ -587,13 +587,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "10b0cfd307c5f3e4c06e3824a315b4cea8c638c9",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9"
+        "sha": "90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a"
       },
-      "updated_at": "2026-09-17T14:01:49Z",
-      "pushed_at": "2026-09-16T08:52:30Z",
+      "updated_at": "2026-09-17T19:52:02Z",
+      "pushed_at": "2026-09-17T19:51:59Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a",
+          "sha": "90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a",
+          "message": "Drop two dead entries, disambiguate the Isaac Lab ports, add six (#11)",
+          "author": "joeynyc",
+          "date": "2026-09-17T19:51:58Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a"
+        },
         {
           "id": "10b0cfd307c5f3e4c06e3824a315b4cea8c638c9",
           "sha": "10b0cfd307c5f3e4c06e3824a315b4cea8c638c9",
@@ -649,18 +657,20 @@
           "author": "joeynyc",
           "date": "2026-09-11T11:14:54Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/46c39bdb4e7e60496ccff362905b6879db975c57"
-        },
-        {
-          "id": "e8d6adb75fc201b822c39174f6013be838e13039",
-          "sha": "e8d6adb75fc201b822c39174f6013be838e13039",
-          "message": "Add versioned policy registry (#3)",
-          "author": "joeynyc",
-          "date": "2026-09-11T11:04:01Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/e8d6adb75fc201b822c39174f6013be838e13039"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "11",
+          "number": 11,
+          "title": "Drop two dead entries, disambiguate the Isaac Lab ports, add six",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-17T19:52:00Z",
+          "merged_at": "2026-09-17T19:51:58Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/11"
+        },
         {
           "id": "10",
           "number": 10,
@@ -700,16 +710,6 @@
           "updated_at": "2026-09-13T02:14:14Z",
           "merged_at": "2026-09-13T02:14:12Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/7"
-        },
-        {
-          "id": "2",
-          "number": 2,
-          "title": "Add microdux",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-13T02:14:14Z",
-          "merged_at": null,
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/2"
         }
       ],
       "issues": []
