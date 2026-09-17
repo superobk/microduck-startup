@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-17T11:47:02Z`
+Generated: `2026-09-17T17:03:18Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,29 +8,30 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `a936a2c5824d` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a936a2c5824d483b4aa946ce21caf5feb2df4182)
+- Commit `f54fcafad0c4` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/f54fcafad0c43c6d4d443ca033709d2d9d418132)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.14.0](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.14.0)
-- Release [daemon 0.12.0-dev.1066.a5c9bff (typed-policy-spec)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec) (prerelease)
-- Release [daemon 0.14.0-dev.1072.f9bcd97 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `f9bcd97bf7ee` [Merge pull request #300 from pollen-robotics/prepare-release-0.14.0](https://github.com/pollen-robotics/microduck/commit/f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4)
-- Commit `1bc5870f0809` [Merge pull request #299 from pollen-robotics/drop-fake-duck](https://github.com/pollen-robotics/microduck/commit/1bc5870f08092cb67509f1751ecde7ce02e99ce9)
-- Commit `b3dcc0ef6b44` [Prepare release 0.14.0](https://github.com/pollen-robotics/microduck/commit/b3dcc0ef6b44bff62cbdb52638104824100a64f9)
-- Commit `bf34a988fa01` [Merge remote-tracking branch 'origin/main' into drop-fake-duck](https://github.com/pollen-robotics/microduck/commit/bf34a988fa014fa7ddc7849dd37afa751a0263aa)
-- Commit `d60cef79b959` [Merge pull request #298 from pollen-robotics/a-simulated-duck-is-a-duck](https://github.com/pollen-robotics/microduck/commit/d60cef79b959f6c907d2f2fd336b34cb254cd27f)
-- Commit `481ab965d178` [spaces: delete fake_duck.py, because the twin is the robot's own code](https://github.com/pollen-robotics/microduck/commit/481ab965d178253685d26a3785b91df276b34a18)
-- Commit `31671f710eea` [Merge pull request #285 from pollen-robotics/typed-policy-spec](https://github.com/pollen-robotics/microduck/commit/31671f710eeae8a08003a126c3ffb8718c6034ee)
-- Commit `5e37582ca78c` [robotctl: a test helper names what it asserts on, not every field there is](https://github.com/pollen-robotics/microduck/commit/5e37582ca78c69554bcbe14a51696156ca986c5b)
-- PR #300 [Prepare release 0.14.0](https://github.com/pollen-robotics/microduck/pull/300) — closed
-- PR #299 [spaces: delete fake_duck.py, because the twin is the robot's own code](https://github.com/pollen-robotics/microduck/pull/299) — closed
+- Release [daemon 0.14.1](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.14.1)
+- Commit `344925c9f8fa` [Merge pull request #304 from pollen-robotics/prepare-release-0.14.1](https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1)
+- Commit `605d17f72006` [Merge pull request #107 from pollen-robotics/docs-mobile-app-approach](https://github.com/pollen-robotics/microduck/commit/605d17f72006aaa76e0ae0045744138667bbbf92)
+- Commit `14591aa5bd7b` [Prepare release 0.14.1](https://github.com/pollen-robotics/microduck/commit/14591aa5bd7bb4ef1a971d2aea73801bc82e2739)
+- Commit `8672bdecad91` [docs: the phone app, now that it is built](https://github.com/pollen-robotics/microduck/commit/8672bdecad91b8c725fa1b3ac05a7db9a5507012)
+- Commit `2545aa694ebc` [Merge main](https://github.com/pollen-robotics/microduck/commit/2545aa694ebcbde0ed8d8a19313421d41b6ec122)
+- Commit `db480cadd88d` [Merge pull request #302 from pollen-robotics/pad-cannot-reconnect-while-btd-linked](https://github.com/pollen-robotics/microduck/commit/db480cadd88dd50a9d1b34517b961c99f2c237f6)
+- Commit `e478a3892771` [Merge pull request #303 from pollen-robotics/route-robot-enable](https://github.com/pollen-robotics/microduck/commit/e478a3892771057895611a9b62ee1a93a1a6d7aa)
+- Commit `cfd3a89839b2` [btd: starting the policy is reachable, because standing up alone is half a path](https://github.com/pollen-robotics/microduck/commit/cfd3a89839b2b67ebf9db77c4b3581a727c13952)
+- PR #304 [Prepare release 0.14.1](https://github.com/pollen-robotics/microduck/pull/304) — closed
+- PR #107 [docs: the phone app, now that it is built](https://github.com/pollen-robotics/microduck/pull/107) — closed
+- PR #302 [pad: a bonded pad cannot reconnect while a phone is connected](https://github.com/pollen-robotics/microduck/pull/302) — closed
+- PR #303 [btd: starting the policy is reachable, because standing up alone is half a path](https://github.com/pollen-robotics/microduck/pull/303) — closed
+- PR #301 [btd: a robot can be stood up from the phone](https://github.com/pollen-robotics/microduck/pull/301) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [a936a2c5824d](https://github.com/superobk/microduck-startup/commit/a936a2c5824d483b4aa946ce21caf5feb2df4182); pushed `2026-09-17T04:57:03Z`
-- **pollen-robotics/microduck** `main` → [f9bcd97bf7ee](https://github.com/pollen-robotics/microduck/commit/f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4); pushed `2026-09-17T09:55:17Z`
-- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-16T09:01:36Z`
+- **superobk/microduck-startup** `main` → [f54fcafad0c4](https://github.com/superobk/microduck-startup/commit/f54fcafad0c43c6d4d443ca033709d2d9d418132); pushed `2026-09-17T11:47:19Z`
+- **pollen-robotics/microduck** `main` → [344925c9f8fa](https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1); pushed `2026-09-17T13:18:55Z`
+- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-17T15:47:16Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [64ad6416aeb9](https://github.com/fanhao375/microduck-replica/commit/64ad6416aeb9e6a83886c1be3eec4466803dad73); pushed `2026-09-17T04:41:09Z`
 - **joeynyc/awesome-microduck** `main` → [10b0cfd307c5](https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9); pushed `2026-09-16T08:52:30Z`

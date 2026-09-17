@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T11:47:02Z",
+  "generated_at": "2026-09-17T17:03:18Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "a936a2c5824d483b4aa946ce21caf5feb2df4182",
-        "url": "https://github.com/superobk/microduck-startup/commit/a936a2c5824d483b4aa946ce21caf5feb2df4182"
+        "sha": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
+        "url": "https://github.com/superobk/microduck-startup/commit/f54fcafad0c43c6d4d443ca033709d2d9d418132"
       },
-      "updated_at": "2026-09-17T04:57:07Z",
-      "pushed_at": "2026-09-17T04:57:03Z",
+      "updated_at": "2026-09-17T11:47:23Z",
+      "pushed_at": "2026-09-17T11:47:19Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
+          "sha": "f54fcafad0c43c6d4d443ca033709d2d9d418132",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-17T11:47:18Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/f54fcafad0c43c6d4d443ca033709d2d9d418132"
+        },
         {
           "id": "a936a2c5824d483b4aa946ce21caf5feb2df4182",
           "sha": "a936a2c5824d483b4aa946ce21caf5feb2df4182",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-15T17:03:25Z",
           "url": "https://github.com/superobk/microduck-startup/commit/dbee7bc2260671f3c7c87a42e6c3145d070894d7"
-        },
-        {
-          "id": "89f2e04ee4c1c073ae8ec0ac002713793696483d",
-          "sha": "89f2e04ee4c1c073ae8ec0ac002713793696483d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-15T11:49:24Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/89f2e04ee4c1c073ae8ec0ac002713793696483d"
         }
       ],
       "releases": [],
@@ -88,79 +88,87 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4",
-        "url": "https://github.com/pollen-robotics/microduck/commit/f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4"
+        "sha": "344925c9f8fa031f85428a305b1e8ec2eaae29c1",
+        "url": "https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1"
       },
-      "updated_at": "2026-09-17T11:38:39Z",
-      "pushed_at": "2026-09-17T09:55:17Z",
-      "open_issues_count": 47,
+      "updated_at": "2026-09-17T16:41:25Z",
+      "pushed_at": "2026-09-17T13:18:55Z",
+      "open_issues_count": 46,
       "commits": [
         {
-          "id": "f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4",
-          "sha": "f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4",
-          "message": "Merge pull request #300 from pollen-robotics/prepare-release-0.14.0",
+          "id": "344925c9f8fa031f85428a305b1e8ec2eaae29c1",
+          "sha": "344925c9f8fa031f85428a305b1e8ec2eaae29c1",
+          "message": "Merge pull request #304 from pollen-robotics/prepare-release-0.14.1",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:49:05Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/f9bcd97bf7ee5a6a0d4b99ade54ad9196c40e9f4"
+          "date": "2026-09-17T13:12:51Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1"
         },
         {
-          "id": "1bc5870f08092cb67509f1751ecde7ce02e99ce9",
-          "sha": "1bc5870f08092cb67509f1751ecde7ce02e99ce9",
-          "message": "Merge pull request #299 from pollen-robotics/drop-fake-duck",
+          "id": "605d17f72006aaa76e0ae0045744138667bbbf92",
+          "sha": "605d17f72006aaa76e0ae0045744138667bbbf92",
+          "message": "Merge pull request #107 from pollen-robotics/docs-mobile-app-approach",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:43:39Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/1bc5870f08092cb67509f1751ecde7ce02e99ce9"
+          "date": "2026-09-17T13:07:10Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/605d17f72006aaa76e0ae0045744138667bbbf92"
         },
         {
-          "id": "b3dcc0ef6b44bff62cbdb52638104824100a64f9",
-          "sha": "b3dcc0ef6b44bff62cbdb52638104824100a64f9",
-          "message": "Prepare release 0.14.0",
+          "id": "14591aa5bd7bb4ef1a971d2aea73801bc82e2739",
+          "sha": "14591aa5bd7bb4ef1a971d2aea73801bc82e2739",
+          "message": "Prepare release 0.14.1",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:39:44Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/b3dcc0ef6b44bff62cbdb52638104824100a64f9"
+          "date": "2026-09-17T13:01:31Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/14591aa5bd7bb4ef1a971d2aea73801bc82e2739"
         },
         {
-          "id": "bf34a988fa014fa7ddc7849dd37afa751a0263aa",
-          "sha": "bf34a988fa014fa7ddc7849dd37afa751a0263aa",
-          "message": "Merge remote-tracking branch 'origin/main' into drop-fake-duck",
+          "id": "8672bdecad91b8c725fa1b3ac05a7db9a5507012",
+          "sha": "8672bdecad91b8c725fa1b3ac05a7db9a5507012",
+          "message": "docs: the phone app, now that it is built",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:37:11Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/bf34a988fa014fa7ddc7849dd37afa751a0263aa"
+          "date": "2026-09-17T13:01:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/8672bdecad91b8c725fa1b3ac05a7db9a5507012"
         },
         {
-          "id": "d60cef79b959f6c907d2f2fd336b34cb254cd27f",
-          "sha": "d60cef79b959f6c907d2f2fd336b34cb254cd27f",
-          "message": "Merge pull request #298 from pollen-robotics/a-simulated-duck-is-a-duck",
+          "id": "2545aa694ebcbde0ed8d8a19313421d41b6ec122",
+          "sha": "2545aa694ebcbde0ed8d8a19313421d41b6ec122",
+          "message": "Merge main",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:32:19Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/d60cef79b959f6c907d2f2fd336b34cb254cd27f"
+          "date": "2026-09-17T12:59:20Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2545aa694ebcbde0ed8d8a19313421d41b6ec122"
         },
         {
-          "id": "481ab965d178253685d26a3785b91df276b34a18",
-          "sha": "481ab965d178253685d26a3785b91df276b34a18",
-          "message": "spaces: delete fake_duck.py, because the twin is the robot's own code",
+          "id": "db480cadd88dd50a9d1b34517b961c99f2c237f6",
+          "sha": "db480cadd88dd50a9d1b34517b961c99f2c237f6",
+          "message": "Merge pull request #302 from pollen-robotics/pad-cannot-reconnect-while-btd-linked",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:30:06Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/481ab965d178253685d26a3785b91df276b34a18"
+          "date": "2026-09-17T12:58:01Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/db480cadd88dd50a9d1b34517b961c99f2c237f6"
         },
         {
-          "id": "31671f710eeae8a08003a126c3ffb8718c6034ee",
-          "sha": "31671f710eeae8a08003a126c3ffb8718c6034ee",
-          "message": "Merge pull request #285 from pollen-robotics/typed-policy-spec",
+          "id": "e478a3892771057895611a9b62ee1a93a1a6d7aa",
+          "sha": "e478a3892771057895611a9b62ee1a93a1a6d7aa",
+          "message": "Merge pull request #303 from pollen-robotics/route-robot-enable",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:24:03Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/31671f710eeae8a08003a126c3ffb8718c6034ee"
+          "date": "2026-09-17T12:40:12Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/e478a3892771057895611a9b62ee1a93a1a6d7aa"
         },
         {
-          "id": "5e37582ca78c69554bcbe14a51696156ca986c5b",
-          "sha": "5e37582ca78c69554bcbe14a51696156ca986c5b",
-          "message": "robotctl: a test helper names what it asserts on, not every field there is",
+          "id": "cfd3a89839b2b67ebf9db77c4b3581a727c13952",
+          "sha": "cfd3a89839b2b67ebf9db77c4b3581a727c13952",
+          "message": "btd: starting the policy is reachable, because standing up alone is half a path",
           "author": "pierre-rouanet",
-          "date": "2026-09-17T09:18:35Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/5e37582ca78c69554bcbe14a51696156ca986c5b"
+          "date": "2026-09-17T12:34:52Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/cfd3a89839b2b67ebf9db77c4b3581a727c13952"
         }
       ],
       "releases": [
+        {
+          "id": "390734488",
+          "tag": "daemon-v0.14.1",
+          "name": "daemon 0.14.1",
+          "published_at": "2026-09-17T13:18:55Z",
+          "prerelease": false,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.14.1"
+        },
         {
           "id": "390598403",
           "tag": "daemon-v0.14.0",
@@ -176,66 +184,58 @@
           "published_at": "2026-09-17T09:33:56Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-typed-policy-spec"
-        },
-        {
-          "id": "390596802",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.14.0-dev.1072.f9bcd97 (main)",
-          "published_at": "2026-09-17T09:52:32Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
         {
-          "id": "300",
-          "number": 300,
-          "title": "Prepare release 0.14.0",
+          "id": "304",
+          "number": 304,
+          "title": "Prepare release 0.14.1",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-17T09:49:08Z",
-          "merged_at": "2026-09-17T09:49:05Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/300"
+          "updated_at": "2026-09-17T13:12:54Z",
+          "merged_at": "2026-09-17T13:12:52Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/304"
         },
         {
-          "id": "299",
-          "number": 299,
-          "title": "spaces: delete fake_duck.py, because the twin is the robot's own code",
+          "id": "107",
+          "number": 107,
+          "title": "docs: the phone app, now that it is built",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-17T09:43:41Z",
-          "merged_at": "2026-09-17T09:43:39Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/299"
+          "updated_at": "2026-09-17T13:07:14Z",
+          "merged_at": "2026-09-17T13:07:11Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/107"
         },
         {
-          "id": "298",
-          "number": 298,
-          "title": "A duck in MuJoCo registers like a real one, and says it is simulated",
+          "id": "302",
+          "number": 302,
+          "title": "pad: a bonded pad cannot reconnect while a phone is connected",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-17T09:32:22Z",
-          "merged_at": "2026-09-17T09:32:19Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/298"
+          "updated_at": "2026-09-17T12:58:03Z",
+          "merged_at": "2026-09-17T12:58:01Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/302"
         },
         {
-          "id": "285",
-          "number": 285,
-          "title": "policy-playground: a browser page for somebody who is ten",
+          "id": "303",
+          "number": 303,
+          "title": "btd: starting the policy is reachable, because standing up alone is half a path",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-17T09:24:06Z",
-          "merged_at": "2026-09-17T09:24:03Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/285"
+          "updated_at": "2026-09-17T12:40:15Z",
+          "merged_at": "2026-09-17T12:40:12Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/303"
         },
         {
-          "id": "296",
-          "number": 296,
-          "title": "duck-sim: name a body that has no eye, and stop the right process",
+          "id": "301",
+          "number": 301,
+          "title": "btd: a robot can be stood up from the phone",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-16T14:44:14Z",
-          "merged_at": "2026-09-16T14:44:10Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/296"
+          "updated_at": "2026-09-17T12:19:08Z",
+          "merged_at": "2026-09-17T12:19:06Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/301"
         }
       ],
       "issues": []
@@ -248,8 +248,8 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-17T11:26:37Z",
-      "pushed_at": "2026-09-16T09:01:36Z",
+      "updated_at": "2026-09-17T16:56:46Z",
+      "pushed_at": "2026-09-17T15:47:16Z",
       "open_issues_count": 37,
       "commits": [
         {
@@ -438,7 +438,7 @@
         "sha": "64ad6416aeb9e6a83886c1be3eec4466803dad73",
         "url": "https://github.com/fanhao375/microduck-replica/commit/64ad6416aeb9e6a83886c1be3eec4466803dad73"
       },
-      "updated_at": "2026-09-17T11:05:31Z",
+      "updated_at": "2026-09-17T16:48:46Z",
       "pushed_at": "2026-09-17T04:41:09Z",
       "open_issues_count": 25,
       "commits": [
@@ -590,7 +590,7 @@
         "sha": "10b0cfd307c5f3e4c06e3824a315b4cea8c638c9",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9"
       },
-      "updated_at": "2026-09-17T09:04:31Z",
+      "updated_at": "2026-09-17T14:01:49Z",
       "pushed_at": "2026-09-16T08:52:30Z",
       "open_issues_count": 0,
       "commits": [
@@ -722,7 +722,7 @@
         "sha": "8ee51fbcf806a7419189f706d9e394cbeb7790fa",
         "url": "https://github.com/mujocolab/mjlab/commit/8ee51fbcf806a7419189f706d9e394cbeb7790fa"
       },
-      "updated_at": "2026-09-17T10:32:56Z",
+      "updated_at": "2026-09-17T16:44:22Z",
       "pushed_at": "2026-09-17T10:16:21Z",
       "open_issues_count": 43,
       "commits": [
