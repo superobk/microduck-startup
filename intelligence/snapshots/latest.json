@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T11:29:28Z",
+  "generated_at": "2026-09-20T16:10:58Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "082a487509ee0c9dc51b901c9f2440d2c4956fd0",
-        "url": "https://github.com/superobk/microduck-startup/commit/082a487509ee0c9dc51b901c9f2440d2c4956fd0"
+        "sha": "23d023a2282c964ac9d34453521da7c194630a38",
+        "url": "https://github.com/superobk/microduck-startup/commit/23d023a2282c964ac9d34453521da7c194630a38"
       },
-      "updated_at": "2026-09-20T04:57:49Z",
-      "pushed_at": "2026-09-20T04:57:45Z",
+      "updated_at": "2026-09-20T11:29:45Z",
+      "pushed_at": "2026-09-20T11:29:42Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "23d023a2282c964ac9d34453521da7c194630a38",
+          "sha": "23d023a2282c964ac9d34453521da7c194630a38",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-20T11:29:41Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/23d023a2282c964ac9d34453521da7c194630a38"
+        },
         {
           "id": "082a487509ee0c9dc51b901c9f2440d2c4956fd0",
           "sha": "082a487509ee0c9dc51b901c9f2440d2c4956fd0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-18T16:28:13Z",
           "url": "https://github.com/superobk/microduck-startup/commit/c8e703d885e154a2891c01298bc561a457fc28f1"
-        },
-        {
-          "id": "14be1db0bc9968d8332241bcdf5ab5bdb644114d",
-          "sha": "14be1db0bc9968d8332241bcdf5ab5bdb644114d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-18T11:21:27Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/14be1db0bc9968d8332241bcdf5ab5bdb644114d"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "344925c9f8fa031f85428a305b1e8ec2eaae29c1",
         "url": "https://github.com/pollen-robotics/microduck/commit/344925c9f8fa031f85428a305b1e8ec2eaae29c1"
       },
-      "updated_at": "2026-09-20T10:54:32Z",
+      "updated_at": "2026-09-20T15:55:35Z",
       "pushed_at": "2026-09-17T13:18:55Z",
       "open_issues_count": 46,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-20T11:17:33Z",
+      "updated_at": "2026-09-20T15:55:46Z",
       "pushed_at": "2026-09-17T15:47:16Z",
       "open_issues_count": 37,
       "commits": [
@@ -443,13 +443,53 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "6f361de1b5bc087275007d36117f9a43dc2e3638",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/6f361de1b5bc087275007d36117f9a43dc2e3638"
+        "sha": "6e41e2f958cd9bb1c7d2e428bacac2f33abc6a65",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/6e41e2f958cd9bb1c7d2e428bacac2f33abc6a65"
       },
-      "updated_at": "2026-09-20T11:08:21Z",
-      "pushed_at": "2026-09-20T08:43:49Z",
-      "open_issues_count": 25,
+      "updated_at": "2026-09-20T15:25:09Z",
+      "pushed_at": "2026-09-20T14:09:37Z",
+      "open_issues_count": 26,
       "commits": [
+        {
+          "id": "6e41e2f958cd9bb1c7d2e428bacac2f33abc6a65",
+          "sha": "6e41e2f958cd9bb1c7d2e428bacac2f33abc6a65",
+          "message": "imu_to_dxl 总线协议规格 + 配套的假小板与验收工具",
+          "author": "fanhao375",
+          "date": "2026-09-20T14:09:35Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/6e41e2f958cd9bb1c7d2e428bacac2f33abc6a65"
+        },
+        {
+          "id": "912a685684d9765c54c8296d203caa6de546a0a7",
+          "sha": "912a685684d9765c54c8296d203caa6de546a0a7",
+          "message": "首页和架构文档补上 FeetechIo 代码的链接",
+          "author": "fanhao375",
+          "date": "2026-09-20T13:17:29Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/912a685684d9765c54c8296d203caa6de546a0a7"
+        },
+        {
+          "id": "5d3140d32f76e6d9690038318ac6d24ab866afcc",
+          "sha": "5d3140d32f76e6d9690038318ac6d24ab866afcc",
+          "message": "software/README 写清 FeetechIo 代码在哪：fork 的 feetech 分支",
+          "author": "fanhao375",
+          "date": "2026-09-20T13:16:39Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/5d3140d32f76e6d9690038318ac6d24ab866afcc"
+        },
+        {
+          "id": "224e8e3410a017b4c0b22cc918c05c13a0f239f8",
+          "sha": "224e8e3410a017b4c0b22cc918c05c13a0f239f8",
+          "message": "ToF 选型定为 VL53L5CX；四份清单加统一导航；调试台记串口原始收发",
+          "author": "fanhao375",
+          "date": "2026-09-20T12:58:24Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/224e8e3410a017b4c0b22cc918c05c13a0f239f8"
+        },
+        {
+          "id": "5afd7f15e85b8631c341923dd72ed6bf96db33f7",
+          "sha": "5afd7f15e85b8631c341923dd72ed6bf96db33f7",
+          "message": "调试台 0.9.0：按代码审核重写校准，加重力下垂补偿",
+          "author": "fanhao375",
+          "date": "2026-09-20T12:43:52Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/5afd7f15e85b8631c341923dd72ed6bf96db33f7"
+        },
         {
           "id": "6f361de1b5bc087275007d36117f9a43dc2e3638",
           "sha": "6f361de1b5bc087275007d36117f9a43dc2e3638",
@@ -473,46 +513,6 @@
           "author": "fanhao375",
           "date": "2026-09-20T08:38:57Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/13e8d4d22ed699b4e50b79df3d2b37c977d78604"
-        },
-        {
-          "id": "fb0107a0f8e4a0b8b41ddcf83e318836019750ce",
-          "sha": "fb0107a0f8e4a0b8b41ddcf83e318836019750ce",
-          "message": "README 加「鸭友贡献」一节",
-          "author": "fanhao375",
-          "date": "2026-09-20T08:26:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/fb0107a0f8e4a0b8b41ddcf83e318836019750ce"
-        },
-        {
-          "id": "f2d82bcfe147b052f40fb317b50e224bb73e02ae",
-          "sha": "f2d82bcfe147b052f40fb317b50e224bb73e02ae",
-          "message": "Radxa V1.12J：光换引导不够，设备树也得用瑞莎 B1 的",
-          "author": "fanhao375",
-          "date": "2026-09-20T08:11:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/f2d82bcfe147b052f40fb317b50e224bb73e02ae"
-        },
-        {
-          "id": "991e11cb80721c664349a78d33959280e83ccce1",
-          "sha": "991e11cb80721c664349a78d33959280e83ccce1",
-          "message": "调试台 0.8.1：串口打不开也把页面起起来，页面上选串口重连",
-          "author": "fanhao375",
-          "date": "2026-09-20T08:11:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/991e11cb80721c664349a78d33959280e83ccce1"
-        },
-        {
-          "id": "9dbbd230e31a4cc295f467b3ccc66aa987c4a916",
-          "sha": "9dbbd230e31a4cc295f467b3ccc66aa987c4a916",
-          "message": "新增 Rust 版 STS3215 舵机测试工具 sts3215Servo_testtool (#27)",
-          "author": "yoyojacky",
-          "date": "2026-09-20T08:06:36Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/9dbbd230e31a4cc295f467b3ccc66aa987c4a916"
-        },
-        {
-          "id": "7ca0b8592418ff135619cf8fa0d2bde9ff4a1f19",
-          "sha": "7ca0b8592418ff135619cf8fa0d2bde9ff4a1f19",
-          "message": "飞特适配架构 §10：分支 rebase 到上游 0.14.1，零冲突",
-          "author": "fanhao375",
-          "date": "2026-09-20T07:20:27Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7ca0b8592418ff135619cf8fa0d2bde9ff4a1f19"
         }
       ],
       "releases": [
@@ -577,6 +577,14 @@
       ],
       "issues": [
         {
+          "id": "29",
+          "number": 29,
+          "title": "群满了求拉，微信号13667215859",
+          "state": "open",
+          "updated_at": "2026-09-20T13:44:22Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/29"
+        },
+        {
           "id": "26",
           "number": 26,
           "title": "群聊 Group chat",
@@ -591,14 +599,6 @@
           "state": "open",
           "updated_at": "2026-09-20T08:11:54Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/17"
-        },
-        {
-          "id": "20",
-          "number": 20,
-          "title": "群满了",
-          "state": "open",
-          "updated_at": "2026-09-20T08:11:13Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/20"
         }
       ]
     },
@@ -742,7 +742,7 @@
         "sha": "27577db821fe321c819072a851bdda234b89f32d",
         "url": "https://github.com/mujocolab/mjlab/commit/27577db821fe321c819072a851bdda234b89f32d"
       },
-      "updated_at": "2026-09-20T07:44:52Z",
+      "updated_at": "2026-09-20T14:46:38Z",
       "pushed_at": "2026-09-20T10:04:04Z",
       "open_issues_count": 43,
       "commits": [
