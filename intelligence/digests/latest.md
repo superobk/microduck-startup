@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-22T11:44:12Z`
+Generated: `2026-09-22T16:59:48Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,29 +8,42 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `e40ac58e005b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/e40ac58e005b4e885a83c8407559e0317dda9431)
+- Commit `f36cf95e0518` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/f36cf95e05181e9e87404372b147d676d60043de)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.14.3-dev.1114.79935ee (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `79935eec371e` [Merge pull request #316 from pollen-robotics/ble-reboot-motors](https://github.com/pollen-robotics/microduck/commit/79935eec371e041d306cb941cf891871dd6df95d)
-- Commit `604e177be970` [btd: a tripped servo can be rebooted from the phone](https://github.com/pollen-robotics/microduck/commit/604e177be9706f06d9bc8dc2beba1e91d86d16c5)
-- PR #316 [A tripped servo can be rebooted over Bluetooth](https://github.com/pollen-robotics/microduck/pull/316) — closed
+- Release [daemon 0.14.4](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.14.4)
+- Release [daemon 0.14.4-dev.1130.7127849 (padd-reset-keeps-shutdown-sent)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-padd-reset-keeps-shutdown-sent) (prerelease)
+- Release [daemon 0.14.4-dev.1131.ac7531a (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `ac7531a77ada` [Merge pull request #273 from hadelan/padd-reset-holds-on-pad-loss](https://github.com/pollen-robotics/microduck/commit/ac7531a77adae5e9c49d1a3f5d23f72f9af7fee1)
+- Commit `71278495e342` [Merge branch 'main' into padd-reset-holds-on-pad-loss](https://github.com/pollen-robotics/microduck/commit/71278495e342b3fcc0f6c665bb35dbc57dfc9fe9)
+- Commit `b7b7d0d0f445` [padd: a pad dropout forgets the hold, not the shutdown](https://github.com/pollen-robotics/microduck/commit/b7b7d0d0f4453d4b60dd42669cc3eb7d8b2aeeb7)
+- Commit `ea5aba1901f1` [Merge pull request #216 from yunloong-Y/safety-limit-journal](https://github.com/pollen-robotics/microduck/commit/ea5aba1901f1152202671a65912d72a6c45a2cb4)
+- Commit `90e5f5861129` [Merge branch 'main' into safety-limit-journal](https://github.com/pollen-robotics/microduck/commit/90e5f58611290f6501ff495e23fff22ba491e9b3)
+- Commit `d5c270bbac3f` [Merge pull request #198 from hadelan/updater-rollback-journal-and-apply-action](https://github.com/pollen-robotics/microduck/commit/d5c270bbac3f44ef7013e7e8bbdfdf611aa10ac7)
+- Commit `17dea7a7a966` [Merge pull request #197 from Nixxx19/boot-recovery-waits-for-a-robot-that-is-still-starting](https://github.com/pollen-robotics/microduck/commit/17dea7a7a9669001a576aa354d7aae77be3145f3)
+- Commit `b2c07766f21e` [Merge pull request #295 from Quchaosheng/battery-rail-assumption](https://github.com/pollen-robotics/microduck/commit/b2c07766f21ecf39129aab7be5eff87c10d71250)
+- PR #273 [padd: drop in-flight button holds when the pad goes away](https://github.com/pollen-robotics/microduck/pull/273) — closed
+- PR #170 [Shutdown must not stand the robot back up, and quack opens the beak](https://github.com/pollen-robotics/microduck/pull/170) — closed
+- PR #52 [docs: a design for seeing what the services say to each other](https://github.com/pollen-robotics/microduck/pull/52) — closed
+- PR #169 [RFC: external per-joint target streaming (robot.setJoints)](https://github.com/pollen-robotics/microduck/pull/169) — closed
+- PR #181 [apply clippy float optimization recommendations](https://github.com/pollen-robotics/microduck/pull/181) — closed
+
+### pollen-robotics/microduck_rl
+
+- PR #55 [Add headstand routine training tasks](https://github.com/pollen-robotics/microduck_rl/pull/55) — open
 
 ### fanhao375/microduck-replica
 
-- Commit `a611f03ed8e8` [servo-web 0.13–0.15：官方姿势与 3D 叠加、模拟模式、按官方折叠校准，按审查修开扭矩跳变](https://github.com/fanhao375/microduck-replica/commit/a611f03ed8e85aaff53aab9ae1d3c27c2896ebc8)
-- Commit `c2076750b915` [fold_contact：官方模型精确网格求交，看折叠时关节被什么顶住；定下按折叠校准的做法](https://github.com/fanhao375/microduck-replica/commit/c2076750b9150217d379c9c571ee6f367365f842)
-- Commit `60f134537ef2` [imu_to_dxl：加交互式 BOM（焊接用），README 固件描述更新到 0.2.0](https://github.com/fanhao375/microduck-replica/commit/60f134537ef2c2ff07c3f98a408524c13a26d57f)
-- Commit `552c8fd0f9f0` [README：鸭友的项目加 @fengj4780-sudo 的 CNC 加强版结构](https://github.com/fanhao375/microduck-replica/commit/552c8fd0f9f0f499fcffb1a1e7fd2325330430f5)
+- Commit `6c37cd6ae18e` [servo-web 0.15.1：舵机体检脚本（只读）、远程排查交接](https://github.com/fanhao375/microduck-replica/commit/6c37cd6ae18efa32ad4105a6a45e6da3fea48d9d)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [e40ac58e005b](https://github.com/superobk/microduck-startup/commit/e40ac58e005b4e885a83c8407559e0317dda9431); pushed `2026-09-22T05:02:49Z`
-- **pollen-robotics/microduck** `main` → [79935eec371e](https://github.com/pollen-robotics/microduck/commit/79935eec371e041d306cb941cf891871dd6df95d); pushed `2026-09-22T11:06:32Z`
+- **superobk/microduck-startup** `main` → [f36cf95e0518](https://github.com/superobk/microduck-startup/commit/f36cf95e05181e9e87404372b147d676d60043de); pushed `2026-09-22T11:44:25Z`
+- **pollen-robotics/microduck** `main` → [ac7531a77ada](https://github.com/pollen-robotics/microduck/commit/ac7531a77adae5e9c49d1a3f5d23f72f9af7fee1); pushed `2026-09-22T15:35:05Z`
 - **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-17T15:47:16Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [a611f03ed8e8](https://github.com/fanhao375/microduck-replica/commit/a611f03ed8e85aaff53aab9ae1d3c27c2896ebc8); pushed `2026-09-22T09:48:00Z`
+- **fanhao375/microduck-replica** `master` → [6c37cd6ae18e](https://github.com/fanhao375/microduck-replica/commit/6c37cd6ae18efa32ad4105a6a45e6da3fea48d9d); pushed `2026-09-22T13:24:46Z`
 - **joeynyc/awesome-microduck** `main` → [a3815e7b73fb](https://github.com/joeynyc/awesome-microduck/commit/a3815e7b73fb1e95cbb3811d80023ed619c375ab); pushed `2026-09-19T13:07:08Z`
 - **mujocolab/mjlab** `main` → [c2e1e06400e3](https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2); pushed `2026-09-22T10:13:07Z`
 - **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:38:40Z`
