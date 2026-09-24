@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T04:57:01Z",
+  "generated_at": "2026-09-24T11:51:47Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "c429173a602ee92c1f08cd15522d4f4595afceb3",
-        "url": "https://github.com/superobk/microduck-startup/commit/c429173a602ee92c1f08cd15522d4f4595afceb3"
+        "sha": "59e9013c9014834e670e71ee4f42ffbae857fa34",
+        "url": "https://github.com/superobk/microduck-startup/commit/59e9013c9014834e670e71ee4f42ffbae857fa34"
       },
-      "updated_at": "2026-09-23T21:32:52Z",
-      "pushed_at": "2026-09-23T21:32:48Z",
+      "updated_at": "2026-09-24T04:57:23Z",
+      "pushed_at": "2026-09-24T04:57:19Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "59e9013c9014834e670e71ee4f42ffbae857fa34",
+          "sha": "59e9013c9014834e670e71ee4f42ffbae857fa34",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-24T04:57:18Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/59e9013c9014834e670e71ee4f42ffbae857fa34"
+        },
         {
           "id": "c429173a602ee92c1f08cd15522d4f4595afceb3",
           "sha": "c429173a602ee92c1f08cd15522d4f4595afceb3",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-22T11:44:24Z",
           "url": "https://github.com/superobk/microduck-startup/commit/f36cf95e05181e9e87404372b147d676d60043de"
-        },
-        {
-          "id": "e40ac58e005b4e885a83c8407559e0317dda9431",
-          "sha": "e40ac58e005b4e885a83c8407559e0317dda9431",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-22T05:02:48Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/e40ac58e005b4e885a83c8407559e0317dda9431"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-24T04:02:53Z",
+      "updated_at": "2026-09-24T10:42:17Z",
       "pushed_at": "2026-09-23T13:11:59Z",
-      "open_issues_count": 18,
+      "open_issues_count": 19,
       "commits": [
         {
           "id": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
@@ -238,7 +238,16 @@
           "url": "https://github.com/pollen-robotics/microduck/pull/326"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "328",
+          "number": 328,
+          "title": "Switch 2 Joy-Con",
+          "state": "open",
+          "updated_at": "2026-09-24T10:31:11Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/328"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +257,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-24T04:25:32Z",
+      "updated_at": "2026-09-24T09:39:24Z",
       "pushed_at": "2026-09-17T15:47:16Z",
       "open_issues_count": 39,
       "commits": [
@@ -372,20 +381,20 @@
       ],
       "issues": [
         {
+          "id": "27",
+          "number": 27,
+          "title": "How is the articulated beak/grasp modeled in simulation?",
+          "state": "open",
+          "updated_at": "2026-09-24T05:08:01Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/27"
+        },
+        {
           "id": "46",
           "number": 46,
           "title": "Velocity-family training converges to standing-in-place across all reward/curriculum variants — full diagnostic matrix",
           "state": "open",
           "updated_at": "2026-09-18T15:13:48Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/46"
-        },
-        {
-          "id": "6",
-          "number": 6,
-          "title": "Default Walking Policy?",
-          "state": "closed",
-          "updated_at": "2026-09-15T23:00:24Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/6"
         }
       ]
     },
@@ -438,7 +447,7 @@
         "sha": "6bd5cde42a0708a217a47373816f7148ddd865fe",
         "url": "https://github.com/fanhao375/microduck-replica/commit/6bd5cde42a0708a217a47373816f7148ddd865fe"
       },
-      "updated_at": "2026-09-24T04:00:12Z",
+      "updated_at": "2026-09-24T10:55:05Z",
       "pushed_at": "2026-09-24T03:31:39Z",
       "open_issues_count": 27,
       "commits": [
@@ -753,8 +762,8 @@
         "sha": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
         "url": "https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2"
       },
-      "updated_at": "2026-09-23T18:50:15Z",
-      "pushed_at": "2026-09-23T09:52:07Z",
+      "updated_at": "2026-09-24T08:39:51Z",
+      "pushed_at": "2026-09-24T10:02:06Z",
       "open_issues_count": 41,
       "commits": [
         {
@@ -910,7 +919,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-24T02:51:09Z",
+      "updated_at": "2026-09-24T06:32:50Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 5,
       "commits": [
