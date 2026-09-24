@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T11:51:47Z",
+  "generated_at": "2026-09-24T17:15:07Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "59e9013c9014834e670e71ee4f42ffbae857fa34",
-        "url": "https://github.com/superobk/microduck-startup/commit/59e9013c9014834e670e71ee4f42ffbae857fa34"
+        "sha": "cc39a442b9bb46d4bb1dc8684e1fd0edf0cea33f",
+        "url": "https://github.com/superobk/microduck-startup/commit/cc39a442b9bb46d4bb1dc8684e1fd0edf0cea33f"
       },
-      "updated_at": "2026-09-24T04:57:23Z",
-      "pushed_at": "2026-09-24T04:57:19Z",
+      "updated_at": "2026-09-24T11:52:11Z",
+      "pushed_at": "2026-09-24T11:52:07Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "cc39a442b9bb46d4bb1dc8684e1fd0edf0cea33f",
+          "sha": "cc39a442b9bb46d4bb1dc8684e1fd0edf0cea33f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-24T11:52:05Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/cc39a442b9bb46d4bb1dc8684e1fd0edf0cea33f"
+        },
         {
           "id": "59e9013c9014834e670e71ee4f42ffbae857fa34",
           "sha": "59e9013c9014834e670e71ee4f42ffbae857fa34",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-22T17:00:00Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ced03285a84fd5897efc556824d12a7a01cf04ec"
-        },
-        {
-          "id": "f36cf95e05181e9e87404372b147d676d60043de",
-          "sha": "f36cf95e05181e9e87404372b147d676d60043de",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-22T11:44:24Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/f36cf95e05181e9e87404372b147d676d60043de"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-24T10:42:17Z",
+      "updated_at": "2026-09-24T17:04:08Z",
       "pushed_at": "2026-09-23T13:11:59Z",
       "open_issues_count": 19,
       "commits": [
@@ -240,11 +240,19 @@
       ],
       "issues": [
         {
+          "id": "320",
+          "number": 320,
+          "title": "duck-sim: backticks in the updater TOML heredoc run as commands on every start",
+          "state": "closed",
+          "updated_at": "2026-09-24T12:29:00Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/320"
+        },
+        {
           "id": "328",
           "number": 328,
           "title": "Switch 2 Joy-Con",
           "state": "open",
-          "updated_at": "2026-09-24T10:31:11Z",
+          "updated_at": "2026-09-24T12:09:00Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/328"
         }
       ]
@@ -257,8 +265,8 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-24T09:39:24Z",
-      "pushed_at": "2026-09-17T15:47:16Z",
+      "updated_at": "2026-09-24T17:07:37Z",
+      "pushed_at": "2026-09-24T17:00:52Z",
       "open_issues_count": 39,
       "commits": [
         {
@@ -381,20 +389,20 @@
       ],
       "issues": [
         {
+          "id": "46",
+          "number": 46,
+          "title": "Velocity-family training converges to standing-in-place across all reward/curriculum variants — full diagnostic matrix",
+          "state": "open",
+          "updated_at": "2026-09-24T13:38:42Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/46"
+        },
+        {
           "id": "27",
           "number": 27,
           "title": "How is the articulated beak/grasp modeled in simulation?",
           "state": "open",
           "updated_at": "2026-09-24T05:08:01Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/27"
-        },
-        {
-          "id": "46",
-          "number": 46,
-          "title": "Velocity-family training converges to standing-in-place across all reward/curriculum variants — full diagnostic matrix",
-          "state": "open",
-          "updated_at": "2026-09-18T15:13:48Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/46"
         }
       ]
     },
@@ -444,13 +452,53 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "6bd5cde42a0708a217a47373816f7148ddd865fe",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/6bd5cde42a0708a217a47373816f7148ddd865fe"
+        "sha": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d"
       },
-      "updated_at": "2026-09-24T10:55:05Z",
-      "pushed_at": "2026-09-24T03:31:39Z",
+      "updated_at": "2026-09-24T16:12:15Z",
+      "pushed_at": "2026-09-24T12:12:49Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
+          "sha": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
+          "message": "Record verified training migration publication",
+          "author": "fanhao375",
+          "date": "2026-09-24T12:12:46Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d"
+        },
+        {
+          "id": "25791f0bd260fd869ed841578785fa8d7e14396d",
+          "sha": "25791f0bd260fd869ed841578785fa8d7e14396d",
+          "message": "Consolidate HD1910 training in replica repository",
+          "author": "fanhao375",
+          "date": "2026-09-24T12:11:34Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/25791f0bd260fd869ed841578785fa8d7e14396d"
+        },
+        {
+          "id": "f247526b1d18b80d425873119616c01ab21cd6f2",
+          "sha": "f247526b1d18b80d425873119616c01ab21cd6f2",
+          "message": "Plan consolidation of HD1910 training into replica repository",
+          "author": "fanhao375",
+          "date": "2026-09-24T11:54:57Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f247526b1d18b80d425873119616c01ab21cd6f2"
+        },
+        {
+          "id": "157b9e670c3032db9bd8139362b236c755989480",
+          "sha": "157b9e670c3032db9bd8139362b236c755989480",
+          "message": "链接 HD1910 训练分支与模型初始化修复说明",
+          "author": "fanhao375",
+          "date": "2026-09-24T11:52:23Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/157b9e670c3032db9bd8139362b236c755989480"
+        },
+        {
+          "id": "6149c11460c1e2fd78980b73a9bddfb28a526501",
+          "sha": "6149c11460c1e2fd78980b73a9bddfb28a526501",
+          "message": "注明 LuwuDynamics 1910 M6 参数来源和仿真接入范围",
+          "author": "fanhao375",
+          "date": "2026-09-24T11:48:55Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/6149c11460c1e2fd78980b73a9bddfb28a526501"
+        },
         {
           "id": "6bd5cde42a0708a217a47373816f7148ddd865fe",
           "sha": "6bd5cde42a0708a217a47373816f7148ddd865fe",
@@ -474,46 +522,6 @@
           "author": "fanhao375",
           "date": "2026-09-22T09:47:57Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/a611f03ed8e85aaff53aab9ae1d3c27c2896ebc8"
-        },
-        {
-          "id": "c2076750b9150217d379c9c571ee6f367365f842",
-          "sha": "c2076750b9150217d379c9c571ee6f367365f842",
-          "message": "fold_contact：官方模型精确网格求交，看折叠时关节被什么顶住；定下按折叠校准的做法",
-          "author": "fanhao375",
-          "date": "2026-09-22T09:47:57Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c2076750b9150217d379c9c571ee6f367365f842"
-        },
-        {
-          "id": "60f134537ef2c2ff07c3f98a408524c13a26d57f",
-          "sha": "60f134537ef2c2ff07c3f98a408524c13a26d57f",
-          "message": "imu_to_dxl：加交互式 BOM（焊接用），README 固件描述更新到 0.2.0",
-          "author": "fanhao375",
-          "date": "2026-09-22T09:47:57Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/60f134537ef2c2ff07c3f98a408524c13a26d57f"
-        },
-        {
-          "id": "552c8fd0f9f0f499fcffb1a1e7fd2325330430f5",
-          "sha": "552c8fd0f9f0f499fcffb1a1e7fd2325330430f5",
-          "message": "README：鸭友的项目加 @fengj4780-sudo 的 CNC 加强版结构",
-          "author": "fanhao375",
-          "date": "2026-09-22T07:21:43Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/552c8fd0f9f0f499fcffb1a1e7fd2325330430f5"
-        },
-        {
-          "id": "bb434912024906b31e0b054c7be544c59f57d359",
-          "sha": "bb434912024906b31e0b054c7be544c59f57d359",
-          "message": "文档：IMU 小板固件跑起来的记录、踩坑、v2 改版项",
-          "author": "fanhao375",
-          "date": "2026-09-22T01:51:33Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/bb434912024906b31e0b054c7be544c59f57d359"
-        },
-        {
-          "id": "57a2ddf4b04221c4885223f33d8c490f99fd8ecb",
-          "sha": "57a2ddf4b04221c4885223f33d8c490f99fd8ecb",
-          "message": "servo-web 0.11/0.12：ST-Link/DAPLink 读 IMU，直接从舵机总线读 IMU",
-          "author": "fanhao375",
-          "date": "2026-09-22T01:51:33Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/57a2ddf4b04221c4885223f33d8c490f99fd8ecb"
         }
       ],
       "releases": [
@@ -592,7 +600,7 @@
           "number": 35,
           "title": "舵机串联和imu接线图能给个示意图吗",
           "state": "open",
-          "updated_at": "2026-09-22T10:08:49Z",
+          "updated_at": "2026-09-24T13:05:17Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/35"
         },
         {
@@ -621,7 +629,7 @@
         "sha": "d327280312e6ab7bb3d2201b6e402a985384c36e",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e"
       },
-      "updated_at": "2026-09-23T11:46:40Z",
+      "updated_at": "2026-09-24T15:40:39Z",
       "pushed_at": "2026-09-23T05:37:52Z",
       "open_issues_count": 0,
       "commits": [
@@ -762,7 +770,7 @@
         "sha": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
         "url": "https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2"
       },
-      "updated_at": "2026-09-24T08:39:51Z",
+      "updated_at": "2026-09-24T14:30:21Z",
       "pushed_at": "2026-09-24T10:02:06Z",
       "open_issues_count": 41,
       "commits": [
@@ -919,7 +927,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-24T06:32:50Z",
+      "updated_at": "2026-09-24T13:24:50Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 5,
       "commits": [
