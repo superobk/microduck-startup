@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-25T11:55:08Z`
+Generated: `2026-09-25T17:15:42Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,34 +8,31 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `cd2ab95cb0a9` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a)
+- Commit `8a03e74c2660` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/8a03e74c2660c0a2e76cc20cef922c7ad89d87b4)
 
 ### pollen-robotics/microduck
 
-- PR #287 [The clock bridge gets a reader, and states what its bound is worth](https://github.com/pollen-robotics/microduck/pull/287) — open
+- PR #181 [apply clippy float optimization recommendations](https://github.com/pollen-robotics/microduck/pull/181) — closed
+- PR #330 [updater: enforce per-component artifact budgets and required files](https://github.com/pollen-robotics/microduck/pull/330) — open
 
 ### pollen-robotics/microduck_rl
 
-- PR #56 [Policy export contract](https://github.com/pollen-robotics/microduck_rl/pull/56) — open
+- PR #57 [Record and publish the recipe of every run; usable from a challenges repo](https://github.com/pollen-robotics/microduck_rl/pull/57) — open
 
 ### joeynyc/awesome-microduck
 
-- PR #15 [Add quack-nav](https://github.com/joeynyc/awesome-microduck/pull/15) — open
-
-### mujocolab/mjlab
-
-- PR #1192 [update](https://github.com/mujocolab/mjlab/pull/1192) — closed
-- PR #1191 [Share the hold decision across envs in shared-lag DelayBuffer](https://github.com/mujocolab/mjlab/pull/1191) — open
-- PR #1190 [Resample additive observation bias from zero on reset](https://github.com/mujocolab/mjlab/pull/1190) — open
+- Commit `c19e8111338a` [Add distilled walkers, a Windows path, a CPU policy and two datasets (#16)](https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701)
+- Commit `cf4d3993f4e7` [Add quack-nav (#15)](https://github.com/joeynyc/awesome-microduck/commit/cf4d3993f4e782d6f47c11c5579e00043f6a935e)
+- PR #16 [Add distilled walkers, a Windows path, a CPU policy and two datasets](https://github.com/joeynyc/awesome-microduck/pull/16) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [cd2ab95cb0a9](https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a); pushed `2026-09-25T05:02:08Z`
+- **superobk/microduck-startup** `main` → [8a03e74c2660](https://github.com/superobk/microduck-startup/commit/8a03e74c2660c0a2e76cc20cef922c7ad89d87b4); pushed `2026-09-25T11:55:20Z`
 - **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
-- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-25T11:18:28Z`
+- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-25T15:00:12Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [a23f4c18a474](https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d); pushed `2026-09-24T12:12:49Z`
-- **joeynyc/awesome-microduck** `main` → [d327280312e6](https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e); pushed `2026-09-23T05:37:52Z`
+- **joeynyc/awesome-microduck** `main` → [c19e8111338a](https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701); pushed `2026-09-25T12:08:11Z`
 - **mujocolab/mjlab** `main` → [c2e1e06400e3](https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2); pushed `2026-09-24T10:02:06Z`
 - **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:38:40Z`
 

@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T11:55:08Z",
+  "generated_at": "2026-09-25T17:15:42Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
-        "url": "https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a"
+        "sha": "8a03e74c2660c0a2e76cc20cef922c7ad89d87b4",
+        "url": "https://github.com/superobk/microduck-startup/commit/8a03e74c2660c0a2e76cc20cef922c7ad89d87b4"
       },
-      "updated_at": "2026-09-25T05:02:12Z",
-      "pushed_at": "2026-09-25T05:02:08Z",
+      "updated_at": "2026-09-25T11:55:24Z",
+      "pushed_at": "2026-09-25T11:55:20Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "8a03e74c2660c0a2e76cc20cef922c7ad89d87b4",
+          "sha": "8a03e74c2660c0a2e76cc20cef922c7ad89d87b4",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-25T11:55:19Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/8a03e74c2660c0a2e76cc20cef922c7ad89d87b4"
+        },
         {
           "id": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
           "sha": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-23T17:07:05Z",
           "url": "https://github.com/superobk/microduck-startup/commit/34260eeb90e6e81b7ec1887577e9fc5fb8531c44"
-        },
-        {
-          "id": "9d8d56284c84b123736c3f920f55c3da3836f34a",
-          "sha": "9d8d56284c84b123736c3f920f55c3da3836f34a",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-23T11:43:27Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/9d8d56284c84b123736c3f920f55c3da3836f34a"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-25T10:22:04Z",
+      "updated_at": "2026-09-25T16:35:33Z",
       "pushed_at": "2026-09-23T13:11:59Z",
-      "open_issues_count": 20,
+      "open_issues_count": 21,
       "commits": [
         {
           "id": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "181",
+          "number": 181,
+          "title": "apply clippy float optimization recommendations",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-25T13:05:27Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/181"
+        },
+        {
+          "id": "330",
+          "number": 330,
+          "title": "updater: enforce per-component artifact budgets and required files",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-25T12:31:16Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/330"
+        },
+        {
           "id": "287",
           "number": 287,
           "title": "The clock bridge gets a reader, and states what its bound is worth",
@@ -216,26 +236,6 @@
           "updated_at": "2026-09-23T12:44:27Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/266"
-        },
-        {
-          "id": "271",
-          "number": 271,
-          "title": "sdk: a python client, and a loop to write behaviours in",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-23T12:44:03Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/271"
-        },
-        {
-          "id": "327",
-          "number": 327,
-          "title": "robotctl health: say whether the central lists the robot, and as whom",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-23T12:39:56Z",
-          "merged_at": "2026-09-23T12:39:55Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/327"
         }
       ],
       "issues": [
@@ -254,14 +254,6 @@
           "state": "closed",
           "updated_at": "2026-09-24T12:29:00Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/320"
-        },
-        {
-          "id": "328",
-          "number": 328,
-          "title": "Switch 2 Joy-Con",
-          "state": "open",
-          "updated_at": "2026-09-24T12:09:00Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/328"
         }
       ]
     },
@@ -273,9 +265,9 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-25T08:18:56Z",
-      "pushed_at": "2026-09-25T11:18:28Z",
-      "open_issues_count": 40,
+      "updated_at": "2026-09-25T13:33:03Z",
+      "pushed_at": "2026-09-25T15:00:12Z",
+      "open_issues_count": 41,
       "commits": [
         {
           "id": "cb70b792312d559a4da09064d92009079671815f",
@@ -345,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "57",
+          "number": 57,
+          "title": "Record and publish the recipe of every run; usable from a challenges repo",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-09-25T15:00:31Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
+        },
+        {
           "id": "56",
           "number": 56,
           "title": "Policy export contract",
@@ -383,16 +385,6 @@
           "updated_at": "2026-09-16T14:58:08Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/53"
-        },
-        {
-          "id": "52",
-          "number": 52,
-          "title": "Cross-stack reward parity: feet_flat sign fix, PR gate, MJX migration scaffold",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-15T16:17:08Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/52"
         }
       ],
       "issues": [
@@ -463,7 +455,7 @@
         "sha": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
         "url": "https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d"
       },
-      "updated_at": "2026-09-25T10:42:18Z",
+      "updated_at": "2026-09-25T17:07:36Z",
       "pushed_at": "2026-09-24T12:12:49Z",
       "open_issues_count": 27,
       "commits": [
@@ -634,13 +626,29 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "d327280312e6ab7bb3d2201b6e402a985384c36e",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e"
+        "sha": "c19e8111338ab4d98271b8fd102b495b582b3701",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701"
       },
-      "updated_at": "2026-09-25T04:54:43Z",
-      "pushed_at": "2026-09-23T05:37:52Z",
-      "open_issues_count": 1,
+      "updated_at": "2026-09-25T12:08:13Z",
+      "pushed_at": "2026-09-25T12:08:11Z",
+      "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c19e8111338ab4d98271b8fd102b495b582b3701",
+          "sha": "c19e8111338ab4d98271b8fd102b495b582b3701",
+          "message": "Add distilled walkers, a Windows path, a CPU policy and two datasets (#16)",
+          "author": "joeynyc",
+          "date": "2026-09-25T12:08:09Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701"
+        },
+        {
+          "id": "cf4d3993f4e782d6f47c11c5579e00043f6a935e",
+          "sha": "cf4d3993f4e782d6f47c11c5579e00043f6a935e",
+          "message": "Add quack-nav (#15)",
+          "author": "andreagenovese",
+          "date": "2026-09-25T12:06:08Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/cf4d3993f4e782d6f47c11c5579e00043f6a935e"
+        },
         {
           "id": "d327280312e6ab7bb3d2201b6e402a985384c36e",
           "sha": "d327280312e6ab7bb3d2201b6e402a985384c36e",
@@ -688,34 +696,28 @@
           "author": "joeynyc",
           "date": "2026-09-15T07:35:49Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/52173dc5429fdb0b5ac788f92f7dd3e2e7defe00"
-        },
-        {
-          "id": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
-          "sha": "c5dcf3d90361330b0b0d90eb74506cb6d3022373",
-          "message": "Add microdux",
-          "author": "noahfarr",
-          "date": "2026-09-05T16:12:34Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/c5dcf3d90361330b0b0d90eb74506cb6d3022373"
-        },
-        {
-          "id": "dfc36b91c50049593270c65ec72b7e3783b7b1a9",
-          "sha": "dfc36b91c50049593270c65ec72b7e3783b7b1a9",
-          "message": "Add the TorchRL skill policy, a container, a fly-circuit bridge and a course (#6)",
-          "author": "joeynyc",
-          "date": "2026-09-13T02:11:34Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/dfc36b91c50049593270c65ec72b7e3783b7b1a9"
         }
       ],
       "releases": [],
       "pulls": [
         {
+          "id": "16",
+          "number": 16,
+          "title": "Add distilled walkers, a Windows path, a CPU policy and two datasets",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-25T12:08:11Z",
+          "merged_at": "2026-09-25T12:08:09Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/16"
+        },
+        {
           "id": "15",
           "number": 15,
           "title": "Add quack-nav",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-25T08:20:41Z",
-          "merged_at": null,
+          "updated_at": "2026-09-25T12:06:09Z",
+          "merged_at": "2026-09-25T12:06:08Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/15"
         },
         {
@@ -747,16 +749,6 @@
           "updated_at": "2026-09-18T07:01:22Z",
           "merged_at": "2026-09-17T19:51:58Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/11"
-        },
-        {
-          "id": "10",
-          "number": 10,
-          "title": "Add a UniLab port, a MotrixLab roller environment and a measured hop",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-18T07:01:21Z",
-          "merged_at": "2026-09-16T08:52:29Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/10"
         }
       ],
       "issues": [
@@ -778,7 +770,7 @@
         "sha": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
         "url": "https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2"
       },
-      "updated_at": "2026-09-25T03:14:35Z",
+      "updated_at": "2026-09-25T16:37:37Z",
       "pushed_at": "2026-09-24T10:02:06Z",
       "open_issues_count": 43,
       "commits": [
@@ -935,7 +927,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-25T10:25:09Z",
+      "updated_at": "2026-09-25T15:26:18Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 5,
       "commits": [
