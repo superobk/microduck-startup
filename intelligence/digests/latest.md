@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-25T05:01:53Z`
+Generated: `2026-09-25T11:55:08Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,13 +8,31 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `d5ec1fb0113d` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d5ec1fb0113d3acbce74f6cab483d19ef4155601)
+- Commit `cd2ab95cb0a9` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a)
+
+### pollen-robotics/microduck
+
+- PR #287 [The clock bridge gets a reader, and states what its bound is worth](https://github.com/pollen-robotics/microduck/pull/287) — open
+
+### pollen-robotics/microduck_rl
+
+- PR #56 [Policy export contract](https://github.com/pollen-robotics/microduck_rl/pull/56) — open
+
+### joeynyc/awesome-microduck
+
+- PR #15 [Add quack-nav](https://github.com/joeynyc/awesome-microduck/pull/15) — open
+
+### mujocolab/mjlab
+
+- PR #1192 [update](https://github.com/mujocolab/mjlab/pull/1192) — closed
+- PR #1191 [Share the hold decision across envs in shared-lag DelayBuffer](https://github.com/mujocolab/mjlab/pull/1191) — open
+- PR #1190 [Resample additive observation bias from zero on reset](https://github.com/mujocolab/mjlab/pull/1190) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [d5ec1fb0113d](https://github.com/superobk/microduck-startup/commit/d5ec1fb0113d3acbce74f6cab483d19ef4155601); pushed `2026-09-24T21:33:54Z`
+- **superobk/microduck-startup** `main` → [cd2ab95cb0a9](https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a); pushed `2026-09-25T05:02:08Z`
 - **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
-- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-24T17:00:52Z`
+- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-25T11:18:28Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [a23f4c18a474](https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d); pushed `2026-09-24T12:12:49Z`
 - **joeynyc/awesome-microduck** `main` → [d327280312e6](https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e); pushed `2026-09-23T05:37:52Z`

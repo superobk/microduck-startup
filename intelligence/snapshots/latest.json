@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T05:01:53Z",
+  "generated_at": "2026-09-25T11:55:08Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d5ec1fb0113d3acbce74f6cab483d19ef4155601",
-        "url": "https://github.com/superobk/microduck-startup/commit/d5ec1fb0113d3acbce74f6cab483d19ef4155601"
+        "sha": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
+        "url": "https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a"
       },
-      "updated_at": "2026-09-24T21:33:59Z",
-      "pushed_at": "2026-09-24T21:33:54Z",
+      "updated_at": "2026-09-25T05:02:12Z",
+      "pushed_at": "2026-09-25T05:02:08Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
+          "sha": "cd2ab95cb0a901b684f38e0fe6d665619673601a",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-25T05:02:07Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/cd2ab95cb0a901b684f38e0fe6d665619673601a"
+        },
         {
           "id": "d5ec1fb0113d3acbce74f6cab483d19ef4155601",
           "sha": "d5ec1fb0113d3acbce74f6cab483d19ef4155601",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-23T11:43:27Z",
           "url": "https://github.com/superobk/microduck-startup/commit/9d8d56284c84b123736c3f920f55c3da3836f34a"
-        },
-        {
-          "id": "355652fe2ed0a32ef7d26fab5e9ac22a18fe90b9",
-          "sha": "355652fe2ed0a32ef7d26fab5e9ac22a18fe90b9",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-23T04:49:28Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/355652fe2ed0a32ef7d26fab5e9ac22a18fe90b9"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-25T04:49:09Z",
+      "updated_at": "2026-09-25T10:22:04Z",
       "pushed_at": "2026-09-23T13:11:59Z",
       "open_issues_count": 20,
       "commits": [
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "287",
+          "number": 287,
+          "title": "The clock bridge gets a reader, and states what its bound is worth",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-25T08:33:24Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/287"
+        },
+        {
           "id": "324",
           "number": 324,
           "title": "Prepare release 0.15.0",
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-23T12:39:56Z",
           "merged_at": "2026-09-23T12:39:55Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/327"
-        },
-        {
-          "id": "326",
-          "number": 326,
-          "title": "A source not checked yet is not one that never answered",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-23T12:32:07Z",
-          "merged_at": "2026-09-23T12:32:05Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/326"
         }
       ],
       "issues": [
@@ -273,9 +273,9 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-25T03:15:43Z",
-      "pushed_at": "2026-09-24T17:00:52Z",
-      "open_issues_count": 39,
+      "updated_at": "2026-09-25T08:18:56Z",
+      "pushed_at": "2026-09-25T11:18:28Z",
+      "open_issues_count": 40,
       "commits": [
         {
           "id": "cb70b792312d559a4da09064d92009079671815f",
@@ -345,6 +345,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "56",
+          "number": 56,
+          "title": "Policy export contract",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-09-25T09:39:59Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/56"
+        },
+        {
           "id": "55",
           "number": 55,
           "title": "Add headstand routine training tasks",
@@ -383,16 +393,6 @@
           "updated_at": "2026-09-15T16:17:08Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/52"
-        },
-        {
-          "id": "51",
-          "number": 51,
-          "title": "Add optional read-only MuJoCo visualization stream",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-11T12:44:53Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
         }
       ],
       "issues": [
@@ -463,7 +463,7 @@
         "sha": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
         "url": "https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d"
       },
-      "updated_at": "2026-09-25T02:24:55Z",
+      "updated_at": "2026-09-25T10:42:18Z",
       "pushed_at": "2026-09-24T12:12:49Z",
       "open_issues_count": 27,
       "commits": [
@@ -639,7 +639,7 @@
       },
       "updated_at": "2026-09-25T04:54:43Z",
       "pushed_at": "2026-09-23T05:37:52Z",
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "commits": [
         {
           "id": "d327280312e6ab7bb3d2201b6e402a985384c36e",
@@ -709,6 +709,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "15",
+          "number": 15,
+          "title": "Add quack-nav",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-25T08:20:41Z",
+          "merged_at": null,
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/15"
+        },
+        {
           "id": "14",
           "number": 14,
           "title": "Add the first form submission, the public Academy, and nine more",
@@ -747,16 +757,6 @@
           "updated_at": "2026-09-18T07:01:21Z",
           "merged_at": "2026-09-16T08:52:29Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/10"
-        },
-        {
-          "id": "9",
-          "number": 9,
-          "title": "Add 21 entries on a broader \"worthy\" bar, including a hardware-run hop",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-18T07:01:20Z",
-          "merged_at": "2026-09-15T07:40:49Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/9"
         }
       ],
       "issues": [
@@ -780,7 +780,7 @@
       },
       "updated_at": "2026-09-25T03:14:35Z",
       "pushed_at": "2026-09-24T10:02:06Z",
-      "open_issues_count": 41,
+      "open_issues_count": 43,
       "commits": [
         {
           "id": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
@@ -875,6 +875,36 @@
       ],
       "pulls": [
         {
+          "id": "1192",
+          "number": 1192,
+          "title": "update",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-25T08:28:04Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1192"
+        },
+        {
+          "id": "1191",
+          "number": 1191,
+          "title": "Share the hold decision across envs in shared-lag DelayBuffer",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-25T06:08:12Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1191"
+        },
+        {
+          "id": "1190",
+          "number": 1190,
+          "title": "Resample additive observation bias from zero on reset",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-25T06:08:10Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1190"
+        },
+        {
           "id": "1184",
           "number": 1184,
           "title": "Add history to commands",
@@ -893,36 +923,6 @@
           "updated_at": "2026-09-23T13:07:04Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1187"
-        },
-        {
-          "id": "1189",
-          "number": 1189,
-          "title": "docs: clarify velocity illegal contact threshold",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-23T03:59:22Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1189"
-        },
-        {
-          "id": "1172",
-          "number": 1172,
-          "title": "Fix BuiltinPdActuator ctrl layout when sort_actuators=True",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-23T01:50:15Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1172"
-        },
-        {
-          "id": "1188",
-          "number": 1188,
-          "title": "Judge the terrain curriculum against the distance the episode commanded",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-21T14:17:53Z",
-          "merged_at": "2026-09-21T14:17:50Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1188"
         }
       ],
       "issues": []
@@ -935,7 +935,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-25T00:51:46Z",
+      "updated_at": "2026-09-25T10:25:09Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 5,
       "commits": [
