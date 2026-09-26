@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-26T16:27:11Z`
+Generated: `2026-09-26T21:13:47Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,13 +8,17 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `a5001708382b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a5001708382bd20a790e9c0b6f9dfba5538b08c1)
+- Commit `398103defc62` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/398103defc62569ba258250e12915834bb498c15)
+
+### pollen-robotics/microduck_rl
+
+- PR #58 [feat: `--modal` — train on Modal GPUs, sibling of the HF Jobs path](https://github.com/pollen-robotics/microduck_rl/pull/58) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [a5001708382b](https://github.com/superobk/microduck-startup/commit/a5001708382bd20a790e9c0b6f9dfba5538b08c1); pushed `2026-09-26T11:29:52Z`
+- **superobk/microduck-startup** `main` → [398103defc62](https://github.com/superobk/microduck-startup/commit/398103defc62569ba258250e12915834bb498c15); pushed `2026-09-26T16:27:28Z`
 - **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
-- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-25T15:00:12Z`
+- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-26T19:50:49Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [a23f4c18a474](https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d); pushed `2026-09-24T12:12:49Z`
 - **joeynyc/awesome-microduck** `main` → [c19e8111338a](https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701); pushed `2026-09-25T12:08:11Z`
