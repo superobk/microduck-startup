@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-27T17:00:37Z`
+Generated: `2026-09-27T21:23:35Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,21 +8,31 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `5124a0e6aeea` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e)
+- Commit `0c78207b3ee8` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0c78207b3ee839aa75b31f8ffe82e392f5ef08ef)
 
-### pollen-robotics/microduck
+### mujocolab/mjlab
 
-- PR #331 [duck-sim: a default that walks, keyboard teleop, and a race to run](https://github.com/pollen-robotics/microduck/pull/331) — open
+- Commit `4ac9df2f1d67` [Add Python 3.14 support and move to torch 2.14 with CUDA 13. (#1194)](https://github.com/mujocolab/mjlab/commit/4ac9df2f1d67de4aad62c4a38b27c84b04268bbe)
+- Commit `a1882850794f` [Bump GitPython to 3.1.59 and anyio to 4.14.2 for security fixes. (#1193)](https://github.com/mujocolab/mjlab/commit/a1882850794fc17b2e6d847ae50ace84182ebda3)
+- PR #1194 [Add Python 3.14 support and move to torch 2.14 with CUDA 13.](https://github.com/mujocolab/mjlab/pull/1194) — closed
+- PR #1186 [Allow python 3.14](https://github.com/mujocolab/mjlab/pull/1186) — closed
+- PR #1193 [Bump GitPython to 3.1.59 and anyio to 4.14.2 for security fixes.](https://github.com/mujocolab/mjlab/pull/1193) — closed
+- PR #1072 [fix: make terrain_levels_vel promotion threshold track commanded velocity](https://github.com/mujocolab/mjlab/pull/1072) — closed
+
+### leggedrobotics/rsl_rl
+
+- PR #236 [Add PPO critic lifecycle hooks and DistributionalPPO](https://github.com/leggedrobotics/rsl_rl/pull/236) — open
+- PR #235 [docs: clarify VecEnv observation buffer lifetime](https://github.com/leggedrobotics/rsl_rl/pull/235) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [5124a0e6aeea](https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e); pushed `2026-09-27T12:08:03Z`
+- **superobk/microduck-startup** `main` → [0c78207b3ee8](https://github.com/superobk/microduck-startup/commit/0c78207b3ee839aa75b31f8ffe82e392f5ef08ef); pushed `2026-09-27T17:00:56Z`
 - **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
 - **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-26T19:50:49Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [a23f4c18a474](https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d); pushed `2026-09-24T12:12:49Z`
 - **joeynyc/awesome-microduck** `main` → [c19e8111338a](https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701); pushed `2026-09-25T12:08:11Z`
-- **mujocolab/mjlab** `main` → [c2e1e06400e3](https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2); pushed `2026-09-27T10:18:01Z`
+- **mujocolab/mjlab** `main` → [4ac9df2f1d67](https://github.com/mujocolab/mjlab/commit/4ac9df2f1d67de4aad62c4a38b27c84b04268bbe); pushed `2026-09-27T21:23:21Z`
 - **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:38:40Z`
 
 ## Social feeds

@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T17:00:37Z",
+  "generated_at": "2026-09-27T21:23:35Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
-        "url": "https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e"
+        "sha": "0c78207b3ee839aa75b31f8ffe82e392f5ef08ef",
+        "url": "https://github.com/superobk/microduck-startup/commit/0c78207b3ee839aa75b31f8ffe82e392f5ef08ef"
       },
-      "updated_at": "2026-09-27T12:08:06Z",
-      "pushed_at": "2026-09-27T12:08:03Z",
+      "updated_at": "2026-09-27T17:00:59Z",
+      "pushed_at": "2026-09-27T17:00:56Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0c78207b3ee839aa75b31f8ffe82e392f5ef08ef",
+          "sha": "0c78207b3ee839aa75b31f8ffe82e392f5ef08ef",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-27T17:00:54Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0c78207b3ee839aa75b31f8ffe82e392f5ef08ef"
+        },
         {
           "id": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
           "sha": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-25T21:38:18Z",
           "url": "https://github.com/superobk/microduck-startup/commit/d3b3e51fdd8e95eedfd367e64dfdaeb04dbbbb8b"
-        },
-        {
-          "id": "7b665fe92d23b30fc9bd177b75ab7cc9fc361da2",
-          "sha": "7b665fe92d23b30fc9bd177b75ab7cc9fc361da2",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-25T17:16:02Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/7b665fe92d23b30fc9bd177b75ab7cc9fc361da2"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-27T16:50:02Z",
+      "updated_at": "2026-09-27T19:52:07Z",
       "pushed_at": "2026-09-23T13:11:59Z",
       "open_issues_count": 22,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-27T16:24:52Z",
+      "updated_at": "2026-09-27T20:18:38Z",
       "pushed_at": "2026-09-26T19:50:49Z",
       "open_issues_count": 43,
       "commits": [
@@ -329,6 +329,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "60",
+          "number": 60,
+          "title": "fix: keep CPU policy replay compatible with an independent mouth actuator",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-27T20:39:55Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/60"
+        },
+        {
           "id": "61",
           "number": 61,
           "title": "Feature/outdoor terrain",
@@ -337,16 +347,6 @@
           "updated_at": "2026-09-27T09:03:38Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/61"
-        },
-        {
-          "id": "60",
-          "number": 60,
-          "title": "fix: keep CPU policy replay compatible with an independent mouth actuator",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-26T22:37:54Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/60"
         },
         {
           "id": "58",
@@ -751,13 +751,29 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
-        "url": "https://github.com/mujocolab/mjlab/commit/c2e1e06400e309b6897a536693fe5d2aa772c5b2"
+        "sha": "4ac9df2f1d67de4aad62c4a38b27c84b04268bbe",
+        "url": "https://github.com/mujocolab/mjlab/commit/4ac9df2f1d67de4aad62c4a38b27c84b04268bbe"
       },
-      "updated_at": "2026-09-26T05:49:50Z",
-      "pushed_at": "2026-09-27T10:18:01Z",
-      "open_issues_count": 43,
+      "updated_at": "2026-09-27T21:23:24Z",
+      "pushed_at": "2026-09-27T21:23:21Z",
+      "open_issues_count": 41,
       "commits": [
+        {
+          "id": "4ac9df2f1d67de4aad62c4a38b27c84b04268bbe",
+          "sha": "4ac9df2f1d67de4aad62c4a38b27c84b04268bbe",
+          "message": "Add Python 3.14 support and move to torch 2.14 with CUDA 13. (#1194)",
+          "author": "kevinzakka",
+          "date": "2026-09-27T21:23:20Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/4ac9df2f1d67de4aad62c4a38b27c84b04268bbe"
+        },
+        {
+          "id": "a1882850794fc17b2e6d847ae50ace84182ebda3",
+          "sha": "a1882850794fc17b2e6d847ae50ace84182ebda3",
+          "message": "Bump GitPython to 3.1.59 and anyio to 4.14.2 for security fixes. (#1193)",
+          "author": "kevinzakka",
+          "date": "2026-09-27T21:08:32Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/a1882850794fc17b2e6d847ae50ace84182ebda3"
+        },
         {
           "id": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
           "sha": "c2e1e06400e309b6897a536693fe5d2aa772c5b2",
@@ -805,22 +821,6 @@
           "author": "kevinzakka",
           "date": "2026-08-27T22:12:19Z",
           "url": "https://github.com/mujocolab/mjlab/commit/c19f713c415a699a79d71cd96aa13c3104a05047"
-        },
-        {
-          "id": "83bca4971e8a153ec979f7c44d8a3b702cceec5d",
-          "sha": "83bca4971e8a153ec979f7c44d8a3b702cceec5d",
-          "message": "Add microduck_rl to community projects. (#1165)",
-          "author": "kevinzakka",
-          "date": "2026-08-27T21:09:32Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/83bca4971e8a153ec979f7c44d8a3b702cceec5d"
-        },
-        {
-          "id": "5216d041d2fff5dc7497f1f670901ae36361a1c2",
-          "sha": "5216d041d2fff5dc7497f1f670901ae36361a1c2",
-          "message": "Use the public rsl-rl import path for WandbLogWriter. (#1164)",
-          "author": "kevinzakka",
-          "date": "2026-08-27T21:08:38Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/5216d041d2fff5dc7497f1f670901ae36361a1c2"
         }
       ],
       "releases": [
@@ -851,6 +851,46 @@
       ],
       "pulls": [
         {
+          "id": "1194",
+          "number": 1194,
+          "title": "Add Python 3.14 support and move to torch 2.14 with CUDA 13.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-27T21:23:22Z",
+          "merged_at": "2026-09-27T21:23:20Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1194"
+        },
+        {
+          "id": "1186",
+          "number": 1186,
+          "title": "Allow python 3.14",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-27T21:15:07Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1186"
+        },
+        {
+          "id": "1193",
+          "number": 1193,
+          "title": "Bump GitPython to 3.1.59 and anyio to 4.14.2 for security fixes.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-27T21:08:35Z",
+          "merged_at": "2026-09-27T21:08:33Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1193"
+        },
+        {
+          "id": "1072",
+          "number": 1072,
+          "title": "fix: make terrain_levels_vel promotion threshold track commanded velocity",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-27T20:25:26Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1072"
+        },
+        {
           "id": "1192",
           "number": 1192,
           "title": "update",
@@ -859,46 +899,6 @@
           "updated_at": "2026-09-25T08:28:04Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1192"
-        },
-        {
-          "id": "1191",
-          "number": 1191,
-          "title": "Share the hold decision across envs in shared-lag DelayBuffer",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-25T06:08:12Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1191"
-        },
-        {
-          "id": "1190",
-          "number": 1190,
-          "title": "Resample additive observation bias from zero on reset",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-25T06:08:10Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1190"
-        },
-        {
-          "id": "1184",
-          "number": 1184,
-          "title": "Add history to commands",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-23T13:10:04Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1184"
-        },
-        {
-          "id": "1187",
-          "number": 1187,
-          "title": "Simulation backend registry and Mujoco CPU based backend prototypes",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-23T13:07:04Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1187"
         }
       ],
       "issues": []
@@ -913,7 +913,7 @@
       },
       "updated_at": "2026-09-27T08:56:40Z",
       "pushed_at": "2026-09-09T11:38:40Z",
-      "open_issues_count": 5,
+      "open_issues_count": 7,
       "commits": [
         {
           "id": "857de6165c5fd479726ec8ac5c9303a497766f30",
@@ -1008,6 +1008,26 @@
       ],
       "pulls": [
         {
+          "id": "236",
+          "number": 236,
+          "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-27T21:05:02Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
+        },
+        {
+          "id": "235",
+          "number": 235,
+          "title": "docs: clarify VecEnv observation buffer lifetime",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-27T17:25:16Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/235"
+        },
+        {
           "id": "218",
           "number": 218,
           "title": "docs: config schema by release + ROCm PyTorch note + Chrono-style example YAML",
@@ -1036,26 +1056,6 @@
           "updated_at": "2026-08-31T10:29:25Z",
           "merged_at": "2026-08-31T10:29:25Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/228"
-        },
-        {
-          "id": "233",
-          "number": 233,
-          "title": "Avoid broadcast_object_list when broadcasting parameters",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-31T06:54:22Z",
-          "merged_at": "2026-08-31T06:54:22Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/233"
-        },
-        {
-          "id": "232",
-          "number": 232,
-          "title": "start_method=thread cause error with latest wandb",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-28T11:53:16Z",
-          "merged_at": "2026-08-28T11:53:15Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/232"
         }
       ],
       "issues": []
