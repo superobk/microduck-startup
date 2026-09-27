@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T12:07:50Z",
+  "generated_at": "2026-09-27T17:00:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd",
-        "url": "https://github.com/superobk/microduck-startup/commit/ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd"
+        "sha": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
+        "url": "https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e"
       },
-      "updated_at": "2026-09-27T05:23:04Z",
-      "pushed_at": "2026-09-27T05:23:00Z",
+      "updated_at": "2026-09-27T12:08:06Z",
+      "pushed_at": "2026-09-27T12:08:03Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
+          "sha": "5124a0e6aeea97f9ed27719e61ffb2f1d84f998e",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-27T12:08:01Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e"
+        },
         {
           "id": "ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd",
           "sha": "ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-25T17:16:02Z",
           "url": "https://github.com/superobk/microduck-startup/commit/7b665fe92d23b30fc9bd177b75ab7cc9fc361da2"
-        },
-        {
-          "id": "8a03e74c2660c0a2e76cc20cef922c7ad89d87b4",
-          "sha": "8a03e74c2660c0a2e76cc20cef922c7ad89d87b4",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-25T11:55:19Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/8a03e74c2660c0a2e76cc20cef922c7ad89d87b4"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
         "url": "https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c"
       },
-      "updated_at": "2026-09-27T11:28:14Z",
+      "updated_at": "2026-09-27T16:50:02Z",
       "pushed_at": "2026-09-23T13:11:59Z",
-      "open_issues_count": 21,
+      "open_issues_count": 22,
       "commits": [
         {
           "id": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "331",
+          "number": 331,
+          "title": "duck-sim: a default that walks, keyboard teleop, and a race to run",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-27T13:50:33Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/331"
+        },
+        {
           "id": "287",
           "number": 287,
           "title": "The clock bridge gets a reader, and states what its bound is worth",
@@ -226,16 +236,6 @@
           "updated_at": "2026-09-23T12:51:07Z",
           "merged_at": "2026-09-23T12:51:05Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/324"
-        },
-        {
-          "id": "266",
-          "number": 266,
-          "title": "mediad: a websocket for programs, next to the datachannel for people",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-23T12:44:27Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/266"
         }
       ],
       "issues": [
@@ -246,14 +246,6 @@
           "state": "open",
           "updated_at": "2026-09-25T05:01:03Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/329"
-        },
-        {
-          "id": "320",
-          "number": 320,
-          "title": "duck-sim: backticks in the updater TOML heredoc run as commands on every start",
-          "state": "closed",
-          "updated_at": "2026-09-24T12:29:00Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/320"
         }
       ]
     },
@@ -265,7 +257,7 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-27T03:30:39Z",
+      "updated_at": "2026-09-27T16:24:52Z",
       "pushed_at": "2026-09-26T19:50:49Z",
       "open_issues_count": 43,
       "commits": [
@@ -447,7 +439,7 @@
         "sha": "a23f4c18a4741a3cde5257e639960ea37bbadd8d",
         "url": "https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d"
       },
-      "updated_at": "2026-09-27T12:01:57Z",
+      "updated_at": "2026-09-27T14:24:11Z",
       "pushed_at": "2026-09-24T12:12:49Z",
       "open_issues_count": 27,
       "commits": [

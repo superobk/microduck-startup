@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-27T12:07:50Z`
+Generated: `2026-09-27T17:00:37Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,15 +8,15 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `ecf54f530c95` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd)
+- Commit `5124a0e6aeea` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e)
 
-### pollen-robotics/microduck_rl
+### pollen-robotics/microduck
 
-- PR #61 [Feature/outdoor terrain](https://github.com/pollen-robotics/microduck_rl/pull/61) — closed
+- PR #331 [duck-sim: a default that walks, keyboard teleop, and a race to run](https://github.com/pollen-robotics/microduck/pull/331) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [ecf54f530c95](https://github.com/superobk/microduck-startup/commit/ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd); pushed `2026-09-27T05:23:00Z`
+- **superobk/microduck-startup** `main` → [5124a0e6aeea](https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e); pushed `2026-09-27T12:08:03Z`
 - **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
 - **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-26T19:50:49Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
