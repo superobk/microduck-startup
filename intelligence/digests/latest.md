@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-28T05:29:07Z`
+Generated: `2026-09-28T14:02:23Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,22 +8,36 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `e142bb735c51` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/e142bb735c5113025cf365307099bd469df6d19a)
+- Commit `9b3961f3fb79` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/9b3961f3fb7947ea3d7c1425e541b8e3be6e72c3)
 
-### mujocolab/mjlab
+### pollen-robotics/microduck
 
-- Commit `9ba24f78579f` [Resample additive observation bias from zero on reset (#1190)](https://github.com/mujocolab/mjlab/commit/9ba24f78579f5d137ddec7268eaf0fd3098f998b)
-- PR #1190 [Resample additive observation bias from zero on reset](https://github.com/mujocolab/mjlab/pull/1190) — closed
+- Release [daemon 0.15.0-dev.1151.fbaba57 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `fbaba575c527` [Merge pull request #333 from pollen-robotics/provision-board-ssh-hiccup-is-not-finished](https://github.com/pollen-robotics/microduck/commit/fbaba575c5270ea569d4d4fd94f3ad35fc62e9e5)
+- Commit `524fe60b1903` [provision-board: an ssh hiccup is not provisioning finished](https://github.com/pollen-robotics/microduck/commit/524fe60b1903aa5a55a29a0f59a38206cce402d9)
+- PR #333 [provision-board: an ssh hiccup is not provisioning finished](https://github.com/pollen-robotics/microduck/pull/333) — closed
+- PR #332 [apply clippy optimizations](https://github.com/pollen-robotics/microduck/pull/332) — open
+
+### fanhao375/microduck-replica
+
+- Commit `0f2cff6bd764` [Fix Radxa Wi-Fi DHCP and preserve servo settings on connect](https://github.com/fanhao375/microduck-replica/commit/0f2cff6bd76499ef9f57931c53ee76d16ae5c198)
+- Commit `22acbe03a63e` [Use CAD repository as the single source for print models](https://github.com/fanhao375/microduck-replica/commit/22acbe03a63e3889a9262286e4aa8bbc811003a2)
+- Commit `7eb399c64520` [Document camera cable fix and board bring-up results](https://github.com/fanhao375/microduck-replica/commit/7eb399c6452093577d3f51d2a355213cc13167a7)
+
+### joeynyc/awesome-microduck
+
+- Commit `420648125fba` [Add Pollen's Arena reference policies, a fuller twin and seven more (#17)](https://github.com/joeynyc/awesome-microduck/commit/420648125fba0eabef02dd9345543843981f2afe)
+- PR #17 [Add Pollen's Arena reference policies, a fuller twin and seven more](https://github.com/joeynyc/awesome-microduck/pull/17) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [e142bb735c51](https://github.com/superobk/microduck-startup/commit/e142bb735c5113025cf365307099bd469df6d19a); pushed `2026-09-27T21:23:47Z`
-- **pollen-robotics/microduck** `main` → [a9ec4b2079ef](https://github.com/pollen-robotics/microduck/commit/a9ec4b2079ef8ee7904014089c885bb07d57d63c); pushed `2026-09-23T13:11:59Z`
-- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-26T19:50:49Z`
+- **superobk/microduck-startup** `main` → [9b3961f3fb79](https://github.com/superobk/microduck-startup/commit/9b3961f3fb7947ea3d7c1425e541b8e3be6e72c3); pushed `2026-09-28T05:29:27Z`
+- **pollen-robotics/microduck** `main` → [fbaba575c527](https://github.com/pollen-robotics/microduck/commit/fbaba575c5270ea569d4d4fd94f3ad35fc62e9e5); pushed `2026-09-28T13:39:52Z`
+- **pollen-robotics/microduck_rl** `develop` → [cb70b792312d](https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f); pushed `2026-09-28T11:39:31Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [a23f4c18a474](https://github.com/fanhao375/microduck-replica/commit/a23f4c18a4741a3cde5257e639960ea37bbadd8d); pushed `2026-09-24T12:12:49Z`
-- **joeynyc/awesome-microduck** `main` → [c19e8111338a](https://github.com/joeynyc/awesome-microduck/commit/c19e8111338ab4d98271b8fd102b495b582b3701); pushed `2026-09-25T12:08:11Z`
-- **mujocolab/mjlab** `main` → [9ba24f78579f](https://github.com/mujocolab/mjlab/commit/9ba24f78579f5d137ddec7268eaf0fd3098f998b); pushed `2026-09-28T00:35:38Z`
+- **fanhao375/microduck-replica** `master` → [0f2cff6bd764](https://github.com/fanhao375/microduck-replica/commit/0f2cff6bd76499ef9f57931c53ee76d16ae5c198); pushed `2026-09-28T12:57:14Z`
+- **joeynyc/awesome-microduck** `main` → [420648125fba](https://github.com/joeynyc/awesome-microduck/commit/420648125fba0eabef02dd9345543843981f2afe); pushed `2026-09-28T11:14:44Z`
+- **mujocolab/mjlab** `main` → [9ba24f78579f](https://github.com/mujocolab/mjlab/commit/9ba24f78579f5d137ddec7268eaf0fd3098f998b); pushed `2026-09-28T10:00:34Z`
 - **leggedrobotics/rsl_rl** `main` → [857de6165c5f](https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30); pushed `2026-09-09T11:38:40Z`
 
 ## Social feeds
