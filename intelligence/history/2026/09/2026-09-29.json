@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T05:48:00Z",
+  "generated_at": "2026-09-29T12:58:25Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "3354f5f07ecf794dd660891d51d8f9dd96125d36",
-        "url": "https://github.com/superobk/microduck-startup/commit/3354f5f07ecf794dd660891d51d8f9dd96125d36"
+        "sha": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
+        "url": "https://github.com/superobk/microduck-startup/commit/43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68"
       },
-      "updated_at": "2026-09-28T23:19:26Z",
-      "pushed_at": "2026-09-28T23:19:22Z",
+      "updated_at": "2026-09-29T05:48:24Z",
+      "pushed_at": "2026-09-29T05:48:20Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
+          "sha": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-29T05:48:19Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68"
+        },
         {
           "id": "3354f5f07ecf794dd660891d51d8f9dd96125d36",
           "sha": "3354f5f07ecf794dd660891d51d8f9dd96125d36",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-27T05:22:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd"
-        },
-        {
-          "id": "4585c04a6ee7208805bca2c15e2413c00d548042",
-          "sha": "4585c04a6ee7208805bca2c15e2413c00d548042",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-26T21:14:08Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/4585c04a6ee7208805bca2c15e2413c00d548042"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "f0d934e761a0bc96a6a7d1b5bc1260ce5a4120e5",
         "url": "https://github.com/pollen-robotics/microduck/commit/f0d934e761a0bc96a6a7d1b5bc1260ce5a4120e5"
       },
-      "updated_at": "2026-09-29T05:44:42Z",
+      "updated_at": "2026-09-29T11:48:56Z",
       "pushed_at": "2026-09-28T16:16:45Z",
       "open_issues_count": 22,
       "commits": [
@@ -249,8 +249,8 @@
         "sha": "cb70b792312d559a4da09064d92009079671815f",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
       },
-      "updated_at": "2026-09-29T05:41:08Z",
-      "pushed_at": "2026-09-28T15:45:02Z",
+      "updated_at": "2026-09-29T08:58:18Z",
+      "pushed_at": "2026-09-29T10:20:58Z",
       "open_issues_count": 44,
       "commits": [
         {
@@ -321,6 +321,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "62",
+          "number": 62,
+          "title": "publish: robotics pipeline, replay.mp4 video, base_model on remixes",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-29T11:19:47Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/62"
+        },
+        {
           "id": "63",
           "number": 63,
           "title": "Hd1910",
@@ -329,16 +339,6 @@
           "updated_at": "2026-09-28T16:10:47Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/63"
-        },
-        {
-          "id": "62",
-          "number": 62,
-          "title": "publish: robotics pipeline, replay.mp4 video, base_model on remixes",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-28T16:02:31Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/62"
         },
         {
           "id": "60",
@@ -431,7 +431,7 @@
         "sha": "77b5ebbf710b4cee9e34b123ad0bc7e5ceaf6a9b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/77b5ebbf710b4cee9e34b123ad0bc7e5ceaf6a9b"
       },
-      "updated_at": "2026-09-29T05:48:06Z",
+      "updated_at": "2026-09-29T12:32:57Z",
       "pushed_at": "2026-09-28T15:25:24Z",
       "open_issues_count": 27,
       "commits": [
@@ -610,13 +610,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "420648125fba0eabef02dd9345543843981f2afe",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/420648125fba0eabef02dd9345543843981f2afe"
+        "sha": "1977fa1a62fcfeaea011a9b7eb6d81c4229abddc",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/1977fa1a62fcfeaea011a9b7eb6d81c4229abddc"
       },
-      "updated_at": "2026-09-28T11:14:47Z",
-      "pushed_at": "2026-09-28T11:14:44Z",
+      "updated_at": "2026-09-29T10:58:14Z",
+      "pushed_at": "2026-09-29T11:08:42Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "1977fa1a62fcfeaea011a9b7eb6d81c4229abddc",
+          "sha": "1977fa1a62fcfeaea011a9b7eb6d81c4229abddc",
+          "message": "Add a physical HD1910M prototype and a measured dance policy (#18)",
+          "author": "joeynyc",
+          "date": "2026-09-29T10:58:10Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/1977fa1a62fcfeaea011a9b7eb6d81c4229abddc"
+        },
         {
           "id": "420648125fba0eabef02dd9345543843981f2afe",
           "sha": "420648125fba0eabef02dd9345543843981f2afe",
@@ -672,18 +680,30 @@
           "author": "joeynyc",
           "date": "2026-09-16T08:52:28Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/10b0cfd307c5f3e4c06e3824a315b4cea8c638c9"
-        },
-        {
-          "id": "72640bc38e76a4c7c618c7635e67ba5502e7ceed",
-          "sha": "72640bc38e76a4c7c618c7635e67ba5502e7ceed",
-          "message": "Add 21 entries on a broader \"worthy\" bar, including a hardware-run hop (#9)",
-          "author": "joeynyc",
-          "date": "2026-09-15T07:40:48Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/72640bc38e76a4c7c618c7635e67ba5502e7ceed"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "19",
+          "number": 19,
+          "title": "Bring the header and logo in line with the awesome list guidelines",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-29T11:08:43Z",
+          "merged_at": null,
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/19"
+        },
+        {
+          "id": "18",
+          "number": 18,
+          "title": "Add a physical HD1910M prototype and a measured dance policy",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-29T10:58:13Z",
+          "merged_at": "2026-09-29T10:58:10Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/18"
+        },
         {
           "id": "17",
           "number": 17,
@@ -713,38 +733,9 @@
           "updated_at": "2026-09-25T12:06:09Z",
           "merged_at": "2026-09-25T12:06:08Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/15"
-        },
-        {
-          "id": "14",
-          "number": 14,
-          "title": "Add the first form submission, the public Academy, and nine more",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-23T05:37:52Z",
-          "merged_at": "2026-09-23T05:37:50Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/14"
-        },
-        {
-          "id": "12",
-          "number": 12,
-          "title": "Add a locomotion-failure diagnosis, three ports and two decision layers",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-19T13:07:09Z",
-          "merged_at": "2026-09-19T13:07:07Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/12"
         }
       ],
-      "issues": [
-        {
-          "id": "13",
-          "number": 13,
-          "title": "[Policy]: Microduck headstand routine",
-          "state": "closed",
-          "updated_at": "2026-09-23T05:37:52Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/issues/13"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "mujocolab/mjlab",
@@ -754,9 +745,9 @@
         "sha": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
-      "updated_at": "2026-09-29T03:38:30Z",
-      "pushed_at": "2026-09-29T03:42:26Z",
-      "open_issues_count": 42,
+      "updated_at": "2026-09-29T10:49:32Z",
+      "pushed_at": "2026-09-29T09:53:30Z",
+      "open_issues_count": 43,
       "commits": [
         {
           "id": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
@@ -851,6 +842,26 @@
       ],
       "pulls": [
         {
+          "id": "1200",
+          "number": 1200,
+          "title": "Add batched Gymnasium MuJoCo v5 benchmark tasks",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-29T12:53:09Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1200"
+        },
+        {
+          "id": "1191",
+          "number": 1191,
+          "title": "Share the hold decision across envs in shared-lag DelayBuffer",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-29T06:32:44Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1191"
+        },
+        {
           "id": "1199",
           "number": 1199,
           "title": "Keep massless bodies unchanged in dr.pseudo_inertia and reject log_uniform",
@@ -879,26 +890,6 @@
           "updated_at": "2026-09-28T15:01:49Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1195"
-        },
-        {
-          "id": "1190",
-          "number": 1190,
-          "title": "Resample additive observation bias from zero on reset",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-28T00:30:56Z",
-          "merged_at": "2026-09-28T00:30:56Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1190"
-        },
-        {
-          "id": "1186",
-          "number": 1186,
-          "title": "Allow python 3.14",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-27T22:53:20Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1186"
         }
       ],
       "issues": []
@@ -911,7 +902,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-09-28T17:20:53Z",
+      "updated_at": "2026-09-29T09:05:58Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 8,
       "commits": [
