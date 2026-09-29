@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T12:58:25Z",
+  "generated_at": "2026-09-29T22:19:14Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
-        "url": "https://github.com/superobk/microduck-startup/commit/43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68"
+        "sha": "113ca7a099ad47efb86d4da5e506ca298c5fe249",
+        "url": "https://github.com/superobk/microduck-startup/commit/113ca7a099ad47efb86d4da5e506ca298c5fe249"
       },
-      "updated_at": "2026-09-29T05:48:24Z",
-      "pushed_at": "2026-09-29T05:48:20Z",
+      "updated_at": "2026-09-29T12:58:44Z",
+      "pushed_at": "2026-09-29T12:58:39Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "113ca7a099ad47efb86d4da5e506ca298c5fe249",
+          "sha": "113ca7a099ad47efb86d4da5e506ca298c5fe249",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-09-29T12:58:38Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/113ca7a099ad47efb86d4da5e506ca298c5fe249"
+        },
         {
           "id": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
           "sha": "43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-27T12:08:01Z",
           "url": "https://github.com/superobk/microduck-startup/commit/5124a0e6aeea97f9ed27719e61ffb2f1d84f998e"
-        },
-        {
-          "id": "ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd",
-          "sha": "ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-27T05:22:59Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/ecf54f530c95b0dc3e9dbfbcab20eb1868f838fd"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "f0d934e761a0bc96a6a7d1b5bc1260ce5a4120e5",
         "url": "https://github.com/pollen-robotics/microduck/commit/f0d934e761a0bc96a6a7d1b5bc1260ce5a4120e5"
       },
-      "updated_at": "2026-09-29T11:48:56Z",
-      "pushed_at": "2026-09-28T16:16:45Z",
-      "open_issues_count": 22,
+      "updated_at": "2026-09-29T20:20:21Z",
+      "pushed_at": "2026-09-29T14:51:27Z",
+      "open_issues_count": 23,
       "commits": [
         {
           "id": "f0d934e761a0bc96a6a7d1b5bc1260ce5a4120e5",
@@ -162,23 +162,43 @@
       ],
       "releases": [
         {
+          "id": "399250996",
+          "tag": "daemon-dev-provision-dev-apply-verdict",
+          "name": "daemon 0.15.0-dev.1155.30674a3 (provision-dev-apply-verdict)",
+          "published_at": "2026-09-29T14:51:28Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-provision-dev-apply-verdict"
+        },
+        {
           "id": "398419707",
           "tag": "daemon-dev-padd-does-not-restart-robotd",
           "name": "daemon 0.15.0-dev.1154.e463144 (padd-does-not-restart-robotd)",
           "published_at": "2026-09-28T16:16:46Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-padd-does-not-restart-robotd"
-        },
-        {
-          "id": "398361257",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.15.0-dev.1153.f0d934e (main)",
-          "published_at": "2026-09-28T15:04:53Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
+        {
+          "id": "331",
+          "number": 331,
+          "title": "duck-sim: a default that walks, keyboard teleop, and a race to run",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-29T15:50:41Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/331"
+        },
+        {
+          "id": "335",
+          "number": 335,
+          "title": "provision: let the bootstrap's deferred restarts land before the bran…",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-09-29T15:09:25Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/335"
+        },
         {
           "id": "334",
           "number": 334,
@@ -208,26 +228,6 @@
           "updated_at": "2026-09-28T14:20:14Z",
           "merged_at": "2026-09-28T14:20:14Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/330"
-        },
-        {
-          "id": "331",
-          "number": 331,
-          "title": "duck-sim: a default that walks, keyboard teleop, and a race to run",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-28T14:04:51Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/331"
-        },
-        {
-          "id": "333",
-          "number": 333,
-          "title": "provision-board: an ssh hiccup is not provisioning finished",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-28T13:36:24Z",
-          "merged_at": "2026-09-28T13:36:21Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/333"
         }
       ],
       "issues": [
@@ -246,13 +246,61 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "cb70b792312d559a4da09064d92009079671815f",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/cb70b792312d559a4da09064d92009079671815f"
+        "sha": "cfe1c2adcceb55f6b6e369c888b31c6873175c55",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/cfe1c2adcceb55f6b6e369c888b31c6873175c55"
       },
-      "updated_at": "2026-09-29T08:58:18Z",
-      "pushed_at": "2026-09-29T10:20:58Z",
-      "open_issues_count": 44,
+      "updated_at": "2026-09-29T14:51:58Z",
+      "pushed_at": "2026-09-29T21:17:50Z",
+      "open_issues_count": 42,
       "commits": [
+        {
+          "id": "cfe1c2adcceb55f6b6e369c888b31c6873175c55",
+          "sha": "cfe1c2adcceb55f6b6e369c888b31c6873175c55",
+          "message": "Merge pull request #62 from krampstudio/feat/publish-robotics-replay",
+          "author": "apirrone",
+          "date": "2026-09-29T14:51:01Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/cfe1c2adcceb55f6b6e369c888b31c6873175c55"
+        },
+        {
+          "id": "ec7725ca5d50c6378a40ca6babe5cd0839e3062a",
+          "sha": "ec7725ca5d50c6378a40ca6babe5cd0839e3062a",
+          "message": "Merge pull request #9 from hermias1/fix/hf-jobs-auto-export",
+          "author": "apirrone",
+          "date": "2026-09-29T13:47:59Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/ec7725ca5d50c6378a40ca6babe5cd0839e3062a"
+        },
+        {
+          "id": "196a91a1d89af0dc605f00308988c30de9f7e503",
+          "sha": "196a91a1d89af0dc605f00308988c30de9f7e503",
+          "message": "feat(publish): tag gaits with microduck-slot:<slot> for the Hub's load snippet",
+          "author": "krampstudio",
+          "date": "2026-09-29T13:08:17Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/196a91a1d89af0dc605f00308988c30de9f7e503"
+        },
+        {
+          "id": "afc3de3c5a74ae216f3f61047e07c7dd560913ee",
+          "sha": "afc3de3c5a74ae216f3f61047e07c7dd560913ee",
+          "message": "change library",
+          "author": "krampstudio",
+          "date": "2026-09-28T12:45:05Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/afc3de3c5a74ae216f3f61047e07c7dd560913ee"
+        },
+        {
+          "id": "104ec650b8e54bc325b5d95588352b3567b842e9",
+          "sha": "104ec650b8e54bc325b5d95588352b3567b842e9",
+          "message": "feat(publish): --base-model sets base_model on remixes' model cards",
+          "author": "krampstudio",
+          "date": "2026-09-28T08:31:03Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/104ec650b8e54bc325b5d95588352b3567b842e9"
+        },
+        {
+          "id": "fb67aeda372de6841272f62804c6d5be885183e8",
+          "sha": "fb67aeda372de6841272f62804c6d5be885183e8",
+          "message": "feat(publish): robotics pipeline tag and --video uploaded as replay.mp4",
+          "author": "krampstudio",
+          "date": "2026-09-28T08:28:31Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/fb67aeda372de6841272f62804c6d5be885183e8"
+        },
         {
           "id": "cb70b792312d559a4da09064d92009079671815f",
           "sha": "cb70b792312d559a4da09064d92009079671815f",
@@ -268,119 +316,62 @@
           "author": "apirrone",
           "date": "2026-09-14T08:34:07Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/dc17d0236c5da9d18c383297b86fac127b1009f7"
-        },
-        {
-          "id": "e40fbda02332d726236dbe3b6ac1c9d462b2f615",
-          "sha": "e40fbda02332d726236dbe3b6ac1c9d462b2f615",
-          "message": "fix rough backlash velstand",
-          "author": "apirrone",
-          "date": "2026-09-13T13:17:24Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/e40fbda02332d726236dbe3b6ac1c9d462b2f615"
-        },
-        {
-          "id": "228732dfd99ff9f9e862181e10b466e146a91c8e",
-          "sha": "228732dfd99ff9f9e862181e10b466e146a91c8e",
-          "message": "fix rough backlash velstand",
-          "author": "apirrone",
-          "date": "2026-09-13T13:13:27Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/228732dfd99ff9f9e862181e10b466e146a91c8e"
-        },
-        {
-          "id": "ab33976d92d576725ec55618acccd62a6552c8be",
-          "sha": "ab33976d92d576725ec55618acccd62a6552c8be",
-          "message": "Merge branch 'develop' into protective_fall",
-          "author": "apirrone",
-          "date": "2026-09-13T13:02:35Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/ab33976d92d576725ec55618acccd62a6552c8be"
-        },
-        {
-          "id": "3412ae50e5e49baf8c638c80734deb140e30101c",
-          "sha": "3412ae50e5e49baf8c638c80734deb140e30101c",
-          "message": "Merge branch 'odom-anchor-viz' into develop",
-          "author": "apirrone",
-          "date": "2026-09-13T12:54:58Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/3412ae50e5e49baf8c638c80734deb140e30101c"
-        },
-        {
-          "id": "b131352fc95b767073a8c099442f44e5f6a5d3db",
-          "sha": "b131352fc95b767073a8c099442f44e5f6a5d3db",
-          "message": "infer_policy: anchor sets on the sole mesh + --odom-compare",
-          "author": "apirrone",
-          "date": "2026-09-13T12:18:33Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/b131352fc95b767073a8c099442f44e5f6a5d3db"
-        },
-        {
-          "id": "7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3",
-          "sha": "7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3",
-          "message": "infer_policy: --odom-anchor-points draws the odometry's sole corners",
-          "author": "apirrone",
-          "date": "2026-09-13T11:56:35Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/7bb54adfa2a4267d85d0e6198ed8b8aa7a1063a3"
         }
       ],
       "releases": [],
       "pulls": [
         {
+          "id": "64",
+          "number": 64,
+          "title": "publish --timeline: upload a stage performance's timeline.json beside the policy",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-09-29T21:17:59Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/64"
+        },
+        {
           "id": "62",
           "number": 62,
           "title": "publish: robotics pipeline, replay.mp4 video, base_model on remixes",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-29T11:19:47Z",
-          "merged_at": null,
+          "updated_at": "2026-09-29T14:51:02Z",
+          "merged_at": "2026-09-29T14:51:01Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/62"
         },
         {
-          "id": "63",
-          "number": 63,
-          "title": "Hd1910",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-28T16:10:47Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/63"
-        },
-        {
-          "id": "60",
-          "number": 60,
-          "title": "fix: keep CPU policy replay compatible with an independent mouth actuator",
+          "id": "13",
+          "number": 13,
+          "title": "Fix wandb credential lookup on Windows (~/_netrc, not ~/.netrc)",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-09-27T20:39:55Z",
+          "updated_at": "2026-09-29T13:48:28Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/60"
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/13"
         },
         {
-          "id": "61",
-          "number": 61,
-          "title": "Feature/outdoor terrain",
+          "id": "9",
+          "number": 9,
+          "title": "fix(hf-jobs): auto-export never finds the checkpoint",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-27T09:03:38Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/61"
+          "updated_at": "2026-09-29T13:48:00Z",
+          "merged_at": "2026-09-29T13:48:00Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/9"
         },
         {
-          "id": "58",
-          "number": 58,
-          "title": "feat: `--modal` — train on Modal GPUs, sibling of the HF Jobs path",
+          "id": "5",
+          "number": 5,
+          "title": "Add play-dead task: stand, flop onto the back, and hold",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-09-26T19:34:22Z",
+          "updated_at": "2026-09-29T13:41:45Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/58"
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/5"
         }
       ],
-      "issues": [
-        {
-          "id": "59",
-          "number": 59,
-          "title": "Walking policy won't start slow walk from stand still",
-          "state": "open",
-          "updated_at": "2026-09-26T20:30:17Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/59"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "IronSpiderMan/MicroDuckModels",
@@ -431,7 +422,7 @@
         "sha": "77b5ebbf710b4cee9e34b123ad0bc7e5ceaf6a9b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/77b5ebbf710b4cee9e34b123ad0bc7e5ceaf6a9b"
       },
-      "updated_at": "2026-09-29T12:32:57Z",
+      "updated_at": "2026-09-29T13:07:28Z",
       "pushed_at": "2026-09-28T15:25:24Z",
       "open_issues_count": 27,
       "commits": [
@@ -745,7 +736,7 @@
         "sha": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
-      "updated_at": "2026-09-29T10:49:32Z",
+      "updated_at": "2026-09-29T14:24:57Z",
       "pushed_at": "2026-09-29T09:53:30Z",
       "open_issues_count": 43,
       "commits": [
@@ -842,6 +833,16 @@
       ],
       "pulls": [
         {
+          "id": "1198",
+          "number": 1198,
+          "title": "Fix Jacobi eigensolver skipping rotation when diagonal entries are equal",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-29T14:22:42Z",
+          "merged_at": "2026-09-29T03:24:24Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1198"
+        },
+        {
           "id": "1200",
           "number": 1200,
           "title": "Add batched Gymnasium MuJoCo v5 benchmark tasks",
@@ -870,16 +871,6 @@
           "updated_at": "2026-09-29T03:38:28Z",
           "merged_at": "2026-09-29T03:38:26Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1199"
-        },
-        {
-          "id": "1198",
-          "number": 1198,
-          "title": "Fix Jacobi eigensolver skipping rotation when diagonal entries are equal",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-29T03:24:27Z",
-          "merged_at": "2026-09-29T03:24:24Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1198"
         },
         {
           "id": "1195",
