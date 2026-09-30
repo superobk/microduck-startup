@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-09-30T12:40:22Z`
+Generated: `2026-09-30T22:19:39Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,24 +8,34 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `fc746fc299a3` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/fc746fc299a32094de4c745ccc116827e7586b97)
+- Commit `71353a4e9172` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/71353a4e9172b1bccd2a42abc424dcec8583bba5)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.15.0-dev.1156.91636ea (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `91636eaedde2` [Merge pull request #334 from pollen-robotics/padd-does-not-restart-robotd](https://github.com/pollen-robotics/microduck/commit/91636eaedde2cb115d2b0e5dc6a58771259c11f3)
-- Commit `e463144a1d26` [padd, mediad: a stopped robotd stays stopped](https://github.com/pollen-robotics/microduck/commit/e463144a1d2625462152c5e04c83c50d3df9dcce)
+- Release [daemon 0.15.0-dev.1158.a30e19a (pad-pairing-session)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-pad-pairing-session) (prerelease)
+- Release [daemon 0.12.0-dev.1160.6c7edc5 (nfc-pad-pairing)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-pad-pairing) (prerelease)
+- Release [daemon 0.15.0-dev.1162.102dcfc (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `102dcfcf5a37` [Merge pull request #337 from pollen-robotics/adopt-sets-knee-homing-offset](https://github.com/pollen-robotics/microduck/commit/102dcfcf5a37eb48489a90bb5b287643f2c8aafd)
+- Commit `465669065c8c` [duck-control: an adopted knee gets its homing offset](https://github.com/pollen-robotics/microduck/commit/465669065c8cb9a4228e154e43360fcf0bb419c9)
+- Commit `46a380b70e70` [Merge pull request #335 from pollen-robotics/provision-dev-apply-verdict](https://github.com/pollen-robotics/microduck/commit/46a380b70e70c5eb859107f4a4b529a0cb9548fc)
+- Commit `30674a353ad2` [provision: let the bootstrap's deferred restarts land before the branch apply](https://github.com/pollen-robotics/microduck/commit/30674a353ad2aac8a6d828d9c694e4159547b8fc)
+- PR #337 [duck-control: an adopted knee gets its homing offset](https://github.com/pollen-robotics/microduck/pull/337) — closed
+- PR #336 [configd: pairing a pad is a session any trigger can start](https://github.com/pollen-robotics/microduck/pull/336) — open
 
-### joeynyc/awesome-microduck
+### pollen-robotics/microduck_rl
 
-- Commit `3ddaa0eab900` [Add the raised-platform backflip and long jump as one entry (#20)](https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167)
-- PR #20 [Add the raised-platform backflip and long jump as one entry](https://github.com/joeynyc/awesome-microduck/pull/20) — closed
+- PR #57 [Record and publish the recipe of every run; usable from a challenges repo](https://github.com/pollen-robotics/microduck_rl/pull/57) — open
+
+### mujocolab/mjlab
+
+- PR #1202 [Keep the last frame when csv_to_npz resamples a motion](https://github.com/mujocolab/mjlab/pull/1202) — open
+- PR #1201 [Expose warp setting graph_conditional in SimulationCfg](https://github.com/mujocolab/mjlab/pull/1201) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [fc746fc299a3](https://github.com/superobk/microduck-startup/commit/fc746fc299a32094de4c745ccc116827e7586b97); pushed `2026-09-30T05:37:39Z`
-- **pollen-robotics/microduck** `main` → [91636eaedde2](https://github.com/pollen-robotics/microduck/commit/91636eaedde2cb115d2b0e5dc6a58771259c11f3); pushed `2026-09-30T10:28:06Z`
-- **pollen-robotics/microduck_rl** `develop` → [cfe1c2adcceb](https://github.com/pollen-robotics/microduck_rl/commit/cfe1c2adcceb55f6b6e369c888b31c6873175c55); pushed `2026-09-29T21:17:50Z`
+- **superobk/microduck-startup** `main` → [71353a4e9172](https://github.com/superobk/microduck-startup/commit/71353a4e9172b1bccd2a42abc424dcec8583bba5); pushed `2026-09-30T12:40:45Z`
+- **pollen-robotics/microduck** `main` → [102dcfcf5a37](https://github.com/pollen-robotics/microduck/commit/102dcfcf5a37eb48489a90bb5b287643f2c8aafd); pushed `2026-09-30T15:51:07Z`
+- **pollen-robotics/microduck_rl** `develop` → [cfe1c2adcceb](https://github.com/pollen-robotics/microduck_rl/commit/cfe1c2adcceb55f6b6e369c888b31c6873175c55); pushed `2026-09-30T22:13:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [77b5ebbf710b](https://github.com/fanhao375/microduck-replica/commit/77b5ebbf710b4cee9e34b123ad0bc7e5ceaf6a9b); pushed `2026-09-28T15:25:24Z`
 - **joeynyc/awesome-microduck** `main` → [3ddaa0eab900](https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167); pushed `2026-09-30T07:53:18Z`
