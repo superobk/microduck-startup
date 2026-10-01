@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-01T13:23:32Z`
+Generated: `2026-10-01T22:43:48Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,33 +8,35 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `0364c882cf86` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0364c882cf86e3c27a35ad5d8b1f587f2fc106aa)
+- Commit `e0f5a6f6358e` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.15.0-dev.1171.9060e81 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Release [daemon 0.15.0-dev.1167.36ae9d8 (btd-extended-advertisement)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-btd-extended-advertisement) (prerelease)
-- Release [daemon 0.15.0-dev.1170.df9a750 (autonomous-mode)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-autonomous-mode) (prerelease)
-- Commit `9060e81a6e59` [Merge pull request #338 from micro-zoo/fix/tofd-disconnect-log-storm](https://github.com/pollen-robotics/microduck/commit/9060e81a6e598504003ff31f9f39e075e2c5290f)
-- Commit `d3ecffafcbfb` [Merge pull request #340 from pollen-robotics/default-ssh-user-microduck](https://github.com/pollen-robotics/microduck/commit/d3ecffafcbfb3eda498c1e1c2052ba53561153a7)
-- Commit `4276ad288111` [Merge pull request #339 from pollen-robotics/robotctl-logs](https://github.com/pollen-robotics/microduck/commit/4276ad288111f79d6554db85f777e7106981e055)
-- Commit `8c325d1b0377` [duckctl, dev-push: default ssh user is microduck](https://github.com/pollen-robotics/microduck/commit/8c325d1b03779cbd33e0aa0570c62446a5b690c9)
-- Commit `16f7061b3cc6` [robotctl: logs, a journal tail without sudo](https://github.com/pollen-robotics/microduck/commit/16f7061b3cc6f52ec28187e2e4b238fb1813abe6)
-- Commit `314db9ba7008` [fix(tofd): release disconnected streams without sensor frames](https://github.com/pollen-robotics/microduck/commit/314db9ba70089daf5c347576d539d5622c6a366b)
-- PR #341 [duckctl: wait for the name of a robot heard without one](https://github.com/pollen-robotics/microduck/pull/341) — open
-- PR #340 [duckctl, dev-push: default ssh user is microduck](https://github.com/pollen-robotics/microduck/pull/340) — closed
-- PR #339 [robotctl: logs, a journal tail without sudo](https://github.com/pollen-robotics/microduck/pull/339) — closed
+- Release [daemon 0.15.1](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.15.1)
+- Release [daemon 0.15.1-dev.1183.534d9e1 (standup-retry)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-standup-retry) (prerelease)
+- Release [daemon 0.15.1-dev.1179.1fa8438 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `1fa84386f078` [Merge pull request #344 from pollen-robotics/prepare-release-0.15.1](https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95)
+- Commit `aeed9a1f0dd4` [Prepare release 0.15.1](https://github.com/pollen-robotics/microduck/commit/aeed9a1f0dd4f1cf8bb442953ff71fde33aa5d84)
+- Commit `0eb3696c9c49` [Merge pull request #343 from pollen-robotics/btd-extended-advertisement](https://github.com/pollen-robotics/microduck/commit/0eb3696c9c4948bead1cd889b12c29aa24c2580c)
+- Commit `7810e5069d67` [Merge main into btd-extended-advertisement](https://github.com/pollen-robotics/microduck/commit/7810e5069d6773d509b0aab4954e0731eca5a19a)
+- Commit `c6bd1489755d` [Merge pull request #342 from pollen-robotics/atomic-try-update](https://github.com/pollen-robotics/microduck/commit/c6bd1489755d4bd7da887a51c7b96dd538ee7faa)
+- Commit `82bbad2f79cf` [mediad: build on Rust 1.99, which is now the floor](https://github.com/pollen-robotics/microduck/commit/82bbad2f79cf35dc168b1a88299df25e0fa4389a)
+- Commit `c2c0dddc229e` [Merge pull request #341 from pollen-robotics/advwatch-time-to-name](https://github.com/pollen-robotics/microduck/commit/c2c0dddc229ea06baa5f498f5f3981070d67b247)
+- Commit `c79132b58458` [duckctl: wait past the deadline for a robot heard without its name](https://github.com/pollen-robotics/microduck/commit/c79132b58458bae5925bca69ee8872b7d39545f5)
+- PR #345 [expose control max vx/vy/vtheta etc in robotctl configure](https://github.com/pollen-robotics/microduck/pull/345) — open
+- PR #344 [Prepare release 0.15.1](https://github.com/pollen-robotics/microduck/pull/344) — closed
+- PR #343 [btd: advertise an extended twin so a Linux laptop can connect](https://github.com/pollen-robotics/microduck/pull/343) — closed
+- PR #342 [mediad: build on Rust 1.99, which is now the floor](https://github.com/pollen-robotics/microduck/pull/342) — closed
 
-### pollen-robotics/microduck_rl
+### mujocolab/mjlab
 
-- Commit `8d0db74916a4` [docs: sitstand policy training lineage (jngaedcs → vfhxgrum resume)](https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec)
-- Commit `77ffadf439d6` [fix sitstand fall back](https://github.com/pollen-robotics/microduck_rl/commit/77ffadf439d6c91128fb6da2be7da6a3a46e326e)
+- PR #1203 [Sample DelayBuffer lags on the first step after creation or reset](https://github.com/mujocolab/mjlab/pull/1203) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [0364c882cf86](https://github.com/superobk/microduck-startup/commit/0364c882cf86e3c27a35ad5d8b1f587f2fc106aa); pushed `2026-10-01T06:01:36Z`
-- **pollen-robotics/microduck** `main` → [9060e81a6e59](https://github.com/pollen-robotics/microduck/commit/9060e81a6e598504003ff31f9f39e075e2c5290f); pushed `2026-10-01T12:15:12Z`
-- **pollen-robotics/microduck_rl** `develop` → [8d0db74916a4](https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec); pushed `2026-10-01T10:37:25Z`
+- **superobk/microduck-startup** `main` → [e0f5a6f6358e](https://github.com/superobk/microduck-startup/commit/e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69); pushed `2026-10-01T13:23:49Z`
+- **pollen-robotics/microduck** `main` → [1fa84386f078](https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95); pushed `2026-10-01T17:48:28Z`
+- **pollen-robotics/microduck_rl** `develop` → [8d0db74916a4](https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec); pushed `2026-10-01T18:21:17Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [b5381d86b68d](https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc); pushed `2026-10-01T03:28:42Z`
 - **joeynyc/awesome-microduck** `main` → [3ddaa0eab900](https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167); pushed `2026-09-30T07:53:18Z`

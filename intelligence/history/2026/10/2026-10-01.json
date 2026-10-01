@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T13:23:32Z",
+  "generated_at": "2026-10-01T22:43:48Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0364c882cf86e3c27a35ad5d8b1f587f2fc106aa",
-        "url": "https://github.com/superobk/microduck-startup/commit/0364c882cf86e3c27a35ad5d8b1f587f2fc106aa"
+        "sha": "e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69",
+        "url": "https://github.com/superobk/microduck-startup/commit/e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69"
       },
-      "updated_at": "2026-10-01T06:01:40Z",
-      "pushed_at": "2026-10-01T06:01:36Z",
+      "updated_at": "2026-10-01T13:23:53Z",
+      "pushed_at": "2026-10-01T13:23:49Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69",
+          "sha": "e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-01T13:23:48Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69"
+        },
         {
           "id": "0364c882cf86e3c27a35ad5d8b1f587f2fc106aa",
           "sha": "0364c882cf86e3c27a35ad5d8b1f587f2fc106aa",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-29T05:48:19Z",
           "url": "https://github.com/superobk/microduck-startup/commit/43aae48a2a721d92dd3f1fe1ad04cb6d08a2ec68"
-        },
-        {
-          "id": "3354f5f07ecf794dd660891d51d8f9dd96125d36",
-          "sha": "3354f5f07ecf794dd660891d51d8f9dd96125d36",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-28T23:19:20Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/3354f5f07ecf794dd660891d51d8f9dd96125d36"
         }
       ],
       "releases": [],
@@ -88,154 +88,154 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "9060e81a6e598504003ff31f9f39e075e2c5290f",
-        "url": "https://github.com/pollen-robotics/microduck/commit/9060e81a6e598504003ff31f9f39e075e2c5290f"
+        "sha": "1fa84386f07884e27866411bc1ba166977bced95",
+        "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
       },
-      "updated_at": "2026-10-01T12:55:30Z",
-      "pushed_at": "2026-10-01T12:15:12Z",
+      "updated_at": "2026-10-01T18:50:09Z",
+      "pushed_at": "2026-10-01T17:48:28Z",
       "open_issues_count": 22,
       "commits": [
         {
-          "id": "9060e81a6e598504003ff31f9f39e075e2c5290f",
-          "sha": "9060e81a6e598504003ff31f9f39e075e2c5290f",
-          "message": "Merge pull request #338 from micro-zoo/fix/tofd-disconnect-log-storm",
+          "id": "1fa84386f07884e27866411bc1ba166977bced95",
+          "sha": "1fa84386f07884e27866411bc1ba166977bced95",
+          "message": "Merge pull request #344 from pollen-robotics/prepare-release-0.15.1",
           "author": "pierre-rouanet",
-          "date": "2026-10-01T12:09:01Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/9060e81a6e598504003ff31f9f39e075e2c5290f"
+          "date": "2026-10-01T14:57:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
         },
         {
-          "id": "d3ecffafcbfb3eda498c1e1c2052ba53561153a7",
-          "sha": "d3ecffafcbfb3eda498c1e1c2052ba53561153a7",
-          "message": "Merge pull request #340 from pollen-robotics/default-ssh-user-microduck",
+          "id": "aeed9a1f0dd4f1cf8bb442953ff71fde33aa5d84",
+          "sha": "aeed9a1f0dd4f1cf8bb442953ff71fde33aa5d84",
+          "message": "Prepare release 0.15.1",
           "author": "pierre-rouanet",
-          "date": "2026-10-01T10:14:37Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/d3ecffafcbfb3eda498c1e1c2052ba53561153a7"
+          "date": "2026-10-01T14:43:06Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/aeed9a1f0dd4f1cf8bb442953ff71fde33aa5d84"
         },
         {
-          "id": "4276ad288111f79d6554db85f777e7106981e055",
-          "sha": "4276ad288111f79d6554db85f777e7106981e055",
-          "message": "Merge pull request #339 from pollen-robotics/robotctl-logs",
+          "id": "0eb3696c9c4948bead1cd889b12c29aa24c2580c",
+          "sha": "0eb3696c9c4948bead1cd889b12c29aa24c2580c",
+          "message": "Merge pull request #343 from pollen-robotics/btd-extended-advertisement",
           "author": "pierre-rouanet",
-          "date": "2026-10-01T10:12:40Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/4276ad288111f79d6554db85f777e7106981e055"
+          "date": "2026-10-01T14:41:03Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/0eb3696c9c4948bead1cd889b12c29aa24c2580c"
         },
         {
-          "id": "8c325d1b03779cbd33e0aa0570c62446a5b690c9",
-          "sha": "8c325d1b03779cbd33e0aa0570c62446a5b690c9",
-          "message": "duckctl, dev-push: default ssh user is microduck",
+          "id": "7810e5069d6773d509b0aab4954e0731eca5a19a",
+          "sha": "7810e5069d6773d509b0aab4954e0731eca5a19a",
+          "message": "Merge main into btd-extended-advertisement",
           "author": "pierre-rouanet",
-          "date": "2026-10-01T09:42:08Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/8c325d1b03779cbd33e0aa0570c62446a5b690c9"
+          "date": "2026-10-01T14:24:40Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/7810e5069d6773d509b0aab4954e0731eca5a19a"
         },
         {
-          "id": "16f7061b3cc6f52ec28187e2e4b238fb1813abe6",
-          "sha": "16f7061b3cc6f52ec28187e2e4b238fb1813abe6",
-          "message": "robotctl: logs, a journal tail without sudo",
+          "id": "c6bd1489755d4bd7da887a51c7b96dd538ee7faa",
+          "sha": "c6bd1489755d4bd7da887a51c7b96dd538ee7faa",
+          "message": "Merge pull request #342 from pollen-robotics/atomic-try-update",
           "author": "pierre-rouanet",
-          "date": "2026-10-01T09:34:57Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/16f7061b3cc6f52ec28187e2e4b238fb1813abe6"
+          "date": "2026-10-01T14:22:32Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/c6bd1489755d4bd7da887a51c7b96dd538ee7faa"
         },
         {
-          "id": "314db9ba70089daf5c347576d539d5622c6a366b",
-          "sha": "314db9ba70089daf5c347576d539d5622c6a366b",
-          "message": "fix(tofd): release disconnected streams without sensor frames",
-          "author": "homalozoa",
-          "date": "2026-10-01T01:23:11Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/314db9ba70089daf5c347576d539d5622c6a366b"
+          "id": "82bbad2f79cf35dc168b1a88299df25e0fa4389a",
+          "sha": "82bbad2f79cf35dc168b1a88299df25e0fa4389a",
+          "message": "mediad: build on Rust 1.99, which is now the floor",
+          "author": "pierre-rouanet",
+          "date": "2026-10-01T14:10:14Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/82bbad2f79cf35dc168b1a88299df25e0fa4389a"
         },
         {
-          "id": "102dcfcf5a37eb48489a90bb5b287643f2c8aafd",
-          "sha": "102dcfcf5a37eb48489a90bb5b287643f2c8aafd",
-          "message": "Merge pull request #337 from pollen-robotics/adopt-sets-knee-homing-offset",
-          "author": "apirrone",
-          "date": "2026-09-30T15:47:58Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/102dcfcf5a37eb48489a90bb5b287643f2c8aafd"
+          "id": "c2c0dddc229ea06baa5f498f5f3981070d67b247",
+          "sha": "c2c0dddc229ea06baa5f498f5f3981070d67b247",
+          "message": "Merge pull request #341 from pollen-robotics/advwatch-time-to-name",
+          "author": "pierre-rouanet",
+          "date": "2026-10-01T14:00:00Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/c2c0dddc229ea06baa5f498f5f3981070d67b247"
         },
         {
-          "id": "465669065c8cb9a4228e154e43360fcf0bb419c9",
-          "sha": "465669065c8cb9a4228e154e43360fcf0bb419c9",
-          "message": "duck-control: an adopted knee gets its homing offset",
-          "author": "apirrone",
-          "date": "2026-09-30T15:46:50Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/465669065c8cb9a4228e154e43360fcf0bb419c9"
+          "id": "c79132b58458bae5925bca69ee8872b7d39545f5",
+          "sha": "c79132b58458bae5925bca69ee8872b7d39545f5",
+          "message": "duckctl: wait past the deadline for a robot heard without its name",
+          "author": "pierre-rouanet",
+          "date": "2026-10-01T12:11:32Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/c79132b58458bae5925bca69ee8872b7d39545f5"
         }
       ],
       "releases": [
         {
-          "id": "400933998",
+          "id": "401103815",
+          "tag": "daemon-v0.15.1",
+          "name": "daemon 0.15.1",
+          "published_at": "2026-10-01T15:28:31Z",
+          "prerelease": false,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.15.1"
+        },
+        {
+          "id": "401140370",
+          "tag": "daemon-dev-standup-retry",
+          "name": "daemon 0.15.1-dev.1183.534d9e1 (standup-retry)",
+          "published_at": "2026-10-01T16:13:31Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-standup-retry"
+        },
+        {
+          "id": "401079543",
           "tag": "daemon-dev-main",
-          "name": "daemon 0.15.0-dev.1171.9060e81 (main)",
-          "published_at": "2026-10-01T12:12:47Z",
+          "name": "daemon 0.15.1-dev.1179.1fa8438 (main)",
+          "published_at": "2026-10-01T15:00:56Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
-        },
-        {
-          "id": "400863886",
-          "tag": "daemon-dev-btd-extended-advertisement",
-          "name": "daemon 0.15.0-dev.1167.36ae9d8 (btd-extended-advertisement)",
-          "published_at": "2026-10-01T10:33:48Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-btd-extended-advertisement"
-        },
-        {
-          "id": "400930483",
-          "tag": "daemon-dev-autonomous-mode",
-          "name": "daemon 0.15.0-dev.1170.df9a750 (autonomous-mode)",
-          "published_at": "2026-10-01T12:07:54Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-autonomous-mode"
         }
       ],
       "pulls": [
         {
+          "id": "345",
+          "number": 345,
+          "title": "expose control max vx/vy/vtheta etc in robotctl configure",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-01T16:07:53Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/345"
+        },
+        {
+          "id": "344",
+          "number": 344,
+          "title": "Prepare release 0.15.1",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-01T14:57:26Z",
+          "merged_at": "2026-10-01T14:57:23Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/344"
+        },
+        {
+          "id": "343",
+          "number": 343,
+          "title": "btd: advertise an extended twin so a Linux laptop can connect",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-01T14:41:06Z",
+          "merged_at": "2026-10-01T14:41:04Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/343"
+        },
+        {
+          "id": "342",
+          "number": 342,
+          "title": "mediad: build on Rust 1.99, which is now the floor",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-01T14:22:34Z",
+          "merged_at": "2026-10-01T14:22:32Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/342"
+        },
+        {
           "id": "341",
           "number": 341,
           "title": "duckctl: wait for the name of a robot heard without one",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-01T12:15:40Z",
-          "merged_at": null,
+          "updated_at": "2026-10-01T14:00:03Z",
+          "merged_at": "2026-10-01T14:00:00Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/341"
-        },
-        {
-          "id": "338",
-          "number": 338,
-          "title": "fix(tofd): prevent socket leaks and log storms after sensor loss",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T12:09:02Z",
-          "merged_at": "2026-10-01T12:09:01Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/338"
-        },
-        {
-          "id": "336",
-          "number": 336,
-          "title": "configd: pairing a pad is a session any trigger can start",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-01T12:02:39Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/336"
-        },
-        {
-          "id": "340",
-          "number": 340,
-          "title": "duckctl, dev-push: default ssh user is microduck",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T10:14:40Z",
-          "merged_at": "2026-10-01T10:14:38Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/340"
-        },
-        {
-          "id": "339",
-          "number": 339,
-          "title": "robotctl: logs, a journal tail without sudo",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T10:12:42Z",
-          "merged_at": "2026-10-01T10:12:40Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/339"
         }
       ],
       "issues": []
@@ -248,9 +248,9 @@
         "sha": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
-      "updated_at": "2026-10-01T12:56:01Z",
-      "pushed_at": "2026-10-01T10:37:25Z",
-      "open_issues_count": 45,
+      "updated_at": "2026-10-01T21:19:42Z",
+      "pushed_at": "2026-10-01T18:21:17Z",
+      "open_issues_count": 44,
       "commits": [
         {
           "id": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
@@ -323,10 +323,10 @@
           "id": "64",
           "number": 64,
           "title": "publish --timeline: upload a stage performance's timeline.json beside the policy",
-          "state": "open",
+          "state": "closed",
           "draft": true,
-          "updated_at": "2026-10-01T09:24:34Z",
-          "merged_at": null,
+          "updated_at": "2026-10-01T18:21:19Z",
+          "merged_at": "2026-10-01T18:21:19Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/64"
         },
         {
@@ -335,7 +335,7 @@
           "title": "Record and publish the recipe of every run; usable from a challenges repo",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-10-01T09:11:04Z",
+          "updated_at": "2026-10-01T18:21:18Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
         },
@@ -628,7 +628,7 @@
         "sha": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167"
       },
-      "updated_at": "2026-10-01T10:10:09Z",
+      "updated_at": "2026-10-01T15:43:58Z",
       "pushed_at": "2026-09-30T07:53:18Z",
       "open_issues_count": 0,
       "commits": [
@@ -762,7 +762,7 @@
       },
       "updated_at": "2026-10-01T08:07:40Z",
       "pushed_at": "2026-10-01T09:50:25Z",
-      "open_issues_count": 45,
+      "open_issues_count": 46,
       "commits": [
         {
           "id": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
@@ -857,6 +857,16 @@
       ],
       "pulls": [
         {
+          "id": "1203",
+          "number": 1203,
+          "title": "Sample DelayBuffer lags on the first step after creation or reset",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-01T17:33:17Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1203"
+        },
+        {
           "id": "1202",
           "number": 1202,
           "title": "Keep the last frame when csv_to_npz resamples a motion",
@@ -895,16 +905,6 @@
           "updated_at": "2026-09-29T12:53:09Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1200"
-        },
-        {
-          "id": "1191",
-          "number": 1191,
-          "title": "Share the hold decision across envs in shared-lag DelayBuffer",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-29T06:32:44Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1191"
         }
       ],
       "issues": []
