@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T12:42:02Z",
+  "generated_at": "2026-10-02T22:17:31Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
-        "url": "https://github.com/superobk/microduck-startup/commit/27e468a727272c6e0a808be4f67c9164ff32a1a1"
+        "sha": "7aebe160b859f0b7b7aae8a7832bfa95a7b26292",
+        "url": "https://github.com/superobk/microduck-startup/commit/7aebe160b859f0b7b7aae8a7832bfa95a7b26292"
       },
-      "updated_at": "2026-10-02T05:44:32Z",
-      "pushed_at": "2026-10-02T05:44:28Z",
+      "updated_at": "2026-10-02T12:42:23Z",
+      "pushed_at": "2026-10-02T12:42:19Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "7aebe160b859f0b7b7aae8a7832bfa95a7b26292",
+          "sha": "7aebe160b859f0b7b7aae8a7832bfa95a7b26292",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-02T12:42:18Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/7aebe160b859f0b7b7aae8a7832bfa95a7b26292"
+        },
         {
           "id": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
           "sha": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-30T05:37:37Z",
           "url": "https://github.com/superobk/microduck-startup/commit/fc746fc299a32094de4c745ccc116827e7586b97"
-        },
-        {
-          "id": "38bd0169d3249fb6052b8ce8b5aea00fafefed20",
-          "sha": "38bd0169d3249fb6052b8ce8b5aea00fafefed20",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-29T22:19:26Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/38bd0169d3249fb6052b8ce8b5aea00fafefed20"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "1fa84386f07884e27866411bc1ba166977bced95",
         "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
       },
-      "updated_at": "2026-10-02T11:51:18Z",
-      "pushed_at": "2026-10-01T17:48:28Z",
-      "open_issues_count": 22,
+      "updated_at": "2026-10-02T19:47:20Z",
+      "pushed_at": "2026-10-02T14:57:28Z",
+      "open_issues_count": 23,
       "commits": [
         {
           "id": "1fa84386f07884e27866411bc1ba166977bced95",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "401911740",
+          "tag": "daemon-dev-mediad-gst-deinit",
+          "name": "daemon 0.14.1-dev.1189.1794b74 (mediad-gst-deinit)",
+          "published_at": "2026-10-02T14:57:29Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-gst-deinit"
+        },
+        {
           "id": "401103815",
           "tag": "daemon-v0.15.1",
           "name": "daemon 0.15.1",
@@ -176,17 +184,19 @@
           "published_at": "2026-10-01T16:13:31Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-standup-retry"
-        },
-        {
-          "id": "401079543",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.15.1-dev.1179.1fa8438 (main)",
-          "published_at": "2026-10-01T15:00:56Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
+        {
+          "id": "346",
+          "number": 346,
+          "title": "feat(tof): add opt-in BMI088 data-ready timestamps",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-02T14:35:41Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/346"
+        },
         {
           "id": "345",
           "number": 345,
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-01T14:22:34Z",
           "merged_at": "2026-10-01T14:22:32Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/342"
-        },
-        {
-          "id": "341",
-          "number": 341,
-          "title": "duckctl: wait for the name of a robot heard without one",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T14:00:03Z",
-          "merged_at": "2026-10-01T14:00:00Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/341"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
-      "updated_at": "2026-10-02T10:36:37Z",
+      "updated_at": "2026-10-02T19:47:09Z",
       "pushed_at": "2026-10-01T18:21:17Z",
       "open_issues_count": 44,
       "commits": [
@@ -446,7 +446,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-02T12:39:37Z",
+      "updated_at": "2026-10-02T13:28:33Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 27,
       "commits": [
@@ -628,9 +628,9 @@
         "sha": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167"
       },
-      "updated_at": "2026-10-02T10:42:18Z",
+      "updated_at": "2026-10-02T20:37:10Z",
       "pushed_at": "2026-09-30T07:53:18Z",
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "commits": [
         {
           "id": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
@@ -700,6 +700,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "21",
+          "number": 21,
+          "title": "Add quack-control",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-02T16:21:24Z",
+          "merged_at": null,
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/21"
+        },
+        {
           "id": "20",
           "number": 20,
           "title": "Add the raised-platform backflip and long jump as one entry",
@@ -738,16 +748,6 @@
           "updated_at": "2026-09-28T11:14:45Z",
           "merged_at": "2026-09-28T11:14:42Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/17"
-        },
-        {
-          "id": "16",
-          "number": 16,
-          "title": "Add distilled walkers, a Windows path, a CPU policy and two datasets",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-25T12:08:11Z",
-          "merged_at": "2026-09-25T12:08:09Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/16"
         }
       ],
       "issues": []
@@ -760,7 +760,7 @@
         "sha": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
-      "updated_at": "2026-10-02T10:37:50Z",
+      "updated_at": "2026-10-02T15:14:53Z",
       "pushed_at": "2026-10-02T10:09:25Z",
       "open_issues_count": 46,
       "commits": [
@@ -917,7 +917,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-02T10:35:41Z",
+      "updated_at": "2026-10-02T15:14:32Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 8,
       "commits": [
