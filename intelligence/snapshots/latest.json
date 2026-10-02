@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T05:44:14Z",
+  "generated_at": "2026-10-02T12:42:02Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "e547d5cf0c55ba18c421b2560471a27174a6c0bb",
-        "url": "https://github.com/superobk/microduck-startup/commit/e547d5cf0c55ba18c421b2560471a27174a6c0bb"
+        "sha": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
+        "url": "https://github.com/superobk/microduck-startup/commit/27e468a727272c6e0a808be4f67c9164ff32a1a1"
       },
-      "updated_at": "2026-10-01T22:44:08Z",
-      "pushed_at": "2026-10-01T22:44:04Z",
+      "updated_at": "2026-10-02T05:44:32Z",
+      "pushed_at": "2026-10-02T05:44:28Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
+          "sha": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-02T05:44:27Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/27e468a727272c6e0a808be4f67c9164ff32a1a1"
+        },
         {
           "id": "e547d5cf0c55ba18c421b2560471a27174a6c0bb",
           "sha": "e547d5cf0c55ba18c421b2560471a27174a6c0bb",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-29T22:19:26Z",
           "url": "https://github.com/superobk/microduck-startup/commit/38bd0169d3249fb6052b8ce8b5aea00fafefed20"
-        },
-        {
-          "id": "113ca7a099ad47efb86d4da5e506ca298c5fe249",
-          "sha": "113ca7a099ad47efb86d4da5e506ca298c5fe249",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-29T12:58:38Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/113ca7a099ad47efb86d4da5e506ca298c5fe249"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "1fa84386f07884e27866411bc1ba166977bced95",
         "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
       },
-      "updated_at": "2026-10-02T05:40:20Z",
+      "updated_at": "2026-10-02T11:51:18Z",
       "pushed_at": "2026-10-01T17:48:28Z",
       "open_issues_count": 22,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
-      "updated_at": "2026-10-01T21:19:42Z",
+      "updated_at": "2026-10-02T10:36:37Z",
       "pushed_at": "2026-10-01T18:21:17Z",
       "open_issues_count": 44,
       "commits": [
@@ -446,7 +446,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-02T05:24:56Z",
+      "updated_at": "2026-10-02T12:39:37Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 27,
       "commits": [
@@ -628,7 +628,7 @@
         "sha": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167"
       },
-      "updated_at": "2026-10-01T15:43:58Z",
+      "updated_at": "2026-10-02T10:42:18Z",
       "pushed_at": "2026-09-30T07:53:18Z",
       "open_issues_count": 0,
       "commits": [
@@ -760,8 +760,8 @@
         "sha": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
-      "updated_at": "2026-10-02T03:01:43Z",
-      "pushed_at": "2026-10-01T09:50:25Z",
+      "updated_at": "2026-10-02T10:37:50Z",
+      "pushed_at": "2026-10-02T10:09:25Z",
       "open_issues_count": 46,
       "commits": [
         {
@@ -917,7 +917,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-02T02:27:01Z",
+      "updated_at": "2026-10-02T10:35:41Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 8,
       "commits": [
