@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T16:25:45Z",
+  "generated_at": "2026-10-03T21:21:35Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
-        "url": "https://github.com/superobk/microduck-startup/commit/d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f"
+        "sha": "a45a929c1815e8de3aec9906037f57ec4d9b7405",
+        "url": "https://github.com/superobk/microduck-startup/commit/a45a929c1815e8de3aec9906037f57ec4d9b7405"
       },
-      "updated_at": "2026-10-03T11:43:59Z",
-      "pushed_at": "2026-10-03T11:43:55Z",
+      "updated_at": "2026-10-03T16:26:02Z",
+      "pushed_at": "2026-10-03T16:25:58Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a45a929c1815e8de3aec9906037f57ec4d9b7405",
+          "sha": "a45a929c1815e8de3aec9906037f57ec4d9b7405",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-03T16:25:57Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/a45a929c1815e8de3aec9906037f57ec4d9b7405"
+        },
         {
           "id": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
           "sha": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-01T13:23:48Z",
           "url": "https://github.com/superobk/microduck-startup/commit/e0f5a6f6358e9d9898d7c7ec48dc46e2d10ffd69"
-        },
-        {
-          "id": "0364c882cf86e3c27a35ad5d8b1f587f2fc106aa",
-          "sha": "0364c882cf86e3c27a35ad5d8b1f587f2fc106aa",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-01T06:01:34Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0364c882cf86e3c27a35ad5d8b1f587f2fc106aa"
         }
       ],
       "releases": [],
@@ -88,13 +88,29 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "ded2f7c980217049817580562b2bbc7393b16de4",
-        "url": "https://github.com/pollen-robotics/microduck/commit/ded2f7c980217049817580562b2bbc7393b16de4"
+        "sha": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
+        "url": "https://github.com/pollen-robotics/microduck/commit/9136aa4ee88e81edf2bcaf3527e90b65da25f1eb"
       },
-      "updated_at": "2026-10-03T15:35:15Z",
-      "pushed_at": "2026-10-03T15:51:49Z",
-      "open_issues_count": 22,
+      "updated_at": "2026-10-03T20:33:59Z",
+      "pushed_at": "2026-10-03T21:20:15Z",
+      "open_issues_count": 23,
       "commits": [
+        {
+          "id": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
+          "sha": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
+          "message": "Merge pull request #347 from pollen-robotics/shutdown-rest-pose",
+          "author": "apirrone",
+          "date": "2026-10-03T20:09:57Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/9136aa4ee88e81edf2bcaf3527e90b65da25f1eb"
+        },
+        {
+          "id": "da4973d69c9a2002d66faa4f9dc0acae0246b4bb",
+          "sha": "da4973d69c9a2002d66faa4f9dc0acae0246b4bb",
+          "message": "robotd: ease into a recorded rest pose before the shutdown cuts torque",
+          "author": "apirrone",
+          "date": "2026-10-03T19:55:00Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/da4973d69c9a2002d66faa4f9dc0acae0246b4bb"
+        },
         {
           "id": "ded2f7c980217049817580562b2bbc7393b16de4",
           "sha": "ded2f7c980217049817580562b2bbc7393b16de4",
@@ -142,51 +158,65 @@
           "author": "pierre-rouanet",
           "date": "2026-10-01T14:24:40Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/7810e5069d6773d509b0aab4954e0731eca5a19a"
-        },
-        {
-          "id": "c6bd1489755d4bd7da887a51c7b96dd538ee7faa",
-          "sha": "c6bd1489755d4bd7da887a51c7b96dd538ee7faa",
-          "message": "Merge pull request #342 from pollen-robotics/atomic-try-update",
-          "author": "pierre-rouanet",
-          "date": "2026-10-01T14:22:32Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/c6bd1489755d4bd7da887a51c7b96dd538ee7faa"
-        },
-        {
-          "id": "82bbad2f79cf35dc168b1a88299df25e0fa4389a",
-          "sha": "82bbad2f79cf35dc168b1a88299df25e0fa4389a",
-          "message": "mediad: build on Rust 1.99, which is now the floor",
-          "author": "pierre-rouanet",
-          "date": "2026-10-01T14:10:14Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/82bbad2f79cf35dc168b1a88299df25e0fa4389a"
         }
       ],
       "releases": [
         {
-          "id": "402580518",
+          "id": "402694295",
+          "tag": "daemon-dev-pickup-detector",
+          "name": "daemon 0.15.1-dev.1196.620affc (pickup-detector)",
+          "published_at": "2026-10-03T21:13:32Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-pickup-detector"
+        },
+        {
+          "id": "402669734",
           "tag": "daemon-dev-midi-instrument",
-          "name": "daemon 0.15.1-dev.1191.e59554b (midi-instrument)",
-          "published_at": "2026-10-03T15:51:49Z",
+          "name": "daemon 0.15.1-dev.1193.a574cf5 (midi-instrument)",
+          "published_at": "2026-10-03T20:00:04Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-midi-instrument"
         },
         {
-          "id": "402575434",
+          "id": "402674168",
           "tag": "daemon-dev-main",
-          "name": "daemon 0.15.1-dev.1190.ded2f7c (main)",
-          "published_at": "2026-10-03T15:38:51Z",
+          "name": "daemon 0.15.1-dev.1195.9136aa4 (main)",
+          "published_at": "2026-10-03T20:12:50Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
-        },
-        {
-          "id": "401911740",
-          "tag": "daemon-dev-mediad-gst-deinit",
-          "name": "daemon 0.14.1-dev.1189.1794b74 (mediad-gst-deinit)",
-          "published_at": "2026-10-02T14:57:29Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-gst-deinit"
         }
       ],
       "pulls": [
+        {
+          "id": "348",
+          "number": 348,
+          "title": "Play a microduck from a MIDI keyboard",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-03T20:10:36Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/348"
+        },
+        {
+          "id": "347",
+          "number": 347,
+          "title": "robotd: ease into a recorded rest pose before the shutdown cuts torque",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T20:09:59Z",
+          "merged_at": "2026-10-03T20:09:57Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/347"
+        },
+        {
+          "id": "260",
+          "number": 260,
+          "title": "The servos report velocity and load every tick, and the wire dropped both",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T18:21:09Z",
+          "merged_at": "2026-09-23T09:19:36Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/260"
+        },
         {
           "id": "345",
           "number": 345,
@@ -206,36 +236,6 @@
           "updated_at": "2026-10-03T00:25:24Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/331"
-        },
-        {
-          "id": "346",
-          "number": 346,
-          "title": "feat(tof): add opt-in BMI088 data-ready timestamps",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-02T14:35:41Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/346"
-        },
-        {
-          "id": "344",
-          "number": 344,
-          "title": "Prepare release 0.15.1",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T14:57:26Z",
-          "merged_at": "2026-10-01T14:57:23Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/344"
-        },
-        {
-          "id": "343",
-          "number": 343,
-          "title": "btd: advertise an extended twin so a Linux laptop can connect",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-01T14:41:06Z",
-          "merged_at": "2026-10-01T14:41:04Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/343"
         }
       ],
       "issues": []
@@ -249,8 +249,8 @@
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
       "updated_at": "2026-10-03T09:07:52Z",
-      "pushed_at": "2026-10-03T14:44:07Z",
-      "open_issues_count": 45,
+      "pushed_at": "2026-10-03T21:10:32Z",
+      "open_issues_count": 47,
       "commits": [
         {
           "id": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
@@ -320,6 +320,26 @@
       "releases": [],
       "pulls": [
         {
+          "id": "70",
+          "number": 70,
+          "title": "Pickup detector",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-03T21:10:33Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/70"
+        },
+        {
+          "id": "69",
+          "number": 69,
+          "title": "docs: Intel GPU training via the mjlab-sycl companion package",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-03T19:20:47Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/69"
+        },
+        {
           "id": "68",
           "number": 68,
           "title": "sim: a challenge course and a playground to drive in",
@@ -348,46 +368,9 @@
           "updated_at": "2026-10-01T18:21:18Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
-        },
-        {
-          "id": "62",
-          "number": 62,
-          "title": "publish: robotics pipeline, replay.mp4 video, base_model on remixes",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-29T14:51:02Z",
-          "merged_at": "2026-09-29T14:51:01Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/62"
-        },
-        {
-          "id": "13",
-          "number": 13,
-          "title": "Fix wandb credential lookup on Windows (~/_netrc, not ~/.netrc)",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-29T13:48:28Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/13"
         }
       ],
-      "issues": [
-        {
-          "id": "67",
-          "number": 67,
-          "title": "BallKick: PPO can converge to \"kick then collapse\" at ~40-57° tilt, under the 70° fell_over threshold",
-          "state": "open",
-          "updated_at": "2026-10-01T13:03:05Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/67"
-        },
-        {
-          "id": "66",
-          "number": 66,
-          "title": "`head_camera` <camera> element points backwards into the head",
-          "state": "open",
-          "updated_at": "2026-09-30T19:52:25Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/66"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "IronSpiderMan/MicroDuckModels",
@@ -440,7 +423,7 @@
       },
       "updated_at": "2026-10-03T15:08:18Z",
       "pushed_at": "2026-10-01T03:28:42Z",
-      "open_issues_count": 27,
+      "open_issues_count": 28,
       "commits": [
         {
           "id": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
@@ -535,6 +518,26 @@
       ],
       "pulls": [
         {
+          "id": "30",
+          "number": 30,
+          "title": "Feature/testtool set",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T17:53:53Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/30"
+        },
+        {
+          "id": "36",
+          "number": 36,
+          "title": "tools: HD1910M 工具新增零位校准/重启指令与角度限制增强（作者：漂移菌）",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-03T17:42:27Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/36"
+        },
+        {
           "id": "31",
           "number": 31,
           "title": "tools: 引入 FeeTech_HD1910M_Servo Rust 舵机调试工具",
@@ -563,52 +566,40 @@
           "updated_at": "2026-09-21T13:43:13Z",
           "merged_at": null,
           "url": "https://github.com/fanhao375/microduck-replica/pull/12"
-        },
-        {
-          "id": "18",
-          "number": 18,
-          "title": "imu_to_dxl 改版：25×25 mm，四角金属化 M2，双面地，附生产文件",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-21T13:43:10Z",
-          "merged_at": null,
-          "url": "https://github.com/fanhao375/microduck-replica/pull/18"
-        },
-        {
-          "id": "30",
-          "number": 30,
-          "title": "Feature/testtool set",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-21T13:43:08Z",
-          "merged_at": null,
-          "url": "https://github.com/fanhao375/microduck-replica/pull/30"
         }
       ],
       "issues": [
         {
-          "id": "35",
-          "number": 35,
-          "title": "舵机串联和imu接线图能给个示意图吗",
+          "id": "5",
+          "number": 5,
+          "title": "pcb不是问题",
           "state": "open",
-          "updated_at": "2026-09-24T13:05:17Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/35"
+          "updated_at": "2026-10-03T17:51:10Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/5"
         },
         {
-          "id": "34",
-          "number": 34,
-          "title": "微信求拉",
+          "id": "4",
+          "number": 4,
+          "title": "哥们的背景很复合啊，动作真快",
           "state": "open",
-          "updated_at": "2026-09-22T08:52:42Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/34"
+          "updated_at": "2026-10-03T17:50:45Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/4"
         },
         {
-          "id": "33",
-          "number": 33,
-          "title": "MicroDuck Feetech Replica – Hardware, Firmware and Software Clarification Before Assembly",
+          "id": "2",
+          "number": 2,
+          "title": "有没有全套的教程",
           "state": "open",
-          "updated_at": "2026-09-21T18:07:38Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/33"
+          "updated_at": "2026-10-03T17:50:13Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/2"
+        },
+        {
+          "id": "1",
+          "number": 1,
+          "title": "请持续更新加大力度",
+          "state": "open",
+          "updated_at": "2026-10-03T17:49:53Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/1"
         }
       ]
     },
@@ -754,7 +745,7 @@
       },
       "updated_at": "2026-10-03T13:55:35Z",
       "pushed_at": "2026-10-03T10:13:26Z",
-      "open_issues_count": 47,
+      "open_issues_count": 48,
       "commits": [
         {
           "id": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
@@ -849,6 +840,16 @@
       ],
       "pulls": [
         {
+          "id": "1205",
+          "number": 1205,
+          "title": "Clear feet_swing_height peak_heights on environment reset",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-03T18:29:07Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1205"
+        },
+        {
           "id": "1203",
           "number": 1203,
           "title": "Sample DelayBuffer lags on the first step after creation or reset",
@@ -887,16 +888,6 @@
           "updated_at": "2026-09-29T14:22:42Z",
           "merged_at": "2026-09-29T03:24:24Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1198"
-        },
-        {
-          "id": "1200",
-          "number": 1200,
-          "title": "Add batched Gymnasium MuJoCo v5 benchmark tasks",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-09-29T12:53:09Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1200"
         }
       ],
       "issues": []
