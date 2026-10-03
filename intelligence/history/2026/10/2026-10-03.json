@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T11:43:43Z",
+  "generated_at": "2026-10-03T16:25:45Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "787fc06b5d57066170d5be759e604815bb8b26cf",
-        "url": "https://github.com/superobk/microduck-startup/commit/787fc06b5d57066170d5be759e604815bb8b26cf"
+        "sha": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
+        "url": "https://github.com/superobk/microduck-startup/commit/d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f"
       },
-      "updated_at": "2026-10-03T05:23:14Z",
-      "pushed_at": "2026-10-03T05:23:10Z",
+      "updated_at": "2026-10-03T11:43:59Z",
+      "pushed_at": "2026-10-03T11:43:55Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
+          "sha": "d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-03T11:43:54Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f"
+        },
         {
           "id": "787fc06b5d57066170d5be759e604815bb8b26cf",
           "sha": "787fc06b5d57066170d5be759e604815bb8b26cf",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-01T06:01:34Z",
           "url": "https://github.com/superobk/microduck-startup/commit/0364c882cf86e3c27a35ad5d8b1f587f2fc106aa"
-        },
-        {
-          "id": "559e20e9dd2e56f95e285a6ffe2b3ec6465180ee",
-          "sha": "559e20e9dd2e56f95e285a6ffe2b3ec6465180ee",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-30T22:19:59Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/559e20e9dd2e56f95e285a6ffe2b3ec6465180ee"
         }
       ],
       "releases": [],
@@ -88,13 +88,29 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "1fa84386f07884e27866411bc1ba166977bced95",
-        "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
+        "sha": "ded2f7c980217049817580562b2bbc7393b16de4",
+        "url": "https://github.com/pollen-robotics/microduck/commit/ded2f7c980217049817580562b2bbc7393b16de4"
       },
-      "updated_at": "2026-10-03T10:56:28Z",
-      "pushed_at": "2026-10-02T14:57:28Z",
-      "open_issues_count": 23,
+      "updated_at": "2026-10-03T15:35:15Z",
+      "pushed_at": "2026-10-03T15:51:49Z",
+      "open_issues_count": 22,
       "commits": [
+        {
+          "id": "ded2f7c980217049817580562b2bbc7393b16de4",
+          "sha": "ded2f7c980217049817580562b2bbc7393b16de4",
+          "message": "Merge pull request #345 from pollen-robotics/configure-controller-limits",
+          "author": "apirrone",
+          "date": "2026-10-03T15:35:06Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/ded2f7c980217049817580562b2bbc7393b16de4"
+        },
+        {
+          "id": "bbf5c13d044ed2909005b8c21ff7eac455f8a283",
+          "sha": "bbf5c13d044ed2909005b8c21ff7eac455f8a283",
+          "message": "expose control max vx/vy/vtheta etc in robotctl configure",
+          "author": "apirrone",
+          "date": "2026-10-01T15:47:07Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/bbf5c13d044ed2909005b8c21ff7eac455f8a283"
+        },
         {
           "id": "1fa84386f07884e27866411bc1ba166977bced95",
           "sha": "1fa84386f07884e27866411bc1ba166977bced95",
@@ -142,25 +158,25 @@
           "author": "pierre-rouanet",
           "date": "2026-10-01T14:10:14Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/82bbad2f79cf35dc168b1a88299df25e0fa4389a"
-        },
-        {
-          "id": "c2c0dddc229ea06baa5f498f5f3981070d67b247",
-          "sha": "c2c0dddc229ea06baa5f498f5f3981070d67b247",
-          "message": "Merge pull request #341 from pollen-robotics/advwatch-time-to-name",
-          "author": "pierre-rouanet",
-          "date": "2026-10-01T14:00:00Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/c2c0dddc229ea06baa5f498f5f3981070d67b247"
-        },
-        {
-          "id": "c79132b58458bae5925bca69ee8872b7d39545f5",
-          "sha": "c79132b58458bae5925bca69ee8872b7d39545f5",
-          "message": "duckctl: wait past the deadline for a robot heard without its name",
-          "author": "pierre-rouanet",
-          "date": "2026-10-01T12:11:32Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/c79132b58458bae5925bca69ee8872b7d39545f5"
         }
       ],
       "releases": [
+        {
+          "id": "402580518",
+          "tag": "daemon-dev-midi-instrument",
+          "name": "daemon 0.15.1-dev.1191.e59554b (midi-instrument)",
+          "published_at": "2026-10-03T15:51:49Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-midi-instrument"
+        },
+        {
+          "id": "402575434",
+          "tag": "daemon-dev-main",
+          "name": "daemon 0.15.1-dev.1190.ded2f7c (main)",
+          "published_at": "2026-10-03T15:38:51Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+        },
         {
           "id": "401911740",
           "tag": "daemon-dev-mediad-gst-deinit",
@@ -168,25 +184,19 @@
           "published_at": "2026-10-02T14:57:29Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-gst-deinit"
-        },
-        {
-          "id": "401103815",
-          "tag": "daemon-v0.15.1",
-          "name": "daemon 0.15.1",
-          "published_at": "2026-10-01T15:28:31Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.15.1"
-        },
-        {
-          "id": "401140370",
-          "tag": "daemon-dev-standup-retry",
-          "name": "daemon 0.15.1-dev.1183.534d9e1 (standup-retry)",
-          "published_at": "2026-10-01T16:13:31Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-standup-retry"
         }
       ],
       "pulls": [
+        {
+          "id": "345",
+          "number": 345,
+          "title": "expose control max vx/vy/vtheta etc in robotctl configure",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T15:35:09Z",
+          "merged_at": "2026-10-03T15:35:06Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/345"
+        },
         {
           "id": "331",
           "number": 331,
@@ -206,16 +216,6 @@
           "updated_at": "2026-10-02T14:35:41Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/346"
-        },
-        {
-          "id": "345",
-          "number": 345,
-          "title": "expose control max vx/vy/vtheta etc in robotctl configure",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-01T16:07:53Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/345"
         },
         {
           "id": "344",
@@ -249,7 +249,7 @@
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
       "updated_at": "2026-10-03T09:07:52Z",
-      "pushed_at": "2026-10-01T18:21:17Z",
+      "pushed_at": "2026-10-03T14:44:07Z",
       "open_issues_count": 45,
       "commits": [
         {
@@ -438,7 +438,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-03T11:02:28Z",
+      "updated_at": "2026-10-03T15:08:18Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 27,
       "commits": [
@@ -752,7 +752,7 @@
         "sha": "f135c1daa0f278bd19e323c2b9f256ca541ae2c5",
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
-      "updated_at": "2026-10-03T04:44:28Z",
+      "updated_at": "2026-10-03T13:55:35Z",
       "pushed_at": "2026-10-03T10:13:26Z",
       "open_issues_count": 47,
       "commits": [
@@ -909,7 +909,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-02T15:14:32Z",
+      "updated_at": "2026-10-03T16:08:55Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 8,
       "commits": [

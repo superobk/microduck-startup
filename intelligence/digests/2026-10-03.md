@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-03T11:43:43Z`
+Generated: `2026-10-03T16:25:45Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,19 +8,20 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `787fc06b5d57` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/787fc06b5d57066170d5be759e604815bb8b26cf)
+- Commit `d5f0a649bc7a` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f)
 
-### joeynyc/awesome-microduck
+### pollen-robotics/microduck
 
-- Commit `58e2c4fb5181` [Add a kick-algorithm study, a compiled policy, a foundation-model walker and two more (#22)](https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca)
-- Commit `bf6be9157bb3` [Add quack-control (#21)](https://github.com/joeynyc/awesome-microduck/commit/bf6be9157bb3c2e3dc55df1c913ce469fcb579da)
-- PR #22 [Add a kick-algorithm study, a compiled policy, a foundation-model walker and two more](https://github.com/joeynyc/awesome-microduck/pull/22) — closed
+- Release [daemon 0.15.1-dev.1191.e59554b (midi-instrument)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-midi-instrument) (prerelease)
+- Release [daemon 0.15.1-dev.1190.ded2f7c (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `ded2f7c98021` [Merge pull request #345 from pollen-robotics/configure-controller-limits](https://github.com/pollen-robotics/microduck/commit/ded2f7c980217049817580562b2bbc7393b16de4)
+- Commit `bbf5c13d044e` [expose control max vx/vy/vtheta etc in robotctl configure](https://github.com/pollen-robotics/microduck/commit/bbf5c13d044ed2909005b8c21ff7eac455f8a283)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [787fc06b5d57](https://github.com/superobk/microduck-startup/commit/787fc06b5d57066170d5be759e604815bb8b26cf); pushed `2026-10-03T05:23:10Z`
-- **pollen-robotics/microduck** `main` → [1fa84386f078](https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95); pushed `2026-10-02T14:57:28Z`
-- **pollen-robotics/microduck_rl** `develop` → [8d0db74916a4](https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec); pushed `2026-10-01T18:21:17Z`
+- **superobk/microduck-startup** `main` → [d5f0a649bc7a](https://github.com/superobk/microduck-startup/commit/d5f0a649bc7a8244daaf9ffa1ca1db8cc9c8dd4f); pushed `2026-10-03T11:43:55Z`
+- **pollen-robotics/microduck** `main` → [ded2f7c98021](https://github.com/pollen-robotics/microduck/commit/ded2f7c980217049817580562b2bbc7393b16de4); pushed `2026-10-03T15:51:49Z`
+- **pollen-robotics/microduck_rl** `develop` → [8d0db74916a4](https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec); pushed `2026-10-03T14:44:07Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [b5381d86b68d](https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc); pushed `2026-10-01T03:28:42Z`
 - **joeynyc/awesome-microduck** `main` → [58e2c4fb5181](https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca); pushed `2026-10-03T08:02:34Z`
