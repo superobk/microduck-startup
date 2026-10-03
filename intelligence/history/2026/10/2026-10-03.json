@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T05:22:50Z",
+  "generated_at": "2026-10-03T11:43:43Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0a248aeab12e2e08c61112e15c37705436c4d4aa",
-        "url": "https://github.com/superobk/microduck-startup/commit/0a248aeab12e2e08c61112e15c37705436c4d4aa"
+        "sha": "787fc06b5d57066170d5be759e604815bb8b26cf",
+        "url": "https://github.com/superobk/microduck-startup/commit/787fc06b5d57066170d5be759e604815bb8b26cf"
       },
-      "updated_at": "2026-10-02T22:17:50Z",
-      "pushed_at": "2026-10-02T22:17:46Z",
+      "updated_at": "2026-10-03T05:23:14Z",
+      "pushed_at": "2026-10-03T05:23:10Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "787fc06b5d57066170d5be759e604815bb8b26cf",
+          "sha": "787fc06b5d57066170d5be759e604815bb8b26cf",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-03T05:23:09Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/787fc06b5d57066170d5be759e604815bb8b26cf"
+        },
         {
           "id": "0a248aeab12e2e08c61112e15c37705436c4d4aa",
           "sha": "0a248aeab12e2e08c61112e15c37705436c4d4aa",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-09-30T22:19:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/559e20e9dd2e56f95e285a6ffe2b3ec6465180ee"
-        },
-        {
-          "id": "71353a4e9172b1bccd2a42abc424dcec8583bba5",
-          "sha": "71353a4e9172b1bccd2a42abc424dcec8583bba5",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-09-30T12:40:43Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/71353a4e9172b1bccd2a42abc424dcec8583bba5"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "1fa84386f07884e27866411bc1ba166977bced95",
         "url": "https://github.com/pollen-robotics/microduck/commit/1fa84386f07884e27866411bc1ba166977bced95"
       },
-      "updated_at": "2026-10-03T05:02:51Z",
+      "updated_at": "2026-10-03T10:56:28Z",
       "pushed_at": "2026-10-02T14:57:28Z",
       "open_issues_count": 23,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec"
       },
-      "updated_at": "2026-10-03T05:01:56Z",
+      "updated_at": "2026-10-03T09:07:52Z",
       "pushed_at": "2026-10-01T18:21:17Z",
       "open_issues_count": 45,
       "commits": [
@@ -438,7 +438,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-02T13:28:33Z",
+      "updated_at": "2026-10-03T11:02:28Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 27,
       "commits": [
@@ -617,13 +617,29 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167"
+        "sha": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca"
       },
-      "updated_at": "2026-10-02T20:37:10Z",
-      "pushed_at": "2026-09-30T07:53:18Z",
-      "open_issues_count": 1,
+      "updated_at": "2026-10-03T08:02:37Z",
+      "pushed_at": "2026-10-03T08:02:34Z",
+      "open_issues_count": 0,
       "commits": [
+        {
+          "id": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
+          "sha": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
+          "message": "Add a kick-algorithm study, a compiled policy, a foundation-model walker and two more (#22)",
+          "author": "joeynyc",
+          "date": "2026-10-03T08:02:32Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca"
+        },
+        {
+          "id": "bf6be9157bb3c2e3dc55df1c913ce469fcb579da",
+          "sha": "bf6be9157bb3c2e3dc55df1c913ce469fcb579da",
+          "message": "Add quack-control (#21)",
+          "author": "andreagenovese",
+          "date": "2026-10-03T08:01:05Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/bf6be9157bb3c2e3dc55df1c913ce469fcb579da"
+        },
         {
           "id": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
           "sha": "3ddaa0eab900f9d53041de3d7de21e4a7fb31167",
@@ -671,34 +687,28 @@
           "author": "joeynyc",
           "date": "2026-09-23T05:37:50Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e"
-        },
-        {
-          "id": "a3815e7b73fb1e95cbb3811d80023ed619c375ab",
-          "sha": "a3815e7b73fb1e95cbb3811d80023ed619c375ab",
-          "message": "Add a locomotion-failure diagnosis, three ports and two decision layers (#12)",
-          "author": "joeynyc",
-          "date": "2026-09-19T13:07:07Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/a3815e7b73fb1e95cbb3811d80023ed619c375ab"
-        },
-        {
-          "id": "90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a",
-          "sha": "90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a",
-          "message": "Drop two dead entries, disambiguate the Isaac Lab ports, add six (#11)",
-          "author": "joeynyc",
-          "date": "2026-09-17T19:51:58Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/90de1339d9d58b29ecd20d19e1ce2c1166d1bf8a"
         }
       ],
       "releases": [],
       "pulls": [
         {
+          "id": "22",
+          "number": 22,
+          "title": "Add a kick-algorithm study, a compiled policy, a foundation-model walker and two more",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T08:02:35Z",
+          "merged_at": "2026-10-03T08:02:33Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/22"
+        },
+        {
           "id": "21",
           "number": 21,
           "title": "Add quack-control",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-02T16:21:24Z",
-          "merged_at": null,
+          "updated_at": "2026-10-03T08:01:06Z",
+          "merged_at": "2026-10-03T08:01:05Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/21"
         },
         {
@@ -730,16 +740,6 @@
           "updated_at": "2026-09-29T10:58:13Z",
           "merged_at": "2026-09-29T10:58:10Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/18"
-        },
-        {
-          "id": "17",
-          "number": 17,
-          "title": "Add Pollen's Arena reference policies, a fuller twin and seven more",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-28T11:14:45Z",
-          "merged_at": "2026-09-28T11:14:42Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/17"
         }
       ],
       "issues": []
@@ -753,7 +753,7 @@
         "url": "https://github.com/mujocolab/mjlab/commit/f135c1daa0f278bd19e323c2b9f256ca541ae2c5"
       },
       "updated_at": "2026-10-03T04:44:28Z",
-      "pushed_at": "2026-10-02T10:09:25Z",
+      "pushed_at": "2026-10-03T10:13:26Z",
       "open_issues_count": 47,
       "commits": [
         {
