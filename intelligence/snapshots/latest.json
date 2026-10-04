@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T05:58:34Z",
+  "generated_at": "2026-10-04T12:26:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0a2e0a1daf6a8aafbabece73af23bc02b03662ff",
-        "url": "https://github.com/superobk/microduck-startup/commit/0a2e0a1daf6a8aafbabece73af23bc02b03662ff"
+        "sha": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
+        "url": "https://github.com/superobk/microduck-startup/commit/34ee743de36eb4474358bc11838c06f41f6d9ebb"
       },
-      "updated_at": "2026-10-03T21:21:51Z",
-      "pushed_at": "2026-10-03T21:21:47Z",
+      "updated_at": "2026-10-04T05:58:54Z",
+      "pushed_at": "2026-10-04T05:58:50Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
+          "sha": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-04T05:58:49Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/34ee743de36eb4474358bc11838c06f41f6d9ebb"
+        },
         {
           "id": "0a2e0a1daf6a8aafbabece73af23bc02b03662ff",
           "sha": "0a2e0a1daf6a8aafbabece73af23bc02b03662ff",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-02T05:44:27Z",
           "url": "https://github.com/superobk/microduck-startup/commit/27e468a727272c6e0a808be4f67c9164ff32a1a1"
-        },
-        {
-          "id": "e547d5cf0c55ba18c421b2560471a27174a6c0bb",
-          "sha": "e547d5cf0c55ba18c421b2560471a27174a6c0bb",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-01T22:44:02Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/e547d5cf0c55ba18c421b2560471a27174a6c0bb"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
         "url": "https://github.com/pollen-robotics/microduck/commit/9136aa4ee88e81edf2bcaf3527e90b65da25f1eb"
       },
-      "updated_at": "2026-10-04T05:44:47Z",
+      "updated_at": "2026-10-04T12:15:58Z",
       "pushed_at": "2026-10-03T21:34:59Z",
       "open_issues_count": 26,
       "commits": [
@@ -265,7 +265,7 @@
         "sha": "1f2e4afcf33fbc75172b893c82fb66da9e3fc7ea",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/1f2e4afcf33fbc75172b893c82fb66da9e3fc7ea"
       },
-      "updated_at": "2026-10-04T01:53:05Z",
+      "updated_at": "2026-10-04T08:31:00Z",
       "pushed_at": "2026-10-03T21:32:09Z",
       "open_issues_count": 46,
       "commits": [
@@ -637,9 +637,9 @@
         "sha": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca"
       },
-      "updated_at": "2026-10-03T08:02:37Z",
+      "updated_at": "2026-10-04T07:56:00Z",
       "pushed_at": "2026-10-03T08:02:34Z",
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "commits": [
         {
           "id": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
@@ -759,7 +759,16 @@
           "url": "https://github.com/joeynyc/awesome-microduck/pull/18"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "23",
+          "number": 23,
+          "title": "Invitation to share awesome-microduck on GithubStarMate and help more people discover your work",
+          "state": "open",
+          "updated_at": "2026-10-04T06:03:48Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/issues/23"
+        }
+      ]
     },
     {
       "repo": "mujocolab/mjlab",
@@ -769,8 +778,8 @@
         "sha": "4f7329183f097baa93af6e21e7e9241fc45bf978",
         "url": "https://github.com/mujocolab/mjlab/commit/4f7329183f097baa93af6e21e7e9241fc45bf978"
       },
-      "updated_at": "2026-10-04T00:55:30Z",
-      "pushed_at": "2026-10-04T01:00:08Z",
+      "updated_at": "2026-10-04T07:18:17Z",
+      "pushed_at": "2026-10-04T09:57:36Z",
       "open_issues_count": 43,
       "commits": [
         {
@@ -926,9 +935,9 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-03T16:08:55Z",
+      "updated_at": "2026-10-04T11:36:31Z",
       "pushed_at": "2026-09-09T11:38:40Z",
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "commits": [
         {
           "id": "857de6165c5fd479726ec8ac5c9303a497766f30",
@@ -1023,6 +1032,16 @@
       ],
       "pulls": [
         {
+          "id": "238",
+          "number": 238,
+          "title": "Detect infinite values in environment outputs",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-04T11:56:27Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
+        },
+        {
           "id": "236",
           "number": 236,
           "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
@@ -1061,16 +1080,6 @@
           "updated_at": "2026-08-31T17:20:45Z",
           "merged_at": "2026-08-26T13:32:29Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/230"
-        },
-        {
-          "id": "228",
-          "number": 228,
-          "title": "Reduce multi-GPU gradients in bounded buckets",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-08-31T10:29:25Z",
-          "merged_at": "2026-08-31T10:29:25Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/228"
         }
       ],
       "issues": []
