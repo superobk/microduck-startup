@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T12:26:37Z",
+  "generated_at": "2026-10-04T21:32:16Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
-        "url": "https://github.com/superobk/microduck-startup/commit/34ee743de36eb4474358bc11838c06f41f6d9ebb"
+        "sha": "5b1f1e82f69d3a413d8c1def5e7e6ea2050a26cb",
+        "url": "https://github.com/superobk/microduck-startup/commit/5b1f1e82f69d3a413d8c1def5e7e6ea2050a26cb"
       },
-      "updated_at": "2026-10-04T05:58:54Z",
-      "pushed_at": "2026-10-04T05:58:50Z",
+      "updated_at": "2026-10-04T12:26:53Z",
+      "pushed_at": "2026-10-04T12:26:50Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5b1f1e82f69d3a413d8c1def5e7e6ea2050a26cb",
+          "sha": "5b1f1e82f69d3a413d8c1def5e7e6ea2050a26cb",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-04T12:26:49Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5b1f1e82f69d3a413d8c1def5e7e6ea2050a26cb"
+        },
         {
           "id": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
           "sha": "34ee743de36eb4474358bc11838c06f41f6d9ebb",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-02T12:42:18Z",
           "url": "https://github.com/superobk/microduck-startup/commit/7aebe160b859f0b7b7aae8a7832bfa95a7b26292"
-        },
-        {
-          "id": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
-          "sha": "27e468a727272c6e0a808be4f67c9164ff32a1a1",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-02T05:44:27Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/27e468a727272c6e0a808be4f67c9164ff32a1a1"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
         "url": "https://github.com/pollen-robotics/microduck/commit/9136aa4ee88e81edf2bcaf3527e90b65da25f1eb"
       },
-      "updated_at": "2026-10-04T12:15:58Z",
+      "updated_at": "2026-10-04T19:40:57Z",
       "pushed_at": "2026-10-03T21:34:59Z",
       "open_issues_count": 26,
       "commits": [
@@ -265,9 +265,9 @@
         "sha": "1f2e4afcf33fbc75172b893c82fb66da9e3fc7ea",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/1f2e4afcf33fbc75172b893c82fb66da9e3fc7ea"
       },
-      "updated_at": "2026-10-04T08:31:00Z",
+      "updated_at": "2026-10-04T18:23:55Z",
       "pushed_at": "2026-10-03T21:32:09Z",
-      "open_issues_count": 46,
+      "open_issues_count": 47,
       "commits": [
         {
           "id": "1f2e4afcf33fbc75172b893c82fb66da9e3fc7ea",
@@ -337,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "71",
+          "number": 71,
+          "title": "Windows support for infer_policy.py (termios shims, msvcrt keys, --max-seconds)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-04T13:07:44Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/71"
+        },
+        {
           "id": "70",
           "number": 70,
           "title": "Pickup detector",
@@ -375,16 +385,6 @@
           "updated_at": "2026-10-01T18:21:19Z",
           "merged_at": "2026-10-01T18:21:19Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/64"
-        },
-        {
-          "id": "57",
-          "number": 57,
-          "title": "Record and publish the recipe of every run; usable from a challenges repo",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-01T18:21:18Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
         }
       ],
       "issues": [
@@ -447,7 +447,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-04T04:35:15Z",
+      "updated_at": "2026-10-04T16:07:58Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 28,
       "commits": [
@@ -634,13 +634,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca"
+        "sha": "88f708186f685554bd634d33e24e0aa230f92a13",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/88f708186f685554bd634d33e24e0aa230f92a13"
       },
-      "updated_at": "2026-10-04T07:56:00Z",
-      "pushed_at": "2026-10-03T08:02:34Z",
-      "open_issues_count": 1,
+      "updated_at": "2026-10-04T19:52:51Z",
+      "pushed_at": "2026-10-04T19:52:49Z",
+      "open_issues_count": 0,
       "commits": [
+        {
+          "id": "88f708186f685554bd634d33e24e0aa230f92a13",
+          "sha": "88f708186f685554bd634d33e24e0aa230f92a13",
+          "message": "Add a Korean app that starts Microduck training with a few taps (#24)",
+          "author": "joeynyc",
+          "date": "2026-10-04T19:52:47Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/88f708186f685554bd634d33e24e0aa230f92a13"
+        },
         {
           "id": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
           "sha": "58e2c4fb5181caf8d4ab3070162b011dd4fe27ca",
@@ -696,18 +704,20 @@
           "author": "andreagenovese",
           "date": "2026-09-25T12:06:08Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/cf4d3993f4e782d6f47c11c5579e00043f6a935e"
-        },
-        {
-          "id": "d327280312e6ab7bb3d2201b6e402a985384c36e",
-          "sha": "d327280312e6ab7bb3d2201b6e402a985384c36e",
-          "message": "Add the first form submission, the public Academy, and nine more (#14)",
-          "author": "joeynyc",
-          "date": "2026-09-23T05:37:50Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/d327280312e6ab7bb3d2201b6e402a985384c36e"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "24",
+          "number": 24,
+          "title": "Add a Korean app that starts Microduck training with a few taps",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-04T19:52:50Z",
+          "merged_at": "2026-10-04T19:52:47Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/24"
+        },
         {
           "id": "22",
           "number": 22,
@@ -747,16 +757,6 @@
           "updated_at": "2026-09-29T11:08:43Z",
           "merged_at": null,
           "url": "https://github.com/joeynyc/awesome-microduck/pull/19"
-        },
-        {
-          "id": "18",
-          "number": 18,
-          "title": "Add a physical HD1910M prototype and a measured dance policy",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-29T10:58:13Z",
-          "merged_at": "2026-09-29T10:58:10Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/18"
         }
       ],
       "issues": [
@@ -764,8 +764,8 @@
           "id": "23",
           "number": 23,
           "title": "Invitation to share awesome-microduck on GithubStarMate and help more people discover your work",
-          "state": "open",
-          "updated_at": "2026-10-04T06:03:48Z",
+          "state": "closed",
+          "updated_at": "2026-10-04T19:54:20Z",
           "url": "https://github.com/joeynyc/awesome-microduck/issues/23"
         }
       ]
@@ -778,9 +778,9 @@
         "sha": "4f7329183f097baa93af6e21e7e9241fc45bf978",
         "url": "https://github.com/mujocolab/mjlab/commit/4f7329183f097baa93af6e21e7e9241fc45bf978"
       },
-      "updated_at": "2026-10-04T07:18:17Z",
-      "pushed_at": "2026-10-04T09:57:36Z",
-      "open_issues_count": 43,
+      "updated_at": "2026-10-04T21:01:49Z",
+      "pushed_at": "2026-10-04T19:46:24Z",
+      "open_issues_count": 45,
       "commits": [
         {
           "id": "4f7329183f097baa93af6e21e7e9241fc45bf978",
@@ -875,6 +875,16 @@
       ],
       "pulls": [
         {
+          "id": "1209",
+          "number": 1209,
+          "title": "Upgrade MuJoCo and MuJoCo Warp to 3.14.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-04T19:48:24Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1209"
+        },
+        {
           "id": "1207",
           "number": 1207,
           "title": "Evaluate VideoRecorder episode_trigger only at episode start",
@@ -913,16 +923,6 @@
           "updated_at": "2026-10-04T00:08:30Z",
           "merged_at": "2026-10-04T00:08:29Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1201"
-        },
-        {
-          "id": "1203",
-          "number": 1203,
-          "title": "Sample DelayBuffer lags on the first step after creation or reset",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-04T00:01:51Z",
-          "merged_at": "2026-10-04T00:01:51Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1203"
         }
       ],
       "issues": []
@@ -935,7 +935,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-04T11:36:31Z",
+      "updated_at": "2026-10-04T15:09:52Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 9,
       "commits": [
