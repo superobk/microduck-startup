@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T06:26:28Z",
+  "generated_at": "2026-10-06T18:25:23Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5ab0055c7901b8cb78033080aed3da6c1cc54754",
-        "url": "https://github.com/superobk/microduck-startup/commit/5ab0055c7901b8cb78033080aed3da6c1cc54754"
+        "sha": "ffc427fc7062167989c23e054c571665843764d2",
+        "url": "https://github.com/superobk/microduck-startup/commit/ffc427fc7062167989c23e054c571665843764d2"
       },
-      "updated_at": "2026-10-06T00:06:25Z",
-      "pushed_at": "2026-10-06T00:06:19Z",
+      "updated_at": "2026-10-06T06:26:46Z",
+      "pushed_at": "2026-10-06T06:26:42Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "ffc427fc7062167989c23e054c571665843764d2",
+          "sha": "ffc427fc7062167989c23e054c571665843764d2",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-06T06:26:41Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/ffc427fc7062167989c23e054c571665843764d2"
+        },
         {
           "id": "5ab0055c7901b8cb78033080aed3da6c1cc54754",
           "sha": "5ab0055c7901b8cb78033080aed3da6c1cc54754",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-03T21:21:46Z",
           "url": "https://github.com/superobk/microduck-startup/commit/0a2e0a1daf6a8aafbabece73af23bc02b03662ff"
-        },
-        {
-          "id": "a45a929c1815e8de3aec9906037f57ec4d9b7405",
-          "sha": "a45a929c1815e8de3aec9906037f57ec4d9b7405",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-03T16:25:57Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/a45a929c1815e8de3aec9906037f57ec4d9b7405"
         }
       ],
       "releases": [],
@@ -88,166 +88,157 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "8904b65d3628247069f8650d9dada12c67d77fee",
-        "url": "https://github.com/pollen-robotics/microduck/commit/8904b65d3628247069f8650d9dada12c67d77fee"
+        "sha": "7ee6f1e3b065e52639a5554388a24e285fb6f786",
+        "url": "https://github.com/pollen-robotics/microduck/commit/7ee6f1e3b065e52639a5554388a24e285fb6f786"
       },
-      "updated_at": "2026-10-06T03:33:45Z",
-      "pushed_at": "2026-10-05T16:57:32Z",
+      "updated_at": "2026-10-06T18:13:08Z",
+      "pushed_at": "2026-10-06T18:24:36Z",
       "open_issues_count": 29,
       "commits": [
         {
-          "id": "8904b65d3628247069f8650d9dada12c67d77fee",
-          "sha": "8904b65d3628247069f8650d9dada12c67d77fee",
-          "message": "Merge pull request #356 from pollen-robotics/prepare-release-0.15.2",
-          "author": "apirrone",
-          "date": "2026-10-05T13:14:18Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/8904b65d3628247069f8650d9dada12c67d77fee"
+          "id": "7ee6f1e3b065e52639a5554388a24e285fb6f786",
+          "sha": "7ee6f1e3b065e52639a5554388a24e285fb6f786",
+          "message": "Merge pull request #372 from pollen-robotics/pad-disconnect",
+          "author": "Drenayaz",
+          "date": "2026-10-06T18:12:59Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/7ee6f1e3b065e52639a5554388a24e285fb6f786"
         },
         {
-          "id": "a72beaf6d13295d78d3b2d7c64feaa1bad7685d8",
-          "sha": "a72beaf6d13295d78d3b2d7c64feaa1bad7685d8",
-          "message": "Prepare release 0.15.2",
+          "id": "2e6f2c39a1ee6a64881031fd66e3cda7ba411d4f",
+          "sha": "2e6f2c39a1ee6a64881031fd66e3cda7ba411d4f",
+          "message": "Merge pull request #374 from pollen-robotics/beta-camera-rotation",
           "author": "apirrone",
-          "date": "2026-10-05T13:08:16Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/a72beaf6d13295d78d3b2d7c64feaa1bad7685d8"
+          "date": "2026-10-06T17:40:44Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2e6f2c39a1ee6a64881031fd66e3cda7ba411d4f"
         },
         {
-          "id": "16249c54edfdc79c66e75cbcc0108561ac1740f2",
-          "sha": "16249c54edfdc79c66e75cbcc0108561ac1740f2",
-          "message": "Merge pull request #349 from pollen-robotics/pickup-detector",
+          "id": "d83c6eb707810425cc88477698ac6a16e0c529a6",
+          "sha": "d83c6eb707810425cc88477698ac6a16e0c529a6",
+          "message": "mediad: take the camera mount from the board — upright on the beta",
           "author": "apirrone",
-          "date": "2026-10-05T09:56:47Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/16249c54edfdc79c66e75cbcc0108561ac1740f2"
+          "date": "2026-10-06T17:32:37Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/d83c6eb707810425cc88477698ac6a16e0c529a6"
         },
         {
-          "id": "25298b1cf76d9a601d22eeb507017649b36d6064",
-          "sha": "25298b1cf76d9a601d22eeb507017649b36d6064",
-          "message": "pickup: report being picked up as a state, not a policy",
+          "id": "3b27fb075d2993016e0e4ca2d604d37c863e60b6",
+          "sha": "3b27fb075d2993016e0e4ca2d604d37c863e60b6",
+          "message": "Merge pull request #373 from pollen-robotics/monitor-battery-mesh",
           "author": "apirrone",
-          "date": "2026-10-03T21:32:05Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/25298b1cf76d9a601d22eeb507017649b36d6064"
+          "date": "2026-10-06T17:21:04Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/3b27fb075d2993016e0e4ca2d604d37c863e60b6"
         },
         {
-          "id": "9c8a03a66603bb915f8ed97b8fae8db382bbf6c9",
-          "sha": "9c8a03a66603bb915f8ed97b8fae8db382bbf6c9",
-          "message": "pickup: on by default",
+          "id": "a71387476a605f3c46073eebc6f1a6c413b09ebe",
+          "sha": "a71387476a605f3c46073eebc6f1a6c413b09ebe",
+          "message": "robotctl: draw the battery black, as it is",
           "author": "apirrone",
-          "date": "2026-10-03T21:20:13Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/9c8a03a66603bb915f8ed97b8fae8db382bbf6c9"
+          "date": "2026-10-06T17:17:19Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/a71387476a605f3c46073eebc6f1a6c413b09ebe"
         },
         {
-          "id": "c74038eab8c384aa25611e467ad4d325330264aa",
-          "sha": "c74038eab8c384aa25611e467ad4d325330264aa",
-          "message": "Merge remote-tracking branch 'origin/main' into pickup-detector",
+          "id": "6201412cb78dfff96a7c6f0a58088118a60ebe4d",
+          "sha": "6201412cb78dfff96a7c6f0a58088118a60ebe4d",
+          "message": "robotctl: draw the battery in the monitor's 3D view",
           "author": "apirrone",
-          "date": "2026-10-03T21:17:54Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/c74038eab8c384aa25611e467ad4d325330264aa"
+          "date": "2026-10-06T17:15:41Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/6201412cb78dfff96a7c6f0a58088118a60ebe4d"
         },
         {
-          "id": "620affc9d1ae775051677919ed29b71885e16752",
-          "sha": "620affc9d1ae775051677919ed29b71885e16752",
-          "message": "pickup: v2 model — head grips, any orientation, 180° turns; a third the size",
-          "author": "apirrone",
-          "date": "2026-10-03T21:10:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/620affc9d1ae775051677919ed29b71885e16752"
+          "id": "b450ea8600d271c10276f7cb3de5b3f2379d53ac",
+          "sha": "b450ea8600d271c10276f7cb3de5b3f2379d53ac",
+          "message": "Merge origin/main into pad-disconnect",
+          "author": "Drenayaz",
+          "date": "2026-10-06T16:56:25Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/b450ea8600d271c10276f7cb3de5b3f2379d53ac"
         },
         {
-          "id": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
-          "sha": "9136aa4ee88e81edf2bcaf3527e90b65da25f1eb",
-          "message": "Merge pull request #347 from pollen-robotics/shutdown-rest-pose",
-          "author": "apirrone",
-          "date": "2026-10-03T20:09:57Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/9136aa4ee88e81edf2bcaf3527e90b65da25f1eb"
+          "id": "2fcd1528b65a1a19d0aacc0a9f481cf26a65c04c",
+          "sha": "2fcd1528b65a1a19d0aacc0a9f481cf26a65c04c",
+          "message": "robotd: idle look-around starts after 2 s and reaches a little further",
+          "author": "Drenayaz",
+          "date": "2026-10-06T16:38:49Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2fcd1528b65a1a19d0aacc0a9f481cf26a65c04c"
         }
       ],
       "releases": [
         {
-          "id": "403731150",
-          "tag": "daemon-v0.15.2",
-          "name": "daemon 0.15.2",
-          "published_at": "2026-10-05T13:15:40Z",
+          "id": "404700527",
+          "tag": "daemon-v0.16.0",
+          "name": "daemon 0.16.0",
+          "published_at": "2026-10-06T12:50:26Z",
           "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.15.2"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.16.0"
         },
         {
-          "id": "403681146",
-          "tag": "daemon-dev-msrv-yocto-ceiling",
-          "name": "daemon 0.15.1-dev.1200.90bffec (msrv-yocto-ceiling)",
-          "published_at": "2026-10-05T12:19:00Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-msrv-yocto-ceiling"
+          "id": "404598000",
+          "tag": "daemon-v0.15.3",
+          "name": "daemon 0.15.3",
+          "published_at": "2026-10-06T10:48:51Z",
+          "prerelease": false,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.15.3"
         },
         {
-          "id": "403733368",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.15.2-dev.1204.8904b65 (main)",
-          "published_at": "2026-10-05T13:18:04Z",
+          "id": "405019001",
+          "tag": "daemon-dev-webrtc-drive",
+          "name": "daemon 0.16.0-dev.1268.e7f8002 (webrtc-drive)",
+          "published_at": "2026-10-06T18:20:37Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-webrtc-drive"
         }
       ],
       "pulls": [
         {
-          "id": "346",
-          "number": 346,
-          "title": "feat(tof): add opt-in BMI088 data-ready timestamps",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-06T02:11:11Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/346"
-        },
-        {
-          "id": "352",
-          "number": 352,
-          "title": "fix(policies): retry incomplete seeds at the same revision",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-06T02:10:41Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/352"
-        },
-        {
-          "id": "359",
-          "number": 359,
-          "title": "padd: an Xbox pad on firmware 5.23 has no right stick or triggers",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-06T01:54:20Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/359"
-        },
-        {
-          "id": "358",
-          "number": 358,
-          "title": "Beta board support: Yocto's Rust ceiling, ALSA default fallback, robotctl led",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-05T16:40:52Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/358"
-        },
-        {
-          "id": "355",
-          "number": 355,
-          "title": "robotctl led: list, switch, blink and trigger the face board's LEDs",
+          "id": "372",
+          "number": 372,
+          "title": "Sit the robot down when the pad drops out, and let it look around when idle",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-05T16:38:11Z",
+          "updated_at": "2026-10-06T18:13:01Z",
+          "merged_at": "2026-10-06T18:12:59Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/372"
+        },
+        {
+          "id": "374",
+          "number": 374,
+          "title": "mediad: take the camera mount from the board — upright on the beta",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-06T17:40:47Z",
+          "merged_at": "2026-10-06T17:40:45Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/374"
+        },
+        {
+          "id": "373",
+          "number": 373,
+          "title": "robotctl: draw the battery in the monitor's 3D view",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-06T17:23:24Z",
+          "merged_at": "2026-10-06T17:21:05Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/373"
+        },
+        {
+          "id": "371",
+          "number": 371,
+          "title": "Name a silent IMU board instead of reporting no robot",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-06T15:49:17Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/355"
+          "url": "https://github.com/pollen-robotics/microduck/pull/371"
+        },
+        {
+          "id": "370",
+          "number": 370,
+          "title": "fix(robotd): complete twist stops with a zero command",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-06T15:11:20Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/370"
         }
       ],
-      "issues": [
-        {
-          "id": "351",
-          "number": 351,
-          "title": "robot.safeToRestart says \"the robot is walking\" for about 33 s after the robot stops",
-          "state": "open",
-          "updated_at": "2026-10-06T02:38:16Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/351"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -257,8 +248,8 @@
         "sha": "273afe0b31c4ab365b9ff806a927b63ac92b5ddd",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/273afe0b31c4ab365b9ff806a927b63ac92b5ddd"
       },
-      "updated_at": "2026-10-06T03:59:41Z",
-      "pushed_at": "2026-10-05T16:18:36Z",
+      "updated_at": "2026-10-06T13:42:05Z",
+      "pushed_at": "2026-10-06T16:11:21Z",
       "open_issues_count": 47,
       "commits": [
         {
@@ -439,7 +430,7 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-06T03:44:23Z",
+      "updated_at": "2026-10-06T14:41:08Z",
       "pushed_at": "2026-10-01T03:28:42Z",
       "open_issues_count": 28,
       "commits": [
@@ -761,9 +752,9 @@
         "sha": "bd37751b15af90863c5a84cbbc24653a4edd985c",
         "url": "https://github.com/mujocolab/mjlab/commit/bd37751b15af90863c5a84cbbc24653a4edd985c"
       },
-      "updated_at": "2026-10-06T05:44:50Z",
-      "pushed_at": "2026-10-06T05:49:16Z",
-      "open_issues_count": 47,
+      "updated_at": "2026-10-06T17:41:02Z",
+      "pushed_at": "2026-10-06T09:52:07Z",
+      "open_issues_count": 51,
       "commits": [
         {
           "id": "bd37751b15af90863c5a84cbbc24653a4edd985c",
@@ -858,6 +849,16 @@
       ],
       "pulls": [
         {
+          "id": "1218",
+          "number": 1218,
+          "title": "Preserve actuator delay state across partial resets",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-06T09:17:35Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1218"
+        },
+        {
           "id": "1194",
           "number": 1194,
           "title": "Add Python 3.14 support and move to torch 2.14 with CUDA 13.",
@@ -896,16 +897,6 @@
           "updated_at": "2026-10-05T17:36:34Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1211"
-        },
-        {
-          "id": "1210",
-          "number": 1210,
-          "title": "Fix actuator subset selection in domain randomization",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-04T22:29:21Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1210"
         }
       ],
       "issues": []
@@ -918,7 +909,7 @@
         "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
       },
-      "updated_at": "2026-10-05T09:11:37Z",
+      "updated_at": "2026-10-06T11:07:33Z",
       "pushed_at": "2026-09-09T11:38:40Z",
       "open_issues_count": 9,
       "commits": [
