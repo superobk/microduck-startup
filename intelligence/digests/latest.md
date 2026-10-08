@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-08T13:36:26Z`
+Generated: `2026-10-08T23:23:41Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,32 +8,36 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `2f679288f6e4` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/2f679288f6e49301b9f91e9fd7851e2fc13c63e4)
+- Commit `14b9d10b320b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/14b9d10b320b4180cc28ac132d4d9b0cd96f2d6d)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.16.1-dev.1291.ba3ac7c (roller-config)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-config) (prerelease)
+- Release [daemon 0.16.1-dev.1295.c1937fc (maploc-v2)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2) (prerelease)
+- Release [daemon 0.16.1-dev.1299.b477f46 (codex/controller-config-ui)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/controller-config-ui) (prerelease)
+- PR #383 [Add configurable controller modes and a console editor](https://github.com/pollen-robotics/microduck/pull/383) — open
+- PR #382 [Make gamepad axes and command limits configurable](https://github.com/pollen-robotics/microduck/pull/382) — open
 
-### joeynyc/awesome-microduck
+### fanhao375/microduck-replica
 
-- Commit `a3292a3c047b` [Add a Looking Glass viewer and a Jetson Orin Nano mount (#27)](https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013)
-- PR #27 [Add a Looking Glass viewer and a Jetson Orin Nano mount](https://github.com/joeynyc/awesome-microduck/pull/27) — closed
+- Commit `019b8c54f8a2` [docs: recommend kissqy training workflow and community project](https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5)
 
 ### leggedrobotics/rsl_rl
 
-- Commit `6513c3fe5824` [Modify the workflows and docs to support the new extras branch (#242)](https://github.com/leggedrobotics/rsl_rl/commit/6513c3fe5824975392d4236702c79fe31fc33b07)
-- PR #227 [Feature/flashsac integration](https://github.com/leggedrobotics/rsl_rl/pull/227) — open
+- Commit `72c895667787` [Resume RND exploration schedules from PPO checkpoints (#240)](https://github.com/leggedrobotics/rsl_rl/commit/72c895667787421e44dcf38fb2ca2859e18b711d)
+- Commit `32d29bba520e` [Keep discounted reward history independent of caller storage (#239)](https://github.com/leggedrobotics/rsl_rl/commit/32d29bba520e2b2efadba7ddb6dc6bdfed3fd087)
+- PR #235 [docs: clarify VecEnv observation buffer lifetime](https://github.com/leggedrobotics/rsl_rl/pull/235) — open
+- PR #239 [Keep discounted reward history independent of caller storage](https://github.com/leggedrobotics/rsl_rl/pull/239) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [2f679288f6e4](https://github.com/superobk/microduck-startup/commit/2f679288f6e49301b9f91e9fd7851e2fc13c63e4); pushed `2026-10-08T06:11:22Z`
-- **pollen-robotics/microduck** `main` → [dec725c67ffb](https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e); pushed `2026-10-08T13:22:10Z`
-- **pollen-robotics/microduck_rl** `develop` → [273afe0b31c4](https://github.com/pollen-robotics/microduck_rl/commit/273afe0b31c4ab365b9ff806a927b63ac92b5ddd); pushed `2026-10-08T11:15:58Z`
+- **superobk/microduck-startup** `main` → [14b9d10b320b](https://github.com/superobk/microduck-startup/commit/14b9d10b320b4180cc28ac132d4d9b0cd96f2d6d); pushed `2026-10-08T13:36:42Z`
+- **pollen-robotics/microduck** `main` → [dec725c67ffb](https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e); pushed `2026-10-08T23:14:19Z`
+- **pollen-robotics/microduck_rl** `develop` → [273afe0b31c4](https://github.com/pollen-robotics/microduck_rl/commit/273afe0b31c4ab365b9ff806a927b63ac92b5ddd); pushed `2026-10-08T17:13:03Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [b5381d86b68d](https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc); pushed `2026-10-01T03:28:42Z`
+- **fanhao375/microduck-replica** `master` → [019b8c54f8a2](https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5); pushed `2026-10-08T15:49:28Z`
 - **joeynyc/awesome-microduck** `main` → [a3292a3c047b](https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013); pushed `2026-10-08T11:07:51Z`
 - **mujocolab/mjlab** `main` → [033ae22a2c7a](https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55); pushed `2026-10-08T09:58:36Z`
-- **leggedrobotics/rsl_rl** `main` → [6513c3fe5824](https://github.com/leggedrobotics/rsl_rl/commit/6513c3fe5824975392d4236702c79fe31fc33b07); pushed `2026-10-08T10:31:55Z`
+- **leggedrobotics/rsl_rl** `main` → [72c895667787](https://github.com/leggedrobotics/rsl_rl/commit/72c895667787421e44dcf38fb2ca2859e18b711d); pushed `2026-10-08T14:51:47Z`
 
 ## Social feeds
 
