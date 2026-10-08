@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T06:11:00Z",
+  "generated_at": "2026-10-08T13:36:26Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "01d6c9910e828889e30cdadcc2c9c17fe1a68675",
-        "url": "https://github.com/superobk/microduck-startup/commit/01d6c9910e828889e30cdadcc2c9c17fe1a68675"
+        "sha": "2f679288f6e49301b9f91e9fd7851e2fc13c63e4",
+        "url": "https://github.com/superobk/microduck-startup/commit/2f679288f6e49301b9f91e9fd7851e2fc13c63e4"
       },
-      "updated_at": "2026-10-07T23:08:31Z",
-      "pushed_at": "2026-10-07T23:08:23Z",
+      "updated_at": "2026-10-08T06:11:27Z",
+      "pushed_at": "2026-10-08T06:11:22Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2f679288f6e49301b9f91e9fd7851e2fc13c63e4",
+          "sha": "2f679288f6e49301b9f91e9fd7851e2fc13c63e4",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-08T06:11:20Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2f679288f6e49301b9f91e9fd7851e2fc13c63e4"
+        },
         {
           "id": "01d6c9910e828889e30cdadcc2c9c17fe1a68675",
           "sha": "01d6c9910e828889e30cdadcc2c9c17fe1a68675",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-05T14:47:54Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ac15fa7f59514af2682ce2972d0b9b7d955815c5"
-        },
-        {
-          "id": "6f9a9cfd14ee7de6800fefcfd680adac13129df1",
-          "sha": "6f9a9cfd14ee7de6800fefcfd680adac13129df1",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-05T05:47:31Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/6f9a9cfd14ee7de6800fefcfd680adac13129df1"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-08T05:54:03Z",
-      "pushed_at": "2026-10-07T14:23:28Z",
+      "updated_at": "2026-10-08T12:59:42Z",
+      "pushed_at": "2026-10-08T13:22:10Z",
       "open_issues_count": 28,
       "commits": [
         {
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "406853944",
+          "tag": "daemon-dev-roller-config",
+          "name": "daemon 0.16.1-dev.1291.ba3ac7c (roller-config)",
+          "published_at": "2026-10-08T13:22:10Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-config"
+        },
+        {
           "id": "405635365",
           "tag": "daemon-v0.16.1",
           "name": "daemon 0.16.1",
@@ -176,14 +184,6 @@
           "published_at": "2026-10-07T14:23:28Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-udp-pad"
-        },
-        {
-          "id": "405753320",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.16.1-dev.1288.dec725c (main)",
-          "published_at": "2026-10-07T12:43:51Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         }
       ],
       "pulls": [
@@ -248,8 +248,8 @@
         "sha": "273afe0b31c4ab365b9ff806a927b63ac92b5ddd",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/273afe0b31c4ab365b9ff806a927b63ac92b5ddd"
       },
-      "updated_at": "2026-10-08T03:21:37Z",
-      "pushed_at": "2026-10-07T17:18:32Z",
+      "updated_at": "2026-10-08T11:40:48Z",
+      "pushed_at": "2026-10-08T11:15:58Z",
       "open_issues_count": 48,
       "commits": [
         {
@@ -374,9 +374,9 @@
         {
           "id": "72",
           "number": 72,
-          "title": "Why is this so fast to train?  How is so trainable?",
+          "title": "empty",
           "state": "open",
-          "updated_at": "2026-10-06T23:53:01Z",
+          "updated_at": "2026-10-08T12:41:29Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/72"
         },
         {
@@ -438,9 +438,9 @@
         "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
         "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
       },
-      "updated_at": "2026-10-08T05:40:30Z",
+      "updated_at": "2026-10-08T12:56:35Z",
       "pushed_at": "2026-10-01T03:28:42Z",
-      "open_issues_count": 29,
+      "open_issues_count": 32,
       "commits": [
         {
           "id": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
@@ -587,36 +587,44 @@
       ],
       "issues": [
         {
+          "id": "40",
+          "number": 40,
+          "title": "二维码过期了",
+          "state": "open",
+          "updated_at": "2026-10-08T13:01:48Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/40"
+        },
+        {
+          "id": "39",
+          "number": 39,
+          "title": "群满了求拉，微信号zfshen_wx",
+          "state": "open",
+          "updated_at": "2026-10-08T11:16:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/39"
+        },
+        {
+          "id": "38",
+          "number": 38,
+          "title": "拼团在哪？",
+          "state": "open",
+          "updated_at": "2026-10-08T08:11:01Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/38"
+        },
+        {
+          "id": "26",
+          "number": 26,
+          "title": "群聊 Group chat",
+          "state": "open",
+          "updated_at": "2026-10-08T08:00:06Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/26"
+        },
+        {
           "id": "37",
           "number": 37,
           "title": "微信求拉 我的微信号18217066464",
           "state": "open",
           "updated_at": "2026-10-08T03:35:19Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/37"
-        },
-        {
-          "id": "5",
-          "number": 5,
-          "title": "pcb不是问题",
-          "state": "open",
-          "updated_at": "2026-10-03T17:51:10Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/5"
-        },
-        {
-          "id": "4",
-          "number": 4,
-          "title": "哥们的背景很复合啊，动作真快",
-          "state": "open",
-          "updated_at": "2026-10-03T17:50:45Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/4"
-        },
-        {
-          "id": "2",
-          "number": 2,
-          "title": "有没有全套的教程",
-          "state": "open",
-          "updated_at": "2026-10-03T17:50:13Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/2"
         }
       ]
     },
@@ -625,13 +633,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "eac31890b7a5b8d3d826aee0b86b7fe499dc8397",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/eac31890b7a5b8d3d826aee0b86b7fe499dc8397"
+        "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
       },
-      "updated_at": "2026-10-07T21:46:57Z",
-      "pushed_at": "2026-10-07T20:48:51Z",
+      "updated_at": "2026-10-08T12:13:45Z",
+      "pushed_at": "2026-10-08T11:07:51Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
+          "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
+          "message": "Add a Looking Glass viewer and a Jetson Orin Nano mount (#27)",
+          "author": "joeynyc",
+          "date": "2026-10-08T11:07:49Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
+        },
         {
           "id": "eac31890b7a5b8d3d826aee0b86b7fe499dc8397",
           "sha": "eac31890b7a5b8d3d826aee0b86b7fe499dc8397",
@@ -687,18 +703,20 @@
           "author": "joeynyc",
           "date": "2026-09-29T10:58:10Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/1977fa1a62fcfeaea011a9b7eb6d81c4229abddc"
-        },
-        {
-          "id": "420648125fba0eabef02dd9345543843981f2afe",
-          "sha": "420648125fba0eabef02dd9345543843981f2afe",
-          "message": "Add Pollen's Arena reference policies, a fuller twin and seven more (#17)",
-          "author": "joeynyc",
-          "date": "2026-09-28T11:14:42Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/420648125fba0eabef02dd9345543843981f2afe"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "27",
+          "number": 27,
+          "title": "Add a Looking Glass viewer and a Jetson Orin Nano mount",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-08T11:07:52Z",
+          "merged_at": "2026-10-08T11:07:50Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/27"
+        },
         {
           "id": "26",
           "number": 26,
@@ -738,16 +756,6 @@
           "updated_at": "2026-10-03T08:02:35Z",
           "merged_at": "2026-10-03T08:02:33Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/22"
-        },
-        {
-          "id": "21",
-          "number": 21,
-          "title": "Add quack-control",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-03T08:01:06Z",
-          "merged_at": "2026-10-03T08:01:05Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/21"
         }
       ],
       "issues": []
@@ -760,8 +768,8 @@
         "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
         "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
       },
-      "updated_at": "2026-10-08T05:51:19Z",
-      "pushed_at": "2026-10-08T04:59:21Z",
+      "updated_at": "2026-10-08T07:43:18Z",
+      "pushed_at": "2026-10-08T09:58:36Z",
       "open_issues_count": 52,
       "commits": [
         {
@@ -914,13 +922,21 @@
       "role": "PPO runner and algorithms",
       "branch": "main",
       "head": {
-        "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
-        "url": "https://github.com/leggedrobotics/rsl_rl/commit/857de6165c5fd479726ec8ac5c9303a497766f30"
+        "sha": "6513c3fe5824975392d4236702c79fe31fc33b07",
+        "url": "https://github.com/leggedrobotics/rsl_rl/commit/6513c3fe5824975392d4236702c79fe31fc33b07"
       },
-      "updated_at": "2026-10-08T03:39:30Z",
-      "pushed_at": "2026-09-09T11:38:40Z",
+      "updated_at": "2026-10-08T09:53:25Z",
+      "pushed_at": "2026-10-08T10:31:55Z",
       "open_issues_count": 12,
       "commits": [
+        {
+          "id": "6513c3fe5824975392d4236702c79fe31fc33b07",
+          "sha": "6513c3fe5824975392d4236702c79fe31fc33b07",
+          "message": "Modify the workflows and docs to support the new extras branch (#242)",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-08T09:53:18Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/6513c3fe5824975392d4236702c79fe31fc33b07"
+        },
         {
           "id": "857de6165c5fd479726ec8ac5c9303a497766f30",
           "sha": "857de6165c5fd479726ec8ac5c9303a497766f30",
@@ -976,14 +992,6 @@
           "author": "NeoZng",
           "date": "2026-08-26T14:46:55Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/commit/9965512d2c259bd7958847ef5c2c29575d05389e"
-        },
-        {
-          "id": "edacc38bea0ae36c7b533ce2c4076c6618201a83",
-          "sha": "edacc38bea0ae36c7b533ce2c4076c6618201a83",
-          "message": "Synchronize normalization statistics across GPUs (#226)",
-          "author": "NeoZng",
-          "date": "2026-08-26T14:15:59Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/commit/edacc38bea0ae36c7b533ce2c4076c6618201a83"
         }
       ],
       "releases": [
@@ -1014,44 +1022,34 @@
       ],
       "pulls": [
         {
-          "id": "236",
-          "number": 236,
-          "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-08T01:53:47Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
-        },
-        {
-          "id": "241",
-          "number": 241,
-          "title": "Add a strictly equivariant model for symmetry-aware RL",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-07T23:58:25Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/241"
-        },
-        {
           "id": "240",
           "number": 240,
           "title": "Resume RND exploration schedules from PPO checkpoints",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-07T02:40:18Z",
+          "updated_at": "2026-10-08T12:30:42Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/240"
         },
         {
-          "id": "239",
-          "number": 239,
-          "title": "Keep discounted reward history independent of caller storage",
+          "id": "227",
+          "number": 227,
+          "title": "Feature/flashsac integration",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-07T02:40:01Z",
+          "updated_at": "2026-10-08T11:57:45Z",
           "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/239"
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/227"
+        },
+        {
+          "id": "236",
+          "number": 236,
+          "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-08T11:47:35Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
         },
         {
           "id": "238",
@@ -1059,9 +1057,19 @@
           "title": "Detect infinite values in environment outputs",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-04T11:56:27Z",
+          "updated_at": "2026-10-08T11:46:34Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
+        },
+        {
+          "id": "241",
+          "number": 241,
+          "title": "Add a strictly equivariant model for symmetry-aware RL",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-08T11:44:39Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/241"
         }
       ],
       "issues": []
