@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T13:26:25Z",
+  "generated_at": "2026-10-09T22:41:43Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
-        "url": "https://github.com/superobk/microduck-startup/commit/696765f81484cd9d80c81d5d14ce2dc25ec4b09a"
+        "sha": "a5fa69ffbe7a49d9c9441a254cb149d08b469511",
+        "url": "https://github.com/superobk/microduck-startup/commit/a5fa69ffbe7a49d9c9441a254cb149d08b469511"
       },
-      "updated_at": "2026-10-09T06:14:35Z",
-      "pushed_at": "2026-10-09T06:14:31Z",
+      "updated_at": "2026-10-09T13:26:45Z",
+      "pushed_at": "2026-10-09T13:26:40Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a5fa69ffbe7a49d9c9441a254cb149d08b469511",
+          "sha": "a5fa69ffbe7a49d9c9441a254cb149d08b469511",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-09T13:26:38Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/a5fa69ffbe7a49d9c9441a254cb149d08b469511"
+        },
         {
           "id": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
           "sha": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-07T06:05:44Z",
           "url": "https://github.com/superobk/microduck-startup/commit/d9ab3c84f981aea16bc347a0fab868af1970def2"
-        },
-        {
-          "id": "5966f633364a040373a1acd71b010de7508c6408",
-          "sha": "5966f633364a040373a1acd71b010de7508c6408",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-06T18:25:35Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5966f633364a040373a1acd71b010de7508c6408"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-09T12:28:17Z",
-      "pushed_at": "2026-10-09T10:24:41Z",
-      "open_issues_count": 30,
+      "updated_at": "2026-10-09T21:44:58Z",
+      "pushed_at": "2026-10-09T15:19:16Z",
+      "open_issues_count": 31,
       "commits": [
         {
           "id": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "408041364",
+          "tag": "daemon-dev-play-emotions",
+          "name": "daemon 0.16.1-dev.1301.9bcdc89 (play-emotions)",
+          "published_at": "2026-10-09T15:19:16Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-play-emotions"
+        },
+        {
           "id": "406853944",
           "tag": "daemon-dev-roller-config",
           "name": "daemon 0.16.1-dev.1291.ba3ac7c (roller-config)",
@@ -176,17 +184,19 @@
           "published_at": "2026-10-08T15:01:17Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2"
-        },
-        {
-          "id": "407335108",
-          "tag": "daemon-dev-codex/controller-config-ui",
-          "name": "daemon 0.16.1-dev.1299.b477f46 (codex/controller-config-ui)",
-          "published_at": "2026-10-08T23:14:20Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/controller-config-ui"
         }
       ],
       "pulls": [
+        {
+          "id": "384",
+          "number": 384,
+          "title": "robotd: play emotions as skills (robot.do sad)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-09T16:50:56Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/384"
+        },
         {
           "id": "346",
           "number": 346,
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-08T19:09:20Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/382"
-        },
-        {
-          "id": "381",
-          "number": 381,
-          "title": "A design document for the autonomous brain: one client, built on prediction, above the shipped policies",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-08T17:44:35Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/381"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "ceca01706143d729305baa94cbd8ab990979e325",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-09T13:03:53Z",
+      "updated_at": "2026-10-09T19:51:26Z",
       "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 48,
       "commits": [
@@ -438,7 +438,7 @@
         "sha": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
         "url": "https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5"
       },
-      "updated_at": "2026-10-09T12:03:26Z",
+      "updated_at": "2026-10-09T21:33:19Z",
       "pushed_at": "2026-10-08T15:49:28Z",
       "open_issues_count": 35,
       "commits": [
@@ -636,7 +636,7 @@
         "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
       },
-      "updated_at": "2026-10-09T04:01:50Z",
+      "updated_at": "2026-10-09T22:17:11Z",
       "pushed_at": "2026-10-08T11:07:51Z",
       "open_issues_count": 0,
       "commits": [
@@ -768,7 +768,7 @@
         "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
         "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
       },
-      "updated_at": "2026-10-09T12:17:47Z",
+      "updated_at": "2026-10-09T14:11:33Z",
       "pushed_at": "2026-10-09T09:59:33Z",
       "open_issues_count": 54,
       "commits": [
@@ -865,6 +865,16 @@
       ],
       "pulls": [
         {
+          "id": "1224",
+          "number": 1224,
+          "title": "Heat bench actuator health",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-09T17:59:04Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1224"
+        },
+        {
           "id": "1220",
           "number": 1220,
           "title": "Mpc stage1",
@@ -903,16 +913,6 @@
           "updated_at": "2026-10-06T05:52:03Z",
           "merged_at": "2026-09-27T21:23:20Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1194"
-        },
-        {
-          "id": "1215",
-          "number": 1215,
-          "title": "Apply standing, heading and world-frame rules before init_velocity_prob",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-06T05:44:49Z",
-          "merged_at": "2026-10-06T05:44:46Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1215"
         }
       ],
       "issues": []
@@ -922,13 +922,21 @@
       "role": "PPO runner and algorithms",
       "branch": "main",
       "head": {
-        "sha": "72c895667787421e44dcf38fb2ca2859e18b711d",
-        "url": "https://github.com/leggedrobotics/rsl_rl/commit/72c895667787421e44dcf38fb2ca2859e18b711d"
+        "sha": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+        "url": "https://github.com/leggedrobotics/rsl_rl/commit/a11f6792f11b17cc76f05be2273c7b8a84095e93"
       },
-      "updated_at": "2026-10-08T14:51:55Z",
-      "pushed_at": "2026-10-08T14:51:47Z",
-      "open_issues_count": 10,
+      "updated_at": "2026-10-09T15:45:09Z",
+      "pushed_at": "2026-10-09T15:45:03Z",
+      "open_issues_count": 8,
       "commits": [
+        {
+          "id": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+          "sha": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+          "message": "Clarify VecEnv observation buffer lifetime (#235)",
+          "author": "Mikasa0503",
+          "date": "2026-10-09T15:45:03Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/a11f6792f11b17cc76f05be2273c7b8a84095e93"
+        },
         {
           "id": "72c895667787421e44dcf38fb2ca2859e18b711d",
           "sha": "72c895667787421e44dcf38fb2ca2859e18b711d",
@@ -984,14 +992,6 @@
           "author": "k1000dai",
           "date": "2026-08-28T11:53:15Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/commit/fe28cb03439d8e5ec335ecb9b0c945294db6001b"
-        },
-        {
-          "id": "89869d8ccbc560d365026fb0cb127f93cbb3fb28",
-          "sha": "89869d8ccbc560d365026fb0cb127f93cbb3fb28",
-          "message": "Bump version to 5.5.0",
-          "author": "ClemensSchwarke",
-          "date": "2026-08-27T07:12:53Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/commit/89869d8ccbc560d365026fb0cb127f93cbb3fb28"
         }
       ],
       "releases": [
@@ -1027,7 +1027,7 @@
           "title": "Add a strictly equivariant model for symmetry-aware RL",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-09T01:48:07Z",
+          "updated_at": "2026-10-09T16:12:15Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/241"
         },
@@ -1035,11 +1035,31 @@
           "id": "235",
           "number": 235,
           "title": "docs: clarify VecEnv observation buffer lifetime",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-09T15:45:04Z",
+          "merged_at": "2026-10-09T15:45:04Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/235"
+        },
+        {
+          "id": "238",
+          "number": 238,
+          "title": "Detect infinite values in environment outputs",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-08T15:36:01Z",
+          "updated_at": "2026-10-09T15:29:21Z",
           "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/235"
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
+        },
+        {
+          "id": "244",
+          "number": 244,
+          "title": "fix(storage): retain rollout remainders in mini-batch generators",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-09T15:13:13Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/244"
         },
         {
           "id": "240",
@@ -1050,26 +1070,6 @@
           "updated_at": "2026-10-08T14:51:48Z",
           "merged_at": "2026-10-08T14:51:48Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/240"
-        },
-        {
-          "id": "238",
-          "number": 238,
-          "title": "Detect infinite values in environment outputs",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-08T14:47:03Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
-        },
-        {
-          "id": "239",
-          "number": 239,
-          "title": "Keep discounted reward history independent of caller storage",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-08T14:44:23Z",
-          "merged_at": "2026-10-08T14:44:23Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/239"
         }
       ],
       "issues": []
