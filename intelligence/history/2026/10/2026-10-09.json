@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T06:14:18Z",
+  "generated_at": "2026-10-09T13:26:25Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5f312ec00191546bb87d0f9d21e04d4410ce8dc2",
-        "url": "https://github.com/superobk/microduck-startup/commit/5f312ec00191546bb87d0f9d21e04d4410ce8dc2"
+        "sha": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
+        "url": "https://github.com/superobk/microduck-startup/commit/696765f81484cd9d80c81d5d14ce2dc25ec4b09a"
       },
-      "updated_at": "2026-10-08T23:23:59Z",
-      "pushed_at": "2026-10-08T23:23:55Z",
+      "updated_at": "2026-10-09T06:14:35Z",
+      "pushed_at": "2026-10-09T06:14:31Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
+          "sha": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-09T06:14:30Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/696765f81484cd9d80c81d5d14ce2dc25ec4b09a"
+        },
         {
           "id": "5f312ec00191546bb87d0f9d21e04d4410ce8dc2",
           "sha": "5f312ec00191546bb87d0f9d21e04d4410ce8dc2",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-06T18:25:35Z",
           "url": "https://github.com/superobk/microduck-startup/commit/5966f633364a040373a1acd71b010de7508c6408"
-        },
-        {
-          "id": "ffc427fc7062167989c23e054c571665843764d2",
-          "sha": "ffc427fc7062167989c23e054c571665843764d2",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-06T06:26:41Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/ffc427fc7062167989c23e054c571665843764d2"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-09T06:01:19Z",
-      "pushed_at": "2026-10-08T23:14:19Z",
+      "updated_at": "2026-10-09T12:28:17Z",
+      "pushed_at": "2026-10-09T10:24:41Z",
       "open_issues_count": 30,
       "commits": [
         {
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "346",
+          "number": 346,
+          "title": "feat(tof): add opt-in BMI088 data-ready timestamps",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-09T06:42:52Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/346"
+        },
+        {
+          "id": "359",
+          "number": 359,
+          "title": "padd: an Xbox pad on firmware 5.23 has no right stick or triggers",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-09T06:20:04Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/359"
+        },
+        {
           "id": "383",
           "number": 383,
           "title": "Add configurable controller modes and a console editor",
@@ -216,26 +236,6 @@
           "updated_at": "2026-10-08T17:44:35Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/381"
-        },
-        {
-          "id": "338",
-          "number": 338,
-          "title": "fix(tofd): prevent socket leaks and log storms after sensor loss",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-08T02:24:23Z",
-          "merged_at": "2026-10-01T12:09:01Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/338"
-        },
-        {
-          "id": "380",
-          "number": 380,
-          "title": "Add duckctl quack",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-07T12:39:24Z",
-          "merged_at": "2026-10-07T12:39:21Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/380"
         }
       ],
       "issues": []
@@ -245,13 +245,29 @@
       "role": "official PPO and MuJoCo training",
       "branch": "develop",
       "head": {
-        "sha": "273afe0b31c4ab365b9ff806a927b63ac92b5ddd",
-        "url": "https://github.com/pollen-robotics/microduck_rl/commit/273afe0b31c4ab365b9ff806a927b63ac92b5ddd"
+        "sha": "ceca01706143d729305baa94cbd8ab990979e325",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-09T06:13:40Z",
-      "pushed_at": "2026-10-08T17:13:03Z",
+      "updated_at": "2026-10-09T13:03:53Z",
+      "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 48,
       "commits": [
+        {
+          "id": "ceca01706143d729305baa94cbd8ab990979e325",
+          "sha": "ceca01706143d729305baa94cbd8ab990979e325",
+          "message": "Merge pull request #73 from pollen-robotics/fix/license",
+          "author": "darkseed",
+          "date": "2026-10-09T10:08:42Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
+        },
+        {
+          "id": "7cc1961674f78d4fca7064fde715e0c9bcd7b9c4",
+          "sha": "7cc1961674f78d4fca7064fde715e0c9bcd7b9c4",
+          "message": "License: pin 3D model files to CC BY-NC-SA 4.0 and scope it",
+          "author": "darkseed",
+          "date": "2026-10-09T09:47:08Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/7cc1961674f78d4fca7064fde715e0c9bcd7b9c4"
+        },
         {
           "id": "273afe0b31c4ab365b9ff806a927b63ac92b5ddd",
           "sha": "273afe0b31c4ab365b9ff806a927b63ac92b5ddd",
@@ -299,26 +315,20 @@
           "author": "apirrone",
           "date": "2026-10-03T19:05:38Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/commit/ee052e61c64d31b1b3376af1c5881006bf8a7bb2"
-        },
-        {
-          "id": "4048a3ea14bfa040ec24b57aa0baab8a798cb705",
-          "sha": "4048a3ea14bfa040ec24b57aa0baab8a798cb705",
-          "message": "velstand yaw fix: ADD a fine yaw term instead of replacing the stock one",
-          "author": "apirrone",
-          "date": "2026-10-01T16:34:47Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/4048a3ea14bfa040ec24b57aa0baab8a798cb705"
-        },
-        {
-          "id": "e1d518d4d0438b695a8c39122f9300b45e610c6e",
-          "sha": "e1d518d4d0438b695a8c39122f9300b45e610c6e",
-          "message": "velstand: train out the turn-in-place yaw dead zone",
-          "author": "apirrone",
-          "date": "2026-10-01T16:05:33Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/commit/e1d518d4d0438b695a8c39122f9300b45e610c6e"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "73",
+          "number": 73,
+          "title": "License: pin 3D model files to CC BY-NC-SA 4.0 and scope it",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-09T10:08:49Z",
+          "merged_at": "2026-10-09T10:08:42Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/73"
+        },
         {
           "id": "71",
           "number": 71,
@@ -358,16 +368,6 @@
           "updated_at": "2026-10-03T00:25:13Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/68"
-        },
-        {
-          "id": "64",
-          "number": 64,
-          "title": "publish --timeline: upload a stage performance's timeline.json beside the policy",
-          "state": "closed",
-          "draft": true,
-          "updated_at": "2026-10-01T18:21:19Z",
-          "merged_at": "2026-10-01T18:21:19Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/64"
         }
       ],
       "issues": [
@@ -438,9 +438,9 @@
         "sha": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
         "url": "https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5"
       },
-      "updated_at": "2026-10-09T06:01:15Z",
+      "updated_at": "2026-10-09T12:03:26Z",
       "pushed_at": "2026-10-08T15:49:28Z",
-      "open_issues_count": 33,
+      "open_issues_count": 35,
       "commits": [
         {
           "id": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
@@ -587,6 +587,22 @@
       ],
       "issues": [
         {
+          "id": "43",
+          "number": 43,
+          "title": "二维码过期，需要新二维码",
+          "state": "open",
+          "updated_at": "2026-10-09T11:34:58Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/43"
+        },
+        {
+          "id": "42",
+          "number": 42,
+          "title": "二维码过期，需要更新",
+          "state": "open",
+          "updated_at": "2026-10-09T09:02:27Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/42"
+        },
+        {
           "id": "41",
           "number": 41,
           "title": "二维码过期了 需要新二维码",
@@ -609,22 +625,6 @@
           "state": "open",
           "updated_at": "2026-10-08T11:16:42Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/39"
-        },
-        {
-          "id": "38",
-          "number": 38,
-          "title": "拼团在哪？",
-          "state": "open",
-          "updated_at": "2026-10-08T08:11:01Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/38"
-        },
-        {
-          "id": "26",
-          "number": 26,
-          "title": "群聊 Group chat",
-          "state": "open",
-          "updated_at": "2026-10-08T08:00:06Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/26"
         }
       ]
     },
@@ -768,8 +768,8 @@
         "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
         "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
       },
-      "updated_at": "2026-10-09T05:23:20Z",
-      "pushed_at": "2026-10-08T09:58:36Z",
+      "updated_at": "2026-10-09T12:17:47Z",
+      "pushed_at": "2026-10-09T09:59:33Z",
       "open_issues_count": 54,
       "commits": [
         {
