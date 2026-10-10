@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T05:57:31Z",
+  "generated_at": "2026-10-10T12:37:24Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "55742378aa8d0e38c74e8a17b5a1f9ef1329cef7",
-        "url": "https://github.com/superobk/microduck-startup/commit/55742378aa8d0e38c74e8a17b5a1f9ef1329cef7"
+        "sha": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
+        "url": "https://github.com/superobk/microduck-startup/commit/64509ad134f1c603bbb9dadba4c8a0af5dbf2f52"
       },
-      "updated_at": "2026-10-09T22:42:04Z",
-      "pushed_at": "2026-10-09T22:41:59Z",
+      "updated_at": "2026-10-10T05:57:49Z",
+      "pushed_at": "2026-10-10T05:57:46Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
+          "sha": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-10T05:57:45Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/64509ad134f1c603bbb9dadba4c8a0af5dbf2f52"
+        },
         {
           "id": "55742378aa8d0e38c74e8a17b5a1f9ef1329cef7",
           "sha": "55742378aa8d0e38c74e8a17b5a1f9ef1329cef7",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-07T23:08:21Z",
           "url": "https://github.com/superobk/microduck-startup/commit/01d6c9910e828889e30cdadcc2c9c17fe1a68675"
-        },
-        {
-          "id": "cf5d968448cf3afe769149965da5221c8beb8d31",
-          "sha": "cf5d968448cf3afe769149965da5221c8beb8d31",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-07T13:30:34Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/cf5d968448cf3afe769149965da5221c8beb8d31"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-10T03:25:40Z",
+      "updated_at": "2026-10-10T12:35:59Z",
       "pushed_at": "2026-10-09T15:19:16Z",
       "open_issues_count": 33,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "ceca01706143d729305baa94cbd8ab990979e325",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-10T03:29:12Z",
+      "updated_at": "2026-10-10T12:34:21Z",
       "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 47,
       "commits": [
@@ -447,7 +447,7 @@
         "sha": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
         "url": "https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5"
       },
-      "updated_at": "2026-10-10T05:18:17Z",
+      "updated_at": "2026-10-10T12:12:12Z",
       "pushed_at": "2026-10-08T15:49:28Z",
       "open_issues_count": 35,
       "commits": [
@@ -645,7 +645,7 @@
         "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
       },
-      "updated_at": "2026-10-09T22:17:11Z",
+      "updated_at": "2026-10-10T07:08:56Z",
       "pushed_at": "2026-10-08T11:07:51Z",
       "open_issues_count": 0,
       "commits": [
@@ -777,8 +777,8 @@
         "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
         "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
       },
-      "updated_at": "2026-10-10T04:42:42Z",
-      "pushed_at": "2026-10-09T09:59:33Z",
+      "updated_at": "2026-10-10T11:37:36Z",
+      "pushed_at": "2026-10-10T10:18:32Z",
       "open_issues_count": 54,
       "commits": [
         {
@@ -874,6 +874,16 @@
       ],
       "pulls": [
         {
+          "id": "1155",
+          "number": 1155,
+          "title": "Add OneRobotics A1 project to mjlab project list",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-10T11:06:13Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1155"
+        },
+        {
           "id": "1224",
           "number": 1224,
           "title": "Heat bench actuator health",
@@ -912,16 +922,6 @@
           "updated_at": "2026-10-07T06:50:36Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1218"
-        },
-        {
-          "id": "1194",
-          "number": 1194,
-          "title": "Add Python 3.14 support and move to torch 2.14 with CUDA 13.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-06T05:52:03Z",
-          "merged_at": "2026-09-27T21:23:20Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1194"
         }
       ],
       "issues": []
@@ -934,7 +934,7 @@
         "sha": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a11f6792f11b17cc76f05be2273c7b8a84095e93"
       },
-      "updated_at": "2026-10-10T02:24:17Z",
+      "updated_at": "2026-10-10T10:24:17Z",
       "pushed_at": "2026-10-09T15:45:03Z",
       "open_issues_count": 8,
       "commits": [
@@ -1031,6 +1031,16 @@
       ],
       "pulls": [
         {
+          "id": "238",
+          "number": 238,
+          "title": "Detect infinite values in environment outputs",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-10T12:24:55Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
+        },
+        {
           "id": "241",
           "number": 241,
           "title": "Add a strictly equivariant model for symmetry-aware RL",
@@ -1049,16 +1059,6 @@
           "updated_at": "2026-10-09T15:45:04Z",
           "merged_at": "2026-10-09T15:45:04Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/235"
-        },
-        {
-          "id": "238",
-          "number": 238,
-          "title": "Detect infinite values in environment outputs",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-09T15:29:21Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
         },
         {
           "id": "244",
