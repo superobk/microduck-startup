@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T12:37:24Z",
+  "generated_at": "2026-10-10T21:48:09Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
-        "url": "https://github.com/superobk/microduck-startup/commit/64509ad134f1c603bbb9dadba4c8a0af5dbf2f52"
+        "sha": "0e245be5f16847ca945232f76c9fdb0dad0335cf",
+        "url": "https://github.com/superobk/microduck-startup/commit/0e245be5f16847ca945232f76c9fdb0dad0335cf"
       },
-      "updated_at": "2026-10-10T05:57:49Z",
-      "pushed_at": "2026-10-10T05:57:46Z",
+      "updated_at": "2026-10-10T12:37:40Z",
+      "pushed_at": "2026-10-10T12:37:37Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0e245be5f16847ca945232f76c9fdb0dad0335cf",
+          "sha": "0e245be5f16847ca945232f76c9fdb0dad0335cf",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-10T12:37:36Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0e245be5f16847ca945232f76c9fdb0dad0335cf"
+        },
         {
           "id": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
           "sha": "64509ad134f1c603bbb9dadba4c8a0af5dbf2f52",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-08T06:11:20Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2f679288f6e49301b9f91e9fd7851e2fc13c63e4"
-        },
-        {
-          "id": "01d6c9910e828889e30cdadcc2c9c17fe1a68675",
-          "sha": "01d6c9910e828889e30cdadcc2c9c17fe1a68675",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-07T23:08:21Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/01d6c9910e828889e30cdadcc2c9c17fe1a68675"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-10T12:35:59Z",
+      "updated_at": "2026-10-10T21:38:51Z",
       "pushed_at": "2026-10-09T15:19:16Z",
       "open_issues_count": 33,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "ceca01706143d729305baa94cbd8ab990979e325",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-10T12:34:21Z",
+      "updated_at": "2026-10-10T21:11:16Z",
       "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 47,
       "commits": [
@@ -447,7 +447,7 @@
         "sha": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
         "url": "https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5"
       },
-      "updated_at": "2026-10-10T12:12:12Z",
+      "updated_at": "2026-10-10T19:48:04Z",
       "pushed_at": "2026-10-08T15:49:28Z",
       "open_issues_count": 35,
       "commits": [
@@ -777,9 +777,9 @@
         "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
         "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
       },
-      "updated_at": "2026-10-10T11:37:36Z",
-      "pushed_at": "2026-10-10T10:18:32Z",
-      "open_issues_count": 54,
+      "updated_at": "2026-10-10T16:45:42Z",
+      "pushed_at": "2026-10-10T20:54:24Z",
+      "open_issues_count": 55,
       "commits": [
         {
           "id": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
@@ -874,6 +874,16 @@
       ],
       "pulls": [
         {
+          "id": "1225",
+          "number": 1225,
+          "title": "Add a cu126 extra for CUDA 12 drivers.",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-10T20:54:26Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1225"
+        },
+        {
           "id": "1155",
           "number": 1155,
           "title": "Add OneRobotics A1 project to mjlab project list",
@@ -912,16 +922,6 @@
           "updated_at": "2026-10-08T04:55:35Z",
           "merged_at": "2026-10-08T04:55:33Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1221"
-        },
-        {
-          "id": "1218",
-          "number": 1218,
-          "title": "Preserve actuator delay state across partial resets",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-07T06:50:36Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1218"
         }
       ],
       "issues": []
@@ -934,9 +934,9 @@
         "sha": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a11f6792f11b17cc76f05be2273c7b8a84095e93"
       },
-      "updated_at": "2026-10-10T10:24:17Z",
+      "updated_at": "2026-10-10T16:45:54Z",
       "pushed_at": "2026-10-09T15:45:03Z",
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "commits": [
         {
           "id": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
@@ -1031,6 +1031,16 @@
       ],
       "pulls": [
         {
+          "id": "245",
+          "number": 245,
+          "title": "Skip singleton PPO advantage normalization",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-10T14:09:58Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/245"
+        },
+        {
           "id": "238",
           "number": 238,
           "title": "Detect infinite values in environment outputs",
@@ -1069,16 +1079,6 @@
           "updated_at": "2026-10-09T15:13:13Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/244"
-        },
-        {
-          "id": "240",
-          "number": 240,
-          "title": "Resume RND exploration schedules from PPO checkpoints",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-08T14:51:48Z",
-          "merged_at": "2026-10-08T14:51:48Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/240"
         }
       ],
       "issues": []
