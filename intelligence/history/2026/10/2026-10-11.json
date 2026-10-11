@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T12:56:28Z",
+  "generated_at": "2026-10-11T22:01:43Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "4f9ac9fb324fc91a087131e595fc6bf89f29a5a1",
-        "url": "https://github.com/superobk/microduck-startup/commit/4f9ac9fb324fc91a087131e595fc6bf89f29a5a1"
+        "sha": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
+        "url": "https://github.com/superobk/microduck-startup/commit/d9076a26471b14b6cc3a0a391d0dc294d9998ebb"
       },
-      "updated_at": "2026-10-11T05:53:04Z",
-      "pushed_at": "2026-10-11T05:53:01Z",
+      "updated_at": "2026-10-11T12:56:45Z",
+      "pushed_at": "2026-10-11T12:56:41Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
+          "sha": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-11T12:56:40Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d9076a26471b14b6cc3a0a391d0dc294d9998ebb"
+        },
         {
           "id": "4f9ac9fb324fc91a087131e595fc6bf89f29a5a1",
           "sha": "4f9ac9fb324fc91a087131e595fc6bf89f29a5a1",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-09T06:14:30Z",
           "url": "https://github.com/superobk/microduck-startup/commit/696765f81484cd9d80c81d5d14ce2dc25ec4b09a"
-        },
-        {
-          "id": "5f312ec00191546bb87d0f9d21e04d4410ce8dc2",
-          "sha": "5f312ec00191546bb87d0f9d21e04d4410ce8dc2",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-08T23:23:53Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5f312ec00191546bb87d0f9d21e04d4410ce8dc2"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-11T11:14:43Z",
-      "pushed_at": "2026-10-09T15:19:16Z",
-      "open_issues_count": 33,
+      "updated_at": "2026-10-11T21:45:08Z",
+      "pushed_at": "2026-10-11T19:34:50Z",
+      "open_issues_count": 37,
       "commits": [
         {
           "id": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "409877417",
+          "tag": "daemon-dev-skill-live-head",
+          "name": "daemon 0.16.1-dev.1302.b39f307 (skill-live-head)",
+          "published_at": "2026-10-11T19:34:50Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-skill-live-head"
+        },
+        {
           "id": "408041364",
           "tag": "daemon-dev-play-emotions",
           "name": "daemon 0.16.1-dev.1301.9bcdc89 (play-emotions)",
@@ -176,17 +184,29 @@
           "published_at": "2026-10-08T13:22:10Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-config"
-        },
-        {
-          "id": "406957604",
-          "tag": "daemon-dev-maploc-v2",
-          "name": "daemon 0.16.1-dev.1295.c1937fc (maploc-v2)",
-          "published_at": "2026-10-08T15:01:17Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2"
         }
       ],
       "pulls": [
+        {
+          "id": "390",
+          "number": 390,
+          "title": "duck-sim: default drive to 0.30 m/s",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-11T19:42:38Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/390"
+        },
+        {
+          "id": "389",
+          "number": 389,
+          "title": "Skills can follow the live head command (manifest `command.live`)",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-11T19:36:24Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/389"
+        },
         {
           "id": "386",
           "number": 386,
@@ -216,36 +236,24 @@
           "updated_at": "2026-10-09T06:42:52Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/346"
-        },
-        {
-          "id": "359",
-          "number": 359,
-          "title": "padd: an Xbox pad on firmware 5.23 has no right stick or triggers",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-09T06:20:04Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/359"
-        },
-        {
-          "id": "383",
-          "number": 383,
-          "title": "Add configurable controller modes and a console editor",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-08T23:14:13Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/383"
         }
       ],
       "issues": [
         {
-          "id": "385",
-          "number": 385,
-          "title": "Proposal: mapping and navigation beside robotd (quack-nav), building on maploc (#127)",
+          "id": "388",
+          "number": 388,
+          "title": "A community skill can't be phase-driven: phase encoding only reaches the ground-pick slot",
           "state": "open",
-          "updated_at": "2026-10-09T23:31:47Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/385"
+          "updated_at": "2026-10-11T19:19:15Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/388"
+        },
+        {
+          "id": "387",
+          "number": 387,
+          "title": "Skills can't follow the live head command (head and body are zeroed while a skill runs)",
+          "state": "open",
+          "updated_at": "2026-10-11T19:18:46Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/387"
         }
       ]
     },
@@ -257,7 +265,7 @@
         "sha": "ceca01706143d729305baa94cbd8ab990979e325",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-11T11:42:59Z",
+      "updated_at": "2026-10-11T18:37:17Z",
       "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 47,
       "commits": [
@@ -436,13 +444,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "1930de423ed4822fcd21b213e39f263ea9b44b7a",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/1930de423ed4822fcd21b213e39f263ea9b44b7a"
+        "sha": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/75c2b4b3249a8a4a17e29dabb872ebb465c393f9"
       },
-      "updated_at": "2026-10-11T12:40:42Z",
-      "pushed_at": "2026-10-11T07:33:19Z",
+      "updated_at": "2026-10-11T19:04:17Z",
+      "pushed_at": "2026-10-11T19:04:12Z",
       "open_issues_count": 35,
       "commits": [
+        {
+          "id": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
+          "sha": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
+          "message": "docs: kissqy walk model and full kissqy stack bring-up (10-11, 10-12)",
+          "author": "fanhao375",
+          "date": "2026-10-11T19:04:10Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/75c2b4b3249a8a4a17e29dabb872ebb465c393f9"
+        },
+        {
+          "id": "7e314cd41ea87ae859eb901d5d41f9765c285edb",
+          "sha": "7e314cd41ea87ae859eb901d5d41f9765c285edb",
+          "message": "docs: update WeChat group 10 QR code, expires October 18",
+          "author": "fanhao375",
+          "date": "2026-10-11T13:47:32Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7e314cd41ea87ae859eb901d5d41f9765c285edb"
+        },
         {
           "id": "1930de423ed4822fcd21b213e39f263ea9b44b7a",
           "sha": "1930de423ed4822fcd21b213e39f263ea9b44b7a",
@@ -490,22 +514,6 @@
           "author": "fanhao375",
           "date": "2026-09-28T12:57:11Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/0f2cff6bd76499ef9f57931c53ee76d16ae5c198"
-        },
-        {
-          "id": "22acbe03a63e3889a9262286e4aa8bbc811003a2",
-          "sha": "22acbe03a63e3889a9262286e4aa8bbc811003a2",
-          "message": "Use CAD repository as the single source for print models",
-          "author": "fanhao375",
-          "date": "2026-09-28T10:21:02Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/22acbe03a63e3889a9262286e4aa8bbc811003a2"
-        },
-        {
-          "id": "7eb399c6452093577d3f51d2a355213cc13167a7",
-          "sha": "7eb399c6452093577d3f51d2a355213cc13167a7",
-          "message": "Document camera cable fix and board bring-up results",
-          "author": "fanhao375",
-          "date": "2026-09-28T10:04:02Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7eb399c6452093577d3f51d2a355213cc13167a7"
         }
       ],
       "releases": [
@@ -626,13 +634,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
+        "sha": "b59977951346061d290f67966612df6504a390e2",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/b59977951346061d290f67966612df6504a390e2"
       },
-      "updated_at": "2026-10-11T10:39:56Z",
-      "pushed_at": "2026-10-08T11:07:51Z",
+      "updated_at": "2026-10-11T19:02:00Z",
+      "pushed_at": "2026-10-11T19:01:57Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "b59977951346061d290f67966612df6504a390e2",
+          "sha": "b59977951346061d290f67966612df6504a390e2",
+          "message": "Add a training journal, a reward workbench and a dome-riding policy (#28)",
+          "author": "joeynyc",
+          "date": "2026-10-11T19:01:55Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/b59977951346061d290f67966612df6504a390e2"
+        },
         {
           "id": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
           "sha": "a3292a3c047bb70a0247f47e4594dc974e2c9013",
@@ -688,18 +704,20 @@
           "author": "joeynyc",
           "date": "2026-09-30T07:53:16Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/3ddaa0eab900f9d53041de3d7de21e4a7fb31167"
-        },
-        {
-          "id": "1977fa1a62fcfeaea011a9b7eb6d81c4229abddc",
-          "sha": "1977fa1a62fcfeaea011a9b7eb6d81c4229abddc",
-          "message": "Add a physical HD1910M prototype and a measured dance policy (#18)",
-          "author": "joeynyc",
-          "date": "2026-09-29T10:58:10Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/1977fa1a62fcfeaea011a9b7eb6d81c4229abddc"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "28",
+          "number": 28,
+          "title": "Add a training journal, a reward workbench and a dome-riding policy",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-11T19:01:58Z",
+          "merged_at": "2026-10-11T19:01:55Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/28"
+        },
         {
           "id": "27",
           "number": 27,
@@ -739,16 +757,6 @@
           "updated_at": "2026-10-04T19:52:50Z",
           "merged_at": "2026-10-04T19:52:47Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/24"
-        },
-        {
-          "id": "22",
-          "number": 22,
-          "title": "Add a kick-algorithm study, a compiled policy, a foundation-model walker and two more",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-03T08:02:35Z",
-          "merged_at": "2026-10-03T08:02:33Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/22"
         }
       ],
       "issues": []
