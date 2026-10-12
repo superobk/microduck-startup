@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T22:01:43Z",
+  "generated_at": "2026-10-12T06:04:13Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
-        "url": "https://github.com/superobk/microduck-startup/commit/d9076a26471b14b6cc3a0a391d0dc294d9998ebb"
+        "sha": "65fae3e27ef5d7e2c167c12db1d3bedece050426",
+        "url": "https://github.com/superobk/microduck-startup/commit/65fae3e27ef5d7e2c167c12db1d3bedece050426"
       },
-      "updated_at": "2026-10-11T12:56:45Z",
-      "pushed_at": "2026-10-11T12:56:41Z",
+      "updated_at": "2026-10-11T22:02:06Z",
+      "pushed_at": "2026-10-11T22:02:02Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "65fae3e27ef5d7e2c167c12db1d3bedece050426",
+          "sha": "65fae3e27ef5d7e2c167c12db1d3bedece050426",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-11T22:02:01Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/65fae3e27ef5d7e2c167c12db1d3bedece050426"
+        },
         {
           "id": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
           "sha": "d9076a26471b14b6cc3a0a391d0dc294d9998ebb",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-09T13:26:38Z",
           "url": "https://github.com/superobk/microduck-startup/commit/a5fa69ffbe7a49d9c9441a254cb149d08b469511"
-        },
-        {
-          "id": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
-          "sha": "696765f81484cd9d80c81d5d14ce2dc25ec4b09a",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-09T06:14:30Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/696765f81484cd9d80c81d5d14ce2dc25ec4b09a"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e",
         "url": "https://github.com/pollen-robotics/microduck/commit/dec725c67ffbbdde7f1de30f8c936b1bf9c1d70e"
       },
-      "updated_at": "2026-10-11T21:45:08Z",
+      "updated_at": "2026-10-12T05:56:19Z",
       "pushed_at": "2026-10-11T19:34:50Z",
       "open_issues_count": 37,
       "commits": [
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "381",
+          "number": 381,
+          "title": "A design document for the autonomous brain: one client, built on prediction, above the shipped policies",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-12T02:30:06Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/381"
+        },
+        {
           "id": "390",
           "number": 390,
           "title": "duck-sim: default drive to 0.30 m/s",
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-09T16:50:56Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/384"
-        },
-        {
-          "id": "346",
-          "number": 346,
-          "title": "feat(tof): add opt-in BMI088 data-ready timestamps",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-09T06:42:52Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/346"
         }
       ],
       "issues": [
@@ -265,7 +265,7 @@
         "sha": "ceca01706143d729305baa94cbd8ab990979e325",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/ceca01706143d729305baa94cbd8ab990979e325"
       },
-      "updated_at": "2026-10-11T18:37:17Z",
+      "updated_at": "2026-10-12T03:40:34Z",
       "pushed_at": "2026-10-09T10:08:49Z",
       "open_issues_count": 47,
       "commits": [
@@ -447,7 +447,7 @@
         "sha": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
         "url": "https://github.com/fanhao375/microduck-replica/commit/75c2b4b3249a8a4a17e29dabb872ebb465c393f9"
       },
-      "updated_at": "2026-10-11T19:04:17Z",
+      "updated_at": "2026-10-12T03:15:33Z",
       "pushed_at": "2026-10-11T19:04:12Z",
       "open_issues_count": 35,
       "commits": [
@@ -637,7 +637,7 @@
         "sha": "b59977951346061d290f67966612df6504a390e2",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/b59977951346061d290f67966612df6504a390e2"
       },
-      "updated_at": "2026-10-11T19:02:00Z",
+      "updated_at": "2026-10-12T02:01:21Z",
       "pushed_at": "2026-10-11T19:01:57Z",
       "open_issues_count": 0,
       "commits": [
@@ -766,13 +766,29 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
-        "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
+        "sha": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
+        "url": "https://github.com/mujocolab/mjlab/commit/371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1"
       },
-      "updated_at": "2026-10-11T04:26:34Z",
-      "pushed_at": "2026-10-11T09:58:36Z",
-      "open_issues_count": 55,
+      "updated_at": "2026-10-12T02:50:30Z",
+      "pushed_at": "2026-10-12T02:55:15Z",
+      "open_issues_count": 54,
       "commits": [
+        {
+          "id": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
+          "sha": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
+          "message": "Fix wandb tags being dropped with wandb 0.30. (#1227)",
+          "author": "kevinzakka",
+          "date": "2026-10-12T02:50:25Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1"
+        },
+        {
+          "id": "a20631cf49bbb27f2b1fb80508a442098c919f2c",
+          "sha": "a20631cf49bbb27f2b1fb80508a442098c919f2c",
+          "message": "Reset recurrent policy state for done envs in the viewer. (#1226)",
+          "author": "kevinzakka",
+          "date": "2026-10-12T02:43:38Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/a20631cf49bbb27f2b1fb80508a442098c919f2c"
+        },
         {
           "id": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
           "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
@@ -820,22 +836,6 @@
           "author": "Kotochleb",
           "date": "2026-10-04T00:08:29Z",
           "url": "https://github.com/mujocolab/mjlab/commit/78a9360379908eeb2350ba4a566e98799fb85938"
-        },
-        {
-          "id": "fb32300d93042695452bdce8bdab86eff840bad5",
-          "sha": "fb32300d93042695452bdce8bdab86eff840bad5",
-          "message": "Sample DelayBuffer lags on the first step after creation or reset (#1203)",
-          "author": "Zhuoxi2000",
-          "date": "2026-10-04T00:01:51Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/fb32300d93042695452bdce8bdab86eff840bad5"
-        },
-        {
-          "id": "6b6d9af727430b7aa0867352c49cccd3b53f4940",
-          "sha": "6b6d9af727430b7aa0867352c49cccd3b53f4940",
-          "message": "Keep the last frame when csv_to_npz resamples a motion (#1202)",
-          "author": "Hadrien-Cornier",
-          "date": "2026-10-03T22:36:55Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/6b6d9af727430b7aa0867352c49cccd3b53f4940"
         }
       ],
       "releases": [
@@ -866,6 +866,26 @@
       ],
       "pulls": [
         {
+          "id": "1227",
+          "number": 1227,
+          "title": "Fix wandb tags being dropped with wandb 0.30.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-12T02:50:28Z",
+          "merged_at": "2026-10-12T02:50:26Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1227"
+        },
+        {
+          "id": "1226",
+          "number": 1226,
+          "title": "Reset recurrent policy state for done envs in the viewer.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-12T02:43:41Z",
+          "merged_at": "2026-10-12T02:43:38Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1226"
+        },
+        {
           "id": "1225",
           "number": 1225,
           "title": "Add a cu126 extra for CUDA 12 drivers.",
@@ -894,26 +914,6 @@
           "updated_at": "2026-10-09T17:59:04Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1224"
-        },
-        {
-          "id": "1220",
-          "number": 1220,
-          "title": "Mpc stage1",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-09T02:45:08Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1220"
-        },
-        {
-          "id": "1221",
-          "number": 1221,
-          "title": "Add KingKongRobotics/jumper to community projects.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-08T04:55:35Z",
-          "merged_at": "2026-10-08T04:55:33Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1221"
         }
       ],
       "issues": []
