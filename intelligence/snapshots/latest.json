@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T15:33:55Z",
+  "generated_at": "2026-10-13T00:45:40Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "3cfd613211bed66e468c9b5135ee9d5b461b04cd",
-        "url": "https://github.com/superobk/microduck-startup/commit/3cfd613211bed66e468c9b5135ee9d5b461b04cd"
+        "sha": "c43520f8d5a3a662243bcca5bf72a45a32718220",
+        "url": "https://github.com/superobk/microduck-startup/commit/c43520f8d5a3a662243bcca5bf72a45a32718220"
       },
-      "updated_at": "2026-10-12T06:04:34Z",
-      "pushed_at": "2026-10-12T06:04:30Z",
+      "updated_at": "2026-10-12T15:34:17Z",
+      "pushed_at": "2026-10-12T15:34:12Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c43520f8d5a3a662243bcca5bf72a45a32718220",
+          "sha": "c43520f8d5a3a662243bcca5bf72a45a32718220",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-12T15:34:11Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c43520f8d5a3a662243bcca5bf72a45a32718220"
+        },
         {
           "id": "3cfd613211bed66e468c9b5135ee9d5b461b04cd",
           "sha": "3cfd613211bed66e468c9b5135ee9d5b461b04cd",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-10T05:57:45Z",
           "url": "https://github.com/superobk/microduck-startup/commit/64509ad134f1c603bbb9dadba4c8a0af5dbf2f52"
-        },
-        {
-          "id": "55742378aa8d0e38c74e8a17b5a1f9ef1329cef7",
-          "sha": "55742378aa8d0e38c74e8a17b5a1f9ef1329cef7",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-09T22:41:58Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/55742378aa8d0e38c74e8a17b5a1f9ef1329cef7"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "e2a36fc0b0b0303cb1c31feafb8a1b4024281e2b",
         "url": "https://github.com/pollen-robotics/microduck/commit/e2a36fc0b0b0303cb1c31feafb8a1b4024281e2b"
       },
-      "updated_at": "2026-10-12T15:10:02Z",
+      "updated_at": "2026-10-12T22:37:52Z",
       "pushed_at": "2026-10-12T15:08:56Z",
       "open_issues_count": 38,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-12T14:15:53Z",
+      "updated_at": "2026-10-12T22:34:53Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 46,
       "commits": [
@@ -427,13 +427,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "45806727572ac4041c0448bd919e8764e37038aa",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/45806727572ac4041c0448bd919e8764e37038aa"
+        "sha": "0f365d6574c11b27270055dc3981d26d02d5626e",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0f365d6574c11b27270055dc3981d26d02d5626e"
       },
-      "updated_at": "2026-10-12T15:08:07Z",
-      "pushed_at": "2026-10-12T14:52:27Z",
+      "updated_at": "2026-10-12T20:16:27Z",
+      "pushed_at": "2026-10-12T16:00:27Z",
       "open_issues_count": 35,
       "commits": [
+        {
+          "id": "0f365d6574c11b27270055dc3981d26d02d5626e",
+          "sha": "0f365d6574c11b27270055dc3981d26d02d5626e",
+          "message": "docs: 10-12 night bring-up — IMU mounted 8.5° off was why the policy charged and fell; zero calibration, web gamepad root causes, Bluetooth pad, onboard analysis scripts",
+          "author": "fanhao375",
+          "date": "2026-10-12T15:59:10Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0f365d6574c11b27270055dc3981d26d02d5626e"
+        },
+        {
+          "id": "89ff98a5f9451e0b364bb8c68b98967453c3c82c",
+          "sha": "89ff98a5f9451e0b364bb8c68b98967453c3c82c",
+          "message": "docs: kissqy image R1 analysis, V1.12 boot script, duck-quiet, and 10-12 afternoon pitfalls",
+          "author": "fanhao375",
+          "date": "2026-10-12T15:53:33Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/89ff98a5f9451e0b364bb8c68b98967453c3c82c"
+        },
         {
           "id": "45806727572ac4041c0448bd919e8764e37038aa",
           "sha": "45806727572ac4041c0448bd919e8764e37038aa",
@@ -481,22 +497,6 @@
           "author": "yoyojacky",
           "date": "2026-10-11T07:33:19Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/1930de423ed4822fcd21b213e39f263ea9b44b7a"
-        },
-        {
-          "id": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
-          "sha": "019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5",
-          "message": "docs: recommend kissqy training workflow and community project",
-          "author": "fanhao375",
-          "date": "2026-10-08T15:49:26Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/019b8c54f8a2fa7d800ca1f1394167a1ca8fdef5"
-        },
-        {
-          "id": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
-          "sha": "b5381d86b68d2e4f4606170d54d1f3f46d249ffc",
-          "message": "docs: update WeChat group 10 QR code, expires October 8",
-          "author": "fanhao375",
-          "date": "2026-10-01T03:28:38Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/b5381d86b68d2e4f4606170d54d1f3f46d249ffc"
         }
       ],
       "releases": [
@@ -749,13 +749,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
-        "url": "https://github.com/mujocolab/mjlab/commit/371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1"
+        "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
+        "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
       },
-      "updated_at": "2026-10-12T08:39:44Z",
-      "pushed_at": "2026-10-12T10:01:49Z",
-      "open_issues_count": 54,
+      "updated_at": "2026-10-12T18:15:04Z",
+      "pushed_at": "2026-10-12T18:19:36Z",
+      "open_issues_count": 53,
       "commits": [
+        {
+          "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
+          "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
+          "message": "Add a cu126 extra for CUDA 12 drivers. (#1225)",
+          "author": "kevinzakka",
+          "date": "2026-10-12T18:14:57Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
+        },
         {
           "id": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
           "sha": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
@@ -811,14 +819,6 @@
           "author": "sxngt",
           "date": "2026-10-04T00:43:54Z",
           "url": "https://github.com/mujocolab/mjlab/commit/58ad84162acb91b7dac3dfbc4ba646b74c009431"
-        },
-        {
-          "id": "78a9360379908eeb2350ba4a566e98799fb85938",
-          "sha": "78a9360379908eeb2350ba4a566e98799fb85938",
-          "message": "Expose warp setting graph_conditional in SimulationCfg (#1201)",
-          "author": "Kotochleb",
-          "date": "2026-10-04T00:08:29Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/78a9360379908eeb2350ba4a566e98799fb85938"
         }
       ],
       "releases": [
@@ -849,6 +849,26 @@
       ],
       "pulls": [
         {
+          "id": "1228",
+          "number": 1228,
+          "title": "Add ObservationTermCfg.sample_rate_hz to hold terms between refreshes.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-12T23:36:29Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1228"
+        },
+        {
+          "id": "1225",
+          "number": 1225,
+          "title": "Add a cu126 extra for CUDA 12 drivers.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-12T18:15:00Z",
+          "merged_at": "2026-10-12T18:14:57Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1225"
+        },
+        {
           "id": "1220",
           "number": 1220,
           "title": "Mpc stage1",
@@ -877,26 +897,6 @@
           "updated_at": "2026-10-12T02:43:41Z",
           "merged_at": "2026-10-12T02:43:38Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1226"
-        },
-        {
-          "id": "1225",
-          "number": 1225,
-          "title": "Add a cu126 extra for CUDA 12 drivers.",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-10T20:54:26Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1225"
-        },
-        {
-          "id": "1155",
-          "number": 1155,
-          "title": "Add OneRobotics A1 project to mjlab project list",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-10T11:06:13Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1155"
         }
       ],
       "issues": []
@@ -909,7 +909,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-12T15:07:14Z",
+      "updated_at": "2026-10-12T16:57:40Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 6,
       "commits": [
