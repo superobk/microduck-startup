@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T14:17:08Z",
+  "generated_at": "2026-10-13T22:49:23Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "f18307236d023c22a228165e4c789eee740d34ab",
-        "url": "https://github.com/superobk/microduck-startup/commit/f18307236d023c22a228165e4c789eee740d34ab"
+        "sha": "00937ac360c01d5930c8a4279f7bebfc46433289",
+        "url": "https://github.com/superobk/microduck-startup/commit/00937ac360c01d5930c8a4279f7bebfc46433289"
       },
-      "updated_at": "2026-10-13T00:46:05Z",
-      "pushed_at": "2026-10-13T00:46:01Z",
+      "updated_at": "2026-10-13T14:17:29Z",
+      "pushed_at": "2026-10-13T14:17:23Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "00937ac360c01d5930c8a4279f7bebfc46433289",
+          "sha": "00937ac360c01d5930c8a4279f7bebfc46433289",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-13T14:17:22Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/00937ac360c01d5930c8a4279f7bebfc46433289"
+        },
         {
           "id": "f18307236d023c22a228165e4c789eee740d34ab",
           "sha": "f18307236d023c22a228165e4c789eee740d34ab",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-10T21:48:24Z",
           "url": "https://github.com/superobk/microduck-startup/commit/4ac04c492a4b32c22db70a1e223583a48a9dba93"
-        },
-        {
-          "id": "0e245be5f16847ca945232f76c9fdb0dad0335cf",
-          "sha": "0e245be5f16847ca945232f76c9fdb0dad0335cf",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-10T12:37:36Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0e245be5f16847ca945232f76c9fdb0dad0335cf"
         }
       ],
       "releases": [],
@@ -88,13 +88,53 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "e63c8c504ca3cbd7d5bc35451dcfb2231a5f8ad2",
-        "url": "https://github.com/pollen-robotics/microduck/commit/e63c8c504ca3cbd7d5bc35451dcfb2231a5f8ad2"
+        "sha": "95a7e91725b4c079a6ee6ba0a018c8b08e2a7e46",
+        "url": "https://github.com/pollen-robotics/microduck/commit/95a7e91725b4c079a6ee6ba0a018c8b08e2a7e46"
       },
-      "updated_at": "2026-10-13T14:02:37Z",
-      "pushed_at": "2026-10-13T14:13:22Z",
+      "updated_at": "2026-10-13T22:28:15Z",
+      "pushed_at": "2026-10-13T15:59:52Z",
       "open_issues_count": 40,
       "commits": [
+        {
+          "id": "95a7e91725b4c079a6ee6ba0a018c8b08e2a7e46",
+          "sha": "95a7e91725b4c079a6ee6ba0a018c8b08e2a7e46",
+          "message": "Merge pull request #411 from pollen-robotics/vetbook-share",
+          "author": "apirrone",
+          "date": "2026-10-13T15:06:47Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/95a7e91725b4c079a6ee6ba0a018c8b08e2a7e46"
+        },
+        {
+          "id": "9aea0d5ec10858ba5dd851048c7da84f10d2c317",
+          "sha": "9aea0d5ec10858ba5dd851048c7da84f10d2c317",
+          "message": "vetbook space: more stats on the cards",
+          "author": "apirrone",
+          "date": "2026-10-13T15:05:59Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/9aea0d5ec10858ba5dd851048c7da84f10d2c317"
+        },
+        {
+          "id": "3cfcc1deffe365c99c1d89bd193f05b7297c372a",
+          "sha": "3cfcc1deffe365c99c1d89bd193f05b7297c372a",
+          "message": "vetbook space: the post buttons put the card on the clipboard",
+          "author": "apirrone",
+          "date": "2026-10-13T14:58:46Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/3cfcc1deffe365c99c1d89bd193f05b7297c372a"
+        },
+        {
+          "id": "73dd3e252628f1e847e76c87dcff267779cdbee3",
+          "sha": "73dd3e252628f1e847e76c87dcff267779cdbee3",
+          "message": "vetbook space: build on bookworm, which Playwright's --with-deps supports",
+          "author": "apirrone",
+          "date": "2026-10-13T14:53:29Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/73dd3e252628f1e847e76c87dcff267779cdbee3"
+        },
+        {
+          "id": "f1e901b7f8bd77d35b9db125d34f454231941066",
+          "sha": "f1e901b7f8bd77d35b9db125d34f454231941066",
+          "message": "Share the vet book: a public dataset, a card Space, and `s` in robotctl",
+          "author": "apirrone",
+          "date": "2026-10-13T14:47:34Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/f1e901b7f8bd77d35b9db125d34f454231941066"
+        },
         {
           "id": "e63c8c504ca3cbd7d5bc35451dcfb2231a5f8ad2",
           "sha": "e63c8c504ca3cbd7d5bc35451dcfb2231a5f8ad2",
@@ -118,46 +158,6 @@
           "author": "apirrone",
           "date": "2026-10-13T13:27:22Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/ffb896717e006e6473adb6ccb859077bc8b3dd4b"
-        },
-        {
-          "id": "0932d8058fd0f8b82c4f08d3ce2de3cc1896f7f4",
-          "sha": "0932d8058fd0f8b82c4f08d3ce2de3cc1896f7f4",
-          "message": "vetbook: a pixel-art microduck head in the header, no 3D panel",
-          "author": "apirrone",
-          "date": "2026-10-13T13:11:14Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/0932d8058fd0f8b82c4f08d3ce2de3cc1896f7f4"
-        },
-        {
-          "id": "5c4f0595e5a55b645c595a43988ad20bb7bf3f8d",
-          "sha": "5c4f0595e5a55b645c595a43988ad20bb7bf3f8d",
-          "message": "vetbook: the monitor's 3D duck on the exam table",
-          "author": "apirrone",
-          "date": "2026-10-13T13:04:18Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/5c4f0595e5a55b645c595a43988ad20bb7bf3f8d"
-        },
-        {
-          "id": "f3154db81ae548fc77c47ad9741b4429bf7eafd5",
-          "sha": "f3154db81ae548fc77c47ad9741b4429bf7eafd5",
-          "message": "vetbook: velstand standing is standing, no voltage trips, write in the page",
-          "author": "apirrone",
-          "date": "2026-10-13T12:59:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/f3154db81ae548fc77c47ad9741b4429bf7eafd5"
-        },
-        {
-          "id": "82fe46787f71fd54362f3d893505af4c529bb7d1",
-          "sha": "82fe46787f71fd54362f3d893505af4c529bb7d1",
-          "message": "The vet book: a lifetime record for each duck, and robotctl vetbook",
-          "author": "apirrone",
-          "date": "2026-10-13T12:43:23Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/82fe46787f71fd54362f3d893505af4c529bb7d1"
-        },
-        {
-          "id": "35b71a2a4499eb22216b3417e19e97db602561d4",
-          "sha": "35b71a2a4499eb22216b3417e19e97db602561d4",
-          "message": "Merge pull request #406 from pollen-robotics/prepare-release-0.17.2",
-          "author": "pierre-rouanet",
-          "date": "2026-10-13T09:40:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/35b71a2a4499eb22216b3417e19e97db602561d4"
         }
       ],
       "releases": [
@@ -170,30 +170,50 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.2"
         },
         {
-          "id": "411461840",
-          "tag": "daemon-dev-netpad-bt-coexist",
-          "name": "daemon 0.17.1-dev.1346.220c5ae (netpad-bt-coexist)",
-          "published_at": "2026-10-13T08:38:30Z",
+          "id": "411812672",
+          "tag": "daemon-dev-vetbook-share",
+          "name": "daemon 0.17.2-dev.1372.9aea0d5 (vetbook-share)",
+          "published_at": "2026-10-13T15:10:55Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-netpad-bt-coexist"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vetbook-share"
         },
         {
-          "id": "411744480",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.17.2-dev.1363.e63c8c5 (main)",
-          "published_at": "2026-10-13T14:06:44Z",
+          "id": "411860037",
+          "tag": "daemon-dev-vetbook-cards-more",
+          "name": "daemon 0.17.2-dev.1376.1a77d61 (vetbook-cards-more)",
+          "published_at": "2026-10-13T15:59:52Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vetbook-cards-more"
         }
       ],
       "pulls": [
+        {
+          "id": "408",
+          "number": 408,
+          "title": "robotd: idle look-around moves during a look, leans the neck, opens the beak, yawns",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-13T15:20:11Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/408"
+        },
+        {
+          "id": "411",
+          "number": 411,
+          "title": "Share the vet book: a public dataset, a card Space, and s in robotctl",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-13T15:10:24Z",
+          "merged_at": "2026-10-13T15:06:48Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/411"
+        },
         {
           "id": "409",
           "number": 409,
           "title": "health: name the device a run of bus read failures stopped at",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-13T14:08:47Z",
+          "updated_at": "2026-10-13T14:22:14Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/409"
         },
@@ -208,16 +228,6 @@
           "url": "https://github.com/pollen-robotics/microduck/pull/410"
         },
         {
-          "id": "408",
-          "number": 408,
-          "title": "robotd: idle look-around keeps moving during a look, and is tunable",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-13T09:53:41Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/408"
-        },
-        {
           "id": "406",
           "number": 406,
           "title": "Prepare release 0.17.2",
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-13T09:40:33Z",
           "merged_at": "2026-10-13T09:40:30Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/406"
-        },
-        {
-          "id": "407",
-          "number": 407,
-          "title": "netpadd: a stalled client stops the robot and keeps its session",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-13T09:33:50Z",
-          "merged_at": "2026-10-13T09:33:47Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/407"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-13T06:38:32Z",
+      "updated_at": "2026-10-13T21:48:31Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 46,
       "commits": [
@@ -427,13 +427,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "0f365d6574c11b27270055dc3981d26d02d5626e",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/0f365d6574c11b27270055dc3981d26d02d5626e"
+        "sha": "5397eb14d356fa618b294a25cebd4bb0ec59c162",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/5397eb14d356fa618b294a25cebd4bb0ec59c162"
       },
-      "updated_at": "2026-10-13T13:25:25Z",
-      "pushed_at": "2026-10-12T16:00:27Z",
+      "updated_at": "2026-10-13T17:31:19Z",
+      "pushed_at": "2026-10-13T17:31:10Z",
       "open_issues_count": 35,
       "commits": [
+        {
+          "id": "5397eb14d356fa618b294a25cebd4bb0ec59c162",
+          "sha": "5397eb14d356fa618b294a25cebd4bb0ec59c162",
+          "message": "docs: announce Feetech's official HD-1910 BAM (ftservo-bam) alongside the LuwuDynamics 1910 M6",
+          "author": "fanhao375",
+          "date": "2026-10-13T17:30:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/5397eb14d356fa618b294a25cebd4bb0ec59c162"
+        },
+        {
+          "id": "338c4482cdb1bf96d510a3f2f720a38097d9f823",
+          "sha": "338c4482cdb1bf96d510a3f2f720a38097d9f823",
+          "message": "docs: 10-13 night to 10-14 — new card, whole-board brownouts, servo D and jitter, foot-scrape analysis",
+          "author": "fanhao375",
+          "date": "2026-10-13T17:18:13Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/338c4482cdb1bf96d510a3f2f720a38097d9f823"
+        },
+        {
+          "id": "ea7218613c2dd161231e129d08a69395f3f70b9c",
+          "sha": "ea7218613c2dd161231e129d08a69395f3f70b9c",
+          "message": "docs: 10-13 — follow official 0.17: UDP pad and sit-on-pad-loss ported onto the kissqy base (code done, not yet on the robot)",
+          "author": "fanhao375",
+          "date": "2026-10-13T09:00:25Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/ea7218613c2dd161231e129d08a69395f3f70b9c"
+        },
         {
           "id": "0f365d6574c11b27270055dc3981d26d02d5626e",
           "sha": "0f365d6574c11b27270055dc3981d26d02d5626e",
@@ -473,30 +497,6 @@
           "author": "fanhao375",
           "date": "2026-10-12T09:24:25Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/499133e10a4c1ee014757247bc3ddf685977b5b7"
-        },
-        {
-          "id": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
-          "sha": "75c2b4b3249a8a4a17e29dabb872ebb465c393f9",
-          "message": "docs: kissqy walk model and full kissqy stack bring-up (10-11, 10-12)",
-          "author": "fanhao375",
-          "date": "2026-10-11T19:04:10Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/75c2b4b3249a8a4a17e29dabb872ebb465c393f9"
-        },
-        {
-          "id": "7e314cd41ea87ae859eb901d5d41f9765c285edb",
-          "sha": "7e314cd41ea87ae859eb901d5d41f9765c285edb",
-          "message": "docs: update WeChat group 10 QR code, expires October 18",
-          "author": "fanhao375",
-          "date": "2026-10-11T13:47:32Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7e314cd41ea87ae859eb901d5d41f9765c285edb"
-        },
-        {
-          "id": "1930de423ed4822fcd21b213e39f263ea9b44b7a",
-          "sha": "1930de423ed4822fcd21b213e39f263ea9b44b7a",
-          "message": "tools: HD1910M 工具新增零位校准/重启指令与角度限制增强（作者：漂移菌） (#36)",
-          "author": "yoyojacky",
-          "date": "2026-10-11T07:33:19Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/1930de423ed4822fcd21b213e39f263ea9b44b7a"
         }
       ],
       "releases": [
@@ -754,7 +754,7 @@
       },
       "updated_at": "2026-10-13T09:29:46Z",
       "pushed_at": "2026-10-13T09:54:44Z",
-      "open_issues_count": 54,
+      "open_issues_count": 55,
       "commits": [
         {
           "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
@@ -849,6 +849,16 @@
       ],
       "pulls": [
         {
+          "id": "1230",
+          "number": 1230,
+          "title": "Add opt-in substep observation delay",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-13T20:23:24Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1230"
+        },
+        {
           "id": "1229",
           "number": 1229,
           "title": "Allow custom runners to extend the exported ONNX metadata",
@@ -887,16 +897,6 @@
           "updated_at": "2026-10-12T18:15:00Z",
           "merged_at": "2026-10-12T18:14:57Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1225"
-        },
-        {
-          "id": "1220",
-          "number": 1220,
-          "title": "Mpc stage1",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-12T07:31:40Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1220"
         }
       ],
       "issues": []
@@ -909,7 +909,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-13T06:12:14Z",
+      "updated_at": "2026-10-13T18:01:21Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 6,
       "commits": [
