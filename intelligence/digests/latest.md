@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-14T17:15:57Z`
+Generated: `2026-10-14T21:44:44Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,20 +8,15 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `a04be24fc086` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a04be24fc086e80c5651a2bd2bf76d64f6591057)
+- Commit `58c47afa7e50` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/58c47afa7e502a9f0a7051c90e73442957c5198c)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.17.2-dev.1382.8a01811 (udp-pad-claim)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-udp-pad-claim) (prerelease)
-- Release [daemon 0.17.2-dev.1384.a5aa3eb (maploc-v2)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2) (prerelease)
-- Release [daemon 0.17.2-dev.1380.648bf22 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Commit `648bf228207f` [Merge pull request #408 from pollen-robotics/idle-tuning](https://github.com/pollen-robotics/microduck/commit/648bf228207f1fdedb652516d90d97ec3c50fffa)
-- PR #414 [maploc v2 + mapd: onboard ToF mapping and relocalization, tuned against ground truth (map.*, API v45)](https://github.com/pollen-robotics/microduck/pull/414) — open
-- PR #413 [duckctl udp-pad: one instance per duck, each claiming its own pad](https://github.com/pollen-robotics/microduck/pull/413) — open
+- PR #381 [A design document for the autonomous brain: one client, built on prediction, above the shipped policies](https://github.com/pollen-robotics/microduck/pull/381) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [a04be24fc086](https://github.com/superobk/microduck-startup/commit/a04be24fc086e80c5651a2bd2bf76d64f6591057); pushed `2026-10-14T11:59:07Z`
+- **superobk/microduck-startup** `main` → [58c47afa7e50](https://github.com/superobk/microduck-startup/commit/58c47afa7e502a9f0a7051c90e73442957c5198c); pushed `2026-10-14T17:16:13Z`
 - **pollen-robotics/microduck** `main` → [648bf228207f](https://github.com/pollen-robotics/microduck/commit/648bf228207f1fdedb652516d90d97ec3c50fffa); pushed `2026-10-14T16:33:56Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
