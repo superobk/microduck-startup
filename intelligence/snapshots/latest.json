@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T04:46:10Z",
+  "generated_at": "2026-10-15T11:35:28Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "bdd0c534def7e1e754a0f70449c846133a75ce2c",
-        "url": "https://github.com/superobk/microduck-startup/commit/bdd0c534def7e1e754a0f70449c846133a75ce2c"
+        "sha": "005e70ce018f3bf557a1423c8ca517affb3f7dd9",
+        "url": "https://github.com/superobk/microduck-startup/commit/005e70ce018f3bf557a1423c8ca517affb3f7dd9"
       },
-      "updated_at": "2026-10-15T01:10:31Z",
-      "pushed_at": "2026-10-14T21:44:57Z",
+      "updated_at": "2026-10-15T04:46:27Z",
+      "pushed_at": "2026-10-15T04:46:23Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "005e70ce018f3bf557a1423c8ca517affb3f7dd9",
+          "sha": "005e70ce018f3bf557a1423c8ca517affb3f7dd9",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-15T04:46:22Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/005e70ce018f3bf557a1423c8ca517affb3f7dd9"
+        },
         {
           "id": "bdd0c534def7e1e754a0f70449c846133a75ce2c",
           "sha": "bdd0c534def7e1e754a0f70449c846133a75ce2c",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-13T00:45:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/f18307236d023c22a228165e4c789eee740d34ab"
-        },
-        {
-          "id": "c43520f8d5a3a662243bcca5bf72a45a32718220",
-          "sha": "c43520f8d5a3a662243bcca5bf72a45a32718220",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-12T15:34:11Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/c43520f8d5a3a662243bcca5bf72a45a32718220"
         }
       ],
       "releases": [],
@@ -88,13 +88,45 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "648bf228207f1fdedb652516d90d97ec3c50fffa",
-        "url": "https://github.com/pollen-robotics/microduck/commit/648bf228207f1fdedb652516d90d97ec3c50fffa"
+        "sha": "f03b42c2b4dde1a384d44d6c64dc0588bd715b5a",
+        "url": "https://github.com/pollen-robotics/microduck/commit/f03b42c2b4dde1a384d44d6c64dc0588bd715b5a"
       },
-      "updated_at": "2026-10-15T03:50:45Z",
-      "pushed_at": "2026-10-14T16:33:56Z",
+      "updated_at": "2026-10-15T11:35:29Z",
+      "pushed_at": "2026-10-15T10:51:33Z",
       "open_issues_count": 41,
       "commits": [
+        {
+          "id": "f03b42c2b4dde1a384d44d6c64dc0588bd715b5a",
+          "sha": "f03b42c2b4dde1a384d44d6c64dc0588bd715b5a",
+          "message": "Merge pull request #415 from pollen-robotics/prepare-release-0.17.3",
+          "author": "pierre-rouanet",
+          "date": "2026-10-15T08:36:42Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/f03b42c2b4dde1a384d44d6c64dc0588bd715b5a"
+        },
+        {
+          "id": "cd17b7defb56002d2c6cf4e009bd8f90471f450a",
+          "sha": "cd17b7defb56002d2c6cf4e009bd8f90471f450a",
+          "message": "Prepare release 0.17.3",
+          "author": "pierre-rouanet",
+          "date": "2026-10-15T08:29:57Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/cd17b7defb56002d2c6cf4e009bd8f90471f450a"
+        },
+        {
+          "id": "8dd5b3b717409830102a3984d15a77949101dbbe",
+          "sha": "8dd5b3b717409830102a3984d15a77949101dbbe",
+          "message": "Merge pull request #413 from pollen-robotics/udp-pad-claim",
+          "author": "pierre-rouanet",
+          "date": "2026-10-15T08:25:50Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/8dd5b3b717409830102a3984d15a77949101dbbe"
+        },
+        {
+          "id": "8a01811a092334f12cf7c4eddc9f691860e53396",
+          "sha": "8a01811a092334f12cf7c4eddc9f691860e53396",
+          "message": "duckctl udp-pad: one instance per duck, each claiming its own pad",
+          "author": "pierre-rouanet",
+          "date": "2026-10-14T15:20:01Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/8a01811a092334f12cf7c4eddc9f691860e53396"
+        },
         {
           "id": "648bf228207f1fdedb652516d90d97ec3c50fffa",
           "sha": "648bf228207f1fdedb652516d90d97ec3c50fffa",
@@ -126,67 +158,65 @@
           "author": "apirrone",
           "date": "2026-10-14T07:57:41Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/12bb8046d71a77cd7379dccaebfb3b9ccf945f06"
-        },
-        {
-          "id": "15890347035e8c811253f462b0a6efcd5cac8318",
-          "sha": "15890347035e8c811253f462b0a6efcd5cac8318",
-          "message": "duck-ipc-proto: vetbook::report is unix-only",
-          "author": "apirrone",
-          "date": "2026-10-14T07:51:57Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/15890347035e8c811253f462b0a6efcd5cac8318"
-        },
-        {
-          "id": "1a77d613726ffe22216f5f2855dc6e379a2d9243",
-          "sha": "1a77d613726ffe22216f5f2855dc6e379a2d9243",
-          "message": "vetbook.share: the README's card image is this share's own address",
-          "author": "apirrone",
-          "date": "2026-10-13T15:53:55Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/1a77d613726ffe22216f5f2855dc6e379a2d9243"
-        },
-        {
-          "id": "edb57fa2ca04b222cf275d0304cd5ba5f68d38b7",
-          "sha": "edb57fa2ca04b222cf275d0304cd5ba5f68d38b7",
-          "message": "vetbook space: an upright Game Boy, and a new image address per share",
-          "author": "apirrone",
-          "date": "2026-10-13T15:52:39Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/edb57fa2ca04b222cf275d0304cd5ba5f68d38b7"
-        },
-        {
-          "id": "ec6cbdef8571ba114e3a872e9bd1df6b7972b379",
-          "sha": "ec6cbdef8571ba114e3a872e9bd1df6b7972b379",
-          "message": "vetbook cards: moods, badges, fun facts, seven designs, a story, seasons",
-          "author": "apirrone",
-          "date": "2026-10-13T15:44:22Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/ec6cbdef8571ba114e3a872e9bd1df6b7972b379"
         }
       ],
       "releases": [
         {
-          "id": "412871176",
-          "tag": "daemon-dev-udp-pad-claim",
-          "name": "daemon 0.17.2-dev.1382.8a01811 (udp-pad-claim)",
-          "published_at": "2026-10-14T15:23:14Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-udp-pad-claim"
+          "id": "413597090",
+          "tag": "daemon-v0.17.3",
+          "name": "daemon 0.17.3",
+          "published_at": "2026-10-15T08:53:11Z",
+          "prerelease": false,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.3"
         },
         {
-          "id": "412943672",
-          "tag": "daemon-dev-maploc-v2",
-          "name": "daemon 0.17.2-dev.1384.a5aa3eb (maploc-v2)",
-          "published_at": "2026-10-14T16:33:56Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2"
-        },
-        {
-          "id": "412819880",
+          "id": "413590664",
           "tag": "daemon-dev-main",
-          "name": "daemon 0.17.2-dev.1380.648bf22 (main)",
-          "published_at": "2026-10-14T14:32:31Z",
+          "name": "daemon 0.17.3-dev.1387.f03b42c (main)",
+          "published_at": "2026-10-15T08:45:45Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+        },
+        {
+          "id": "413697373",
+          "tag": "daemon-dev-homebrew-bump",
+          "name": "daemon 0.17.3-dev.1388.910b411 (homebrew-bump)",
+          "published_at": "2026-10-15T10:51:34Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-homebrew-bump"
         }
       ],
       "pulls": [
+        {
+          "id": "416",
+          "number": 416,
+          "title": "duckctl: push the Homebrew formula on each release",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-15T10:51:21Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/416"
+        },
+        {
+          "id": "415",
+          "number": 415,
+          "title": "Prepare release 0.17.3",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-15T08:36:44Z",
+          "merged_at": "2026-10-15T08:36:42Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/415"
+        },
+        {
+          "id": "413",
+          "number": 413,
+          "title": "duckctl udp-pad: one instance per duck, each claiming its own pad",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-15T08:25:53Z",
+          "merged_at": "2026-10-15T08:25:50Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/413"
+        },
         {
           "id": "381",
           "number": 381,
@@ -206,39 +236,18 @@
           "updated_at": "2026-10-14T16:34:24Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/414"
-        },
-        {
-          "id": "413",
-          "number": 413,
-          "title": "duckctl udp-pad: one instance per duck, each claiming its own pad",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-14T15:24:13Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/413"
-        },
-        {
-          "id": "408",
-          "number": 408,
-          "title": "robotd: idle look-around moves during a look, leans the neck, opens the beak, yawns",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-14T14:28:32Z",
-          "merged_at": "2026-10-14T14:28:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/408"
-        },
-        {
-          "id": "412",
-          "number": 412,
-          "title": "Vetbook cards more",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-14T08:02:25Z",
-          "merged_at": "2026-10-14T08:02:22Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/412"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "294",
+          "number": 294,
+          "title": "Question: interpreting XL330 supply voltage in the battery shutdown policy",
+          "state": "closed",
+          "updated_at": "2026-10-15T08:36:42Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/294"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +257,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-15T03:24:05Z",
+      "updated_at": "2026-10-15T11:08:04Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 47,
       "commits": [
@@ -438,7 +447,7 @@
         "sha": "1a2936849b47e638dfc596996026f047dcfb5b05",
         "url": "https://github.com/fanhao375/microduck-replica/commit/1a2936849b47e638dfc596996026f047dcfb5b05"
       },
-      "updated_at": "2026-10-15T03:15:57Z",
+      "updated_at": "2026-10-15T11:16:13Z",
       "pushed_at": "2026-10-14T10:06:33Z",
       "open_issues_count": 35,
       "commits": [
@@ -760,9 +769,9 @@
         "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
         "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
       },
-      "updated_at": "2026-10-15T03:44:27Z",
-      "pushed_at": "2026-10-14T10:13:45Z",
-      "open_issues_count": 56,
+      "updated_at": "2026-10-15T09:14:48Z",
+      "pushed_at": "2026-10-15T10:14:51Z",
+      "open_issues_count": 57,
       "commits": [
         {
           "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
@@ -919,7 +928,7 @@
       },
       "updated_at": "2026-10-14T08:47:23Z",
       "pushed_at": "2026-10-12T15:26:34Z",
-      "open_issues_count": 6,
+      "open_issues_count": 8,
       "commits": [
         {
           "id": "a87ef38fde4e2a554bec1565e14b868a64de5851",
@@ -1014,6 +1023,26 @@
       ],
       "pulls": [
         {
+          "id": "247",
+          "number": 247,
+          "title": "Keep the recurrent teacher's hidden state across distillation updates",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-15T05:02:23Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/247"
+        },
+        {
+          "id": "246",
+          "number": 246,
+          "title": "Step CNN encoders shared by actor and critic once per update",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-15T05:02:20Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/246"
+        },
+        {
           "id": "245",
           "number": 245,
           "title": "Skip singleton PPO advantage normalization",
@@ -1042,26 +1071,6 @@
           "updated_at": "2026-10-12T15:26:35Z",
           "merged_at": "2026-10-12T15:26:35Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/241"
-        },
-        {
-          "id": "238",
-          "number": 238,
-          "title": "Detect infinite values in environment outputs",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-12T15:07:03Z",
-          "merged_at": "2026-10-12T15:07:03Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/238"
-        },
-        {
-          "id": "235",
-          "number": 235,
-          "title": "docs: clarify VecEnv observation buffer lifetime",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-09T15:45:04Z",
-          "merged_at": "2026-10-09T15:45:04Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/235"
         }
       ],
       "issues": []
