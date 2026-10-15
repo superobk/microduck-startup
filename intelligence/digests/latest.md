@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-14T21:44:44Z`
+Generated: `2026-10-15T04:46:10Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,15 +8,11 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `58c47afa7e50` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/58c47afa7e502a9f0a7051c90e73442957c5198c)
-
-### pollen-robotics/microduck
-
-- PR #381 [A design document for the autonomous brain: one client, built on prediction, above the shipped policies](https://github.com/pollen-robotics/microduck/pull/381) — open
+- Commit `bdd0c534def7` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/bdd0c534def7e1e754a0f70449c846133a75ce2c)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [58c47afa7e50](https://github.com/superobk/microduck-startup/commit/58c47afa7e502a9f0a7051c90e73442957c5198c); pushed `2026-10-14T17:16:13Z`
+- **superobk/microduck-startup** `main` → [bdd0c534def7](https://github.com/superobk/microduck-startup/commit/bdd0c534def7e1e754a0f70449c846133a75ce2c); pushed `2026-10-14T21:44:57Z`
 - **pollen-robotics/microduck** `main` → [648bf228207f](https://github.com/pollen-robotics/microduck/commit/648bf228207f1fdedb652516d90d97ec3c50fffa); pushed `2026-10-14T16:33:56Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
