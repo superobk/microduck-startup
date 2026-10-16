@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T04:37:10Z",
+  "generated_at": "2026-10-16T11:29:54Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1",
-        "url": "https://github.com/superobk/microduck-startup/commit/10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1"
+        "sha": "1f80a16c3ed4375d5b68343e85b9b7577c55ff0f",
+        "url": "https://github.com/superobk/microduck-startup/commit/1f80a16c3ed4375d5b68343e85b9b7577c55ff0f"
       },
-      "updated_at": "2026-10-15T21:27:38Z",
-      "pushed_at": "2026-10-15T21:27:32Z",
+      "updated_at": "2026-10-16T04:37:30Z",
+      "pushed_at": "2026-10-16T04:37:26Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "1f80a16c3ed4375d5b68343e85b9b7577c55ff0f",
+          "sha": "1f80a16c3ed4375d5b68343e85b9b7577c55ff0f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-16T04:37:25Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/1f80a16c3ed4375d5b68343e85b9b7577c55ff0f"
+        },
         {
           "id": "10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1",
           "sha": "10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-14T11:59:06Z",
           "url": "https://github.com/superobk/microduck-startup/commit/a04be24fc086e80c5651a2bd2bf76d64f6591057"
-        },
-        {
-          "id": "383295acea1532a3d552c213311052b0fbc7e186",
-          "sha": "383295acea1532a3d552c213311052b0fbc7e186",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-14T04:58:58Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/383295acea1532a3d552c213311052b0fbc7e186"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "d7560ef059c73fab4177eb247c1774013f6feb9d",
         "url": "https://github.com/pollen-robotics/microduck/commit/d7560ef059c73fab4177eb247c1774013f6feb9d"
       },
-      "updated_at": "2026-10-16T04:00:18Z",
-      "pushed_at": "2026-10-15T16:03:02Z",
+      "updated_at": "2026-10-16T11:09:35Z",
+      "pushed_at": "2026-10-16T10:50:21Z",
       "open_issues_count": 41,
       "commits": [
         {
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "414853510",
+          "tag": "daemon-dev-maploc-v2",
+          "name": "daemon 0.17.4-dev.1394.7e0be18 (maploc-v2)",
+          "published_at": "2026-10-16T10:50:21Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-maploc-v2"
+        },
+        {
           "id": "414001921",
           "tag": "daemon-v0.17.4",
           "name": "daemon 0.17.4",
@@ -176,17 +184,19 @@
           "published_at": "2026-10-15T08:53:11Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.3"
-        },
-        {
-          "id": "414004566",
-          "tag": "daemon-dev-prepare-release-0.17.4",
-          "name": "daemon 0.17.4-dev.1392.24267e9 (prepare-release-0.17.4)",
-          "published_at": "2026-10-15T16:01:02Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-prepare-release-0.17.4"
         }
       ],
       "pulls": [
+        {
+          "id": "414",
+          "number": 414,
+          "title": "maploc v2 + mapd: onboard ToF mapping and relocalization, tuned against ground truth (map.*, API v45)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-16T10:52:27Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/414"
+        },
         {
           "id": "419",
           "number": 419,
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-15T13:18:51Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/359"
-        },
-        {
-          "id": "416",
-          "number": 416,
-          "title": "duckctl: push the Homebrew formula on each release",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-15T12:26:49Z",
-          "merged_at": "2026-10-15T12:26:47Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/416"
         }
       ],
       "issues": []
@@ -248,9 +248,9 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-15T23:08:11Z",
+      "updated_at": "2026-10-16T10:18:30Z",
       "pushed_at": "2026-10-12T11:58:59Z",
-      "open_issues_count": 48,
+      "open_issues_count": 49,
       "commits": [
         {
           "id": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
@@ -320,6 +320,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "77",
+          "number": 77,
+          "title": "feat: Windows 10 support  ",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-16T08:47:08Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/77"
+        },
+        {
           "id": "74",
           "number": 74,
           "title": "Run",
@@ -358,16 +368,6 @@
           "updated_at": "2026-10-04T13:07:44Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/71"
-        },
-        {
-          "id": "70",
-          "number": 70,
-          "title": "Pickup detector",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-03T21:23:10Z",
-          "merged_at": "2026-10-03T21:23:10Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/70"
         }
       ],
       "issues": [
@@ -451,13 +451,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "2b734d5b472688607f5eb80314d3c603eef27094",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/2b734d5b472688607f5eb80314d3c603eef27094"
+        "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
       },
-      "updated_at": "2026-10-16T03:09:47Z",
-      "pushed_at": "2026-10-15T12:26:13Z",
-      "open_issues_count": 35,
+      "updated_at": "2026-10-16T09:03:54Z",
+      "pushed_at": "2026-10-16T07:49:57Z",
+      "open_issues_count": 37,
       "commits": [
+        {
+          "id": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
+          "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
+          "message": "README: 换上鸭子复刻群 11 的二维码（2026-10-23 前有效）",
+          "author": "fanhao375",
+          "date": "2026-10-16T07:48:07Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
+        },
         {
           "id": "2b734d5b472688607f5eb80314d3c603eef27094",
           "sha": "2b734d5b472688607f5eb80314d3c603eef27094",
@@ -513,14 +521,6 @@
           "author": "fanhao375",
           "date": "2026-10-14T07:25:55Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/64aeb37e05385d12eb1c1b034227cc143196326e"
-        },
-        {
-          "id": "5397eb14d356fa618b294a25cebd4bb0ec59c162",
-          "sha": "5397eb14d356fa618b294a25cebd4bb0ec59c162",
-          "message": "docs: announce Feetech's official HD-1910 BAM (ftservo-bam) alongside the LuwuDynamics 1910 M6",
-          "author": "fanhao375",
-          "date": "2026-10-13T17:30:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/5397eb14d356fa618b294a25cebd4bb0ec59c162"
         }
       ],
       "releases": [
@@ -603,6 +603,22 @@
       ],
       "issues": [
         {
+          "id": "46",
+          "number": 46,
+          "title": "飞特版跟进请教：打印材料/质量、训练策略、HAT 板 PCBA、舵机参数 4 个问题",
+          "state": "open",
+          "updated_at": "2026-10-16T09:29:59Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/46"
+        },
+        {
+          "id": "45",
+          "number": 45,
+          "title": "微信群聊超过200人了，需要更新",
+          "state": "open",
+          "updated_at": "2026-10-16T07:01:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/45"
+        },
+        {
           "id": "24",
           "number": 24,
           "title": "群满了",
@@ -617,22 +633,6 @@
           "state": "open",
           "updated_at": "2026-10-11T12:07:32Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/44"
-        },
-        {
-          "id": "43",
-          "number": 43,
-          "title": "二维码过期，需要新二维码",
-          "state": "open",
-          "updated_at": "2026-10-09T11:34:58Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/43"
-        },
-        {
-          "id": "42",
-          "number": 42,
-          "title": "二维码过期，需要更新",
-          "state": "open",
-          "updated_at": "2026-10-09T09:02:27Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/42"
         }
       ]
     },
@@ -641,13 +641,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "e496b32cc60661d6afbb222f8dde542393f0dfff",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/e496b32cc60661d6afbb222f8dde542393f0dfff"
+        "sha": "2a1cc3c679bcef36d459626f818e67908b11cc16",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/2a1cc3c679bcef36d459626f818e67908b11cc16"
       },
-      "updated_at": "2026-10-15T23:09:21Z",
-      "pushed_at": "2026-10-14T09:57:19Z",
+      "updated_at": "2026-10-16T07:24:35Z",
+      "pushed_at": "2026-10-16T07:24:33Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2a1cc3c679bcef36d459626f818e67908b11cc16",
+          "sha": "2a1cc3c679bcef36d459626f818e67908b11cc16",
+          "message": "Add an autonomy client and an HD-1910 training branch (#30)",
+          "author": "joeynyc",
+          "date": "2026-10-16T07:24:31Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/2a1cc3c679bcef36d459626f818e67908b11cc16"
+        },
         {
           "id": "e496b32cc60661d6afbb222f8dde542393f0dfff",
           "sha": "e496b32cc60661d6afbb222f8dde542393f0dfff",
@@ -703,18 +711,20 @@
           "author": "joeynyc",
           "date": "2026-10-03T08:02:32Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/58e2c4fb5181caf8d4ab3070162b011dd4fe27ca"
-        },
-        {
-          "id": "bf6be9157bb3c2e3dc55df1c913ce469fcb579da",
-          "sha": "bf6be9157bb3c2e3dc55df1c913ce469fcb579da",
-          "message": "Add quack-control (#21)",
-          "author": "andreagenovese",
-          "date": "2026-10-03T08:01:05Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/bf6be9157bb3c2e3dc55df1c913ce469fcb579da"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "30",
+          "number": 30,
+          "title": "Add an autonomy client and an HD-1910 training branch",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-16T07:24:34Z",
+          "merged_at": "2026-10-16T07:24:31Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/30"
+        },
         {
           "id": "29",
           "number": 29,
@@ -754,16 +764,6 @@
           "updated_at": "2026-10-07T20:48:52Z",
           "merged_at": "2026-10-07T20:48:50Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/26"
-        },
-        {
-          "id": "25",
-          "number": 25,
-          "title": "Add a Hermes Agent duck client, a hopscotch game and a servo rework",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-06T20:43:26Z",
-          "merged_at": "2026-10-06T20:43:23Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/25"
         }
       ],
       "issues": []
@@ -776,8 +776,8 @@
         "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
         "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
       },
-      "updated_at": "2026-10-16T03:49:18Z",
-      "pushed_at": "2026-10-15T10:14:51Z",
+      "updated_at": "2026-10-16T09:22:53Z",
+      "pushed_at": "2026-10-16T09:59:29Z",
       "open_issues_count": 59,
       "commits": [
         {
@@ -878,7 +878,7 @@
           "title": "Add OneRobotics A1 project to mjlab project list",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-16T02:55:12Z",
+          "updated_at": "2026-10-16T06:09:32Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1155"
         },
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-16T03:12:45Z",
+      "updated_at": "2026-10-16T06:29:12Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [
