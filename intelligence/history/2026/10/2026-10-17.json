@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T15:39:27Z",
+  "generated_at": "2026-10-17T20:39:35Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "ab21a83fee2544c2353a30ae4885e4ecfc8f0219",
-        "url": "https://github.com/superobk/microduck-startup/commit/ab21a83fee2544c2353a30ae4885e4ecfc8f0219"
+        "sha": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
+        "url": "https://github.com/superobk/microduck-startup/commit/d84cb9b0c9fcf6c01c274f604214ed51f612eb03"
       },
-      "updated_at": "2026-10-17T10:50:06Z",
-      "pushed_at": "2026-10-17T10:50:02Z",
+      "updated_at": "2026-10-17T15:39:46Z",
+      "pushed_at": "2026-10-17T15:39:43Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
+          "sha": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-17T15:39:42Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d84cb9b0c9fcf6c01c274f604214ed51f612eb03"
+        },
         {
           "id": "ab21a83fee2544c2353a30ae4885e4ecfc8f0219",
           "sha": "ab21a83fee2544c2353a30ae4885e4ecfc8f0219",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-15T21:27:31Z",
           "url": "https://github.com/superobk/microduck-startup/commit/10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1"
-        },
-        {
-          "id": "59188857edd039052f2f75581fe62241f8f498c4",
-          "sha": "59188857edd039052f2f75581fe62241f8f498c4",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-15T17:05:27Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/59188857edd039052f2f75581fe62241f8f498c4"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "53230463927095ea890f231d29089bb0a538c06f",
         "url": "https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f"
       },
-      "updated_at": "2026-10-17T15:05:48Z",
+      "updated_at": "2026-10-17T19:07:07Z",
       "pushed_at": "2026-10-17T11:20:55Z",
       "open_issues_count": 44,
       "commits": [
@@ -778,7 +778,7 @@
       },
       "updated_at": "2026-10-17T02:30:26Z",
       "pushed_at": "2026-10-17T10:12:29Z",
-      "open_issues_count": 59,
+      "open_issues_count": 61,
       "commits": [
         {
           "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
@@ -873,6 +873,26 @@
       ],
       "pulls": [
         {
+          "id": "1237",
+          "number": 1237,
+          "title": "Add opt-in mixture mode for adaptive motion sampling",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-17T20:08:55Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1237"
+        },
+        {
+          "id": "1236",
+          "number": 1236,
+          "title": "Expose per-term rewards from RewardManager",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-17T20:03:20Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1236"
+        },
+        {
           "id": "1155",
           "number": 1155,
           "title": "Add OneRobotics A1 project to mjlab project list",
@@ -901,26 +921,6 @@
           "updated_at": "2026-10-15T11:40:32Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1234"
-        },
-        {
-          "id": "1231",
-          "number": 1231,
-          "title": "Add regression tests for invisible collisions from empty mesh slots",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-14T11:59:11Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1231"
-        },
-        {
-          "id": "1230",
-          "number": 1230,
-          "title": "Add opt-in substep observation delay",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-13T20:23:24Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1230"
         }
       ],
       "issues": []
