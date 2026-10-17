@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T21:14:48Z",
+  "generated_at": "2026-10-17T04:33:17Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "995689c1f0c89075087f37bfea6ab21215e3072d",
-        "url": "https://github.com/superobk/microduck-startup/commit/995689c1f0c89075087f37bfea6ab21215e3072d"
+        "sha": "6f7ef8dbd73b2a9be59b041008df06ba837b4384",
+        "url": "https://github.com/superobk/microduck-startup/commit/6f7ef8dbd73b2a9be59b041008df06ba837b4384"
       },
-      "updated_at": "2026-10-16T16:43:17Z",
-      "pushed_at": "2026-10-16T16:43:13Z",
+      "updated_at": "2026-10-16T21:15:11Z",
+      "pushed_at": "2026-10-16T21:15:06Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "6f7ef8dbd73b2a9be59b041008df06ba837b4384",
+          "sha": "6f7ef8dbd73b2a9be59b041008df06ba837b4384",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-16T21:15:05Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/6f7ef8dbd73b2a9be59b041008df06ba837b4384"
+        },
         {
           "id": "995689c1f0c89075087f37bfea6ab21215e3072d",
           "sha": "995689c1f0c89075087f37bfea6ab21215e3072d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-15T04:46:22Z",
           "url": "https://github.com/superobk/microduck-startup/commit/005e70ce018f3bf557a1423c8ca517affb3f7dd9"
-        },
-        {
-          "id": "bdd0c534def7e1e754a0f70449c846133a75ce2c",
-          "sha": "bdd0c534def7e1e754a0f70449c846133a75ce2c",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-14T21:44:56Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/bdd0c534def7e1e754a0f70449c846133a75ce2c"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "d7560ef059c73fab4177eb247c1774013f6feb9d",
         "url": "https://github.com/pollen-robotics/microduck/commit/d7560ef059c73fab4177eb247c1774013f6feb9d"
       },
-      "updated_at": "2026-10-16T20:20:23Z",
+      "updated_at": "2026-10-17T04:16:34Z",
       "pushed_at": "2026-10-16T13:31:39Z",
       "open_issues_count": 42,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-16T18:00:00Z",
+      "updated_at": "2026-10-17T02:29:15Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -454,9 +454,9 @@
         "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
         "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
       },
-      "updated_at": "2026-10-16T09:03:54Z",
+      "updated_at": "2026-10-17T02:41:58Z",
       "pushed_at": "2026-10-16T07:49:57Z",
-      "open_issues_count": 37,
+      "open_issues_count": 38,
       "commits": [
         {
           "id": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
@@ -551,6 +551,16 @@
       ],
       "pulls": [
         {
+          "id": "47",
+          "number": 47,
+          "title": "增加 IMU 的 DXL 2.0 协议兼容",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-17T03:15:10Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/47"
+        },
+        {
           "id": "36",
           "number": 36,
           "title": "tools: HD1910M 工具新增零位校准/重启指令与角度限制增强（作者：漂移菌）",
@@ -589,16 +599,6 @@
           "updated_at": "2026-09-21T15:06:43Z",
           "merged_at": "2026-09-21T15:06:43Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/32"
-        },
-        {
-          "id": "12",
-          "number": 12,
-          "title": "新增 imu_to_dxl v2 板 KiCad 工程（含 J2/J3 走线修复与 BOM）",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-09-21T13:43:13Z",
-          "merged_at": null,
-          "url": "https://github.com/fanhao375/microduck-replica/pull/12"
         }
       ],
       "issues": [
@@ -776,7 +776,7 @@
         "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
         "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
       },
-      "updated_at": "2026-10-16T15:38:56Z",
+      "updated_at": "2026-10-17T02:30:26Z",
       "pushed_at": "2026-10-16T09:59:29Z",
       "open_issues_count": 59,
       "commits": [

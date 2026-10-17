@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-16T21:14:48Z`
+Generated: `2026-10-17T04:33:17Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,11 +8,15 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `995689c1f0c8` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/995689c1f0c89075087f37bfea6ab21215e3072d)
+- Commit `6f7ef8dbd73b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/6f7ef8dbd73b2a9be59b041008df06ba837b4384)
+
+### fanhao375/microduck-replica
+
+- PR #47 [增加 IMU 的 DXL 2.0 协议兼容](https://github.com/fanhao375/microduck-replica/pull/47) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [995689c1f0c8](https://github.com/superobk/microduck-startup/commit/995689c1f0c89075087f37bfea6ab21215e3072d); pushed `2026-10-16T16:43:13Z`
+- **superobk/microduck-startup** `main` → [6f7ef8dbd73b](https://github.com/superobk/microduck-startup/commit/6f7ef8dbd73b2a9be59b041008df06ba837b4384); pushed `2026-10-16T21:15:06Z`
 - **pollen-robotics/microduck** `main` → [d7560ef059c7](https://github.com/pollen-robotics/microduck/commit/d7560ef059c73fab4177eb247c1774013f6feb9d); pushed `2026-10-16T13:31:39Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
