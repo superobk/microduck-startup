@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-17T10:49:50Z`
+Generated: `2026-10-17T15:39:27Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,28 +8,22 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `d645d9fb3575` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d645d9fb35757f64241242a7b2456368f1b3be88)
+- Commit `ab21a83fee25` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/ab21a83fee2544c2353a30ae4885e4ecfc8f0219)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.17.6](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.6)
-- Release [daemon 0.17.5](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.5)
-- Release [daemon 0.17.6-dev.1401.9d5cfca (prepare-release-0.17.6)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-prepare-release-0.17.6) (prerelease)
-- Commit `f39c3fa0f2c5` [Merge pull request #424 from pollen-robotics/prepare-release-0.17.6](https://github.com/pollen-robotics/microduck/commit/f39c3fa0f2c556952ab13e575dffd6c8016ee1de)
-- Commit `d25f771c7f45` [Merge pull request #423 from pollen-robotics/release-lookup-by-tag](https://github.com/pollen-robotics/microduck/commit/d25f771c7f4531397e9cf3f1098915dc19c19b04)
-- Commit `9d5cfcace43f` [Prepare release 0.17.6](https://github.com/pollen-robotics/microduck/commit/9d5cfcace43f48744beff8bb5508d406fbd6d315)
-- Commit `43ce13996c80` [Merge pull request #422 from pollen-robotics/prepare-release-0.17.5](https://github.com/pollen-robotics/microduck/commit/43ce13996c802c4138729318f3fd313597342766)
-- Commit `a927c3d577c5` [updater: resolve the newest release from the channel's tags, not the release listing](https://github.com/pollen-robotics/microduck/commit/a927c3d577c5261f222dcf256283877c0c68be81)
-- Commit `87b0d76e296c` [Prepare release 0.17.5](https://github.com/pollen-robotics/microduck/commit/87b0d76e296cf4a2fb11c4192f54c0d6f3ffef2f)
-- Commit `a9e46be1a2d1` [updater: smaller release pages so the listing fits the 1 MiB metadata cap](https://github.com/pollen-robotics/microduck/commit/a9e46be1a2d11615c915914a5ae054cf6216021f)
-- PR #424 [Prepare release 0.17.6](https://github.com/pollen-robotics/microduck/pull/424) — closed
-- PR #423 [updater: resolve the newest release from the channel's tags, not the release listing](https://github.com/pollen-robotics/microduck/pull/423) — closed
-- PR #422 [Prepare release 0.17.5](https://github.com/pollen-robotics/microduck/pull/422) — closed
+- Release [daemon 0.17.7-dev.1408.1647a70 (prepare-release-0.17.7)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-prepare-release-0.17.7) (prerelease)
+- Commit `532304639270` [Merge pull request #425 from pollen-robotics/provision-rerun-stale-log](https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f)
+- Commit `8d7ae6784835` [provision: phase 2 always fetches setup-rkaiq rather than the persisted copy](https://github.com/pollen-robotics/microduck/commit/8d7ae6784835112170f951817234d2449a6ead4e)
+- Commit `35a34da23be7` [setup-rkaiq: the persisted copy builds from the shim source it kept](https://github.com/pollen-robotics/microduck/commit/35a34da23be7ab47ca775c2940e585260f020b99)
+- Commit `e3687a167516` [provisioning: a re-run reports its own result, not the last attempt's log](https://github.com/pollen-robotics/microduck/commit/e3687a16751665dcf2c6bac31f30a8cce0c08acf)
+- PR #426 [Prepare release 0.17.7](https://github.com/pollen-robotics/microduck/pull/426) — open
+- PR #425 [provisioning: a re-run works, and reports its own result](https://github.com/pollen-robotics/microduck/pull/425) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [d645d9fb3575](https://github.com/superobk/microduck-startup/commit/d645d9fb35757f64241242a7b2456368f1b3be88); pushed `2026-10-17T04:33:32Z`
-- **pollen-robotics/microduck** `main` → [f39c3fa0f2c5](https://github.com/pollen-robotics/microduck/commit/f39c3fa0f2c556952ab13e575dffd6c8016ee1de); pushed `2026-10-17T10:32:35Z`
+- **superobk/microduck-startup** `main` → [ab21a83fee25](https://github.com/superobk/microduck-startup/commit/ab21a83fee2544c2353a30ae4885e4ecfc8f0219); pushed `2026-10-17T10:50:02Z`
+- **pollen-robotics/microduck** `main` → [532304639270](https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f); pushed `2026-10-17T11:20:55Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [60c7a87ade42](https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2); pushed `2026-10-16T07:49:57Z`
