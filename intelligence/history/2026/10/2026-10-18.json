@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T04:39:40Z",
+  "generated_at": "2026-10-18T11:13:35Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "dffc440a4a9e73375641c939fbca1caa48a6597d",
-        "url": "https://github.com/superobk/microduck-startup/commit/dffc440a4a9e73375641c939fbca1caa48a6597d"
+        "sha": "c1ad7f5aa03340027732065409322817d471b05d",
+        "url": "https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d"
       },
-      "updated_at": "2026-10-17T20:39:58Z",
-      "pushed_at": "2026-10-17T20:39:55Z",
+      "updated_at": "2026-10-18T04:39:57Z",
+      "pushed_at": "2026-10-18T04:39:53Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c1ad7f5aa03340027732065409322817d471b05d",
+          "sha": "c1ad7f5aa03340027732065409322817d471b05d",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-18T04:39:52Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d"
+        },
         {
           "id": "dffc440a4a9e73375641c939fbca1caa48a6597d",
           "sha": "dffc440a4a9e73375641c939fbca1caa48a6597d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-16T11:30:14Z",
           "url": "https://github.com/superobk/microduck-startup/commit/4b76ddf36a2beff552bfbbd600bedb9219f143bd"
-        },
-        {
-          "id": "1f80a16c3ed4375d5b68343e85b9b7577c55ff0f",
-          "sha": "1f80a16c3ed4375d5b68343e85b9b7577c55ff0f",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-16T04:37:25Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/1f80a16c3ed4375d5b68343e85b9b7577c55ff0f"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "53230463927095ea890f231d29089bb0a538c06f",
         "url": "https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f"
       },
-      "updated_at": "2026-10-18T04:17:09Z",
+      "updated_at": "2026-10-18T08:38:30Z",
       "pushed_at": "2026-10-17T11:20:55Z",
       "open_issues_count": 44,
       "commits": [
@@ -454,7 +454,7 @@
         "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
         "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
       },
-      "updated_at": "2026-10-18T04:00:36Z",
+      "updated_at": "2026-10-18T09:24:43Z",
       "pushed_at": "2026-10-16T07:49:57Z",
       "open_issues_count": 38,
       "commits": [
@@ -773,76 +773,76 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
-        "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
+        "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
+        "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
       },
-      "updated_at": "2026-10-17T02:30:26Z",
-      "pushed_at": "2026-10-17T10:12:29Z",
-      "open_issues_count": 67,
+      "updated_at": "2026-10-18T08:32:08Z",
+      "pushed_at": "2026-10-18T06:59:43Z",
+      "open_issues_count": 45,
       "commits": [
         {
-          "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
-          "sha": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
-          "message": "Add a cu126 extra for CUDA 12 drivers. (#1225)",
+          "id": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
+          "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
+          "message": "Trim #1241 and index keyframe qpos on device. (#1245)",
           "author": "kevinzakka",
-          "date": "2026-10-12T18:14:57Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/45b1e263ec1c3c0d2c3211b458135d80bb7030df"
+          "date": "2026-10-18T06:55:07Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
         },
         {
-          "id": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
-          "sha": "371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1",
-          "message": "Fix wandb tags being dropped with wandb 0.30. (#1227)",
+          "id": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
+          "sha": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
+          "message": "Bump lockfile packages flagged by Dependabot. (#1244)",
           "author": "kevinzakka",
-          "date": "2026-10-12T02:50:25Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/371e3b7ef1c32cbbf1f0527ec04d03a28a0873f1"
+          "date": "2026-10-18T06:55:03Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/0bd96dcb8281ca5c24e5283725ee3b640abec5bd"
         },
         {
-          "id": "a20631cf49bbb27f2b1fb80508a442098c919f2c",
-          "sha": "a20631cf49bbb27f2b1fb80508a442098c919f2c",
-          "message": "Reset recurrent policy state for done envs in the viewer. (#1226)",
-          "author": "kevinzakka",
-          "date": "2026-10-12T02:43:38Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/a20631cf49bbb27f2b1fb80508a442098c919f2c"
+          "id": "7d890b588e11ac3617550196cfb6041c184870ed",
+          "sha": "7d890b588e11ac3617550196cfb6041c184870ed",
+          "message": "Add GridPatternCfg.offset to shift the ray grid in frame-local XY. (#1235)",
+          "author": "louislelay",
+          "date": "2026-10-18T06:31:46Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/7d890b588e11ac3617550196cfb6041c184870ed"
         },
         {
-          "id": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
-          "sha": "033ae22a2c7a30a25a6fa77b16c113ed88dd1b55",
-          "message": "Add KingKongRobotics/jumper to community projects. (#1221)",
-          "author": "kevinzakka",
-          "date": "2026-10-08T04:55:32Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/033ae22a2c7a30a25a6fa77b16c113ed88dd1b55"
+          "id": "79c40c4a23c1d70b16921959ff280089bf5c7101",
+          "sha": "79c40c4a23c1d70b16921959ff280089bf5c7101",
+          "message": "Accept per-axis resolution in GridPatternCfg. (#1234)",
+          "author": "louislelay",
+          "date": "2026-10-18T06:30:30Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/79c40c4a23c1d70b16921959ff280089bf5c7101"
         },
         {
-          "id": "bd37751b15af90863c5a84cbbc24653a4edd985c",
-          "sha": "bd37751b15af90863c5a84cbbc24653a4edd985c",
-          "message": "Apply standing, heading and world-frame rules before init_velocity_prob (#1215)",
-          "author": "kevinzakka",
-          "date": "2026-10-06T05:44:45Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/bd37751b15af90863c5a84cbbc24653a4edd985c"
+          "id": "2c786bc6a8cc68ee4575b966536dd1193e6ed6c8",
+          "sha": "2c786bc6a8cc68ee4575b966536dd1193e6ed6c8",
+          "message": "Match MuJoCo's image layout in PinholeCameraPatternCfg rays. (#1243)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T06:28:34Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/2c786bc6a8cc68ee4575b966536dd1193e6ed6c8"
         },
         {
-          "id": "c5adfae3a61fe2c81e4b84d066da8f0c80faf7a2",
-          "sha": "c5adfae3a61fe2c81e4b84d066da8f0c80faf7a2",
-          "message": "Stop heading and world frame commands from overriding rel_forward_envs (#1214)",
-          "author": "vssinghh",
-          "date": "2026-10-06T05:29:00Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/c5adfae3a61fe2c81e4b84d066da8f0c80faf7a2"
+          "id": "a5b967f052a38b60265b12d47bbead93a166246e",
+          "sha": "a5b967f052a38b60265b12d47bbead93a166246e",
+          "message": "Evaluate VideoRecorder episode_trigger only at episode start. (#1207)",
+          "author": "Zhuoxi2000",
+          "date": "2026-10-18T06:27:46Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/a5b967f052a38b60265b12d47bbead93a166246e"
         },
         {
-          "id": "4f7329183f097baa93af6e21e7e9241fc45bf978",
-          "sha": "4f7329183f097baa93af6e21e7e9241fc45bf978",
-          "message": "Keep the shared DelayBuffer lag and schedule across partial resets. (#1206)",
-          "author": "kevinzakka",
-          "date": "2026-10-04T00:55:26Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/4f7329183f097baa93af6e21e7e9241fc45bf978"
+          "id": "efb8696cdcc596539542602cb600fb48807a01c9",
+          "sha": "efb8696cdcc596539542602cb600fb48807a01c9",
+          "message": "Expose per-term rewards from RewardManager. (#1236)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T06:26:46Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/efb8696cdcc596539542602cb600fb48807a01c9"
         },
         {
-          "id": "58ad84162acb91b7dac3dfbc4ba646b74c009431",
-          "sha": "58ad84162acb91b7dac3dfbc4ba646b74c009431",
-          "message": "Share the hold decision across envs in shared-lag DelayBuffer (#1191)",
-          "author": "sxngt",
-          "date": "2026-10-04T00:43:54Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/58ad84162acb91b7dac3dfbc4ba646b74c009431"
+          "id": "ed0a6d0f81a3526b150f62e8c79b59440c2514d3",
+          "sha": "ed0a6d0f81a3526b150f62e8c79b59440c2514d3",
+          "message": "Post-process only the matched subset in string-keyed DR ranges. (#1242)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T06:25:07Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/ed0a6d0f81a3526b150f62e8c79b59440c2514d3"
         }
       ],
       "releases": [
@@ -873,54 +873,54 @@
       ],
       "pulls": [
         {
-          "id": "1243",
-          "number": 1243,
-          "title": "Match MuJoCo's image layout in PinholeCameraPatternCfg rays",
+          "id": "1249",
+          "number": 1249,
+          "title": "Lay heightfield rows along y",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T21:59:37Z",
+          "updated_at": "2026-10-18T09:31:48Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1243"
+          "url": "https://github.com/mujocolab/mjlab/pull/1249"
         },
         {
-          "id": "1242",
-          "number": 1242,
-          "title": "Post-process only the matched subset in string-keyed DR ranges",
+          "id": "1248",
+          "number": 1248,
+          "title": "Add TerrainEntity.set_terrain_levels",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T21:57:02Z",
+          "updated_at": "2026-10-18T09:25:43Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1242"
+          "url": "https://github.com/mujocolab/mjlab/pull/1248"
         },
         {
-          "id": "1241",
-          "number": 1241,
-          "title": "Read the target cube position live in multi-cube lifting rewards",
+          "id": "1247",
+          "number": 1247,
+          "title": "Auto-name unnamed non-free joints",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T21:51:10Z",
+          "updated_at": "2026-10-18T09:23:26Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1241"
+          "url": "https://github.com/mujocolab/mjlab/pull/1247"
         },
         {
-          "id": "1240",
-          "number": 1240,
-          "title": "Don't score the post-reset robot in tracking evaluation",
+          "id": "1246",
+          "number": 1246,
+          "title": "Match dm_control's small_control term in the cartpole reward",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T21:47:21Z",
+          "updated_at": "2026-10-18T09:21:10Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1240"
+          "url": "https://github.com/mujocolab/mjlab/pull/1246"
         },
         {
-          "id": "1239",
-          "number": 1239,
-          "title": "Fix write_mocap_pose_to_sim for all envs",
+          "id": "1218",
+          "number": 1218,
+          "title": "Preserve actuator delay state across partial resets",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T21:43:07Z",
+          "updated_at": "2026-10-18T08:56:59Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1239"
+          "url": "https://github.com/mujocolab/mjlab/pull/1218"
         }
       ],
       "issues": []
