@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T11:13:35Z",
+  "generated_at": "2026-10-18T15:55:18Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "c1ad7f5aa03340027732065409322817d471b05d",
-        "url": "https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d"
+        "sha": "2d50fb4ad316a2a206373fad226812da81f338b0",
+        "url": "https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0"
       },
-      "updated_at": "2026-10-18T04:39:57Z",
-      "pushed_at": "2026-10-18T04:39:53Z",
+      "updated_at": "2026-10-18T11:13:56Z",
+      "pushed_at": "2026-10-18T11:13:52Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2d50fb4ad316a2a206373fad226812da81f338b0",
+          "sha": "2d50fb4ad316a2a206373fad226812da81f338b0",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-18T11:13:51Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0"
+        },
         {
           "id": "c1ad7f5aa03340027732065409322817d471b05d",
           "sha": "c1ad7f5aa03340027732065409322817d471b05d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-16T16:43:11Z",
           "url": "https://github.com/superobk/microduck-startup/commit/995689c1f0c89075087f37bfea6ab21215e3072d"
-        },
-        {
-          "id": "4b76ddf36a2beff552bfbbd600bedb9219f143bd",
-          "sha": "4b76ddf36a2beff552bfbbd600bedb9219f143bd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-16T11:30:14Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/4b76ddf36a2beff552bfbbd600bedb9219f143bd"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "53230463927095ea890f231d29089bb0a538c06f",
         "url": "https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f"
       },
-      "updated_at": "2026-10-18T08:38:30Z",
+      "updated_at": "2026-10-18T15:43:24Z",
       "pushed_at": "2026-10-17T11:20:55Z",
       "open_issues_count": 44,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-18T02:57:32Z",
+      "updated_at": "2026-10-18T15:01:05Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -454,7 +454,7 @@
         "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
         "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
       },
-      "updated_at": "2026-10-18T09:24:43Z",
+      "updated_at": "2026-10-18T12:03:11Z",
       "pushed_at": "2026-10-16T07:49:57Z",
       "open_issues_count": 38,
       "commits": [
@@ -776,9 +776,9 @@
         "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
         "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
       },
-      "updated_at": "2026-10-18T08:32:08Z",
+      "updated_at": "2026-10-18T11:43:48Z",
       "pushed_at": "2026-10-18T06:59:43Z",
-      "open_issues_count": 45,
+      "open_issues_count": 51,
       "commits": [
         {
           "id": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
@@ -873,54 +873,54 @@
       ],
       "pulls": [
         {
-          "id": "1249",
-          "number": 1249,
-          "title": "Lay heightfield rows along y",
+          "id": "1255",
+          "number": 1255,
+          "title": "Add HfMeshTerrainCfg to build heightfield terrain from a mesh file",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-18T09:31:48Z",
+          "updated_at": "2026-10-18T13:21:52Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1249"
+          "url": "https://github.com/mujocolab/mjlab/pull/1255"
         },
         {
-          "id": "1248",
-          "number": 1248,
-          "title": "Add TerrainEntity.set_terrain_levels",
+          "id": "1237",
+          "number": 1237,
+          "title": "Add opt-in mixture mode for adaptive motion sampling",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-18T09:25:43Z",
+          "updated_at": "2026-10-18T12:13:23Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1248"
+          "url": "https://github.com/mujocolab/mjlab/pull/1237"
         },
         {
-          "id": "1247",
-          "number": 1247,
-          "title": "Auto-name unnamed non-free joints",
+          "id": "1254",
+          "number": 1254,
+          "title": "Apply apply_body_impulse's body_point_offset in the body frame",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-18T09:23:26Z",
+          "updated_at": "2026-10-18T12:10:25Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1247"
+          "url": "https://github.com/mujocolab/mjlab/pull/1254"
         },
         {
-          "id": "1246",
-          "number": 1246,
-          "title": "Match dm_control's small_control term in the cartpole reward",
+          "id": "1253",
+          "number": 1253,
+          "title": "Align posture std with asset_cfg's joint order",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-18T09:21:10Z",
+          "updated_at": "2026-10-18T12:08:52Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1246"
+          "url": "https://github.com/mujocolab/mjlab/pull/1253"
         },
         {
-          "id": "1218",
-          "number": 1218,
-          "title": "Preserve actuator delay state across partial resets",
+          "id": "1252",
+          "number": 1252,
+          "title": "Copy entity mesh files when exporting a scene",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-18T08:56:59Z",
+          "updated_at": "2026-10-18T12:04:40Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1218"
+          "url": "https://github.com/mujocolab/mjlab/pull/1252"
         }
       ],
       "issues": []
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-17T07:36:04Z",
+      "updated_at": "2026-10-18T14:05:20Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [

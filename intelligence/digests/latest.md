@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-18T11:13:35Z`
+Generated: `2026-10-18T15:55:18Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,27 +8,19 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `c1ad7f5aa033` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d)
+- Commit `2d50fb4ad316` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0)
 
 ### mujocolab/mjlab
 
-- Commit `6bec803bbf2f` [Trim #1241 and index keyframe qpos on device. (#1245)](https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3)
-- Commit `0bd96dcb8281` [Bump lockfile packages flagged by Dependabot. (#1244)](https://github.com/mujocolab/mjlab/commit/0bd96dcb8281ca5c24e5283725ee3b640abec5bd)
-- Commit `7d890b588e11` [Add GridPatternCfg.offset to shift the ray grid in frame-local XY. (#1235)](https://github.com/mujocolab/mjlab/commit/7d890b588e11ac3617550196cfb6041c184870ed)
-- Commit `79c40c4a23c1` [Accept per-axis resolution in GridPatternCfg. (#1234)](https://github.com/mujocolab/mjlab/commit/79c40c4a23c1d70b16921959ff280089bf5c7101)
-- Commit `2c786bc6a8cc` [Match MuJoCo's image layout in PinholeCameraPatternCfg rays. (#1243)](https://github.com/mujocolab/mjlab/commit/2c786bc6a8cc68ee4575b966536dd1193e6ed6c8)
-- Commit `a5b967f052a3` [Evaluate VideoRecorder episode_trigger only at episode start. (#1207)](https://github.com/mujocolab/mjlab/commit/a5b967f052a38b60265b12d47bbead93a166246e)
-- Commit `efb8696cdcc5` [Expose per-term rewards from RewardManager. (#1236)](https://github.com/mujocolab/mjlab/commit/efb8696cdcc596539542602cb600fb48807a01c9)
-- Commit `ed0a6d0f81a3` [Post-process only the matched subset in string-keyed DR ranges. (#1242)](https://github.com/mujocolab/mjlab/commit/ed0a6d0f81a3526b150f62e8c79b59440c2514d3)
-- PR #1249 [Lay heightfield rows along y](https://github.com/mujocolab/mjlab/pull/1249) — open
-- PR #1248 [Add TerrainEntity.set_terrain_levels](https://github.com/mujocolab/mjlab/pull/1248) — open
-- PR #1247 [Auto-name unnamed non-free joints](https://github.com/mujocolab/mjlab/pull/1247) — open
-- PR #1246 [Match dm_control's small_control term in the cartpole reward](https://github.com/mujocolab/mjlab/pull/1246) — open
-- PR #1218 [Preserve actuator delay state across partial resets](https://github.com/mujocolab/mjlab/pull/1218) — open
+- PR #1255 [Add HfMeshTerrainCfg to build heightfield terrain from a mesh file](https://github.com/mujocolab/mjlab/pull/1255) — open
+- PR #1237 [Add opt-in mixture mode for adaptive motion sampling](https://github.com/mujocolab/mjlab/pull/1237) — open
+- PR #1254 [Apply apply_body_impulse's body_point_offset in the body frame](https://github.com/mujocolab/mjlab/pull/1254) — open
+- PR #1253 [Align posture std with asset_cfg's joint order](https://github.com/mujocolab/mjlab/pull/1253) — open
+- PR #1252 [Copy entity mesh files when exporting a scene](https://github.com/mujocolab/mjlab/pull/1252) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [c1ad7f5aa033](https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d); pushed `2026-10-18T04:39:53Z`
+- **superobk/microduck-startup** `main` → [2d50fb4ad316](https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0); pushed `2026-10-18T11:13:52Z`
 - **pollen-robotics/microduck** `main` → [532304639270](https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f); pushed `2026-10-17T11:20:55Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
