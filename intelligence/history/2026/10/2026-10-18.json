@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T15:55:18Z",
+  "generated_at": "2026-10-18T20:48:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "2d50fb4ad316a2a206373fad226812da81f338b0",
-        "url": "https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0"
+        "sha": "08cce8fc2982910ac07308b62a455230471e6b35",
+        "url": "https://github.com/superobk/microduck-startup/commit/08cce8fc2982910ac07308b62a455230471e6b35"
       },
-      "updated_at": "2026-10-18T11:13:56Z",
-      "pushed_at": "2026-10-18T11:13:52Z",
+      "updated_at": "2026-10-18T15:55:39Z",
+      "pushed_at": "2026-10-18T15:55:35Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "08cce8fc2982910ac07308b62a455230471e6b35",
+          "sha": "08cce8fc2982910ac07308b62a455230471e6b35",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-18T15:55:34Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/08cce8fc2982910ac07308b62a455230471e6b35"
+        },
         {
           "id": "2d50fb4ad316a2a206373fad226812da81f338b0",
           "sha": "2d50fb4ad316a2a206373fad226812da81f338b0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-16T21:15:05Z",
           "url": "https://github.com/superobk/microduck-startup/commit/6f7ef8dbd73b2a9be59b041008df06ba837b4384"
-        },
-        {
-          "id": "995689c1f0c89075087f37bfea6ab21215e3072d",
-          "sha": "995689c1f0c89075087f37bfea6ab21215e3072d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-16T16:43:11Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/995689c1f0c89075087f37bfea6ab21215e3072d"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "53230463927095ea890f231d29089bb0a538c06f",
         "url": "https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f"
       },
-      "updated_at": "2026-10-18T15:43:24Z",
+      "updated_at": "2026-10-18T20:24:38Z",
       "pushed_at": "2026-10-17T11:20:55Z",
       "open_issues_count": 44,
       "commits": [
@@ -773,13 +773,61 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
-        "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
+        "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+        "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-18T11:43:48Z",
-      "pushed_at": "2026-10-18T06:59:43Z",
-      "open_issues_count": 51,
+      "updated_at": "2026-10-18T19:04:44Z",
+      "pushed_at": "2026-10-18T19:09:28Z",
+      "open_issues_count": 40,
       "commits": [
+        {
+          "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+          "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+          "message": "Lay heightfield rows along y. (#1249)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T19:04:39Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
+        },
+        {
+          "id": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
+          "sha": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
+          "message": "Align posture std with asset_cfg's joint order. (#1253)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T19:01:56Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/214cd5659ae98e7ddbfa0ec4a52ae00005ce564d"
+        },
+        {
+          "id": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
+          "sha": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
+          "message": "Apply apply_body_impulse's body_point_offset in the body frame. (#1254)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:57:47Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/c2af5037e6dd5286e715d1539f6a7e5d3f915e04"
+        },
+        {
+          "id": "aa9a119516fb870d4e188d069027a70ca5193cad",
+          "sha": "aa9a119516fb870d4e188d069027a70ca5193cad",
+          "message": "Fix per-dimension additive bias crashing on the first reset. (#1250)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:56:51Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/aa9a119516fb870d4e188d069027a70ca5193cad"
+        },
+        {
+          "id": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
+          "sha": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
+          "message": "Match dm_control's small_control term in the cartpole reward. (#1246)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:55:29Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/dd43fb90b055cd5ab4127035c8c23b8b106565d0"
+        },
+        {
+          "id": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
+          "sha": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
+          "message": "Copy entity mesh files when exporting a scene. (#1252)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:52:42Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/d47a04943d92afe440b35f0ad3e474f2e4cc05ce"
+        },
         {
           "id": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
           "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
@@ -795,54 +843,6 @@
           "author": "kevinzakka",
           "date": "2026-10-18T06:55:03Z",
           "url": "https://github.com/mujocolab/mjlab/commit/0bd96dcb8281ca5c24e5283725ee3b640abec5bd"
-        },
-        {
-          "id": "7d890b588e11ac3617550196cfb6041c184870ed",
-          "sha": "7d890b588e11ac3617550196cfb6041c184870ed",
-          "message": "Add GridPatternCfg.offset to shift the ray grid in frame-local XY. (#1235)",
-          "author": "louislelay",
-          "date": "2026-10-18T06:31:46Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/7d890b588e11ac3617550196cfb6041c184870ed"
-        },
-        {
-          "id": "79c40c4a23c1d70b16921959ff280089bf5c7101",
-          "sha": "79c40c4a23c1d70b16921959ff280089bf5c7101",
-          "message": "Accept per-axis resolution in GridPatternCfg. (#1234)",
-          "author": "louislelay",
-          "date": "2026-10-18T06:30:30Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/79c40c4a23c1d70b16921959ff280089bf5c7101"
-        },
-        {
-          "id": "2c786bc6a8cc68ee4575b966536dd1193e6ed6c8",
-          "sha": "2c786bc6a8cc68ee4575b966536dd1193e6ed6c8",
-          "message": "Match MuJoCo's image layout in PinholeCameraPatternCfg rays. (#1243)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T06:28:34Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/2c786bc6a8cc68ee4575b966536dd1193e6ed6c8"
-        },
-        {
-          "id": "a5b967f052a38b60265b12d47bbead93a166246e",
-          "sha": "a5b967f052a38b60265b12d47bbead93a166246e",
-          "message": "Evaluate VideoRecorder episode_trigger only at episode start. (#1207)",
-          "author": "Zhuoxi2000",
-          "date": "2026-10-18T06:27:46Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/a5b967f052a38b60265b12d47bbead93a166246e"
-        },
-        {
-          "id": "efb8696cdcc596539542602cb600fb48807a01c9",
-          "sha": "efb8696cdcc596539542602cb600fb48807a01c9",
-          "message": "Expose per-term rewards from RewardManager. (#1236)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T06:26:46Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/efb8696cdcc596539542602cb600fb48807a01c9"
-        },
-        {
-          "id": "ed0a6d0f81a3526b150f62e8c79b59440c2514d3",
-          "sha": "ed0a6d0f81a3526b150f62e8c79b59440c2514d3",
-          "message": "Post-process only the matched subset in string-keyed DR ranges. (#1242)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T06:25:07Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/ed0a6d0f81a3526b150f62e8c79b59440c2514d3"
         }
       ],
       "releases": [
@@ -873,54 +873,54 @@
       ],
       "pulls": [
         {
-          "id": "1255",
-          "number": 1255,
-          "title": "Add HfMeshTerrainCfg to build heightfield terrain from a mesh file",
-          "state": "open",
+          "id": "1195",
+          "number": 1195,
+          "title": "[Feature] Headless play viewer",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-18T13:21:52Z",
+          "updated_at": "2026-10-18T20:13:35Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1255"
+          "url": "https://github.com/mujocolab/mjlab/pull/1195"
         },
         {
           "id": "1237",
           "number": 1237,
           "title": "Add opt-in mixture mode for adaptive motion sampling",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-18T12:13:23Z",
+          "updated_at": "2026-10-18T19:08:04Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1237"
         },
         {
-          "id": "1254",
-          "number": 1254,
-          "title": "Apply apply_body_impulse's body_point_offset in the body frame",
-          "state": "open",
+          "id": "1248",
+          "number": 1248,
+          "title": "Add TerrainEntity.set_terrain_levels",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-18T12:10:25Z",
+          "updated_at": "2026-10-18T19:08:01Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1254"
+          "url": "https://github.com/mujocolab/mjlab/pull/1248"
         },
         {
-          "id": "1253",
-          "number": 1253,
-          "title": "Align posture std with asset_cfg's joint order",
-          "state": "open",
+          "id": "1247",
+          "number": 1247,
+          "title": "Auto-name unnamed non-free joints",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-18T12:08:52Z",
+          "updated_at": "2026-10-18T19:07:58Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1253"
+          "url": "https://github.com/mujocolab/mjlab/pull/1247"
         },
         {
-          "id": "1252",
-          "number": 1252,
-          "title": "Copy entity mesh files when exporting a scene",
-          "state": "open",
+          "id": "1251",
+          "number": 1251,
+          "title": "Let IdealPd effort limits be raised above the configured value",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-18T12:04:40Z",
+          "updated_at": "2026-10-18T19:07:56Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1252"
+          "url": "https://github.com/mujocolab/mjlab/pull/1251"
         }
       ],
       "issues": []
