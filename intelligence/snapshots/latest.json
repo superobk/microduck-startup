@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T20:39:35Z",
+  "generated_at": "2026-10-18T04:39:40Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
-        "url": "https://github.com/superobk/microduck-startup/commit/d84cb9b0c9fcf6c01c274f604214ed51f612eb03"
+        "sha": "dffc440a4a9e73375641c939fbca1caa48a6597d",
+        "url": "https://github.com/superobk/microduck-startup/commit/dffc440a4a9e73375641c939fbca1caa48a6597d"
       },
-      "updated_at": "2026-10-17T15:39:46Z",
-      "pushed_at": "2026-10-17T15:39:43Z",
+      "updated_at": "2026-10-17T20:39:58Z",
+      "pushed_at": "2026-10-17T20:39:55Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "dffc440a4a9e73375641c939fbca1caa48a6597d",
+          "sha": "dffc440a4a9e73375641c939fbca1caa48a6597d",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-17T20:39:53Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/dffc440a4a9e73375641c939fbca1caa48a6597d"
+        },
         {
           "id": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
           "sha": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-16T04:37:25Z",
           "url": "https://github.com/superobk/microduck-startup/commit/1f80a16c3ed4375d5b68343e85b9b7577c55ff0f"
-        },
-        {
-          "id": "10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1",
-          "sha": "10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-15T21:27:31Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/10a4ee91e40a310b2b6e5397d5b7687d79bd0aa1"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "53230463927095ea890f231d29089bb0a538c06f",
         "url": "https://github.com/pollen-robotics/microduck/commit/53230463927095ea890f231d29089bb0a538c06f"
       },
-      "updated_at": "2026-10-17T19:07:07Z",
+      "updated_at": "2026-10-18T04:17:09Z",
       "pushed_at": "2026-10-17T11:20:55Z",
       "open_issues_count": 44,
       "commits": [
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "127",
+          "number": 127,
+          "title": "Maploc: mapping & localization as a robotd-hosted subcrate — and why it never worked",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-17T23:51:00Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/127"
+        },
+        {
           "id": "426",
           "number": 426,
           "title": "Prepare release 0.17.7",
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-17T10:26:44Z",
           "merged_at": "2026-10-17T10:26:41Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/423"
-        },
-        {
-          "id": "422",
-          "number": 422,
-          "title": "Prepare release 0.17.5",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-17T10:04:25Z",
-          "merged_at": "2026-10-17T10:04:23Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/422"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-17T10:53:18Z",
+      "updated_at": "2026-10-18T02:57:32Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -454,7 +454,7 @@
         "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
         "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
       },
-      "updated_at": "2026-10-17T09:05:11Z",
+      "updated_at": "2026-10-18T04:00:36Z",
       "pushed_at": "2026-10-16T07:49:57Z",
       "open_issues_count": 38,
       "commits": [
@@ -644,7 +644,7 @@
         "sha": "2a1cc3c679bcef36d459626f818e67908b11cc16",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/2a1cc3c679bcef36d459626f818e67908b11cc16"
       },
-      "updated_at": "2026-10-16T07:24:35Z",
+      "updated_at": "2026-10-18T02:22:42Z",
       "pushed_at": "2026-10-16T07:24:33Z",
       "open_issues_count": 0,
       "commits": [
@@ -778,7 +778,7 @@
       },
       "updated_at": "2026-10-17T02:30:26Z",
       "pushed_at": "2026-10-17T10:12:29Z",
-      "open_issues_count": 61,
+      "open_issues_count": 67,
       "commits": [
         {
           "id": "45b1e263ec1c3c0d2c3211b458135d80bb7030df",
@@ -873,54 +873,54 @@
       ],
       "pulls": [
         {
-          "id": "1237",
-          "number": 1237,
-          "title": "Add opt-in mixture mode for adaptive motion sampling",
+          "id": "1243",
+          "number": 1243,
+          "title": "Match MuJoCo's image layout in PinholeCameraPatternCfg rays",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T20:08:55Z",
+          "updated_at": "2026-10-17T21:59:37Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1237"
+          "url": "https://github.com/mujocolab/mjlab/pull/1243"
         },
         {
-          "id": "1236",
-          "number": 1236,
-          "title": "Expose per-term rewards from RewardManager",
+          "id": "1242",
+          "number": 1242,
+          "title": "Post-process only the matched subset in string-keyed DR ranges",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T20:03:20Z",
+          "updated_at": "2026-10-17T21:57:02Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1236"
+          "url": "https://github.com/mujocolab/mjlab/pull/1242"
         },
         {
-          "id": "1155",
-          "number": 1155,
-          "title": "Add OneRobotics A1 project to mjlab project list",
+          "id": "1241",
+          "number": 1241,
+          "title": "Read the target cube position live in multi-cube lifting rewards",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-16T06:09:32Z",
+          "updated_at": "2026-10-17T21:51:10Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1155"
+          "url": "https://github.com/mujocolab/mjlab/pull/1241"
         },
         {
-          "id": "1235",
-          "number": 1235,
-          "title": "Add GridPatternCfg.offset to shift the ray grid in frame-local XY",
+          "id": "1240",
+          "number": 1240,
+          "title": "Don't score the post-reset robot in tracking evaluation",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-15T11:42:30Z",
+          "updated_at": "2026-10-17T21:47:21Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1235"
+          "url": "https://github.com/mujocolab/mjlab/pull/1240"
         },
         {
-          "id": "1234",
-          "number": 1234,
-          "title": "Accept per-axis resolution in GridPatternCfg",
+          "id": "1239",
+          "number": 1239,
+          "title": "Fix write_mocap_pose_to_sim for all envs",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-15T11:40:32Z",
+          "updated_at": "2026-10-17T21:43:07Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1234"
+          "url": "https://github.com/mujocolab/mjlab/pull/1239"
         }
       ],
       "issues": []
