@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T11:44:17Z",
+  "generated_at": "2026-10-20T17:13:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "e7f64c763332c86b37af04b392225c77647ab0c9",
-        "url": "https://github.com/superobk/microduck-startup/commit/e7f64c763332c86b37af04b392225c77647ab0c9"
+        "sha": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
+        "url": "https://github.com/superobk/microduck-startup/commit/bcc44c853325d9aac3011c9206b68c2c7fc673fb"
       },
-      "updated_at": "2026-10-20T04:56:15Z",
-      "pushed_at": "2026-10-20T04:56:11Z",
+      "updated_at": "2026-10-20T11:44:43Z",
+      "pushed_at": "2026-10-20T11:44:39Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
+          "sha": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-20T11:44:38Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/bcc44c853325d9aac3011c9206b68c2c7fc673fb"
+        },
         {
           "id": "e7f64c763332c86b37af04b392225c77647ab0c9",
           "sha": "e7f64c763332c86b37af04b392225c77647ab0c9",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-18T11:13:51Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0"
-        },
-        {
-          "id": "c1ad7f5aa03340027732065409322817d471b05d",
-          "sha": "c1ad7f5aa03340027732065409322817d471b05d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-18T04:39:52Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-20T10:38:44Z",
-      "pushed_at": "2026-10-20T11:24:48Z",
+      "updated_at": "2026-10-20T16:26:54Z",
+      "pushed_at": "2026-10-20T12:53:55Z",
       "open_issues_count": 43,
       "commits": [
         {
@@ -170,10 +170,10 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mpegts_udp"
         },
         {
-          "id": "418313392",
+          "id": "418397814",
           "tag": "daemon-dev-demo_antoine",
-          "name": "daemon 0.17.8-dev.1427.4ee8bcd (demo_antoine)",
-          "published_at": "2026-10-20T11:18:07Z",
+          "name": "daemon 0.17.8-dev.1429.cbd07c9 (demo_antoine)",
+          "published_at": "2026-10-20T12:53:56Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-demo_antoine"
         },
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-20T10:07:36Z",
+      "updated_at": "2026-10-20T15:46:29Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -454,7 +454,7 @@
         "sha": "36854c788bbe38b2397e0954813ebe8b16e60983",
         "url": "https://github.com/fanhao375/microduck-replica/commit/36854c788bbe38b2397e0954813ebe8b16e60983"
       },
-      "updated_at": "2026-10-20T10:38:34Z",
+      "updated_at": "2026-10-20T14:05:53Z",
       "pushed_at": "2026-10-20T06:08:27Z",
       "open_issues_count": 38,
       "commits": [
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-20T11:34:42Z",
+      "updated_at": "2026-10-20T14:57:19Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [
