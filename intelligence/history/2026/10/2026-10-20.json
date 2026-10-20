@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T04:55:58Z",
+  "generated_at": "2026-10-20T11:44:17Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "232e92d2854d5c5f381592add2c95801161b2b9a",
-        "url": "https://github.com/superobk/microduck-startup/commit/232e92d2854d5c5f381592add2c95801161b2b9a"
+        "sha": "e7f64c763332c86b37af04b392225c77647ab0c9",
+        "url": "https://github.com/superobk/microduck-startup/commit/e7f64c763332c86b37af04b392225c77647ab0c9"
       },
-      "updated_at": "2026-10-19T22:24:07Z",
-      "pushed_at": "2026-10-19T22:24:03Z",
+      "updated_at": "2026-10-20T04:56:15Z",
+      "pushed_at": "2026-10-20T04:56:11Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "e7f64c763332c86b37af04b392225c77647ab0c9",
+          "sha": "e7f64c763332c86b37af04b392225c77647ab0c9",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-20T04:56:10Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/e7f64c763332c86b37af04b392225c77647ab0c9"
+        },
         {
           "id": "232e92d2854d5c5f381592add2c95801161b2b9a",
           "sha": "232e92d2854d5c5f381592add2c95801161b2b9a",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-18T04:39:52Z",
           "url": "https://github.com/superobk/microduck-startup/commit/c1ad7f5aa03340027732065409322817d471b05d"
-        },
-        {
-          "id": "dffc440a4a9e73375641c939fbca1caa48a6597d",
-          "sha": "dffc440a4a9e73375641c939fbca1caa48a6597d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-17T20:39:53Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/dffc440a4a9e73375641c939fbca1caa48a6597d"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-20T04:36:36Z",
-      "pushed_at": "2026-10-19T21:04:30Z",
+      "updated_at": "2026-10-20T10:38:44Z",
+      "pushed_at": "2026-10-20T11:24:48Z",
       "open_issues_count": 43,
       "commits": [
         {
@@ -162,28 +162,28 @@
       ],
       "releases": [
         {
+          "id": "418295427",
+          "tag": "daemon-dev-mpegts_udp",
+          "name": "daemon 0.17.8-dev.1422.764b98f (mpegts_udp)",
+          "published_at": "2026-10-20T10:56:11Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mpegts_udp"
+        },
+        {
+          "id": "418313392",
+          "tag": "daemon-dev-demo_antoine",
+          "name": "daemon 0.17.8-dev.1427.4ee8bcd (demo_antoine)",
+          "published_at": "2026-10-20T11:18:07Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-demo_antoine"
+        },
+        {
           "id": "417386322",
           "tag": "daemon-v0.17.8",
           "name": "daemon 0.17.8",
           "published_at": "2026-10-19T14:24:43Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.8"
-        },
-        {
-          "id": "417377351",
-          "tag": "daemon-v0.17.7",
-          "name": "daemon 0.17.7",
-          "published_at": "2026-10-19T14:16:21Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.17.7"
-        },
-        {
-          "id": "417383225",
-          "tag": "daemon-dev-prepare-release-0.17.8",
-          "name": "daemon 0.17.8-dev.1413.736408a (prepare-release-0.17.8)",
-          "published_at": "2026-10-19T14:21:57Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-prepare-release-0.17.8"
         }
       ],
       "pulls": [
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-20T02:41:06Z",
+      "updated_at": "2026-10-20T10:07:36Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -325,7 +325,7 @@
           "title": "feat: Windows 10 support  ",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-16T08:47:08Z",
+          "updated_at": "2026-10-20T09:27:15Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/77"
         },
@@ -413,7 +413,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-10-19T09:29:27Z",
+      "updated_at": "2026-10-20T10:07:59Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -451,13 +451,45 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/61a13b2f09c356dc806c14c4d3498ee049e7e1de"
+        "sha": "36854c788bbe38b2397e0954813ebe8b16e60983",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/36854c788bbe38b2397e0954813ebe8b16e60983"
       },
-      "updated_at": "2026-10-20T03:13:18Z",
-      "pushed_at": "2026-10-20T03:11:52Z",
+      "updated_at": "2026-10-20T10:38:34Z",
+      "pushed_at": "2026-10-20T06:08:27Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "36854c788bbe38b2397e0954813ebe8b16e60983",
+          "sha": "36854c788bbe38b2397e0954813ebe8b16e60983",
+          "message": "README: 复刻镜像预发布的下载入口，加回 software/image 的链接",
+          "author": "fanhao375",
+          "date": "2026-10-20T06:08:25Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/36854c788bbe38b2397e0954813ebe8b16e60983"
+        },
+        {
+          "id": "7248ce7bfd76afb7515856c3bdc77be97ff21b98",
+          "sha": "7248ce7bfd76afb7515856c3bdc77be97ff21b98",
+          "message": "docs: 软件一览；LICENSE / NOTICE 补上 Studio 和镜像；鸭子上用的文件定 LF",
+          "author": "fanhao375",
+          "date": "2026-10-20T05:56:04Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7248ce7bfd76afb7515856c3bdc77be97ff21b98"
+        },
+        {
+          "id": "24a26709712b33c40a766f3ab5912dbea586e449",
+          "sha": "24a26709712b33c40a766f3ab5912dbea586e449",
+          "message": "software/image: 复刻镜像的构建脚本、首次开机和配网、用户手册",
+          "author": "fanhao375",
+          "date": "2026-10-20T05:56:04Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/24a26709712b33c40a766f3ab5912dbea586e449"
+        },
+        {
+          "id": "7a050c16b2bf050e06c0fac46d27175120b280d3",
+          "sha": "7a050c16b2bf050e06c0fac46d27175120b280d3",
+          "message": "software/studio: 出厂标定模式、IMU 粗校、写进主程序、连 WiFi、手机上的日志和登录密码",
+          "author": "fanhao375",
+          "date": "2026-10-20T05:56:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7a050c16b2bf050e06c0fac46d27175120b280d3"
+        },
         {
           "id": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
           "sha": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
@@ -489,41 +521,17 @@
           "author": "fanhao375",
           "date": "2026-10-19T16:59:07Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/06f5a09bd98ff0dbf1e799adb16be084d3ef0618"
-        },
-        {
-          "id": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
-          "sha": "60c7a87ade422d713ed5cb282338e5a0007a82e2",
-          "message": "README: 换上鸭子复刻群 11 的二维码（2026-10-23 前有效）",
-          "author": "fanhao375",
-          "date": "2026-10-16T07:48:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/60c7a87ade422d713ed5cb282338e5a0007a82e2"
-        },
-        {
-          "id": "2b734d5b472688607f5eb80314d3c603eef27094",
-          "sha": "2b734d5b472688607f5eb80314d3c603eef27094",
-          "message": "README: the electronics card leads with the 10-15 walk (5 s video, GIF preview)",
-          "author": "fanhao375",
-          "date": "2026-10-15T12:15:24Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2b734d5b472688607f5eb80314d3c603eef27094"
-        },
-        {
-          "id": "06822f1231f2f6a849b499708037c18b50c8ea97",
-          "sha": "06822f1231f2f6a849b499708037c18b50c8ea97",
-          "message": "docs: 10-15 — the BNO085's own orientation jumps when walking; robotd's gyro fusion makes the duck walk",
-          "author": "fanhao375",
-          "date": "2026-10-15T12:03:01Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/06822f1231f2f6a849b499708037c18b50c8ea97"
-        },
-        {
-          "id": "1a2936849b47e638dfc596996026f047dcfb5b05",
-          "sha": "1a2936849b47e638dfc596996026f047dcfb5b05",
-          "message": "README: the fork's status line in normal type instead of small print",
-          "author": "fanhao375",
-          "date": "2026-10-14T10:05:40Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/1a2936849b47e638dfc596996026f047dcfb5b05"
         }
       ],
       "releases": [
+        {
+          "id": "418058728",
+          "tag": "microduck-replica-image-20261020",
+          "name": "复刻镜像 20261020 · 烧卡开机就能用（预发布，待真机验收）",
+          "published_at": "2026-10-20T06:08:10Z",
+          "prerelease": true,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261020"
+        },
         {
           "id": "398369861",
           "tag": "radxa-zero3w-armbian-20260929",
@@ -539,14 +547,6 @@
           "published_at": "2026-09-20T03:24:06Z",
           "prerelease": false,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/radxa-zero3w-armbian-20260920"
-        },
-        {
-          "id": "380306235",
-          "tag": "v1.0",
-          "name": "v1.0 — 装配图与 CAD 装配体 / Assembly drawings and CAD",
-          "published_at": "2026-09-01T07:53:32Z",
-          "prerelease": false,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/v1.0"
         }
       ],
       "pulls": [
@@ -556,7 +556,7 @@
           "title": "增加 IMU 的 DXL 2.0 协议兼容",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-17T03:15:10Z",
+          "updated_at": "2026-10-20T06:55:34Z",
           "merged_at": null,
           "url": "https://github.com/fanhao375/microduck-replica/pull/47"
         },
@@ -776,7 +776,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-20T03:32:37Z",
+      "updated_at": "2026-10-20T10:03:19Z",
       "pushed_at": "2026-10-18T19:09:28Z",
       "open_issues_count": 41,
       "commits": [
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-20T03:20:50Z",
+      "updated_at": "2026-10-20T11:34:42Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [
