@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T17:13:37Z",
+  "generated_at": "2026-10-20T21:40:21Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
-        "url": "https://github.com/superobk/microduck-startup/commit/bcc44c853325d9aac3011c9206b68c2c7fc673fb"
+        "sha": "d04eaa295749154f556998835bb4daf1ceea5fab",
+        "url": "https://github.com/superobk/microduck-startup/commit/d04eaa295749154f556998835bb4daf1ceea5fab"
       },
-      "updated_at": "2026-10-20T11:44:43Z",
-      "pushed_at": "2026-10-20T11:44:39Z",
+      "updated_at": "2026-10-20T17:13:58Z",
+      "pushed_at": "2026-10-20T17:13:52Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d04eaa295749154f556998835bb4daf1ceea5fab",
+          "sha": "d04eaa295749154f556998835bb4daf1ceea5fab",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-20T17:13:51Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d04eaa295749154f556998835bb4daf1ceea5fab"
+        },
         {
           "id": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
           "sha": "bcc44c853325d9aac3011c9206b68c2c7fc673fb",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-18T15:55:34Z",
           "url": "https://github.com/superobk/microduck-startup/commit/08cce8fc2982910ac07308b62a455230471e6b35"
-        },
-        {
-          "id": "2d50fb4ad316a2a206373fad226812da81f338b0",
-          "sha": "2d50fb4ad316a2a206373fad226812da81f338b0",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-18T11:13:51Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/2d50fb4ad316a2a206373fad226812da81f338b0"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-20T16:26:54Z",
+      "updated_at": "2026-10-20T19:12:00Z",
       "pushed_at": "2026-10-20T12:53:55Z",
       "open_issues_count": 43,
       "commits": [
@@ -451,13 +451,53 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "36854c788bbe38b2397e0954813ebe8b16e60983",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/36854c788bbe38b2397e0954813ebe8b16e60983"
+        "sha": "0b09055a5f19d0dde2a61ca0efce630466bb8cf4",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0b09055a5f19d0dde2a61ca0efce630466bb8cf4"
       },
-      "updated_at": "2026-10-20T14:05:53Z",
-      "pushed_at": "2026-10-20T06:08:27Z",
+      "updated_at": "2026-10-20T18:45:56Z",
+      "pushed_at": "2026-10-20T18:48:17Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "0b09055a5f19d0dde2a61ca0efce630466bb8cf4",
+          "sha": "0b09055a5f19d0dde2a61ca0efce630466bb8cf4",
+          "message": "README: 20261021 这一版加了 SSH 开关",
+          "author": "fanhao375",
+          "date": "2026-10-20T18:37:08Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0b09055a5f19d0dde2a61ca0efce630466bb8cf4"
+        },
+        {
+          "id": "221939a1fb52dc8987e7d98ca407f10503591c4f",
+          "sha": "221939a1fb52dc8987e7d98ca407f10503591c4f",
+          "message": "Studio「更多」页的 SSH 开关：用户自己定密码再打开；小助手 0.6.0",
+          "author": "fanhao375",
+          "date": "2026-10-20T18:36:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/221939a1fb52dc8987e7d98ca407f10503591c4f"
+        },
+        {
+          "id": "57a207f7d2872b4df86505a4306cf642ed10ef4e",
+          "sha": "57a207f7d2872b4df86505a4306cf642ed10ef4e",
+          "message": "docs: 复刻镜像 20261021 的下载入口和最近更新；踩坑记录补上 10-20～21 真机验收的几条",
+          "author": "fanhao375",
+          "date": "2026-10-20T18:16:08Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/57a207f7d2872b4df86505a4306cf642ed10ef4e"
+        },
+        {
+          "id": "b43de55311773bcef311d56bb49df6e69eed9343",
+          "sha": "b43de55311773bcef311d56bb49df6e69eed9343",
+          "message": "software/image: SSH 主机钥匙开机补生成、验收卡可带开发钥匙、手册按设备给地址和站姿使能",
+          "author": "fanhao375",
+          "date": "2026-10-20T18:00:18Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/b43de55311773bcef311d56bb49df6e69eed9343"
+        },
+        {
+          "id": "bb4f5179ea04d1d641b76fb20fce03952e55cd36",
+          "sha": "bb4f5179ea04d1d641b76fb20fce03952e55cd36",
+          "message": "software/studio: 上手清单每步都能跳过、标定模式站姿使能、跳过 IMU 按默认装法写、连 WiFi 自动跳",
+          "author": "fanhao375",
+          "date": "2026-10-20T18:00:18Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/bb4f5179ea04d1d641b76fb20fce03952e55cd36"
+        },
         {
           "id": "36854c788bbe38b2397e0954813ebe8b16e60983",
           "sha": "36854c788bbe38b2397e0954813ebe8b16e60983",
@@ -481,49 +521,17 @@
           "author": "fanhao375",
           "date": "2026-10-20T05:56:04Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/24a26709712b33c40a766f3ab5912dbea586e449"
-        },
-        {
-          "id": "7a050c16b2bf050e06c0fac46d27175120b280d3",
-          "sha": "7a050c16b2bf050e06c0fac46d27175120b280d3",
-          "message": "software/studio: 出厂标定模式、IMU 粗校、写进主程序、连 WiFi、手机上的日志和登录密码",
-          "author": "fanhao375",
-          "date": "2026-10-20T05:56:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7a050c16b2bf050e06c0fac46d27175120b280d3"
-        },
-        {
-          "id": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
-          "sha": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
-          "message": "README: the new boards as a list, not a table, so the cards keep two columns",
-          "author": "fanhao375",
-          "date": "2026-10-20T03:11:50Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/61a13b2f09c356dc806c14c4d3498ee049e7e1de"
-        },
-        {
-          "id": "c4396fa70dc420e76ab9e33612c9d8ec1586b261",
-          "sha": "c4396fa70dc420e76ab9e33612c9d8ec1586b261",
-          "message": "README: Studio + replica image in the software card, the new boards in the electronics card, updates moved below the community projects",
-          "author": "fanhao375",
-          "date": "2026-10-20T03:07:35Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c4396fa70dc420e76ab9e33612c9d8ec1586b261"
-        },
-        {
-          "id": "71e45b1690f4cdd435577bb1312699107914fae2",
-          "sha": "71e45b1690f4cdd435577bb1312699107914fae2",
-          "message": "hardware: add the 2026-10 boards (bus IMU v2, servo bus hub, battery board)",
-          "author": "fanhao375",
-          "date": "2026-10-19T16:54:05Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/71e45b1690f4cdd435577bb1312699107914fae2"
-        },
-        {
-          "id": "06f5a09bd98ff0dbf1e799adb16be084d3ef0618",
-          "sha": "06f5a09bd98ff0dbf1e799adb16be084d3ef0618",
-          "message": "software/studio: Microduck Studio 第一版（网页中控）",
-          "author": "fanhao375",
-          "date": "2026-10-19T16:59:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/06f5a09bd98ff0dbf1e799adb16be084d3ef0618"
         }
       ],
       "releases": [
+        {
+          "id": "418744434",
+          "tag": "microduck-replica-image-20261021",
+          "name": "复刻镜像 20261021 · 烧卡开机就能用（预发布，真机验收中）",
+          "published_at": "2026-10-20T18:48:17Z",
+          "prerelease": true,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261021"
+        },
         {
           "id": "418058728",
           "tag": "microduck-replica-image-20261020",
@@ -539,14 +547,6 @@
           "published_at": "2026-09-28T15:25:24Z",
           "prerelease": true,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/radxa-zero3w-armbian-20260929"
-        },
-        {
-          "id": "392298278",
-          "tag": "radxa-zero3w-armbian-20260920",
-          "name": "Radxa Zero 3W V1.12 · Armbian 26.2.1（首登 root/1234，旧镜像需补 DHCP）",
-          "published_at": "2026-09-20T03:24:06Z",
-          "prerelease": false,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/radxa-zero3w-armbian-20260920"
         }
       ],
       "pulls": [
@@ -776,7 +776,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-20T10:03:19Z",
+      "updated_at": "2026-10-20T18:25:37Z",
       "pushed_at": "2026-10-18T19:09:28Z",
       "open_issues_count": 41,
       "commits": [
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-20T14:57:19Z",
+      "updated_at": "2026-10-20T18:24:55Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [
