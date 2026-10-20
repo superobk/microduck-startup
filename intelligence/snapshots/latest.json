@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:23:46Z",
+  "generated_at": "2026-10-20T04:55:58Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "6d943f8071007a8af0ca779097ab313987d6cbd9",
-        "url": "https://github.com/superobk/microduck-startup/commit/6d943f8071007a8af0ca779097ab313987d6cbd9"
+        "sha": "232e92d2854d5c5f381592add2c95801161b2b9a",
+        "url": "https://github.com/superobk/microduck-startup/commit/232e92d2854d5c5f381592add2c95801161b2b9a"
       },
-      "updated_at": "2026-10-19T13:25:20Z",
-      "pushed_at": "2026-10-19T13:25:15Z",
+      "updated_at": "2026-10-19T22:24:07Z",
+      "pushed_at": "2026-10-19T22:24:03Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "232e92d2854d5c5f381592add2c95801161b2b9a",
+          "sha": "232e92d2854d5c5f381592add2c95801161b2b9a",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-19T22:24:02Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/232e92d2854d5c5f381592add2c95801161b2b9a"
+        },
         {
           "id": "6d943f8071007a8af0ca779097ab313987d6cbd9",
           "sha": "6d943f8071007a8af0ca779097ab313987d6cbd9",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-17T20:39:53Z",
           "url": "https://github.com/superobk/microduck-startup/commit/dffc440a4a9e73375641c939fbca1caa48a6597d"
-        },
-        {
-          "id": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
-          "sha": "d84cb9b0c9fcf6c01c274f604214ed51f612eb03",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-17T15:39:42Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/d84cb9b0c9fcf6c01c274f604214ed51f612eb03"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-19T21:12:27Z",
+      "updated_at": "2026-10-20T04:36:36Z",
       "pushed_at": "2026-10-19T21:04:30Z",
       "open_issues_count": 43,
       "commits": [
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "287",
+          "number": 287,
+          "title": "The clock bridge gets a reader, and states what its bound is worth",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-20T03:47:09Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/287"
+        },
+        {
           "id": "429",
           "number": 429,
           "title": "Dev",
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-19T14:15:37Z",
           "merged_at": "2026-10-19T14:15:34Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/426"
-        },
-        {
-          "id": "127",
-          "number": 127,
-          "title": "Maploc: mapping & localization as a robotd-hosted subcrate — and why it never worked",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-17T23:51:00Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/127"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-19T18:34:04Z",
+      "updated_at": "2026-10-20T02:41:06Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -451,13 +451,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "71e45b1690f4cdd435577bb1312699107914fae2",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/71e45b1690f4cdd435577bb1312699107914fae2"
+        "sha": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/61a13b2f09c356dc806c14c4d3498ee049e7e1de"
       },
-      "updated_at": "2026-10-19T18:58:06Z",
-      "pushed_at": "2026-10-19T17:01:58Z",
+      "updated_at": "2026-10-20T03:13:18Z",
+      "pushed_at": "2026-10-20T03:11:52Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
+          "sha": "61a13b2f09c356dc806c14c4d3498ee049e7e1de",
+          "message": "README: the new boards as a list, not a table, so the cards keep two columns",
+          "author": "fanhao375",
+          "date": "2026-10-20T03:11:50Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/61a13b2f09c356dc806c14c4d3498ee049e7e1de"
+        },
+        {
+          "id": "c4396fa70dc420e76ab9e33612c9d8ec1586b261",
+          "sha": "c4396fa70dc420e76ab9e33612c9d8ec1586b261",
+          "message": "README: Studio + replica image in the software card, the new boards in the electronics card, updates moved below the community projects",
+          "author": "fanhao375",
+          "date": "2026-10-20T03:07:35Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c4396fa70dc420e76ab9e33612c9d8ec1586b261"
+        },
         {
           "id": "71e45b1690f4cdd435577bb1312699107914fae2",
           "sha": "71e45b1690f4cdd435577bb1312699107914fae2",
@@ -505,22 +521,6 @@
           "author": "fanhao375",
           "date": "2026-10-14T10:05:40Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/1a2936849b47e638dfc596996026f047dcfb5b05"
-        },
-        {
-          "id": "d04d30138783d862414789e1c989129b7becbd4b",
-          "sha": "d04d30138783d862414789e1c989129b7becbd4b",
-          "message": "README: the software card leads with our fork (IMU module straight on the board)",
-          "author": "fanhao375",
-          "date": "2026-10-14T09:57:22Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/d04d30138783d862414789e1c989129b7becbd4b"
-        },
-        {
-          "id": "ba3d7810a69980fca8d32018e208a1ee482ba3da",
-          "sha": "ba3d7810a69980fca8d32018e208a1ee482ba3da",
-          "message": "docs: announce the public fork with IMU modules over I2C for kissqy's V167",
-          "author": "fanhao375",
-          "date": "2026-10-14T09:35:27Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/ba3d7810a69980fca8d32018e208a1ee482ba3da"
         }
       ],
       "releases": [
@@ -776,7 +776,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-19T16:42:00Z",
+      "updated_at": "2026-10-20T03:32:37Z",
       "pushed_at": "2026-10-18T19:09:28Z",
       "open_issues_count": 41,
       "commits": [
@@ -873,6 +873,26 @@
       ],
       "pulls": [
         {
+          "id": "1218",
+          "number": 1218,
+          "title": "Preserve actuator delay state across partial resets",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-20T04:14:34Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1218"
+        },
+        {
+          "id": "1230",
+          "number": 1230,
+          "title": "Add opt-in substep observation delay",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-20T02:20:30Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1230"
+        },
+        {
           "id": "1256",
           "number": 1256,
           "title": "Apply MaterialCfg to every matched geom, including unnamed ones",
@@ -901,26 +921,6 @@
           "updated_at": "2026-10-18T19:08:04Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1237"
-        },
-        {
-          "id": "1248",
-          "number": 1248,
-          "title": "Add TerrainEntity.set_terrain_levels",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-18T19:08:01Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1248"
-        },
-        {
-          "id": "1247",
-          "number": 1247,
-          "title": "Auto-name unnamed non-free joints",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-18T19:07:58Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1247"
         }
       ],
       "issues": []
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-19T12:34:50Z",
+      "updated_at": "2026-10-20T03:20:50Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 8,
       "commits": [
