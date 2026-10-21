@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-21T17:15:58Z`
+Generated: `2026-10-21T21:45:59Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,25 +8,11 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `084a65c626aa` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/084a65c626aa3a3032ca80039d30313c17563857)
-
-### pollen-robotics/microduck
-
-- Release [daemon 0.14.1-dev.1430.b0d9466 (mediad-no-downscale)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-no-downscale) (prerelease)
-- PR #431 [mediad: lower the frame rate on a weak link, never the resolution](https://github.com/pollen-robotics/microduck/pull/431) — open
-
-### mujocolab/mjlab
-
-- PR #1258 [Upload exported ONNX policies through the log writer.](https://github.com/mujocolab/mjlab/pull/1258) — open
-- PR #1257 [Accept custom rsl-rl log writers in the runner config.](https://github.com/mujocolab/mjlab/pull/1257) — open
-
-### leggedrobotics/rsl_rl
-
-- PR #248 [Fix logging writer lifecycle and duplicate uploads](https://github.com/leggedrobotics/rsl_rl/pull/248) — open
+- Commit `098a9a6f08f5` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/098a9a6f08f5de8db3f4568de8131c2f51c0610e)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [084a65c626aa](https://github.com/superobk/microduck-startup/commit/084a65c626aa3a3032ca80039d30313c17563857); pushed `2026-10-21T11:56:27Z`
+- **superobk/microduck-startup** `main` → [098a9a6f08f5](https://github.com/superobk/microduck-startup/commit/098a9a6f08f5de8db3f4568de8131c2f51c0610e); pushed `2026-10-21T17:16:16Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-21T16:08:31Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
