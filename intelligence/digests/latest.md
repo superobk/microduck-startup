@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-20T21:40:21Z`
+Generated: `2026-10-21T04:55:11Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,20 +8,11 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `d04eaa295749` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d04eaa295749154f556998835bb4daf1ceea5fab)
-
-### fanhao375/microduck-replica
-
-- Release [复刻镜像 20261021 · 烧卡开机就能用（预发布，真机验收中）](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261021) (prerelease)
-- Commit `0b09055a5f19` [README: 20261021 这一版加了 SSH 开关](https://github.com/fanhao375/microduck-replica/commit/0b09055a5f19d0dde2a61ca0efce630466bb8cf4)
-- Commit `221939a1fb52` [Studio「更多」页的 SSH 开关：用户自己定密码再打开；小助手 0.6.0](https://github.com/fanhao375/microduck-replica/commit/221939a1fb52dc8987e7d98ca407f10503591c4f)
-- Commit `57a207f7d287` [docs: 复刻镜像 20261021 的下载入口和最近更新；踩坑记录补上 10-20～21 真机验收的几条](https://github.com/fanhao375/microduck-replica/commit/57a207f7d2872b4df86505a4306cf642ed10ef4e)
-- Commit `b43de5531177` [software/image: SSH 主机钥匙开机补生成、验收卡可带开发钥匙、手册按设备给地址和站姿使能](https://github.com/fanhao375/microduck-replica/commit/b43de55311773bcef311d56bb49df6e69eed9343)
-- Commit `bb4f5179ea04` [software/studio: 上手清单每步都能跳过、标定模式站姿使能、跳过 IMU 按默认装法写、连 WiFi 自动跳](https://github.com/fanhao375/microduck-replica/commit/bb4f5179ea04d1d641b76fb20fce03952e55cd36)
+- Commit `7659368fbef6` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/7659368fbef61ed6a29851286a33f205db329816)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [d04eaa295749](https://github.com/superobk/microduck-startup/commit/d04eaa295749154f556998835bb4daf1ceea5fab); pushed `2026-10-20T17:13:52Z`
+- **superobk/microduck-startup** `main` → [7659368fbef6](https://github.com/superobk/microduck-startup/commit/7659368fbef61ed6a29851286a33f205db329816); pushed `2026-10-20T21:40:42Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-20T12:53:55Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
