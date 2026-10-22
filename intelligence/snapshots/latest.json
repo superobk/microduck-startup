@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T21:45:59Z",
+  "generated_at": "2026-10-22T04:55:18Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "098a9a6f08f5de8db3f4568de8131c2f51c0610e",
-        "url": "https://github.com/superobk/microduck-startup/commit/098a9a6f08f5de8db3f4568de8131c2f51c0610e"
+        "sha": "438492a7fb3888467ce18e1f7e41ce612d5634ab",
+        "url": "https://github.com/superobk/microduck-startup/commit/438492a7fb3888467ce18e1f7e41ce612d5634ab"
       },
-      "updated_at": "2026-10-21T17:16:21Z",
-      "pushed_at": "2026-10-21T17:16:16Z",
+      "updated_at": "2026-10-21T21:46:19Z",
+      "pushed_at": "2026-10-21T21:46:15Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "438492a7fb3888467ce18e1f7e41ce612d5634ab",
+          "sha": "438492a7fb3888467ce18e1f7e41ce612d5634ab",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-21T21:46:13Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/438492a7fb3888467ce18e1f7e41ce612d5634ab"
+        },
         {
           "id": "098a9a6f08f5de8db3f4568de8131c2f51c0610e",
           "sha": "098a9a6f08f5de8db3f4568de8131c2f51c0610e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-20T04:56:10Z",
           "url": "https://github.com/superobk/microduck-startup/commit/e7f64c763332c86b37af04b392225c77647ab0c9"
-        },
-        {
-          "id": "232e92d2854d5c5f381592add2c95801161b2b9a",
-          "sha": "232e92d2854d5c5f381592add2c95801161b2b9a",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-19T22:24:02Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/232e92d2854d5c5f381592add2c95801161b2b9a"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-21T21:39:27Z",
+      "updated_at": "2026-10-22T04:54:28Z",
       "pushed_at": "2026-10-21T16:08:31Z",
       "open_issues_count": 45,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-21T21:41:34Z",
+      "updated_at": "2026-10-22T03:40:43Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -463,7 +463,7 @@
         "sha": "39065e3db2c36223bc572c63a59d2aa91e205248",
         "url": "https://github.com/fanhao375/microduck-replica/commit/39065e3db2c36223bc572c63a59d2aa91e205248"
       },
-      "updated_at": "2026-10-21T17:34:45Z",
+      "updated_at": "2026-10-22T04:05:49Z",
       "pushed_at": "2026-10-21T06:15:52Z",
       "open_issues_count": 38,
       "commits": [
@@ -785,9 +785,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-21T18:27:03Z",
+      "updated_at": "2026-10-22T02:16:08Z",
       "pushed_at": "2026-10-21T14:53:02Z",
-      "open_issues_count": 43,
+      "open_issues_count": 44,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -882,6 +882,16 @@
       ],
       "pulls": [
         {
+          "id": "1260",
+          "number": 1260,
+          "title": "Add vssinghh/so101-mjlab to community projects.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-21T21:59:02Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1260"
+        },
+        {
           "id": "1258",
           "number": 1258,
           "title": "Upload exported ONNX policies through the log writer.",
@@ -920,16 +930,6 @@
           "updated_at": "2026-10-20T02:20:30Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1230"
-        },
-        {
-          "id": "1256",
-          "number": 1256,
-          "title": "Apply MaterialCfg to every matched geom, including unnamed ones",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-19T16:51:54Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1256"
         }
       ],
       "issues": []
@@ -942,7 +942,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-21T14:51:48Z",
+      "updated_at": "2026-10-22T02:32:19Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 9,
       "commits": [
