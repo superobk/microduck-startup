@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T17:12:39Z",
+  "generated_at": "2026-10-23T21:27:19Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "47fc8c99f63030cf7994ad580c767e3281136f06",
-        "url": "https://github.com/superobk/microduck-startup/commit/47fc8c99f63030cf7994ad580c767e3281136f06"
+        "sha": "746497d0697245738e21352f5894c43eca414de6",
+        "url": "https://github.com/superobk/microduck-startup/commit/746497d0697245738e21352f5894c43eca414de6"
       },
-      "updated_at": "2026-10-23T11:44:48Z",
-      "pushed_at": "2026-10-23T11:44:44Z",
+      "updated_at": "2026-10-23T17:13:01Z",
+      "pushed_at": "2026-10-23T17:12:56Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "746497d0697245738e21352f5894c43eca414de6",
+          "sha": "746497d0697245738e21352f5894c43eca414de6",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-23T17:12:55Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/746497d0697245738e21352f5894c43eca414de6"
+        },
         {
           "id": "47fc8c99f63030cf7994ad580c767e3281136f06",
           "sha": "47fc8c99f63030cf7994ad580c767e3281136f06",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-21T21:46:13Z",
           "url": "https://github.com/superobk/microduck-startup/commit/438492a7fb3888467ce18e1f7e41ce612d5634ab"
-        },
-        {
-          "id": "098a9a6f08f5de8db3f4568de8131c2f51c0610e",
-          "sha": "098a9a6f08f5de8db3f4568de8131c2f51c0610e",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-21T17:16:14Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/098a9a6f08f5de8db3f4568de8131c2f51c0610e"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-23T17:04:02Z",
+      "updated_at": "2026-10-23T21:27:00Z",
       "pushed_at": "2026-10-22T12:51:48Z",
       "open_issues_count": 53,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-23T17:03:40Z",
+      "updated_at": "2026-10-23T21:21:31Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -454,7 +454,7 @@
         "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
         "url": "https://github.com/fanhao375/microduck-replica/commit/0ddce374a30ef91ba4913daabc62b0c9637dd8fa"
       },
-      "updated_at": "2026-10-23T16:43:35Z",
+      "updated_at": "2026-10-23T18:51:06Z",
       "pushed_at": "2026-10-23T09:43:55Z",
       "open_issues_count": 38,
       "commits": [
@@ -641,13 +641,29 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "75b59609af34189014787989c3d7910da0232535",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/75b59609af34189014787989c3d7910da0232535"
+        "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
       },
-      "updated_at": "2026-10-22T22:19:35Z",
-      "pushed_at": "2026-10-22T07:49:17Z",
-      "open_issues_count": 2,
+      "updated_at": "2026-10-23T20:59:47Z",
+      "pushed_at": "2026-10-23T19:41:40Z",
+      "open_issues_count": 1,
       "commits": [
+        {
+          "id": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
+          "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
+          "message": "Add the Microduck OS image and eleven community entries (#34)",
+          "author": "joeynyc",
+          "date": "2026-10-23T19:41:37Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
+        },
+        {
+          "id": "7823591ca9c9bf1ffdf80f2239b93080f9427e81",
+          "sha": "7823591ca9c9bf1ffdf80f2239b93080f9427e81",
+          "message": "Add Curious Explorer (#33)",
+          "author": "hidrogencloride",
+          "date": "2026-10-23T19:40:15Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/7823591ca9c9bf1ffdf80f2239b93080f9427e81"
+        },
         {
           "id": "75b59609af34189014787989c3d7910da0232535",
           "sha": "75b59609af34189014787989c3d7910da0232535",
@@ -695,34 +711,28 @@
           "author": "joeynyc",
           "date": "2026-10-07T20:48:49Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/eac31890b7a5b8d3d826aee0b86b7fe499dc8397"
-        },
-        {
-          "id": "7fdbef42411ffb29745feb1120b854c1e0528eb0",
-          "sha": "7fdbef42411ffb29745feb1120b854c1e0528eb0",
-          "message": "Add a Hermes Agent duck client, a hopscotch game and a servo rework (#25)",
-          "author": "joeynyc",
-          "date": "2026-10-06T20:43:22Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/7fdbef42411ffb29745feb1120b854c1e0528eb0"
-        },
-        {
-          "id": "88f708186f685554bd634d33e24e0aa230f92a13",
-          "sha": "88f708186f685554bd634d33e24e0aa230f92a13",
-          "message": "Add a Korean app that starts Microduck training with a few taps (#24)",
-          "author": "joeynyc",
-          "date": "2026-10-04T19:52:47Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/88f708186f685554bd634d33e24e0aa230f92a13"
         }
       ],
       "releases": [],
       "pulls": [
         {
+          "id": "34",
+          "number": 34,
+          "title": "Add the Microduck OS image and eleven community entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-23T19:41:41Z",
+          "merged_at": "2026-10-23T19:41:38Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/34"
+        },
+        {
           "id": "33",
           "number": 33,
           "title": "Add Curious Explorer",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-23T15:37:03Z",
-          "merged_at": null,
+          "updated_at": "2026-10-23T19:40:16Z",
+          "merged_at": "2026-10-23T19:40:16Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/33"
         },
         {
@@ -754,16 +764,6 @@
           "updated_at": "2026-10-16T07:24:34Z",
           "merged_at": "2026-10-16T07:24:31Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/30"
-        },
-        {
-          "id": "29",
-          "number": 29,
-          "title": "Add the Microduck Arena, the vet book and two community entries",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-14T09:57:20Z",
-          "merged_at": "2026-10-14T09:57:18Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/29"
         }
       ],
       "issues": []
@@ -776,9 +776,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-23T14:27:20Z",
+      "updated_at": "2026-10-23T21:01:25Z",
       "pushed_at": "2026-10-21T14:53:02Z",
-      "open_issues_count": 44,
+      "open_issues_count": 45,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -873,6 +873,16 @@
       ],
       "pulls": [
         {
+          "id": "1261",
+          "number": 1261,
+          "title": "Support MuJoCo 3.17 and fix batched backend state handling",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-23T20:29:06Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1261"
+        },
+        {
           "id": "1260",
           "number": 1260,
           "title": "Add vssinghh/so101-mjlab to community projects.",
@@ -911,16 +921,6 @@
           "updated_at": "2026-10-20T04:14:34Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1218"
-        },
-        {
-          "id": "1230",
-          "number": 1230,
-          "title": "Add opt-in substep observation delay",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-20T02:20:30Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1230"
         }
       ],
       "issues": []
@@ -933,7 +933,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-23T10:32:54Z",
+      "updated_at": "2026-10-23T20:56:43Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 9,
       "commits": [
