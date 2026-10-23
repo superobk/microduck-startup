@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T21:40:04Z",
+  "generated_at": "2026-10-23T04:57:14Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "fe788d8c0dc286af3c9b87726f5051c235523d01",
-        "url": "https://github.com/superobk/microduck-startup/commit/fe788d8c0dc286af3c9b87726f5051c235523d01"
+        "sha": "18722706649f01a03d0001d5251c80dc92182e96",
+        "url": "https://github.com/superobk/microduck-startup/commit/18722706649f01a03d0001d5251c80dc92182e96"
       },
-      "updated_at": "2026-10-22T17:16:08Z",
-      "pushed_at": "2026-10-22T17:14:55Z",
+      "updated_at": "2026-10-22T21:40:26Z",
+      "pushed_at": "2026-10-22T21:40:21Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "18722706649f01a03d0001d5251c80dc92182e96",
+          "sha": "18722706649f01a03d0001d5251c80dc92182e96",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-22T21:40:20Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/18722706649f01a03d0001d5251c80dc92182e96"
+        },
         {
           "id": "fe788d8c0dc286af3c9b87726f5051c235523d01",
           "sha": "fe788d8c0dc286af3c9b87726f5051c235523d01",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-21T04:55:22Z",
           "url": "https://github.com/superobk/microduck-startup/commit/a5d3b38f10ea8a7eacd9d9c90865175a2088740e"
-        },
-        {
-          "id": "7659368fbef61ed6a29851286a33f205db329816",
-          "sha": "7659368fbef61ed6a29851286a33f205db329816",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-20T21:40:40Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/7659368fbef61ed6a29851286a33f205db329816"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-22T21:23:03Z",
+      "updated_at": "2026-10-23T04:33:22Z",
       "pushed_at": "2026-10-22T12:51:48Z",
       "open_issues_count": 47,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-22T20:34:42Z",
+      "updated_at": "2026-10-23T04:46:26Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -460,13 +460,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "dae66846991b8924e77edfdeb292012ba3310721",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/dae66846991b8924e77edfdeb292012ba3310721"
+        "sha": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/97069c45d62eff655938aae8dff4c81ef9b7da8b"
       },
-      "updated_at": "2026-10-22T18:48:31Z",
-      "pushed_at": "2026-10-22T18:48:25Z",
+      "updated_at": "2026-10-23T04:55:33Z",
+      "pushed_at": "2026-10-23T04:55:28Z",
       "open_issues_count": 37,
       "commits": [
+        {
+          "id": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
+          "sha": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
+          "message": "docs(image): record verified 20261023b stance calibration build",
+          "author": "fanhao375",
+          "date": "2026-10-23T04:55:15Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/97069c45d62eff655938aae8dff4c81ef9b7da8b"
+        },
+        {
+          "id": "320540ed510c0380b1d01b0cb8187f2c1e6d197e",
+          "sha": "320540ed510c0380b1d01b0cb8187f2c1e6d197e",
+          "message": "fix(studio): allow initial IMU calibration while holding HOME",
+          "author": "fanhao375",
+          "date": "2026-10-23T04:48:46Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/320540ed510c0380b1d01b0cb8187f2c1e6d197e"
+        },
         {
           "id": "dae66846991b8924e77edfdeb292012ba3310721",
           "sha": "dae66846991b8924e77edfdeb292012ba3310721",
@@ -514,22 +530,6 @@
           "author": "fanhao375",
           "date": "2026-10-22T17:43:15Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/f30a94fc7d04597f1cdf7089c0211abc619383ac"
-        },
-        {
-          "id": "cc628b679bdb7ef49ce30a040694a9f406a4f349",
-          "sha": "cc628b679bdb7ef49ce30a040694a9f406a4f349",
-          "message": "docs(studio): record IMU revalidation acceptance and integration",
-          "author": "fanhao375",
-          "date": "2026-10-22T17:41:27Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/cc628b679bdb7ef49ce30a040694a9f406a4f349"
-        },
-        {
-          "id": "0c0de63e9e96ace9e8c8bf5c19bd17367552c13b",
-          "sha": "0c0de63e9e96ace9e8c8bf5c19bd17367552c13b",
-          "message": "fix(studio): allow saved IMU direction to be recalibrated",
-          "author": "fanhao375",
-          "date": "2026-10-22T17:39:23Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/0c0de63e9e96ace9e8c8bf5c19bd17367552c13b"
         }
       ],
       "releases": [
@@ -653,7 +653,7 @@
         "sha": "75b59609af34189014787989c3d7910da0232535",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/75b59609af34189014787989c3d7910da0232535"
       },
-      "updated_at": "2026-10-22T16:29:57Z",
+      "updated_at": "2026-10-22T22:19:35Z",
       "pushed_at": "2026-10-22T07:49:17Z",
       "open_issues_count": 1,
       "commits": [
@@ -785,7 +785,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-22T15:10:41Z",
+      "updated_at": "2026-10-23T04:46:34Z",
       "pushed_at": "2026-10-21T14:53:02Z",
       "open_issues_count": 44,
       "commits": [
@@ -942,7 +942,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-22T15:00:09Z",
+      "updated_at": "2026-10-23T03:56:48Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 9,
       "commits": [
