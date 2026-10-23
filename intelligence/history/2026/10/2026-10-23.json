@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T11:44:29Z",
+  "generated_at": "2026-10-23T17:12:39Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "65c8912737bd46d07df9d90128997e3ae5191793",
-        "url": "https://github.com/superobk/microduck-startup/commit/65c8912737bd46d07df9d90128997e3ae5191793"
+        "sha": "47fc8c99f63030cf7994ad580c767e3281136f06",
+        "url": "https://github.com/superobk/microduck-startup/commit/47fc8c99f63030cf7994ad580c767e3281136f06"
       },
-      "updated_at": "2026-10-23T04:57:40Z",
-      "pushed_at": "2026-10-23T04:57:36Z",
+      "updated_at": "2026-10-23T11:44:48Z",
+      "pushed_at": "2026-10-23T11:44:44Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "47fc8c99f63030cf7994ad580c767e3281136f06",
+          "sha": "47fc8c99f63030cf7994ad580c767e3281136f06",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-23T11:44:43Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/47fc8c99f63030cf7994ad580c767e3281136f06"
+        },
         {
           "id": "65c8912737bd46d07df9d90128997e3ae5191793",
           "sha": "65c8912737bd46d07df9d90128997e3ae5191793",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-21T17:16:14Z",
           "url": "https://github.com/superobk/microduck-startup/commit/098a9a6f08f5de8db3f4568de8131c2f51c0610e"
-        },
-        {
-          "id": "084a65c626aa3a3032ca80039d30313c17563857",
-          "sha": "084a65c626aa3a3032ca80039d30313c17563857",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-21T11:56:26Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/084a65c626aa3a3032ca80039d30313c17563857"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-23T11:42:23Z",
+      "updated_at": "2026-10-23T17:04:02Z",
       "pushed_at": "2026-10-22T12:51:48Z",
-      "open_issues_count": 47,
+      "open_issues_count": 53,
       "commits": [
         {
           "id": "942e58e3aa6dbb28e7037203fff11866122c7567",
@@ -188,66 +188,57 @@
       ],
       "pulls": [
         {
-          "id": "433",
-          "number": 433,
-          "title": "vision-demo: a late close no longer drops the robot's redialled stream",
+          "id": "439",
+          "number": 439,
+          "title": "sounds: a MIDI part's name comes from its own track",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-22T14:25:20Z",
+          "updated_at": "2026-10-23T15:13:47Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/433"
+          "url": "https://github.com/pollen-robotics/microduck/pull/439"
         },
         {
-          "id": "432",
-          "number": 432,
-          "title": "mediad: date frames on the robot clock",
+          "id": "438",
+          "number": 438,
+          "title": "sounds: a sharp in a score is a note, not the start of a comment",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-22T07:20:45Z",
+          "updated_at": "2026-10-23T15:13:40Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/432"
+          "url": "https://github.com/pollen-robotics/microduck/pull/438"
         },
         {
-          "id": "431",
-          "number": 431,
-          "title": "mediad: lower the frame rate on a weak link, never the resolution",
+          "id": "437",
+          "number": 437,
+          "title": "updater: a failing hook's reason survives a long run of output before it",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-21T16:04:02Z",
+          "updated_at": "2026-10-23T15:13:34Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/431"
+          "url": "https://github.com/pollen-robotics/microduck/pull/437"
         },
         {
-          "id": "287",
-          "number": 287,
-          "title": "The clock bridge gets a reader, and states what its bound is worth",
+          "id": "436",
+          "number": 436,
+          "title": "xtask: package the binaries in a fixed order",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-21T13:30:57Z",
+          "updated_at": "2026-10-23T15:13:27Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/287"
+          "url": "https://github.com/pollen-robotics/microduck/pull/436"
         },
         {
-          "id": "429",
-          "number": 429,
-          "title": "Dev",
-          "state": "closed",
+          "id": "435",
+          "number": 435,
+          "title": "updater: the entry after a torn log line is no longer lost with it",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-10-19T17:35:39Z",
+          "updated_at": "2026-10-23T15:13:20Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/429"
+          "url": "https://github.com/pollen-robotics/microduck/pull/435"
         }
       ],
-      "issues": [
-        {
-          "id": "215",
-          "number": 215,
-          "title": "Two-way audio over WebRTC",
-          "state": "open",
-          "updated_at": "2026-10-22T08:23:53Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/215"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -257,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-23T11:42:07Z",
+      "updated_at": "2026-10-23T17:03:40Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -463,7 +454,7 @@
         "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
         "url": "https://github.com/fanhao375/microduck-replica/commit/0ddce374a30ef91ba4913daabc62b0c9637dd8fa"
       },
-      "updated_at": "2026-10-23T11:15:18Z",
+      "updated_at": "2026-10-23T16:43:35Z",
       "pushed_at": "2026-10-23T09:43:55Z",
       "open_issues_count": 38,
       "commits": [
@@ -616,7 +607,7 @@
           "number": 48,
           "title": "微信群聊二维码过期了，需要更新",
           "state": "open",
-          "updated_at": "2026-10-23T09:14:12Z",
+          "updated_at": "2026-10-23T13:06:58Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/48"
         },
         {
@@ -655,7 +646,7 @@
       },
       "updated_at": "2026-10-22T22:19:35Z",
       "pushed_at": "2026-10-22T07:49:17Z",
-      "open_issues_count": 1,
+      "open_issues_count": 2,
       "commits": [
         {
           "id": "75b59609af34189014787989c3d7910da0232535",
@@ -725,6 +716,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "33",
+          "number": 33,
+          "title": "Add Curious Explorer",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-23T15:37:03Z",
+          "merged_at": null,
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/33"
+        },
+        {
           "id": "32",
           "number": 32,
           "title": "README: add X follow link",
@@ -763,16 +764,6 @@
           "updated_at": "2026-10-14T09:57:20Z",
           "merged_at": "2026-10-14T09:57:18Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/29"
-        },
-        {
-          "id": "28",
-          "number": 28,
-          "title": "Add a training journal, a reward workbench and a dome-riding policy",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-11T19:01:58Z",
-          "merged_at": "2026-10-11T19:01:55Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/28"
         }
       ],
       "issues": []
@@ -785,7 +776,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-23T11:11:04Z",
+      "updated_at": "2026-10-23T14:27:20Z",
       "pushed_at": "2026-10-21T14:53:02Z",
       "open_issues_count": 44,
       "commits": [
