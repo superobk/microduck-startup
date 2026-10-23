@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T04:57:14Z",
+  "generated_at": "2026-10-23T11:44:29Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "18722706649f01a03d0001d5251c80dc92182e96",
-        "url": "https://github.com/superobk/microduck-startup/commit/18722706649f01a03d0001d5251c80dc92182e96"
+        "sha": "65c8912737bd46d07df9d90128997e3ae5191793",
+        "url": "https://github.com/superobk/microduck-startup/commit/65c8912737bd46d07df9d90128997e3ae5191793"
       },
-      "updated_at": "2026-10-22T21:40:26Z",
-      "pushed_at": "2026-10-22T21:40:21Z",
+      "updated_at": "2026-10-23T04:57:40Z",
+      "pushed_at": "2026-10-23T04:57:36Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "65c8912737bd46d07df9d90128997e3ae5191793",
+          "sha": "65c8912737bd46d07df9d90128997e3ae5191793",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-23T04:57:35Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/65c8912737bd46d07df9d90128997e3ae5191793"
+        },
         {
           "id": "18722706649f01a03d0001d5251c80dc92182e96",
           "sha": "18722706649f01a03d0001d5251c80dc92182e96",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-21T11:56:26Z",
           "url": "https://github.com/superobk/microduck-startup/commit/084a65c626aa3a3032ca80039d30313c17563857"
-        },
-        {
-          "id": "a5d3b38f10ea8a7eacd9d9c90865175a2088740e",
-          "sha": "a5d3b38f10ea8a7eacd9d9c90865175a2088740e",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-21T04:55:22Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/a5d3b38f10ea8a7eacd9d9c90865175a2088740e"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-23T04:33:22Z",
+      "updated_at": "2026-10-23T11:42:23Z",
       "pushed_at": "2026-10-22T12:51:48Z",
       "open_issues_count": 47,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-23T04:46:26Z",
+      "updated_at": "2026-10-23T11:42:07Z",
       "pushed_at": "2026-10-12T11:58:59Z",
       "open_issues_count": 49,
       "commits": [
@@ -460,79 +460,95 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/97069c45d62eff655938aae8dff4c81ef9b7da8b"
+        "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0ddce374a30ef91ba4913daabc62b0c9637dd8fa"
       },
-      "updated_at": "2026-10-23T04:55:33Z",
-      "pushed_at": "2026-10-23T04:55:28Z",
-      "open_issues_count": 37,
+      "updated_at": "2026-10-23T11:15:18Z",
+      "pushed_at": "2026-10-23T09:43:55Z",
+      "open_issues_count": 38,
       "commits": [
         {
-          "id": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
-          "sha": "97069c45d62eff655938aae8dff4c81ef9b7da8b",
-          "message": "docs(image): record verified 20261023b stance calibration build",
+          "id": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
+          "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
+          "message": "docs: verify ScrapMeta IMU compatibility in shipped image",
           "author": "fanhao375",
-          "date": "2026-10-23T04:55:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/97069c45d62eff655938aae8dff4c81ef9b7da8b"
+          "date": "2026-10-23T09:43:55Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0ddce374a30ef91ba4913daabc62b0c9637dd8fa"
         },
         {
-          "id": "320540ed510c0380b1d01b0cb8187f2c1e6d197e",
-          "sha": "320540ed510c0380b1d01b0cb8187f2c1e6d197e",
-          "message": "fix(studio): allow initial IMU calibration while holding HOME",
+          "id": "d3a5823ca3fbdb26ab79cff595e168afac0ff579",
+          "sha": "d3a5823ca3fbdb26ab79cff595e168afac0ff579",
+          "message": "docs: record verified 20261023c image publication",
           "author": "fanhao375",
-          "date": "2026-10-23T04:48:46Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/320540ed510c0380b1d01b0cb8187f2c1e6d197e"
+          "date": "2026-10-23T07:37:55Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/d3a5823ca3fbdb26ab79cff595e168afac0ff579"
         },
         {
-          "id": "dae66846991b8924e77edfdeb292012ba3310721",
-          "sha": "dae66846991b8924e77edfdeb292012ba3310721",
-          "message": "docs(image): mark 20261023 as the latest public release",
+          "id": "dd7a753026c40b0bf385374a896e7253cff42720",
+          "sha": "dd7a753026c40b0bf385374a896e7253cff42720",
+          "message": "release: prepare native IMU autodetection image 20261023c",
           "author": "fanhao375",
-          "date": "2026-10-22T18:48:23Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/dae66846991b8924e77edfdeb292012ba3310721"
+          "date": "2026-10-23T07:06:34Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/dd7a753026c40b0bf385374a896e7253cff42720"
         },
         {
-          "id": "6be8477371832a6b1f526b650dcca90acaa884bb",
-          "sha": "6be8477371832a6b1f526b650dcca90acaa884bb",
-          "message": "docs(image): record public download and local integration checks",
+          "id": "a5546a4161a9b70bd2b4aed57a9b3eef8bc112dd",
+          "sha": "a5546a4161a9b70bd2b4aed57a9b3eef8bc112dd",
+          "message": "Clarify Feetech IMU board mapping in Studio",
           "author": "fanhao375",
-          "date": "2026-10-22T18:02:22Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/6be8477371832a6b1f526b650dcca90acaa884bb"
+          "date": "2026-10-23T06:38:54Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/a5546a4161a9b70bd2b4aed57a9b3eef8bc112dd"
         },
         {
-          "id": "d34919a445e95af867b5b8f422414568ccb8f172",
-          "sha": "d34919a445e95af867b5b8f422414568ccb8f172",
-          "message": "docs(image): publish verified 20261023 prerelease",
+          "id": "0ee0023244ab1b71fe3f38af1d980c0df5f0693b",
+          "sha": "0ee0023244ab1b71fe3f38af1d980c0df5f0693b",
+          "message": "Integrate detected bus IMU transport into Studio calibration",
           "author": "fanhao375",
-          "date": "2026-10-22T18:01:51Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/d34919a445e95af867b5b8f422414568ccb8f172"
+          "date": "2026-10-23T06:29:46Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0ee0023244ab1b71fe3f38af1d980c0df5f0693b"
         },
         {
-          "id": "03136c9a9b5149d1f66b7c4a62e82feb3e9be490",
-          "sha": "03136c9a9b5149d1f66b7c4a62e82feb3e9be490",
-          "message": "fix(image): keep Studio entrypoint LF in release archives",
+          "id": "5fdd723c8755b39718b903b81feec9edc807c939",
+          "sha": "5fdd723c8755b39718b903b81feec9edc807c939",
+          "message": "docs: plan automatic bus IMU protocol support in the image",
           "author": "fanhao375",
-          "date": "2026-10-22T17:48:36Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/03136c9a9b5149d1f66b7c4a62e82feb3e9be490"
+          "date": "2026-10-23T06:01:27Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/5fdd723c8755b39718b903b81feec9edc807c939"
         },
         {
-          "id": "dac845792e8e4499c595d56bcaefd4985fa53110",
-          "sha": "dac845792e8e4499c595d56bcaefd4985fa53110",
-          "message": "Merge public servo tooling updates before image release",
+          "id": "53285f098519cffeed0cf284905164467c27d079",
+          "sha": "53285f098519cffeed0cf284905164467c27d079",
+          "message": "fix(servo-web): suppress successful DXL2 polling traces",
           "author": "fanhao375",
-          "date": "2026-10-22T17:43:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/dac845792e8e4499c595d56bcaefd4985fa53110"
+          "date": "2026-10-23T05:08:58Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/53285f098519cffeed0cf284905164467c27d079"
         },
         {
-          "id": "f30a94fc7d04597f1cdf7089c0211abc619383ac",
-          "sha": "f30a94fc7d04597f1cdf7089c0211abc619383ac",
-          "message": "docs(image): plan 20261023 build and prerelease",
+          "id": "81a6a06dfbe59b94361943569ef29acda5e1dc93",
+          "sha": "81a6a06dfbe59b94361943569ef29acda5e1dc93",
+          "message": "docs(image): confirm 20261023b publication and download integrity",
           "author": "fanhao375",
-          "date": "2026-10-22T17:43:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/f30a94fc7d04597f1cdf7089c0211abc619383ac"
+          "date": "2026-10-23T04:59:30Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/81a6a06dfbe59b94361943569ef29acda5e1dc93"
         }
       ],
       "releases": [
+        {
+          "id": "421546100",
+          "tag": "microduck-replica-image-20261023c",
+          "name": "复刻镜像 20261023c · Feetech / DXL2 IMU 自动识别",
+          "published_at": "2026-10-23T07:36:28Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261023c"
+        },
+        {
+          "id": "421464064",
+          "tag": "microduck-replica-image-20261023b",
+          "name": "复刻镜像 20261023b · 初次 IMU 标定支持站姿使能",
+          "published_at": "2026-10-23T04:58:14Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261023b"
+        },
         {
           "id": "421032401",
           "tag": "microduck-replica-image-20261023",
@@ -540,22 +556,6 @@
           "published_at": "2026-10-22T18:00:11Z",
           "prerelease": false,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261023"
-        },
-        {
-          "id": "419213162",
-          "tag": "microduck-replica-image-20261021b",
-          "name": "复刻镜像 20261021b · 烧卡开机就能用（真机验收中）",
-          "published_at": "2026-10-21T06:15:52Z",
-          "prerelease": false,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261021b"
-        },
-        {
-          "id": "418744434",
-          "tag": "microduck-replica-image-20261021",
-          "name": "复刻镜像 20261021 · 烧卡开机就能用（预发布，真机验收中）",
-          "published_at": "2026-10-20T18:48:17Z",
-          "prerelease": true,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261021"
         }
       ],
       "pulls": [
@@ -612,6 +612,14 @@
       ],
       "issues": [
         {
+          "id": "48",
+          "number": 48,
+          "title": "微信群聊二维码过期了，需要更新",
+          "state": "open",
+          "updated_at": "2026-10-23T09:14:12Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/48"
+        },
+        {
           "id": "46",
           "number": 46,
           "title": "飞特版跟进请教：打印材料/质量、训练策略、HAT 板 PCBA、舵机参数 4 个问题",
@@ -634,14 +642,6 @@
           "state": "open",
           "updated_at": "2026-10-13T08:22:38Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/24"
-        },
-        {
-          "id": "44",
-          "number": 44,
-          "title": "微信群聊二维码过期了，需要更新",
-          "state": "open",
-          "updated_at": "2026-10-11T12:07:32Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/44"
         }
       ]
     },
@@ -785,7 +785,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-23T04:46:34Z",
+      "updated_at": "2026-10-23T11:11:04Z",
       "pushed_at": "2026-10-21T14:53:02Z",
       "open_issues_count": 44,
       "commits": [
@@ -942,7 +942,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-23T03:56:48Z",
+      "updated_at": "2026-10-23T10:32:54Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 9,
       "commits": [
