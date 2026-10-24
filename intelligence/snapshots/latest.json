@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T11:07:59Z",
+  "generated_at": "2026-10-24T16:00:22Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
-        "url": "https://github.com/superobk/microduck-startup/commit/4e1ef095938b4ed2c602955b359b87ecb44cb268"
+        "sha": "6b404626f9b013f19c7c24de37e047ce056af8f2",
+        "url": "https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2"
       },
-      "updated_at": "2026-10-24T04:42:34Z",
-      "pushed_at": "2026-10-24T04:42:31Z",
+      "updated_at": "2026-10-24T11:08:19Z",
+      "pushed_at": "2026-10-24T11:08:16Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "6b404626f9b013f19c7c24de37e047ce056af8f2",
+          "sha": "6b404626f9b013f19c7c24de37e047ce056af8f2",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-24T11:08:14Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2"
+        },
         {
           "id": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
           "sha": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-22T17:14:54Z",
           "url": "https://github.com/superobk/microduck-startup/commit/fe788d8c0dc286af3c9b87726f5051c235523d01"
-        },
-        {
-          "id": "cdf2d128612396a249054ddad38b1c94568ea9f2",
-          "sha": "cdf2d128612396a249054ddad38b1c94568ea9f2",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-22T11:58:44Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/cdf2d128612396a249054ddad38b1c94568ea9f2"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-24T11:04:03Z",
+      "updated_at": "2026-10-24T15:58:32Z",
       "pushed_at": "2026-10-24T09:37:44Z",
       "open_issues_count": 57,
       "commits": [
@@ -257,9 +257,9 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-24T10:27:35Z",
+      "updated_at": "2026-10-24T15:27:33Z",
       "pushed_at": "2026-10-24T09:26:47Z",
-      "open_issues_count": 51,
+      "open_issues_count": 52,
       "commits": [
         {
           "id": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
@@ -329,6 +329,26 @@
       "releases": [],
       "pulls": [
         {
+          "id": "80",
+          "number": 80,
+          "title": "Fix apartment stairwell ToF: line well with collision geometry (#76)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T15:08:01Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/80"
+        },
+        {
+          "id": "51",
+          "number": 51,
+          "title": "Add optional read-only MuJoCo visualization stream",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T13:32:27Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
+        },
+        {
           "id": "78",
           "number": 78,
           "title": "feat: add MicroDuck 2.0 simulation and trainer",
@@ -357,29 +377,17 @@
           "updated_at": "2026-10-11T00:32:26Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/74"
-        },
-        {
-          "id": "18",
-          "number": 18,
-          "title": "Add new scenes: simple, intermediate, complex, parkour, maze",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-10T00:53:09Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/18"
-        },
-        {
-          "id": "73",
-          "number": 73,
-          "title": "License: pin 3D model files to CC BY-NC-SA 4.0 and scope it",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-09T10:08:49Z",
-          "merged_at": "2026-10-09T10:08:42Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/73"
         }
       ],
       "issues": [
+        {
+          "id": "76",
+          "number": 76,
+          "title": "apartment scene: ToF beams into the stairwell pass under the floor slab and read \"no target\"",
+          "state": "open",
+          "updated_at": "2026-10-24T15:08:09Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/76"
+        },
         {
           "id": "79",
           "number": 79,
@@ -387,22 +395,6 @@
           "state": "open",
           "updated_at": "2026-10-24T03:32:10Z",
           "url": "https://github.com/pollen-robotics/microduck_rl/issues/79"
-        },
-        {
-          "id": "59",
-          "number": 59,
-          "title": "Walking policy won't start slow walk from stand still",
-          "state": "open",
-          "updated_at": "2026-10-15T14:13:41Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/59"
-        },
-        {
-          "id": "76",
-          "number": 76,
-          "title": "apartment scene: ToF beams into the stairwell pass under the floor slab and read \"no target\"",
-          "state": "open",
-          "updated_at": "2026-10-15T14:12:30Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/76"
         }
       ]
     },
@@ -455,7 +447,7 @@
         "sha": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
         "url": "https://github.com/fanhao375/microduck-replica/commit/915ed8364650dff317d9b80760ee632fa4b1c9ed"
       },
-      "updated_at": "2026-10-24T10:54:26Z",
+      "updated_at": "2026-10-24T15:40:04Z",
       "pushed_at": "2026-10-24T06:13:24Z",
       "open_issues_count": 38,
       "commits": [
@@ -645,7 +637,7 @@
         "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
       },
-      "updated_at": "2026-10-24T10:19:56Z",
+      "updated_at": "2026-10-24T14:48:07Z",
       "pushed_at": "2026-10-23T19:41:40Z",
       "open_issues_count": 1,
       "commits": [
@@ -777,9 +769,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-24T07:19:49Z",
+      "updated_at": "2026-10-24T16:00:27Z",
       "pushed_at": "2026-10-21T14:53:02Z",
-      "open_issues_count": 48,
+      "open_issues_count": 54,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -874,54 +866,54 @@
       ],
       "pulls": [
         {
-          "id": "1264",
-          "number": 1264,
-          "title": "Fix Warp kernel cache source glob",
+          "id": "1271",
+          "number": 1271,
+          "title": "Add opt-in complete PPO training continuation",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-24T08:13:19Z",
+          "updated_at": "2026-10-24T13:07:14Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1264"
+          "url": "https://github.com/mujocolab/mjlab/pull/1271"
         },
         {
-          "id": "1261",
-          "number": 1261,
-          "title": "Support MuJoCo 3.17 and fix batched backend state handling",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-23T20:29:06Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1261"
-        },
-        {
-          "id": "1260",
-          "number": 1260,
-          "title": "Add vssinghh/so101-mjlab to community projects.",
+          "id": "1270",
+          "number": 1270,
+          "title": "Expose native RSL NaN-check and compilation options",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-21T21:59:02Z",
+          "updated_at": "2026-10-24T12:49:41Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1260"
+          "url": "https://github.com/mujocolab/mjlab/pull/1270"
         },
         {
-          "id": "1258",
-          "number": 1258,
-          "title": "Upload exported ONNX policies through the log writer.",
+          "id": "1269",
+          "number": 1269,
+          "title": "Publish checkpoints atomically and guarantee training cleanup",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-21T15:05:29Z",
+          "updated_at": "2026-10-24T12:45:39Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1258"
+          "url": "https://github.com/mujocolab/mjlab/pull/1269"
         },
         {
-          "id": "1257",
-          "number": 1257,
-          "title": "Accept custom rsl-rl log writers in the runner config.",
+          "id": "1268",
+          "number": 1268,
+          "title": "Preserve randomized models and inputs in NaN replay",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-21T14:54:31Z",
+          "updated_at": "2026-10-24T12:36:19Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1257"
+          "url": "https://github.com/mujocolab/mjlab/pull/1268"
+        },
+        {
+          "id": "1267",
+          "number": 1267,
+          "title": "Reduce selected-world viewer transfers and cache camera frames",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T12:36:16Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1267"
         }
       ],
       "issues": []
@@ -934,7 +926,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-24T01:26:20Z",
+      "updated_at": "2026-10-24T13:33:06Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 9,
       "commits": [

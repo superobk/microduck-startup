@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-24T11:07:59Z`
+Generated: `2026-10-24T16:00:22Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,24 +8,24 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `4e1ef095938b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/4e1ef095938b4ed2c602955b359b87ecb44cb268)
+- Commit `6b404626f9b0` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2)
 
-### pollen-robotics/microduck
+### pollen-robotics/microduck_rl
 
-- Release [daemon 0.17.8-dev.1433.e603c93 (kicks-on-main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-kicks-on-main) (prerelease)
-- PR #444 [nfc: keep short reads when NDEF follows other TLVs](https://github.com/pollen-robotics/microduck/pull/444) — open
-
-### fanhao375/microduck-replica
-
-- Commit `915ed8364650` [docs: refresh group 11 WeChat QR code through October 31](https://github.com/fanhao375/microduck-replica/commit/915ed8364650dff317d9b80760ee632fa4b1c9ed)
+- PR #80 [Fix apartment stairwell ToF: line well with collision geometry (#76)](https://github.com/pollen-robotics/microduck_rl/pull/80) — open
+- PR #51 [Add optional read-only MuJoCo visualization stream](https://github.com/pollen-robotics/microduck_rl/pull/51) — open
 
 ### mujocolab/mjlab
 
-- PR #1264 [Fix Warp kernel cache source glob](https://github.com/mujocolab/mjlab/pull/1264) — open
+- PR #1271 [Add opt-in complete PPO training continuation](https://github.com/mujocolab/mjlab/pull/1271) — open
+- PR #1270 [Expose native RSL NaN-check and compilation options](https://github.com/mujocolab/mjlab/pull/1270) — open
+- PR #1269 [Publish checkpoints atomically and guarantee training cleanup](https://github.com/mujocolab/mjlab/pull/1269) — open
+- PR #1268 [Preserve randomized models and inputs in NaN replay](https://github.com/mujocolab/mjlab/pull/1268) — open
+- PR #1267 [Reduce selected-world viewer transfers and cache camera frames](https://github.com/mujocolab/mjlab/pull/1267) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [4e1ef095938b](https://github.com/superobk/microduck-startup/commit/4e1ef095938b4ed2c602955b359b87ecb44cb268); pushed `2026-10-24T04:42:31Z`
+- **superobk/microduck-startup** `main` → [6b404626f9b0](https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2); pushed `2026-10-24T11:08:16Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-24T09:37:44Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-24T09:26:47Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
