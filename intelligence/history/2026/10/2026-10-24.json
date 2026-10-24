@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T04:42:15Z",
+  "generated_at": "2026-10-24T11:07:59Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "a544cb0fef7ab274dccea41d35b42c27e0c5070e",
-        "url": "https://github.com/superobk/microduck-startup/commit/a544cb0fef7ab274dccea41d35b42c27e0c5070e"
+        "sha": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
+        "url": "https://github.com/superobk/microduck-startup/commit/4e1ef095938b4ed2c602955b359b87ecb44cb268"
       },
-      "updated_at": "2026-10-23T21:27:41Z",
-      "pushed_at": "2026-10-23T21:27:37Z",
+      "updated_at": "2026-10-24T04:42:34Z",
+      "pushed_at": "2026-10-24T04:42:31Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
+          "sha": "4e1ef095938b4ed2c602955b359b87ecb44cb268",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-24T04:42:30Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/4e1ef095938b4ed2c602955b359b87ecb44cb268"
+        },
         {
           "id": "a544cb0fef7ab274dccea41d35b42c27e0c5070e",
           "sha": "a544cb0fef7ab274dccea41d35b42c27e0c5070e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-22T11:58:44Z",
           "url": "https://github.com/superobk/microduck-startup/commit/cdf2d128612396a249054ddad38b1c94568ea9f2"
-        },
-        {
-          "id": "e0602fc1e3dc3b2e4985e62bdba1942595fbb3ea",
-          "sha": "e0602fc1e3dc3b2e4985e62bdba1942595fbb3ea",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-22T04:55:31Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/e0602fc1e3dc3b2e4985e62bdba1942595fbb3ea"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-24T04:41:07Z",
-      "pushed_at": "2026-10-22T12:51:48Z",
-      "open_issues_count": 56,
+      "updated_at": "2026-10-24T11:04:03Z",
+      "pushed_at": "2026-10-24T09:37:44Z",
+      "open_issues_count": 57,
       "commits": [
         {
           "id": "942e58e3aa6dbb28e7037203fff11866122c7567",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "422640096",
+          "tag": "daemon-dev-kicks-on-main",
+          "name": "daemon 0.17.8-dev.1433.e603c93 (kicks-on-main)",
+          "published_at": "2026-10-24T09:37:44Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-kicks-on-main"
+        },
+        {
           "id": "420718660",
           "tag": "daemon-dev-docs-encoder-imports-dmabuf",
           "name": "daemon 0.17.8-dev.1431.3c65a06 (docs-encoder-imports-dmabuf)",
@@ -176,17 +184,19 @@
           "published_at": "2026-10-21T16:08:32Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-no-downscale"
-        },
-        {
-          "id": "418295427",
-          "tag": "daemon-dev-mpegts_udp",
-          "name": "daemon 0.17.8-dev.1422.764b98f (mpegts_udp)",
-          "published_at": "2026-10-20T10:56:11Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mpegts_udp"
         }
       ],
       "pulls": [
+        {
+          "id": "444",
+          "number": 444,
+          "title": "nfc: keep short reads when NDEF follows other TLVs",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T09:29:10Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/444"
+        },
         {
           "id": "442",
           "number": 442,
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-23T15:13:47Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/439"
-        },
-        {
-          "id": "438",
-          "number": 438,
-          "title": "sounds: a sharp in a score is a note, not the start of a comment",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-23T15:13:40Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/438"
         }
       ],
       "issues": [
@@ -257,8 +257,8 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-24T03:31:22Z",
-      "pushed_at": "2026-10-12T11:58:59Z",
+      "updated_at": "2026-10-24T10:27:35Z",
+      "pushed_at": "2026-10-24T09:26:47Z",
       "open_issues_count": 51,
       "commits": [
         {
@@ -452,13 +452,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/0ddce374a30ef91ba4913daabc62b0c9637dd8fa"
+        "sha": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/915ed8364650dff317d9b80760ee632fa4b1c9ed"
       },
-      "updated_at": "2026-10-24T03:24:40Z",
-      "pushed_at": "2026-10-23T09:43:55Z",
+      "updated_at": "2026-10-24T10:54:26Z",
+      "pushed_at": "2026-10-24T06:13:24Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
+          "sha": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
+          "message": "docs: refresh group 11 WeChat QR code through October 31",
+          "author": "fanhao375",
+          "date": "2026-10-24T06:13:23Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/915ed8364650dff317d9b80760ee632fa4b1c9ed"
+        },
         {
           "id": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
           "sha": "0ddce374a30ef91ba4913daabc62b0c9637dd8fa",
@@ -514,14 +522,6 @@
           "author": "fanhao375",
           "date": "2026-10-23T05:08:58Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/53285f098519cffeed0cf284905164467c27d079"
-        },
-        {
-          "id": "81a6a06dfbe59b94361943569ef29acda5e1dc93",
-          "sha": "81a6a06dfbe59b94361943569ef29acda5e1dc93",
-          "message": "docs(image): confirm 20261023b publication and download integrity",
-          "author": "fanhao375",
-          "date": "2026-10-23T04:59:30Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/81a6a06dfbe59b94361943569ef29acda5e1dc93"
         }
       ],
       "releases": [
@@ -645,7 +645,7 @@
         "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
       },
-      "updated_at": "2026-10-23T20:59:47Z",
+      "updated_at": "2026-10-24T10:19:56Z",
       "pushed_at": "2026-10-23T19:41:40Z",
       "open_issues_count": 1,
       "commits": [
@@ -777,9 +777,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-24T03:52:19Z",
+      "updated_at": "2026-10-24T07:19:49Z",
       "pushed_at": "2026-10-21T14:53:02Z",
-      "open_issues_count": 45,
+      "open_issues_count": 48,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -874,6 +874,16 @@
       ],
       "pulls": [
         {
+          "id": "1264",
+          "number": 1264,
+          "title": "Fix Warp kernel cache source glob",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T08:13:19Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1264"
+        },
+        {
           "id": "1261",
           "number": 1261,
           "title": "Support MuJoCo 3.17 and fix batched backend state handling",
@@ -912,16 +922,6 @@
           "updated_at": "2026-10-21T14:54:31Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1257"
-        },
-        {
-          "id": "1218",
-          "number": 1218,
-          "title": "Preserve actuator delay state across partial resets",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-20T04:14:34Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1218"
         }
       ],
       "issues": []
