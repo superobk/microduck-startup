@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-23T21:27:19Z`
+Generated: `2026-10-24T04:42:15Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,21 +8,21 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `746497d06972` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/746497d0697245738e21352f5894c43eca414de6)
+- Commit `a544cb0fef7a` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a544cb0fef7ab274dccea41d35b42c27e0c5070e)
 
-### joeynyc/awesome-microduck
+### pollen-robotics/microduck
 
-- Commit `fcd4948df147` [Add the Microduck OS image and eleven community entries (#34)](https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676)
-- Commit `7823591ca9c9` [Add Curious Explorer (#33)](https://github.com/joeynyc/awesome-microduck/commit/7823591ca9c9bf1ffdf80f2239b93080f9427e81)
-- PR #34 [Add the Microduck OS image and eleven community entries](https://github.com/joeynyc/awesome-microduck/pull/34) — closed
+- PR #442 [duck-sim: make first-run setup and status failures actionable](https://github.com/pollen-robotics/microduck/pull/442) — open
+- PR #441 [kinematics: measure ToF hit range from the trunk axis](https://github.com/pollen-robotics/microduck/pull/441) — open
+- PR #440 [feat: add MicroDuck 2.0 learning and design proposal](https://github.com/pollen-robotics/microduck/pull/440) — closed
 
-### mujocolab/mjlab
+### pollen-robotics/microduck_rl
 
-- PR #1261 [Support MuJoCo 3.17 and fix batched backend state handling](https://github.com/mujocolab/mjlab/pull/1261) — open
+- PR #78 [feat: add MicroDuck 2.0 simulation and trainer](https://github.com/pollen-robotics/microduck_rl/pull/78) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [746497d06972](https://github.com/superobk/microduck-startup/commit/746497d0697245738e21352f5894c43eca414de6); pushed `2026-10-23T17:12:56Z`
+- **superobk/microduck-startup** `main` → [a544cb0fef7a](https://github.com/superobk/microduck-startup/commit/a544cb0fef7ab274dccea41d35b42c27e0c5070e); pushed `2026-10-23T21:27:37Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-22T12:51:48Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-12T11:58:59Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
