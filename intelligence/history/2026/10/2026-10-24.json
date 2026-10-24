@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T16:00:22Z",
+  "generated_at": "2026-10-24T20:53:30Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "6b404626f9b013f19c7c24de37e047ce056af8f2",
-        "url": "https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2"
+        "sha": "763d3969c3ce07e9c621b1ce82d904169460bc50",
+        "url": "https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50"
       },
-      "updated_at": "2026-10-24T11:08:19Z",
-      "pushed_at": "2026-10-24T11:08:16Z",
+      "updated_at": "2026-10-24T16:00:42Z",
+      "pushed_at": "2026-10-24T16:00:39Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "763d3969c3ce07e9c621b1ce82d904169460bc50",
+          "sha": "763d3969c3ce07e9c621b1ce82d904169460bc50",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-24T16:00:37Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50"
+        },
         {
           "id": "6b404626f9b013f19c7c24de37e047ce056af8f2",
           "sha": "6b404626f9b013f19c7c24de37e047ce056af8f2",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-22T21:40:20Z",
           "url": "https://github.com/superobk/microduck-startup/commit/18722706649f01a03d0001d5251c80dc92182e96"
-        },
-        {
-          "id": "fe788d8c0dc286af3c9b87726f5051c235523d01",
-          "sha": "fe788d8c0dc286af3c9b87726f5051c235523d01",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-22T17:14:54Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/fe788d8c0dc286af3c9b87726f5051c235523d01"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-24T15:58:32Z",
+      "updated_at": "2026-10-24T20:52:10Z",
       "pushed_at": "2026-10-24T09:37:44Z",
-      "open_issues_count": 57,
+      "open_issues_count": 62,
       "commits": [
         {
           "id": "942e58e3aa6dbb28e7037203fff11866122c7567",
@@ -188,66 +188,57 @@
       ],
       "pulls": [
         {
-          "id": "444",
-          "number": 444,
-          "title": "nfc: keep short reads when NDEF follows other TLVs",
+          "id": "449",
+          "number": 449,
+          "title": "Phase-encoded policies can run as skills",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-24T09:29:10Z",
+          "updated_at": "2026-10-24T20:43:00Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/444"
+          "url": "https://github.com/pollen-robotics/microduck/pull/449"
         },
         {
-          "id": "442",
-          "number": 442,
-          "title": "duck-sim: make first-run setup and status failures actionable",
+          "id": "448",
+          "number": 448,
+          "title": "robotctl: policy add --dry-run shows the skill it would add",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-24T01:18:04Z",
+          "updated_at": "2026-10-24T20:24:41Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/442"
+          "url": "https://github.com/pollen-robotics/microduck/pull/448"
         },
         {
-          "id": "441",
-          "number": 441,
-          "title": "kinematics: measure ToF hit range from the trunk axis",
+          "id": "447",
+          "number": 447,
+          "title": "btd: show chorale discovery state in robotctl health",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-24T17:03:34Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/447"
+        },
+        {
+          "id": "446",
+          "number": 446,
+          "title": "btd: retry stopped chorale scans with bounded backoff",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-24T16:40:56Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/446"
+        },
+        {
+          "id": "445",
+          "number": 445,
+          "title": "btd: stop chorale discovery tasks with their session",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-24T01:00:50Z",
+          "updated_at": "2026-10-24T16:01:36Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/441"
-        },
-        {
-          "id": "440",
-          "number": 440,
-          "title": "feat: add MicroDuck 2.0 learning and design proposal",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-23T23:45:04Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/440"
-        },
-        {
-          "id": "439",
-          "number": 439,
-          "title": "sounds: a MIDI part's name comes from its own track",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-23T15:13:47Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/439"
+          "url": "https://github.com/pollen-robotics/microduck/pull/445"
         }
       ],
-      "issues": [
-        {
-          "id": "443",
-          "number": 443,
-          "title": "Question: LAN authentication for WebRTC/console before consumer units ship?",
-          "state": "open",
-          "updated_at": "2026-10-24T01:48:19Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/443"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -257,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-24T15:27:33Z",
+      "updated_at": "2026-10-24T20:48:21Z",
       "pushed_at": "2026-10-24T09:26:47Z",
       "open_issues_count": 52,
       "commits": [
@@ -444,13 +435,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/915ed8364650dff317d9b80760ee632fa4b1c9ed"
+        "sha": "8ec40d92e77b9e60d8fa6fe2505d6e3e65356220",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/8ec40d92e77b9e60d8fa6fe2505d6e3e65356220"
       },
-      "updated_at": "2026-10-24T15:40:04Z",
-      "pushed_at": "2026-10-24T06:13:24Z",
+      "updated_at": "2026-10-24T17:41:03Z",
+      "pushed_at": "2026-10-24T16:46:53Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "8ec40d92e77b9e60d8fa6fe2505d6e3e65356220",
+          "sha": "8ec40d92e77b9e60d8fa6fe2505d6e3e65356220",
+          "message": "docs: refresh group 11 WeChat QR code before November 1",
+          "author": "fanhao375",
+          "date": "2026-10-24T16:46:50Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8ec40d92e77b9e60d8fa6fe2505d6e3e65356220"
+        },
         {
           "id": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
           "sha": "915ed8364650dff317d9b80760ee632fa4b1c9ed",
@@ -506,14 +505,6 @@
           "author": "fanhao375",
           "date": "2026-10-23T06:01:27Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/5fdd723c8755b39718b903b81feec9edc807c939"
-        },
-        {
-          "id": "53285f098519cffeed0cf284905164467c27d079",
-          "sha": "53285f098519cffeed0cf284905164467c27d079",
-          "message": "fix(servo-web): suppress successful DXL2 polling traces",
-          "author": "fanhao375",
-          "date": "2026-10-23T05:08:58Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/53285f098519cffeed0cf284905164467c27d079"
         }
       ],
       "releases": [
@@ -634,13 +625,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
+        "sha": "f1f728ae46f282de287656d811f4c0529c8e0b58",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58"
       },
-      "updated_at": "2026-10-24T14:48:07Z",
-      "pushed_at": "2026-10-23T19:41:40Z",
+      "updated_at": "2026-10-24T20:45:28Z",
+      "pushed_at": "2026-10-24T20:45:26Z",
       "open_issues_count": 1,
       "commits": [
+        {
+          "id": "f1f728ae46f282de287656d811f4c0529c8e0b58",
+          "sha": "f1f728ae46f282de287656d811f4c0529c8e0b58",
+          "message": "Add the CMU build, a Garry's Mod port and three launch articles (#35)",
+          "author": "joeynyc",
+          "date": "2026-10-24T20:45:24Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58"
+        },
         {
           "id": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
           "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
@@ -696,18 +695,20 @@
           "author": "joeynyc",
           "date": "2026-10-08T11:07:49Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/a3292a3c047bb70a0247f47e4594dc974e2c9013"
-        },
-        {
-          "id": "eac31890b7a5b8d3d826aee0b86b7fe499dc8397",
-          "sha": "eac31890b7a5b8d3d826aee0b86b7fe499dc8397",
-          "message": "Add the official emotions design repo, a JdeRobot server and Oh My Duck (#26)",
-          "author": "joeynyc",
-          "date": "2026-10-07T20:48:49Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/eac31890b7a5b8d3d826aee0b86b7fe499dc8397"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "35",
+          "number": 35,
+          "title": "Add the CMU build, a Garry's Mod port and three launch articles",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-24T20:45:27Z",
+          "merged_at": "2026-10-24T20:45:24Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/35"
+        },
         {
           "id": "34",
           "number": 34,
@@ -747,16 +748,6 @@
           "updated_at": "2026-10-19T20:45:08Z",
           "merged_at": "2026-10-19T20:45:05Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/31"
-        },
-        {
-          "id": "30",
-          "number": 30,
-          "title": "Add an autonomy client and an HD-1910 training branch",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-16T07:24:34Z",
-          "merged_at": "2026-10-16T07:24:31Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/30"
         }
       ],
       "issues": []
