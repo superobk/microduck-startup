@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-24T20:53:30Z`
+Generated: `2026-10-25T04:48:44Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,34 +8,26 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `763d3969c3ce` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50)
+- Commit `a59454c25b16` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/a59454c25b169f3f4eb2a75771c3df07dd460351)
 
-### pollen-robotics/microduck
+### mujocolab/mjlab
 
-- PR #449 [Phase-encoded policies can run as skills](https://github.com/pollen-robotics/microduck/pull/449) — open
-- PR #448 [robotctl: policy add --dry-run shows the skill it would add](https://github.com/pollen-robotics/microduck/pull/448) — open
-- PR #447 [btd: show chorale discovery state in robotctl health](https://github.com/pollen-robotics/microduck/pull/447) — open
-- PR #446 [btd: retry stopped chorale scans with bounded backoff](https://github.com/pollen-robotics/microduck/pull/446) — open
-- PR #445 [btd: stop chorale discovery tasks with their session](https://github.com/pollen-robotics/microduck/pull/445) — open
+- PR #1274 [Score tracking body velocities relative to the anchor heading.](https://github.com/mujocolab/mjlab/pull/1274) — open
+- PR #1273 [Drop termination-targeting curriculum terms with --no-terminations](https://github.com/mujocolab/mjlab/pull/1273) — open
 
-### fanhao375/microduck-replica
+### leggedrobotics/rsl_rl
 
-- Commit `8ec40d92e77b` [docs: refresh group 11 WeChat QR code before November 1](https://github.com/fanhao375/microduck-replica/commit/8ec40d92e77b9e60d8fa6fe2505d6e3e65356220)
-
-### joeynyc/awesome-microduck
-
-- Commit `f1f728ae46f2` [Add the CMU build, a Garry's Mod port and three launch articles (#35)](https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58)
-- PR #35 [Add the CMU build, a Garry's Mod port and three launch articles](https://github.com/joeynyc/awesome-microduck/pull/35) — closed
+- PR #249 [Preserve environment dimension in recurrent PPO surrogate loss](https://github.com/leggedrobotics/rsl_rl/pull/249) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [763d3969c3ce](https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50); pushed `2026-10-24T16:00:39Z`
+- **superobk/microduck-startup** `main` → [a59454c25b16](https://github.com/superobk/microduck-startup/commit/a59454c25b169f3f4eb2a75771c3df07dd460351); pushed `2026-10-24T20:53:43Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-24T09:37:44Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-24T09:26:47Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [8ec40d92e77b](https://github.com/fanhao375/microduck-replica/commit/8ec40d92e77b9e60d8fa6fe2505d6e3e65356220); pushed `2026-10-24T16:46:53Z`
 - **joeynyc/awesome-microduck** `main` → [f1f728ae46f2](https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58); pushed `2026-10-24T20:45:26Z`
-- **mujocolab/mjlab** `main` → [8bb2bc9e1877](https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376); pushed `2026-10-21T14:53:02Z`
+- **mujocolab/mjlab** `main` → [8bb2bc9e1877](https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376); pushed `2026-10-25T02:49:29Z`
 - **leggedrobotics/rsl_rl** `main` → [a87ef38fde4e](https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851); pushed `2026-10-12T15:26:34Z`
 
 ## Social feeds

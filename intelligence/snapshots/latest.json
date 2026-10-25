@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T20:53:30Z",
+  "generated_at": "2026-10-25T04:48:44Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "763d3969c3ce07e9c621b1ce82d904169460bc50",
-        "url": "https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50"
+        "sha": "a59454c25b169f3f4eb2a75771c3df07dd460351",
+        "url": "https://github.com/superobk/microduck-startup/commit/a59454c25b169f3f4eb2a75771c3df07dd460351"
       },
-      "updated_at": "2026-10-24T16:00:42Z",
-      "pushed_at": "2026-10-24T16:00:39Z",
+      "updated_at": "2026-10-24T20:53:46Z",
+      "pushed_at": "2026-10-24T20:53:43Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a59454c25b169f3f4eb2a75771c3df07dd460351",
+          "sha": "a59454c25b169f3f4eb2a75771c3df07dd460351",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-24T20:53:42Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/a59454c25b169f3f4eb2a75771c3df07dd460351"
+        },
         {
           "id": "763d3969c3ce07e9c621b1ce82d904169460bc50",
           "sha": "763d3969c3ce07e9c621b1ce82d904169460bc50",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-23T04:57:35Z",
           "url": "https://github.com/superobk/microduck-startup/commit/65c8912737bd46d07df9d90128997e3ae5191793"
-        },
-        {
-          "id": "18722706649f01a03d0001d5251c80dc92182e96",
-          "sha": "18722706649f01a03d0001d5251c80dc92182e96",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-22T21:40:20Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/18722706649f01a03d0001d5251c80dc92182e96"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-24T20:52:10Z",
+      "updated_at": "2026-10-25T04:44:37Z",
       "pushed_at": "2026-10-24T09:37:44Z",
       "open_issues_count": 62,
       "commits": [
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "447",
+          "number": 447,
+          "title": "btd: show chorale discovery state in robotctl health",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-25T00:17:14Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/447"
+        },
+        {
+          "id": "446",
+          "number": 446,
+          "title": "btd: retry stopped chorale scans with bounded backoff",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-25T00:17:10Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/446"
+        },
+        {
           "id": "449",
           "number": 449,
           "title": "Phase-encoded policies can run as skills",
@@ -206,26 +226,6 @@
           "updated_at": "2026-10-24T20:24:41Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/448"
-        },
-        {
-          "id": "447",
-          "number": 447,
-          "title": "btd: show chorale discovery state in robotctl health",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-24T17:03:34Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/447"
-        },
-        {
-          "id": "446",
-          "number": 446,
-          "title": "btd: retry stopped chorale scans with bounded backoff",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-24T16:40:56Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/446"
         },
         {
           "id": "445",
@@ -248,7 +248,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-24T20:48:21Z",
+      "updated_at": "2026-10-25T04:41:16Z",
       "pushed_at": "2026-10-24T09:26:47Z",
       "open_issues_count": 52,
       "commits": [
@@ -438,7 +438,7 @@
         "sha": "8ec40d92e77b9e60d8fa6fe2505d6e3e65356220",
         "url": "https://github.com/fanhao375/microduck-replica/commit/8ec40d92e77b9e60d8fa6fe2505d6e3e65356220"
       },
-      "updated_at": "2026-10-24T17:41:03Z",
+      "updated_at": "2026-10-25T03:20:39Z",
       "pushed_at": "2026-10-24T16:46:53Z",
       "open_issues_count": 38,
       "commits": [
@@ -628,7 +628,7 @@
         "sha": "f1f728ae46f282de287656d811f4c0529c8e0b58",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58"
       },
-      "updated_at": "2026-10-24T20:45:28Z",
+      "updated_at": "2026-10-25T02:24:24Z",
       "pushed_at": "2026-10-24T20:45:26Z",
       "open_issues_count": 1,
       "commits": [
@@ -760,9 +760,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-24T16:00:27Z",
-      "pushed_at": "2026-10-21T14:53:02Z",
-      "open_issues_count": 54,
+      "updated_at": "2026-10-25T02:42:26Z",
+      "pushed_at": "2026-10-25T02:49:29Z",
+      "open_issues_count": 58,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -857,6 +857,26 @@
       ],
       "pulls": [
         {
+          "id": "1274",
+          "number": 1274,
+          "title": "Score tracking body velocities relative to the anchor heading.",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-25T02:49:39Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1274"
+        },
+        {
+          "id": "1273",
+          "number": 1273,
+          "title": "Drop termination-targeting curriculum terms with --no-terminations",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-24T21:32:25Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1273"
+        },
+        {
           "id": "1271",
           "number": 1271,
           "title": "Add opt-in complete PPO training continuation",
@@ -885,26 +905,6 @@
           "updated_at": "2026-10-24T12:45:39Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1269"
-        },
-        {
-          "id": "1268",
-          "number": 1268,
-          "title": "Preserve randomized models and inputs in NaN replay",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-24T12:36:19Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1268"
-        },
-        {
-          "id": "1267",
-          "number": 1267,
-          "title": "Reduce selected-world viewer transfers and cache camera frames",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-24T12:36:16Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1267"
         }
       ],
       "issues": []
@@ -917,9 +917,9 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-24T13:33:06Z",
+      "updated_at": "2026-10-25T03:09:28Z",
       "pushed_at": "2026-10-12T15:26:34Z",
-      "open_issues_count": 9,
+      "open_issues_count": 10,
       "commits": [
         {
           "id": "a87ef38fde4e2a554bec1565e14b868a64de5851",
@@ -1014,6 +1014,16 @@
       ],
       "pulls": [
         {
+          "id": "249",
+          "number": 249,
+          "title": "Preserve environment dimension in recurrent PPO surrogate loss",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-25T04:10:59Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/249"
+        },
+        {
           "id": "248",
           "number": 248,
           "title": "Fix logging writer lifecycle and duplicate uploads",
@@ -1052,16 +1062,6 @@
           "updated_at": "2026-10-15T05:02:20Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/246"
-        },
-        {
-          "id": "245",
-          "number": 245,
-          "title": "Skip singleton PPO advantage normalization",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-14T13:46:39Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/245"
         }
       ],
       "issues": []
