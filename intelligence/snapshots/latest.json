@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T11:37:42Z",
+  "generated_at": "2026-10-25T16:28:03Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "f81242ad3248a81e79a4daf25f87ea6665a0906b",
-        "url": "https://github.com/superobk/microduck-startup/commit/f81242ad3248a81e79a4daf25f87ea6665a0906b"
+        "sha": "0e7a27541044b6597669ed676db3ea2347ff1e88",
+        "url": "https://github.com/superobk/microduck-startup/commit/0e7a27541044b6597669ed676db3ea2347ff1e88"
       },
-      "updated_at": "2026-10-25T04:49:04Z",
-      "pushed_at": "2026-10-25T04:49:01Z",
+      "updated_at": "2026-10-25T11:38:03Z",
+      "pushed_at": "2026-10-25T11:38:00Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "0e7a27541044b6597669ed676db3ea2347ff1e88",
+          "sha": "0e7a27541044b6597669ed676db3ea2347ff1e88",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-25T11:37:58Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/0e7a27541044b6597669ed676db3ea2347ff1e88"
+        },
         {
           "id": "f81242ad3248a81e79a4daf25f87ea6665a0906b",
           "sha": "f81242ad3248a81e79a4daf25f87ea6665a0906b",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-23T17:12:55Z",
           "url": "https://github.com/superobk/microduck-startup/commit/746497d0697245738e21352f5894c43eca414de6"
-        },
-        {
-          "id": "47fc8c99f63030cf7994ad580c767e3281136f06",
-          "sha": "47fc8c99f63030cf7994ad580c767e3281136f06",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-23T11:44:43Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/47fc8c99f63030cf7994ad580c767e3281136f06"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "942e58e3aa6dbb28e7037203fff11866122c7567",
         "url": "https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567"
       },
-      "updated_at": "2026-10-25T11:30:59Z",
-      "pushed_at": "2026-10-24T09:37:44Z",
-      "open_issues_count": 65,
+      "updated_at": "2026-10-25T16:25:00Z",
+      "pushed_at": "2026-10-25T13:23:00Z",
+      "open_issues_count": 66,
       "commits": [
         {
           "id": "942e58e3aa6dbb28e7037203fff11866122c7567",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "423418022",
+          "tag": "daemon-dev-ground-grasp-x",
+          "name": "daemon 0.17.8-dev.1434.01a9074 (ground-grasp-x)",
+          "published_at": "2026-10-25T13:23:00Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-ground-grasp-x"
+        },
+        {
           "id": "422640096",
           "tag": "daemon-dev-kicks-on-main",
           "name": "daemon 0.17.8-dev.1433.e603c93 (kicks-on-main)",
@@ -176,17 +184,19 @@
           "published_at": "2026-10-22T12:51:49Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-docs-encoder-imports-dmabuf"
-        },
-        {
-          "id": "419771124",
-          "tag": "daemon-dev-mediad-no-downscale",
-          "name": "daemon 0.14.1-dev.1430.b0d9466 (mediad-no-downscale)",
-          "published_at": "2026-10-21T16:08:32Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-mediad-no-downscale"
         }
       ],
       "pulls": [
+        {
+          "id": "453",
+          "number": 453,
+          "title": "udp-pad: scope the 'authenticated and encrypted' WebRTC claim to the remote path",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-25T15:55:29Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/453"
+        },
         {
           "id": "452",
           "number": 452,
@@ -226,19 +236,26 @@
           "updated_at": "2026-10-25T00:17:14Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/447"
-        },
-        {
-          "id": "446",
-          "number": 446,
-          "title": "btd: retry stopped chorale scans with bounded backoff",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-25T00:17:10Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/446"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "443",
+          "number": 443,
+          "title": "Question: LAN authentication for WebRTC/console before consumer units ship?",
+          "state": "open",
+          "updated_at": "2026-10-25T15:55:37Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/443"
+        },
+        {
+          "id": "176",
+          "number": 176,
+          "title": "Hey we need shipping option to AUSTRALIA ",
+          "state": "open",
+          "updated_at": "2026-10-25T12:02:34Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/176"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +265,7 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-25T11:26:44Z",
+      "updated_at": "2026-10-25T16:07:08Z",
       "pushed_at": "2026-10-24T09:26:47Z",
       "open_issues_count": 53,
       "commits": [
@@ -325,7 +342,7 @@
           "title": "Add optional read-only MuJoCo visualization stream",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-25T11:25:33Z",
+          "updated_at": "2026-10-25T12:49:06Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
         },
@@ -443,13 +460,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "35b435d7a6361c3480c2d0916ecf79c318710690",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/35b435d7a6361c3480c2d0916ecf79c318710690"
+        "sha": "86364e2d419ebe44502b71a91bf62bd4f782a9de",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/86364e2d419ebe44502b71a91bf62bd4f782a9de"
       },
-      "updated_at": "2026-10-25T11:00:59Z",
-      "pushed_at": "2026-10-25T07:59:02Z",
+      "updated_at": "2026-10-25T15:32:00Z",
+      "pushed_at": "2026-10-25T14:09:42Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "86364e2d419ebe44502b71a91bf62bd4f782a9de",
+          "sha": "86364e2d419ebe44502b71a91bf62bd4f782a9de",
+          "message": "docs: track ground grasp development and training PR updates",
+          "author": "fanhao375",
+          "date": "2026-10-25T14:09:40Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/86364e2d419ebe44502b71a91bf62bd4f782a9de"
+        },
         {
           "id": "35b435d7a6361c3480c2d0916ecf79c318710690",
           "sha": "35b435d7a6361c3480c2d0916ecf79c318710690",
@@ -505,14 +530,6 @@
           "author": "fanhao375",
           "date": "2026-10-25T06:01:04Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/d052bfa568e018a70438a5c677f1dc650a097951"
-        },
-        {
-          "id": "4e40c42aab3e2fb20e9e1797ac67244e1971c34e",
-          "sha": "4e40c42aab3e2fb20e9e1797ac67244e1971c34e",
-          "message": "docs: refresh project overview, resources, and tool downloads",
-          "author": "fanhao375",
-          "date": "2026-10-25T05:54:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/4e40c42aab3e2fb20e9e1797ac67244e1971c34e"
         }
       ],
       "releases": [
@@ -636,7 +653,7 @@
         "sha": "f1f728ae46f282de287656d811f4c0529c8e0b58",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58"
       },
-      "updated_at": "2026-10-25T09:30:11Z",
+      "updated_at": "2026-10-25T15:03:34Z",
       "pushed_at": "2026-10-24T20:45:26Z",
       "open_issues_count": 1,
       "commits": [
@@ -768,7 +785,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-25T11:14:56Z",
+      "updated_at": "2026-10-25T12:44:11Z",
       "pushed_at": "2026-10-25T06:14:07Z",
       "open_issues_count": 58,
       "commits": [
@@ -925,7 +942,7 @@
         "sha": "a87ef38fde4e2a554bec1565e14b868a64de5851",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851"
       },
-      "updated_at": "2026-10-25T03:09:28Z",
+      "updated_at": "2026-10-25T13:54:59Z",
       "pushed_at": "2026-10-12T15:26:34Z",
       "open_issues_count": 10,
       "commits": [
