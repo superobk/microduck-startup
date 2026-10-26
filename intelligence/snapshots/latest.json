@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T13:10:28Z",
+  "generated_at": "2026-10-26T22:42:48Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
-        "url": "https://github.com/superobk/microduck-startup/commit/b85f81fc105edb7449b617b2614ee7b0d040cd3e"
+        "sha": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
+        "url": "https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e"
       },
-      "updated_at": "2026-10-26T04:53:30Z",
-      "pushed_at": "2026-10-26T04:53:25Z",
+      "updated_at": "2026-10-26T13:10:54Z",
+      "pushed_at": "2026-10-26T13:10:49Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
+          "sha": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-26T13:10:48Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e"
+        },
         {
           "id": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
           "sha": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-24T16:00:37Z",
           "url": "https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50"
-        },
-        {
-          "id": "6b404626f9b013f19c7c24de37e047ce056af8f2",
-          "sha": "6b404626f9b013f19c7c24de37e047ce056af8f2",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-24T11:08:14Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/6b404626f9b013f19c7c24de37e047ce056af8f2"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
         "url": "https://github.com/pollen-robotics/microduck/commit/96b89d8613f06722c1d64ce75ab0d7124fed9d8f"
       },
-      "updated_at": "2026-10-26T13:07:30Z",
+      "updated_at": "2026-10-26T22:42:30Z",
       "pushed_at": "2026-10-26T11:29:24Z",
-      "open_issues_count": 79,
+      "open_issues_count": 80,
       "commits": [
         {
           "id": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
@@ -244,16 +244,16 @@
           "number": 454,
           "title": "LLM-powered autonomy: proposed architecture",
           "state": "open",
-          "updated_at": "2026-10-26T02:14:36Z",
+          "updated_at": "2026-10-26T18:55:35Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/454"
         },
         {
-          "id": "176",
-          "number": 176,
-          "title": "Hey we need shipping option to AUSTRALIA ",
+          "id": "470",
+          "number": 470,
+          "title": "Question: battery, charging and power-on on production units",
           "state": "open",
-          "updated_at": "2026-10-26T00:48:49Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/176"
+          "updated_at": "2026-10-26T18:43:56Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/470"
         }
       ]
     },
@@ -265,9 +265,9 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-26T12:12:50Z",
+      "updated_at": "2026-10-26T22:03:56Z",
       "pushed_at": "2026-10-24T09:26:47Z",
-      "open_issues_count": 55,
+      "open_issues_count": 56,
       "commits": [
         {
           "id": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
@@ -337,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "84",
+          "number": 84,
+          "title": "gui: skip joystick sliders for near-zero velocity command ranges (Roulade, fixes #79)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-26T16:25:32Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/84"
+        },
+        {
           "id": "77",
           "number": 77,
           "title": "feat: Windows 10 support  ",
@@ -375,26 +385,16 @@
           "updated_at": "2026-10-25T12:49:06Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
-        },
-        {
-          "id": "80",
-          "number": 80,
-          "title": "Fix apartment stairwell ToF: line well with collision geometry (#76)",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-24T15:08:01Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/80"
         }
       ],
       "issues": [
         {
-          "id": "81",
-          "number": 81,
-          "title": "v8 velstand: inconsistent pure lateral starts and yaw drift in MuJoCo/Warp CPU",
+          "id": "79",
+          "number": 79,
+          "title": "[Bug] Viser viewer crashes for Roulade task due to invalid slider range",
           "state": "open",
-          "updated_at": "2026-10-25T10:44:02Z",
-          "url": "https://github.com/pollen-robotics/microduck_rl/issues/81"
+          "updated_at": "2026-10-26T16:25:43Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/79"
         }
       ]
     },
@@ -444,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "d941e2bb28c33bc863c676da15a4b4bb33e362c5",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/d941e2bb28c33bc863c676da15a4b4bb33e362c5"
+        "sha": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/055ac7d17167db0670f42fdeaabfc21fc3022e4f"
       },
-      "updated_at": "2026-10-26T13:03:18Z",
-      "pushed_at": "2026-10-26T13:03:12Z",
+      "updated_at": "2026-10-26T17:48:38Z",
+      "pushed_at": "2026-10-26T14:26:14Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+          "sha": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
+          "message": "docs: record isolated 0.17.9 software validation",
+          "author": "fanhao375",
+          "date": "2026-10-26T14:26:12Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/055ac7d17167db0670f42fdeaabfc21fc3022e4f"
+        },
         {
           "id": "d941e2bb28c33bc863c676da15a4b4bb33e362c5",
           "sha": "d941e2bb28c33bc863c676da15a4b4bb33e362c5",
@@ -506,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-25T07:14:44Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/51d4a71923c737f3b295cfcc9e328a2a34992273"
-        },
-        {
-          "id": "fb36219f06518e956f3556b11f88c2fce6ac5e62",
-          "sha": "fb36219f06518e956f3556b11f88c2fce6ac5e62",
-          "message": "docs: lead with validated robot motion and first-use evidence",
-          "author": "fanhao375",
-          "date": "2026-10-25T06:50:13Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/fb36219f06518e956f3556b11f88c2fce6ac5e62"
         }
       ],
       "releases": [
@@ -637,7 +637,7 @@
         "sha": "e7b4acec790bf64e8b76c65f471564622a2a31c6",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/e7b4acec790bf64e8b76c65f471564622a2a31c6"
       },
-      "updated_at": "2026-10-26T12:38:28Z",
+      "updated_at": "2026-10-26T19:49:44Z",
       "pushed_at": "2026-10-25T20:44:50Z",
       "open_issues_count": 1,
       "commits": [
@@ -769,7 +769,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-26T11:58:37Z",
+      "updated_at": "2026-10-26T18:31:28Z",
       "pushed_at": "2026-10-26T07:11:48Z",
       "open_issues_count": 59,
       "commits": [
@@ -928,7 +928,7 @@
       },
       "updated_at": "2026-10-26T05:53:49Z",
       "pushed_at": "2026-10-12T15:26:34Z",
-      "open_issues_count": 10,
+      "open_issues_count": 11,
       "commits": [
         {
           "id": "a87ef38fde4e2a554bec1565e14b868a64de5851",
@@ -1023,6 +1023,16 @@
       ],
       "pulls": [
         {
+          "id": "250",
+          "number": 250,
+          "title": "Skip observation-normalizer updates for image-only CNN models",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-26T21:22:53Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/250"
+        },
+        {
           "id": "249",
           "number": 249,
           "title": "Preserve environment dimension in recurrent PPO surrogate loss",
@@ -1061,16 +1071,6 @@
           "updated_at": "2026-10-15T05:02:23Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/247"
-        },
-        {
-          "id": "246",
-          "number": 246,
-          "title": "Step CNN encoders shared by actor and critic once per update",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-15T05:02:20Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/246"
         }
       ],
       "issues": []
