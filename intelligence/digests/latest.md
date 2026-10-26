@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-25T20:54:35Z`
+Generated: `2026-10-26T04:53:09Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,24 +8,27 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `c16207cda9a3` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c16207cda9a3bf6368a8a38ba6a25b638b1ddedc)
+- Commit `110c3c7a5865` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/110c3c7a5865208ad1a1afaa8d749afe858d1e88)
+
+### pollen-robotics/microduck
+
+- PR #466 [updater: a policy fetch does not resume a partial from an older commit](https://github.com/pollen-robotics/microduck/pull/466) — open
+- PR #465 [netpadd: a backlog that drains a little at a time stays dropped](https://github.com/pollen-robotics/microduck/pull/465) — open
+- PR #464 [robotd: an idle delay too large to time is never, not a panic](https://github.com/pollen-robotics/microduck/pull/464) — open
+- PR #463 [updater: an exact version installs only a manifest for that version](https://github.com/pollen-robotics/microduck/pull/463) — open
+- PR #462 [updater: pruning keeps the release a rollback can land on, not a known-bad one](https://github.com/pollen-robotics/microduck/pull/462) — open
 
 ### pollen-robotics/microduck_rl
 
-- PR #82 [Fix shared rough-terrain configs and walking curriculum](https://github.com/pollen-robotics/microduck_rl/pull/82) — open
+- PR #83 [body_server: read-only `objects` op for viewers that mirror the world](https://github.com/pollen-robotics/microduck_rl/pull/83) — open
 
-### fanhao375/microduck-replica
+### mujocolab/mjlab
 
-- Commit `e4a1ac854271` [docs: track draft rough terrain training configuration fix](https://github.com/fanhao375/microduck-replica/commit/e4a1ac854271ec20e2af18b66f838c01dde536fb)
-
-### joeynyc/awesome-microduck
-
-- Commit `e7b4acec790b` [Add the kissqy replica and six community entries (#36)](https://github.com/joeynyc/awesome-microduck/commit/e7b4acec790bf64e8b76c65f471564622a2a31c6)
-- PR #36 [Add the kissqy replica and six community entries](https://github.com/joeynyc/awesome-microduck/pull/36) — closed
+- PR #1230 [Add opt-in substep observation delay](https://github.com/mujocolab/mjlab/pull/1230) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [c16207cda9a3](https://github.com/superobk/microduck-startup/commit/c16207cda9a3bf6368a8a38ba6a25b638b1ddedc); pushed `2026-10-25T16:28:17Z`
+- **superobk/microduck-startup** `main` → [110c3c7a5865](https://github.com/superobk/microduck-startup/commit/110c3c7a5865208ad1a1afaa8d749afe858d1e88); pushed `2026-10-25T20:54:55Z`
 - **pollen-robotics/microduck** `main` → [942e58e3aa6d](https://github.com/pollen-robotics/microduck/commit/942e58e3aa6dbb28e7037203fff11866122c7567); pushed `2026-10-25T13:23:00Z`
 - **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-24T09:26:47Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
