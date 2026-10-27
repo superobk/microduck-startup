@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-27T12:18:25Z`
+Generated: `2026-10-27T22:18:22Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,56 +8,66 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `964aa26d8a84` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/964aa26d8a8443b335a6f6bf1c03e8f2b11ea519)
+- Commit `f5638856625e` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/f5638856625ea9c430cc575ea3310ee66a41fa49)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.17.9-dev.1446.2091d42 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Release [daemon 0.17.9-dev.1450.38d0331 (codex/robot-diagnostics-design)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/robot-diagnostics-design) (prerelease)
-- Commit `2091d42286fa` [Merge pull request #476 from pollen-robotics/limp-fall-arm](https://github.com/pollen-robotics/microduck/commit/2091d42286fa29a1e24ea4f072191a4836fd1a6e)
-- Commit `024e12510120` [limp-fall: arm the fall predictor only from standing](https://github.com/pollen-robotics/microduck/commit/024e12510120030dcddec04dbf97774d50258932)
-- PR #473 [Add all-motor raw maintenance sessions and diagnostics](https://github.com/pollen-robotics/microduck/pull/473) — open
-- PR #476 [limp-fall: arm the fall predictor only from standing](https://github.com/pollen-robotics/microduck/pull/476) — closed
-- PR #475 [nfc: read NFC Type 5 (ISO 15693) tags too](https://github.com/pollen-robotics/microduck/pull/475) — open
-- PR #474 [configd: re-page a bonded pad whose link dropped, and sweep for the rest](https://github.com/pollen-robotics/microduck/pull/474) — open
-- PR #472 [fix(nfc): decode UTF-16 NDEF text records](https://github.com/pollen-robotics/microduck/pull/472) — open
+- Release [daemon 0.17.9-dev.1455.0f72879 (vetbook-gallery-cards)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vetbook-gallery-cards) (prerelease)
+- Release [daemon 0.17.8-dev.1463.7a72b45 (stress-test)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test) (prerelease)
+- Release [daemon 0.17.9-dev.1469.48dabad (static-grasp-default)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-static-grasp-default) (prerelease)
+- Commit `5def2f3e6650` [Merge pull request #479 from pollen-robotics/vetbook-gallery-cards](https://github.com/pollen-robotics/microduck/commit/5def2f3e66501f0f365d4fb1183020b8ee875443)
+- Commit `0f728794479a` [vetbook gallery: show the real cards, and the sticker unsquashed](https://github.com/pollen-robotics/microduck/commit/0f728794479a3a2238fa1ee489d8c40a7230b579)
+- Commit `e6ff99915345` [Merge pull request #478 from pollen-robotics/vetbook-gallery](https://github.com/pollen-robotics/microduck/commit/e6ff9991534580bff5c932ca10b3f1b8da851ce2)
+- Commit `47d2a2397511` [vetbook gallery: an opt-in social network of ducks on the Space](https://github.com/pollen-robotics/microduck/commit/47d2a239751154a8817294a036127d012853403a)
+- PR #481 [ground pick: the static low grasp by default](https://github.com/pollen-robotics/microduck/pull/481) — open
+- PR #477 [Improve gamepad connection status and add targeted reconnect](https://github.com/pollen-robotics/microduck/pull/477) — open
+- PR #479 [vetbook gallery: show the real cards, and the sticker unsquashed](https://github.com/pollen-robotics/microduck/pull/479) — closed
+- PR #478 [vetbook gallery: an opt-in social network of ducks on the Space](https://github.com/pollen-robotics/microduck/pull/478) — closed
+
+### pollen-robotics/microduck_rl
+
+- Commit `bae39f5900b3` [Merge branch 'share_training' into develop](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb)
+- Commit `91066b84672b` [find_onnx_source: skip checkpoints that fail to download](https://github.com/pollen-robotics/microduck_rl/commit/91066b84672b4d4ad12d3df7044427d4141fe890)
+- Commit `31c9aaa02f1a` [Merge branch 'share_training' into develop](https://github.com/pollen-robotics/microduck_rl/commit/31c9aaa02f1a69f2352fab656fc50fb14145a84b)
+- Commit `e2866e0ade2b` [distill: teachers default to their Hub training bundles (wandb stays the fallback)](https://github.com/pollen-robotics/microduck_rl/commit/e2866e0ade2b38b4a912d462f76f7b74458d1c74)
+- Commit `3b8759e9dad2` [Training bundles: opt-in sharing of training checkpoints on the Hub](https://github.com/pollen-robotics/microduck_rl/commit/3b8759e9dad2bd12dae03129bc4a07fe24a48026)
+- PR #86 [feat(tasks): add stationary vertical jump task (Mjlab-Jump-Flat-Micro…](https://github.com/pollen-robotics/microduck_rl/pull/86) — open
+- PR #57 [Record and publish the recipe of every run; usable from a challenges repo](https://github.com/pollen-robotics/microduck_rl/pull/57) — open
 
 ### fanhao375/microduck-replica
 
-- Release [软件 2026.10.27 · 签名网页升级与本地坐站语音](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.27)
-- Release [复刻镜像 20261027 · 网页升级与本地坐站语音（实物待验收）](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261027)
-- Commit `2f2d86ff73ad` [docs: track fall arming, pad reconnect and maintenance development](https://github.com/fanhao375/microduck-replica/commit/2f2d86ff73ad663f44434d3f5b8db788634c63c3)
-- Commit `d454b5bc052a` [docs: track UTF-16 NFC pairing text support](https://github.com/fanhao375/microduck-replica/commit/d454b5bc052aaf5d93e87d9fec2f519ad24dd06a)
-- Commit `85636b8aa607` [docs: confirm verified 20261027 image and software publication](https://github.com/fanhao375/microduck-replica/commit/85636b8aa60780f8efe4d344eedc5cc794a003aa)
-- Commit `762b0d44b784` [Merge verified Studio and signed software updates for 20261027 release](https://github.com/fanhao375/microduck-replica/commit/762b0d44b784104aeb73c7b6bad10a25713daa44)
-- Commit `4d5aadc498df` [docs: track model-defined simulation camera orientation](https://github.com/fanhao375/microduck-replica/commit/4d5aadc498dfc03f184986919b79169c4f9832cb)
-- Commit `86bb3e4d110b` [docs: record signed software and voice image delivery](https://github.com/fanhao375/microduck-replica/commit/86bb3e4d110be19943e7cd235988d32b794c48c0)
-- Commit `1b7416e521d8` [test: await complete fixture transitions in Studio regressions](https://github.com/fanhao375/microduck-replica/commit/1b7416e521d82493c99a844ef064e76c3c038ee2)
-- Commit `e382f0741d7d` [fix: prepare immutable Studio paths and safely migrate legacy state](https://github.com/fanhao375/microduck-replica/commit/e382f0741d7dfe4e972605e2843474df7219cade)
-
-### joeynyc/awesome-microduck
-
-- Commit `32bfad4eed2b` [Add a ROSCon workshop, five trick and training projects, three agent layers and two tools (#37)](https://github.com/joeynyc/awesome-microduck/commit/32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa)
-- PR #37 [Add a ROSCon workshop, five trick and training projects, three agent layers and two tools](https://github.com/joeynyc/awesome-microduck/pull/37) — closed
+- Commit `a7fb16b940fa` [docs: track split diagnostics contracts and stress prototype](https://github.com/fanhao375/microduck-replica/commit/a7fb16b940fad76e05deba0b7517da196a2b3673)
+- Commit `7d7b771253dc` [docs: track training bundles and gallery card updates](https://github.com/fanhao375/microduck-replica/commit/7d7b771253dcff2933c399f8086e35605385f4b1)
+- Commit `47c8c37e187e` [docs: refresh WeChat QR code for replica group 13](https://github.com/fanhao375/microduck-replica/commit/47c8c37e187e41971386892e64f8f987cb3d8a6b)
+- Commit `0a4d503830ff` [docs: track gamepad diagnostics, jump task and gallery updates](https://github.com/fanhao375/microduck-replica/commit/0a4d503830fff2dcc3b480a6f71207e408bcc2e7)
 
 ### mujocolab/mjlab
 
-- PR #1231 [Add regression tests for invisible collisions from empty mesh slots](https://github.com/mujocolab/mjlab/pull/1231) — open
+- PR #1277 [Preserve input quaternions in shortest-path SLERP](https://github.com/mujocolab/mjlab/pull/1277) — open
 
 ### leggedrobotics/rsl_rl
 
-- PR #244 [fix(storage): retain rollout remainders in mini-batch generators](https://github.com/leggedrobotics/rsl_rl/pull/244) — open
+- Commit `f26f3e5d96ec` [Skip observation-normalizer updates for image-only CNN models (#252)](https://github.com/leggedrobotics/rsl_rl/commit/f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0)
+- Commit `8feadb03451a` [Require maintainer edits on fork PRs](https://github.com/leggedrobotics/rsl_rl/commit/8feadb03451a7a0586a48aba692b1793b542138c)
+- Commit `b4bfe2e8089b` [Update contribution guidelines for agents](https://github.com/leggedrobotics/rsl_rl/commit/b4bfe2e8089b4be7ca8a20ee462dea862514ab41)
+- Commit `52747c3936f3` [Keep the recurrent teacher's hidden state across distillation updates (#247)](https://github.com/leggedrobotics/rsl_rl/commit/52747c3936f33d49d3e67afdfe1a544074a27b4f)
+- Commit `f5c4d1f00c21` [Step CNN encoders shared by actor and critic once per update (#246)](https://github.com/leggedrobotics/rsl_rl/commit/f5c4d1f00c21d140cdba8bd7fba6e27483fb458d)
+- Commit `3b9bec447ad5` [Skip singleton PPO advantage normalization (#251)](https://github.com/leggedrobotics/rsl_rl/commit/3b9bec447ad50108ff8f8e7fd39ebf30d5efe077)
+- Commit `f1a12c2d6a38` [Retain rollout remainders in mini-batch generators (#244)](https://github.com/leggedrobotics/rsl_rl/commit/f1a12c2d6a38b5884571d51cb7c17e293d091160)
+- Commit `c29dcc6d0ab8` [Fix CI ubuntu version](https://github.com/leggedrobotics/rsl_rl/commit/c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9)
+- PR #252 [Skip observation-normalizer updates for image-only CNN models](https://github.com/leggedrobotics/rsl_rl/pull/252) — closed
+- PR #247 [Keep the recurrent teacher's hidden state across distillation updates](https://github.com/leggedrobotics/rsl_rl/pull/247) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [964aa26d8a84](https://github.com/superobk/microduck-startup/commit/964aa26d8a8443b335a6f6bf1c03e8f2b11ea519); pushed `2026-10-27T05:11:54Z`
-- **pollen-robotics/microduck** `main` → [2091d42286fa](https://github.com/pollen-robotics/microduck/commit/2091d42286fa29a1e24ea4f072191a4836fd1a6e); pushed `2026-10-27T10:47:43Z`
-- **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-26T22:59:24Z`
+- **superobk/microduck-startup** `main` → [f5638856625e](https://github.com/superobk/microduck-startup/commit/f5638856625ea9c430cc575ea3310ee66a41fa49); pushed `2026-10-27T12:18:44Z`
+- **pollen-robotics/microduck** `main` → [5def2f3e6650](https://github.com/pollen-robotics/microduck/commit/5def2f3e66501f0f365d4fb1183020b8ee875443); pushed `2026-10-27T20:50:31Z`
+- **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-10-27T21:49:30Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [2f2d86ff73ad](https://github.com/fanhao375/microduck-replica/commit/2f2d86ff73ad663f44434d3f5b8db788634c63c3); pushed `2026-10-27T11:05:21Z`
+- **fanhao375/microduck-replica** `master` → [a7fb16b940fa](https://github.com/fanhao375/microduck-replica/commit/a7fb16b940fad76e05deba0b7517da196a2b3673); pushed `2026-10-27T17:07:45Z`
 - **joeynyc/awesome-microduck** `main` → [32bfad4eed2b](https://github.com/joeynyc/awesome-microduck/commit/32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa); pushed `2026-10-27T10:51:20Z`
 - **mujocolab/mjlab** `main` → [8bb2bc9e1877](https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376); pushed `2026-10-26T07:11:48Z`
-- **leggedrobotics/rsl_rl** `main` → [a87ef38fde4e](https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851); pushed `2026-10-12T15:26:34Z`
+- **leggedrobotics/rsl_rl** `main` → [f26f3e5d96ec](https://github.com/leggedrobotics/rsl_rl/commit/f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0); pushed `2026-10-27T15:47:49Z`
 
 ## Social feeds
 
