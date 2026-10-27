@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-26T22:42:48Z`
+Generated: `2026-10-27T05:11:32Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,27 +8,27 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `208633aadbd9` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e)
+- Commit `5fd44d3dff88` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/5fd44d3dff88c767d2da184af8396b21715dddce)
+
+### pollen-robotics/microduck
+
+- PR #471 [console: stop joystick commands when the window loses focus](https://github.com/pollen-robotics/microduck/pull/471) — open
 
 ### pollen-robotics/microduck_rl
 
-- PR #84 [gui: skip joystick sliders for near-zero velocity command ranges (Roulade, fixes #79)](https://github.com/pollen-robotics/microduck_rl/pull/84) — open
+- PR #85 [The head camera looks forward in the MJCF, not in a load-time patch](https://github.com/pollen-robotics/microduck_rl/pull/85) — open
 
 ### fanhao375/microduck-replica
 
-- Commit `055ac7d17167` [docs: record isolated 0.17.9 software validation](https://github.com/fanhao375/microduck-replica/commit/055ac7d17167db0670f42fdeaabfc21fc3022e4f)
-
-### leggedrobotics/rsl_rl
-
-- PR #250 [Skip observation-normalizer updates for image-only CNN models](https://github.com/leggedrobotics/rsl_rl/pull/250) — open
+- Commit `f12827cd9227` [docs: track console focus and Roulade viewer fixes](https://github.com/fanhao375/microduck-replica/commit/f12827cd92272e91276246ac8958482e9bcb6c1f)
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [208633aadbd9](https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e); pushed `2026-10-26T13:10:49Z`
+- **superobk/microduck-startup** `main` → [5fd44d3dff88](https://github.com/superobk/microduck-startup/commit/5fd44d3dff88c767d2da184af8396b21715dddce); pushed `2026-10-26T22:43:10Z`
 - **pollen-robotics/microduck** `main` → [96b89d8613f0](https://github.com/pollen-robotics/microduck/commit/96b89d8613f06722c1d64ce75ab0d7124fed9d8f); pushed `2026-10-26T11:29:24Z`
-- **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-24T09:26:47Z`
+- **pollen-robotics/microduck_rl** `develop` → [b02fdea4902c](https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3); pushed `2026-10-26T22:59:24Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [055ac7d17167](https://github.com/fanhao375/microduck-replica/commit/055ac7d17167db0670f42fdeaabfc21fc3022e4f); pushed `2026-10-26T14:26:14Z`
+- **fanhao375/microduck-replica** `master` → [f12827cd9227](https://github.com/fanhao375/microduck-replica/commit/f12827cd92272e91276246ac8958482e9bcb6c1f); pushed `2026-10-27T02:46:52Z`
 - **joeynyc/awesome-microduck** `main` → [e7b4acec790b](https://github.com/joeynyc/awesome-microduck/commit/e7b4acec790bf64e8b76c65f471564622a2a31c6); pushed `2026-10-25T20:44:50Z`
 - **mujocolab/mjlab** `main` → [8bb2bc9e1877](https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376); pushed `2026-10-26T07:11:48Z`
 - **leggedrobotics/rsl_rl** `main` → [a87ef38fde4e](https://github.com/leggedrobotics/rsl_rl/commit/a87ef38fde4e2a554bec1565e14b868a64de5851); pushed `2026-10-12T15:26:34Z`

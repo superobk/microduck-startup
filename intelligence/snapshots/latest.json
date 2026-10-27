@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T22:42:48Z",
+  "generated_at": "2026-10-27T05:11:32Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
-        "url": "https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e"
+        "sha": "5fd44d3dff88c767d2da184af8396b21715dddce",
+        "url": "https://github.com/superobk/microduck-startup/commit/5fd44d3dff88c767d2da184af8396b21715dddce"
       },
-      "updated_at": "2026-10-26T13:10:54Z",
-      "pushed_at": "2026-10-26T13:10:49Z",
+      "updated_at": "2026-10-26T22:43:15Z",
+      "pushed_at": "2026-10-26T22:43:10Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5fd44d3dff88c767d2da184af8396b21715dddce",
+          "sha": "5fd44d3dff88c767d2da184af8396b21715dddce",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-26T22:43:09Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5fd44d3dff88c767d2da184af8396b21715dddce"
+        },
         {
           "id": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
           "sha": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-24T20:53:42Z",
           "url": "https://github.com/superobk/microduck-startup/commit/a59454c25b169f3f4eb2a75771c3df07dd460351"
-        },
-        {
-          "id": "763d3969c3ce07e9c621b1ce82d904169460bc50",
-          "sha": "763d3969c3ce07e9c621b1ce82d904169460bc50",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-24T16:00:37Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/763d3969c3ce07e9c621b1ce82d904169460bc50"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
         "url": "https://github.com/pollen-robotics/microduck/commit/96b89d8613f06722c1d64ce75ab0d7124fed9d8f"
       },
-      "updated_at": "2026-10-26T22:42:30Z",
+      "updated_at": "2026-10-27T05:10:25Z",
       "pushed_at": "2026-10-26T11:29:24Z",
-      "open_issues_count": 80,
+      "open_issues_count": 81,
       "commits": [
         {
           "id": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "471",
+          "number": 471,
+          "title": "console: stop joystick commands when the window loses focus",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T02:23:18Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/471"
+        },
+        {
           "id": "468",
           "number": 468,
           "title": "robotctl endurance: a battery and heat test that runs until the pack is empty",
@@ -226,16 +236,6 @@
           "updated_at": "2026-10-25T21:49:59Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/466"
-        },
-        {
-          "id": "465",
-          "number": 465,
-          "title": "netpadd: a backlog that drains a little at a time stays dropped",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-25T21:44:34Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/465"
         }
       ],
       "issues": [
@@ -265,9 +265,9 @@
         "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
       },
-      "updated_at": "2026-10-26T22:03:56Z",
-      "pushed_at": "2026-10-24T09:26:47Z",
-      "open_issues_count": 56,
+      "updated_at": "2026-10-27T05:09:37Z",
+      "pushed_at": "2026-10-26T22:59:24Z",
+      "open_issues_count": 57,
       "commits": [
         {
           "id": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
@@ -337,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "85",
+          "number": 85,
+          "title": "The head camera looks forward in the MJCF, not in a load-time patch",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T05:11:36Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/85"
+        },
+        {
           "id": "84",
           "number": 84,
           "title": "gui: skip joystick sliders for near-zero velocity command ranges (Roulade, fixes #79)",
@@ -375,16 +385,6 @@
           "updated_at": "2026-10-25T18:21:09Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/82"
-        },
-        {
-          "id": "51",
-          "number": 51,
-          "title": "Add optional read-only MuJoCo visualization stream",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-25T12:49:06Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
         }
       ],
       "issues": [
@@ -444,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/055ac7d17167db0670f42fdeaabfc21fc3022e4f"
+        "sha": "f12827cd92272e91276246ac8958482e9bcb6c1f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/f12827cd92272e91276246ac8958482e9bcb6c1f"
       },
-      "updated_at": "2026-10-26T17:48:38Z",
-      "pushed_at": "2026-10-26T14:26:14Z",
+      "updated_at": "2026-10-27T03:48:22Z",
+      "pushed_at": "2026-10-27T02:46:52Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "f12827cd92272e91276246ac8958482e9bcb6c1f",
+          "sha": "f12827cd92272e91276246ac8958482e9bcb6c1f",
+          "message": "docs: track console focus and Roulade viewer fixes",
+          "author": "fanhao375",
+          "date": "2026-10-27T02:46:50Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f12827cd92272e91276246ac8958482e9bcb6c1f"
+        },
         {
           "id": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
           "sha": "055ac7d17167db0670f42fdeaabfc21fc3022e4f",
@@ -506,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-25T07:59:01Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/35b435d7a6361c3480c2d0916ecf79c318710690"
-        },
-        {
-          "id": "51d4a71923c737f3b295cfcc9e328a2a34992273",
-          "sha": "51d4a71923c737f3b295cfcc9e328a2a34992273",
-          "message": "docs: track official Microduck releases and development updates",
-          "author": "fanhao375",
-          "date": "2026-10-25T07:14:44Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/51d4a71923c737f3b295cfcc9e328a2a34992273"
         }
       ],
       "releases": [
@@ -596,6 +596,14 @@
       ],
       "issues": [
         {
+          "id": "25",
+          "number": 25,
+          "title": "Current walking progress and recommended hardware for a new build",
+          "state": "open",
+          "updated_at": "2026-10-27T03:21:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/25"
+        },
+        {
           "id": "48",
           "number": 48,
           "title": "微信群聊二维码过期了，需要更新",
@@ -618,14 +626,6 @@
           "state": "open",
           "updated_at": "2026-10-16T07:01:03Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/45"
-        },
-        {
-          "id": "24",
-          "number": 24,
-          "title": "群满了",
-          "state": "open",
-          "updated_at": "2026-10-13T08:22:38Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/24"
         }
       ]
     },
@@ -769,7 +769,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-26T18:31:28Z",
+      "updated_at": "2026-10-26T23:46:57Z",
       "pushed_at": "2026-10-26T07:11:48Z",
       "open_issues_count": 59,
       "commits": [
