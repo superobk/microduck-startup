@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T05:48:05Z",
+  "generated_at": "2026-10-28T13:01:18Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "93a349d84951c5fe16bb1215419bb2a783590120",
-        "url": "https://github.com/superobk/microduck-startup/commit/93a349d84951c5fe16bb1215419bb2a783590120"
+        "sha": "ad6649447d60bf81ec29d79dc1c9994f8c2149d3",
+        "url": "https://github.com/superobk/microduck-startup/commit/ad6649447d60bf81ec29d79dc1c9994f8c2149d3"
       },
-      "updated_at": "2026-10-27T22:18:49Z",
-      "pushed_at": "2026-10-27T22:18:45Z",
+      "updated_at": "2026-10-28T05:48:36Z",
+      "pushed_at": "2026-10-28T05:48:28Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "ad6649447d60bf81ec29d79dc1c9994f8c2149d3",
+          "sha": "ad6649447d60bf81ec29d79dc1c9994f8c2149d3",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-28T05:48:25Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/ad6649447d60bf81ec29d79dc1c9994f8c2149d3"
+        },
         {
           "id": "93a349d84951c5fe16bb1215419bb2a783590120",
           "sha": "93a349d84951c5fe16bb1215419bb2a783590120",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-25T20:54:54Z",
           "url": "https://github.com/superobk/microduck-startup/commit/110c3c7a5865208ad1a1afaa8d749afe858d1e88"
-        },
-        {
-          "id": "c16207cda9a3bf6368a8a38ba6a25b638b1ddedc",
-          "sha": "c16207cda9a3bf6368a8a38ba6a25b638b1ddedc",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-25T16:28:16Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/c16207cda9a3bf6368a8a38ba6a25b638b1ddedc"
         }
       ],
       "releases": [],
@@ -88,13 +88,21 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "5def2f3e66501f0f365d4fb1183020b8ee875443",
-        "url": "https://github.com/pollen-robotics/microduck/commit/5def2f3e66501f0f365d4fb1183020b8ee875443"
+        "sha": "6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde",
+        "url": "https://github.com/pollen-robotics/microduck/commit/6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde"
       },
-      "updated_at": "2026-10-28T05:47:08Z",
-      "pushed_at": "2026-10-27T20:50:31Z",
-      "open_issues_count": 86,
+      "updated_at": "2026-10-28T12:58:48Z",
+      "pushed_at": "2026-10-28T08:37:02Z",
+      "open_issues_count": 85,
       "commits": [
+        {
+          "id": "6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde",
+          "sha": "6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde",
+          "message": "Merge pull request #431 from pollen-robotics/mediad-no-downscale",
+          "author": "apirrone",
+          "date": "2026-10-28T08:28:43Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde"
+        },
         {
           "id": "5def2f3e66501f0f365d4fb1183020b8ee875443",
           "sha": "5def2f3e66501f0f365d4fb1183020b8ee875443",
@@ -150,24 +158,16 @@
           "author": "apirrone",
           "date": "2026-10-26T11:19:18Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/96b89d8613f06722c1d64ce75ab0d7124fed9d8f"
-        },
-        {
-          "id": "9897704dfdc998e1908646695264abae5f9d3d30",
-          "sha": "9897704dfdc998e1908646695264abae5f9d3d30",
-          "message": "Prepare release 0.17.9",
-          "author": "apirrone",
-          "date": "2026-10-26T11:18:25Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/9897704dfdc998e1908646695264abae5f9d3d30"
         }
       ],
       "releases": [
         {
-          "id": "425564543",
-          "tag": "daemon-dev-vetbook-gallery-cards",
-          "name": "daemon 0.17.9-dev.1455.0f72879 (vetbook-gallery-cards)",
-          "published_at": "2026-10-27T14:26:09Z",
+          "id": "426422185",
+          "tag": "daemon-dev-main",
+          "name": "daemon 0.17.9-dev.1470.6cdfdaa (main)",
+          "published_at": "2026-10-28T08:37:03Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vetbook-gallery-cards"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         },
         {
           "id": "425710688",
@@ -187,6 +187,26 @@
         }
       ],
       "pulls": [
+        {
+          "id": "431",
+          "number": 431,
+          "title": "mediad: lower the frame rate on a weak link, never the resolution",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-28T08:28:47Z",
+          "merged_at": "2026-10-28T08:28:44Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/431"
+        },
+        {
+          "id": "481",
+          "number": 481,
+          "title": "ground pick: the static low grasp by default",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-28T07:51:01Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/481"
+        },
         {
           "id": "471",
           "number": 471,
@@ -208,16 +228,6 @@
           "url": "https://github.com/pollen-robotics/microduck/pull/287"
         },
         {
-          "id": "481",
-          "number": 481,
-          "title": "ground pick: the static low grasp by default",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T20:54:58Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/481"
-        },
-        {
           "id": "473",
           "number": 473,
           "title": "Add all-motor raw maintenance sessions and diagnostics",
@@ -226,19 +236,18 @@
           "updated_at": "2026-10-27T16:48:42Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/473"
-        },
-        {
-          "id": "477",
-          "number": 477,
-          "title": "Improve gamepad connection status and add targeted reconnect",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T16:44:38Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/477"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "454",
+          "number": 454,
+          "title": "LLM-powered autonomy: proposed architecture",
+          "state": "open",
+          "updated_at": "2026-10-28T06:31:08Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/454"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,8 +257,8 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-28T05:07:25Z",
-      "pushed_at": "2026-10-27T23:20:44Z",
+      "updated_at": "2026-10-28T12:48:30Z",
+      "pushed_at": "2026-10-28T12:52:33Z",
       "open_issues_count": 57,
       "commits": [
         {
@@ -435,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/8b73520cf6e8b59347117b5dfe51c5348ac1f364"
+        "sha": "0973f63ca7d8dc4ae8da7ec490954c8e85e1603d",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0973f63ca7d8dc4ae8da7ec490954c8e85e1603d"
       },
-      "updated_at": "2026-10-28T05:40:21Z",
-      "pushed_at": "2026-10-28T01:39:18Z",
+      "updated_at": "2026-10-28T12:47:45Z",
+      "pushed_at": "2026-10-28T09:28:45Z",
       "open_issues_count": 38,
       "commits": [
+        {
+          "id": "0973f63ca7d8dc4ae8da7ec490954c8e85e1603d",
+          "sha": "0973f63ca7d8dc4ae8da7ec490954c8e85e1603d",
+          "message": "docs: track merged weak-link camera mitigation",
+          "author": "fanhao375",
+          "date": "2026-10-28T09:28:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0973f63ca7d8dc4ae8da7ec490954c8e85e1603d"
+        },
         {
           "id": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
           "sha": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
@@ -497,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-27T17:54:06Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/44ca658272c8b2c0df4a7d04e62c888dedc4f1cb"
-        },
-        {
-          "id": "280fed1371d18d3464a4d3e18cd84f29dc852fd3",
-          "sha": "280fed1371d18d3464a4d3e18cd84f29dc852fd3",
-          "message": "feat(studio): add explicit native update stage and persistent motion guards",
-          "author": "fanhao375",
-          "date": "2026-10-27T17:40:53Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/280fed1371d18d3464a4d3e18cd84f29dc852fd3"
         }
       ],
       "releases": [
@@ -628,7 +637,7 @@
         "sha": "32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa"
       },
-      "updated_at": "2026-10-27T15:14:55Z",
+      "updated_at": "2026-10-28T09:04:01Z",
       "pushed_at": "2026-10-27T10:51:20Z",
       "open_issues_count": 1,
       "commits": [
@@ -760,9 +769,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-28T03:51:40Z",
+      "updated_at": "2026-10-28T10:49:50Z",
       "pushed_at": "2026-10-27T22:55:35Z",
-      "open_issues_count": 62,
+      "open_issues_count": 63,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -857,6 +866,16 @@
       ],
       "pulls": [
         {
+          "id": "1280",
+          "number": 1280,
+          "title": "Update in-hand-rotation-mjlab description in community projects.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-28T09:54:09Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1280"
+        },
+        {
           "id": "1274",
           "number": 1274,
           "title": "Score tracking body velocities relative to the anchor heading.",
@@ -895,16 +914,6 @@
           "updated_at": "2026-10-26T10:56:41Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1276"
-        },
-        {
-          "id": "1230",
-          "number": 1230,
-          "title": "Add opt-in substep observation delay",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-25T21:05:11Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1230"
         }
       ],
       "issues": []
@@ -914,13 +923,29 @@
       "role": "PPO runner and algorithms",
       "branch": "main",
       "head": {
-        "sha": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
-        "url": "https://github.com/leggedrobotics/rsl_rl/commit/f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0"
+        "sha": "69ff32cd7d8ba64d93c7419b734b85cdddecc5b1",
+        "url": "https://github.com/leggedrobotics/rsl_rl/commit/69ff32cd7d8ba64d93c7419b734b85cdddecc5b1"
       },
-      "updated_at": "2026-10-28T03:22:17Z",
-      "pushed_at": "2026-10-27T15:47:49Z",
-      "open_issues_count": 6,
+      "updated_at": "2026-10-28T11:57:18Z",
+      "pushed_at": "2026-10-28T10:57:01Z",
+      "open_issues_count": 7,
       "commits": [
+        {
+          "id": "69ff32cd7d8ba64d93c7419b734b85cdddecc5b1",
+          "sha": "69ff32cd7d8ba64d93c7419b734b85cdddecc5b1",
+          "message": "Preserve environment dimension in recurrent PPO surrogate loss (#249)",
+          "author": "cyanseek",
+          "date": "2026-10-28T10:57:01Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/69ff32cd7d8ba64d93c7419b734b85cdddecc5b1"
+        },
+        {
+          "id": "64277e6e40b60abba44c3dc7b588fa1b0b5b55d6",
+          "sha": "64277e6e40b60abba44c3dc7b588fa1b0b5b55d6",
+          "message": "Fix logging writer lifecycle and duplicate uploads (#248)",
+          "author": "louislelay",
+          "date": "2026-10-28T08:55:49Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/64277e6e40b60abba44c3dc7b588fa1b0b5b55d6"
+        },
         {
           "id": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
           "sha": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
@@ -968,22 +993,6 @@
           "author": "ClemensSchwarke",
           "date": "2026-10-27T13:47:03Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/commit/3b9bec447ad50108ff8f8e7fd39ebf30d5efe077"
-        },
-        {
-          "id": "f1a12c2d6a38b5884571d51cb7c17e293d091160",
-          "sha": "f1a12c2d6a38b5884571d51cb7c17e293d091160",
-          "message": "Retain rollout remainders in mini-batch generators (#244)",
-          "author": "Afloat16",
-          "date": "2026-10-27T13:35:31Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/commit/f1a12c2d6a38b5884571d51cb7c17e293d091160"
-        },
-        {
-          "id": "c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9",
-          "sha": "c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9",
-          "message": "Fix CI ubuntu version",
-          "author": "ClemensSchwarke",
-          "date": "2026-10-27T13:32:55Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/commit/c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9"
         }
       ],
       "releases": [
@@ -1014,6 +1023,46 @@
       ],
       "pulls": [
         {
+          "id": "249",
+          "number": 249,
+          "title": "Preserve environment dimension in recurrent PPO surrogate loss",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-28T10:57:02Z",
+          "merged_at": "2026-10-28T10:57:01Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/249"
+        },
+        {
+          "id": "255",
+          "number": 255,
+          "title": "[main] Add SuperMimic model-based training",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-28T10:22:42Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
+        },
+        {
+          "id": "254",
+          "number": 254,
+          "title": "[main] Add SAC with optional FlashSAC components",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-28T10:22:40Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
+        },
+        {
+          "id": "248",
+          "number": 248,
+          "title": "Fix logging writer lifecycle and duplicate uploads",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-28T08:55:50Z",
+          "merged_at": "2026-10-28T08:55:50Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/248"
+        },
+        {
           "id": "250",
           "number": 250,
           "title": "Skip observation-normalizer updates for image-only CNN models",
@@ -1022,46 +1071,6 @@
           "updated_at": "2026-10-27T15:48:18Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/250"
-        },
-        {
-          "id": "252",
-          "number": 252,
-          "title": "Skip observation-normalizer updates for image-only CNN models",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-27T15:47:49Z",
-          "merged_at": "2026-10-27T15:47:49Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/252"
-        },
-        {
-          "id": "249",
-          "number": 249,
-          "title": "Preserve environment dimension in recurrent PPO surrogate loss",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T14:39:15Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/249"
-        },
-        {
-          "id": "247",
-          "number": 247,
-          "title": "Keep the recurrent teacher's hidden state across distillation updates",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-27T14:13:19Z",
-          "merged_at": "2026-10-27T14:13:19Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/247"
-        },
-        {
-          "id": "227",
-          "number": 227,
-          "title": "Feature/flashsac integration",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T14:00:37Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/227"
         }
       ],
       "issues": []
