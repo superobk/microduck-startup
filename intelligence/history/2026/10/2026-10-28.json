@@ -1,0 +1,1072 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T05:48:05Z",
+  "github": [
+    {
+      "repo": "superobk/microduck-startup",
+      "role": "workspace orchestrator",
+      "branch": "main",
+      "head": {
+        "sha": "93a349d84951c5fe16bb1215419bb2a783590120",
+        "url": "https://github.com/superobk/microduck-startup/commit/93a349d84951c5fe16bb1215419bb2a783590120"
+      },
+      "updated_at": "2026-10-27T22:18:49Z",
+      "pushed_at": "2026-10-27T22:18:45Z",
+      "open_issues_count": 0,
+      "commits": [
+        {
+          "id": "93a349d84951c5fe16bb1215419bb2a783590120",
+          "sha": "93a349d84951c5fe16bb1215419bb2a783590120",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-27T22:18:43Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/93a349d84951c5fe16bb1215419bb2a783590120"
+        },
+        {
+          "id": "f5638856625ea9c430cc575ea3310ee66a41fa49",
+          "sha": "f5638856625ea9c430cc575ea3310ee66a41fa49",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-27T12:18:43Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/f5638856625ea9c430cc575ea3310ee66a41fa49"
+        },
+        {
+          "id": "964aa26d8a8443b335a6f6bf1c03e8f2b11ea519",
+          "sha": "964aa26d8a8443b335a6f6bf1c03e8f2b11ea519",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-27T05:11:52Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/964aa26d8a8443b335a6f6bf1c03e8f2b11ea519"
+        },
+        {
+          "id": "5fd44d3dff88c767d2da184af8396b21715dddce",
+          "sha": "5fd44d3dff88c767d2da184af8396b21715dddce",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-26T22:43:09Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5fd44d3dff88c767d2da184af8396b21715dddce"
+        },
+        {
+          "id": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
+          "sha": "208633aadbd9f95c99c96cd07ec097103a4ab55e",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-26T13:10:48Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e"
+        },
+        {
+          "id": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
+          "sha": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-26T04:53:24Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/b85f81fc105edb7449b617b2614ee7b0d040cd3e"
+        },
+        {
+          "id": "110c3c7a5865208ad1a1afaa8d749afe858d1e88",
+          "sha": "110c3c7a5865208ad1a1afaa8d749afe858d1e88",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-25T20:54:54Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/110c3c7a5865208ad1a1afaa8d749afe858d1e88"
+        },
+        {
+          "id": "c16207cda9a3bf6368a8a38ba6a25b638b1ddedc",
+          "sha": "c16207cda9a3bf6368a8a38ba6a25b638b1ddedc",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-25T16:28:16Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c16207cda9a3bf6368a8a38ba6a25b638b1ddedc"
+        }
+      ],
+      "releases": [],
+      "pulls": [],
+      "issues": []
+    },
+    {
+      "repo": "pollen-robotics/microduck",
+      "role": "official runtime and hardware software",
+      "branch": "main",
+      "head": {
+        "sha": "5def2f3e66501f0f365d4fb1183020b8ee875443",
+        "url": "https://github.com/pollen-robotics/microduck/commit/5def2f3e66501f0f365d4fb1183020b8ee875443"
+      },
+      "updated_at": "2026-10-28T05:47:08Z",
+      "pushed_at": "2026-10-27T20:50:31Z",
+      "open_issues_count": 86,
+      "commits": [
+        {
+          "id": "5def2f3e66501f0f365d4fb1183020b8ee875443",
+          "sha": "5def2f3e66501f0f365d4fb1183020b8ee875443",
+          "message": "Merge pull request #479 from pollen-robotics/vetbook-gallery-cards",
+          "author": "apirrone",
+          "date": "2026-10-27T14:19:13Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/5def2f3e66501f0f365d4fb1183020b8ee875443"
+        },
+        {
+          "id": "0f728794479a3a2238fa1ee489d8c40a7230b579",
+          "sha": "0f728794479a3a2238fa1ee489d8c40a7230b579",
+          "message": "vetbook gallery: show the real cards, and the sticker unsquashed",
+          "author": "apirrone",
+          "date": "2026-10-27T14:17:56Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/0f728794479a3a2238fa1ee489d8c40a7230b579"
+        },
+        {
+          "id": "e6ff9991534580bff5c932ca10b3f1b8da851ce2",
+          "sha": "e6ff9991534580bff5c932ca10b3f1b8da851ce2",
+          "message": "Merge pull request #478 from pollen-robotics/vetbook-gallery",
+          "author": "apirrone",
+          "date": "2026-10-27T14:01:28Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/e6ff9991534580bff5c932ca10b3f1b8da851ce2"
+        },
+        {
+          "id": "47d2a239751154a8817294a036127d012853403a",
+          "sha": "47d2a239751154a8817294a036127d012853403a",
+          "message": "vetbook gallery: an opt-in social network of ducks on the Space",
+          "author": "apirrone",
+          "date": "2026-10-27T13:55:13Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/47d2a239751154a8817294a036127d012853403a"
+        },
+        {
+          "id": "2091d42286fa29a1e24ea4f072191a4836fd1a6e",
+          "sha": "2091d42286fa29a1e24ea4f072191a4836fd1a6e",
+          "message": "Merge pull request #476 from pollen-robotics/limp-fall-arm",
+          "author": "apirrone",
+          "date": "2026-10-27T09:31:45Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/2091d42286fa29a1e24ea4f072191a4836fd1a6e"
+        },
+        {
+          "id": "024e12510120030dcddec04dbf97774d50258932",
+          "sha": "024e12510120030dcddec04dbf97774d50258932",
+          "message": "limp-fall: arm the fall predictor only from standing",
+          "author": "apirrone",
+          "date": "2026-10-27T09:17:34Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/024e12510120030dcddec04dbf97774d50258932"
+        },
+        {
+          "id": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
+          "sha": "96b89d8613f06722c1d64ce75ab0d7124fed9d8f",
+          "message": "Merge pull request #469 from pollen-robotics/prepare-release-0.17.9",
+          "author": "apirrone",
+          "date": "2026-10-26T11:19:18Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/96b89d8613f06722c1d64ce75ab0d7124fed9d8f"
+        },
+        {
+          "id": "9897704dfdc998e1908646695264abae5f9d3d30",
+          "sha": "9897704dfdc998e1908646695264abae5f9d3d30",
+          "message": "Prepare release 0.17.9",
+          "author": "apirrone",
+          "date": "2026-10-26T11:18:25Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/9897704dfdc998e1908646695264abae5f9d3d30"
+        }
+      ],
+      "releases": [
+        {
+          "id": "425564543",
+          "tag": "daemon-dev-vetbook-gallery-cards",
+          "name": "daemon 0.17.9-dev.1455.0f72879 (vetbook-gallery-cards)",
+          "published_at": "2026-10-27T14:26:09Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-vetbook-gallery-cards"
+        },
+        {
+          "id": "425710688",
+          "tag": "daemon-dev-stress-test",
+          "name": "daemon 0.17.8-dev.1463.7a72b45 (stress-test)",
+          "published_at": "2026-10-27T16:25:03Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test"
+        },
+        {
+          "id": "425970451",
+          "tag": "daemon-dev-static-grasp-default",
+          "name": "daemon 0.17.9-dev.1469.48dabad (static-grasp-default)",
+          "published_at": "2026-10-27T20:50:31Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-static-grasp-default"
+        }
+      ],
+      "pulls": [
+        {
+          "id": "471",
+          "number": 471,
+          "title": "console: stop joystick commands when the window loses focus",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-28T04:25:24Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/471"
+        },
+        {
+          "id": "287",
+          "number": 287,
+          "title": "The clock bridge gets a reader, and states what its bound is worth",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-28T04:00:17Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/287"
+        },
+        {
+          "id": "481",
+          "number": 481,
+          "title": "ground pick: the static low grasp by default",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T20:54:58Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/481"
+        },
+        {
+          "id": "473",
+          "number": 473,
+          "title": "Add all-motor raw maintenance sessions and diagnostics",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T16:48:42Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/473"
+        },
+        {
+          "id": "477",
+          "number": 477,
+          "title": "Improve gamepad connection status and add targeted reconnect",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T16:44:38Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/477"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "repo": "pollen-robotics/microduck_rl",
+      "role": "official PPO and MuJoCo training",
+      "branch": "develop",
+      "head": {
+        "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
+        "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
+      },
+      "updated_at": "2026-10-28T05:07:25Z",
+      "pushed_at": "2026-10-27T23:20:44Z",
+      "open_issues_count": 57,
+      "commits": [
+        {
+          "id": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
+          "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
+          "message": "Merge branch 'share_training' into develop",
+          "author": "apirrone",
+          "date": "2026-10-27T15:00:04Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
+        },
+        {
+          "id": "91066b84672b4d4ad12d3df7044427d4141fe890",
+          "sha": "91066b84672b4d4ad12d3df7044427d4141fe890",
+          "message": "find_onnx_source: skip checkpoints that fail to download",
+          "author": "apirrone",
+          "date": "2026-10-27T14:58:52Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/91066b84672b4d4ad12d3df7044427d4141fe890"
+        },
+        {
+          "id": "31c9aaa02f1a69f2352fab656fc50fb14145a84b",
+          "sha": "31c9aaa02f1a69f2352fab656fc50fb14145a84b",
+          "message": "Merge branch 'share_training' into develop",
+          "author": "apirrone",
+          "date": "2026-10-27T14:47:41Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/31c9aaa02f1a69f2352fab656fc50fb14145a84b"
+        },
+        {
+          "id": "e2866e0ade2b38b4a912d462f76f7b74458d1c74",
+          "sha": "e2866e0ade2b38b4a912d462f76f7b74458d1c74",
+          "message": "distill: teachers default to their Hub training bundles (wandb stays the fallback)",
+          "author": "apirrone",
+          "date": "2026-10-27T14:43:45Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/e2866e0ade2b38b4a912d462f76f7b74458d1c74"
+        },
+        {
+          "id": "3b8759e9dad2bd12dae03129bc4a07fe24a48026",
+          "sha": "3b8759e9dad2bd12dae03129bc4a07fe24a48026",
+          "message": "Training bundles: opt-in sharing of training checkpoints on the Hub",
+          "author": "apirrone",
+          "date": "2026-10-27T14:42:09Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/3b8759e9dad2bd12dae03129bc4a07fe24a48026"
+        },
+        {
+          "id": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
+          "sha": "b02fdea4902c2b93b7d34a83a6f05da4ececb7d3",
+          "message": "Merge branch 'improve_standup_velstand' into develop",
+          "author": "apirrone",
+          "date": "2026-10-12T11:58:55Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/b02fdea4902c2b93b7d34a83a6f05da4ececb7d3"
+        },
+        {
+          "id": "2a5cc492cf38ca7a1c55b36f9abc816f2f9c4e03",
+          "sha": "2a5cc492cf38ca7a1c55b36f9abc816f2f9c4e03",
+          "message": "docs",
+          "author": "apirrone",
+          "date": "2026-10-12T11:58:27Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/2a5cc492cf38ca7a1c55b36f9abc816f2f9c4e03"
+        },
+        {
+          "id": "3750776761ecfaa5671b36972087cafba45b8527",
+          "sha": "3750776761ecfaa5671b36972087cafba45b8527",
+          "message": "improve turning",
+          "author": "apirrone",
+          "date": "2026-10-12T09:47:08Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/commit/3750776761ecfaa5671b36972087cafba45b8527"
+        }
+      ],
+      "releases": [],
+      "pulls": [
+        {
+          "id": "86",
+          "number": 86,
+          "title": "feat(tasks): add stationary vertical jump task (Mjlab-Jump-Flat-Micro…",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T13:51:14Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/86"
+        },
+        {
+          "id": "57",
+          "number": 57,
+          "title": "Record and publish the recipe of every run; usable from a challenges repo",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-27T13:20:12Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
+        },
+        {
+          "id": "85",
+          "number": 85,
+          "title": "The head camera looks forward in the MJCF, not in a load-time patch",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T05:11:36Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/85"
+        },
+        {
+          "id": "84",
+          "number": 84,
+          "title": "gui: skip joystick sliders for near-zero velocity command ranges (Roulade, fixes #79)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-26T16:25:32Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/84"
+        },
+        {
+          "id": "77",
+          "number": 77,
+          "title": "feat: Windows 10 support  ",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-26T12:20:10Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/77"
+        }
+      ],
+      "issues": [
+        {
+          "id": "48",
+          "number": 48,
+          "title": "Manufacturing CAD for the printed parts: STEP exports or a link-shareable Onshape document?",
+          "state": "closed",
+          "updated_at": "2026-10-27T09:28:36Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/48"
+        },
+        {
+          "id": "79",
+          "number": 79,
+          "title": "[Bug] Viser viewer crashes for Roulade task due to invalid slider range",
+          "state": "open",
+          "updated_at": "2026-10-26T16:25:43Z",
+          "url": "https://github.com/pollen-robotics/microduck_rl/issues/79"
+        }
+      ]
+    },
+    {
+      "repo": "IronSpiderMan/MicroDuckModels",
+      "role": "browser MuJoCo and ONNX simulator",
+      "branch": "main",
+      "head": {
+        "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
+        "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
+      },
+      "updated_at": "2026-10-22T09:52:54Z",
+      "pushed_at": "2026-08-30T08:07:55Z",
+      "open_issues_count": 0,
+      "commits": [
+        {
+          "id": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
+          "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
+          "message": "升级为完整 MicroDuck AI 模拟器",
+          "author": "ZackFair-bit",
+          "date": "2026-08-30T08:05:38Z",
+          "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
+        },
+        {
+          "id": "2e4fb0cb7b81f9f0c04fccbaf63a89a97b7aa63c",
+          "sha": "2e4fb0cb7b81f9f0c04fccbaf63a89a97b7aa63c",
+          "message": "添加项目效果图并更新 README",
+          "author": "ZackFair-bit",
+          "date": "2026-08-30T07:16:56Z",
+          "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/2e4fb0cb7b81f9f0c04fccbaf63a89a97b7aa63c"
+        },
+        {
+          "id": "74f934a11417ee358620af36b99c223751164913",
+          "sha": "74f934a11417ee358620af36b99c223751164913",
+          "message": "初始化提交",
+          "author": "ZackFair-bit",
+          "date": "2026-08-30T07:10:12Z",
+          "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/74f934a11417ee358620af36b99c223751164913"
+        }
+      ],
+      "releases": [],
+      "pulls": [],
+      "issues": []
+    },
+    {
+      "repo": "fanhao375/microduck-replica",
+      "role": "mechanical reconstruction",
+      "branch": "master",
+      "head": {
+        "sha": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/8b73520cf6e8b59347117b5dfe51c5348ac1f364"
+      },
+      "updated_at": "2026-10-28T05:40:21Z",
+      "pushed_at": "2026-10-28T01:39:18Z",
+      "open_issues_count": 38,
+      "commits": [
+        {
+          "id": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
+          "sha": "8b73520cf6e8b59347117b5dfe51c5348ac1f364",
+          "message": "docs: record signed software release verification and publication",
+          "author": "fanhao375",
+          "date": "2026-10-28T01:39:15Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8b73520cf6e8b59347117b5dfe51c5348ac1f364"
+        },
+        {
+          "id": "0834aec0e7ef2ee8d04fb4b7f8f82a129490e960",
+          "sha": "0834aec0e7ef2ee8d04fb4b7f8f82a129490e960",
+          "message": "docs: clarify hotspot independence and Zero 3E network limits",
+          "author": "fanhao375",
+          "date": "2026-10-28T01:34:00Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0834aec0e7ef2ee8d04fb4b7f8f82a129490e960"
+        },
+        {
+          "id": "32e1285bbd0a23859c578ee8c72bbf4610e3f4a5",
+          "sha": "32e1285bbd0a23859c578ee8c72bbf4610e3f4a5",
+          "message": "test(studio): make stale motion frame wait deterministic",
+          "author": "fanhao375",
+          "date": "2026-10-28T01:22:38Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/32e1285bbd0a23859c578ee8c72bbf4610e3f4a5"
+        },
+        {
+          "id": "53c0dc96dbbdd127deeb2322cc6e551e5fd8f61d",
+          "sha": "53c0dc96dbbdd127deeb2322cc6e551e5fd8f61d",
+          "message": "Merge upstream tracking docs before the software release",
+          "author": "fanhao375",
+          "date": "2026-10-28T01:14:49Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/53c0dc96dbbdd127deeb2322cc6e551e5fd8f61d"
+        },
+        {
+          "id": "fe0eb4a212154cd146b9ae6a44c32a6ab3178f26",
+          "sha": "fe0eb4a212154cd146b9ae6a44c32a6ab3178f26",
+          "message": "test: wait for servo command result and snapshot independently",
+          "author": "fanhao375",
+          "date": "2026-10-28T01:14:49Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/fe0eb4a212154cd146b9ae6a44c32a6ab3178f26"
+        },
+        {
+          "id": "2e15946f26bff78ef6f9282975eb39411f751e2a",
+          "sha": "2e15946f26bff78ef6f9282975eb39411f751e2a",
+          "message": "docs: track static grasp prototype and model dependencies",
+          "author": "fanhao375",
+          "date": "2026-10-28T00:24:21Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2e15946f26bff78ef6f9282975eb39411f751e2a"
+        },
+        {
+          "id": "44ca658272c8b2c0df4a7d04e62c888dedc4f1cb",
+          "sha": "44ca658272c8b2c0df4a7d04e62c888dedc4f1cb",
+          "message": "Merge upstream documentation before the software update release",
+          "author": "fanhao375",
+          "date": "2026-10-27T17:54:06Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/44ca658272c8b2c0df4a7d04e62c888dedc4f1cb"
+        },
+        {
+          "id": "280fed1371d18d3464a4d3e18cd84f29dc852fd3",
+          "sha": "280fed1371d18d3464a4d3e18cd84f29dc852fd3",
+          "message": "feat(studio): add explicit native update stage and persistent motion guards",
+          "author": "fanhao375",
+          "date": "2026-10-27T17:40:53Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/280fed1371d18d3464a4d3e18cd84f29dc852fd3"
+        }
+      ],
+      "releases": [
+        {
+          "id": "426161306",
+          "tag": "microduck-software-v2026.10.28",
+          "name": "软件更新 2026.10.28 · 秦墨 IMU 可选适配（无需重烧）",
+          "published_at": "2026-10-28T01:28:38Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.28"
+        },
+        {
+          "id": "425089356",
+          "tag": "microduck-software-v2026.10.27",
+          "name": "软件 2026.10.27 · 签名网页升级与本地坐站语音",
+          "published_at": "2026-10-27T06:15:55Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.27"
+        },
+        {
+          "id": "425090056",
+          "tag": "microduck-replica-image-20261027",
+          "name": "复刻镜像 20261027 · 网页升级与本地坐站语音（实物待验收）",
+          "published_at": "2026-10-27T06:48:08Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261027"
+        }
+      ],
+      "pulls": [
+        {
+          "id": "47",
+          "number": 47,
+          "title": "增加 IMU 的 DXL 2.0 协议兼容",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-22T09:32:30Z",
+          "merged_at": "2026-10-22T09:32:29Z",
+          "url": "https://github.com/fanhao375/microduck-replica/pull/47"
+        },
+        {
+          "id": "36",
+          "number": 36,
+          "title": "tools: HD1910M 工具新增零位校准/重启指令与角度限制增强（作者：漂移菌）",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-11T07:33:19Z",
+          "merged_at": "2026-10-11T07:33:19Z",
+          "url": "https://github.com/fanhao375/microduck-replica/pull/36"
+        },
+        {
+          "id": "30",
+          "number": 30,
+          "title": "Feature/testtool set",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-03T17:53:53Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/30"
+        },
+        {
+          "id": "31",
+          "number": 31,
+          "title": "tools: 引入 FeeTech_HD1910M_Servo Rust 舵机调试工具",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-22T02:43:36Z",
+          "merged_at": "2026-09-21T13:35:43Z",
+          "url": "https://github.com/fanhao375/microduck-replica/pull/31"
+        },
+        {
+          "id": "32",
+          "number": 32,
+          "title": "将 J-Link IMU 姿态并入 servo-web，固件归入硬件目录",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-09-21T15:06:43Z",
+          "merged_at": "2026-09-21T15:06:43Z",
+          "url": "https://github.com/fanhao375/microduck-replica/pull/32"
+        }
+      ],
+      "issues": [
+        {
+          "id": "48",
+          "number": 48,
+          "title": "微信群聊二维码过期了，需要更新",
+          "state": "open",
+          "updated_at": "2026-10-27T14:22:44Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/48"
+        },
+        {
+          "id": "25",
+          "number": 25,
+          "title": "Current walking progress and recommended hardware for a new build",
+          "state": "open",
+          "updated_at": "2026-10-27T03:21:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/25"
+        },
+        {
+          "id": "46",
+          "number": 46,
+          "title": "飞特版跟进请教：打印材料/质量、训练策略、HAT 板 PCBA、舵机参数 4 个问题",
+          "state": "open",
+          "updated_at": "2026-10-16T09:29:59Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/46"
+        },
+        {
+          "id": "45",
+          "number": 45,
+          "title": "微信群聊超过200人了，需要更新",
+          "state": "open",
+          "updated_at": "2026-10-16T07:01:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/45"
+        }
+      ]
+    },
+    {
+      "repo": "joeynyc/awesome-microduck",
+      "role": "community index",
+      "branch": "main",
+      "head": {
+        "sha": "32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa"
+      },
+      "updated_at": "2026-10-27T15:14:55Z",
+      "pushed_at": "2026-10-27T10:51:20Z",
+      "open_issues_count": 1,
+      "commits": [
+        {
+          "id": "32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa",
+          "sha": "32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa",
+          "message": "Add a ROSCon workshop, five trick and training projects, three agent layers and two tools (#37)",
+          "author": "joeynyc",
+          "date": "2026-10-27T10:51:18Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/32bfad4eed2b8e1a7f21b748a2e46c83c48fa9fa"
+        },
+        {
+          "id": "e7b4acec790bf64e8b76c65f471564622a2a31c6",
+          "sha": "e7b4acec790bf64e8b76c65f471564622a2a31c6",
+          "message": "Add the kissqy replica and six community entries (#36)",
+          "author": "joeynyc",
+          "date": "2026-10-25T20:44:48Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/e7b4acec790bf64e8b76c65f471564622a2a31c6"
+        },
+        {
+          "id": "f1f728ae46f282de287656d811f4c0529c8e0b58",
+          "sha": "f1f728ae46f282de287656d811f4c0529c8e0b58",
+          "message": "Add the CMU build, a Garry's Mod port and three launch articles (#35)",
+          "author": "joeynyc",
+          "date": "2026-10-24T20:45:24Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/f1f728ae46f282de287656d811f4c0529c8e0b58"
+        },
+        {
+          "id": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
+          "sha": "fcd4948df147e9d353feb78cde4a6de4f19a4676",
+          "message": "Add the Microduck OS image and eleven community entries (#34)",
+          "author": "joeynyc",
+          "date": "2026-10-23T19:41:37Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/fcd4948df147e9d353feb78cde4a6de4f19a4676"
+        },
+        {
+          "id": "7823591ca9c9bf1ffdf80f2239b93080f9427e81",
+          "sha": "7823591ca9c9bf1ffdf80f2239b93080f9427e81",
+          "message": "Add Curious Explorer (#33)",
+          "author": "hidrogencloride",
+          "date": "2026-10-23T19:40:15Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/7823591ca9c9bf1ffdf80f2239b93080f9427e81"
+        },
+        {
+          "id": "75b59609af34189014787989c3d7910da0232535",
+          "sha": "75b59609af34189014787989c3d7910da0232535",
+          "message": "Add seven community entries: two agent layers, a skill pack, a game and three builds (#31)",
+          "author": "joeynyc",
+          "date": "2026-10-19T20:45:05Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/75b59609af34189014787989c3d7910da0232535"
+        },
+        {
+          "id": "2a1cc3c679bcef36d459626f818e67908b11cc16",
+          "sha": "2a1cc3c679bcef36d459626f818e67908b11cc16",
+          "message": "Add an autonomy client and an HD-1910 training branch (#30)",
+          "author": "joeynyc",
+          "date": "2026-10-16T07:24:31Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/2a1cc3c679bcef36d459626f818e67908b11cc16"
+        },
+        {
+          "id": "e496b32cc60661d6afbb222f8dde542393f0dfff",
+          "sha": "e496b32cc60661d6afbb222f8dde542393f0dfff",
+          "message": "Add the Microduck Arena, the vet book and two community entries (#29)",
+          "author": "joeynyc",
+          "date": "2026-10-14T09:57:17Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/e496b32cc60661d6afbb222f8dde542393f0dfff"
+        }
+      ],
+      "releases": [],
+      "pulls": [
+        {
+          "id": "37",
+          "number": 37,
+          "title": "Add a ROSCon workshop, five trick and training projects, three agent layers and two tools",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-27T10:51:21Z",
+          "merged_at": "2026-10-27T10:51:18Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/37"
+        },
+        {
+          "id": "36",
+          "number": 36,
+          "title": "Add the kissqy replica and six community entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-25T20:44:51Z",
+          "merged_at": "2026-10-25T20:44:49Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/36"
+        },
+        {
+          "id": "35",
+          "number": 35,
+          "title": "Add the CMU build, a Garry's Mod port and three launch articles",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-24T20:45:27Z",
+          "merged_at": "2026-10-24T20:45:24Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/35"
+        },
+        {
+          "id": "34",
+          "number": 34,
+          "title": "Add the Microduck OS image and eleven community entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-23T19:41:41Z",
+          "merged_at": "2026-10-23T19:41:38Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/34"
+        },
+        {
+          "id": "33",
+          "number": 33,
+          "title": "Add Curious Explorer",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-23T19:40:16Z",
+          "merged_at": "2026-10-23T19:40:16Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/33"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "repo": "mujocolab/mjlab",
+      "role": "MuJoCo Warp RL framework",
+      "branch": "main",
+      "head": {
+        "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+        "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
+      },
+      "updated_at": "2026-10-28T03:51:40Z",
+      "pushed_at": "2026-10-27T22:55:35Z",
+      "open_issues_count": 62,
+      "commits": [
+        {
+          "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+          "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
+          "message": "Lay heightfield rows along y. (#1249)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T19:04:39Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
+        },
+        {
+          "id": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
+          "sha": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
+          "message": "Align posture std with asset_cfg's joint order. (#1253)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T19:01:56Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/214cd5659ae98e7ddbfa0ec4a52ae00005ce564d"
+        },
+        {
+          "id": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
+          "sha": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
+          "message": "Apply apply_body_impulse's body_point_offset in the body frame. (#1254)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:57:47Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/c2af5037e6dd5286e715d1539f6a7e5d3f915e04"
+        },
+        {
+          "id": "aa9a119516fb870d4e188d069027a70ca5193cad",
+          "sha": "aa9a119516fb870d4e188d069027a70ca5193cad",
+          "message": "Fix per-dimension additive bias crashing on the first reset. (#1250)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:56:51Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/aa9a119516fb870d4e188d069027a70ca5193cad"
+        },
+        {
+          "id": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
+          "sha": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
+          "message": "Match dm_control's small_control term in the cartpole reward. (#1246)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:55:29Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/dd43fb90b055cd5ab4127035c8c23b8b106565d0"
+        },
+        {
+          "id": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
+          "sha": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
+          "message": "Copy entity mesh files when exporting a scene. (#1252)",
+          "author": "LinCanNerd",
+          "date": "2026-10-18T18:52:42Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/d47a04943d92afe440b35f0ad3e474f2e4cc05ce"
+        },
+        {
+          "id": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
+          "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
+          "message": "Trim #1241 and index keyframe qpos on device. (#1245)",
+          "author": "kevinzakka",
+          "date": "2026-10-18T06:55:07Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
+        },
+        {
+          "id": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
+          "sha": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
+          "message": "Bump lockfile packages flagged by Dependabot. (#1244)",
+          "author": "kevinzakka",
+          "date": "2026-10-18T06:55:03Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/0bd96dcb8281ca5c24e5283725ee3b640abec5bd"
+        }
+      ],
+      "releases": [
+        {
+          "id": "367338270",
+          "tag": "v1.6.0",
+          "name": "mjlab v1.6.0",
+          "published_at": "2026-08-09T00:26:35Z",
+          "prerelease": false,
+          "url": "https://github.com/mujocolab/mjlab/releases/tag/v1.6.0"
+        },
+        {
+          "id": "358143221",
+          "tag": "v1.5.3",
+          "name": "mjlab v1.5.3",
+          "published_at": "2026-07-22T15:54:36Z",
+          "prerelease": false,
+          "url": "https://github.com/mujocolab/mjlab/releases/tag/v1.5.3"
+        },
+        {
+          "id": "355811599",
+          "tag": "v1.5.2",
+          "name": "mjlab v1.5.2",
+          "published_at": "2026-07-17T16:59:02Z",
+          "prerelease": false,
+          "url": "https://github.com/mujocolab/mjlab/releases/tag/v1.5.2"
+        }
+      ],
+      "pulls": [
+        {
+          "id": "1274",
+          "number": 1274,
+          "title": "Score tracking body velocities relative to the anchor heading.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T22:57:14Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1274"
+        },
+        {
+          "id": "1277",
+          "number": 1277,
+          "title": "Preserve input quaternions in shortest-path SLERP",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-27T18:09:16Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1277"
+        },
+        {
+          "id": "1231",
+          "number": 1231,
+          "title": "Add regression tests for invisible collisions from empty mesh slots",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T13:04:02Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1231"
+        },
+        {
+          "id": "1276",
+          "number": 1276,
+          "title": "fix(csv-to-npz): handle angular velocities for two-frame clips",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-26T10:56:41Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1276"
+        },
+        {
+          "id": "1230",
+          "number": 1230,
+          "title": "Add opt-in substep observation delay",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-25T21:05:11Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1230"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "repo": "leggedrobotics/rsl_rl",
+      "role": "PPO runner and algorithms",
+      "branch": "main",
+      "head": {
+        "sha": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
+        "url": "https://github.com/leggedrobotics/rsl_rl/commit/f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0"
+      },
+      "updated_at": "2026-10-28T03:22:17Z",
+      "pushed_at": "2026-10-27T15:47:49Z",
+      "open_issues_count": 6,
+      "commits": [
+        {
+          "id": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
+          "sha": "f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0",
+          "message": "Skip observation-normalizer updates for image-only CNN models (#252)",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-27T15:47:48Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/f26f3e5d96ec149124f63e0fd18ec0ff2d5cfdd0"
+        },
+        {
+          "id": "8feadb03451a7a0586a48aba692b1793b542138c",
+          "sha": "8feadb03451a7a0586a48aba692b1793b542138c",
+          "message": "Require maintainer edits on fork PRs",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-27T14:59:01Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/8feadb03451a7a0586a48aba692b1793b542138c"
+        },
+        {
+          "id": "b4bfe2e8089b4be7ca8a20ee462dea862514ab41",
+          "sha": "b4bfe2e8089b4be7ca8a20ee462dea862514ab41",
+          "message": "Update contribution guidelines for agents",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-27T14:33:43Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/b4bfe2e8089b4be7ca8a20ee462dea862514ab41"
+        },
+        {
+          "id": "52747c3936f33d49d3e67afdfe1a544074a27b4f",
+          "sha": "52747c3936f33d49d3e67afdfe1a544074a27b4f",
+          "message": "Keep the recurrent teacher's hidden state across distillation updates (#247)",
+          "author": "sxngt",
+          "date": "2026-10-27T14:13:18Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/52747c3936f33d49d3e67afdfe1a544074a27b4f"
+        },
+        {
+          "id": "f5c4d1f00c21d140cdba8bd7fba6e27483fb458d",
+          "sha": "f5c4d1f00c21d140cdba8bd7fba6e27483fb458d",
+          "message": "Step CNN encoders shared by actor and critic once per update (#246)",
+          "author": "sxngt",
+          "date": "2026-10-27T13:58:31Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/f5c4d1f00c21d140cdba8bd7fba6e27483fb458d"
+        },
+        {
+          "id": "3b9bec447ad50108ff8f8e7fd39ebf30d5efe077",
+          "sha": "3b9bec447ad50108ff8f8e7fd39ebf30d5efe077",
+          "message": "Skip singleton PPO advantage normalization (#251)",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-27T13:47:03Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/3b9bec447ad50108ff8f8e7fd39ebf30d5efe077"
+        },
+        {
+          "id": "f1a12c2d6a38b5884571d51cb7c17e293d091160",
+          "sha": "f1a12c2d6a38b5884571d51cb7c17e293d091160",
+          "message": "Retain rollout remainders in mini-batch generators (#244)",
+          "author": "Afloat16",
+          "date": "2026-10-27T13:35:31Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/f1a12c2d6a38b5884571d51cb7c17e293d091160"
+        },
+        {
+          "id": "c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9",
+          "sha": "c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9",
+          "message": "Fix CI ubuntu version",
+          "author": "ClemensSchwarke",
+          "date": "2026-10-27T13:32:55Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/commit/c29dcc6d0ab8fcc04c0b29e136d9893f76068eb9"
+        }
+      ],
+      "releases": [
+        {
+          "id": "385457519",
+          "tag": "v5.5.1",
+          "name": "v5.5.1",
+          "published_at": "2026-09-09T11:38:40Z",
+          "prerelease": false,
+          "url": "https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.5.1"
+        },
+        {
+          "id": "377625165",
+          "tag": "v5.5.0",
+          "name": "v5.5.0",
+          "published_at": "2026-08-27T07:20:46Z",
+          "prerelease": false,
+          "url": "https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.5.0"
+        },
+        {
+          "id": "354331111",
+          "tag": "v5.4.2",
+          "name": "v5.4.2",
+          "published_at": "2026-07-15T09:51:24Z",
+          "prerelease": false,
+          "url": "https://github.com/leggedrobotics/rsl_rl/releases/tag/v5.4.2"
+        }
+      ],
+      "pulls": [
+        {
+          "id": "250",
+          "number": 250,
+          "title": "Skip observation-normalizer updates for image-only CNN models",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-27T15:48:18Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/250"
+        },
+        {
+          "id": "252",
+          "number": 252,
+          "title": "Skip observation-normalizer updates for image-only CNN models",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-27T15:47:49Z",
+          "merged_at": "2026-10-27T15:47:49Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/252"
+        },
+        {
+          "id": "249",
+          "number": 249,
+          "title": "Preserve environment dimension in recurrent PPO surrogate loss",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T14:39:15Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/249"
+        },
+        {
+          "id": "247",
+          "number": 247,
+          "title": "Keep the recurrent teacher's hidden state across distillation updates",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-27T14:13:19Z",
+          "merged_at": "2026-10-27T14:13:19Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/247"
+        },
+        {
+          "id": "227",
+          "number": 227,
+          "title": "Feature/flashsac integration",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-27T14:00:37Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/227"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "social": [],
+  "errors": []
+}
