@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T22:38:30Z",
+  "generated_at": "2026-10-29T05:53:11Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "18aa800e61d87a4cf2f13a2da21ce49170e71ba7",
-        "url": "https://github.com/superobk/microduck-startup/commit/18aa800e61d87a4cf2f13a2da21ce49170e71ba7"
+        "sha": "2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d",
+        "url": "https://github.com/superobk/microduck-startup/commit/2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d"
       },
-      "updated_at": "2026-10-28T13:01:42Z",
-      "pushed_at": "2026-10-28T13:01:38Z",
+      "updated_at": "2026-10-28T22:38:51Z",
+      "pushed_at": "2026-10-28T22:38:46Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d",
+          "sha": "2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-28T22:38:45Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d"
+        },
         {
           "id": "18aa800e61d87a4cf2f13a2da21ce49170e71ba7",
           "sha": "18aa800e61d87a4cf2f13a2da21ce49170e71ba7",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-26T13:10:48Z",
           "url": "https://github.com/superobk/microduck-startup/commit/208633aadbd9f95c99c96cd07ec097103a4ab55e"
-        },
-        {
-          "id": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
-          "sha": "b85f81fc105edb7449b617b2614ee7b0d040cd3e",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-26T04:53:24Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/b85f81fc105edb7449b617b2614ee7b0d040cd3e"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde",
         "url": "https://github.com/pollen-robotics/microduck/commit/6cdfdaad21bed25e01b450c0dd4e0aee0ae19fde"
       },
-      "updated_at": "2026-10-28T22:34:37Z",
+      "updated_at": "2026-10-29T05:47:08Z",
       "pushed_at": "2026-10-28T17:07:07Z",
       "open_issues_count": 90,
       "commits": [
@@ -240,6 +240,22 @@
       ],
       "issues": [
         {
+          "id": "182",
+          "number": 182,
+          "title": "Shipping / availability in mainland China",
+          "state": "closed",
+          "updated_at": "2026-10-29T04:59:09Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/182"
+        },
+        {
+          "id": "487",
+          "number": 487,
+          "title": "tof/src/imu.rs says the BMI088 is at 0x19 per the HAT schematic; is that elec_RPI_Robot_HAT rev C1?",
+          "state": "closed",
+          "updated_at": "2026-10-29T02:42:13Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/487"
+        },
+        {
           "id": "486",
           "number": 486,
           "title": "Improve Microduck's developer onboarding and simulation documentation  Copy title",
@@ -257,7 +273,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-28T22:18:00Z",
+      "updated_at": "2026-10-29T03:26:59Z",
       "pushed_at": "2026-10-28T19:24:04Z",
       "open_issues_count": 58,
       "commits": [
@@ -447,7 +463,7 @@
         "sha": "fc32b6a23d71c7271179cabb6d5d84d6781feced",
         "url": "https://github.com/fanhao375/microduck-replica/commit/fc32b6a23d71c7271179cabb6d5d84d6781feced"
       },
-      "updated_at": "2026-10-28T21:48:36Z",
+      "updated_at": "2026-10-29T05:38:53Z",
       "pushed_at": "2026-10-28T17:41:54Z",
       "open_issues_count": 38,
       "commits": [
@@ -769,7 +785,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-28T22:18:56Z",
+      "updated_at": "2026-10-29T02:52:17Z",
       "pushed_at": "2026-10-27T22:55:35Z",
       "open_issues_count": 63,
       "commits": [
