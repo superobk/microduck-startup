@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-10-29T13:08:40Z`
+Generated: `2026-10-29T22:48:15Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,56 +8,51 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `487053ca692a` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/487053ca692a5da5bf2ec90ec83c5f80e60b3b77)
+- Commit `84e9dfa835cb` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/84e9dfa835cbc479057462da04d6f1ac475723bc)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.18.0](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.0)
-- Release [daemon 0.18.0-dev.1514.a360b38 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Release [daemon 0.18.0-dev.1509.1b64c8b (footsteps)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-footsteps) (prerelease)
-- Commit `a360b3843bb4` [Merge pull request #492 from pollen-robotics/dependabot/cargo/rustls-0.23.46](https://github.com/pollen-robotics/microduck/commit/a360b3843bb49fd48a635b39eabcb835d9fffecb)
-- Commit `fc65c31c573d` [Merge pull request #489 from pollen-robotics/configure-tolerates-unknown-keys](https://github.com/pollen-robotics/microduck/commit/fc65c31c573df071ff690c0ad1d78d43eee8d7cf)
-- Commit `00c11c89672d` [build(deps): bump rustls from 0.23.45 to 0.23.46](https://github.com/pollen-robotics/microduck/commit/00c11c89672d6a872d4a31d21f258bb706e8f8d3)
-- Commit `206aae721b88` [Merge pull request #491 from pollen-robotics/dependabot/npm_and_yarn/spaces/policy-playground/web/vite-7.3.7](https://github.com/pollen-robotics/microduck/commit/206aae721b88209b046cfafe80bfd329e08653a8)
-- Commit `b35772dc90ed` [configure: run's doc back on run; a stray key no branch has](https://github.com/pollen-robotics/microduck/commit/b35772dc90ed9bc35fc1e03fe068a31dfc595b15)
-- Commit `6e6111f1ca25` [configure: name the base's unknown keys too, in yellow and kept on screen](https://github.com/pollen-robotics/microduck/commit/6e6111f1ca25870ca8d6de1051c5a47be70a4ca0)
-- Commit `e5974a761977` [Merge branch 'main' into configure-tolerates-unknown-keys](https://github.com/pollen-robotics/microduck/commit/e5974a7619773a27cbe21a067e317afd582bb65c)
-- Commit `e539590e54dd` [build(deps-dev): bump vite in /spaces/policy-playground/web](https://github.com/pollen-robotics/microduck/commit/e539590e54dd63c64916eaf0d02ee1e98d63738f)
-- PR #492 [build(deps): bump rustls from 0.23.45 to 0.23.46](https://github.com/pollen-robotics/microduck/pull/492) — closed
-- PR #489 [configure: open a robotd.toml with keys from another branch](https://github.com/pollen-robotics/microduck/pull/489) — closed
-- PR #491 [build(deps-dev): bump vite from 7.3.6 to 7.3.7 in /spaces/policy-playground/web](https://github.com/pollen-robotics/microduck/pull/491) — closed
-- PR #490 [Prepare release 0.18.0](https://github.com/pollen-robotics/microduck/pull/490) — closed
-
-### pollen-robotics/microduck_rl
-
-- PR #51 [Add optional read-only MuJoCo visualization stream](https://github.com/pollen-robotics/microduck_rl/pull/51) — open
+- Release [daemon 0.18.1](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.1)
+- Release [daemon 0.18.0-dev.1516.0c3e9c6 (stress-test)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test) (prerelease)
+- Commit `7d866d0f864c` [Merge pull request #494 from pollen-robotics/boot-check-settles](https://github.com/pollen-robotics/microduck/commit/7d866d0f864c9b6f19ec6b7762ec2341520db3cc)
+- Commit `3fd5a9116d3d` [Prepare release 0.18.1](https://github.com/pollen-robotics/microduck/commit/3fd5a9116d3d8f8f91331b7f77c3863391094a2e)
+- Commit `0357f5976e11` [robot-boot-check: decide once the daemons settle, not 180 s in](https://github.com/pollen-robotics/microduck/commit/0357f5976e1156740060c23f5b2643d5511aadb9)
+- PR #500 [duck-sim: name the shipped gait, not the legacy pair, so the duck walks](https://github.com/pollen-robotics/microduck/pull/500) — open
+- PR #496 [docs: give a code contributor an ordered start-here path in docs/README.md](https://github.com/pollen-robotics/microduck/pull/496) — open
+- PR #495 [kinematics: head collision geoms and articulated lower beak](https://github.com/pollen-robotics/microduck/pull/495) — open
+- PR #494 [robot-boot-check: decide once the daemons settle, not 180 s in](https://github.com/pollen-robotics/microduck/pull/494) — closed
+- PR #493 [configd: default the pairing PIN to the label serial's last six digits](https://github.com/pollen-robotics/microduck/pull/493) — open
 
 ### fanhao375/microduck-replica
 
-- Commit `4d9b19b8a806` [docs: track 0.18 development merges and config migration](https://github.com/fanhao375/microduck-replica/commit/4d9b19b8a8065b358a8dd34ff34e63966dd9bcb2)
-- Commit `e1f13670b75e` [docs: track proposed autonomy scope clarification](https://github.com/fanhao375/microduck-replica/commit/e1f13670b75e6f2e0921a7426e8d0a5d37742b2d)
+- Release [软件更新 2026.10.30 · 仅接 IMU 独立诊断（无需重烧）](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.30)
+- Release [软件更新 2026.10.29 · IMU 与舵机独立状态（无需重烧）](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.29)
+- Commit `e20877b8a099` [docs: track 0.18.1 boot recovery and current logging](https://github.com/fanhao375/microduck-replica/commit/e20877b8a099e8d669ef14e7f22275a946625f55)
+- Commit `3060cf74346f` [docs: record verified independent IMU software publication](https://github.com/fanhao375/microduck-replica/commit/3060cf74346f9f2f791a475bd1334de5b2deab7f)
+- Commit `2ba8e5d8ae4a` [docs: prepare independent IMU software update instructions](https://github.com/fanhao375/microduck-replica/commit/2ba8e5d8ae4a4cf42f6284baf5dd817b412c4a5d)
+- Commit `29d5342e635f` [fix(studio): invalidate IMU metadata across daemon contexts](https://github.com/fanhao375/microduck-replica/commit/29d5342e635fc48f0bf46a57575821e54681f867)
+- Commit `dae3d2e3aa73` [fix(updater): pin independent IMU build and preserve predecessor recovery](https://github.com/fanhao375/microduck-replica/commit/dae3d2e3aa73c86487f520a1101fb703870875ea)
+- Commit `c1db349a745e` [feat(studio): show independent startup IMU diagnostics](https://github.com/fanhao375/microduck-replica/commit/c1db349a745e8ee94871a8059d2cdec799c96d4c)
+- Commit `b2fb9297fa81` [docs: plan independent startup IMU diagnostics and update](https://github.com/fanhao375/microduck-replica/commit/b2fb9297fa810665ac6f8ff2baddbf3aa2ef7ed0)
+- Commit `2b51047c58ab` [hardware: sync board project files](https://github.com/fanhao375/microduck-replica/commit/2b51047c58ab29ae588e3848d290612676385928)
 
 ### joeynyc/awesome-microduck
 
-- Commit `f8c2ce15a389` [Trim the 29 longest descriptions and set a length guideline (#40)](https://github.com/joeynyc/awesome-microduck/commit/f8c2ce15a389c5a66c61e95723c822999e064590)
-- Commit `4cf138d06d7e` [Reorganize the four largest sections into subsections (#39)](https://github.com/joeynyc/awesome-microduck/commit/4cf138d06d7e2e82ebdec2c5f31e88f0bc46a3a0)
-- Commit `0fdce27c8bd7` [Add official training checkpoints, footsteps and static-grasp, the Tug of War event and a Minecraft mod (#38)](https://github.com/joeynyc/awesome-microduck/commit/0fdce27c8bd74555910fc50ef2b30b80abcd66d8)
-- PR #40 [Trim the 29 longest descriptions and set a length guideline](https://github.com/joeynyc/awesome-microduck/pull/40) — closed
-- PR #39 [Reorganize the four largest sections into subsections](https://github.com/joeynyc/awesome-microduck/pull/39) — closed
-- PR #38 [Add official training checkpoints, footsteps and static-grasp, the Tug of War event and a Minecraft mod](https://github.com/joeynyc/awesome-microduck/pull/38) — closed
+- Commit `63d73155cc8b` [Add an agent-run Isaac Lab trainer and a vision-language goal agent (#41)](https://github.com/joeynyc/awesome-microduck/commit/63d73155cc8baf9450a462a30c91474275680f2d)
+- PR #41 [Add an agent-run Isaac Lab trainer and a vision-language goal agent](https://github.com/joeynyc/awesome-microduck/pull/41) — closed
 
 ### mujocolab/mjlab
 
-- PR #1229 [Allow custom runners to extend the exported ONNX metadata](https://github.com/mujocolab/mjlab/pull/1229) — open
+- PR #1282 [Keep additive observation bias local to each environment](https://github.com/mujocolab/mjlab/pull/1282) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [487053ca692a](https://github.com/superobk/microduck-startup/commit/487053ca692a5da5bf2ec90ec83c5f80e60b3b77); pushed `2026-10-29T05:53:32Z`
-- **pollen-robotics/microduck** `main` → [a360b3843bb4](https://github.com/pollen-robotics/microduck/commit/a360b3843bb49fd48a635b39eabcb835d9fffecb); pushed `2026-10-29T12:57:55Z`
-- **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-10-28T19:24:04Z`
+- **superobk/microduck-startup** `main` → [84e9dfa835cb](https://github.com/superobk/microduck-startup/commit/84e9dfa835cbc479057462da04d6f1ac475723bc); pushed `2026-10-29T13:09:01Z`
+- **pollen-robotics/microduck** `main` → [7d866d0f864c](https://github.com/pollen-robotics/microduck/commit/7d866d0f864c9b6f19ec6b7762ec2341520db3cc); pushed `2026-10-29T16:49:37Z`
+- **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-10-29T22:00:51Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [4d9b19b8a806](https://github.com/fanhao375/microduck-replica/commit/4d9b19b8a8065b358a8dd34ff34e63966dd9bcb2); pushed `2026-10-29T12:01:52Z`
-- **joeynyc/awesome-microduck** `main` → [f8c2ce15a389](https://github.com/joeynyc/awesome-microduck/commit/f8c2ce15a389c5a66c61e95723c822999e064590); pushed `2026-10-29T11:19:46Z`
+- **fanhao375/microduck-replica** `master` → [e20877b8a099](https://github.com/fanhao375/microduck-replica/commit/e20877b8a099e8d669ef14e7f22275a946625f55); pushed `2026-10-29T17:08:51Z`
+- **joeynyc/awesome-microduck** `main` → [63d73155cc8b](https://github.com/joeynyc/awesome-microduck/commit/63d73155cc8baf9450a462a30c91474275680f2d); pushed `2026-10-29T20:08:12Z`
 - **mujocolab/mjlab** `main` → [8bb2bc9e1877](https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376); pushed `2026-10-27T22:55:35Z`
 - **leggedrobotics/rsl_rl** `main` → [11563319134f](https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9); pushed `2026-10-28T16:18:03Z`
 
