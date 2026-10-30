@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T22:48:15Z",
+  "generated_at": "2026-10-30T05:54:51Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "84e9dfa835cbc479057462da04d6f1ac475723bc",
-        "url": "https://github.com/superobk/microduck-startup/commit/84e9dfa835cbc479057462da04d6f1ac475723bc"
+        "sha": "aefb438775507d76c391f06ea26c470ae4c127b9",
+        "url": "https://github.com/superobk/microduck-startup/commit/aefb438775507d76c391f06ea26c470ae4c127b9"
       },
-      "updated_at": "2026-10-29T13:09:06Z",
-      "pushed_at": "2026-10-29T13:09:01Z",
+      "updated_at": "2026-10-29T22:48:42Z",
+      "pushed_at": "2026-10-29T22:48:37Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "aefb438775507d76c391f06ea26c470ae4c127b9",
+          "sha": "aefb438775507d76c391f06ea26c470ae4c127b9",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-29T22:48:35Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/aefb438775507d76c391f06ea26c470ae4c127b9"
+        },
         {
           "id": "84e9dfa835cbc479057462da04d6f1ac475723bc",
           "sha": "84e9dfa835cbc479057462da04d6f1ac475723bc",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-27T12:18:43Z",
           "url": "https://github.com/superobk/microduck-startup/commit/f5638856625ea9c430cc575ea3310ee66a41fa49"
-        },
-        {
-          "id": "964aa26d8a8443b335a6f6bf1c03e8f2b11ea519",
-          "sha": "964aa26d8a8443b335a6f6bf1c03e8f2b11ea519",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-27T05:11:52Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/964aa26d8a8443b335a6f6bf1c03e8f2b11ea519"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "7d866d0f864c9b6f19ec6b7762ec2341520db3cc",
         "url": "https://github.com/pollen-robotics/microduck/commit/7d866d0f864c9b6f19ec6b7762ec2341520db3cc"
       },
-      "updated_at": "2026-10-29T22:43:22Z",
+      "updated_at": "2026-10-30T05:29:54Z",
       "pushed_at": "2026-10-29T16:49:37Z",
-      "open_issues_count": 93,
+      "open_issues_count": 94,
       "commits": [
         {
           "id": "7d866d0f864c9b6f19ec6b7762ec2341520db3cc",
@@ -240,6 +240,14 @@
       ],
       "issues": [
         {
+          "id": "501",
+          "number": 501,
+          "title": "connector for chatgpt gemini 4 cloude",
+          "state": "open",
+          "updated_at": "2026-10-30T05:26:37Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/501"
+        },
+        {
           "id": "498",
           "number": 498,
           "title": "duck-sim on macOS (Apple Silicon): walk policy is selected but the duck does not walk",
@@ -262,14 +270,6 @@
           "state": "open",
           "updated_at": "2026-10-29T20:35:00Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/497"
-        },
-        {
-          "id": "486",
-          "number": 486,
-          "title": "Improve Microduck's developer onboarding and simulation documentation  Copy title",
-          "state": "open",
-          "updated_at": "2026-10-29T18:42:14Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/486"
         }
       ]
     },
@@ -281,8 +281,8 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-29T22:28:03Z",
-      "pushed_at": "2026-10-29T22:00:51Z",
+      "updated_at": "2026-10-30T04:32:58Z",
+      "pushed_at": "2026-10-30T02:43:01Z",
       "open_issues_count": 58,
       "commits": [
         {
@@ -430,7 +430,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-10-22T09:52:54Z",
+      "updated_at": "2026-10-30T04:33:54Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -471,7 +471,7 @@
         "sha": "e20877b8a099e8d669ef14e7f22275a946625f55",
         "url": "https://github.com/fanhao375/microduck-replica/commit/e20877b8a099e8d669ef14e7f22275a946625f55"
       },
-      "updated_at": "2026-10-29T20:10:06Z",
+      "updated_at": "2026-10-30T05:30:26Z",
       "pushed_at": "2026-10-29T17:08:51Z",
       "open_issues_count": 39,
       "commits": [
@@ -793,9 +793,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-29T10:11:59Z",
+      "updated_at": "2026-10-30T05:46:54Z",
       "pushed_at": "2026-10-27T22:55:35Z",
-      "open_issues_count": 64,
+      "open_issues_count": 65,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -890,6 +890,16 @@
       ],
       "pulls": [
         {
+          "id": "1283",
+          "number": 1283,
+          "title": "Fix upright reward's default body selection",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-30T02:16:05Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1283"
+        },
+        {
           "id": "1282",
           "number": 1282,
           "title": "Keep additive observation bias local to each environment",
@@ -928,16 +938,6 @@
           "updated_at": "2026-10-27T22:57:14Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1274"
-        },
-        {
-          "id": "1277",
-          "number": 1277,
-          "title": "Preserve input quaternions in shortest-path SLERP",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-27T18:09:16Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1277"
         }
       ],
       "issues": []
@@ -950,7 +950,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-10-29T13:27:32Z",
+      "updated_at": "2026-10-30T03:45:18Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 7,
       "commits": [
