@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T13:01:31Z",
+  "generated_at": "2026-10-30T22:24:59Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "906f675cca729b5cf61b059747338d80489224be",
-        "url": "https://github.com/superobk/microduck-startup/commit/906f675cca729b5cf61b059747338d80489224be"
+        "sha": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
+        "url": "https://github.com/superobk/microduck-startup/commit/5678ed9a242c9543f2b9fe9d36a645c8af363cf0"
       },
-      "updated_at": "2026-10-30T05:55:12Z",
-      "pushed_at": "2026-10-30T05:55:08Z",
+      "updated_at": "2026-10-30T13:01:56Z",
+      "pushed_at": "2026-10-30T13:01:52Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
+          "sha": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-30T13:01:50Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5678ed9a242c9543f2b9fe9d36a645c8af363cf0"
+        },
         {
           "id": "906f675cca729b5cf61b059747338d80489224be",
           "sha": "906f675cca729b5cf61b059747338d80489224be",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-28T05:48:25Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ad6649447d60bf81ec29d79dc1c9994f8c2149d3"
-        },
-        {
-          "id": "93a349d84951c5fe16bb1215419bb2a783590120",
-          "sha": "93a349d84951c5fe16bb1215419bb2a783590120",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-27T22:18:43Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/93a349d84951c5fe16bb1215419bb2a783590120"
         }
       ],
       "releases": [],
@@ -88,79 +88,87 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "e1b49bf20c5efcbe187553e7b2210ec3df2cd788",
-        "url": "https://github.com/pollen-robotics/microduck/commit/e1b49bf20c5efcbe187553e7b2210ec3df2cd788"
+        "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
+        "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-10-30T12:53:31Z",
-      "pushed_at": "2026-10-30T12:56:11Z",
+      "updated_at": "2026-10-30T22:16:08Z",
+      "pushed_at": "2026-10-30T15:04:53Z",
       "open_issues_count": 96,
       "commits": [
         {
-          "id": "e1b49bf20c5efcbe187553e7b2210ec3df2cd788",
-          "sha": "e1b49bf20c5efcbe187553e7b2210ec3df2cd788",
-          "message": "Merge pull request #474 from is-qian/pr/configd-auto-reconnect",
+          "id": "b2b0d213a402caeac492dd662ea891faa17f67c0",
+          "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
+          "message": "Merge pull request #502 from pollen-robotics/telemetry",
           "author": "pierre-rouanet",
-          "date": "2026-10-30T08:40:03Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/e1b49bf20c5efcbe187553e7b2210ec3df2cd788"
+          "date": "2026-10-30T14:58:39Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
         },
         {
-          "id": "5833ac8498434bf83b111c8cb9bf32a869e0b06f",
-          "sha": "5833ac8498434bf83b111c8cb9bf32a869e0b06f",
-          "message": "Prepare release 0.18.2",
+          "id": "c1b4762e7417d41f720d309a551f09899aa009cc",
+          "sha": "c1b4762e7417d41f720d309a551f09899aa009cc",
+          "message": "Prepare release 0.18.3",
           "author": "pierre-rouanet",
-          "date": "2026-10-30T08:33:20Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/5833ac8498434bf83b111c8cb9bf32a869e0b06f"
+          "date": "2026-10-30T14:51:22Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/c1b4762e7417d41f720d309a551f09899aa009cc"
         },
         {
-          "id": "68bd3dc0218750df78ac416bee93b5813ede9175",
-          "sha": "68bd3dc0218750df78ac416bee93b5813ede9175",
-          "message": "Merge branch 'main' into pr/configd-auto-reconnect",
+          "id": "a4b88154e371548db5feb26aba0549e88a6f0a30",
+          "sha": "a4b88154e371548db5feb26aba0549e88a6f0a30",
+          "message": "Merge remote-tracking branch 'origin/main' into telemetry",
           "author": "pierre-rouanet",
-          "date": "2026-10-30T08:25:36Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/68bd3dc0218750df78ac416bee93b5813ede9175"
+          "date": "2026-10-30T14:50:50Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/a4b88154e371548db5feb26aba0549e88a6f0a30"
         },
         {
-          "id": "14e096948d631356318c779c0e4a3c74b150f162",
-          "sha": "14e096948d631356318c779c0e4a3c74b150f162",
-          "message": "configd: back the pad reconnect sweep off, and say why classic is paged",
-          "author": "pierre-rouanet",
-          "date": "2026-10-30T08:05:02Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/14e096948d631356318c779c0e4a3c74b150f162"
+          "id": "4fc912ff57d96ecffdb83adff4dff925a50b842f",
+          "sha": "4fc912ff57d96ecffdb83adff4dff925a50b842f",
+          "message": "Merge pull request #505 from pollen-robotics/duckctl-ssh-cache",
+          "author": "apirrone",
+          "date": "2026-10-30T14:11:02Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/4fc912ff57d96ecffdb83adff4dff925a50b842f"
         },
         {
-          "id": "7d866d0f864c9b6f19ec6b7762ec2341520db3cc",
-          "sha": "7d866d0f864c9b6f19ec6b7762ec2341520db3cc",
-          "message": "Merge pull request #494 from pollen-robotics/boot-check-settles",
-          "author": "pierre-rouanet",
-          "date": "2026-10-29T16:42:49Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/7d866d0f864c9b6f19ec6b7762ec2341520db3cc"
+          "id": "144ca30cc1c1bec346a933b60faa58b2bb62768f",
+          "sha": "144ca30cc1c1bec346a933b60faa58b2bb62768f",
+          "message": "duckctl: ssh and scp try the robot's last address before scanning",
+          "author": "antoine",
+          "date": "2026-10-30T13:33:25Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/144ca30cc1c1bec346a933b60faa58b2bb62768f"
         },
         {
-          "id": "3fd5a9116d3d8f8f91331b7f77c3863391094a2e",
-          "sha": "3fd5a9116d3d8f8f91331b7f77c3863391094a2e",
-          "message": "Prepare release 0.18.1",
-          "author": "pierre-rouanet",
-          "date": "2026-10-29T16:34:08Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/3fd5a9116d3d8f8f91331b7f77c3863391094a2e"
+          "id": "1f60acc8f2ee825f0ec3c256372e178f111345b7",
+          "sha": "1f60acc8f2ee825f0ec3c256372e178f111345b7",
+          "message": "telemetry: review fixes — no false success, a tested policy diff, a snapshot per id",
+          "author": "FabienDanieau",
+          "date": "2026-10-30T11:16:02Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/1f60acc8f2ee825f0ec3c256372e178f111345b7"
         },
         {
-          "id": "0357f5976e1156740060c23f5b2643d5511aadb9",
-          "sha": "0357f5976e1156740060c23f5b2643d5511aadb9",
-          "message": "robot-boot-check: decide once the daemons settle, not 180 s in",
-          "author": "pierre-rouanet",
-          "date": "2026-10-29T16:28:01Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/0357f5976e1156740060c23f5b2643d5511aadb9"
+          "id": "9f39969daffaa47b0f759909b84307856aa54d3d",
+          "sha": "9f39969daffaa47b0f759909b84307856aa54d3d",
+          "message": "telemetry: send the OS image's BUILD_ID, and log a successful send at debug",
+          "author": "FabienDanieau",
+          "date": "2026-10-30T10:59:19Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/9f39969daffaa47b0f759909b84307856aa54d3d"
         },
         {
-          "id": "a360b3843bb49fd48a635b39eabcb835d9fffecb",
-          "sha": "a360b3843bb49fd48a635b39eabcb835d9fffecb",
-          "message": "Merge pull request #492 from pollen-robotics/dependabot/cargo/rustls-0.23.46",
-          "author": "pierre-rouanet",
-          "date": "2026-10-29T12:47:55Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/a360b3843bb49fd48a635b39eabcb835d9fffecb"
+          "id": "60cfb480dbc7bc5af20d529355d39fac051e17fe",
+          "sha": "60cfb480dbc7bc5af20d529355d39fac051e17fe",
+          "message": "telemetry: the RTC exists but has no battery, say so",
+          "author": "FabienDanieau",
+          "date": "2026-10-30T10:14:01Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/60cfb480dbc7bc5af20d529355d39fac051e17fe"
         }
       ],
       "releases": [
+        {
+          "id": "429166027",
+          "tag": "daemon-v0.18.3",
+          "name": "daemon 0.18.3",
+          "published_at": "2026-10-30T15:04:54Z",
+          "prerelease": false,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.3"
+        },
         {
           "id": "428810971",
           "tag": "daemon-v0.18.2",
@@ -168,14 +176,6 @@
           "published_at": "2026-10-30T08:46:07Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.2"
-        },
-        {
-          "id": "428946685",
-          "tag": "daemon-dev-telemetry",
-          "name": "daemon 0.18.0-dev.1522.1f60acc (telemetry)",
-          "published_at": "2026-10-30T11:21:31Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-telemetry"
         },
         {
           "id": "429034009",
@@ -188,6 +188,46 @@
       ],
       "pulls": [
         {
+          "id": "506",
+          "number": 506,
+          "title": "robotd-params: the mic records from `default` as written, not `default,0`",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-10-30T22:13:22Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/506"
+        },
+        {
+          "id": "504",
+          "number": 504,
+          "title": "fix(endurance-plot): make appended runs restart-aware",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-30T16:44:38Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/504"
+        },
+        {
+          "id": "502",
+          "number": 502,
+          "title": "Anonymous usage telemetry to PostHog, with an opt-out",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-30T14:58:42Z",
+          "merged_at": "2026-10-30T14:58:39Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/502"
+        },
+        {
+          "id": "505",
+          "number": 505,
+          "title": "duckctl: ssh and scp try the robot's last address before scanning",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-30T14:11:05Z",
+          "merged_at": "2026-10-30T14:11:02Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/505"
+        },
+        {
           "id": "503",
           "number": 503,
           "title": "robotctl: set-pwm-limit and set-current-limit",
@@ -196,49 +236,18 @@
           "updated_at": "2026-10-30T12:56:14Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/503"
-        },
-        {
-          "id": "504",
-          "number": 504,
-          "title": "fix(endurance-plot): make appended runs restart-aware",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T12:43:31Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/504"
-        },
-        {
-          "id": "502",
-          "number": 502,
-          "title": "Anonymous usage telemetry to PostHog, with an opt-out",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T11:20:23Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/502"
-        },
-        {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T09:12:03Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
-        },
-        {
-          "id": "448",
-          "number": 448,
-          "title": "robotctl: policy add --dry-run shows the skill it would add",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T09:08:43Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/448"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "498",
+          "number": 498,
+          "title": "duck-sim on macOS (Apple Silicon): walk policy is selected but the duck does not walk",
+          "state": "open",
+          "updated_at": "2026-10-30T15:42:09Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/498"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,8 +257,8 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-30T09:35:26Z",
-      "pushed_at": "2026-10-30T12:34:31Z",
+      "updated_at": "2026-10-30T20:01:35Z",
+      "pushed_at": "2026-10-30T21:40:11Z",
       "open_issues_count": 59,
       "commits": [
         {
@@ -435,79 +444,87 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "206cd963fafa8366dc604c72f1bac78a915f72f3",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/206cd963fafa8366dc604c72f1bac78a915f72f3"
+        "sha": "789ef5e45b6102d7e71fecefbf58606520147cfa",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/789ef5e45b6102d7e71fecefbf58606520147cfa"
       },
-      "updated_at": "2026-10-30T13:00:33Z",
-      "pushed_at": "2026-10-30T12:26:50Z",
+      "updated_at": "2026-10-30T20:06:34Z",
+      "pushed_at": "2026-10-30T19:06:58Z",
       "open_issues_count": 39,
       "commits": [
         {
-          "id": "206cd963fafa8366dc604c72f1bac78a915f72f3",
-          "sha": "206cd963fafa8366dc604c72f1bac78a915f72f3",
-          "message": "docs: replace WeChat support QR with Alipay",
+          "id": "789ef5e45b6102d7e71fecefbf58606520147cfa",
+          "sha": "789ef5e45b6102d7e71fecefbf58606520147cfa",
+          "message": "docs: distinguish published 0.15 software from isolated 0.18 migration",
           "author": "fanhao375",
-          "date": "2026-10-30T12:26:48Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/206cd963fafa8366dc604c72f1bac78a915f72f3"
+          "date": "2026-10-30T19:06:55Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/789ef5e45b6102d7e71fecefbf58606520147cfa"
         },
         {
-          "id": "7d045ce570885e16f0d1d0091e992accfc3d114a",
-          "sha": "7d045ce570885e16f0d1d0091e992accfc3d114a",
-          "message": "docs: track usage telemetry and skill beak prototypes",
+          "id": "01a5b537c5c6166cb65831b3850d72deb211b413",
+          "sha": "01a5b537c5c6166cb65831b3850d72deb211b413",
+          "message": "docs: record public software acceptance and completed space recovery",
           "author": "fanhao375",
-          "date": "2026-10-30T12:19:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7d045ce570885e16f0d1d0091e992accfc3d114a"
+          "date": "2026-10-30T18:39:06Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/01a5b537c5c6166cb65831b3850d72deb211b413"
         },
         {
-          "id": "bfeb2e0cf4ebe98ae58b48a8012c0b7256f8ed8b",
-          "sha": "bfeb2e0cf4ebe98ae58b48a8012c0b7256f8ed8b",
-          "message": "docs: record official 0.18.2 gamepad reconnect release",
+          "id": "2eca762bf762bc2865ced90c7115b21570436ba7",
+          "sha": "2eca762bf762bc2865ced90c7115b21570436ba7",
+          "message": "docs: publish software update instructions and verification scope",
           "author": "fanhao375",
-          "date": "2026-10-30T09:21:55Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/bfeb2e0cf4ebe98ae58b48a8012c0b7256f8ed8b"
+          "date": "2026-10-30T18:21:30Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2eca762bf762bc2865ced90c7115b21570436ba7"
         },
         {
-          "id": "fde25ec3a586e8e7328dc959b892fa44374009f1",
-          "sha": "fde25ec3a586e8e7328dc959b892fa44374009f1",
-          "message": "docs: track classic gamepad reconnect backoff proposal",
+          "id": "3e7426a9cdf8332777cc6170743efb22e5af8f29",
+          "sha": "3e7426a9cdf8332777cc6170743efb22e5af8f29",
+          "message": "test: record Linux controller and legacy rollback acceptance",
           "author": "fanhao375",
-          "date": "2026-10-30T08:15:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/fde25ec3a586e8e7328dc959b892fa44374009f1"
+          "date": "2026-10-30T18:20:48Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/3e7426a9cdf8332777cc6170743efb22e5af8f29"
         },
         {
-          "id": "0b463c56d9abb649854774a9439f9b863510b643",
-          "sha": "0b463c56d9abb649854774a9439f9b863510b643",
-          "message": "docs: track simulation and head geometry proposals",
+          "id": "36f12c3ebe259f0c9f2cd0e1e1e43f10d5eb99a8",
+          "sha": "36f12c3ebe259f0c9f2cd0e1e1e43f10d5eb99a8",
+          "message": "Merge remote-tracking branch 'origin/master' into release/software-features-20261030",
           "author": "fanhao375",
-          "date": "2026-10-30T07:15:12Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/0b463c56d9abb649854774a9439f9b863510b643"
+          "date": "2026-10-30T18:03:34Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/36f12c3ebe259f0c9f2cd0e1e1e43f10d5eb99a8"
         },
         {
-          "id": "e20877b8a099e8d669ef14e7f22275a946625f55",
-          "sha": "e20877b8a099e8d669ef14e7f22275a946625f55",
-          "message": "docs: track 0.18.1 boot recovery and current logging",
+          "id": "26150eb61407d3498dc2e2c5d1f9dc3ea130acde",
+          "sha": "26150eb61407d3498dc2e2c5d1f9dc3ea130acde",
+          "message": "build: pin verified controller binaries and document cache retention",
           "author": "fanhao375",
-          "date": "2026-10-29T17:08:49Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/e20877b8a099e8d669ef14e7f22275a946625f55"
+          "date": "2026-10-30T17:31:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/26150eb61407d3498dc2e2c5d1f9dc3ea130acde"
         },
         {
-          "id": "3060cf74346f9f2f791a475bd1334de5b2deab7f",
-          "sha": "3060cf74346f9f2f791a475bd1334de5b2deab7f",
-          "message": "docs: record verified independent IMU software publication",
+          "id": "c6b430a827fd2935603233ccc587ea5c49b099ad",
+          "sha": "c6b430a827fd2935603233ccc587ea5c49b099ad",
+          "message": "docs: verify official 0.18.3 asset availability and development source",
           "author": "fanhao375",
-          "date": "2026-10-29T15:50:35Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/3060cf74346f9f2f791a475bd1334de5b2deab7f"
+          "date": "2026-10-30T16:03:53Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c6b430a827fd2935603233ccc587ea5c49b099ad"
         },
         {
-          "id": "2ba8e5d8ae4a4cf42f6284baf5dd817b412c4a5d",
-          "sha": "2ba8e5d8ae4a4cf42f6284baf5dd817b412c4a5d",
-          "message": "docs: prepare independent IMU software update instructions",
+          "id": "e9933ef0b075d60efa1f49db33c00e6dfb3c14a9",
+          "sha": "e9933ef0b075d60efa1f49db33c00e6dfb3c14a9",
+          "message": "docs: record independent controller updater review",
           "author": "fanhao375",
-          "date": "2026-10-29T15:43:23Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2ba8e5d8ae4a4cf42f6284baf5dd817b412c4a5d"
+          "date": "2026-10-30T15:28:34Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/e9933ef0b075d60efa1f49db33c00e6dfb3c14a9"
         }
       ],
       "releases": [
+        {
+          "id": "429365575",
+          "tag": "microduck-software-v2026.10.31",
+          "name": "软件更新 2026.10.31 · 手柄映射、摄像头原地放大与 SSH 指引（无需重烧）",
+          "published_at": "2026-10-30T18:37:12Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.31"
+        },
         {
           "id": "428069008",
           "tag": "microduck-software-v2026.10.30",
@@ -523,14 +540,6 @@
           "published_at": "2026-10-29T13:59:36Z",
           "prerelease": false,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.29"
-        },
-        {
-          "id": "426161306",
-          "tag": "microduck-software-v2026.10.28",
-          "name": "软件更新 2026.10.28 · 秦墨 IMU 可选适配（无需重烧）",
-          "published_at": "2026-10-28T01:28:38Z",
-          "prerelease": false,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.10.28"
         }
       ],
       "pulls": [
@@ -760,9 +769,9 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-30T09:18:37Z",
+      "updated_at": "2026-10-30T20:46:35Z",
       "pushed_at": "2026-10-27T22:55:35Z",
-      "open_issues_count": 66,
+      "open_issues_count": 71,
       "commits": [
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -857,6 +866,26 @@
       ],
       "pulls": [
         {
+          "id": "1289",
+          "number": 1289,
+          "title": "Read position components without constructing full poses",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-30T18:32:50Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1289"
+        },
+        {
+          "id": "1285",
+          "number": 1285,
+          "title": "Keep torch.compile max-autotune working after configure_torch_backends",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-30T13:28:11Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1285"
+        },
+        {
           "id": "1284",
           "number": 1284,
           "title": "Preserve mesh hull vertex limits across variants",
@@ -885,26 +914,6 @@
           "updated_at": "2026-10-29T15:06:54Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1282"
-        },
-        {
-          "id": "1229",
-          "number": 1229,
-          "title": "Allow custom runners to extend the exported ONNX metadata",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-29T08:29:12Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1229"
-        },
-        {
-          "id": "1280",
-          "number": 1280,
-          "title": "Update in-hand-rotation-mjlab description in community projects.",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-28T09:54:09Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1280"
         }
       ],
       "issues": []
@@ -917,9 +926,9 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-10-30T09:12:45Z",
+      "updated_at": "2026-10-30T21:48:15Z",
       "pushed_at": "2026-10-28T16:18:03Z",
-      "open_issues_count": 10,
+      "open_issues_count": 11,
       "commits": [
         {
           "id": "11563319134f987f70fb034410496fe3cc7327a9",
@@ -1014,6 +1023,16 @@
       ],
       "pulls": [
         {
+          "id": "260",
+          "number": 260,
+          "title": "Add PPO configuration checks",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-30T22:20:04Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/260"
+        },
+        {
           "id": "255",
           "number": 255,
           "title": "[main] Add SuperMimic model-based training",
@@ -1052,16 +1071,6 @@
           "updated_at": "2026-10-30T09:15:36Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/258"
-        },
-        {
-          "id": "257",
-          "number": 257,
-          "title": "Include action-range scaling in Beta entropy",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T09:09:09Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/257"
         }
       ],
       "issues": []
