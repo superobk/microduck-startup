@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T22:24:59Z",
+  "generated_at": "2026-10-31T05:50:09Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
-        "url": "https://github.com/superobk/microduck-startup/commit/5678ed9a242c9543f2b9fe9d36a645c8af363cf0"
+        "sha": "5d14bc1634eb91c502bacaed499c04f481852bfd",
+        "url": "https://github.com/superobk/microduck-startup/commit/5d14bc1634eb91c502bacaed499c04f481852bfd"
       },
-      "updated_at": "2026-10-30T13:01:56Z",
-      "pushed_at": "2026-10-30T13:01:52Z",
+      "updated_at": "2026-10-30T22:25:20Z",
+      "pushed_at": "2026-10-30T22:25:16Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5d14bc1634eb91c502bacaed499c04f481852bfd",
+          "sha": "5d14bc1634eb91c502bacaed499c04f481852bfd",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-30T22:25:15Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5d14bc1634eb91c502bacaed499c04f481852bfd"
+        },
         {
           "id": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
           "sha": "5678ed9a242c9543f2b9fe9d36a645c8af363cf0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-28T13:01:37Z",
           "url": "https://github.com/superobk/microduck-startup/commit/18aa800e61d87a4cf2f13a2da21ce49170e71ba7"
-        },
-        {
-          "id": "ad6649447d60bf81ec29d79dc1c9994f8c2149d3",
-          "sha": "ad6649447d60bf81ec29d79dc1c9994f8c2149d3",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-28T05:48:25Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/ad6649447d60bf81ec29d79dc1c9994f8c2149d3"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-10-30T22:16:08Z",
+      "updated_at": "2026-10-31T05:46:05Z",
       "pushed_at": "2026-10-30T15:04:53Z",
       "open_issues_count": 96,
       "commits": [
@@ -192,8 +192,8 @@
           "number": 506,
           "title": "robotd-params: the mic records from `default` as written, not `default,0`",
           "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-30T22:13:22Z",
+          "draft": false,
+          "updated_at": "2026-10-31T01:08:10Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/506"
         },
@@ -257,7 +257,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-30T20:01:35Z",
+      "updated_at": "2026-10-30T23:47:42Z",
       "pushed_at": "2026-10-30T21:40:11Z",
       "open_issues_count": 59,
       "commits": [
@@ -329,6 +329,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "71",
+          "number": 71,
+          "title": "Windows support for infer_policy.py (termios shims, msvcrt keys, --max-seconds)",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T02:44:47Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/71"
+        },
+        {
           "id": "51",
           "number": 51,
           "title": "Add optional read-only MuJoCo visualization stream",
@@ -367,16 +377,6 @@
           "updated_at": "2026-10-27T05:11:36Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/85"
-        },
-        {
-          "id": "84",
-          "number": 84,
-          "title": "gui: skip joystick sliders for near-zero velocity command ranges (Roulade, fixes #79)",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-26T16:25:32Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/84"
         }
       ],
       "issues": [
@@ -444,13 +444,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "789ef5e45b6102d7e71fecefbf58606520147cfa",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/789ef5e45b6102d7e71fecefbf58606520147cfa"
+        "sha": "abc63f5a55ce035e2bc7643e13e548b18fb3751f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/abc63f5a55ce035e2bc7643e13e548b18fb3751f"
       },
-      "updated_at": "2026-10-30T20:06:34Z",
-      "pushed_at": "2026-10-30T19:06:58Z",
+      "updated_at": "2026-10-31T03:35:49Z",
+      "pushed_at": "2026-10-31T01:15:31Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "abc63f5a55ce035e2bc7643e13e548b18fb3751f",
+          "sha": "abc63f5a55ce035e2bc7643e13e548b18fb3751f",
+          "message": "docs: record microphone PR ready-for-review status",
+          "author": "fanhao375",
+          "date": "2026-10-31T01:15:29Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/abc63f5a55ce035e2bc7643e13e548b18fb3751f"
+        },
+        {
+          "id": "015c6715224a0264123552788c4b710381fb9478",
+          "sha": "015c6715224a0264123552788c4b710381fb9478",
+          "message": "docs: track draft native microphone PCM fix",
+          "author": "fanhao375",
+          "date": "2026-10-30T23:19:17Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/015c6715224a0264123552788c4b710381fb9478"
+        },
         {
           "id": "789ef5e45b6102d7e71fecefbf58606520147cfa",
           "sha": "789ef5e45b6102d7e71fecefbf58606520147cfa",
@@ -498,22 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-30T17:31:42Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/26150eb61407d3498dc2e2c5d1f9dc3ea130acde"
-        },
-        {
-          "id": "c6b430a827fd2935603233ccc587ea5c49b099ad",
-          "sha": "c6b430a827fd2935603233ccc587ea5c49b099ad",
-          "message": "docs: verify official 0.18.3 asset availability and development source",
-          "author": "fanhao375",
-          "date": "2026-10-30T16:03:53Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c6b430a827fd2935603233ccc587ea5c49b099ad"
-        },
-        {
-          "id": "e9933ef0b075d60efa1f49db33c00e6dfb3c14a9",
-          "sha": "e9933ef0b075d60efa1f49db33c00e6dfb3c14a9",
-          "message": "docs: record independent controller updater review",
-          "author": "fanhao375",
-          "date": "2026-10-30T15:28:34Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/e9933ef0b075d60efa1f49db33c00e6dfb3c14a9"
         }
       ],
       "releases": [
@@ -769,7 +769,7 @@
         "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
         "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
       },
-      "updated_at": "2026-10-30T20:46:35Z",
+      "updated_at": "2026-10-31T05:43:32Z",
       "pushed_at": "2026-10-27T22:55:35Z",
       "open_issues_count": 71,
       "commits": [
@@ -866,6 +866,16 @@
       ],
       "pulls": [
         {
+          "id": "1266",
+          "number": 1266,
+          "title": "Cache constant recomputation graphs and skip unchanged field setup",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T04:30:25Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1266"
+        },
+        {
           "id": "1289",
           "number": 1289,
           "title": "Read position components without constructing full poses",
@@ -904,16 +914,6 @@
           "updated_at": "2026-10-30T02:16:05Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1283"
-        },
-        {
-          "id": "1282",
-          "number": 1282,
-          "title": "Keep additive observation bias local to each environment",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-29T15:06:54Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1282"
         }
       ],
       "issues": []
@@ -926,7 +926,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-10-30T21:48:15Z",
+      "updated_at": "2026-10-31T00:24:39Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 11,
       "commits": [
