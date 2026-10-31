@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T12:39:28Z",
+  "generated_at": "2026-10-31T21:39:37Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "58a45fc26c2c30159fad7e90a4b3612b917313f0",
-        "url": "https://github.com/superobk/microduck-startup/commit/58a45fc26c2c30159fad7e90a4b3612b917313f0"
+        "sha": "19cf82470c646d77eece582f3c74f37d10fe811c",
+        "url": "https://github.com/superobk/microduck-startup/commit/19cf82470c646d77eece582f3c74f37d10fe811c"
       },
-      "updated_at": "2026-10-31T05:50:30Z",
-      "pushed_at": "2026-10-31T05:50:26Z",
+      "updated_at": "2026-10-31T12:39:46Z",
+      "pushed_at": "2026-10-31T12:39:42Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "19cf82470c646d77eece582f3c74f37d10fe811c",
+          "sha": "19cf82470c646d77eece582f3c74f37d10fe811c",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-31T12:39:40Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/19cf82470c646d77eece582f3c74f37d10fe811c"
+        },
         {
           "id": "58a45fc26c2c30159fad7e90a4b3612b917313f0",
           "sha": "58a45fc26c2c30159fad7e90a4b3612b917313f0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-29T05:53:31Z",
           "url": "https://github.com/superobk/microduck-startup/commit/487053ca692a5da5bf2ec90ec83c5f80e60b3b77"
-        },
-        {
-          "id": "2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d",
-          "sha": "2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-28T22:38:45Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/2a0bc9e689f350fcb709ec3b0bba0f5b85d4927d"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-10-31T12:22:23Z",
-      "pushed_at": "2026-10-31T10:57:52Z",
-      "open_issues_count": 97,
+      "updated_at": "2026-10-31T20:22:44Z",
+      "pushed_at": "2026-10-31T21:02:19Z",
+      "open_issues_count": 101,
       "commits": [
         {
           "id": "b2b0d213a402caeac492dd662ea891faa17f67c0",
@@ -162,12 +162,20 @@
       ],
       "releases": [
         {
-          "id": "429879302",
+          "id": "430012199",
           "tag": "daemon-dev-ground-grasp-x",
-          "name": "daemon 0.17.8-dev.1530.a5912e8 (ground-grasp-x)",
-          "published_at": "2026-10-31T10:57:52Z",
+          "name": "daemon 0.17.8-dev.1531.abc903c (ground-grasp-x)",
+          "published_at": "2026-10-31T15:18:07Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-ground-grasp-x"
+        },
+        {
+          "id": "430184631",
+          "tag": "daemon-dev-codex/gamepad-connection",
+          "name": "daemon 0.17.9-dev.1533.489637c (codex/gamepad-connection)",
+          "published_at": "2026-10-31T21:02:19Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/gamepad-connection"
         },
         {
           "id": "429166027",
@@ -176,17 +184,49 @@
           "published_at": "2026-10-30T15:04:54Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.3"
-        },
-        {
-          "id": "428810971",
-          "tag": "daemon-v0.18.2",
-          "name": "daemon 0.18.2",
-          "published_at": "2026-10-30T08:46:07Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.2"
         }
       ],
       "pulls": [
+        {
+          "id": "477",
+          "number": 477,
+          "title": "Improve gamepad status, reconnect and pairing timeout cleanup",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T21:09:04Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/477"
+        },
+        {
+          "id": "512",
+          "number": 512,
+          "title": "updater: a daemon update waits for an os update to finish",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T16:52:31Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/512"
+        },
+        {
+          "id": "271",
+          "number": 271,
+          "title": "sdk: a python client, and a loop to write behaviours in",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T13:03:21Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/271"
+        },
+        {
+          "id": "510",
+          "number": 510,
+          "title": "policy: community policies read the owner's layer, not just /etc",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-10-31T12:48:07Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/510"
+        },
         {
           "id": "508",
           "number": 508,
@@ -196,56 +236,16 @@
           "updated_at": "2026-10-31T11:26:54Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/508"
-        },
-        {
-          "id": "266",
-          "number": 266,
-          "title": "mediad: a websocket for programs, next to the datachannel for people",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-31T10:20:38Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/266"
-        },
-        {
-          "id": "271",
-          "number": 271,
-          "title": "sdk: a python client, and a loop to write behaviours in",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-31T10:20:30Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/271"
-        },
-        {
-          "id": "230",
-          "number": 230,
-          "title": "the account token gets a group of its own, with mediad as its only member",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-31T10:14:08Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/230"
-        },
-        {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-31T08:15:53Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
         }
       ],
       "issues": [
         {
-          "id": "507",
-          "number": 507,
-          "title": "relay: notifications on the control lane hold up every answer behind them",
+          "id": "511",
+          "number": 511,
+          "title": "os.apply lets a daemon update start while the os update is still running",
           "state": "open",
-          "updated_at": "2026-10-31T10:19:56Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/507"
+          "updated_at": "2026-10-31T14:14:03Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/511"
         }
       ]
     },
@@ -257,7 +257,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-31T11:32:49Z",
+      "updated_at": "2026-10-31T20:50:04Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -444,13 +444,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "cafbcb81212f3bf2dc0dde8eff6c8cbbe70e8058",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/cafbcb81212f3bf2dc0dde8eff6c8cbbe70e8058"
+        "sha": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/8494ad09d1b00148813ef7d73be5924a1d504cfd"
       },
-      "updated_at": "2026-10-31T12:29:01Z",
-      "pushed_at": "2026-10-31T12:28:57Z",
+      "updated_at": "2026-10-31T21:34:57Z",
+      "pushed_at": "2026-10-31T15:33:11Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
+          "sha": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
+          "message": "docs: track experimental relax audio and personal Select changes",
+          "author": "fanhao375",
+          "date": "2026-10-31T15:33:08Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8494ad09d1b00148813ef7d73be5924a1d504cfd"
+        },
+        {
+          "id": "f068f4bcb76a6314c9ff3c44a76c08638727a26a",
+          "sha": "f068f4bcb76a6314c9ff3c44a76c08638727a26a",
+          "message": "docs: track OS and daemon update interlock proposal",
+          "author": "fanhao375",
+          "date": "2026-10-31T14:34:17Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f068f4bcb76a6314c9ff3c44a76c08638727a26a"
+        },
+        {
+          "id": "d9bc23d46de9bd4b99c933a9ba5a6f63bc15e35c",
+          "sha": "d9bc23d46de9bd4b99c933a9ba5a6f63bc15e35c",
+          "message": "docs: compare community policy layering proposal with local gate",
+          "author": "fanhao375",
+          "date": "2026-10-31T13:35:49Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/d9bc23d46de9bd4b99c933a9ba5a6f63bc15e35c"
+        },
         {
           "id": "cafbcb81212f3bf2dc0dde8eff6c8cbbe70e8058",
           "sha": "cafbcb81212f3bf2dc0dde8eff6c8cbbe70e8058",
@@ -490,30 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-31T08:43:43Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/b0efba20e37e7324ed2b4e592bca144fa0e31011"
-        },
-        {
-          "id": "e6e429b9fd9fe91cad8505ec51a74ac29ad6ffa5",
-          "sha": "e6e429b9fd9fe91cad8505ec51a74ac29ad6ffa5",
-          "message": "fix(studio): bind mouth and head-yaw servo housings correctly",
-          "author": "fanhao375",
-          "date": "2026-10-31T08:43:43Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/e6e429b9fd9fe91cad8505ec51a74ac29ad6ffa5"
-        },
-        {
-          "id": "2852bccd625e0aef01b6a48a0ea8fd4c9d43670d",
-          "sha": "2852bccd625e0aef01b6a48a0ea8fd4c9d43670d",
-          "message": "docs: track phase-skill proposal API 48 synchronization",
-          "author": "fanhao375",
-          "date": "2026-10-31T08:22:25Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2852bccd625e0aef01b6a48a0ea8fd4c9d43670d"
-        },
-        {
-          "id": "abc63f5a55ce035e2bc7643e13e548b18fb3751f",
-          "sha": "abc63f5a55ce035e2bc7643e13e548b18fb3751f",
-          "message": "docs: record microphone PR ready-for-review status",
-          "author": "fanhao375",
-          "date": "2026-10-31T01:15:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/abc63f5a55ce035e2bc7643e13e548b18fb3751f"
         }
       ],
       "releases": [
@@ -766,13 +766,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
-        "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
+        "sha": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
+        "url": "https://github.com/mujocolab/mjlab/commit/18f968a398b53257460eb2727d7f1c93d0bde2b5"
       },
-      "updated_at": "2026-10-31T11:59:51Z",
-      "pushed_at": "2026-10-27T22:55:35Z",
+      "updated_at": "2026-10-31T18:22:02Z",
+      "pushed_at": "2026-10-31T18:26:34Z",
       "open_issues_count": 71,
       "commits": [
+        {
+          "id": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
+          "sha": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
+          "message": "Drop Python 3.10 and bump vulnerable dependencies. (#1290)",
+          "author": "kevinzakka",
+          "date": "2026-10-31T18:21:57Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/18f968a398b53257460eb2727d7f1c93d0bde2b5"
+        },
         {
           "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
           "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
@@ -828,14 +836,6 @@
           "author": "kevinzakka",
           "date": "2026-10-18T06:55:07Z",
           "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
-        },
-        {
-          "id": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
-          "sha": "0bd96dcb8281ca5c24e5283725ee3b640abec5bd",
-          "message": "Bump lockfile packages flagged by Dependabot. (#1244)",
-          "author": "kevinzakka",
-          "date": "2026-10-18T06:55:03Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/0bd96dcb8281ca5c24e5283725ee3b640abec5bd"
         }
       ],
       "releases": [
@@ -865,6 +865,16 @@
         }
       ],
       "pulls": [
+        {
+          "id": "1290",
+          "number": 1290,
+          "title": "Drop Python 3.10 and bump vulnerable dependencies.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-31T18:22:01Z",
+          "merged_at": "2026-10-31T18:21:58Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1290"
+        },
         {
           "id": "1266",
           "number": 1266,
@@ -904,16 +914,6 @@
           "updated_at": "2026-10-30T07:54:09Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1284"
-        },
-        {
-          "id": "1283",
-          "number": 1283,
-          "title": "Fix upright reward's default body selection",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-30T02:16:05Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1283"
         }
       ],
       "issues": []
