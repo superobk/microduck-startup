@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T13:35:43Z",
+  "generated_at": "2026-11-01T22:05:33Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
-        "url": "https://github.com/superobk/microduck-startup/commit/2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12"
+        "sha": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
+        "url": "https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd"
       },
-      "updated_at": "2026-11-01T06:14:34Z",
-      "pushed_at": "2026-11-01T06:14:31Z",
+      "updated_at": "2026-11-01T13:36:05Z",
+      "pushed_at": "2026-11-01T13:36:01Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
+          "sha": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-01T13:36:00Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd"
+        },
         {
           "id": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
           "sha": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-30T05:55:07Z",
           "url": "https://github.com/superobk/microduck-startup/commit/906f675cca729b5cf61b059747338d80489224be"
-        },
-        {
-          "id": "aefb438775507d76c391f06ea26c470ae4c127b9",
-          "sha": "aefb438775507d76c391f06ea26c470ae4c127b9",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-29T22:48:35Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/aefb438775507d76c391f06ea26c470ae4c127b9"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-11-01T13:19:53Z",
+      "updated_at": "2026-11-01T20:57:02Z",
       "pushed_at": "2026-11-01T00:27:49Z",
-      "open_issues_count": 101,
+      "open_issues_count": 102,
       "commits": [
         {
           "id": "b2b0d213a402caeac492dd662ea891faa17f67c0",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "513",
+          "number": 513,
+          "title": "duck-sim: the twin walks — velstand, on the robot with backlash",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-01T15:18:35Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/513"
+        },
+        {
           "id": "477",
           "number": 477,
           "title": "Improve gamepad status, reconnect and pairing timeout cleanup",
@@ -226,26 +236,24 @@
           "updated_at": "2026-10-31T12:48:07Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/510"
-        },
-        {
-          "id": "508",
-          "number": 508,
-          "title": "relay: answers go ahead of a stream that outruns the service",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-31T11:26:54Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/508"
         }
       ],
       "issues": [
         {
-          "id": "511",
-          "number": 511,
-          "title": "os.apply lets a daemon update start while the os update is still running",
+          "id": "497",
+          "number": 497,
+          "title": "Hearing: how should the brain take in sound?",
           "state": "open",
-          "updated_at": "2026-10-31T14:14:03Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/511"
+          "updated_at": "2026-11-01T21:16:45Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/497"
+        },
+        {
+          "id": "501",
+          "number": 501,
+          "title": "connector for chatgpt gemini 4 cloude",
+          "state": "open",
+          "updated_at": "2026-11-01T18:22:24Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/501"
         }
       ]
     },
@@ -257,7 +265,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-01T13:20:27Z",
+      "updated_at": "2026-11-01T20:42:29Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -447,7 +455,7 @@
         "sha": "4f97d1681c5725328366455cf18d6b77266b2b64",
         "url": "https://github.com/fanhao375/microduck-replica/commit/4f97d1681c5725328366455cf18d6b77266b2b64"
       },
-      "updated_at": "2026-11-01T12:26:47Z",
+      "updated_at": "2026-11-01T20:34:04Z",
       "pushed_at": "2026-11-01T09:11:18Z",
       "open_issues_count": 39,
       "commits": [
@@ -600,7 +608,7 @@
           "number": 49,
           "title": "拼团咨询：HAT 板 + imu_to_dxl 板（越南） / Group buy inquiry: HAT + IMU board (Vietnam)",
           "state": "open",
-          "updated_at": "2026-10-31T08:58:39Z",
+          "updated_at": "2026-11-01T16:41:51Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/49"
         },
         {
@@ -637,7 +645,7 @@
         "sha": "63d73155cc8baf9450a462a30c91474275680f2d",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/63d73155cc8baf9450a462a30c91474275680f2d"
       },
-      "updated_at": "2026-10-31T09:56:50Z",
+      "updated_at": "2026-11-01T20:16:41Z",
       "pushed_at": "2026-10-29T20:08:12Z",
       "open_issues_count": 1,
       "commits": [
@@ -769,7 +777,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-01T12:41:50Z",
+      "updated_at": "2026-11-01T19:01:06Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 57,
       "commits": [
@@ -866,6 +874,16 @@
       ],
       "pulls": [
         {
+          "id": "1257",
+          "number": 1257,
+          "title": "Accept custom rsl-rl log writers in the runner config.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-01T19:29:58Z",
+          "merged_at": "2026-11-01T03:35:36Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1257"
+        },
+        {
           "id": "1297",
           "number": 1297,
           "title": "opt write throuputs +3.74%",
@@ -904,16 +922,6 @@
           "updated_at": "2026-11-01T03:48:28Z",
           "merged_at": "2026-11-01T03:47:14Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1295"
-        },
-        {
-          "id": "1258",
-          "number": 1258,
-          "title": "Upload exported ONNX policies through the log writer.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-01T03:39:28Z",
-          "merged_at": "2026-11-01T03:39:26Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1258"
         }
       ],
       "issues": []
@@ -926,9 +934,9 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-11-01T07:46:49Z",
+      "updated_at": "2026-11-01T15:50:21Z",
       "pushed_at": "2026-10-28T16:18:03Z",
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "commits": [
         {
           "id": "11563319134f987f70fb034410496fe3cc7327a9",
@@ -1023,6 +1031,26 @@
       ],
       "pulls": [
         {
+          "id": "254",
+          "number": 254,
+          "title": "[main] Add SAC with optional FlashSAC components",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-01T20:33:30Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
+        },
+        {
+          "id": "261",
+          "number": 261,
+          "title": "fix: preserve recurrent state dtype in TorchScript exports",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-01T17:08:57Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/261"
+        },
+        {
           "id": "260",
           "number": 260,
           "title": "Add PPO configuration checks",
@@ -1043,16 +1071,6 @@
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
         },
         {
-          "id": "254",
-          "number": 254,
-          "title": "[main] Add SAC with optional FlashSAC components",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-30T10:46:39Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
-        },
-        {
           "id": "259",
           "number": 259,
           "title": "Keep computed CNN padding nonnegative for small kernels",
@@ -1061,16 +1079,6 @@
           "updated_at": "2026-10-30T09:15:55Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/259"
-        },
-        {
-          "id": "258",
-          "number": 258,
-          "title": "Normalize vector rewards without ambiguous tensor conditions",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-30T09:15:36Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/258"
         }
       ],
       "issues": []

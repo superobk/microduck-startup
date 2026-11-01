@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-01T13:35:43Z`
+Generated: `2026-11-01T22:05:33Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,19 +8,23 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `2b6b3069b708` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12)
+- Commit `d4b2c75c27bc` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd)
 
-### fanhao375/microduck-replica
+### pollen-robotics/microduck
 
-- Commit `4f97d1681c57` [docs: record NFC consumer risk in gamepad pairing proposal](https://github.com/fanhao375/microduck-replica/commit/4f97d1681c5725328366455cf18d6b77266b2b64)
+- PR #513 [duck-sim: the twin walks — velstand, on the robot with backlash](https://github.com/pollen-robotics/microduck/pull/513) — open
 
 ### mujocolab/mjlab
 
-- PR #1297 [opt write throuputs +3.74%](https://github.com/mujocolab/mjlab/pull/1297) — open
+- PR #1257 [Accept custom rsl-rl log writers in the runner config.](https://github.com/mujocolab/mjlab/pull/1257) — closed
+
+### leggedrobotics/rsl_rl
+
+- PR #261 [fix: preserve recurrent state dtype in TorchScript exports](https://github.com/leggedrobotics/rsl_rl/pull/261) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [2b6b3069b708](https://github.com/superobk/microduck-startup/commit/2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12); pushed `2026-11-01T06:14:31Z`
+- **superobk/microduck-startup** `main` → [d4b2c75c27bc](https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd); pushed `2026-11-01T13:36:01Z`
 - **pollen-robotics/microduck** `main` → [b2b0d213a402](https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0); pushed `2026-11-01T00:27:49Z`
 - **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-10-31T09:21:43Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
