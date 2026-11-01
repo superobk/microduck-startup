@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T21:39:37Z",
+  "generated_at": "2026-11-01T06:14:18Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "19cf82470c646d77eece582f3c74f37d10fe811c",
-        "url": "https://github.com/superobk/microduck-startup/commit/19cf82470c646d77eece582f3c74f37d10fe811c"
+        "sha": "3f75ec89370e1dbc187214168069db9c2e31572c",
+        "url": "https://github.com/superobk/microduck-startup/commit/3f75ec89370e1dbc187214168069db9c2e31572c"
       },
-      "updated_at": "2026-10-31T12:39:46Z",
-      "pushed_at": "2026-10-31T12:39:42Z",
+      "updated_at": "2026-10-31T21:39:56Z",
+      "pushed_at": "2026-10-31T21:39:52Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "3f75ec89370e1dbc187214168069db9c2e31572c",
+          "sha": "3f75ec89370e1dbc187214168069db9c2e31572c",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-10-31T21:39:51Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/3f75ec89370e1dbc187214168069db9c2e31572c"
+        },
         {
           "id": "19cf82470c646d77eece582f3c74f37d10fe811c",
           "sha": "19cf82470c646d77eece582f3c74f37d10fe811c",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-29T13:08:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/84e9dfa835cbc479057462da04d6f1ac475723bc"
-        },
-        {
-          "id": "487053ca692a5da5bf2ec90ec83c5f80e60b3b77",
-          "sha": "487053ca692a5da5bf2ec90ec83c5f80e60b3b77",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-29T05:53:31Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/487053ca692a5da5bf2ec90ec83c5f80e60b3b77"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-10-31T20:22:44Z",
-      "pushed_at": "2026-10-31T21:02:19Z",
+      "updated_at": "2026-11-01T05:55:55Z",
+      "pushed_at": "2026-11-01T00:27:49Z",
       "open_issues_count": 101,
       "commits": [
         {
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "430271591",
+          "tag": "daemon-dev-ep5-footsteps",
+          "name": "daemon 0.18.0-dev.1536.a9f70e5 (ep5-footsteps)",
+          "published_at": "2026-11-01T00:27:49Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-ep5-footsteps"
+        },
+        {
           "id": "430012199",
           "tag": "daemon-dev-ground-grasp-x",
           "name": "daemon 0.17.8-dev.1531.abc903c (ground-grasp-x)",
@@ -170,20 +178,12 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-ground-grasp-x"
         },
         {
-          "id": "430184631",
+          "id": "430208836",
           "tag": "daemon-dev-codex/gamepad-connection",
-          "name": "daemon 0.17.9-dev.1533.489637c (codex/gamepad-connection)",
-          "published_at": "2026-10-31T21:02:19Z",
+          "name": "daemon 0.17.9-dev.1534.789ec47 (codex/gamepad-connection)",
+          "published_at": "2026-10-31T21:54:56Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/gamepad-connection"
-        },
-        {
-          "id": "429166027",
-          "tag": "daemon-v0.18.3",
-          "name": "daemon 0.18.3",
-          "published_at": "2026-10-30T15:04:54Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.3"
         }
       ],
       "pulls": [
@@ -193,7 +193,7 @@
           "title": "Improve gamepad status, reconnect and pairing timeout cleanup",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-31T21:09:04Z",
+          "updated_at": "2026-10-31T21:47:09Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/477"
         },
@@ -257,7 +257,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-10-31T20:50:04Z",
+      "updated_at": "2026-11-01T02:14:03Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -329,6 +329,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "89",
+          "number": 89,
+          "title": "Battery redesign",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-10-31T23:59:33Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/89"
+        },
+        {
           "id": "71",
           "number": 71,
           "title": "Windows support for infer_policy.py (termios shims, msvcrt keys, --max-seconds)",
@@ -367,16 +377,6 @@
           "updated_at": "2026-10-27T13:20:12Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/57"
-        },
-        {
-          "id": "85",
-          "number": 85,
-          "title": "The head camera looks forward in the MJCF, not in a load-time patch",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T05:11:36Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/85"
         }
       ],
       "issues": [
@@ -444,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/8494ad09d1b00148813ef7d73be5924a1d504cfd"
+        "sha": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/d11cb7b861931a5afb481435c0dd4b7341e5a879"
       },
-      "updated_at": "2026-10-31T21:34:57Z",
-      "pushed_at": "2026-10-31T15:33:11Z",
+      "updated_at": "2026-11-01T04:18:03Z",
+      "pushed_at": "2026-11-01T04:17:58Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
+          "sha": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
+          "message": "docs: track pairing and episode5 prototypes with verified 0182 checkpoint",
+          "author": "fanhao375",
+          "date": "2026-11-01T04:17:56Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/d11cb7b861931a5afb481435c0dd4b7341e5a879"
+        },
         {
           "id": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
           "sha": "8494ad09d1b00148813ef7d73be5924a1d504cfd",
@@ -506,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-31T10:45:22Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/3952471a8394c8b720817d2160ffd95ce5a54456"
-        },
-        {
-          "id": "b0efba20e37e7324ed2b4e592bca144fa0e31011",
-          "sha": "b0efba20e37e7324ed2b4e592bca144fa0e31011",
-          "message": "Merge remote-tracking branch 'origin/master' into fix/servo-picking-20261031",
-          "author": "fanhao375",
-          "date": "2026-10-31T08:43:43Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/b0efba20e37e7324ed2b4e592bca144fa0e31011"
         }
       ],
       "releases": [
@@ -766,76 +766,76 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
-        "url": "https://github.com/mujocolab/mjlab/commit/18f968a398b53257460eb2727d7f1c93d0bde2b5"
+        "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
+        "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-10-31T18:22:02Z",
-      "pushed_at": "2026-10-31T18:26:34Z",
-      "open_issues_count": 71,
+      "updated_at": "2026-11-01T04:09:10Z",
+      "pushed_at": "2026-11-01T04:13:02Z",
+      "open_issues_count": 55,
       "commits": [
         {
-          "id": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
-          "sha": "18f968a398b53257460eb2727d7f1c93d0bde2b5",
-          "message": "Drop Python 3.10 and bump vulnerable dependencies. (#1290)",
+          "id": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
+          "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
+          "message": "Preserve actuator delay state across partial resets. (#1218)",
+          "author": "lukehugh",
+          "date": "2026-11-01T04:09:05Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
+        },
+        {
+          "id": "5f221c2986878d62903a36663ea7e3ad415a9c6b",
+          "sha": "5f221c2986878d62903a36663ea7e3ad415a9c6b",
+          "message": "Allow custom runners to extend the exported ONNX metadata. (#1295)",
           "author": "kevinzakka",
-          "date": "2026-10-31T18:21:57Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/18f968a398b53257460eb2727d7f1c93d0bde2b5"
+          "date": "2026-11-01T03:47:13Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/5f221c2986878d62903a36663ea7e3ad415a9c6b"
         },
         {
-          "id": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
-          "sha": "8bb2bc9e187797689ec82c78c35019afd2fd0376",
-          "message": "Lay heightfield rows along y. (#1249)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T19:04:39Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/8bb2bc9e187797689ec82c78c35019afd2fd0376"
+          "id": "e08da5cd0592ce7a80738b813273dec692d05bfc",
+          "sha": "e08da5cd0592ce7a80738b813273dec692d05bfc",
+          "message": "Upload exported ONNX policies through the log writer. (#1258)",
+          "author": "louislelay",
+          "date": "2026-11-01T03:39:26Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/e08da5cd0592ce7a80738b813273dec692d05bfc"
         },
         {
-          "id": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
-          "sha": "214cd5659ae98e7ddbfa0ec4a52ae00005ce564d",
-          "message": "Align posture std with asset_cfg's joint order. (#1253)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T19:01:56Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/214cd5659ae98e7ddbfa0ec4a52ae00005ce564d"
+          "id": "2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c",
+          "sha": "2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c",
+          "message": "Accept custom rsl-rl log writers in the runner config. (#1257)",
+          "author": "louislelay",
+          "date": "2026-11-01T03:35:35Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c"
         },
         {
-          "id": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
-          "sha": "c2af5037e6dd5286e715d1539f6a7e5d3f915e04",
-          "message": "Apply apply_body_impulse's body_point_offset in the body frame. (#1254)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T18:57:47Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/c2af5037e6dd5286e715d1539f6a7e5d3f915e04"
+          "id": "0bbe065ddc7870f2803162f73d8e83254780b0ed",
+          "sha": "0bbe065ddc7870f2803162f73d8e83254780b0ed",
+          "message": "Fix Warp kernel cache source glob (#1264)",
+          "author": "M-Colley",
+          "date": "2026-11-01T03:26:41Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/0bbe065ddc7870f2803162f73d8e83254780b0ed"
         },
         {
-          "id": "aa9a119516fb870d4e188d069027a70ca5193cad",
-          "sha": "aa9a119516fb870d4e188d069027a70ca5193cad",
-          "message": "Fix per-dimension additive bias crashing on the first reset. (#1250)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T18:56:51Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/aa9a119516fb870d4e188d069027a70ca5193cad"
+          "id": "18f8edc56e233546867e7be11d60294e7960a69a",
+          "sha": "18f8edc56e233546867e7be11d60294e7960a69a",
+          "message": "Apply MaterialCfg to every matched geom, including unnamed ones (#1256)",
+          "author": "vssinghh",
+          "date": "2026-11-01T03:17:40Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/18f8edc56e233546867e7be11d60294e7960a69a"
         },
         {
-          "id": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
-          "sha": "dd43fb90b055cd5ab4127035c8c23b8b106565d0",
-          "message": "Match dm_control's small_control term in the cartpole reward. (#1246)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T18:55:29Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/dd43fb90b055cd5ab4127035c8c23b8b106565d0"
-        },
-        {
-          "id": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
-          "sha": "d47a04943d92afe440b35f0ad3e474f2e4cc05ce",
-          "message": "Copy entity mesh files when exporting a scene. (#1252)",
-          "author": "LinCanNerd",
-          "date": "2026-10-18T18:52:42Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/d47a04943d92afe440b35f0ad3e474f2e4cc05ce"
-        },
-        {
-          "id": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
-          "sha": "6bec803bbf2f565ea894ad3f36687e0eac3ffcb3",
-          "message": "Trim #1241 and index keyframe qpos on device. (#1245)",
+          "id": "a041d00ec50edee24dc1964bf9ef642ff0499e3e",
+          "sha": "a041d00ec50edee24dc1964bf9ef642ff0499e3e",
+          "message": "Bump rsl-rl-lib to 5.5.2. (#1294)",
           "author": "kevinzakka",
-          "date": "2026-10-18T06:55:07Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/6bec803bbf2f565ea894ad3f36687e0eac3ffcb3"
+          "date": "2026-11-01T03:17:21Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/a041d00ec50edee24dc1964bf9ef642ff0499e3e"
+        },
+        {
+          "id": "9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1",
+          "sha": "9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1",
+          "message": "Remove the Claude Code Review workflow. (#1293)",
+          "author": "kevinzakka",
+          "date": "2026-11-01T03:05:24Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1"
         }
       ],
       "releases": [
@@ -866,54 +866,54 @@
       ],
       "pulls": [
         {
-          "id": "1290",
-          "number": 1290,
-          "title": "Drop Python 3.10 and bump vulnerable dependencies.",
+          "id": "1218",
+          "number": 1218,
+          "title": "Preserve actuator delay state across partial resets",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-31T18:22:01Z",
-          "merged_at": "2026-10-31T18:21:58Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1290"
+          "updated_at": "2026-11-01T04:09:06Z",
+          "merged_at": "2026-11-01T04:09:06Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1218"
         },
         {
-          "id": "1266",
-          "number": 1266,
-          "title": "Cache constant recomputation graphs and skip unchanged field setup",
-          "state": "open",
+          "id": "1229",
+          "number": 1229,
+          "title": "Allow custom runners to extend the exported ONNX metadata",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-31T04:30:25Z",
+          "updated_at": "2026-11-01T04:00:12Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1266"
+          "url": "https://github.com/mujocolab/mjlab/pull/1229"
         },
         {
-          "id": "1289",
-          "number": 1289,
-          "title": "Read position components without constructing full poses",
-          "state": "open",
+          "id": "1295",
+          "number": 1295,
+          "title": "Allow custom runners to extend the exported ONNX metadata.",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-30T18:32:50Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1289"
+          "updated_at": "2026-11-01T03:48:28Z",
+          "merged_at": "2026-11-01T03:47:14Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1295"
         },
         {
-          "id": "1285",
-          "number": 1285,
-          "title": "Keep torch.compile max-autotune working after configure_torch_backends",
-          "state": "open",
+          "id": "1258",
+          "number": 1258,
+          "title": "Upload exported ONNX policies through the log writer.",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-10-30T13:28:11Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1285"
+          "updated_at": "2026-11-01T03:39:28Z",
+          "merged_at": "2026-11-01T03:39:26Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1258"
         },
         {
-          "id": "1284",
-          "number": 1284,
-          "title": "Preserve mesh hull vertex limits across variants",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-10-30T07:54:09Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1284"
+          "id": "1257",
+          "number": 1257,
+          "title": "Accept custom rsl-rl log writers in the runner config.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-01T03:35:38Z",
+          "merged_at": "2026-11-01T03:35:36Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1257"
         }
       ],
       "issues": []
@@ -926,7 +926,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-10-31T00:24:39Z",
+      "updated_at": "2026-11-01T01:56:39Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 11,
       "commits": [
