@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T06:14:18Z",
+  "generated_at": "2026-11-01T13:35:43Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "3f75ec89370e1dbc187214168069db9c2e31572c",
-        "url": "https://github.com/superobk/microduck-startup/commit/3f75ec89370e1dbc187214168069db9c2e31572c"
+        "sha": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
+        "url": "https://github.com/superobk/microduck-startup/commit/2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12"
       },
-      "updated_at": "2026-10-31T21:39:56Z",
-      "pushed_at": "2026-10-31T21:39:52Z",
+      "updated_at": "2026-11-01T06:14:34Z",
+      "pushed_at": "2026-11-01T06:14:31Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
+          "sha": "2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-01T06:14:30Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2b6b3069b708bf7485b5ea953bbfa54bd2c7cb12"
+        },
         {
           "id": "3f75ec89370e1dbc187214168069db9c2e31572c",
           "sha": "3f75ec89370e1dbc187214168069db9c2e31572c",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-29T22:48:35Z",
           "url": "https://github.com/superobk/microduck-startup/commit/aefb438775507d76c391f06ea26c470ae4c127b9"
-        },
-        {
-          "id": "84e9dfa835cbc479057462da04d6f1ac475723bc",
-          "sha": "84e9dfa835cbc479057462da04d6f1ac475723bc",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-29T13:08:59Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/84e9dfa835cbc479057462da04d6f1ac475723bc"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-11-01T05:55:55Z",
+      "updated_at": "2026-11-01T13:19:53Z",
       "pushed_at": "2026-11-01T00:27:49Z",
       "open_issues_count": 101,
       "commits": [
@@ -193,7 +193,7 @@
           "title": "Improve gamepad status, reconnect and pairing timeout cleanup",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-10-31T21:47:09Z",
+          "updated_at": "2026-11-01T09:40:23Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/477"
         },
@@ -257,7 +257,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-01T02:14:03Z",
+      "updated_at": "2026-11-01T13:20:27Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -444,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/d11cb7b861931a5afb481435c0dd4b7341e5a879"
+        "sha": "4f97d1681c5725328366455cf18d6b77266b2b64",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/4f97d1681c5725328366455cf18d6b77266b2b64"
       },
-      "updated_at": "2026-11-01T04:18:03Z",
-      "pushed_at": "2026-11-01T04:17:58Z",
+      "updated_at": "2026-11-01T12:26:47Z",
+      "pushed_at": "2026-11-01T09:11:18Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "4f97d1681c5725328366455cf18d6b77266b2b64",
+          "sha": "4f97d1681c5725328366455cf18d6b77266b2b64",
+          "message": "docs: record NFC consumer risk in gamepad pairing proposal",
+          "author": "fanhao375",
+          "date": "2026-11-01T09:11:17Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/4f97d1681c5725328366455cf18d6b77266b2b64"
+        },
         {
           "id": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
           "sha": "d11cb7b861931a5afb481435c0dd4b7341e5a879",
@@ -506,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-31T10:59:40Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/e6f0e44c47d63a9ac431cb8fa08b66b7cd37b2c0"
-        },
-        {
-          "id": "3952471a8394c8b720817d2160ffd95ce5a54456",
-          "sha": "3952471a8394c8b720817d2160ffd95ce5a54456",
-          "message": "docs: update WeChat group 14 invitation",
-          "author": "fanhao375",
-          "date": "2026-10-31T10:45:22Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/3952471a8394c8b720817d2160ffd95ce5a54456"
         }
       ],
       "releases": [
@@ -769,9 +769,9 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-01T04:09:10Z",
+      "updated_at": "2026-11-01T12:41:50Z",
       "pushed_at": "2026-11-01T04:13:02Z",
-      "open_issues_count": 55,
+      "open_issues_count": 57,
       "commits": [
         {
           "id": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
@@ -866,6 +866,16 @@
       ],
       "pulls": [
         {
+          "id": "1297",
+          "number": 1297,
+          "title": "opt write throuputs +3.74%",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-01T09:25:12Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1297"
+        },
+        {
           "id": "1218",
           "number": 1218,
           "title": "Preserve actuator delay state across partial resets",
@@ -904,16 +914,6 @@
           "updated_at": "2026-11-01T03:39:28Z",
           "merged_at": "2026-11-01T03:39:26Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1258"
-        },
-        {
-          "id": "1257",
-          "number": 1257,
-          "title": "Accept custom rsl-rl log writers in the runner config.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-01T03:35:38Z",
-          "merged_at": "2026-11-01T03:35:36Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1257"
         }
       ],
       "issues": []
@@ -926,7 +926,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-11-01T01:56:39Z",
+      "updated_at": "2026-11-01T07:46:49Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 11,
       "commits": [
