@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T22:05:33Z",
+  "generated_at": "2026-11-02T06:14:55Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
-        "url": "https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd"
+        "sha": "bdc65164646739a197d52524e2d7fada3988f9fe",
+        "url": "https://github.com/superobk/microduck-startup/commit/bdc65164646739a197d52524e2d7fada3988f9fe"
       },
-      "updated_at": "2026-11-01T13:36:05Z",
-      "pushed_at": "2026-11-01T13:36:01Z",
+      "updated_at": "2026-11-01T22:05:50Z",
+      "pushed_at": "2026-11-01T22:05:46Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "bdc65164646739a197d52524e2d7fada3988f9fe",
+          "sha": "bdc65164646739a197d52524e2d7fada3988f9fe",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-01T22:05:45Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/bdc65164646739a197d52524e2d7fada3988f9fe"
+        },
         {
           "id": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
           "sha": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-30T13:01:50Z",
           "url": "https://github.com/superobk/microduck-startup/commit/5678ed9a242c9543f2b9fe9d36a645c8af363cf0"
-        },
-        {
-          "id": "906f675cca729b5cf61b059747338d80489224be",
-          "sha": "906f675cca729b5cf61b059747338d80489224be",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-30T05:55:07Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/906f675cca729b5cf61b059747338d80489224be"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "b2b0d213a402caeac492dd662ea891faa17f67c0",
         "url": "https://github.com/pollen-robotics/microduck/commit/b2b0d213a402caeac492dd662ea891faa17f67c0"
       },
-      "updated_at": "2026-11-01T20:57:02Z",
+      "updated_at": "2026-11-02T06:01:46Z",
       "pushed_at": "2026-11-01T00:27:49Z",
       "open_issues_count": 102,
       "commits": [
@@ -265,7 +265,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-01T20:42:29Z",
+      "updated_at": "2026-11-02T03:56:36Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -452,13 +452,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "4f97d1681c5725328366455cf18d6b77266b2b64",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/4f97d1681c5725328366455cf18d6b77266b2b64"
+        "sha": "46872b6c209ee9e149afafd0ee1e13c4ad8e097a",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/46872b6c209ee9e149afafd0ee1e13c4ad8e097a"
       },
-      "updated_at": "2026-11-01T20:34:04Z",
-      "pushed_at": "2026-11-01T09:11:18Z",
+      "updated_at": "2026-11-02T06:06:38Z",
+      "pushed_at": "2026-11-02T02:04:39Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "46872b6c209ee9e149afafd0ee1e13c4ad8e097a",
+          "sha": "46872b6c209ee9e149afafd0ee1e13c4ad8e097a",
+          "message": "docs: track duck-sim gait and backlash proposal",
+          "author": "fanhao375",
+          "date": "2026-11-02T02:04:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/46872b6c209ee9e149afafd0ee1e13c4ad8e097a"
+        },
         {
           "id": "4f97d1681c5725328366455cf18d6b77266b2b64",
           "sha": "4f97d1681c5725328366455cf18d6b77266b2b64",
@@ -514,14 +522,6 @@
           "author": "fanhao375",
           "date": "2026-10-31T11:39:03Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/409ef7ff5f3af5aa0c8c5d616c09d5565c06a0ec"
-        },
-        {
-          "id": "e6f0e44c47d63a9ac431cb8fa08b66b7cd37b2c0",
-          "sha": "e6f0e44c47d63a9ac431cb8fa08b66b7cd37b2c0",
-          "message": "docs: publish servo diagram revision and group 14 instructions",
-          "author": "fanhao375",
-          "date": "2026-10-31T10:59:40Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/e6f0e44c47d63a9ac431cb8fa08b66b7cd37b2c0"
         }
       ],
       "releases": [
@@ -777,7 +777,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-01T19:01:06Z",
+      "updated_at": "2026-11-02T03:33:26Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 57,
       "commits": [
