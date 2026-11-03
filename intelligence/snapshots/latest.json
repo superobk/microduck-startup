@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T16:13:46Z",
+  "generated_at": "2026-11-03T01:01:31Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "f622994bcac48c360e399405e10f5c5e1963a182",
-        "url": "https://github.com/superobk/microduck-startup/commit/f622994bcac48c360e399405e10f5c5e1963a182"
+        "sha": "bb6cffbf02f50662dd2f484e1da4ebefee3ce3be",
+        "url": "https://github.com/superobk/microduck-startup/commit/bb6cffbf02f50662dd2f484e1da4ebefee3ce3be"
       },
-      "updated_at": "2026-11-02T15:12:36Z",
-      "pushed_at": "2026-11-02T06:15:11Z",
+      "updated_at": "2026-11-02T16:14:12Z",
+      "pushed_at": "2026-11-02T16:14:07Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "bb6cffbf02f50662dd2f484e1da4ebefee3ce3be",
+          "sha": "bb6cffbf02f50662dd2f484e1da4ebefee3ce3be",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-02T16:14:05Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/bb6cffbf02f50662dd2f484e1da4ebefee3ce3be"
+        },
         {
           "id": "f622994bcac48c360e399405e10f5c5e1963a182",
           "sha": "f622994bcac48c360e399405e10f5c5e1963a182",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-10-31T05:50:25Z",
           "url": "https://github.com/superobk/microduck-startup/commit/58a45fc26c2c30159fad7e90a4b3612b917313f0"
-        },
-        {
-          "id": "5d14bc1634eb91c502bacaed499c04f481852bfd",
-          "sha": "5d14bc1634eb91c502bacaed499c04f481852bfd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-10-30T22:25:15Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5d14bc1634eb91c502bacaed499c04f481852bfd"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "997808c1d71056d31bd6f05fc5fde848c849d2bc",
         "url": "https://github.com/pollen-robotics/microduck/commit/997808c1d71056d31bd6f05fc5fde848c849d2bc"
       },
-      "updated_at": "2026-11-02T16:13:35Z",
-      "pushed_at": "2026-11-02T11:57:21Z",
+      "updated_at": "2026-11-02T23:50:50Z",
+      "pushed_at": "2026-11-02T22:02:38Z",
       "open_issues_count": 96,
       "commits": [
         {
@@ -170,20 +170,20 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-pad-pairing-cleanup"
         },
         {
+          "id": "431696063",
+          "tag": "daemon-dev-nfc-pairing-tag",
+          "name": "daemon 0.18.3-dev.1540.5d6066b (nfc-pairing-tag)",
+          "published_at": "2026-11-02T16:29:48Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-pairing-tag"
+        },
+        {
           "id": "431393766",
           "tag": "daemon-dev-main",
           "name": "daemon 0.18.3-dev.1537.997808c (main)",
           "published_at": "2026-11-02T11:42:15Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
-        },
-        {
-          "id": "431406993",
-          "tag": "daemon-dev-codex/gamepad-connection",
-          "name": "daemon 0.18.3-dev.1539.d6f77af (codex/gamepad-connection)",
-          "published_at": "2026-11-02T11:57:22Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/gamepad-connection"
         }
       ],
       "pulls": [
@@ -193,7 +193,7 @@
           "title": "sdk: a python client, and a loop to write behaviours in",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-02T15:54:04Z",
+          "updated_at": "2026-11-02T18:34:07Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/271"
         },
@@ -238,7 +238,24 @@
           "url": "https://github.com/pollen-robotics/microduck/pull/331"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "182",
+          "number": 182,
+          "title": "Shipping / availability in mainland China",
+          "state": "closed",
+          "updated_at": "2026-11-02T23:22:44Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/182"
+        },
+        {
+          "id": "470",
+          "number": 470,
+          "title": "Question: battery, charging and power-on on production units",
+          "state": "open",
+          "updated_at": "2026-11-02T20:03:53Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/470"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +265,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-02T15:57:50Z",
+      "updated_at": "2026-11-02T23:50:55Z",
       "pushed_at": "2026-10-31T09:21:43Z",
       "open_issues_count": 59,
       "commits": [
@@ -320,6 +337,16 @@
       "releases": [],
       "pulls": [
         {
+          "id": "86",
+          "number": 86,
+          "title": "feat(tasks): add stationary vertical jump task (Mjlab-Jump-Flat-Micro…",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-03T00:25:54Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck_rl/pull/86"
+        },
+        {
           "id": "77",
           "number": 77,
           "title": "feat: Windows 10 support  ",
@@ -358,16 +385,6 @@
           "updated_at": "2026-10-29T10:19:18Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/51"
-        },
-        {
-          "id": "86",
-          "number": 86,
-          "title": "feat(tasks): add stationary vertical jump task (Mjlab-Jump-Flat-Micro…",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-10-27T13:51:14Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck_rl/pull/86"
         }
       ],
       "issues": [
@@ -427,13 +444,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "d2c60f380a3a1db417488db647a0fb170cc01017",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/d2c60f380a3a1db417488db647a0fb170cc01017"
+        "sha": "9497a4e02ebb996321a5c5535b812c61b180955f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/9497a4e02ebb996321a5c5535b812c61b180955f"
       },
-      "updated_at": "2026-11-02T15:11:25Z",
-      "pushed_at": "2026-11-02T14:23:33Z",
+      "updated_at": "2026-11-02T21:38:21Z",
+      "pushed_at": "2026-11-02T16:19:47Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "9497a4e02ebb996321a5c5535b812c61b180955f",
+          "sha": "9497a4e02ebb996321a5c5535b812c61b180955f",
+          "message": "docs: distinguish SDK external robot report and pending release plan",
+          "author": "fanhao375",
+          "date": "2026-11-02T16:19:45Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/9497a4e02ebb996321a5c5535b812c61b180955f"
+        },
         {
           "id": "d2c60f380a3a1db417488db647a0fb170cc01017",
           "sha": "d2c60f380a3a1db417488db647a0fb170cc01017",
@@ -489,14 +514,6 @@
           "author": "fanhao375",
           "date": "2026-10-31T15:33:08Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/8494ad09d1b00148813ef7d73be5924a1d504cfd"
-        },
-        {
-          "id": "f068f4bcb76a6314c9ff3c44a76c08638727a26a",
-          "sha": "f068f4bcb76a6314c9ff3c44a76c08638727a26a",
-          "message": "docs: track OS and daemon update interlock proposal",
-          "author": "fanhao375",
-          "date": "2026-10-31T14:34:17Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/f068f4bcb76a6314c9ff3c44a76c08638727a26a"
         }
       ],
       "releases": [
@@ -909,7 +926,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-11-02T11:50:16Z",
+      "updated_at": "2026-11-02T23:23:59Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 13,
       "commits": [
@@ -1011,7 +1028,7 @@
           "title": "[main] Add SAC with optional FlashSAC components",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-02T15:28:35Z",
+          "updated_at": "2026-11-02T20:38:09Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
         },
