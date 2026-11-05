@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T19:49:26Z",
+  "generated_at": "2026-11-05T06:54:06Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "03e250a095e4a4ebe6b3e5a3387e034882878ee8",
-        "url": "https://github.com/superobk/microduck-startup/commit/03e250a095e4a4ebe6b3e5a3387e034882878ee8"
+        "sha": "c330969ef3979a8a779fb41851ccbb2ba42ba7cf",
+        "url": "https://github.com/superobk/microduck-startup/commit/c330969ef3979a8a779fb41851ccbb2ba42ba7cf"
       },
-      "updated_at": "2026-11-04T06:32:13Z",
-      "pushed_at": "2026-11-04T06:32:09Z",
+      "updated_at": "2026-11-04T19:49:50Z",
+      "pushed_at": "2026-11-04T19:49:45Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c330969ef3979a8a779fb41851ccbb2ba42ba7cf",
+          "sha": "c330969ef3979a8a779fb41851ccbb2ba42ba7cf",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-04T19:49:43Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c330969ef3979a8a779fb41851ccbb2ba42ba7cf"
+        },
         {
           "id": "03e250a095e4a4ebe6b3e5a3387e034882878ee8",
           "sha": "03e250a095e4a4ebe6b3e5a3387e034882878ee8",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-01T22:05:45Z",
           "url": "https://github.com/superobk/microduck-startup/commit/bdc65164646739a197d52524e2d7fada3988f9fe"
-        },
-        {
-          "id": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
-          "sha": "d4b2c75c27bce3ea19f3968e765cc5bb56559cbd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-01T13:36:00Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/d4b2c75c27bce3ea19f3968e765cc5bb56559cbd"
         }
       ],
       "releases": [],
@@ -88,13 +88,29 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "54e0789635ae28120be9ea0dd51750a494ab50ac",
-        "url": "https://github.com/pollen-robotics/microduck/commit/54e0789635ae28120be9ea0dd51750a494ab50ac"
+        "sha": "a64ee692eebfce46a35c50b77705249752df9273",
+        "url": "https://github.com/pollen-robotics/microduck/commit/a64ee692eebfce46a35c50b77705249752df9273"
       },
-      "updated_at": "2026-11-04T19:39:50Z",
-      "pushed_at": "2026-11-04T19:13:14Z",
-      "open_issues_count": 103,
+      "updated_at": "2026-11-05T06:22:26Z",
+      "pushed_at": "2026-11-05T03:38:31Z",
+      "open_issues_count": 104,
       "commits": [
+        {
+          "id": "a64ee692eebfce46a35c50b77705249752df9273",
+          "sha": "a64ee692eebfce46a35c50b77705249752df9273",
+          "message": "Merge pull request #530 from pollen-robotics/nfc-pairing-tag",
+          "author": "apirrone",
+          "date": "2026-11-05T02:29:09Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/a64ee692eebfce46a35c50b77705249752df9273"
+        },
+        {
+          "id": "99e89aa343c604cfd2f3c67b33557606eb8d95e2",
+          "sha": "99e89aa343c604cfd2f3c67b33557606eb8d95e2",
+          "message": "Merge branch 'main' into nfc-pairing-tag",
+          "author": "apirrone",
+          "date": "2026-11-05T09:04:54Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/99e89aa343c604cfd2f3c67b33557606eb8d95e2"
+        },
         {
           "id": "54e0789635ae28120be9ea0dd51750a494ab50ac",
           "sha": "54e0789635ae28120be9ea0dd51750a494ab50ac",
@@ -142,51 +158,75 @@
           "author": "pierre-rouanet",
           "date": "2026-11-04T11:52:01Z",
           "url": "https://github.com/pollen-robotics/microduck/commit/9dbf6ba719f0c616d6dbd1791f651204386d796c"
-        },
-        {
-          "id": "3362dbe3f8d0e599460b987ce67318c1004fbf14",
-          "sha": "3362dbe3f8d0e599460b987ce67318c1004fbf14",
-          "message": "Fix CI: robotd's gate fixture opts in, and the revert log line is back",
-          "author": "pierre-rouanet",
-          "date": "2026-11-04T11:46:42Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/3362dbe3f8d0e599460b987ce67318c1004fbf14"
-        },
-        {
-          "id": "b64def7b73708ae0edc1cb2456925a2ad0643706",
-          "sha": "b64def7b73708ae0edc1cb2456925a2ad0643706",
-          "message": "updaterd: automatic rollback is off unless asked for",
-          "author": "pierre-rouanet",
-          "date": "2026-11-04T11:38:25Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/b64def7b73708ae0edc1cb2456925a2ad0643706"
         }
       ],
       "releases": [
         {
-          "id": "434189933",
-          "tag": "daemon-v0.18.5",
-          "name": "daemon 0.18.5",
-          "published_at": "2026-11-04T16:47:46Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.5"
+          "id": "434755222",
+          "tag": "daemon-dev-stress-test",
+          "name": "daemon 0.18.5-dev.1577.a5b69ed (stress-test)",
+          "published_at": "2026-11-05T03:38:31Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test"
         },
         {
-          "id": "434186836",
-          "tag": "daemon-dev-roller-idle-and-accel",
-          "name": "daemon 0.18.4-dev.1566.352220b (roller-idle-and-accel)",
-          "published_at": "2026-11-04T16:45:14Z",
+          "id": "434713634",
+          "tag": "daemon-dev-main",
+          "name": "daemon 0.18.5-dev.1575.a64ee69 (main)",
+          "published_at": "2026-11-05T02:37:23Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-idle-and-accel"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
         },
         {
-          "id": "434187371",
-          "tag": "daemon-dev-robotd-holds-sit-toggle",
-          "name": "daemon 0.18.5-dev.1568.5ae34e6 (robotd-holds-sit-toggle)",
-          "published_at": "2026-11-04T16:45:40Z",
+          "id": "434694938",
+          "tag": "daemon-dev-cross-sysroot-truncated-deb",
+          "name": "daemon 0.18.5-dev.1574.7f93a90 (cross-sysroot-truncated-deb)",
+          "published_at": "2026-11-05T02:19:53Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-robotd-holds-sit-toggle"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-cross-sysroot-truncated-deb"
         }
       ],
       "pulls": [
+        {
+          "id": "530",
+          "number": 530,
+          "title": "Nfc pairing tag",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-05T02:29:11Z",
+          "merged_at": "2026-11-05T02:29:09Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/530"
+        },
+        {
+          "id": "531",
+          "number": 531,
+          "title": "scripts: a truncated .deb no longer poisons the sysroot cache",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-05T02:17:44Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/531"
+        },
+        {
+          "id": "271",
+          "number": 271,
+          "title": "sdk: a python client, and a loop to write behaviours in",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-04T20:49:05Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/271"
+        },
+        {
+          "id": "449",
+          "number": 449,
+          "title": "Phase-encoded policies can run as skills",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-04T20:27:39Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/449"
+        },
         {
           "id": "528",
           "number": 528,
@@ -196,46 +236,6 @@
           "updated_at": "2026-11-04T17:07:48Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/528"
-        },
-        {
-          "id": "526",
-          "number": 526,
-          "title": "updaterd: automatic rollback is off unless asked for",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-04T16:34:55Z",
-          "merged_at": "2026-11-04T16:34:52Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/526"
-        },
-        {
-          "id": "529",
-          "number": 529,
-          "title": "robotd: roller stays up when idle and through a reversal",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-04T16:32:33Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/529"
-        },
-        {
-          "id": "527",
-          "number": 527,
-          "title": "Prepare release 0.18.5",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-04T15:32:47Z",
-          "merged_at": "2026-11-04T15:32:45Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/527"
-        },
-        {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-04T15:09:13Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-04T15:57:42Z",
+      "updated_at": "2026-11-05T05:41:02Z",
       "pushed_at": "2026-11-04T15:10:01Z",
       "open_issues_count": 59,
       "commits": [
@@ -430,7 +430,7 @@
         "sha": "e9e7319feea3daa381fe6cd92fbbd28dc87e0167",
         "url": "https://github.com/fanhao375/microduck-replica/commit/e9e7319feea3daa381fe6cd92fbbd28dc87e0167"
       },
-      "updated_at": "2026-11-04T14:54:36Z",
+      "updated_at": "2026-11-05T06:17:14Z",
       "pushed_at": "2026-11-04T12:01:57Z",
       "open_issues_count": 39,
       "commits": [
@@ -620,7 +620,7 @@
         "sha": "cf618eae53d3128b721bfc22eeebc62c868da817",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/cf618eae53d3128b721bfc22eeebc62c868da817"
       },
-      "updated_at": "2026-11-04T07:30:00Z",
+      "updated_at": "2026-11-05T03:01:41Z",
       "pushed_at": "2026-11-03T08:24:34Z",
       "open_issues_count": 2,
       "commits": [
@@ -752,7 +752,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-04T14:06:09Z",
+      "updated_at": "2026-11-05T04:57:08Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 66,
       "commits": [
@@ -854,7 +854,7 @@
           "title": "Stop export-scene from deleting a non-empty output dir",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-04T19:10:27Z",
+          "updated_at": "2026-11-05T02:28:33Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1306"
         },
@@ -1011,7 +1011,7 @@
           "title": "[main] Add SAC with optional FlashSAC components",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-04T17:30:34Z",
+          "updated_at": "2026-11-05T06:52:58Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
         },

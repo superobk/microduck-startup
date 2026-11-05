@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-04T19:49:26Z`
+Generated: `2026-11-05T06:54:06Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,51 +8,23 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `03e250a095e4` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/03e250a095e4a4ebe6b3e5a3387e034882878ee8)
+- Commit `c330969ef397` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c330969ef3979a8a779fb41851ccbb2ba42ba7cf)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.18.5](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.5)
-- Release [daemon 0.18.4-dev.1566.352220b (roller-idle-and-accel)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-idle-and-accel) (prerelease)
-- Release [daemon 0.18.5-dev.1568.5ae34e6 (robotd-holds-sit-toggle)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-robotd-holds-sit-toggle) (prerelease)
-- Commit `54e0789635ae` [Merge pull request #526 from pollen-robotics/auto-rollback-opt-in](https://github.com/pollen-robotics/microduck/commit/54e0789635ae28120be9ea0dd51750a494ab50ac)
-- Commit `559dd3347a77` [Merge pull request #527 from pollen-robotics/release-0.18.5](https://github.com/pollen-robotics/microduck/commit/559dd3347a77d22ee08cebf232b60d2abfa962f2)
-- Commit `b0057f0e5f1f` [The update log says STUCK for a release left live, not "refused"](https://github.com/pollen-robotics/microduck/commit/b0057f0e5f1f762324a159571af484b5da1de30c)
-- Commit `cfccd2c7d036` [Prepare release 0.18.5](https://github.com/pollen-robotics/microduck/commit/cfccd2c7d03621dc37ef19a916903f6d0eb5407f)
-- Commit `aff2ce4cc02a` [Merge branch 'main' into auto-rollback-opt-in](https://github.com/pollen-robotics/microduck/commit/aff2ce4cc02a7e23077c215b6ff7af70700d9f99)
-- Commit `9dbf6ba719f0` [Merge pull request #525 from pollen-robotics/robotd-runtime-missing-servos-degraded](https://github.com/pollen-robotics/microduck/commit/9dbf6ba719f0c616d6dbd1791f651204386d796c)
-- Commit `3362dbe3f8d0` [Fix CI: robotd's gate fixture opts in, and the revert log line is back](https://github.com/pollen-robotics/microduck/commit/3362dbe3f8d0e599460b987ce67318c1004fbf14)
-- Commit `b64def7b7370` [updaterd: automatic rollback is off unless asked for](https://github.com/pollen-robotics/microduck/commit/b64def7b73708ae0edc1cb2456925a2ad0643706)
-- PR #528 [robotd: a stand asked for while sitting down is kept, not dropped](https://github.com/pollen-robotics/microduck/pull/528) — open
-- PR #526 [updaterd: automatic rollback is off unless asked for](https://github.com/pollen-robotics/microduck/pull/526) — closed
-- PR #529 [robotd: roller stays up when idle and through a reversal](https://github.com/pollen-robotics/microduck/pull/529) — open
-- PR #527 [Prepare release 0.18.5](https://github.com/pollen-robotics/microduck/pull/527) — closed
-- PR #449 [Phase-encoded policies can run as skills](https://github.com/pollen-robotics/microduck/pull/449) — open
-
-### fanhao375/microduck-replica
-
-- Release [2026.11.4 测试软件 · IMU方向核验与站姿重标](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.4) (prerelease)
-- Release [20261104 测试镜像 · IMU站姿重标与热点恢复](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261104) (prerelease)
-- Commit `e9e7319feea3` [docs: track recovery policy and published November test releases](https://github.com/fanhao375/microduck-replica/commit/e9e7319feea3daa381fe6cd92fbbd28dc87e0167)
-- Commit `17ce73ed2c81` [docs: retain upstream tracking with test release acceptance](https://github.com/fanhao375/microduck-replica/commit/17ce73ed2c8155c6742944cc281cc51f79a0fbd2)
-- Commit `d63b8b7c66ae` [docs: record verified 20261104 test release delivery](https://github.com/fanhao375/microduck-replica/commit/d63b8b7c66ae3f11d5fa1f7625c075931dc9baef)
-- Commit `cb128a830b47` [docs: track runtime census and NFC mode tag prototypes](https://github.com/fanhao375/microduck-replica/commit/cb128a830b47fe45555b75acef19aa81888ae5d2)
-- Commit `f215b658a4f2` [fix(image): preserve native source provenance in factory manifest](https://github.com/fanhao375/microduck-replica/commit/f215b658a4f24b669cf664b6381a559c61472009)
-- Commit `f70afc38fd73` [fix(studio): pin control.48 and preserve paired update recovery](https://github.com/fanhao375/microduck-replica/commit/f70afc38fd73b7fda65890a5fa5133a3cd52b24f)
-- Commit `c43087cdf94b` [docs: link the November IMU and hotspot test image](https://github.com/fanhao375/microduck-replica/commit/c43087cdf94b434f99f015f7b808384a13be8664)
-- Commit `22f5ea7ba938` [fix(image): install verified factory controller companion files](https://github.com/fanhao375/microduck-replica/commit/22f5ea7ba938cfef3e99883f7eabe04af31d55a1)
-
-### mujocolab/mjlab
-
-- PR #1306 [Stop export-scene from deleting a non-empty output dir](https://github.com/mujocolab/mjlab/pull/1306) — open
-- PR #1301 [Cap imageio-ffmpeg below 0.8 until mediapy supports FFmpeg 9.](https://github.com/mujocolab/mjlab/pull/1301) — open
-- PR #1304 [Match regex keys against whole names in resolve_expr and filter_exp](https://github.com/mujocolab/mjlab/pull/1304) — open
-- PR #1303 [Keep BuiltinPd pos/vel ctrl layout when actuators are sorted](https://github.com/mujocolab/mjlab/pull/1303) — open
+- Release [daemon 0.18.5-dev.1577.a5b69ed (stress-test)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test) (prerelease)
+- Release [daemon 0.18.5-dev.1575.a64ee69 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Release [daemon 0.18.5-dev.1574.7f93a90 (cross-sysroot-truncated-deb)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-cross-sysroot-truncated-deb) (prerelease)
+- Commit `a64ee692eebf` [Merge pull request #530 from pollen-robotics/nfc-pairing-tag](https://github.com/pollen-robotics/microduck/commit/a64ee692eebfce46a35c50b77705249752df9273)
+- Commit `99e89aa343c6` [Merge branch 'main' into nfc-pairing-tag](https://github.com/pollen-robotics/microduck/commit/99e89aa343c604cfd2f3c67b33557606eb8d95e2)
+- PR #530 [Nfc pairing tag](https://github.com/pollen-robotics/microduck/pull/530) — closed
+- PR #531 [scripts: a truncated .deb no longer poisons the sysroot cache](https://github.com/pollen-robotics/microduck/pull/531) — open
+- PR #271 [sdk: a python client, and a loop to write behaviours in](https://github.com/pollen-robotics/microduck/pull/271) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [03e250a095e4](https://github.com/superobk/microduck-startup/commit/03e250a095e4a4ebe6b3e5a3387e034882878ee8); pushed `2026-11-04T06:32:09Z`
-- **pollen-robotics/microduck** `main` → [54e0789635ae](https://github.com/pollen-robotics/microduck/commit/54e0789635ae28120be9ea0dd51750a494ab50ac); pushed `2026-11-04T19:13:14Z`
+- **superobk/microduck-startup** `main` → [c330969ef397](https://github.com/superobk/microduck-startup/commit/c330969ef3979a8a779fb41851ccbb2ba42ba7cf); pushed `2026-11-04T19:49:45Z`
+- **pollen-robotics/microduck** `main` → [a64ee692eebf](https://github.com/pollen-robotics/microduck/commit/a64ee692eebfce46a35c50b77705249752df9273); pushed `2026-11-05T03:38:31Z`
 - **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-11-04T15:10:01Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [e9e7319feea3](https://github.com/fanhao375/microduck-replica/commit/e9e7319feea3daa381fe6cd92fbbd28dc87e0167); pushed `2026-11-04T12:01:57Z`
