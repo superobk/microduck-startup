@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T19:59:55Z",
+  "generated_at": "2026-11-06T06:53:28Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd",
-        "url": "https://github.com/superobk/microduck-startup/commit/bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd"
+        "sha": "7d7e578313ca373080554312531f50cfcc7c18e8",
+        "url": "https://github.com/superobk/microduck-startup/commit/7d7e578313ca373080554312531f50cfcc7c18e8"
       },
-      "updated_at": "2026-11-05T06:54:32Z",
-      "pushed_at": "2026-11-05T06:54:28Z",
+      "updated_at": "2026-11-05T20:00:30Z",
+      "pushed_at": "2026-11-05T20:00:21Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "7d7e578313ca373080554312531f50cfcc7c18e8",
+          "sha": "7d7e578313ca373080554312531f50cfcc7c18e8",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-05T20:00:18Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/7d7e578313ca373080554312531f50cfcc7c18e8"
+        },
         {
           "id": "bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd",
           "sha": "bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-02T16:14:05Z",
           "url": "https://github.com/superobk/microduck-startup/commit/bb6cffbf02f50662dd2f484e1da4ebefee3ce3be"
-        },
-        {
-          "id": "f622994bcac48c360e399405e10f5c5e1963a182",
-          "sha": "f622994bcac48c360e399405e10f5c5e1963a182",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-02T06:15:10Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/f622994bcac48c360e399405e10f5c5e1963a182"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "98ce17e4868ba9370713c4d11f3d934e5a1b7687",
         "url": "https://github.com/pollen-robotics/microduck/commit/98ce17e4868ba9370713c4d11f3d934e5a1b7687"
       },
-      "updated_at": "2026-11-05T19:50:22Z",
-      "pushed_at": "2026-11-05T17:54:56Z",
+      "updated_at": "2026-11-06T06:47:30Z",
+      "pushed_at": "2026-11-06T02:14:58Z",
       "open_issues_count": 107,
       "commits": [
         {
@@ -162,23 +162,51 @@
       ],
       "releases": [
         {
+          "id": "436023491",
+          "tag": "daemon-dev-impact-guard-v3-stress-test",
+          "name": "daemon 0.18.6-dev.1596.a13eb1d (impact-guard-v3-stress-test)",
+          "published_at": "2026-11-06T02:14:59Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-impact-guard-v3-stress-test"
+        },
+        {
+          "id": "436019004",
+          "tag": "daemon-dev-impact-guard-v3",
+          "name": "daemon 0.18.6-dev.1595.d081d80 (impact-guard-v3)",
+          "published_at": "2026-11-06T02:07:31Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-impact-guard-v3"
+        },
+        {
           "id": "435535443",
           "tag": "daemon-v0.18.6",
           "name": "daemon 0.18.6",
           "published_at": "2026-11-05T17:54:56Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.6"
-        },
-        {
-          "id": "434755222",
-          "tag": "daemon-dev-stress-test",
-          "name": "daemon 0.18.5-dev.1577.a5b69ed (stress-test)",
-          "published_at": "2026-11-05T03:38:31Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test"
         }
       ],
       "pulls": [
+        {
+          "id": "532",
+          "number": 532,
+          "title": "Let the pet worker read a recording instead of the mic",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-06T02:36:38Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/532"
+        },
+        {
+          "id": "449",
+          "number": 449,
+          "title": "Phase-encoded policies can run as skills",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-05T20:02:40Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/449"
+        },
         {
           "id": "510",
           "number": 510,
@@ -208,29 +236,18 @@
           "updated_at": "2026-11-05T17:36:22Z",
           "merged_at": "2026-11-05T17:36:19Z",
           "url": "https://github.com/pollen-robotics/microduck/pull/535"
-        },
-        {
-          "id": "538",
-          "number": 538,
-          "title": "duck-sim: preserve scene paths when launching the body",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-05T16:46:57Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/538"
-        },
-        {
-          "id": "537",
-          "number": 537,
-          "title": "spaces: preserve control replies across HTTP chunks",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-05T16:17:39Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/537"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "497",
+          "number": 497,
+          "title": "Hearing: how should the brain take in sound?",
+          "state": "open",
+          "updated_at": "2026-11-06T02:48:16Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/497"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -240,7 +257,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-05T15:09:09Z",
+      "updated_at": "2026-11-06T03:06:06Z",
       "pushed_at": "2026-11-05T15:17:13Z",
       "open_issues_count": 61,
       "commits": [
@@ -410,13 +427,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "395674100bd0c24419e7801c03dbe0c2122e8212",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/395674100bd0c24419e7801c03dbe0c2122e8212"
+        "sha": "03868d7ba8e3a9b08e03226eb3a06b63b3172142",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/03868d7ba8e3a9b08e03226eb3a06b63b3172142"
       },
-      "updated_at": "2026-11-05T16:25:19Z",
-      "pushed_at": "2026-11-05T16:25:13Z",
+      "updated_at": "2026-11-06T05:23:18Z",
+      "pushed_at": "2026-11-06T03:06:11Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "03868d7ba8e3a9b08e03226eb3a06b63b3172142",
+          "sha": "03868d7ba8e3a9b08e03226eb3a06b63b3172142",
+          "message": "docs: track audio reader revision and combined guard stress prototype",
+          "author": "fanhao375",
+          "date": "2026-11-06T03:06:07Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/03868d7ba8e3a9b08e03226eb3a06b63b3172142"
+        },
+        {
+          "id": "7f3294d7bd71650cee88397e7656fc882d01e78e",
+          "sha": "7f3294d7bd71650cee88397e7656fc882d01e78e",
+          "message": "docs: track daemon 0.18.6 release and final session contract",
+          "author": "fanhao375",
+          "date": "2026-11-06T02:06:19Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7f3294d7bd71650cee88397e7656fc882d01e78e"
+        },
         {
           "id": "395674100bd0c24419e7801c03dbe0c2122e8212",
           "sha": "395674100bd0c24419e7801c03dbe0c2122e8212",
@@ -464,22 +497,6 @@
           "author": "fanhao375",
           "date": "2026-11-05T10:28:27Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/297177aa302db678bb498e7013a7bb4ec6a94a85"
-        },
-        {
-          "id": "d0f047913a3c7b1beb68c41022f44634c97edf68",
-          "sha": "d0f047913a3c7b1beb68c41022f44634c97edf68",
-          "message": "docs: track daemon 0.18.5 and independent development contracts",
-          "author": "fanhao375",
-          "date": "2026-11-05T08:31:02Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/d0f047913a3c7b1beb68c41022f44634c97edf68"
-        },
-        {
-          "id": "e9e7319feea3daa381fe6cd92fbbd28dc87e0167",
-          "sha": "e9e7319feea3daa381fe6cd92fbbd28dc87e0167",
-          "message": "docs: track recovery policy and published November test releases",
-          "author": "fanhao375",
-          "date": "2026-11-04T12:01:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/e9e7319feea3daa381fe6cd92fbbd28dc87e0167"
         }
       ],
       "releases": [
@@ -603,7 +620,7 @@
         "sha": "b99984a56182525598c4187cc0138c89bc1c7c79",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/b99984a56182525598c4187cc0138c89bc1c7c79"
       },
-      "updated_at": "2026-11-05T19:49:47Z",
+      "updated_at": "2026-11-06T01:48:15Z",
       "pushed_at": "2026-11-05T19:49:44Z",
       "open_issues_count": 1,
       "commits": [
@@ -735,7 +752,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-05T19:36:06Z",
+      "updated_at": "2026-11-06T01:16:04Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 66,
       "commits": [
@@ -892,7 +909,7 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-11-05T14:41:51Z",
+      "updated_at": "2026-11-06T03:52:00Z",
       "pushed_at": "2026-10-28T16:18:03Z",
       "open_issues_count": 16,
       "commits": [
