@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T06:04:32Z",
+  "generated_at": "2026-11-07T13:09:40Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
-        "url": "https://github.com/superobk/microduck-startup/commit/2b6807ae56d864f38a3d1b014d90744c719b1d22"
+        "sha": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
+        "url": "https://github.com/superobk/microduck-startup/commit/fff83b7fdde127f8a3db552c1740fdf0becd312d"
       },
-      "updated_at": "2026-11-06T19:28:07Z",
-      "pushed_at": "2026-11-06T19:28:02Z",
+      "updated_at": "2026-11-07T06:04:54Z",
+      "pushed_at": "2026-11-07T06:04:50Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
+          "sha": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-07T06:04:49Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/fff83b7fdde127f8a3db552c1740fdf0becd312d"
+        },
         {
           "id": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
           "sha": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-03T23:26:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/7c6a846e7311ab172411a2b2210ce164929ea12e"
-        },
-        {
-          "id": "209e6b8086b58686a03a5498a1ae9bac715e408b",
-          "sha": "209e6b8086b58686a03a5498a1ae9bac715e408b",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-03T14:23:08Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/209e6b8086b58686a03a5498a1ae9bac715e408b"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-07T05:31:32Z",
+      "updated_at": "2026-11-07T12:50:57Z",
       "pushed_at": "2026-11-06T17:57:02Z",
       "open_issues_count": 113,
       "commits": [
@@ -273,7 +273,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-07T02:09:32Z",
+      "updated_at": "2026-11-07T10:06:44Z",
       "pushed_at": "2026-11-05T15:17:13Z",
       "open_issues_count": 61,
       "commits": [
@@ -443,13 +443,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/7e7b545ba8c580fe2d400c2ccb814bf5823e0276"
+        "sha": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b"
       },
-      "updated_at": "2026-11-07T05:08:57Z",
-      "pushed_at": "2026-11-07T02:09:46Z",
+      "updated_at": "2026-11-07T12:53:31Z",
+      "pushed_at": "2026-11-07T11:57:17Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
+          "sha": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
+          "message": "docs: track GitHub latest image download selection",
+          "author": "fanhao375",
+          "date": "2026-11-07T11:57:13Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b"
+        },
+        {
+          "id": "d5166cb45f3f18a8476dcb2cb2e3f67603d06e53",
+          "sha": "d5166cb45f3f18a8476dcb2cb2e3f67603d06e53",
+          "message": "docs: record November 4 image release promotion",
+          "author": "fanhao375",
+          "date": "2026-11-07T08:01:08Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/d5166cb45f3f18a8476dcb2cb2e3f67603d06e53"
+        },
         {
           "id": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
           "sha": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
@@ -497,25 +513,17 @@
           "author": "fanhao375",
           "date": "2026-11-06T03:06:07Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/03868d7ba8e3a9b08e03226eb3a06b63b3172142"
-        },
-        {
-          "id": "7f3294d7bd71650cee88397e7656fc882d01e78e",
-          "sha": "7f3294d7bd71650cee88397e7656fc882d01e78e",
-          "message": "docs: track daemon 0.18.6 release and final session contract",
-          "author": "fanhao375",
-          "date": "2026-11-06T02:06:19Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7f3294d7bd71650cee88397e7656fc882d01e78e"
-        },
-        {
-          "id": "395674100bd0c24419e7801c03dbe0c2122e8212",
-          "sha": "395674100bd0c24419e7801c03dbe0c2122e8212",
-          "message": "docs: track Spaces HTTP control reply framing fix",
-          "author": "fanhao375",
-          "date": "2026-11-05T16:25:06Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/395674100bd0c24419e7801c03dbe0c2122e8212"
         }
       ],
       "releases": [
+        {
+          "id": "433776261",
+          "tag": "microduck-replica-image-20261104",
+          "name": "20261104 正式镜像 · IMU站姿重标与热点恢复",
+          "published_at": "2026-11-04T10:57:46Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261104"
+        },
         {
           "id": "433776308",
           "tag": "microduck-software-v2026.11.4",
@@ -523,14 +531,6 @@
           "published_at": "2026-11-04T10:57:35Z",
           "prerelease": true,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.4"
-        },
-        {
-          "id": "433776261",
-          "tag": "microduck-replica-image-20261104",
-          "name": "20261104 测试镜像 · IMU站姿重标与热点恢复",
-          "published_at": "2026-11-04T10:57:46Z",
-          "prerelease": true,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261104"
         },
         {
           "id": "429877783",
@@ -865,6 +865,16 @@
       ],
       "pulls": [
         {
+          "id": "1266",
+          "number": 1266,
+          "title": "Cache constant recomputation graphs and skip unchanged field setup",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-07T10:34:05Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1266"
+        },
+        {
           "id": "1307",
           "number": 1307,
           "title": "Select DR actuator groups by ctrl id in pd_gains and effort_limits",
@@ -903,16 +913,6 @@
           "updated_at": "2026-11-04T17:38:52Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1304"
-        },
-        {
-          "id": "1303",
-          "number": 1303,
-          "title": "Keep BuiltinPd pos/vel ctrl layout when actuators are sorted",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-04T17:15:46Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1303"
         }
       ],
       "issues": []
@@ -925,9 +925,9 @@
         "sha": "11563319134f987f70fb034410496fe3cc7327a9",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9"
       },
-      "updated_at": "2026-11-06T03:52:00Z",
+      "updated_at": "2026-11-07T06:45:37Z",
       "pushed_at": "2026-10-28T16:18:03Z",
-      "open_issues_count": 16,
+      "open_issues_count": 17,
       "commits": [
         {
           "id": "11563319134f987f70fb034410496fe3cc7327a9",
@@ -1022,6 +1022,16 @@
       ],
       "pulls": [
         {
+          "id": "266",
+          "number": 266,
+          "title": "Preserve import errors and validate resolved callables",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-07T08:25:56Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/266"
+        },
+        {
           "id": "255",
           "number": 255,
           "title": "[main] Add SuperMimic model-based training",
@@ -1060,16 +1070,6 @@
           "updated_at": "2026-11-03T15:28:04Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/265"
-        },
-        {
-          "id": "264",
-          "number": 264,
-          "title": "Preserve recurrent hidden-state dtypes in rollout storage",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-03T13:54:51Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/264"
         }
       ],
       "issues": []
