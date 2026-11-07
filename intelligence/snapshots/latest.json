@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T19:27:43Z",
+  "generated_at": "2026-11-07T06:04:32Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "83b76f3a5c84a86346aedc13ba81906ffba9fc23",
-        "url": "https://github.com/superobk/microduck-startup/commit/83b76f3a5c84a86346aedc13ba81906ffba9fc23"
+        "sha": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
+        "url": "https://github.com/superobk/microduck-startup/commit/2b6807ae56d864f38a3d1b014d90744c719b1d22"
       },
-      "updated_at": "2026-11-06T06:53:48Z",
-      "pushed_at": "2026-11-06T06:53:44Z",
+      "updated_at": "2026-11-06T19:28:07Z",
+      "pushed_at": "2026-11-06T19:28:02Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
+          "sha": "2b6807ae56d864f38a3d1b014d90744c719b1d22",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-06T19:28:00Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2b6807ae56d864f38a3d1b014d90744c719b1d22"
+        },
         {
           "id": "83b76f3a5c84a86346aedc13ba81906ffba9fc23",
           "sha": "83b76f3a5c84a86346aedc13ba81906ffba9fc23",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-03T14:23:08Z",
           "url": "https://github.com/superobk/microduck-startup/commit/209e6b8086b58686a03a5498a1ae9bac715e408b"
-        },
-        {
-          "id": "70b0707f736651a49026a0acbebff711c765874c",
-          "sha": "70b0707f736651a49026a0acbebff711c765874c",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-03T01:01:49Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/70b0707f736651a49026a0acbebff711c765874c"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-06T18:34:53Z",
+      "updated_at": "2026-11-07T05:31:32Z",
       "pushed_at": "2026-11-06T17:57:02Z",
       "open_issues_count": 113,
       "commits": [
@@ -240,6 +240,14 @@
       ],
       "issues": [
         {
+          "id": "443",
+          "number": 443,
+          "title": "Question: LAN authentication for WebRTC/console before consumer units ship?",
+          "state": "open",
+          "updated_at": "2026-11-06T23:24:50Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/443"
+        },
+        {
           "id": "555",
           "number": 555,
           "title": "Head IMU: let a head_imu.stream subscriber ask for lower latency",
@@ -254,14 +262,6 @@
           "state": "open",
           "updated_at": "2026-11-06T18:59:32Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/554"
-        },
-        {
-          "id": "443",
-          "number": 443,
-          "title": "Question: LAN authentication for WebRTC/console before consumer units ship?",
-          "state": "open",
-          "updated_at": "2026-11-06T17:28:01Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/443"
         }
       ]
     },
@@ -273,7 +273,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-06T18:43:07Z",
+      "updated_at": "2026-11-07T02:09:32Z",
       "pushed_at": "2026-11-05T15:17:13Z",
       "open_issues_count": 61,
       "commits": [
@@ -443,13 +443,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "ab1f64650a12e3e4d8904e6983a045ef57e40e95",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/ab1f64650a12e3e4d8904e6983a045ef57e40e95"
+        "sha": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/7e7b545ba8c580fe2d400c2ccb814bf5823e0276"
       },
-      "updated_at": "2026-11-06T14:08:56Z",
-      "pushed_at": "2026-11-06T14:08:50Z",
+      "updated_at": "2026-11-07T05:08:57Z",
+      "pushed_at": "2026-11-07T02:09:46Z",
       "open_issues_count": 39,
       "commits": [
+        {
+          "id": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
+          "sha": "7e7b545ba8c580fe2d400c2ccb814bf5823e0276",
+          "message": "docs: track v9 policy pin and independent media prototypes",
+          "author": "fanhao375",
+          "date": "2026-11-07T02:09:41Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7e7b545ba8c580fe2d400c2ccb814bf5823e0276"
+        },
         {
           "id": "ab1f64650a12e3e4d8904e6983a045ef57e40e95",
           "sha": "ab1f64650a12e3e4d8904e6983a045ef57e40e95",
@@ -505,14 +513,6 @@
           "author": "fanhao375",
           "date": "2026-11-05T16:25:06Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/395674100bd0c24419e7801c03dbe0c2122e8212"
-        },
-        {
-          "id": "3ad8cf29841b7774065ecc312b536048fbd6e44a",
-          "sha": "3ad8cf29841b7774065ecc312b536048fbd6e44a",
-          "message": "docs: track WebRTC session update gate and roller height fix",
-          "author": "fanhao375",
-          "date": "2026-11-05T15:39:30Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/3ad8cf29841b7774065ecc312b536048fbd6e44a"
         }
       ],
       "releases": [
@@ -768,7 +768,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-06T18:48:04Z",
+      "updated_at": "2026-11-07T03:34:39Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 66,
       "commits": [
