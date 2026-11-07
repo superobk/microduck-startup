@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:09:40Z",
+  "generated_at": "2026-11-07T21:54:50Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
-        "url": "https://github.com/superobk/microduck-startup/commit/fff83b7fdde127f8a3db552c1740fdf0becd312d"
+        "sha": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
+        "url": "https://github.com/superobk/microduck-startup/commit/cbbd0bcf24363beefc6fdf7e5204a86489549e36"
       },
-      "updated_at": "2026-11-07T06:04:54Z",
-      "pushed_at": "2026-11-07T06:04:50Z",
+      "updated_at": "2026-11-07T13:10:00Z",
+      "pushed_at": "2026-11-07T13:09:57Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
+          "sha": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-07T13:09:55Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/cbbd0bcf24363beefc6fdf7e5204a86489549e36"
+        },
         {
           "id": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
           "sha": "fff83b7fdde127f8a3db552c1740fdf0becd312d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-04T06:32:08Z",
           "url": "https://github.com/superobk/microduck-startup/commit/03e250a095e4a4ebe6b3e5a3387e034882878ee8"
-        },
-        {
-          "id": "7c6a846e7311ab172411a2b2210ce164929ea12e",
-          "sha": "7c6a846e7311ab172411a2b2210ce164929ea12e",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-03T23:26:59Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/7c6a846e7311ab172411a2b2210ce164929ea12e"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-07T12:50:57Z",
+      "updated_at": "2026-11-07T21:35:37Z",
       "pushed_at": "2026-11-06T17:57:02Z",
       "open_issues_count": 113,
       "commits": [
@@ -273,7 +273,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-07T10:06:44Z",
+      "updated_at": "2026-11-07T21:45:30Z",
       "pushed_at": "2026-11-05T15:17:13Z",
       "open_issues_count": 61,
       "commits": [
@@ -446,7 +446,7 @@
         "sha": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b"
       },
-      "updated_at": "2026-11-07T12:53:31Z",
+      "updated_at": "2026-11-07T18:22:55Z",
       "pushed_at": "2026-11-07T11:57:17Z",
       "open_issues_count": 39,
       "commits": [
@@ -768,7 +768,7 @@
         "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
         "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
       },
-      "updated_at": "2026-11-07T03:34:39Z",
+      "updated_at": "2026-11-07T20:09:55Z",
       "pushed_at": "2026-11-01T04:13:02Z",
       "open_issues_count": 66,
       "commits": [
@@ -927,7 +927,7 @@
       },
       "updated_at": "2026-11-07T06:45:37Z",
       "pushed_at": "2026-10-28T16:18:03Z",
-      "open_issues_count": 17,
+      "open_issues_count": 18,
       "commits": [
         {
           "id": "11563319134f987f70fb034410496fe3cc7327a9",
@@ -1022,6 +1022,16 @@
       ],
       "pulls": [
         {
+          "id": "267",
+          "number": 267,
+          "title": "Aggregate episode metrics without mutating environment extras",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-07T18:17:19Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/267"
+        },
+        {
           "id": "266",
           "number": 266,
           "title": "Preserve import errors and validate resolved callables",
@@ -1060,16 +1070,6 @@
           "updated_at": "2026-11-03T15:30:15Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
-        },
-        {
-          "id": "265",
-          "number": 265,
-          "title": "Clean up algorithm statistics for the logger",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-03T15:28:04Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/265"
         }
       ],
       "issues": []
