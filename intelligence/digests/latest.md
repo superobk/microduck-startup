@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-08T13:30:51Z`
+Generated: `2026-11-08T22:10:56Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,12 +8,17 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `03666e33d6b5` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/03666e33d6b54081e24bc9b81dd7f9af70e7f025)
+- Commit `656a767310ed` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/656a767310edbaca8ab17d9ff19f26b4569e9d3e)
+
+### pollen-robotics/microduck
+
+- Release [daemon 0.18.9-dev.1649.6ca1d79 (codex/secure-media-and-ble-defaults)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/secure-media-and-ble-defaults) (prerelease)
+- PR #556 [Secure media and BLE access by default](https://github.com/pollen-robotics/microduck/pull/556) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [03666e33d6b5](https://github.com/superobk/microduck-startup/commit/03666e33d6b54081e24bc9b81dd7f9af70e7f025); pushed `2026-11-08T06:08:39Z`
-- **pollen-robotics/microduck** `main` → [da34a2212ae1](https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9); pushed `2026-11-06T17:57:02Z`
+- **superobk/microduck-startup** `main` → [656a767310ed](https://github.com/superobk/microduck-startup/commit/656a767310edbaca8ab17d9ff19f26b4569e9d3e); pushed `2026-11-08T13:31:06Z`
+- **pollen-robotics/microduck** `main` → [da34a2212ae1](https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9); pushed `2026-11-08T21:57:47Z`
 - **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-11-05T15:17:13Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
 - **fanhao375/microduck-replica** `master` → [11a7b64aa7f8](https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b); pushed `2026-11-07T11:57:17Z`

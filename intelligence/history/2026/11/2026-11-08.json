@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T13:30:51Z",
+  "generated_at": "2026-11-08T22:10:56Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "03666e33d6b54081e24bc9b81dd7f9af70e7f025",
-        "url": "https://github.com/superobk/microduck-startup/commit/03666e33d6b54081e24bc9b81dd7f9af70e7f025"
+        "sha": "656a767310edbaca8ab17d9ff19f26b4569e9d3e",
+        "url": "https://github.com/superobk/microduck-startup/commit/656a767310edbaca8ab17d9ff19f26b4569e9d3e"
       },
-      "updated_at": "2026-11-08T06:08:43Z",
-      "pushed_at": "2026-11-08T06:08:39Z",
+      "updated_at": "2026-11-08T13:31:10Z",
+      "pushed_at": "2026-11-08T13:31:06Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "656a767310edbaca8ab17d9ff19f26b4569e9d3e",
+          "sha": "656a767310edbaca8ab17d9ff19f26b4569e9d3e",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-08T13:31:05Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/656a767310edbaca8ab17d9ff19f26b4569e9d3e"
+        },
         {
           "id": "03666e33d6b54081e24bc9b81dd7f9af70e7f025",
           "sha": "03666e33d6b54081e24bc9b81dd7f9af70e7f025",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-05T20:00:18Z",
           "url": "https://github.com/superobk/microduck-startup/commit/7d7e578313ca373080554312531f50cfcc7c18e8"
-        },
-        {
-          "id": "bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd",
-          "sha": "bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-05T06:54:26Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/bf5c5b46abdd0968ee1dc253dd26b9b05ba822fd"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-08T12:59:41Z",
-      "pushed_at": "2026-11-06T17:57:02Z",
-      "open_issues_count": 113,
+      "updated_at": "2026-11-08T20:15:02Z",
+      "pushed_at": "2026-11-08T21:57:47Z",
+      "open_issues_count": 114,
       "commits": [
         {
           "id": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "438549737",
+          "tag": "daemon-dev-codex/secure-media-and-ble-defaults",
+          "name": "daemon 0.18.9-dev.1649.6ca1d79 (codex/secure-media-and-ble-defaults)",
+          "published_at": "2026-11-08T21:57:47Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/secure-media-and-ble-defaults"
+        },
+        {
           "id": "436320794",
           "tag": "daemon-v0.18.8",
           "name": "daemon 0.18.8",
@@ -176,17 +184,19 @@
           "published_at": "2026-11-06T07:15:44Z",
           "prerelease": false,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.18.7"
-        },
-        {
-          "id": "436273626",
-          "tag": "daemon-dev-nfcd-poll-less",
-          "name": "daemon 0.18.7-dev.1610.ae96f69 (nfcd-poll-less)",
-          "published_at": "2026-11-06T08:45:18Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfcd-poll-less"
         }
       ],
       "pulls": [
+        {
+          "id": "556",
+          "number": 556,
+          "title": "Secure media and BLE access by default",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-08T21:56:38Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/556"
+        },
         {
           "id": "449",
           "number": 449,
@@ -226,19 +236,25 @@
           "updated_at": "2026-11-06T16:26:03Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/551"
-        },
-        {
-          "id": "550",
-          "number": 550,
-          "title": "Pin the policy set to v9: the v7 velstand",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-06T16:11:55Z",
-          "merged_at": "2026-11-06T16:10:53Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/550"
         }
       ],
       "issues": [
+        {
+          "id": "430",
+          "number": 430,
+          "title": "kinematics::tof: Zone::Hit range is measured from the sensor, not the trunk axis as documented",
+          "state": "open",
+          "updated_at": "2026-11-08T17:24:58Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/430"
+        },
+        {
+          "id": "497",
+          "number": 497,
+          "title": "Hearing: how should the brain take in sound?",
+          "state": "open",
+          "updated_at": "2026-11-08T13:50:54Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/497"
+        },
         {
           "id": "443",
           "number": 443,
@@ -246,22 +262,6 @@
           "state": "open",
           "updated_at": "2026-11-06T23:24:50Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/443"
-        },
-        {
-          "id": "555",
-          "number": 555,
-          "title": "Head IMU: let a head_imu.stream subscriber ask for lower latency",
-          "state": "open",
-          "updated_at": "2026-11-06T19:18:53Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/555"
-        },
-        {
-          "id": "554",
-          "number": 554,
-          "title": "Microduck STS HD1910M",
-          "state": "open",
-          "updated_at": "2026-11-06T18:59:32Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/554"
         }
       ]
     },
@@ -446,7 +446,7 @@
         "sha": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b"
       },
-      "updated_at": "2026-11-08T12:34:08Z",
+      "updated_at": "2026-11-08T20:34:49Z",
       "pushed_at": "2026-11-07T11:57:17Z",
       "open_issues_count": 40,
       "commits": [
@@ -768,7 +768,7 @@
         "sha": "936f7a12537556416addff31babbb1512dd24d70",
         "url": "https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70"
       },
-      "updated_at": "2026-11-08T13:05:49Z",
+      "updated_at": "2026-11-08T15:58:05Z",
       "pushed_at": "2026-11-08T03:11:58Z",
       "open_issues_count": 64,
       "commits": [
