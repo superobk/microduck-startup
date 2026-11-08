@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T21:54:50Z",
+  "generated_at": "2026-11-08T06:08:25Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
-        "url": "https://github.com/superobk/microduck-startup/commit/cbbd0bcf24363beefc6fdf7e5204a86489549e36"
+        "sha": "3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c",
+        "url": "https://github.com/superobk/microduck-startup/commit/3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c"
       },
-      "updated_at": "2026-11-07T13:10:00Z",
-      "pushed_at": "2026-11-07T13:09:57Z",
+      "updated_at": "2026-11-07T21:55:09Z",
+      "pushed_at": "2026-11-07T21:55:05Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c",
+          "sha": "3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-07T21:55:04Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c"
+        },
         {
           "id": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
           "sha": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-04T19:49:43Z",
           "url": "https://github.com/superobk/microduck-startup/commit/c330969ef3979a8a779fb41851ccbb2ba42ba7cf"
-        },
-        {
-          "id": "03e250a095e4a4ebe6b3e5a3387e034882878ee8",
-          "sha": "03e250a095e4a4ebe6b3e5a3387e034882878ee8",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-04T06:32:08Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/03e250a095e4a4ebe6b3e5a3387e034882878ee8"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-07T21:35:37Z",
+      "updated_at": "2026-11-08T06:01:36Z",
       "pushed_at": "2026-11-06T17:57:02Z",
       "open_issues_count": 113,
       "commits": [
@@ -273,7 +273,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-07T21:45:30Z",
+      "updated_at": "2026-11-08T01:32:43Z",
       "pushed_at": "2026-11-05T15:17:13Z",
       "open_issues_count": 61,
       "commits": [
@@ -446,9 +446,9 @@
         "sha": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
         "url": "https://github.com/fanhao375/microduck-replica/commit/11a7b64aa7f89ab38e9e96c8e39968f25d15d48b"
       },
-      "updated_at": "2026-11-07T18:22:55Z",
+      "updated_at": "2026-11-08T02:11:33Z",
       "pushed_at": "2026-11-07T11:57:17Z",
-      "open_issues_count": 39,
+      "open_issues_count": 40,
       "commits": [
         {
           "id": "11a7b64aa7f89ab38e9e96c8e39968f25d15d48b",
@@ -595,6 +595,14 @@
       ],
       "issues": [
         {
+          "id": "50",
+          "number": 50,
+          "title": "微信二维码过期",
+          "state": "open",
+          "updated_at": "2026-11-08T02:09:01Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/50"
+        },
+        {
           "id": "49",
           "number": 49,
           "title": "拼团咨询：HAT 板 + imu_to_dxl 板（越南） / Group buy inquiry: HAT + IMU board (Vietnam)",
@@ -617,14 +625,6 @@
           "state": "open",
           "updated_at": "2026-10-27T03:21:37Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/25"
-        },
-        {
-          "id": "46",
-          "number": 46,
-          "title": "飞特版跟进请教：打印材料/质量、训练策略、HAT 板 PCBA、舵机参数 4 个问题",
-          "state": "open",
-          "updated_at": "2026-10-16T09:29:59Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/46"
         }
       ]
     },
@@ -765,13 +765,29 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
-        "url": "https://github.com/mujocolab/mjlab/commit/dcdf6ce519abfd2ea45e9503ae6fb650b75bb869"
+        "sha": "936f7a12537556416addff31babbb1512dd24d70",
+        "url": "https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70"
       },
-      "updated_at": "2026-11-07T20:09:55Z",
-      "pushed_at": "2026-11-01T04:13:02Z",
-      "open_issues_count": 66,
+      "updated_at": "2026-11-08T03:07:19Z",
+      "pushed_at": "2026-11-08T03:11:58Z",
+      "open_issues_count": 64,
       "commits": [
+        {
+          "id": "936f7a12537556416addff31babbb1512dd24d70",
+          "sha": "936f7a12537556416addff31babbb1512dd24d70",
+          "message": "Hold the post-reset pose in delayed position actuators (#1308)",
+          "author": "oxkitsune",
+          "date": "2026-11-08T03:07:15Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70"
+        },
+        {
+          "id": "96f57f9d6492a1041093b1c624d19da69f648831",
+          "sha": "96f57f9d6492a1041093b1c624d19da69f648831",
+          "message": "Cap imageio-ffmpeg below 0.8 until mediapy supports FFmpeg 9. (#1301)",
+          "author": "louislelay",
+          "date": "2026-11-08T03:05:31Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/96f57f9d6492a1041093b1c624d19da69f648831"
+        },
         {
           "id": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
           "sha": "dcdf6ce519abfd2ea45e9503ae6fb650b75bb869",
@@ -819,22 +835,6 @@
           "author": "vssinghh",
           "date": "2026-11-01T03:17:40Z",
           "url": "https://github.com/mujocolab/mjlab/commit/18f8edc56e233546867e7be11d60294e7960a69a"
-        },
-        {
-          "id": "a041d00ec50edee24dc1964bf9ef642ff0499e3e",
-          "sha": "a041d00ec50edee24dc1964bf9ef642ff0499e3e",
-          "message": "Bump rsl-rl-lib to 5.5.2. (#1294)",
-          "author": "kevinzakka",
-          "date": "2026-11-01T03:17:21Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/a041d00ec50edee24dc1964bf9ef642ff0499e3e"
-        },
-        {
-          "id": "9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1",
-          "sha": "9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1",
-          "message": "Remove the Claude Code Review workflow. (#1293)",
-          "author": "kevinzakka",
-          "date": "2026-11-01T03:05:24Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/9b8c719fcb20db4ba5d3371c1474ea98c00ddbb1"
         }
       ],
       "releases": [
@@ -865,24 +865,14 @@
       ],
       "pulls": [
         {
-          "id": "1266",
-          "number": 1266,
-          "title": "Cache constant recomputation graphs and skip unchanged field setup",
+          "id": "1303",
+          "number": 1303,
+          "title": "Keep BuiltinPd pos/vel ctrl layout when actuators are sorted",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-07T10:34:05Z",
+          "updated_at": "2026-11-08T03:59:29Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1266"
-        },
-        {
-          "id": "1307",
-          "number": 1307,
-          "title": "Select DR actuator groups by ctrl id in pd_gains and effort_limits",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-05T17:55:47Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1307"
+          "url": "https://github.com/mujocolab/mjlab/pull/1303"
         },
         {
           "id": "1306",
@@ -890,19 +880,9 @@
           "title": "Stop export-scene from deleting a non-empty output dir",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-05T02:28:33Z",
+          "updated_at": "2026-11-08T03:58:33Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1306"
-        },
-        {
-          "id": "1301",
-          "number": 1301,
-          "title": "Cap imageio-ffmpeg below 0.8 until mediapy supports FFmpeg 9.",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-04T17:46:42Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1301"
         },
         {
           "id": "1304",
@@ -910,9 +890,29 @@
           "title": "Match regex keys against whole names in resolve_expr and filter_exp",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-04T17:38:52Z",
+          "updated_at": "2026-11-08T03:56:02Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1304"
+        },
+        {
+          "id": "1301",
+          "number": 1301,
+          "title": "Cap imageio-ffmpeg below 0.8 until mediapy supports FFmpeg 9.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-08T03:47:15Z",
+          "merged_at": "2026-11-08T03:05:32Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1301"
+        },
+        {
+          "id": "1299",
+          "number": 1299,
+          "title": "Accept custom checkpoint sources in train and play.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-08T03:46:38Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1299"
         }
       ],
       "issues": []
