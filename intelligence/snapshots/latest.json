@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T06:42:12Z",
+  "generated_at": "2026-11-09T22:25:34Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "2ad8715621f79da9a2908e9ce6f6f544fe7fdd03",
-        "url": "https://github.com/superobk/microduck-startup/commit/2ad8715621f79da9a2908e9ce6f6f544fe7fdd03"
+        "sha": "c47404559296b74c432372ebbd49cf45182caffa",
+        "url": "https://github.com/superobk/microduck-startup/commit/c47404559296b74c432372ebbd49cf45182caffa"
       },
-      "updated_at": "2026-11-08T22:11:17Z",
-      "pushed_at": "2026-11-08T22:11:13Z",
+      "updated_at": "2026-11-09T06:42:30Z",
+      "pushed_at": "2026-11-09T06:42:25Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c47404559296b74c432372ebbd49cf45182caffa",
+          "sha": "c47404559296b74c432372ebbd49cf45182caffa",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-09T06:42:24Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c47404559296b74c432372ebbd49cf45182caffa"
+        },
         {
           "id": "2ad8715621f79da9a2908e9ce6f6f544fe7fdd03",
           "sha": "2ad8715621f79da9a2908e9ce6f6f544fe7fdd03",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-06T19:28:00Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2b6807ae56d864f38a3d1b014d90744c719b1d22"
-        },
-        {
-          "id": "83b76f3a5c84a86346aedc13ba81906ffba9fc23",
-          "sha": "83b76f3a5c84a86346aedc13ba81906ffba9fc23",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-06T06:53:43Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/83b76f3a5c84a86346aedc13ba81906ffba9fc23"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
         "url": "https://github.com/pollen-robotics/microduck/commit/da34a2212ae12eddfd73d0dfbf924f291aaf1dc9"
       },
-      "updated_at": "2026-11-09T06:16:46Z",
-      "pushed_at": "2026-11-09T02:40:15Z",
-      "open_issues_count": 114,
+      "updated_at": "2026-11-09T22:05:12Z",
+      "pushed_at": "2026-11-09T15:31:21Z",
+      "open_issues_count": 115,
       "commits": [
         {
           "id": "da34a2212ae12eddfd73d0dfbf924f291aaf1dc9",
@@ -170,100 +170,75 @@
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test"
         },
         {
-          "id": "438686735",
-          "tag": "daemon-dev-impact-guard-v3",
-          "name": "daemon 0.18.9-dev.1654.730710b (impact-guard-v3)",
-          "published_at": "2026-11-09T02:37:17Z",
+          "id": "439094501",
+          "tag": "daemon-dev-nfc-tag-pad-address",
+          "name": "daemon 0.18.9-dev.1660.70d781e (nfc-tag-pad-address)",
+          "published_at": "2026-11-09T12:15:34Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-impact-guard-v3"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-tag-pad-address"
         },
         {
-          "id": "438611769",
-          "tag": "daemon-dev-codex/secure-media-and-ble-defaults",
-          "name": "daemon 0.18.9-dev.1653.c820cac (codex/secure-media-and-ble-defaults)",
-          "published_at": "2026-11-09T00:02:20Z",
+          "id": "438948403",
+          "tag": "daemon-dev-laser-track",
+          "name": "daemon 0.18.9-dev.1659.067a11d (laser-track)",
+          "published_at": "2026-11-09T09:39:54Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-codex/secure-media-and-ble-defaults"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-laser-track"
         }
       ],
       "pulls": [
-        {
-          "id": "551",
-          "number": 551,
-          "title": "robotd: ROBOTIS impact guard on V3 and V4 servos, setting R by default",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-09T02:33:47Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/551"
-        },
         {
           "id": "556",
           "number": 556,
           "title": "Secure media and BLE access by default",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-09T00:02:44Z",
+          "updated_at": "2026-11-09T15:36:10Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/556"
         },
         {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
+          "id": "560",
+          "number": 560,
+          "title": "Setup code: first name as the robot id, robotctl to install and show it as a QR",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-09T15:27:13Z",
+          "merged_at": "2026-11-09T15:27:11Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/560"
+        },
+        {
+          "id": "559",
+          "number": 559,
+          "title": "setup-board: let a phone re-pair after it forgot the robot",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-09T14:21:32Z",
+          "merged_at": "2026-11-09T14:21:29Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/559"
+        },
+        {
+          "id": "558",
+          "number": 558,
+          "title": "Laser tracking: follow a laser dot with the head and the legs",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-06T19:21:23Z",
+          "updated_at": "2026-11-09T09:40:16Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
+          "url": "https://github.com/pollen-robotics/microduck/pull/558"
         },
         {
-          "id": "553",
-          "number": 553,
-          "title": "Prepare release 0.18.9",
-          "state": "closed",
+          "id": "551",
+          "number": 551,
+          "title": "robotd: ROBOTIS impact guard on V3 and V4 servos, setting R by default",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-11-06T17:00:17Z",
-          "merged_at": "2026-11-06T17:00:15Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/553"
-        },
-        {
-          "id": "552",
-          "number": 552,
-          "title": "pad.pair: an ambiguous refusal lists the pads it saw",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-06T16:48:56Z",
-          "merged_at": "2026-11-06T16:48:52Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/552"
+          "updated_at": "2026-11-09T09:19:10Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/551"
         }
       ],
-      "issues": [
-        {
-          "id": "430",
-          "number": 430,
-          "title": "kinematics::tof: Zone::Hit range is measured from the sensor, not the trunk axis as documented",
-          "state": "open",
-          "updated_at": "2026-11-08T17:24:58Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/430"
-        },
-        {
-          "id": "497",
-          "number": 497,
-          "title": "Hearing: how should the brain take in sound?",
-          "state": "open",
-          "updated_at": "2026-11-08T13:50:54Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/497"
-        },
-        {
-          "id": "443",
-          "number": 443,
-          "title": "Question: LAN authentication for WebRTC/console before consumer units ship?",
-          "state": "open",
-          "updated_at": "2026-11-06T23:24:50Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/443"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -273,7 +248,7 @@
         "sha": "bae39f5900b318f7e87fc485c30a31213cfa14eb",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb"
       },
-      "updated_at": "2026-11-09T05:58:18Z",
+      "updated_at": "2026-11-09T19:50:55Z",
       "pushed_at": "2026-11-09T06:24:09Z",
       "open_issues_count": 61,
       "commits": [
@@ -443,13 +418,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "3c58c952aaccd3fdd394e387b53326ca7817254a",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/3c58c952aaccd3fdd394e387b53326ca7817254a"
+        "sha": "2a033c82e388126cd3989aa40d93b8c806f4c886",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/2a033c82e388126cd3989aa40d93b8c806f4c886"
       },
-      "updated_at": "2026-11-09T06:40:59Z",
-      "pushed_at": "2026-11-09T03:48:09Z",
+      "updated_at": "2026-11-09T18:46:17Z",
+      "pushed_at": "2026-11-09T12:46:34Z",
       "open_issues_count": 40,
       "commits": [
+        {
+          "id": "2a033c82e388126cd3989aa40d93b8c806f4c886",
+          "sha": "2a033c82e388126cd3989aa40d93b8c806f4c886",
+          "message": "docs: track addressed NFC gamepad pairing prototype",
+          "author": "fanhao375",
+          "date": "2026-11-09T12:46:32Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2a033c82e388126cd3989aa40d93b8c806f4c886"
+        },
+        {
+          "id": "8d2132d57997e574bc2a2c58689b22d1ef31f744",
+          "sha": "8d2132d57997e574bc2a2c58689b22d1ef31f744",
+          "message": "docs: track laser PR and V4 bench observations",
+          "author": "fanhao375",
+          "date": "2026-11-09T09:48:12Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8d2132d57997e574bc2a2c58689b22d1ef31f744"
+        },
+        {
+          "id": "c254e80c33d9f765f28f7060d36f2b41c9612017",
+          "sha": "c254e80c33d9f765f28f7060d36f2b41c9612017",
+          "message": "docs: track laser-follow prototype and PCM rebase",
+          "author": "fanhao375",
+          "date": "2026-11-09T08:51:25Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c254e80c33d9f765f28f7060d36f2b41c9612017"
+        },
         {
           "id": "3c58c952aaccd3fdd394e387b53326ca7817254a",
           "sha": "3c58c952aaccd3fdd394e387b53326ca7817254a",
@@ -489,30 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-06T14:08:46Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/ab1f64650a12e3e4d8904e6983a045ef57e40e95"
-        },
-        {
-          "id": "308fe062dbc0386c615c701c1c0acffe36ed54d4",
-          "sha": "308fe062dbc0386c615c701c1c0acffe36ed54d4",
-          "message": "docs: track finite gaze input proposal",
-          "author": "fanhao375",
-          "date": "2026-11-06T12:06:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/308fe062dbc0386c615c701c1c0acffe36ed54d4"
-        },
-        {
-          "id": "636d27296be0e83ef7e7676bc1b6a5c027f11d82",
-          "sha": "636d27296be0e83ef7e7676bc1b6a5c027f11d82",
-          "message": "docs: track ToF range and stopped twist proposals",
-          "author": "fanhao375",
-          "date": "2026-11-06T11:13:12Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/636d27296be0e83ef7e7676bc1b6a5c027f11d82"
-        },
-        {
-          "id": "4a09989b66f799cbd26c00158892eceb3ab6b419",
-          "sha": "4a09989b66f799cbd26c00158892eceb3ab6b419",
-          "message": "docs: track daemon 0.18.8 camera and controller updates",
-          "author": "fanhao375",
-          "date": "2026-11-06T10:01:02Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/4a09989b66f799cbd26c00158892eceb3ab6b419"
         }
       ],
       "releases": [
@@ -594,6 +569,14 @@
         }
       ],
       "issues": [
+        {
+          "id": "51",
+          "number": 51,
+          "title": ".",
+          "state": "closed",
+          "updated_at": "2026-11-09T21:58:10Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/51"
+        },
         {
           "id": "50",
           "number": 50,
@@ -768,7 +751,7 @@
         "sha": "936f7a12537556416addff31babbb1512dd24d70",
         "url": "https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70"
       },
-      "updated_at": "2026-11-09T04:54:41Z",
+      "updated_at": "2026-11-09T21:42:43Z",
       "pushed_at": "2026-11-08T03:11:58Z",
       "open_issues_count": 64,
       "commits": [
@@ -927,7 +910,7 @@
       },
       "updated_at": "2026-11-09T06:39:37Z",
       "pushed_at": "2026-10-28T16:18:03Z",
-      "open_issues_count": 18,
+      "open_issues_count": 19,
       "commits": [
         {
           "id": "11563319134f987f70fb034410496fe3cc7327a9",
@@ -1022,6 +1005,26 @@
       ],
       "pulls": [
         {
+          "id": "268",
+          "number": 268,
+          "title": "[main] Add distributed SAC and CNN model support",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-09T21:55:04Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/268"
+        },
+        {
+          "id": "254",
+          "number": 254,
+          "title": "[main] Add SAC with optional FlashSAC components",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-09T21:05:16Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
+        },
+        {
           "id": "267",
           "number": 267,
           "title": "Aggregate episode metrics without mutating environment extras",
@@ -1050,26 +1053,6 @@
           "updated_at": "2026-11-06T12:33:19Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
-        },
-        {
-          "id": "254",
-          "number": 254,
-          "title": "[main] Add SAC with optional FlashSAC components",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-05T06:52:58Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/254"
-        },
-        {
-          "id": "236",
-          "number": 236,
-          "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-03T15:30:15Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
         }
       ],
       "issues": []
