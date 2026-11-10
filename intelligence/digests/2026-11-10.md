@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-10T07:24:42Z`
+Generated: `2026-11-10T19:46:49Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,43 +8,65 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `582d1bcc0e1b` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/582d1bcc0e1bc35b87e0d9bf189b217426801df1)
+- Commit `0ceeb1df54f7` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0ceeb1df54f7631c42ee4ce0141d4af1de55088f)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.18.9-dev.1673.9259844 (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
-- Release [daemon 0.18.9-dev.1672.872baf5 (home-flashlight-on-release)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-home-flashlight-on-release) (prerelease)
-- Commit `9259844672fc` [Merge pull request #551 from pollen-robotics/impact-guard-v3](https://github.com/pollen-robotics/microduck/commit/9259844672fcb92477509a6e3fe240f53109db17)
-- Commit `d0bf4c94c4d4` [robotd: the impact guard is off by default](https://github.com/pollen-robotics/microduck/commit/d0bf4c94c4d408c5312b655d6ed8a0893d2fb771)
-- Commit `adff6e238dbb` [Merge remote-tracking branch 'origin/main' into impact-guard-v3](https://github.com/pollen-robotics/microduck/commit/adff6e238dbbc18e20eeb3fed55cd3fe668f9210)
-- Commit `ed7c147f3fdb` [Merge remote-tracking branch 'origin/main' into impact-guard-v3](https://github.com/pollen-robotics/microduck/commit/ed7c147f3fdbd81fd130d04faea9e8ece079694b)
-- Commit `7ad9c99245bc` [Merge pull request #558 from pollen-robotics/laser-track](https://github.com/pollen-robotics/microduck/commit/7ad9c99245bcb78645da69f5d6d83fc9a7f7fe4d)
-- Commit `7a5e193abd34` [Merge pull request #561 from pollen-robotics/pad-drive-vx-min](https://github.com/pollen-robotics/microduck/commit/7a5e193abd3464ea2d8f6ba184ad5d7fac3dd460)
-- Commit `145e91b24b9b` [pad_drive: default vx_min is -0.3](https://github.com/pollen-robotics/microduck/commit/145e91b24b9ba5103df77a269c9b70341951873f)
-- Commit `067a11d3474a` [mediad laser test: as_chunks_mut, which stable clippy asks for](https://github.com/pollen-robotics/microduck/commit/067a11d3474ad4f52cb8b7157add44528f648cd8)
-- PR #449 [Phase-encoded policies can run as skills](https://github.com/pollen-robotics/microduck/pull/449) — open
-- PR #562 [pad-map: Home toggles the flashlight on a tap's release](https://github.com/pollen-robotics/microduck/pull/562) — open
-- PR #503 [robotctl: set-pwm-limit and set-current-limit](https://github.com/pollen-robotics/microduck/pull/503) — closed
+- Release [daemon 0.19.0](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.19.0)
+- Release [daemon 0.19.0-dev.1685.6cb56c2 (nfcd-poll-less)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfcd-poll-less) (prerelease)
+- Release [daemon 0.19.0-dev.1688.ef666aa (main)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main) (prerelease)
+- Commit `ef666aada8a7` [Merge pull request #567 from pollen-robotics/ci-cache-apt](https://github.com/pollen-robotics/microduck/commit/ef666aada8a7e945cbbeefbf1577a091b8a8294b)
+- Commit `6c994a2178a3` [ci: cache apt's downloads instead of the installed files](https://github.com/pollen-robotics/microduck/commit/6c994a2178a3e28129dfefbeb0ff21e5d937d90a)
+- Commit `a89c4b2ee971` [ci: restore the apt packages from the Actions cache](https://github.com/pollen-robotics/microduck/commit/a89c4b2ee9711024fa64e7bc3a43ea1cc5c1cf9e)
+- Commit `590e07a6fada` [Merge pull request #566 from pollen-robotics/lockfile-0.19.0](https://github.com/pollen-robotics/microduck/commit/590e07a6fada481315231671119a1aba10826a09)
+- Commit `e27e97ab9cc8` [Cargo.lock: duck-auth and duck-gateway at 0.19.0](https://github.com/pollen-robotics/microduck/commit/e27e97ab9cc8053173d7065d425829cf40864a20)
+- Commit `171a8e1a0c7e` [Merge pull request #564 from pollen-robotics/release-0.19.0](https://github.com/pollen-robotics/microduck/commit/171a8e1a0c7e2220daa4d8d2a9059e6e4db710d5)
+- Commit `6bb6c67613a3` [Merge pull request #556 from pollen-robotics/codex/secure-media-and-ble-defaults](https://github.com/pollen-robotics/microduck/commit/6bb6c67613a35744e3be07a424fa0fd6df00e1be)
+- Commit `4e068b2a3fb4` [Prepare release 0.19.0](https://github.com/pollen-robotics/microduck/commit/4e068b2a3fb45c526d4622ce6c38106a58448720)
+- PR #567 [ci: restore the apt packages from the Actions cache](https://github.com/pollen-robotics/microduck/pull/567) — closed
+- PR #545 [nfcd: read the ST25R100's IRQ status every 1 ms, not every 200 µs](https://github.com/pollen-robotics/microduck/pull/545) — open
+- PR #566 [Cargo.lock: duck-auth and duck-gateway at 0.19.0](https://github.com/pollen-robotics/microduck/pull/566) — closed
+- PR #564 [Prepare release 0.19.0](https://github.com/pollen-robotics/microduck/pull/564) — closed
+- PR #565 [updater: a stuck release reverted by hand is not put back](https://github.com/pollen-robotics/microduck/pull/565) — open
+
+### pollen-robotics/microduck_rl
+
+- Commit `0daab160d3fb` [Merge branch 'velstand_v9_is_v7' into develop](https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e)
+- Commit `c4cf4dad9402` [velstand: document v7 + yaw remap (n3fg9pgq@2000), add the sim bench](https://github.com/pollen-robotics/microduck_rl/commit/c4cf4dad94021b539f68d27dd0c521874a0a880e)
+- Commit `06fb48c4f17a` [velstand: v7 + anchor yaw remap only (turn-in-place fix experiment)](https://github.com/pollen-robotics/microduck_rl/commit/06fb48c4f17adf2a88d62ac580eae126637152aa)
+- Commit `1a5391ab2bb0` [velstand: back to the v7 recipe (Hub v9 = v7 j4i6yoq2@1250)](https://github.com/pollen-robotics/microduck_rl/commit/1a5391ab2bb0f2a2bc79d494e6bac00c91b1a4e9)
 
 ### fanhao375/microduck-replica
 
-- Release [Microduck 20261110 RC1 · IMU 标定修复候选镜像](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261110rc1) (prerelease)
-- Commit `55b5ff7c9d09` [docs: track phase skill API54 sync](https://github.com/fanhao375/microduck-replica/commit/55b5ff7c9d099a077d988bba76b47dbfa145ebcb)
-- Commit `a45374aa54aa` [docs: track laser and impact guard main merges](https://github.com/fanhao375/microduck-replica/commit/a45374aa54aad12c994abca14600c9fcd98645f4)
-- Commit `b77d084a8a37` [docs: track lower gamepad reverse default](https://github.com/fanhao375/microduck-replica/commit/b77d084a8a37a82f96cf48452e407f7498aa8e55)
-- Commit `a15fa4afa379` [docs: track secure setup code and BLE re-pairing](https://github.com/fanhao375/microduck-replica/commit/a15fa4afa3796f2111dd2755de25a6f7930272fb)
-- PR #52 [feat: phone console (/m) with HTTPS, phone-mic ASR and offline hotspot](https://github.com/fanhao375/microduck-replica/pull/52) — open
+- Commit `601b7da6fb63` [docs: track EEPROM setup code prototype](https://github.com/fanhao375/microduck-replica/commit/601b7da6fb631905bec3b1c13d45839969c8d425)
+- Commit `00e165011bca` [docs: track velstand yaw recipe and flashlight merge](https://github.com/fanhao375/microduck-replica/commit/00e165011bcaaaae5a9d16ca6905185fa1b78822)
+
+### mujocolab/mjlab
+
+- PR #1310 [Stop partial resets from adding tracking error to other envs' metrics](https://github.com/mujocolab/mjlab/pull/1310) — open
+- PR #1309 [Invalidate cached sensor data after the step() forward call](https://github.com/mujocolab/mjlab/pull/1309) — open
+
+### leggedrobotics/rsl_rl
+
+- Commit `8945bdcbc364` [Remove unused init_weights functions (#262)](https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491)
+- Commit `a2176aef999d` [Clean up algorithm statistics for the logger (#265)](https://github.com/leggedrobotics/rsl_rl/commit/a2176aef999dfe61ea43463c5dcbe6f27ac32949)
+- Commit `feb2267bc4e5` [Add PPO configuration checks (#260)](https://github.com/leggedrobotics/rsl_rl/commit/feb2267bc4e5d357bb2d101eeded0e6b7b6871a1)
+- Commit `b61a24b064e6` [Add SAC with optional FlashSAC components (#254)](https://github.com/leggedrobotics/rsl_rl/commit/b61a24b064e63379ed6dba1ecba0485ecbb68da9)
+- PR #262 [Remove unused init_weights functions](https://github.com/leggedrobotics/rsl_rl/pull/262) — closed
+- PR #265 [Clean up algorithm statistics for the logger](https://github.com/leggedrobotics/rsl_rl/pull/265) — closed
+- PR #260 [Add PPO configuration checks](https://github.com/leggedrobotics/rsl_rl/pull/260) — closed
+- PR #227 [Feature/flashsac integration](https://github.com/leggedrobotics/rsl_rl/pull/227) — closed
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [582d1bcc0e1b](https://github.com/superobk/microduck-startup/commit/582d1bcc0e1bc35b87e0d9bf189b217426801df1); pushed `2026-11-09T22:25:53Z`
-- **pollen-robotics/microduck** `main` → [9259844672fc](https://github.com/pollen-robotics/microduck/commit/9259844672fcb92477509a6e3fe240f53109db17); pushed `2026-11-10T05:21:53Z`
-- **pollen-robotics/microduck_rl** `develop` → [bae39f5900b3](https://github.com/pollen-robotics/microduck_rl/commit/bae39f5900b318f7e87fc485c30a31213cfa14eb); pushed `2026-11-09T06:24:09Z`
+- **superobk/microduck-startup** `main` → [0ceeb1df54f7](https://github.com/superobk/microduck-startup/commit/0ceeb1df54f7631c42ee4ce0141d4af1de55088f); pushed `2026-11-10T07:25:04Z`
+- **pollen-robotics/microduck** `main` → [ef666aada8a7](https://github.com/pollen-robotics/microduck/commit/ef666aada8a7e945cbbeefbf1577a091b8a8294b); pushed `2026-11-10T14:45:47Z`
+- **pollen-robotics/microduck_rl** `develop` → [0daab160d3fb](https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e); pushed `2026-11-10T11:31:29Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [55b5ff7c9d09](https://github.com/fanhao375/microduck-replica/commit/55b5ff7c9d099a077d988bba76b47dbfa145ebcb); pushed `2026-11-10T07:01:11Z`
+- **fanhao375/microduck-replica** `master` → [601b7da6fb63](https://github.com/fanhao375/microduck-replica/commit/601b7da6fb631905bec3b1c13d45839969c8d425); pushed `2026-11-10T11:52:18Z`
 - **joeynyc/awesome-microduck** `main` → [b99984a56182](https://github.com/joeynyc/awesome-microduck/commit/b99984a56182525598c4187cc0138c89bc1c7c79); pushed `2026-11-05T19:49:44Z`
 - **mujocolab/mjlab** `main` → [936f7a125375](https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70); pushed `2026-11-08T03:11:58Z`
-- **leggedrobotics/rsl_rl** `main` → [11563319134f](https://github.com/leggedrobotics/rsl_rl/commit/11563319134f987f70fb034410496fe3cc7327a9); pushed `2026-10-28T16:18:03Z`
+- **leggedrobotics/rsl_rl** `main` → [8945bdcbc364](https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491); pushed `2026-11-10T18:32:06Z`
 
 ## Social feeds
 
