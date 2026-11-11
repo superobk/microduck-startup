@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T19:46:49Z",
+  "generated_at": "2026-11-11T06:32:33Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0ceeb1df54f7631c42ee4ce0141d4af1de55088f",
-        "url": "https://github.com/superobk/microduck-startup/commit/0ceeb1df54f7631c42ee4ce0141d4af1de55088f"
+        "sha": "bff0479bc475e8f0b953919399a8f848d1bcf20d",
+        "url": "https://github.com/superobk/microduck-startup/commit/bff0479bc475e8f0b953919399a8f848d1bcf20d"
       },
-      "updated_at": "2026-11-10T07:25:08Z",
-      "pushed_at": "2026-11-10T07:25:04Z",
+      "updated_at": "2026-11-10T21:52:03Z",
+      "pushed_at": "2026-11-10T19:47:10Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "bff0479bc475e8f0b953919399a8f848d1bcf20d",
+          "sha": "bff0479bc475e8f0b953919399a8f848d1bcf20d",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-10T19:47:09Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/bff0479bc475e8f0b953919399a8f848d1bcf20d"
+        },
         {
           "id": "0ceeb1df54f7631c42ee4ce0141d4af1de55088f",
           "sha": "0ceeb1df54f7631c42ee4ce0141d4af1de55088f",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-07T21:55:04Z",
           "url": "https://github.com/superobk/microduck-startup/commit/3c62cfb0fe0f89a3f59e1ee40e8b375096cebc0c"
-        },
-        {
-          "id": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
-          "sha": "cbbd0bcf24363beefc6fdf7e5204a86489549e36",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-07T13:09:55Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/cbbd0bcf24363beefc6fdf7e5204a86489549e36"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "ef666aada8a7e945cbbeefbf1577a091b8a8294b",
         "url": "https://github.com/pollen-robotics/microduck/commit/ef666aada8a7e945cbbeefbf1577a091b8a8294b"
       },
-      "updated_at": "2026-11-10T18:28:54Z",
-      "pushed_at": "2026-11-10T14:45:47Z",
+      "updated_at": "2026-11-11T06:08:40Z",
+      "pushed_at": "2026-11-11T06:03:49Z",
       "open_issues_count": 111,
       "commits": [
         {
@@ -162,28 +162,28 @@
       ],
       "releases": [
         {
-          "id": "440480519",
-          "tag": "daemon-v0.19.0",
-          "name": "daemon 0.19.0",
-          "published_at": "2026-11-10T14:39:13Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.19.0"
+          "id": "441252455",
+          "tag": "daemon-dev-nfc-mode-tags",
+          "name": "daemon 0.19.0-dev.1692.f66ed71 (nfc-mode-tags)",
+          "published_at": "2026-11-11T04:51:19Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-mode-tags"
         },
         {
-          "id": "440448946",
-          "tag": "daemon-dev-nfcd-poll-less",
-          "name": "daemon 0.19.0-dev.1685.6cb56c2 (nfcd-poll-less)",
-          "published_at": "2026-11-10T14:12:32Z",
+          "id": "441240467",
+          "tag": "daemon-dev-nfc-mifare-classic",
+          "name": "daemon 0.19.0-dev.1690.59e6e31 (nfc-mifare-classic)",
+          "published_at": "2026-11-11T04:30:17Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfcd-poll-less"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-mifare-classic"
         },
         {
-          "id": "440488545",
-          "tag": "daemon-dev-main",
-          "name": "daemon 0.19.0-dev.1688.ef666aa (main)",
-          "published_at": "2026-11-10T14:45:47Z",
+          "id": "441295356",
+          "tag": "daemon-dev-ball-mode",
+          "name": "daemon 0.19.0-dev.1693.36ed22c (ball-mode)",
+          "published_at": "2026-11-11T06:03:50Z",
           "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-main"
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-ball-mode"
         }
       ],
       "pulls": [
@@ -418,13 +418,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "601b7da6fb631905bec3b1c13d45839969c8d425",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/601b7da6fb631905bec3b1c13d45839969c8d425"
+        "sha": "2e5a900d1b7c29efebf037f377d3f96148688d07",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/2e5a900d1b7c29efebf037f377d3f96148688d07"
       },
-      "updated_at": "2026-11-10T14:24:52Z",
-      "pushed_at": "2026-11-10T11:52:18Z",
+      "updated_at": "2026-11-11T05:36:45Z",
+      "pushed_at": "2026-11-11T04:36:40Z",
       "open_issues_count": 42,
       "commits": [
+        {
+          "id": "2e5a900d1b7c29efebf037f377d3f96148688d07",
+          "sha": "2e5a900d1b7c29efebf037f377d3f96148688d07",
+          "message": "docs: track MIFARE Classic development build",
+          "author": "fanhao375",
+          "date": "2026-11-11T04:36:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2e5a900d1b7c29efebf037f377d3f96148688d07"
+        },
+        {
+          "id": "395ed343eb16199fc73b2ec5117d8f53fd861c68",
+          "sha": "395ed343eb16199fc73b2ec5117d8f53fd861c68",
+          "message": "docs: track official Microduck daemon 0.19.0",
+          "author": "fanhao375",
+          "date": "2026-11-11T01:45:27Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/395ed343eb16199fc73b2ec5117d8f53fd861c68"
+        },
         {
           "id": "601b7da6fb631905bec3b1c13d45839969c8d425",
           "sha": "601b7da6fb631905bec3b1c13d45839969c8d425",
@@ -472,22 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-10T02:30:16Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/a15fa4afa3796f2111dd2755de25a6f7930272fb"
-        },
-        {
-          "id": "2a033c82e388126cd3989aa40d93b8c806f4c886",
-          "sha": "2a033c82e388126cd3989aa40d93b8c806f4c886",
-          "message": "docs: track addressed NFC gamepad pairing prototype",
-          "author": "fanhao375",
-          "date": "2026-11-09T12:46:32Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/2a033c82e388126cd3989aa40d93b8c806f4c886"
-        },
-        {
-          "id": "8d2132d57997e574bc2a2c58689b22d1ef31f744",
-          "sha": "8d2132d57997e574bc2a2c58689b22d1ef31f744",
-          "message": "docs: track laser PR and V4 bench observations",
-          "author": "fanhao375",
-          "date": "2026-11-09T09:48:12Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/8d2132d57997e574bc2a2c58689b22d1ef31f744"
         }
       ],
       "releases": [
@@ -608,13 +608,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "b99984a56182525598c4187cc0138c89bc1c7c79",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/b99984a56182525598c4187cc0138c89bc1c7c79"
+        "sha": "9cfa5abca6f143b8af0048aeb6004dc5e67f81e8",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/9cfa5abca6f143b8af0048aeb6004dc5e67f81e8"
       },
-      "updated_at": "2026-11-10T11:59:50Z",
-      "pushed_at": "2026-11-05T19:49:44Z",
+      "updated_at": "2026-11-10T22:05:59Z",
+      "pushed_at": "2026-11-10T20:21:24Z",
       "open_issues_count": 1,
       "commits": [
+        {
+          "id": "9cfa5abca6f143b8af0048aeb6004dc5e67f81e8",
+          "sha": "9cfa5abca6f143b8af0048aeb6004dc5e67f81e8",
+          "message": "Add NVIDIA's Isaac Lab tutorial and thirteen community entries (#46)",
+          "author": "joeynyc",
+          "date": "2026-11-10T20:21:22Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/9cfa5abca6f143b8af0048aeb6004dc5e67f81e8"
+        },
         {
           "id": "b99984a56182525598c4187cc0138c89bc1c7c79",
           "sha": "b99984a56182525598c4187cc0138c89bc1c7c79",
@@ -670,18 +678,20 @@
           "author": "joeynyc",
           "date": "2026-10-29T11:17:27Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/4cf138d06d7e2e82ebdec2c5f31e88f0bc46a3a0"
-        },
-        {
-          "id": "0fdce27c8bd74555910fc50ef2b30b80abcd66d8",
-          "sha": "0fdce27c8bd74555910fc50ef2b30b80abcd66d8",
-          "message": "Add official training checkpoints, footsteps and static-grasp, the Tug of War event and a Minecraft mod (#38)",
-          "author": "joeynyc",
-          "date": "2026-10-29T06:07:41Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/0fdce27c8bd74555910fc50ef2b30b80abcd66d8"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "46",
+          "number": 46,
+          "title": "Add NVIDIA's Isaac Lab tutorial and thirteen community entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-10T20:21:25Z",
+          "merged_at": "2026-11-10T20:21:23Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/46"
+        },
         {
           "id": "45",
           "number": 45,
@@ -721,16 +731,6 @@
           "updated_at": "2026-11-03T04:13:04Z",
           "merged_at": "2026-11-03T04:13:01Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/42"
-        },
-        {
-          "id": "41",
-          "number": 41,
-          "title": "Add an agent-run Isaac Lab trainer and a vision-language goal agent",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-29T20:08:13Z",
-          "merged_at": "2026-10-29T20:08:11Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/41"
         }
       ],
       "issues": []
@@ -740,13 +740,37 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "936f7a12537556416addff31babbb1512dd24d70",
-        "url": "https://github.com/mujocolab/mjlab/commit/936f7a12537556416addff31babbb1512dd24d70"
+        "sha": "f389738f68bb831754c030e4ec1d3585b7498cdf",
+        "url": "https://github.com/mujocolab/mjlab/commit/f389738f68bb831754c030e4ec1d3585b7498cdf"
       },
-      "updated_at": "2026-11-10T14:39:03Z",
-      "pushed_at": "2026-11-08T03:11:58Z",
+      "updated_at": "2026-11-11T06:16:49Z",
+      "pushed_at": "2026-11-11T01:42:07Z",
       "open_issues_count": 66,
       "commits": [
+        {
+          "id": "f389738f68bb831754c030e4ec1d3585b7498cdf",
+          "sha": "f389738f68bb831754c030e4ec1d3585b7498cdf",
+          "message": "Expand the research publications list and group it by topic. (#1312)",
+          "author": "kevinzakka",
+          "date": "2026-11-11T01:37:51Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/f389738f68bb831754c030e4ec1d3585b7498cdf"
+        },
+        {
+          "id": "59b6c720698c032388ba8ab9d0f3582f869d34ff",
+          "sha": "59b6c720698c032388ba8ab9d0f3582f869d34ff",
+          "message": "Move SuperMimic to research publications.",
+          "author": "kevinzakka",
+          "date": "2026-11-11T00:44:17Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/59b6c720698c032388ba8ab9d0f3582f869d34ff"
+        },
+        {
+          "id": "0798552d3455318c71168cb5e05956ac70cf26d4",
+          "sha": "0798552d3455318c71168cb5e05956ac70cf26d4",
+          "message": "Add SuperMimic to community projects. (#1311)",
+          "author": "kevinzakka",
+          "date": "2026-11-11T00:38:49Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/0798552d3455318c71168cb5e05956ac70cf26d4"
+        },
         {
           "id": "936f7a12537556416addff31babbb1512dd24d70",
           "sha": "936f7a12537556416addff31babbb1512dd24d70",
@@ -786,30 +810,6 @@
           "author": "louislelay",
           "date": "2026-11-01T03:39:26Z",
           "url": "https://github.com/mujocolab/mjlab/commit/e08da5cd0592ce7a80738b813273dec692d05bfc"
-        },
-        {
-          "id": "2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c",
-          "sha": "2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c",
-          "message": "Accept custom rsl-rl log writers in the runner config. (#1257)",
-          "author": "louislelay",
-          "date": "2026-11-01T03:35:35Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/2ad010312eaa4daf5a18d1b0f0ecbef9dbad5d4c"
-        },
-        {
-          "id": "0bbe065ddc7870f2803162f73d8e83254780b0ed",
-          "sha": "0bbe065ddc7870f2803162f73d8e83254780b0ed",
-          "message": "Fix Warp kernel cache source glob (#1264)",
-          "author": "M-Colley",
-          "date": "2026-11-01T03:26:41Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/0bbe065ddc7870f2803162f73d8e83254780b0ed"
-        },
-        {
-          "id": "18f8edc56e233546867e7be11d60294e7960a69a",
-          "sha": "18f8edc56e233546867e7be11d60294e7960a69a",
-          "message": "Apply MaterialCfg to every matched geom, including unnamed ones (#1256)",
-          "author": "vssinghh",
-          "date": "2026-11-01T03:17:40Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/18f8edc56e233546867e7be11d60294e7960a69a"
         }
       ],
       "releases": [
@@ -840,6 +840,26 @@
       ],
       "pulls": [
         {
+          "id": "1312",
+          "number": 1312,
+          "title": "Expand the research publications list and group it by topic.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-11T01:37:55Z",
+          "merged_at": "2026-11-11T01:37:52Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1312"
+        },
+        {
+          "id": "1311",
+          "number": 1311,
+          "title": "Add SuperMimic to research publications.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-11T00:44:21Z",
+          "merged_at": "2026-11-11T00:38:50Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1311"
+        },
+        {
           "id": "1310",
           "number": 1310,
           "title": "Stop partial resets from adding tracking error to other envs' metrics",
@@ -868,26 +888,6 @@
           "updated_at": "2026-11-08T03:59:29Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1303"
-        },
-        {
-          "id": "1306",
-          "number": 1306,
-          "title": "Stop export-scene from deleting a non-empty output dir",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-08T03:58:33Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1306"
-        },
-        {
-          "id": "1304",
-          "number": 1304,
-          "title": "Match regex keys against whole names in resolve_expr and filter_exp",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-08T03:56:02Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1304"
         }
       ],
       "issues": []
@@ -900,9 +900,9 @@
         "sha": "8945bdcbc364f388e14caebf547dbf302d89e491",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491"
       },
-      "updated_at": "2026-11-10T15:04:50Z",
+      "updated_at": "2026-11-10T21:29:27Z",
       "pushed_at": "2026-11-10T18:32:06Z",
-      "open_issues_count": 14,
+      "open_issues_count": 18,
       "commits": [
         {
           "id": "8945bdcbc364f388e14caebf547dbf302d89e491",
@@ -997,6 +997,36 @@
       ],
       "pulls": [
         {
+          "id": "272",
+          "number": 272,
+          "title": "feat: Add torch XPU support",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-11T06:09:36Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/272"
+        },
+        {
+          "id": "271",
+          "number": 271,
+          "title": "Add ExecuTorch export for policies",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-11T05:23:42Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/271"
+        },
+        {
+          "id": "270",
+          "number": 270,
+          "title": "Return only the ONNX outputs from the GRU ONNX model",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-11T01:55:16Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/270"
+        },
+        {
           "id": "262",
           "number": 262,
           "title": "Remove unused init_weights functions",
@@ -1015,36 +1045,6 @@
           "updated_at": "2026-11-10T18:20:58Z",
           "merged_at": "2026-11-10T18:20:58Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/265"
-        },
-        {
-          "id": "255",
-          "number": 255,
-          "title": "[main] Add SuperMimic model-based training",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-10T15:54:34Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
-        },
-        {
-          "id": "260",
-          "number": 260,
-          "title": "Add PPO configuration checks",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-10T15:04:34Z",
-          "merged_at": "2026-11-10T15:04:34Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/260"
-        },
-        {
-          "id": "227",
-          "number": 227,
-          "title": "Feature/flashsac integration",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-10T15:03:35Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/227"
         }
       ],
       "issues": []
