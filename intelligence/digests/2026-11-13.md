@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-13T06:51:28Z`
+Generated: `2026-11-13T19:46:39Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,56 +8,54 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `c102dfbf5f41` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34)
+- Commit `468e8816d20a` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/468e8816d20a36014a63203c7b0c1afa28dbdc2d)
 
 ### pollen-robotics/microduck
 
-- Release [daemon 0.20.1-dev.1773.c0efd78 (roller-pad-lost-crouch)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-pad-lost-crouch) (prerelease)
-- Release [daemon 0.20.1-dev.1787.843a234 (nfc-read)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-read) (prerelease)
-- Release [daemon 0.20.1-dev.1784.cf7bcfe (nfc-mode-tags-poll-less)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-mode-tags-poll-less) (prerelease)
-- Commit `a5239df21fdf` [Merge pull request #587 from pollen-robotics/auto-retry-standup](https://github.com/pollen-robotics/microduck/commit/a5239df21fdf212fbad6b3b8b5582c4e42506925)
-- Commit `837f1d67310d` [robotd: out of stand-up retries, park at home until stood on its feet](https://github.com/pollen-robotics/microduck/commit/837f1d67310d27e02a7e05f361459a355a2a3108)
-- Commit `ee4ccce812a0` [robotd: retry a stand-up that stalls, as Start twice does by hand](https://github.com/pollen-robotics/microduck/commit/ee4ccce812a0b81c34c9ce2d8849541aba24e7fd)
-- Commit `886b62dd792a` [Merge pull request #585 from pollen-robotics/pad-head-expo-speed](https://github.com/pollen-robotics/microduck/commit/886b62dd792a3e9e958507cd5d9dd5a984f1aa20)
-- Commit `85d34540eac5` [pad-map: one D-pad table, and the head-glide test finds its arrow there](https://github.com/pollen-robotics/microduck/commit/85d34540eac55c98b91b10529dafa2d96220cfcf)
-- Commit `1bfbc761663d` [Merge remote-tracking branch 'origin/main' into pad-head-expo-speed](https://github.com/pollen-robotics/microduck/commit/1bfbc761663d06872d5993c6e83b183ee32aa422)
-- Commit `ffe74d04e04f` [Head defaults tuned on the robot: max_speed 10, head_alpha 0.1](https://github.com/pollen-robotics/microduck/commit/ffe74d04e04f59886c77cedb2790a55c90de4730)
-- Commit `5aedd7f79cbb` [pad: expo curve and speed cap on the head sticks](https://github.com/pollen-robotics/microduck/commit/5aedd7f79cbb453c1347188ce7e0ca0689065b4b)
-- PR #545 [nfcd: read the ST25R100's IRQ status every 1 ms, not every 200 µs](https://github.com/pollen-robotics/microduck/pull/545) — open
-- PR #587 [robotd: retry a stand-up that stalls](https://github.com/pollen-robotics/microduck/pull/587) — closed
-- PR #585 [pad: expo curve and speed cap on the head sticks](https://github.com/pollen-robotics/microduck/pull/585) — closed
-- PR #586 [Network LED: green on wifi, blue for a connected gamepad without wifi](https://github.com/pollen-robotics/microduck/pull/586) — closed
-- PR #584 [Revert the D-pad remap (#583)](https://github.com/pollen-robotics/microduck/pull/584) — closed
+- Release [daemon 0.21.1](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.21.1)
+- Release [daemon 0.21.0](https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.21.0)
+- Commit `094d4bb4af31` [Merge pull request #593 from pollen-robotics/release-0.21.1](https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978)
+- Commit `3198d2d195bc` [Prepare release 0.21.1](https://github.com/pollen-robotics/microduck/commit/3198d2d195bcc0df682128a98b12f1c6d5d73dc6)
+- Commit `1e4d74d258c5` [Merge pull request #591 from pollen-robotics/face-button-wifi-ssh](https://github.com/pollen-robotics/microduck/commit/1e4d74d258c5389ee7b27824369dc5ce82820728)
+- Commit `2c58b7123dfc` [configd: a 5 s hold, not a short press, opens wifi ssh, with a honk at 5 s](https://github.com/pollen-robotics/microduck/commit/2c58b7123dfca48416e955dc2e7938677ed2e2a3)
+- Commit `a59107a90dd8` [configd: a short press of the face button opens ssh on wifi for 30 minutes](https://github.com/pollen-robotics/microduck/commit/a59107a90dd8d34de538500b045f1541ebb0e8a6)
+- Commit `ac545c46b83b` [Merge pull request #590 from pollen-robotics/nfc-mime-text](https://github.com/pollen-robotics/microduck/commit/ac545c46b83b692b64ebb7eabc517dcfaf12a7fa)
+- Commit `4cede10a9548` [Head: head_alpha back to 0.2](https://github.com/pollen-robotics/microduck/commit/4cede10a95483bf0b40598531725424631b23c61)
+- Commit `2fa3adeb124f` [nfc: a MIME text/plain record reads as text](https://github.com/pollen-robotics/microduck/commit/2fa3adeb124ff7db706a075eee3b894848424e1a)
+- PR #568 [laser: scan only around the dot while tracking](https://github.com/pollen-robotics/microduck/pull/568) — open
+- PR #230 [the account token gets a group of its own, with mediad as its only member](https://github.com/pollen-robotics/microduck/pull/230) — open
+- PR #594 [configd: build on macOS again](https://github.com/pollen-robotics/microduck/pull/594) — open
+- PR #593 [Prepare release 0.21.1](https://github.com/pollen-robotics/microduck/pull/593) — closed
+- PR #591 [configd: hold the face button 5 s to open ssh on wifi for 30 minutes](https://github.com/pollen-robotics/microduck/pull/591) — closed
 
 ### fanhao375/microduck-replica
 
-- Commit `c6f923497957` [docs: track Microduck NFC and soccer audio previews](https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3)
-- Commit `83ab4fee82b9` [docs: track Microduck stand-up retries](https://github.com/fanhao375/microduck-replica/commit/83ab4fee82b962e4a48317a10f3556568dd27322)
-- Commit `2dfb8920672b` [docs: update community QR code to Duck Replica Group 16](https://github.com/fanhao375/microduck-replica/commit/2dfb8920672b454b939fc8f6a8894aa0370732db)
-- Commit `84fc40021442` [docs: track Microduck head tuning and network LED](https://github.com/fanhao375/microduck-replica/commit/84fc40021442b0cb54cd344d72a33d8899979a03)
-- Commit `f97b183b0420` [docs: track Microduck LED merge and control previews](https://github.com/fanhao375/microduck-replica/commit/f97b183b042070ae693627c0febe8506997e5335)
-- Commit `fd5cdb6325d0` [docs: track Microduck face LED brightness preview](https://github.com/fanhao375/microduck-replica/commit/fd5cdb6325d07c457561dea8f0ed023e3755d7b9)
-- Commit `d5d7852cf12e` [docs: track Microduck ToF and phase skill proposals](https://github.com/fanhao375/microduck-replica/commit/d5d7852cf12e1b5f35b039c1793e43033815b98e)
+- Commit `f764adbb7031` [docs: record local Microduck 0.21.1 and Zero 3W candidates](https://github.com/fanhao375/microduck-replica/commit/f764adbb7031d275db9bade04d40178acebd670c)
+- Commit `25c08795a220` [docs: track Microduck first-batch OS shipment](https://github.com/fanhao375/microduck-replica/commit/25c08795a220b3f5c7c18bfbfe6fddb2d01a7bbf)
+- Commit `a268b0257763` [docs: track Microduck 0.21.1 and OS 1.4.2 releases](https://github.com/fanhao375/microduck-replica/commit/a268b025776396a97b79ef9fb9ec28c889e0f44b)
+- Commit `4b19ae84b4fe` [docs: track Microduck 0.21.1 source tag and merged changes](https://github.com/fanhao375/microduck-replica/commit/4b19ae84b4fe9848fed39a5d43ed7d8dcdc5132a)
+- Commit `8d3662514f14` [docs: track Microduck head smoothing and face button preview](https://github.com/fanhao375/microduck-replica/commit/8d3662514f1491e13fffb25d18584d78d4b1cb58)
+- Commit `a4f28e460a70` [docs: track Microduck daemon 0.21.0 release](https://github.com/fanhao375/microduck-replica/commit/a4f28e460a70ad7744fd642c3b39b9aab7ef9c5e)
+- PR #58 [Cubie A7Z：接入 IMX219 采集与 4:3 中控预览](https://github.com/fanhao375/microduck-replica/pull/58) — open
+
+### joeynyc/awesome-microduck
+
+- Commit `aefbd002102c` [Add a Hermes Agent plugin, an autonomous wander Space, Pollen Pet and four community entries (#47)](https://github.com/joeynyc/awesome-microduck/commit/aefbd002102c19701d6fd8ab27b3453d8c4f63b8)
+- PR #32 [README: add X follow link](https://github.com/joeynyc/awesome-microduck/pull/32) — closed
+- PR #47 [Add a Hermes Agent plugin, an autonomous wander Space, Pollen Pet and four community entries](https://github.com/joeynyc/awesome-microduck/pull/47) — closed
 
 ### mujocolab/mjlab
 
-- Commit `1b5c91c923ee` [Give RGB and depth YAM tasks distinct experiment names (#1326)](https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5)
-- Commit `91d898cdc2e4` [Use configured gravity for entity orientation (#1325)](https://github.com/mujocolab/mjlab/commit/91d898cdc2e474044eaca569ece975746c887e8e)
-- Commit `84f8df53dbef` [Add a docs page for the tactile sensor. (#1327)](https://github.com/mujocolab/mjlab/commit/84f8df53dbeff58d1f4dbf2f84af7212c1213525)
-- PR #1327 [Add a docs page for the tactile sensor.](https://github.com/mujocolab/mjlab/pull/1327) — closed
-
-### leggedrobotics/rsl_rl
-
-- PR #275 [Add a TensorRT backend to the ExecuTorch export](https://github.com/leggedrobotics/rsl_rl/pull/275) — open
+- PR #1310 [Stop partial resets from adding tracking error to other envs' metrics](https://github.com/mujocolab/mjlab/pull/1310) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [c102dfbf5f41](https://github.com/superobk/microduck-startup/commit/c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34); pushed `2026-11-12T19:59:04Z`
-- **pollen-robotics/microduck** `main` → [a5239df21fdf](https://github.com/pollen-robotics/microduck/commit/a5239df21fdf212fbad6b3b8b5582c4e42506925); pushed `2026-11-13T06:51:17Z`
+- **superobk/microduck-startup** `main` → [468e8816d20a](https://github.com/superobk/microduck-startup/commit/468e8816d20a36014a63203c7b0c1afa28dbdc2d); pushed `2026-11-13T06:51:47Z`
+- **pollen-robotics/microduck** `main` → [094d4bb4af31](https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978); pushed `2026-11-13T10:45:23Z`
 - **pollen-robotics/microduck_rl** `develop` → [0daab160d3fb](https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e); pushed `2026-11-10T11:31:29Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [c6f923497957](https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3); pushed `2026-11-13T06:49:45Z`
-- **joeynyc/awesome-microduck** `main` → [9cfa5abca6f1](https://github.com/joeynyc/awesome-microduck/commit/9cfa5abca6f143b8af0048aeb6004dc5e67f81e8); pushed `2026-11-10T20:21:24Z`
+- **fanhao375/microduck-replica** `master` → [f764adbb7031](https://github.com/fanhao375/microduck-replica/commit/f764adbb7031d275db9bade04d40178acebd670c); pushed `2026-11-13T16:05:49Z`
+- **joeynyc/awesome-microduck** `main` → [aefbd002102c](https://github.com/joeynyc/awesome-microduck/commit/aefbd002102c19701d6fd8ab27b3453d8c4f63b8); pushed `2026-11-13T14:47:30Z`
 - **mujocolab/mjlab** `main` → [1b5c91c923ee](https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5); pushed `2026-11-13T04:18:28Z`
 - **leggedrobotics/rsl_rl** `main` → [8945bdcbc364](https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491); pushed `2026-11-10T18:32:06Z`
 
