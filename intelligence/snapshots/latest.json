@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:58:47Z",
+  "generated_at": "2026-11-13T06:51:28Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "792a279d83d7282a79870dd8ca1f3f07c9c37966",
-        "url": "https://github.com/superobk/microduck-startup/commit/792a279d83d7282a79870dd8ca1f3f07c9c37966"
+        "sha": "c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34",
+        "url": "https://github.com/superobk/microduck-startup/commit/c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-12T07:17:57Z",
+      "pushed_at": "2026-11-12T19:59:04Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34",
+          "sha": "c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-12T19:59:02Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c102dfbf5f41ab98ee64bac703f4a4f00d6e9f34"
+        },
         {
           "id": "792a279d83d7282a79870dd8ca1f3f07c9c37966",
           "sha": "792a279d83d7282a79870dd8ca1f3f07c9c37966",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-09T06:42:24Z",
           "url": "https://github.com/superobk/microduck-startup/commit/c47404559296b74c432372ebbd49cf45182caffa"
-        },
-        {
-          "id": "2ad8715621f79da9a2908e9ce6f6f544fe7fdd03",
-          "sha": "2ad8715621f79da9a2908e9ce6f6f544fe7fdd03",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-08T22:11:12Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/2ad8715621f79da9a2908e9ce6f6f544fe7fdd03"
         }
       ],
       "releases": [],
@@ -88,154 +88,154 @@
       "role": "official runtime and hardware software",
       "branch": "main",
       "head": {
-        "sha": "6eab9f3ddd8e11598b8cfad2bbef5ca3ca462a2f",
-        "url": "https://github.com/pollen-robotics/microduck/commit/6eab9f3ddd8e11598b8cfad2bbef5ca3ca462a2f"
+        "sha": "a5239df21fdf212fbad6b3b8b5582c4e42506925",
+        "url": "https://github.com/pollen-robotics/microduck/commit/a5239df21fdf212fbad6b3b8b5582c4e42506925"
       },
-      "updated_at": "2026-11-12T19:21:48Z",
-      "pushed_at": "2026-11-12T16:54:09Z",
+      "updated_at": "2026-11-13T06:43:09Z",
+      "pushed_at": "2026-11-13T06:51:17Z",
       "open_issues_count": 114,
       "commits": [
         {
-          "id": "6eab9f3ddd8e11598b8cfad2bbef5ca3ca462a2f",
-          "sha": "6eab9f3ddd8e11598b8cfad2bbef5ca3ca462a2f",
-          "message": "Merge pull request #579 from pollen-robotics/net-join-progress",
-          "author": "pierre-rouanet",
-          "date": "2026-11-12T16:49:14Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/6eab9f3ddd8e11598b8cfad2bbef5ca3ca462a2f"
+          "id": "a5239df21fdf212fbad6b3b8b5582c4e42506925",
+          "sha": "a5239df21fdf212fbad6b3b8b5582c4e42506925",
+          "message": "Merge pull request #587 from pollen-robotics/auto-retry-standup",
+          "author": "apirrone",
+          "date": "2026-11-13T05:03:36Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/a5239df21fdf212fbad6b3b8b5582c4e42506925"
         },
         {
-          "id": "2ee0da983078349c4ac7f1081c9f2fa84a22919d",
-          "sha": "2ee0da983078349c4ac7f1081c9f2fa84a22919d",
-          "message": "Merge pull request #578 from pollen-robotics/nfc-type5-write",
-          "author": "pierre-rouanet",
-          "date": "2026-11-12T16:38:30Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/2ee0da983078349c4ac7f1081c9f2fa84a22919d"
+          "id": "837f1d67310d27e02a7e05f361459a355a2a3108",
+          "sha": "837f1d67310d27e02a7e05f361459a355a2a3108",
+          "message": "robotd: out of stand-up retries, park at home until stood on its feet",
+          "author": "apirrone",
+          "date": "2026-11-13T11:52:21Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/837f1d67310d27e02a7e05f361459a355a2a3108"
         },
         {
-          "id": "3fd36274a9106d2486550db5acb3df5f4a1a34fd",
-          "sha": "3fd36274a9106d2486550db5acb3df5f4a1a34fd",
-          "message": "net.status reports the join in flight",
-          "author": "pierre-rouanet",
-          "date": "2026-11-12T14:32:08Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/3fd36274a9106d2486550db5acb3df5f4a1a34fd"
+          "id": "ee4ccce812a0b81c34c9ce2d8849541aba24e7fd",
+          "sha": "ee4ccce812a0b81c34c9ce2d8849541aba24e7fd",
+          "message": "robotd: retry a stand-up that stalls, as Start twice does by hand",
+          "author": "apirrone",
+          "date": "2026-11-13T11:47:25Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/ee4ccce812a0b81c34c9ce2d8849541aba24e7fd"
         },
         {
-          "id": "8257ce5d965c21d19c73b6da874a4a78ac08f6a5",
-          "sha": "8257ce5d965c21d19c73b6da874a4a78ac08f6a5",
-          "message": "nfc-flash asks for a tag, not an NTAG",
-          "author": "pierre-rouanet",
-          "date": "2026-11-12T14:06:35Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/8257ce5d965c21d19c73b6da874a4a78ac08f6a5"
+          "id": "886b62dd792a3e9e958507cd5d9dd5a984f1aa20",
+          "sha": "886b62dd792a3e9e958507cd5d9dd5a984f1aa20",
+          "message": "Merge pull request #585 from pollen-robotics/pad-head-expo-speed",
+          "author": "apirrone",
+          "date": "2026-11-13T04:11:29Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/886b62dd792a3e9e958507cd5d9dd5a984f1aa20"
         },
         {
-          "id": "d73f66bd8027dae8c1dc73a4e8544d2286325079",
-          "sha": "d73f66bd8027dae8c1dc73a4e8544d2286325079",
-          "message": "nfc: write Type 5 (ISO 15693) tags, formatting a blank one",
-          "author": "pierre-rouanet",
-          "date": "2026-11-12T14:01:25Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/d73f66bd8027dae8c1dc73a4e8544d2286325079"
+          "id": "85d34540eac55c98b91b10529dafa2d96220cfcf",
+          "sha": "85d34540eac55c98b91b10529dafa2d96220cfcf",
+          "message": "pad-map: one D-pad table, and the head-glide test finds its arrow there",
+          "author": "apirrone",
+          "date": "2026-11-13T11:03:50Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/85d34540eac55c98b91b10529dafa2d96220cfcf"
         },
         {
-          "id": "15dae7f1df8182584f432361fbbb4af0e8bfb1c7",
-          "sha": "15dae7f1df8182584f432361fbbb4af0e8bfb1c7",
-          "message": "Merge pull request #576 from pollen-robotics/roller-gamepad-mapping",
-          "author": "Drenayaz",
-          "date": "2026-11-12T09:26:57Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/15dae7f1df8182584f432361fbbb4af0e8bfb1c7"
+          "id": "1bfbc761663d06872d5993c6e83b183ee32aa422",
+          "sha": "1bfbc761663d06872d5993c6e83b183ee32aa422",
+          "message": "Merge remote-tracking branch 'origin/main' into pad-head-expo-speed",
+          "author": "apirrone",
+          "date": "2026-11-13T11:02:36Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/1bfbc761663d06872d5993c6e83b183ee32aa422"
         },
         {
-          "id": "740bb234474581766d94a69da71a59adbf09814f",
-          "sha": "740bb234474581766d94a69da71a59adbf09814f",
-          "message": "Pin the policy set to v10: the swizzle roller gait",
-          "author": "Pollen-Coco",
-          "date": "2026-11-12T09:15:54Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/740bb234474581766d94a69da71a59adbf09814f"
+          "id": "ffe74d04e04f59886c77cedb2790a55c90de4730",
+          "sha": "ffe74d04e04f59886c77cedb2790a55c90de4730",
+          "message": "Head defaults tuned on the robot: max_speed 10, head_alpha 0.1",
+          "author": "apirrone",
+          "date": "2026-11-13T10:58:13Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/ffe74d04e04f59886c77cedb2790a55c90de4730"
         },
         {
-          "id": "a2d9f1cdb1a2ee2ae07f4c2f53254bf26b78b274",
-          "sha": "a2d9f1cdb1a2ee2ae07f4c2f53254bf26b78b274",
-          "message": "Merge pull request #575 from pollen-robotics/nfc-flash",
-          "author": "Drenayaz",
-          "date": "2026-11-12T08:34:40Z",
-          "url": "https://github.com/pollen-robotics/microduck/commit/a2d9f1cdb1a2ee2ae07f4c2f53254bf26b78b274"
+          "id": "5aedd7f79cbb453c1347188ce7e0ca0689065b4b",
+          "sha": "5aedd7f79cbb453c1347188ce7e0ca0689065b4b",
+          "message": "pad: expo curve and speed cap on the head sticks",
+          "author": "apirrone",
+          "date": "2026-11-13T10:34:39Z",
+          "url": "https://github.com/pollen-robotics/microduck/commit/5aedd7f79cbb453c1347188ce7e0ca0689065b4b"
         }
       ],
       "releases": [
         {
-          "id": "442651288",
-          "tag": "daemon-v0.20.1",
-          "name": "daemon 0.20.1",
-          "published_at": "2026-11-12T08:09:41Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.20.1"
-        },
-        {
-          "id": "442593168",
-          "tag": "daemon-v0.20.0",
-          "name": "daemon 0.20.0",
-          "published_at": "2026-11-12T07:00:22Z",
-          "prerelease": false,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-v0.20.0"
-        },
-        {
-          "id": "442749855",
+          "id": "443788713",
           "tag": "daemon-dev-roller-pad-lost-crouch",
-          "name": "daemon 0.20.1-dev.1744.7d59e19 (roller-pad-lost-crouch)",
-          "published_at": "2026-11-12T09:48:59Z",
+          "name": "daemon 0.20.1-dev.1773.c0efd78 (roller-pad-lost-crouch)",
+          "published_at": "2026-11-13T03:42:44Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-roller-pad-lost-crouch"
+        },
+        {
+          "id": "443905068",
+          "tag": "daemon-dev-nfc-read",
+          "name": "daemon 0.20.1-dev.1787.843a234 (nfc-read)",
+          "published_at": "2026-11-13T06:48:03Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-read"
+        },
+        {
+          "id": "443878485",
+          "tag": "daemon-dev-nfc-mode-tags-poll-less",
+          "name": "daemon 0.20.1-dev.1784.cf7bcfe (nfc-mode-tags-poll-less)",
+          "published_at": "2026-11-13T06:10:56Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-nfc-mode-tags-poll-less"
         }
       ],
       "pulls": [
         {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
+          "id": "545",
+          "number": 545,
+          "title": "nfcd: read the ST25R100's IRQ status every 1 ms, not every 200 µs",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-12T17:38:09Z",
+          "updated_at": "2026-11-13T06:35:13Z",
           "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
+          "url": "https://github.com/pollen-robotics/microduck/pull/545"
         },
         {
-          "id": "579",
-          "number": 579,
-          "title": "net.status reports the join in flight",
+          "id": "587",
+          "number": 587,
+          "title": "robotd: retry a stand-up that stalls",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T16:49:17Z",
-          "merged_at": "2026-11-12T16:49:14Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/579"
+          "updated_at": "2026-11-13T05:03:39Z",
+          "merged_at": "2026-11-13T05:03:37Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/587"
         },
         {
-          "id": "578",
-          "number": 578,
-          "title": "nfc: write Type 5 (ISO 15693) tags, formatting a blank one",
+          "id": "585",
+          "number": 585,
+          "title": "pad: expo curve and speed cap on the head sticks",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T16:38:34Z",
-          "merged_at": "2026-11-12T16:38:31Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/578"
+          "updated_at": "2026-11-13T04:11:32Z",
+          "merged_at": "2026-11-13T04:11:30Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/585"
         },
         {
-          "id": "549",
-          "number": 549,
-          "title": "kinematics, robotd: clamp non-finite gaze targets and refuse non-finite robot.look",
-          "state": "open",
+          "id": "586",
+          "number": 586,
+          "title": "Network LED: green on wifi, blue for a connected gamepad without wifi",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T11:18:33Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/549"
+          "updated_at": "2026-11-13T04:09:56Z",
+          "merged_at": "2026-11-13T04:09:54Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/586"
         },
         {
-          "id": "577",
-          "number": 577,
-          "title": "duckctl: a refused ssh port is not a robot that moved",
-          "state": "open",
+          "id": "584",
+          "number": 584,
+          "title": "Revert the D-pad remap (#583)",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T09:55:46Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/577"
+          "updated_at": "2026-11-13T03:38:08Z",
+          "merged_at": "2026-11-13T03:38:06Z",
+          "url": "https://github.com/pollen-robotics/microduck/pull/584"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-12T14:28:47Z",
+      "updated_at": "2026-11-13T06:16:43Z",
       "pushed_at": "2026-11-10T11:31:29Z",
       "open_issues_count": 61,
       "commits": [
@@ -418,13 +418,69 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "1040543544362e2e4962333d8172fa08401665d9",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/1040543544362e2e4962333d8172fa08401665d9"
+        "sha": "c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3"
       },
-      "updated_at": "2026-11-12T18:03:22Z",
-      "pushed_at": "2026-11-12T17:06:42Z",
+      "updated_at": "2026-11-13T03:53:12Z",
+      "pushed_at": "2026-11-13T06:49:45Z",
       "open_issues_count": 44,
       "commits": [
+        {
+          "id": "c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3",
+          "sha": "c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3",
+          "message": "docs: track Microduck NFC and soccer audio previews",
+          "author": "fanhao375",
+          "date": "2026-11-13T06:49:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3"
+        },
+        {
+          "id": "83ab4fee82b962e4a48317a10f3556568dd27322",
+          "sha": "83ab4fee82b962e4a48317a10f3556568dd27322",
+          "message": "docs: track Microduck stand-up retries",
+          "author": "fanhao375",
+          "date": "2026-11-13T05:50:55Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/83ab4fee82b962e4a48317a10f3556568dd27322"
+        },
+        {
+          "id": "2dfb8920672b454b939fc8f6a8894aa0370732db",
+          "sha": "2dfb8920672b454b939fc8f6a8894aa0370732db",
+          "message": "docs: update community QR code to Duck Replica Group 16",
+          "author": "fanhao375",
+          "date": "2026-11-13T05:48:06Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/2dfb8920672b454b939fc8f6a8894aa0370732db"
+        },
+        {
+          "id": "84fc40021442b0cb54cd344d72a33d8899979a03",
+          "sha": "84fc40021442b0cb54cd344d72a33d8899979a03",
+          "message": "docs: track Microduck head tuning and network LED",
+          "author": "fanhao375",
+          "date": "2026-11-13T04:48:48Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/84fc40021442b0cb54cd344d72a33d8899979a03"
+        },
+        {
+          "id": "f97b183b042070ae693627c0febe8506997e5335",
+          "sha": "f97b183b042070ae693627c0febe8506997e5335",
+          "message": "docs: track Microduck LED merge and control previews",
+          "author": "fanhao375",
+          "date": "2026-11-13T03:49:30Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f97b183b042070ae693627c0febe8506997e5335"
+        },
+        {
+          "id": "fd5cdb6325d07c457561dea8f0ed023e3755d7b9",
+          "sha": "fd5cdb6325d07c457561dea8f0ed023e3755d7b9",
+          "message": "docs: track Microduck face LED brightness preview",
+          "author": "fanhao375",
+          "date": "2026-11-13T02:47:45Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/fd5cdb6325d07c457561dea8f0ed023e3755d7b9"
+        },
+        {
+          "id": "d5d7852cf12e1b5f35b039c1793e43033815b98e",
+          "sha": "d5d7852cf12e1b5f35b039c1793e43033815b98e",
+          "message": "docs: track Microduck ToF and phase skill proposals",
+          "author": "fanhao375",
+          "date": "2026-11-13T01:43:58Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/d5d7852cf12e1b5f35b039c1793e43033815b98e"
+        },
         {
           "id": "1040543544362e2e4962333d8172fa08401665d9",
           "sha": "1040543544362e2e4962333d8172fa08401665d9",
@@ -432,62 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-12T17:06:38Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/1040543544362e2e4962333d8172fa08401665d9"
-        },
-        {
-          "id": "d262b8fb40e2f93396620ca194d2c1cb4d50eae2",
-          "sha": "d262b8fb40e2f93396620ca194d2c1cb4d50eae2",
-          "message": "docs: track Microduck OS 1.4.1 and join progress preview",
-          "author": "fanhao375",
-          "date": "2026-11-12T15:12:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/d262b8fb40e2f93396620ca194d2c1cb4d50eae2"
-        },
-        {
-          "id": "53ff1febc184ce163fb1118449d0015af8e8a122",
-          "sha": "53ff1febc184ce163fb1118449d0015af8e8a122",
-          "message": "docs: track Microduck NFC Type 5 write preview",
-          "author": "fanhao375",
-          "date": "2026-11-12T14:09:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/53ff1febc184ce163fb1118449d0015af8e8a122"
-        },
-        {
-          "id": "f90524a4c65d898387e2345b631ebde28568d2d1",
-          "sha": "f90524a4c65d898387e2345b631ebde28568d2d1",
-          "message": "docs: track bounded Microduck autonomous recovery",
-          "author": "fanhao375",
-          "date": "2026-11-12T11:06:30Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/f90524a4c65d898387e2345b631ebde28568d2d1"
-        },
-        {
-          "id": "37e29db6c47229f71181c172be9710141562cff9",
-          "sha": "37e29db6c47229f71181c172be9710141562cff9",
-          "message": "docs: track Microduck roller v10 and autonomous previews",
-          "author": "fanhao375",
-          "date": "2026-11-12T10:11:21Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/37e29db6c47229f71181c172be9710141562cff9"
-        },
-        {
-          "id": "4202a7746e9831270b1a2b21ad496ce55aa51f24",
-          "sha": "4202a7746e9831270b1a2b21ad496ce55aa51f24",
-          "message": "docs: link ZERO 3W RC4 with live diagnostics",
-          "author": "fanhao375",
-          "date": "2026-11-12T08:46:52Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/4202a7746e9831270b1a2b21ad496ce55aa51f24"
-        },
-        {
-          "id": "22d4d46090ba17fd100ebfa419db1e8da6bc8106",
-          "sha": "22d4d46090ba17fd100ebfa419db1e8da6bc8106",
-          "message": "docs: track daemon 0.20.1, NFC writing and Zero 3W RC2",
-          "author": "fanhao375",
-          "date": "2026-11-12T09:06:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/22d4d46090ba17fd100ebfa419db1e8da6bc8106"
-        },
-        {
-          "id": "bed9adbe732f0bca8075af4e4ac21e8c3faf93df",
-          "sha": "bed9adbe732f0bca8075af4e4ac21e8c3faf93df",
-          "message": "Limit the first-boot HTTPS server certificate to 820 days",
-          "author": "Microduck Replica",
-          "date": "2026-11-12T07:25:31Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/bed9adbe732f0bca8075af4e4ac21e8c3faf93df"
         }
       ],
       "releases": [
@@ -724,13 +724,37 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "51d54fcc029dbf537a4f090413be0ba07d78e9a9",
-        "url": "https://github.com/mujocolab/mjlab/commit/51d54fcc029dbf537a4f090413be0ba07d78e9a9"
+        "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
+        "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
       },
-      "updated_at": "2026-11-12T18:35:39Z",
-      "pushed_at": "2026-11-12T01:46:42Z",
-      "open_issues_count": 64,
+      "updated_at": "2026-11-13T06:23:36Z",
+      "pushed_at": "2026-11-13T04:18:28Z",
+      "open_issues_count": 61,
       "commits": [
+        {
+          "id": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
+          "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
+          "message": "Give RGB and depth YAM tasks distinct experiment names (#1326)",
+          "author": "Kaweees",
+          "date": "2026-11-13T04:16:36Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
+        },
+        {
+          "id": "91d898cdc2e474044eaca569ece975746c887e8e",
+          "sha": "91d898cdc2e474044eaca569ece975746c887e8e",
+          "message": "Use configured gravity for entity orientation (#1325)",
+          "author": "Kaweees",
+          "date": "2026-11-13T04:11:30Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/91d898cdc2e474044eaca569ece975746c887e8e"
+        },
+        {
+          "id": "84f8df53dbeff58d1f4dbf2f84af7212c1213525",
+          "sha": "84f8df53dbeff58d1f4dbf2f84af7212c1213525",
+          "message": "Add a docs page for the tactile sensor. (#1327)",
+          "author": "kevinzakka",
+          "date": "2026-11-13T04:01:17Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/84f8df53dbeff58d1f4dbf2f84af7212c1213525"
+        },
         {
           "id": "51d54fcc029dbf537a4f090413be0ba07d78e9a9",
           "sha": "51d54fcc029dbf537a4f090413be0ba07d78e9a9",
@@ -770,30 +794,6 @@
           "author": "kevinzakka",
           "date": "2026-11-12T00:05:21Z",
           "url": "https://github.com/mujocolab/mjlab/commit/c855b31638422abf6f10f044534ede0e2cf3ed86"
-        },
-        {
-          "id": "d0ad1fe1c9b780c1b4d06f3fbf4407ab51e92313",
-          "sha": "d0ad1fe1c9b780c1b4d06f3fbf4407ab51e92313",
-          "message": "Capture Warp graphs on CPU too. (#1317)",
-          "author": "kevinzakka",
-          "date": "2026-11-11T19:02:40Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/d0ad1fe1c9b780c1b4d06f3fbf4407ab51e92313"
-        },
-        {
-          "id": "e21830bfd76a15c20cdb131ea1e094de2dcfae77",
-          "sha": "e21830bfd76a15c20cdb131ea1e094de2dcfae77",
-          "message": "Keep BuiltinPd pos/vel ctrl layout when actuators are sorted (#1303)",
-          "author": "saikishor",
-          "date": "2026-11-11T18:49:50Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/e21830bfd76a15c20cdb131ea1e094de2dcfae77"
-        },
-        {
-          "id": "01f2994bcf1876fb2f36f5ec932ab62e0754e579",
-          "sha": "01f2994bcf1876fb2f36f5ec932ab62e0754e579",
-          "message": "Invalidate sensor caches whenever the simulation data changes. (#1316)",
-          "author": "kevinzakka",
-          "date": "2026-11-11T18:40:24Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/01f2994bcf1876fb2f36f5ec932ab62e0754e579"
         }
       ],
       "releases": [
@@ -827,21 +827,31 @@
           "id": "1325",
           "number": 1325,
           "title": "Use configured gravity for entity orientation",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T11:28:31Z",
-          "merged_at": null,
+          "updated_at": "2026-11-13T04:53:21Z",
+          "merged_at": "2026-11-13T04:11:31Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1325"
         },
         {
           "id": "1326",
           "number": 1326,
           "title": "Give RGB and depth YAM tasks distinct experiment names",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-12T11:23:36Z",
-          "merged_at": null,
+          "updated_at": "2026-11-13T04:16:37Z",
+          "merged_at": "2026-11-13T04:16:36Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1326"
+        },
+        {
+          "id": "1327",
+          "number": 1327,
+          "title": "Add a docs page for the tactile sensor.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-13T04:01:21Z",
+          "merged_at": "2026-11-13T04:01:18Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1327"
         },
         {
           "id": "1324",
@@ -862,16 +872,6 @@
           "updated_at": "2026-11-12T06:30:06Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1323"
-        },
-        {
-          "id": "1322",
-          "number": 1322,
-          "title": "Add a tactile sensor and the Sharpa Wave hand.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-12T02:26:29Z",
-          "merged_at": "2026-11-12T01:44:43Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1322"
         }
       ],
       "issues": []
@@ -886,7 +886,7 @@
       },
       "updated_at": "2026-11-12T19:00:09Z",
       "pushed_at": "2026-11-10T18:32:06Z",
-      "open_issues_count": 20,
+      "open_issues_count": 21,
       "commits": [
         {
           "id": "8945bdcbc364f388e14caebf547dbf302d89e491",
@@ -981,6 +981,16 @@
       ],
       "pulls": [
         {
+          "id": "275",
+          "number": 275,
+          "title": "Add a TensorRT backend to the ExecuTorch export",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-13T06:04:17Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/275"
+        },
+        {
           "id": "271",
           "number": 271,
           "title": "Add ExecuTorch export for policies",
@@ -1019,16 +1029,6 @@
           "updated_at": "2026-11-11T11:13:10Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/273"
-        },
-        {
-          "id": "272",
-          "number": 272,
-          "title": "feat: Add torch XPU support",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-11T06:09:36Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/272"
         }
       ],
       "issues": []
