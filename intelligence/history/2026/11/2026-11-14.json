@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T06:31:24Z",
+  "generated_at": "2026-11-14T18:10:15Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "f953fc310619678b4354b661e6c6177704233776",
-        "url": "https://github.com/superobk/microduck-startup/commit/f953fc310619678b4354b661e6c6177704233776"
+        "sha": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
+        "url": "https://github.com/superobk/microduck-startup/commit/5f9a1ea615bc1021a9a7496e14ea4332441a088f"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-13T19:47:00Z",
+      "pushed_at": "2026-11-14T06:31:45Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
+          "sha": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-14T06:31:44Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5f9a1ea615bc1021a9a7496e14ea4332441a088f"
+        },
         {
           "id": "f953fc310619678b4354b661e6c6177704233776",
           "sha": "f953fc310619678b4354b661e6c6177704233776",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-10T19:47:09Z",
           "url": "https://github.com/superobk/microduck-startup/commit/bff0479bc475e8f0b953919399a8f848d1bcf20d"
-        },
-        {
-          "id": "0ceeb1df54f7631c42ee4ce0141d4af1de55088f",
-          "sha": "0ceeb1df54f7631c42ee4ce0141d4af1de55088f",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-10T07:25:02Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0ceeb1df54f7631c42ee4ce0141d4af1de55088f"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "094d4bb4af31ec181156e1ea772437fdd7a55978",
         "url": "https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978"
       },
-      "updated_at": "2026-11-14T06:00:10Z",
+      "updated_at": "2026-11-14T17:50:38Z",
       "pushed_at": "2026-11-13T10:45:23Z",
-      "open_issues_count": 116,
+      "open_issues_count": 120,
       "commits": [
         {
           "id": "094d4bb4af31ec181156e1ea772437fdd7a55978",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "600",
+          "number": 600,
+          "title": "tof: a return from below the floor is a drop, and the duck stops for it",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-14T11:39:25Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/600"
+        },
+        {
           "id": "596",
           "number": 596,
           "title": "autod: a dot ends a survey, and a brace ends a chase",
@@ -226,19 +236,33 @@
           "updated_at": "2026-11-13T19:14:43Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/230"
-        },
-        {
-          "id": "594",
-          "number": 594,
-          "title": "configd: build on macOS again",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-13T19:10:52Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/594"
         }
       ],
       "issues": [
+        {
+          "id": "601",
+          "number": 601,
+          "title": "autod: a seated duck with a wall behind it flips between Nap and Brace every tick",
+          "state": "open",
+          "updated_at": "2026-11-14T10:26:32Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/601"
+        },
+        {
+          "id": "599",
+          "number": 599,
+          "title": "the duck on its own walks off a step: the tof reads a drop as more floor",
+          "state": "open",
+          "updated_at": "2026-11-14T09:42:18Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/599"
+        },
+        {
+          "id": "598",
+          "number": 598,
+          "title": "autod: let a local client choose the duck's next state",
+          "state": "open",
+          "updated_at": "2026-11-14T08:07:29Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/598"
+        },
         {
           "id": "597",
           "number": 597,
@@ -257,7 +281,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-14T04:14:50Z",
+      "updated_at": "2026-11-14T17:53:44Z",
       "pushed_at": "2026-11-10T11:31:29Z",
       "open_issues_count": 61,
       "commits": [
@@ -427,13 +451,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/1573dd5cf29ce68a8e3f7316193107fbcc61fe9e"
+        "sha": "a11e729edb63ad3638dfbfad1281620817929986",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/a11e729edb63ad3638dfbfad1281620817929986"
       },
-      "updated_at": "2026-11-14T05:07:59Z",
-      "pushed_at": "2026-11-14T04:18:09Z",
+      "updated_at": "2026-11-14T16:41:36Z",
+      "pushed_at": "2026-11-14T12:23:11Z",
       "open_issues_count": 26,
       "commits": [
+        {
+          "id": "a11e729edb63ad3638dfbfad1281620817929986",
+          "sha": "a11e729edb63ad3638dfbfad1281620817929986",
+          "message": "docs: refresh Microduck ToF simulation attachment",
+          "author": "fanhao375",
+          "date": "2026-11-14T12:23:05Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/a11e729edb63ad3638dfbfad1281620817929986"
+        },
+        {
+          "id": "b3e9803ba498872600a25002c6ee4ae5d30dc57f",
+          "sha": "b3e9803ba498872600a25002c6ee4ae5d30dc57f",
+          "message": "docs: note Microduck ToF step simulation comparison",
+          "author": "fanhao375",
+          "date": "2026-11-14T11:18:57Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/b3e9803ba498872600a25002c6ee4ae5d30dc57f"
+        },
+        {
+          "id": "a0d1631632b8bfcc479f560994daa660ba33cb25",
+          "sha": "a0d1631632b8bfcc479f560994daa660ba33cb25",
+          "message": "docs: track Microduck ToF drop stopping proposal",
+          "author": "fanhao375",
+          "date": "2026-11-14T10:22:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/a0d1631632b8bfcc479f560994daa660ba33cb25"
+        },
         {
           "id": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
           "sha": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
@@ -473,30 +521,6 @@
           "author": "fanhao375",
           "date": "2026-11-13T10:47:12Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/4b19ae84b4fe9848fed39a5d43ed7d8dcdc5132a"
-        },
-        {
-          "id": "8d3662514f1491e13fffb25d18584d78d4b1cb58",
-          "sha": "8d3662514f1491e13fffb25d18584d78d4b1cb58",
-          "message": "docs: track Microduck head smoothing and face button preview",
-          "author": "fanhao375",
-          "date": "2026-11-13T09:46:10Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/8d3662514f1491e13fffb25d18584d78d4b1cb58"
-        },
-        {
-          "id": "a4f28e460a70ad7744fd642c3b39b9aab7ef9c5e",
-          "sha": "a4f28e460a70ad7744fd642c3b39b9aab7ef9c5e",
-          "message": "docs: track Microduck daemon 0.21.0 release",
-          "author": "fanhao375",
-          "date": "2026-11-13T07:52:10Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/a4f28e460a70ad7744fd642c3b39b9aab7ef9c5e"
-        },
-        {
-          "id": "c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3",
-          "sha": "c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3",
-          "message": "docs: track Microduck NFC and soccer audio previews",
-          "author": "fanhao375",
-          "date": "2026-11-13T06:49:42Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3"
         }
       ],
       "releases": [
@@ -760,9 +784,9 @@
         "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
         "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
       },
-      "updated_at": "2026-11-14T04:36:50Z",
+      "updated_at": "2026-11-14T12:05:33Z",
       "pushed_at": "2026-11-13T04:18:28Z",
-      "open_issues_count": 62,
+      "open_issues_count": 90,
       "commits": [
         {
           "id": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
@@ -857,54 +881,54 @@
       ],
       "pulls": [
         {
-          "id": "1328",
-          "number": 1328,
-          "title": "Fix joint indexing for entities with non-actuated ball joints",
+          "id": "1358",
+          "number": 1358,
+          "title": "Expose MuJoCo Warp 4.0.1 raytracer options on CameraSensorCfg",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T22:21:35Z",
+          "updated_at": "2026-11-14T13:47:39Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1328"
+          "url": "https://github.com/mujocolab/mjlab/pull/1358"
         },
         {
-          "id": "1310",
-          "number": 1310,
-          "title": "Stop partial resets from adding tracking error to other envs' metrics",
+          "id": "1357",
+          "number": 1357,
+          "title": "Add native MuJoCo 4.0 history, delay, and sensor interval support",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T14:06:59Z",
+          "updated_at": "2026-11-14T13:42:30Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1310"
+          "url": "https://github.com/mujocolab/mjlab/pull/1357"
         },
         {
-          "id": "1325",
-          "number": 1325,
-          "title": "Use configured gravity for entity orientation",
-          "state": "closed",
+          "id": "1356",
+          "number": 1356,
+          "title": "Add remaining MuJoCo Warp 4.0.1 builtin sensor types",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T04:53:21Z",
-          "merged_at": "2026-11-13T04:11:31Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1325"
+          "updated_at": "2026-11-14T13:25:12Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1356"
         },
         {
-          "id": "1326",
-          "number": 1326,
-          "title": "Give RGB and depth YAM tasks distinct experiment names",
+          "id": "1266",
+          "number": 1266,
+          "title": "Cache constant recomputation graphs and skip unchanged field setup",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-13T04:16:37Z",
-          "merged_at": "2026-11-13T04:16:36Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1326"
+          "updated_at": "2026-11-14T13:15:19Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1266"
         },
         {
-          "id": "1327",
-          "number": 1327,
-          "title": "Add a docs page for the tactile sensor.",
+          "id": "1265",
+          "number": 1265,
+          "title": "Preserve per-world camera and light reference constants",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-13T04:01:21Z",
-          "merged_at": "2026-11-13T04:01:18Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1327"
+          "updated_at": "2026-11-14T13:15:16Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1265"
         }
       ],
       "issues": []
@@ -917,7 +941,7 @@
         "sha": "8945bdcbc364f388e14caebf547dbf302d89e491",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491"
       },
-      "updated_at": "2026-11-12T19:00:09Z",
+      "updated_at": "2026-11-14T08:43:15Z",
       "pushed_at": "2026-11-10T18:32:06Z",
       "open_issues_count": 21,
       "commits": [
@@ -1019,7 +1043,7 @@
           "title": "Add a TensorRT backend to the ExecuTorch export",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T10:08:29Z",
+          "updated_at": "2026-11-14T17:13:27Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/275"
         },
@@ -1029,7 +1053,7 @@
           "title": "Add ExecuTorch export for policies",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T10:08:28Z",
+          "updated_at": "2026-11-14T17:12:24Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/271"
         },
@@ -1039,7 +1063,7 @@
           "title": "Return only the ONNX outputs from the GRU ONNX model",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-12T05:01:03Z",
+          "updated_at": "2026-11-14T17:11:20Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/270"
         },
