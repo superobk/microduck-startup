@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T19:46:39Z",
+  "generated_at": "2026-11-14T06:31:24Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "468e8816d20a36014a63203c7b0c1afa28dbdc2d",
-        "url": "https://github.com/superobk/microduck-startup/commit/468e8816d20a36014a63203c7b0c1afa28dbdc2d"
+        "sha": "f953fc310619678b4354b661e6c6177704233776",
+        "url": "https://github.com/superobk/microduck-startup/commit/f953fc310619678b4354b661e6c6177704233776"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-13T06:51:47Z",
+      "pushed_at": "2026-11-13T19:47:00Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "f953fc310619678b4354b661e6c6177704233776",
+          "sha": "f953fc310619678b4354b661e6c6177704233776",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-13T19:46:59Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/f953fc310619678b4354b661e6c6177704233776"
+        },
         {
           "id": "468e8816d20a36014a63203c7b0c1afa28dbdc2d",
           "sha": "468e8816d20a36014a63203c7b0c1afa28dbdc2d",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-10T07:25:02Z",
           "url": "https://github.com/superobk/microduck-startup/commit/0ceeb1df54f7631c42ee4ce0141d4af1de55088f"
-        },
-        {
-          "id": "582d1bcc0e1bc35b87e0d9bf189b217426801df1",
-          "sha": "582d1bcc0e1bc35b87e0d9bf189b217426801df1",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-09T22:25:52Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/582d1bcc0e1bc35b87e0d9bf189b217426801df1"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "094d4bb4af31ec181156e1ea772437fdd7a55978",
         "url": "https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978"
       },
-      "updated_at": "2026-11-13T19:14:34Z",
+      "updated_at": "2026-11-14T06:00:10Z",
       "pushed_at": "2026-11-13T10:45:23Z",
-      "open_issues_count": 113,
+      "open_issues_count": 116,
       "commits": [
         {
           "id": "094d4bb4af31ec181156e1ea772437fdd7a55978",
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "596",
+          "number": 596,
+          "title": "autod: a dot ends a survey, and a brace ends a chase",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-13T20:44:05Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/596"
+        },
+        {
+          "id": "595",
+          "number": 595,
+          "title": "duck-sim: run mapd and autod, and point laser and soccer at the duck's mediad",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-13T20:43:52Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/595"
+        },
+        {
           "id": "568",
           "number": 568,
           "title": "laser: scan only around the dot while tracking",
@@ -216,29 +236,18 @@
           "updated_at": "2026-11-13T19:10:52Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/594"
-        },
-        {
-          "id": "593",
-          "number": 593,
-          "title": "Prepare release 0.21.1",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-13T10:41:18Z",
-          "merged_at": "2026-11-13T10:41:16Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/593"
-        },
-        {
-          "id": "591",
-          "number": 591,
-          "title": "configd: hold the face button 5 s to open ssh on wifi for 30 minutes",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-13T10:26:38Z",
-          "merged_at": "2026-11-13T10:26:36Z",
-          "url": "https://github.com/pollen-robotics/microduck/pull/591"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "597",
+          "number": 597,
+          "title": "duck-sim: with the pinned set (v9/v10, v7's velstand) the default `drive` doesn't walk and in-place turns barely turn; simulation.md §11 numbers are v8's",
+          "state": "open",
+          "updated_at": "2026-11-14T03:53:21Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/597"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +257,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-13T17:31:41Z",
+      "updated_at": "2026-11-14T04:14:50Z",
       "pushed_at": "2026-11-10T11:31:29Z",
       "open_issues_count": 61,
       "commits": [
@@ -418,13 +427,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "f764adbb7031d275db9bade04d40178acebd670c",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/f764adbb7031d275db9bade04d40178acebd670c"
+        "sha": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/1573dd5cf29ce68a8e3f7316193107fbcc61fe9e"
       },
-      "updated_at": "2026-11-13T17:04:07Z",
-      "pushed_at": "2026-11-13T16:05:49Z",
-      "open_issues_count": 45,
+      "updated_at": "2026-11-14T05:07:59Z",
+      "pushed_at": "2026-11-14T04:18:09Z",
+      "open_issues_count": 26,
       "commits": [
+        {
+          "id": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
+          "sha": "1573dd5cf29ce68a8e3f7316193107fbcc61fe9e",
+          "message": "docs: track Microduck simulation and laser handoff proposals",
+          "author": "fanhao375",
+          "date": "2026-11-14T04:18:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/1573dd5cf29ce68a8e3f7316193107fbcc61fe9e"
+        },
         {
           "id": "f764adbb7031d275db9bade04d40178acebd670c",
           "sha": "f764adbb7031d275db9bade04d40178acebd670c",
@@ -480,14 +497,6 @@
           "author": "fanhao375",
           "date": "2026-11-13T06:49:42Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/c6f9234979576b4ce8e308c5c8c07a6f9a06c4b3"
-        },
-        {
-          "id": "83ab4fee82b962e4a48317a10f3556568dd27322",
-          "sha": "83ab4fee82b962e4a48317a10f3556568dd27322",
-          "message": "docs: track Microduck stand-up retries",
-          "author": "fanhao375",
-          "date": "2026-11-13T05:50:55Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/83ab4fee82b962e4a48317a10f3556568dd27322"
         }
       ],
       "releases": [
@@ -570,20 +579,44 @@
       ],
       "issues": [
         {
-          "id": "57",
-          "number": 57,
-          "title": "二维码过期",
-          "state": "open",
-          "updated_at": "2026-11-12T13:59:05Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/57"
+          "id": "11",
+          "number": 11,
+          "title": "求个微信群啊，大佬",
+          "state": "closed",
+          "updated_at": "2026-11-14T04:50:46Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/11"
         },
         {
-          "id": "56",
-          "number": 56,
-          "title": "PCBway IMU",
-          "state": "open",
-          "updated_at": "2026-11-12T07:17:47Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/56"
+          "id": "13",
+          "number": 13,
+          "title": "求拉群",
+          "state": "closed",
+          "updated_at": "2026-11-14T04:50:44Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/13"
+        },
+        {
+          "id": "20",
+          "number": 20,
+          "title": "群满了",
+          "state": "closed",
+          "updated_at": "2026-11-14T04:50:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/20"
+        },
+        {
+          "id": "14",
+          "number": 14,
+          "title": "扫码进不去了，求拉",
+          "state": "closed",
+          "updated_at": "2026-11-14T04:50:39Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/14"
+        },
+        {
+          "id": "24",
+          "number": 24,
+          "title": "群满了",
+          "state": "closed",
+          "updated_at": "2026-11-14T04:46:44Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/24"
         }
       ]
     },
@@ -592,13 +625,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "aefbd002102c19701d6fd8ab27b3453d8c4f63b8",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/aefbd002102c19701d6fd8ab27b3453d8c4f63b8"
+        "sha": "09bebf9ed359f68797a15b4ed1b7166faa73d37a",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/09bebf9ed359f68797a15b4ed1b7166faa73d37a"
       },
       "updated_at": "2026-11-13T08:35:55Z",
-      "pushed_at": "2026-11-13T14:47:30Z",
+      "pushed_at": "2026-11-13T21:19:30Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "09bebf9ed359f68797a15b4ed1b7166faa73d37a",
+          "sha": "09bebf9ed359f68797a15b4ed1b7166faa73d37a",
+          "message": "Add per-robot HD-1910 policies (#48)",
+          "author": "joeynyc",
+          "date": "2026-11-13T21:19:28Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/09bebf9ed359f68797a15b4ed1b7166faa73d37a"
+        },
         {
           "id": "aefbd002102c19701d6fd8ab27b3453d8c4f63b8",
           "sha": "aefbd002102c19701d6fd8ab27b3453d8c4f63b8",
@@ -654,18 +695,20 @@
           "author": "joeynyc",
           "date": "2026-10-29T20:08:10Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/63d73155cc8baf9450a462a30c91474275680f2d"
-        },
-        {
-          "id": "f8c2ce15a389c5a66c61e95723c822999e064590",
-          "sha": "f8c2ce15a389c5a66c61e95723c822999e064590",
-          "message": "Trim the 29 longest descriptions and set a length guideline (#40)",
-          "author": "joeynyc",
-          "date": "2026-10-29T11:19:44Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/f8c2ce15a389c5a66c61e95723c822999e064590"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "48",
+          "number": 48,
+          "title": "Add per-robot HD-1910 policies",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-13T21:19:31Z",
+          "merged_at": "2026-11-13T21:19:29Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/48"
+        },
         {
           "id": "32",
           "number": 32,
@@ -705,16 +748,6 @@
           "updated_at": "2026-11-05T19:49:44Z",
           "merged_at": "2026-11-05T19:49:42Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/45"
-        },
-        {
-          "id": "44",
-          "number": 44,
-          "title": "Add Microduck Jenga simulation and training",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-05T19:48:45Z",
-          "merged_at": "2026-11-05T19:48:45Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/44"
         }
       ],
       "issues": []
@@ -727,9 +760,9 @@
         "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
         "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
       },
-      "updated_at": "2026-11-13T12:59:24Z",
+      "updated_at": "2026-11-14T04:36:50Z",
       "pushed_at": "2026-11-13T04:18:28Z",
-      "open_issues_count": 61,
+      "open_issues_count": 62,
       "commits": [
         {
           "id": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
@@ -824,6 +857,16 @@
       ],
       "pulls": [
         {
+          "id": "1328",
+          "number": 1328,
+          "title": "Fix joint indexing for entities with non-actuated ball joints",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-13T22:21:35Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1328"
+        },
+        {
           "id": "1310",
           "number": 1310,
           "title": "Stop partial resets from adding tracking error to other envs' metrics",
@@ -862,16 +905,6 @@
           "updated_at": "2026-11-13T04:01:21Z",
           "merged_at": "2026-11-13T04:01:18Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1327"
-        },
-        {
-          "id": "1324",
-          "number": 1324,
-          "title": "Resolve the resume checkpoint before launching multi-GPU workers",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-12T07:00:38Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1324"
         }
       ],
       "issues": []
