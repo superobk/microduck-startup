@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T18:10:15Z",
+  "generated_at": "2026-11-14T22:29:20Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
-        "url": "https://github.com/superobk/microduck-startup/commit/5f9a1ea615bc1021a9a7496e14ea4332441a088f"
+        "sha": "39087731bd391f627c60df4503e9f12c02e9cd86",
+        "url": "https://github.com/superobk/microduck-startup/commit/39087731bd391f627c60df4503e9f12c02e9cd86"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-14T06:31:45Z",
+      "pushed_at": "2026-11-14T18:10:35Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "39087731bd391f627c60df4503e9f12c02e9cd86",
+          "sha": "39087731bd391f627c60df4503e9f12c02e9cd86",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-14T18:10:34Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/39087731bd391f627c60df4503e9f12c02e9cd86"
+        },
         {
           "id": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
           "sha": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-11T06:32:46Z",
           "url": "https://github.com/superobk/microduck-startup/commit/f2928c4839e848837e0dd0047157b33264557f0c"
-        },
-        {
-          "id": "bff0479bc475e8f0b953919399a8f848d1bcf20d",
-          "sha": "bff0479bc475e8f0b953919399a8f848d1bcf20d",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-10T19:47:09Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/bff0479bc475e8f0b953919399a8f848d1bcf20d"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "094d4bb4af31ec181156e1ea772437fdd7a55978",
         "url": "https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978"
       },
-      "updated_at": "2026-11-14T17:50:38Z",
+      "updated_at": "2026-11-14T21:36:00Z",
       "pushed_at": "2026-11-13T10:45:23Z",
-      "open_issues_count": 120,
+      "open_issues_count": 119,
       "commits": [
         {
           "id": "094d4bb4af31ec181156e1ea772437fdd7a55978",
@@ -193,9 +193,19 @@
           "title": "tof: a return from below the floor is a drop, and the duck stops for it",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-14T11:39:25Z",
+          "updated_at": "2026-11-14T19:59:47Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/600"
+        },
+        {
+          "id": "580",
+          "number": 580,
+          "title": "docs(kinematics/tof): clarify Zone::Hit range is sensor-relative",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-14T19:53:33Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/580"
         },
         {
           "id": "596",
@@ -226,16 +236,6 @@
           "updated_at": "2026-11-13T19:22:18Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/568"
-        },
-        {
-          "id": "230",
-          "number": 230,
-          "title": "the account token gets a group of its own, with mediad as its only member",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-13T19:14:43Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/230"
         }
       ],
       "issues": [
@@ -262,14 +262,6 @@
           "state": "open",
           "updated_at": "2026-11-14T08:07:29Z",
           "url": "https://github.com/pollen-robotics/microduck/issues/598"
-        },
-        {
-          "id": "597",
-          "number": 597,
-          "title": "duck-sim: with the pinned set (v9/v10, v7's velstand) the default `drive` doesn't walk and in-place turns barely turn; simulation.md §11 numbers are v8's",
-          "state": "open",
-          "updated_at": "2026-11-14T03:53:21Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/597"
         }
       ]
     },
@@ -281,7 +273,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-14T17:53:44Z",
+      "updated_at": "2026-11-14T22:21:21Z",
       "pushed_at": "2026-11-10T11:31:29Z",
       "open_issues_count": 61,
       "commits": [
@@ -454,7 +446,7 @@
         "sha": "a11e729edb63ad3638dfbfad1281620817929986",
         "url": "https://github.com/fanhao375/microduck-replica/commit/a11e729edb63ad3638dfbfad1281620817929986"
       },
-      "updated_at": "2026-11-14T16:41:36Z",
+      "updated_at": "2026-11-14T18:36:23Z",
       "pushed_at": "2026-11-14T12:23:11Z",
       "open_issues_count": 26,
       "commits": [
@@ -652,7 +644,7 @@
         "sha": "09bebf9ed359f68797a15b4ed1b7166faa73d37a",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/09bebf9ed359f68797a15b4ed1b7166faa73d37a"
       },
-      "updated_at": "2026-11-13T08:35:55Z",
+      "updated_at": "2026-11-14T18:38:18Z",
       "pushed_at": "2026-11-13T21:19:30Z",
       "open_issues_count": 0,
       "commits": [
@@ -781,13 +773,29 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
-        "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
+        "sha": "6ab9846ea068714678fd0e9f791f898c6b697b20",
+        "url": "https://github.com/mujocolab/mjlab/commit/6ab9846ea068714678fd0e9f791f898c6b697b20"
       },
       "updated_at": "2026-11-14T12:05:33Z",
-      "pushed_at": "2026-11-13T04:18:28Z",
-      "open_issues_count": 90,
+      "pushed_at": "2026-11-14T19:31:51Z",
+      "open_issues_count": 63,
       "commits": [
+        {
+          "id": "6ab9846ea068714678fd0e9f791f898c6b697b20",
+          "sha": "6ab9846ea068714678fd0e9f791f898c6b697b20",
+          "message": "Read joint limits from the model so they follow DR. (#1365)",
+          "author": "kevinzakka",
+          "date": "2026-11-14T19:29:51Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/6ab9846ea068714678fd0e9f791f898c6b697b20"
+        },
+        {
+          "id": "f548b666eb49cf726afae8c5e0daf68af89291c9",
+          "sha": "f548b666eb49cf726afae8c5e0daf68af89291c9",
+          "message": "Reset recurrent policies on truncation when the viewer drives a raw env. (#1359)",
+          "author": "kevinzakka",
+          "date": "2026-11-14T18:45:37Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/f548b666eb49cf726afae8c5e0daf68af89291c9"
+        },
         {
           "id": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
           "sha": "1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5",
@@ -835,22 +843,6 @@
           "author": "kevinzakka",
           "date": "2026-11-12T00:44:58Z",
           "url": "https://github.com/mujocolab/mjlab/commit/cca75c423048d2f784044698dc9abbd80cc7a205"
-        },
-        {
-          "id": "b17237925ffaedfea1e940b50dbdda947c25ace7",
-          "sha": "b17237925ffaedfea1e940b50dbdda947c25ace7",
-          "message": "Update the MuJoCo Warp badge to 4.0.1.",
-          "author": "kevinzakka",
-          "date": "2026-11-12T00:06:56Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/b17237925ffaedfea1e940b50dbdda947c25ace7"
-        },
-        {
-          "id": "c855b31638422abf6f10f044534ede0e2cf3ed86",
-          "sha": "c855b31638422abf6f10f044534ede0e2cf3ed86",
-          "message": "Upgrade MuJoCo and MuJoCo Warp to 4.0.1 (#1319)",
-          "author": "kevinzakka",
-          "date": "2026-11-12T00:05:21Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/c855b31638422abf6f10f044534ede0e2cf3ed86"
         }
       ],
       "releases": [
@@ -881,54 +873,54 @@
       ],
       "pulls": [
         {
+          "id": "1365",
+          "number": 1365,
+          "title": "Read joint limits from the model so they follow DR.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-14T19:29:54Z",
+          "merged_at": "2026-11-14T19:29:51Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1365"
+        },
+        {
+          "id": "1359",
+          "number": 1359,
+          "title": "Reset recurrent policies on truncation when the viewer drives a raw env.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-14T18:45:40Z",
+          "merged_at": "2026-11-14T18:45:37Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1359"
+        },
+        {
           "id": "1358",
           "number": 1358,
           "title": "Expose MuJoCo Warp 4.0.1 raytracer options on CameraSensorCfg",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-14T13:47:39Z",
+          "updated_at": "2026-11-14T18:45:33Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1358"
         },
         {
-          "id": "1357",
-          "number": 1357,
-          "title": "Add native MuJoCo 4.0 history, delay, and sensor interval support",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-14T13:42:30Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1357"
-        },
-        {
-          "id": "1356",
-          "number": 1356,
-          "title": "Add remaining MuJoCo Warp 4.0.1 builtin sensor types",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-14T13:25:12Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1356"
-        },
-        {
-          "id": "1266",
-          "number": 1266,
-          "title": "Cache constant recomputation graphs and skip unchanged field setup",
+          "id": "1329",
+          "number": 1329,
+          "title": "Break circular import between mjlab.utils.spec and mjlab.actuator",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-14T13:15:19Z",
+          "updated_at": "2026-11-14T18:45:02Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1266"
+          "url": "https://github.com/mujocolab/mjlab/pull/1329"
         },
         {
-          "id": "1265",
-          "number": 1265,
-          "title": "Preserve per-world camera and light reference constants",
+          "id": "1330",
+          "number": 1330,
+          "title": "Avoid phantom contacts on unfilled variant mesh slots when num_envs=1",
           "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-14T13:15:16Z",
+          "updated_at": "2026-11-14T18:44:59Z",
           "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1265"
+          "url": "https://github.com/mujocolab/mjlab/pull/1330"
         }
       ],
       "issues": []
@@ -941,7 +933,7 @@
         "sha": "8945bdcbc364f388e14caebf547dbf302d89e491",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491"
       },
-      "updated_at": "2026-11-14T08:43:15Z",
+      "updated_at": "2026-11-14T21:17:11Z",
       "pushed_at": "2026-11-10T18:32:06Z",
       "open_issues_count": 21,
       "commits": [
