@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T06:40:49Z",
+  "generated_at": "2026-11-15T18:54:19Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "62eb1e18e39da37276a84c95e10ff572a67b25e7",
-        "url": "https://github.com/superobk/microduck-startup/commit/62eb1e18e39da37276a84c95e10ff572a67b25e7"
+        "sha": "2949dfc37683b8c82f44f239e6bb5077a13b0dc9",
+        "url": "https://github.com/superobk/microduck-startup/commit/2949dfc37683b8c82f44f239e6bb5077a13b0dc9"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-14T22:29:37Z",
+      "pushed_at": "2026-11-15T06:41:08Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2949dfc37683b8c82f44f239e6bb5077a13b0dc9",
+          "sha": "2949dfc37683b8c82f44f239e6bb5077a13b0dc9",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-15T06:41:06Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2949dfc37683b8c82f44f239e6bb5077a13b0dc9"
+        },
         {
           "id": "62eb1e18e39da37276a84c95e10ff572a67b25e7",
           "sha": "62eb1e18e39da37276a84c95e10ff572a67b25e7",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-12T07:17:56Z",
           "url": "https://github.com/superobk/microduck-startup/commit/792a279d83d7282a79870dd8ca1f3f07c9c37966"
-        },
-        {
-          "id": "5795a3c03e0b92bdac460f55cae66432e2f6fe98",
-          "sha": "5795a3c03e0b92bdac460f55cae66432e2f6fe98",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-11T19:39:36Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5795a3c03e0b92bdac460f55cae66432e2f6fe98"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "094d4bb4af31ec181156e1ea772437fdd7a55978",
         "url": "https://github.com/pollen-robotics/microduck/commit/094d4bb4af31ec181156e1ea772437fdd7a55978"
       },
-      "updated_at": "2026-11-15T06:06:44Z",
+      "updated_at": "2026-11-15T18:07:27Z",
       "pushed_at": "2026-11-13T10:45:23Z",
       "open_issues_count": 119,
       "commits": [
@@ -193,7 +193,7 @@
           "title": "tof: a return from below the floor is a drop, and the duck stops for it",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-14T19:59:47Z",
+          "updated_at": "2026-11-15T09:32:05Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/600"
         },
@@ -273,7 +273,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-15T03:50:27Z",
+      "updated_at": "2026-11-15T18:07:45Z",
       "pushed_at": "2026-11-10T11:31:29Z",
       "open_issues_count": 61,
       "commits": [
@@ -443,13 +443,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "2f35d880e86a3fe98ccd17f20c2f1e532506a9e6",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/2f35d880e86a3fe98ccd17f20c2f1e532506a9e6"
+        "sha": "1ae1a8957c69a7d27bab95e70fca7d57abfaf848",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/1ae1a8957c69a7d27bab95e70fca7d57abfaf848"
       },
-      "updated_at": "2026-11-15T02:01:00Z",
-      "pushed_at": "2026-11-15T02:54:13Z",
-      "open_issues_count": 26,
+      "updated_at": "2026-11-15T12:52:47Z",
+      "pushed_at": "2026-11-15T10:11:18Z",
+      "open_issues_count": 27,
       "commits": [
+        {
+          "id": "1ae1a8957c69a7d27bab95e70fca7d57abfaf848",
+          "sha": "1ae1a8957c69a7d27bab95e70fca7d57abfaf848",
+          "message": "docs: track ToF drop edge memory proposal",
+          "author": "fanhao375",
+          "date": "2026-11-15T10:11:17Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/1ae1a8957c69a7d27bab95e70fca7d57abfaf848"
+        },
         {
           "id": "2f35d880e86a3fe98ccd17f20c2f1e532506a9e6",
           "sha": "2f35d880e86a3fe98ccd17f20c2f1e532506a9e6",
@@ -505,14 +513,6 @@
           "author": "fanhao375",
           "date": "2026-11-13T13:47:45Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/25c08795a220b3f5c7c18bfbfe6fddb2d01a7bbf"
-        },
-        {
-          "id": "a268b025776396a97b79ef9fb9ec28c889e0f44b",
-          "sha": "a268b025776396a97b79ef9fb9ec28c889e0f44b",
-          "message": "docs: track Microduck 0.21.1 and OS 1.4.2 releases",
-          "author": "fanhao375",
-          "date": "2026-11-13T11:46:09Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/a268b025776396a97b79ef9fb9ec28c889e0f44b"
         }
       ],
       "releases": [
@@ -595,6 +595,14 @@
       ],
       "issues": [
         {
+          "id": "59",
+          "number": 59,
+          "title": "Group buy inquiry for HAT and imu for international builder",
+          "state": "open",
+          "updated_at": "2026-11-15T09:58:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/59"
+        },
+        {
           "id": "11",
           "number": 11,
           "title": "求个微信群啊，大佬",
@@ -625,14 +633,6 @@
           "state": "closed",
           "updated_at": "2026-11-14T04:50:39Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/14"
-        },
-        {
-          "id": "24",
-          "number": 24,
-          "title": "群满了",
-          "state": "closed",
-          "updated_at": "2026-11-14T04:46:44Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/24"
         }
       ]
     },
@@ -644,7 +644,7 @@
         "sha": "09bebf9ed359f68797a15b4ed1b7166faa73d37a",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/09bebf9ed359f68797a15b4ed1b7166faa73d37a"
       },
-      "updated_at": "2026-11-14T18:38:18Z",
+      "updated_at": "2026-11-15T16:32:46Z",
       "pushed_at": "2026-11-13T21:19:30Z",
       "open_issues_count": 0,
       "commits": [
@@ -776,7 +776,7 @@
         "sha": "6ab9846ea068714678fd0e9f791f898c6b697b20",
         "url": "https://github.com/mujocolab/mjlab/commit/6ab9846ea068714678fd0e9f791f898c6b697b20"
       },
-      "updated_at": "2026-11-14T23:48:00Z",
+      "updated_at": "2026-11-15T15:52:42Z",
       "pushed_at": "2026-11-15T01:53:45Z",
       "open_issues_count": 63,
       "commits": [
@@ -933,9 +933,9 @@
         "sha": "8945bdcbc364f388e14caebf547dbf302d89e491",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/8945bdcbc364f388e14caebf547dbf302d89e491"
       },
-      "updated_at": "2026-11-14T21:17:11Z",
+      "updated_at": "2026-11-15T13:00:45Z",
       "pushed_at": "2026-11-10T18:32:06Z",
-      "open_issues_count": 21,
+      "open_issues_count": 22,
       "commits": [
         {
           "id": "8945bdcbc364f388e14caebf547dbf302d89e491",
@@ -1030,12 +1030,22 @@
       ],
       "pulls": [
         {
+          "id": "236",
+          "number": 236,
+          "title": "Add PPO critic lifecycle hooks and DistributionalPPO",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-15T18:51:02Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/236"
+        },
+        {
           "id": "275",
           "number": 275,
           "title": "Add a TensorRT backend to the ExecuTorch export",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-14T17:13:27Z",
+          "updated_at": "2026-11-15T16:48:08Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/275"
         },
@@ -1045,7 +1055,7 @@
           "title": "Add ExecuTorch export for policies",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-14T17:12:24Z",
+          "updated_at": "2026-11-15T16:48:08Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/271"
         },
@@ -1055,7 +1065,7 @@
           "title": "Return only the ONNX outputs from the GRU ONNX model",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-14T17:11:20Z",
+          "updated_at": "2026-11-15T16:48:08Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/270"
         },
@@ -1068,16 +1078,6 @@
           "updated_at": "2026-11-11T11:13:13Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/274"
-        },
-        {
-          "id": "273",
-          "number": 273,
-          "title": "SAC: capture updates and environment interaction in CUDA graphs",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-11T11:13:10Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/273"
         }
       ],
       "issues": []
