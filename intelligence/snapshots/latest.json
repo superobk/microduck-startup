@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T20:59:02Z",
+  "generated_at": "2026-11-18T07:35:33Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "e67708f754fda195a280ba18c6a39e41a2aacaa4",
-        "url": "https://github.com/superobk/microduck-startup/commit/e67708f754fda195a280ba18c6a39e41a2aacaa4"
+        "sha": "2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8",
+        "url": "https://github.com/superobk/microduck-startup/commit/2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-17T07:59:40Z",
+      "pushed_at": "2026-11-17T20:59:22Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8",
+          "sha": "2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-17T20:59:21Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8"
+        },
         {
           "id": "e67708f754fda195a280ba18c6a39e41a2aacaa4",
           "sha": "e67708f754fda195a280ba18c6a39e41a2aacaa4",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-14T18:10:34Z",
           "url": "https://github.com/superobk/microduck-startup/commit/39087731bd391f627c60df4503e9f12c02e9cd86"
-        },
-        {
-          "id": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
-          "sha": "5f9a1ea615bc1021a9a7496e14ea4332441a088f",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-14T06:31:44Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5f9a1ea615bc1021a9a7496e14ea4332441a088f"
         }
       ],
       "releases": [],
@@ -91,8 +91,8 @@
         "sha": "46c8f1f6f60edf28129f57690fea326c926f0f3c",
         "url": "https://github.com/pollen-robotics/microduck/commit/46c8f1f6f60edf28129f57690fea326c926f0f3c"
       },
-      "updated_at": "2026-11-17T17:47:29Z",
-      "pushed_at": "2026-11-17T16:07:43Z",
+      "updated_at": "2026-11-18T06:18:41Z",
+      "pushed_at": "2026-11-18T02:50:11Z",
       "open_issues_count": 121,
       "commits": [
         {
@@ -162,6 +162,14 @@
       ],
       "releases": [
         {
+          "id": "449462256",
+          "tag": "daemon-dev-stress-test",
+          "name": "daemon 0.21.1-dev.1853.3e377ee (stress-test)",
+          "published_at": "2026-11-18T02:50:12Z",
+          "prerelease": true,
+          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-stress-test"
+        },
+        {
           "id": "448287995",
           "tag": "daemon-v0.22.0",
           "name": "daemon 0.22.0",
@@ -176,17 +184,19 @@
           "published_at": "2026-11-17T10:35:37Z",
           "prerelease": true,
           "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-workout-test"
-        },
-        {
-          "id": "448869019",
-          "tag": "daemon-dev-wifi-lane",
-          "name": "daemon 0.22.0-dev.1851.6259474 (wifi-lane)",
-          "published_at": "2026-11-17T16:02:57Z",
-          "prerelease": true,
-          "url": "https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-wifi-lane"
         }
       ],
       "pulls": [
+        {
+          "id": "449",
+          "number": 449,
+          "title": "Phase-encoded policies can run as skills",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-17T21:02:14Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/449"
+        },
         {
           "id": "614",
           "number": 614,
@@ -226,16 +236,6 @@
           "updated_at": "2026-11-17T14:37:55Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/565"
-        },
-        {
-          "id": "449",
-          "number": 449,
-          "title": "Phase-encoded policies can run as skills",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-17T11:40:53Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/449"
         }
       ],
       "issues": []
@@ -418,13 +418,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "480849534e6aec83d0e7c2e00ee01e00898ef9cb",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/480849534e6aec83d0e7c2e00ee01e00898ef9cb"
+        "sha": "c01a4072a5bedb1ce2a38423ce7e852943736450",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/c01a4072a5bedb1ce2a38423ce7e852943736450"
       },
-      "updated_at": "2026-11-17T17:05:03Z",
-      "pushed_at": "2026-11-17T16:53:22Z",
+      "updated_at": "2026-11-18T06:06:05Z",
+      "pushed_at": "2026-11-18T03:07:21Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "c01a4072a5bedb1ce2a38423ce7e852943736450",
+          "sha": "c01a4072a5bedb1ce2a38423ce7e852943736450",
+          "message": "docs: track stress getup retry switch",
+          "author": "fanhao375",
+          "date": "2026-11-18T03:07:19Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c01a4072a5bedb1ce2a38423ce7e852943736450"
+        },
+        {
+          "id": "c86d1183f5d401d9cdc3b3bcec2f2979b898ee4e",
+          "sha": "c86d1183f5d401d9cdc3b3bcec2f2979b898ee4e",
+          "message": "docs: track phase-skill API69 synchronization",
+          "author": "fanhao375",
+          "date": "2026-11-17T22:02:57Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c86d1183f5d401d9cdc3b3bcec2f2979b898ee4e"
+        },
         {
           "id": "480849534e6aec83d0e7c2e00ee01e00898ef9cb",
           "sha": "480849534e6aec83d0e7c2e00ee01e00898ef9cb",
@@ -472,22 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-16T11:54:54Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/4f0d6c3e55907cf4fa6d56743d3a9bf4905a6286"
-        },
-        {
-          "id": "c95af477d2fe7d129daf80af0daa4c5fd68c8e1a",
-          "sha": "c95af477d2fe7d129daf80af0daa4c5fd68c8e1a",
-          "message": "docs: track PWM merge and NFC redraw timeout",
-          "author": "fanhao375",
-          "date": "2026-11-16T10:54:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c95af477d2fe7d129daf80af0daa4c5fd68c8e1a"
-        },
-        {
-          "id": "6354665bc7fe739e9f3ba436ea563047234231db",
-          "sha": "6354665bc7fe739e9f3ba436ea563047234231db",
-          "message": "docs: track PWM telemetry and e-ink reconnect",
-          "author": "fanhao375",
-          "date": "2026-11-16T09:52:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/6354665bc7fe739e9f3ba436ea563047234231db"
         }
       ],
       "releases": [
@@ -619,7 +619,7 @@
         "sha": "d05989b9bde32f299dffab4a8541a8092e02a960",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/d05989b9bde32f299dffab4a8541a8092e02a960"
       },
-      "updated_at": "2026-11-17T09:45:20Z",
+      "updated_at": "2026-11-17T22:41:14Z",
       "pushed_at": "2026-11-17T08:49:17Z",
       "open_issues_count": 1,
       "commits": [
@@ -748,13 +748,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "6ab9846ea068714678fd0e9f791f898c6b697b20",
-        "url": "https://github.com/mujocolab/mjlab/commit/6ab9846ea068714678fd0e9f791f898c6b697b20"
+        "sha": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
+        "url": "https://github.com/mujocolab/mjlab/commit/5e3b2e6cf1f00b37515a6658d1972e47e6059da0"
       },
-      "updated_at": "2026-11-17T16:33:31Z",
-      "pushed_at": "2026-11-17T10:56:14Z",
-      "open_issues_count": 64,
+      "updated_at": "2026-11-18T06:57:08Z",
+      "pushed_at": "2026-11-18T01:01:56Z",
+      "open_issues_count": 63,
       "commits": [
+        {
+          "id": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
+          "sha": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
+          "message": "Add G1 ankle coupled limits via fixed tendons (#1367)",
+          "author": "qiayuanl",
+          "date": "2026-11-17T23:59:34Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/5e3b2e6cf1f00b37515a6658d1972e47e6059da0"
+        },
         {
           "id": "6ab9846ea068714678fd0e9f791f898c6b697b20",
           "sha": "6ab9846ea068714678fd0e9f791f898c6b697b20",
@@ -810,14 +818,6 @@
           "author": "kevinzakka",
           "date": "2026-11-12T01:00:14Z",
           "url": "https://github.com/mujocolab/mjlab/commit/628608cb6f945a1d60f85f2493992f7765087488"
-        },
-        {
-          "id": "cca75c423048d2f784044698dc9abbd80cc7a205",
-          "sha": "cca75c423048d2f784044698dc9abbd80cc7a205",
-          "message": "Bump uv, setup-uv and ruff, and drop pyright. (#1320)",
-          "author": "kevinzakka",
-          "date": "2026-11-12T00:44:58Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/cca75c423048d2f784044698dc9abbd80cc7a205"
         }
       ],
       "releases": [
@@ -848,6 +848,26 @@
       ],
       "pulls": [
         {
+          "id": "1368",
+          "number": 1368,
+          "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-18T01:02:07Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1368"
+        },
+        {
+          "id": "1367",
+          "number": 1367,
+          "title": "Add G1 ankle coupled limits via fixed tendons",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-17T23:59:36Z",
+          "merged_at": "2026-11-17T23:59:34Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1367"
+        },
+        {
           "id": "1230",
           "number": 1230,
           "title": "Add opt-in substep observation delay",
@@ -856,26 +876,6 @@
           "updated_at": "2026-11-17T06:12:23Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1230"
-        },
-        {
-          "id": "1368",
-          "number": 1368,
-          "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-17T05:36:26Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1368"
-        },
-        {
-          "id": "1367",
-          "number": 1367,
-          "title": "Add G1 ankle coupled limits via fixed tendons",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-17T00:19:05Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1367"
         },
         {
           "id": "1365",
@@ -908,7 +908,7 @@
         "sha": "c88d9737c1f03eb08c89a5b6acbc3e87889d7748",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/c88d9737c1f03eb08c89a5b6acbc3e87889d7748"
       },
-      "updated_at": "2026-11-17T10:09:37Z",
+      "updated_at": "2026-11-18T07:12:36Z",
       "pushed_at": "2026-11-17T17:14:42Z",
       "open_issues_count": 43,
       "commits": [
@@ -1005,6 +1005,16 @@
       ],
       "pulls": [
         {
+          "id": "270",
+          "number": 270,
+          "title": "Return only the ONNX outputs from the GRU ONNX model",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-18T01:02:07Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/270"
+        },
+        {
           "id": "274",
           "number": 274,
           "title": "SAC: distributed training and CNN support on top of the CUDA graph optimizations",
@@ -1043,16 +1053,6 @@
           "updated_at": "2026-11-16T16:53:51Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/298"
-        },
-        {
-          "id": "297",
-          "number": 297,
-          "title": "Stop all distributed ranks on nonfinite environment data",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-16T16:33:37Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/297"
         }
       ],
       "issues": []
