@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T20:36:42Z",
+  "generated_at": "2026-11-19T07:31:21Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0bfab27c924c053b61edaad4ae88e4d019050308",
-        "url": "https://github.com/superobk/microduck-startup/commit/0bfab27c924c053b61edaad4ae88e4d019050308"
+        "sha": "af12062b440b82f705e873702728bed5fac9ca42",
+        "url": "https://github.com/superobk/microduck-startup/commit/af12062b440b82f705e873702728bed5fac9ca42"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-18T07:35:48Z",
+      "pushed_at": "2026-11-18T20:36:59Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "af12062b440b82f705e873702728bed5fac9ca42",
+          "sha": "af12062b440b82f705e873702728bed5fac9ca42",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-18T20:36:58Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/af12062b440b82f705e873702728bed5fac9ca42"
+        },
         {
           "id": "0bfab27c924c053b61edaad4ae88e4d019050308",
           "sha": "0bfab27c924c053b61edaad4ae88e4d019050308",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-15T06:41:06Z",
           "url": "https://github.com/superobk/microduck-startup/commit/2949dfc37683b8c82f44f239e6bb5077a13b0dc9"
-        },
-        {
-          "id": "62eb1e18e39da37276a84c95e10ff572a67b25e7",
-          "sha": "62eb1e18e39da37276a84c95e10ff572a67b25e7",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-14T22:29:36Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/62eb1e18e39da37276a84c95e10ff572a67b25e7"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-18T19:29:11Z",
+      "updated_at": "2026-11-19T07:22:08Z",
       "pushed_at": "2026-11-18T10:06:23Z",
       "open_issues_count": 119,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-18T15:01:33Z",
+      "updated_at": "2026-11-19T05:05:32Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 61,
       "commits": [
@@ -380,7 +380,7 @@
         "sha": "f336dc0a984e8c7bf46e350cb541de54fe1bf9f8",
         "url": "https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8"
       },
-      "updated_at": "2026-10-30T04:33:54Z",
+      "updated_at": "2026-11-19T03:34:09Z",
       "pushed_at": "2026-08-30T08:07:55Z",
       "open_issues_count": 0,
       "commits": [
@@ -418,13 +418,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "de8b67ddcd24e4b01069a174417ce9f8a7ae2c0e",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/de8b67ddcd24e4b01069a174417ce9f8a7ae2c0e"
+        "sha": "0c8c1f0c450a0519e2381c74ef6c7d87f1572919",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/0c8c1f0c450a0519e2381c74ef6c7d87f1572919"
       },
-      "updated_at": "2026-11-18T16:19:36Z",
-      "pushed_at": "2026-11-18T11:06:51Z",
-      "open_issues_count": 27,
+      "updated_at": "2026-11-19T06:22:37Z",
+      "pushed_at": "2026-11-19T01:38:14Z",
+      "open_issues_count": 32,
       "commits": [
+        {
+          "id": "0c8c1f0c450a0519e2381c74ef6c7d87f1572919",
+          "sha": "0c8c1f0c450a0519e2381c74ef6c7d87f1572919",
+          "message": "docs: track closed ToF range proposal",
+          "author": "fanhao375",
+          "date": "2026-11-19T01:38:02Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/0c8c1f0c450a0519e2381c74ef6c7d87f1572919"
+        },
         {
           "id": "de8b67ddcd24e4b01069a174417ce9f8a7ae2c0e",
           "sha": "de8b67ddcd24e4b01069a174417ce9f8a7ae2c0e",
@@ -480,14 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-16T16:58:34Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/29a8230a6eb52c921bafb7eba339dff2ac9fde9b"
-        },
-        {
-          "id": "432c32490d6b3b1ce330e678739c4e221b675adb",
-          "sha": "432c32490d6b3b1ce330e678739c4e221b675adb",
-          "message": "docs: track Yocto shared build cache proposal",
-          "author": "fanhao375",
-          "date": "2026-11-16T15:02:38Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/432c32490d6b3b1ce330e678739c4e221b675adb"
         }
       ],
       "releases": [
@@ -518,111 +518,78 @@
       ],
       "pulls": [
         {
-          "id": "58",
-          "number": 58,
-          "title": "Cubie A7Z：接入 IMX219 采集与 4:3 中控预览",
+          "id": "65",
+          "number": 65,
+          "title": "feat(mediad): 提供可选夜间曝光源码补丁",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-19T07:21:48Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/65"
+        },
+        {
+          "id": "64",
+          "number": 64,
+          "title": "feat(studio): 备份恢复、安全关机与证书下载入口",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-19T07:20:37Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/64"
+        },
+        {
+          "id": "63",
+          "number": 63,
+          "title": "feat(studio): IMU HOME 原位验证与校准状态兼容",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-13T08:26:43Z",
+          "updated_at": "2026-11-19T07:20:34Z",
           "merged_at": null,
-          "url": "https://github.com/fanhao375/microduck-replica/pull/58"
+          "url": "https://github.com/fanhao375/microduck-replica/pull/63"
         },
         {
-          "id": "55",
-          "number": 55,
-          "title": "feat: 添加 Orange Pi Zero 3W 完整预装镜像与 Studio 首次设密",
+          "id": "62",
+          "number": 62,
+          "title": "feat(studio): 手机 AI 语音、头嘴联动与摄像头识图",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-12T07:32:17Z",
+          "updated_at": "2026-11-19T07:20:31Z",
           "merged_at": null,
-          "url": "https://github.com/fanhao375/microduck-replica/pull/55"
+          "url": "https://github.com/fanhao375/microduck-replica/pull/62"
         },
         {
-          "id": "52",
-          "number": 52,
-          "title": "feat: phone console (/m) with HTTPS, phone-mic ASR and offline hotspot",
-          "state": "closed",
+          "id": "61",
+          "number": 61,
+          "title": "feat(studio): 添加豆包 TTS / Agent Plan 语音回复与浏览器试听",
+          "state": "open",
           "draft": false,
-          "updated_at": "2026-11-12T06:46:24Z",
-          "merged_at": "2026-11-12T06:46:24Z",
-          "url": "https://github.com/fanhao375/microduck-replica/pull/52"
-        },
-        {
-          "id": "54",
-          "number": 54,
-          "title": "feat: 增加 Radxa Cubie A7Z 适配源码与整机预览镜像",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-12T06:42:55Z",
-          "merged_at": "2026-11-12T06:42:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/pull/54"
-        },
-        {
-          "id": "47",
-          "number": 47,
-          "title": "增加 IMU 的 DXL 2.0 协议兼容",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-10-22T09:32:30Z",
-          "merged_at": "2026-10-22T09:32:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/pull/47"
+          "updated_at": "2026-11-19T06:02:50Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/61"
         }
       ],
-      "issues": [
-        {
-          "id": "60",
-          "number": 60,
-          "title": "请教：如何绕过 robotd 的部署白名单，部署自己训练的非官方动作？",
-          "state": "open",
-          "updated_at": "2026-11-17T07:53:15Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/60"
-        },
-        {
-          "id": "59",
-          "number": 59,
-          "title": "Group buy inquiry for HAT and imu for international builder",
-          "state": "closed",
-          "updated_at": "2026-11-16T12:24:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/59"
-        },
-        {
-          "id": "56",
-          "number": 56,
-          "title": "PCBway IMU",
-          "state": "open",
-          "updated_at": "2026-11-16T03:36:20Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/56"
-        },
-        {
-          "id": "11",
-          "number": 11,
-          "title": "求个微信群啊，大佬",
-          "state": "closed",
-          "updated_at": "2026-11-14T04:50:46Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/11"
-        },
-        {
-          "id": "13",
-          "number": 13,
-          "title": "求拉群",
-          "state": "closed",
-          "updated_at": "2026-11-14T04:50:44Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/13"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "joeynyc/awesome-microduck",
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "d05989b9bde32f299dffab4a8541a8092e02a960",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/d05989b9bde32f299dffab4a8541a8092e02a960"
+        "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec"
       },
       "updated_at": "2026-11-18T08:26:41Z",
-      "pushed_at": "2026-11-17T08:49:17Z",
+      "pushed_at": "2026-11-18T20:51:41Z",
       "open_issues_count": 1,
       "commits": [
+        {
+          "id": "944ad8fad819756d3d7f98b8458b812dafb466ec",
+          "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
+          "message": "Add a Gazebo port, a Windows training setup and an iOS Studio shell (#52)",
+          "author": "joeynyc",
+          "date": "2026-11-18T20:51:38Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec"
+        },
         {
           "id": "d05989b9bde32f299dffab4a8541a8092e02a960",
           "sha": "d05989b9bde32f299dffab4a8541a8092e02a960",
@@ -678,18 +645,20 @@
           "author": "speccy88",
           "date": "2026-11-05T19:48:44Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/673b9ffde7bc01df77c6573de235ff282564de1e"
-        },
-        {
-          "id": "cf618eae53d3128b721bfc22eeebc62c868da817",
-          "sha": "cf618eae53d3128b721bfc22eeebc62c868da817",
-          "message": "Add the Sock Heist event and ten community entries (#43)",
-          "author": "joeynyc",
-          "date": "2026-11-03T08:24:32Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/cf618eae53d3128b721bfc22eeebc62c868da817"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "52",
+          "number": 52,
+          "title": "Add a Gazebo port, a Windows training setup and an iOS Studio shell",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-18T20:51:42Z",
+          "merged_at": "2026-11-18T20:51:39Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/52"
+        },
         {
           "id": "51",
           "number": 51,
@@ -729,16 +698,6 @@
           "updated_at": "2026-11-13T21:19:31Z",
           "merged_at": "2026-11-13T21:19:29Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/48"
-        },
-        {
-          "id": "32",
-          "number": 32,
-          "title": "README: add X follow link",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-13T14:47:31Z",
-          "merged_at": null,
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/32"
         }
       ],
       "issues": []
@@ -751,8 +710,8 @@
         "sha": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
         "url": "https://github.com/mujocolab/mjlab/commit/5e3b2e6cf1f00b37515a6658d1972e47e6059da0"
       },
-      "updated_at": "2026-11-18T14:58:40Z",
-      "pushed_at": "2026-11-18T11:04:48Z",
+      "updated_at": "2026-11-19T05:05:49Z",
+      "pushed_at": "2026-11-19T06:07:54Z",
       "open_issues_count": 63,
       "commits": [
         {
@@ -848,6 +807,16 @@
       ],
       "pulls": [
         {
+          "id": "1274",
+          "number": 1274,
+          "title": "Score tracking body velocities relative to the anchor heading.",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-19T06:08:11Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1274"
+        },
+        {
           "id": "1368",
           "number": 1368,
           "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
@@ -886,16 +855,6 @@
           "updated_at": "2026-11-14T19:29:54Z",
           "merged_at": "2026-11-14T19:29:51Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1365"
-        },
-        {
-          "id": "1359",
-          "number": 1359,
-          "title": "Reset recurrent policies on truncation when the viewer drives a raw env.",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-14T18:45:40Z",
-          "merged_at": "2026-11-14T18:45:37Z",
-          "url": "https://github.com/mujocolab/mjlab/pull/1359"
         }
       ],
       "issues": []
@@ -908,7 +867,7 @@
         "sha": "c88d9737c1f03eb08c89a5b6acbc3e87889d7748",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/c88d9737c1f03eb08c89a5b6acbc3e87889d7748"
       },
-      "updated_at": "2026-11-18T14:58:41Z",
+      "updated_at": "2026-11-19T06:55:14Z",
       "pushed_at": "2026-11-17T17:14:42Z",
       "open_issues_count": 42,
       "commits": [
