@@ -1,6 +1,6 @@
 # Microduck Intelligence Digest
 
-Generated: `2026-11-19T20:42:15Z`
+Generated: `2026-11-20T07:23:24Z`
 
 The pinned reproduction baseline is not changed by this digest. Review upstream changes in a worktree before updating pins.
 
@@ -8,40 +8,39 @@ The pinned reproduction baseline is not changed by this digest. Review upstream 
 
 ### superobk/microduck-startup
 
-- Commit `0e4776660086` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/0e4776660086f738b5cbab7ffd1a18cac7882296)
-
-### pollen-robotics/microduck
-
-- Release [daemon 0.21.1-dev.1858.4b002cb (onnx-version-stamp)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-onnx-version-stamp) (prerelease)
-- Release [daemon 0.23.0-dev.1859.c916b0a (docs/ble-robustness-review)](https://github.com/pollen-robotics/microduck/releases/tag/daemon-dev-docs/ble-robustness-review) (prerelease)
-- PR #619 [docs: a robustness review of the BLE stack](https://github.com/pollen-robotics/microduck/pull/619) — open
-- PR #618 [Load ONNX Runtime by its versioned name; read the OS image's version stamp](https://github.com/pollen-robotics/microduck/pull/618) — open
-- PR #617 [docs: measure duck-sim walking and turning on v8 and v10](https://github.com/pollen-robotics/microduck/pull/617) — open
+- Commit `bb6bb2d86d19` [chore(intel): refresh Microduck sources \[skip ci\]](https://github.com/superobk/microduck-startup/commit/bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f)
 
 ### fanhao375/microduck-replica
 
-- Commit `366137ec45cd` [docs: record completed Yocto development publication](https://github.com/fanhao375/microduck-replica/commit/366137ec45cdfe88662881952d53538c60c760c6)
-- Commit `b378b0cd7bc4` [docs: track Yocto parser and functional test proposal](https://github.com/fanhao375/microduck-replica/commit/b378b0cd7bc4fb3e76e3388e7ee4fc9adb02342d)
-- Commit `71a37fdbfbbb` [docs: track Yocto recipes and BLE robustness review](https://github.com/fanhao375/microduck-replica/commit/71a37fdbfbbb36d24e83f87516a6da62bcd60f66)
-- Commit `eab0e633f4c9` [docs: track Yocto scope fixes and official source fork](https://github.com/fanhao375/microduck-replica/commit/eab0e633f4c9a82a2e7f869e120a27c2ef479693)
-- Commit `efb0b3d278a5` [接线图 3D：模型压缩到 ~4.5MB、静止时不重绘，页面更流畅](https://github.com/fanhao375/microduck-replica/commit/efb0b3d278a5d8bd67b2ac3bc383b75a07302408)
-- Commit `95b1c37057d1` [docs: track ORT proposals and Yocto validation sources](https://github.com/fanhao375/microduck-replica/commit/95b1c37057d15d1745ece69d5684f48ec2e912da)
-- Commit `76fc79a9c879` [docs: track Yocto source changes and ORT development build](https://github.com/fanhao375/microduck-replica/commit/76fc79a9c879725177fd224a973c6b8e8f06000a)
-- Commit `b926630ed0d9` [docs: track Yocto cache merge and controller report](https://github.com/fanhao375/microduck-replica/commit/b926630ed0d95a2a8a57329e7723f4ee2690a7ea)
+- Release [2026.11.20 正式软件更新 · ZERO 3W 1104 原卡在线升级](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.20)
+- Release [20261104 正式镜像 · IMU站姿重标与热点恢复](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261104)
+- Release [2026.11.4 测试软件 · IMU方向核验与站姿重标](https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.4) (prerelease)
+- Commit `4840c350b7e4` [docs: track replica integrations and restored 1104 Latest](https://github.com/fanhao375/microduck-replica/commit/4840c350b7e494d830f689dd3f190798199d454e)
+- Commit `7326be96ac93` [Credit wwwgrass for five Studio and camera contributions](https://github.com/fanhao375/microduck-replica/commit/7326be96ac93155c68138ab27397c325405f218d)
+- Commit `4e86bf8992ab` [Point current image status to the 1104 release](https://github.com/fanhao375/microduck-replica/commit/4e86bf8992ab91a35ff14b2b8a801a8e7a020d97)
+- Commit `94a625115ce3` [Qualify HOME IMU writes against fresh state and preserve 1104 fallback](https://github.com/fanhao375/microduck-replica/commit/94a625115ce3b07d95b8fd23977fc490558f7adb)
+- Commit `331bac9f932e` [Keep Studio device maintenance and mobile voice controls easy to find](https://github.com/fanhao375/microduck-replica/commit/331bac9f932e10e98822bb0fed055746a4690642)
+- Commit `6ff01cecd636` [Pin the optional IMX219 exposure patch to a tested public firmware revision](https://github.com/fanhao375/microduck-replica/commit/6ff01cecd636eef063a30aff1b7b5ae720a7c075)
+- Commit `76e5da63a766` [fix(studio): bind voice, vision and motion to operator consent](https://github.com/fanhao375/microduck-replica/commit/76e5da63a766a7d8c70466d2feb15f6eed88c989)
+- Commit `78919d9cf974` [fix(studio): verify and roll back private maintenance operations](https://github.com/fanhao375/microduck-replica/commit/78919d9cf974aff71492924470ee358b1c79bd25)
+
+### mujocolab/mjlab
+
+- Commit `55182f0903b8` [Score tracking body velocities relative to the anchor heading. (#1274)](https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d)
 
 ### leggedrobotics/rsl_rl
 
-- PR #303 [Add Alloy to the learning environments list](https://github.com/leggedrobotics/rsl_rl/pull/303) — open
+- PR #304 [Raise the default SAC learning rates to 3e-4](https://github.com/leggedrobotics/rsl_rl/pull/304) — open
 
 ## Repository heads
 
-- **superobk/microduck-startup** `main` → [0e4776660086](https://github.com/superobk/microduck-startup/commit/0e4776660086f738b5cbab7ffd1a18cac7882296); pushed `2026-11-19T07:31:36Z`
+- **superobk/microduck-startup** `main` → [bb6bb2d86d19](https://github.com/superobk/microduck-startup/commit/bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f); pushed `2026-11-19T20:42:38Z`
 - **pollen-robotics/microduck** `main` → [56424efe58b7](https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182); pushed `2026-11-19T15:50:15Z`
 - **pollen-robotics/microduck_rl** `develop` → [0daab160d3fb](https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e); pushed `2026-11-17T06:28:41Z`
 - **IronSpiderMan/MicroDuckModels** `main` → [f336dc0a984e](https://github.com/IronSpiderMan/MicroDuckModels/commit/f336dc0a984e8c7bf46e350cb541de54fe1bf9f8); pushed `2026-08-30T08:07:55Z`
-- **fanhao375/microduck-replica** `master` → [366137ec45cd](https://github.com/fanhao375/microduck-replica/commit/366137ec45cdfe88662881952d53538c60c760c6); pushed `2026-11-19T17:48:12Z`
+- **fanhao375/microduck-replica** `master` → [4840c350b7e4](https://github.com/fanhao375/microduck-replica/commit/4840c350b7e494d830f689dd3f190798199d454e); pushed `2026-11-20T06:53:23Z`
 - **joeynyc/awesome-microduck** `main` → [944ad8fad819](https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec); pushed `2026-11-18T20:51:41Z`
-- **mujocolab/mjlab** `main` → [5e3b2e6cf1f0](https://github.com/mujocolab/mjlab/commit/5e3b2e6cf1f00b37515a6658d1972e47e6059da0); pushed `2026-11-19T10:54:53Z`
+- **mujocolab/mjlab** `main` → [55182f0903b8](https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d); pushed `2026-11-20T05:41:42Z`
 - **leggedrobotics/rsl_rl** `main` → [c88d9737c1f0](https://github.com/leggedrobotics/rsl_rl/commit/c88d9737c1f03eb08c89a5b6acbc3e87889d7748); pushed `2026-11-17T17:14:42Z`
 
 ## Social feeds

@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T20:42:15Z",
+  "generated_at": "2026-11-20T07:23:24Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "0e4776660086f738b5cbab7ffd1a18cac7882296",
-        "url": "https://github.com/superobk/microduck-startup/commit/0e4776660086f738b5cbab7ffd1a18cac7882296"
+        "sha": "bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f",
+        "url": "https://github.com/superobk/microduck-startup/commit/bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-19T07:31:36Z",
+      "pushed_at": "2026-11-19T20:42:38Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f",
+          "sha": "bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-19T20:42:36Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f"
+        },
         {
           "id": "0e4776660086f738b5cbab7ffd1a18cac7882296",
           "sha": "0e4776660086f738b5cbab7ffd1a18cac7882296",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-16T06:37:30Z",
           "url": "https://github.com/superobk/microduck-startup/commit/218bdfa914aef8c0a6da1733a9ca0774bdc928fd"
-        },
-        {
-          "id": "7ca23a297c5c5d09fb3cf2cbbfe23b224d4be6a8",
-          "sha": "7ca23a297c5c5d09fb3cf2cbbfe23b224d4be6a8",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-15T18:54:37Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/7ca23a297c5c5d09fb3cf2cbbfe23b224d4be6a8"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-19T18:22:20Z",
+      "updated_at": "2026-11-20T07:11:26Z",
       "pushed_at": "2026-11-19T15:50:15Z",
       "open_issues_count": 122,
       "commits": [
@@ -418,102 +418,102 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "366137ec45cdfe88662881952d53538c60c760c6",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/366137ec45cdfe88662881952d53538c60c760c6"
+        "sha": "4840c350b7e494d830f689dd3f190798199d454e",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/4840c350b7e494d830f689dd3f190798199d454e"
       },
-      "updated_at": "2026-11-19T20:07:45Z",
-      "pushed_at": "2026-11-19T17:48:12Z",
-      "open_issues_count": 32,
+      "updated_at": "2026-11-20T07:09:49Z",
+      "pushed_at": "2026-11-20T06:53:23Z",
+      "open_issues_count": 25,
       "commits": [
         {
-          "id": "366137ec45cdfe88662881952d53538c60c760c6",
-          "sha": "366137ec45cdfe88662881952d53538c60c760c6",
-          "message": "docs: record completed Yocto development publication",
+          "id": "4840c350b7e494d830f689dd3f190798199d454e",
+          "sha": "4840c350b7e494d830f689dd3f190798199d454e",
+          "message": "docs: track replica integrations and restored 1104 Latest",
           "author": "fanhao375",
-          "date": "2026-11-19T17:48:01Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/366137ec45cdfe88662881952d53538c60c760c6"
+          "date": "2026-11-20T06:53:21Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/4840c350b7e494d830f689dd3f190798199d454e"
         },
         {
-          "id": "b378b0cd7bc4fb3e76e3388e7ee4fc9adb02342d",
-          "sha": "b378b0cd7bc4fb3e76e3388e7ee4fc9adb02342d",
-          "message": "docs: track Yocto parser and functional test proposal",
+          "id": "7326be96ac93155c68138ab27397c325405f218d",
+          "sha": "7326be96ac93155c68138ab27397c325405f218d",
+          "message": "Credit wwwgrass for five Studio and camera contributions",
           "author": "fanhao375",
-          "date": "2026-11-19T16:48:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/b378b0cd7bc4fb3e76e3388e7ee4fc9adb02342d"
+          "date": "2026-11-20T06:43:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7326be96ac93155c68138ab27397c325405f218d"
         },
         {
-          "id": "71a37fdbfbbb36d24e83f87516a6da62bcd60f66",
-          "sha": "71a37fdbfbbb36d24e83f87516a6da62bcd60f66",
-          "message": "docs: track Yocto recipes and BLE robustness review",
+          "id": "4e86bf8992ab91a35ff14b2b8a801a8e7a020d97",
+          "sha": "4e86bf8992ab91a35ff14b2b8a801a8e7a020d97",
+          "message": "Point current image status to the 1104 release",
           "author": "fanhao375",
-          "date": "2026-11-19T15:50:33Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/71a37fdbfbbb36d24e83f87516a6da62bcd60f66"
+          "date": "2026-11-20T06:26:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/4e86bf8992ab91a35ff14b2b8a801a8e7a020d97"
         },
         {
-          "id": "eab0e633f4c9a82a2e7f869e120a27c2ef479693",
-          "sha": "eab0e633f4c9a82a2e7f869e120a27c2ef479693",
-          "message": "docs: track Yocto scope fixes and official source fork",
+          "id": "94a625115ce3b07d95b8fd23977fc490558f7adb",
+          "sha": "94a625115ce3b07d95b8fd23977fc490558f7adb",
+          "message": "Qualify HOME IMU writes against fresh state and preserve 1104 fallback",
           "author": "fanhao375",
-          "date": "2026-11-19T14:55:17Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/eab0e633f4c9a82a2e7f869e120a27c2ef479693"
+          "date": "2026-11-20T06:21:22Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/94a625115ce3b07d95b8fd23977fc490558f7adb"
         },
         {
-          "id": "efb0b3d278a5d8bd67b2ac3bc383b75a07302408",
-          "sha": "efb0b3d278a5d8bd67b2ac3bc383b75a07302408",
-          "message": "接线图 3D：模型压缩到 ~4.5MB、静止时不重绘，页面更流畅",
+          "id": "331bac9f932e10e98822bb0fed055746a4690642",
+          "sha": "331bac9f932e10e98822bb0fed055746a4690642",
+          "message": "Keep Studio device maintenance and mobile voice controls easy to find",
           "author": "fanhao375",
-          "date": "2026-11-19T13:06:36Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/efb0b3d278a5d8bd67b2ac3bc383b75a07302408"
+          "date": "2026-11-20T06:21:20Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/331bac9f932e10e98822bb0fed055746a4690642"
         },
         {
-          "id": "95b1c37057d15d1745ece69d5684f48ec2e912da",
-          "sha": "95b1c37057d15d1745ece69d5684f48ec2e912da",
-          "message": "docs: track ORT proposals and Yocto validation sources",
+          "id": "6ff01cecd636eef063a30aff1b7b5ae720a7c075",
+          "sha": "6ff01cecd636eef063a30aff1b7b5ae720a7c075",
+          "message": "Pin the optional IMX219 exposure patch to a tested public firmware revision",
           "author": "fanhao375",
-          "date": "2026-11-19T11:48:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/95b1c37057d15d1745ece69d5684f48ec2e912da"
+          "date": "2026-11-20T06:21:00Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/6ff01cecd636eef063a30aff1b7b5ae720a7c075"
         },
         {
-          "id": "76fc79a9c879725177fd224a973c6b8e8f06000a",
-          "sha": "76fc79a9c879725177fd224a973c6b8e8f06000a",
-          "message": "docs: track Yocto source changes and ORT development build",
+          "id": "76e5da63a766a7d8c70466d2feb15f6eed88c989",
+          "sha": "76e5da63a766a7d8c70466d2feb15f6eed88c989",
+          "message": "fix(studio): bind voice, vision and motion to operator consent",
           "author": "fanhao375",
-          "date": "2026-11-19T10:51:07Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/76fc79a9c879725177fd224a973c6b8e8f06000a"
+          "date": "2026-11-20T06:20:13Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/76e5da63a766a7d8c70466d2feb15f6eed88c989"
         },
         {
-          "id": "b926630ed0d95a2a8a57329e7723f4ee2690a7ea",
-          "sha": "b926630ed0d95a2a8a57329e7723f4ee2690a7ea",
-          "message": "docs: track Yocto cache merge and controller report",
+          "id": "78919d9cf974aff71492924470ee358b1c79bd25",
+          "sha": "78919d9cf974aff71492924470ee358b1c79bd25",
+          "message": "fix(studio): verify and roll back private maintenance operations",
           "author": "fanhao375",
-          "date": "2026-11-19T09:46:24Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/b926630ed0d95a2a8a57329e7723f4ee2690a7ea"
+          "date": "2026-11-20T06:18:43Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/78919d9cf974aff71492924470ee358b1c79bd25"
         }
       ],
       "releases": [
         {
-          "id": "442696724",
-          "tag": "microduck-replica-image-zero3w-20261112-rc4",
-          "name": "Radxa ZERO 3W 专用 · Microduck 20261112 RC4 · 总览诊断",
-          "published_at": "2026-11-12T09:39:49Z",
-          "prerelease": true,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-zero3w-20261112-rc4"
+          "id": "452238504",
+          "tag": "microduck-software-v2026.11.20",
+          "name": "2026.11.20 正式软件更新 · ZERO 3W 1104 原卡在线升级",
+          "published_at": "2026-11-20T03:40:08Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.20"
         },
         {
-          "id": "442613888",
-          "tag": "microduck-replica-image-zero3w-20261112-rc2",
-          "name": "Radxa ZERO 3W 专用 · Microduck 20261112 RC2",
-          "published_at": "2026-11-12T08:05:48Z",
-          "prerelease": true,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-zero3w-20261112-rc2"
+          "id": "433776261",
+          "tag": "microduck-replica-image-20261104",
+          "name": "20261104 正式镜像 · IMU站姿重标与热点恢复",
+          "published_at": "2026-11-04T10:57:46Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261104"
         },
         {
-          "id": "440037934",
-          "tag": "microduck-replica-image-20261110rc1",
-          "name": "Microduck 20261110 RC1 · IMU 标定修复候选镜像",
-          "published_at": "2026-11-10T07:22:31Z",
+          "id": "433776308",
+          "tag": "microduck-software-v2026.11.4",
+          "name": "2026.11.4 测试软件 · IMU方向核验与站姿重标",
+          "published_at": "2026-11-04T10:57:35Z",
           "prerelease": true,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-replica-image-20261110rc1"
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.4"
         }
       ],
       "pulls": [
@@ -521,50 +521,50 @@
           "id": "65",
           "number": 65,
           "title": "feat(mediad): 提供可选夜间曝光源码补丁",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-19T07:21:48Z",
-          "merged_at": null,
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-20T06:34:29Z",
+          "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/65"
         },
         {
           "id": "64",
           "number": 64,
           "title": "feat(studio): 备份恢复、安全关机与证书下载入口",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-19T07:20:37Z",
-          "merged_at": null,
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-20T06:34:29Z",
+          "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/64"
         },
         {
           "id": "63",
           "number": 63,
           "title": "feat(studio): IMU HOME 原位验证与校准状态兼容",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-19T07:20:34Z",
-          "merged_at": null,
+          "updated_at": "2026-11-20T06:34:29Z",
+          "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/63"
         },
         {
           "id": "62",
           "number": 62,
           "title": "feat(studio): 手机 AI 语音、头嘴联动与摄像头识图",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-19T07:20:31Z",
-          "merged_at": null,
+          "updated_at": "2026-11-20T06:34:29Z",
+          "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/62"
         },
         {
           "id": "61",
           "number": 61,
           "title": "feat(studio): 添加豆包 TTS / Agent Plan 语音回复与浏览器试听",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-19T06:02:50Z",
-          "merged_at": null,
+          "updated_at": "2026-11-20T06:34:29Z",
+          "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/61"
         }
       ],
@@ -578,7 +578,7 @@
         "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec"
       },
-      "updated_at": "2026-11-19T15:04:18Z",
+      "updated_at": "2026-11-20T02:04:28Z",
       "pushed_at": "2026-11-18T20:51:41Z",
       "open_issues_count": 1,
       "commits": [
@@ -707,13 +707,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
-        "url": "https://github.com/mujocolab/mjlab/commit/5e3b2e6cf1f00b37515a6658d1972e47e6059da0"
+        "sha": "55182f0903b8359033fca90560aab871c417465d",
+        "url": "https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d"
       },
-      "updated_at": "2026-11-19T19:19:31Z",
-      "pushed_at": "2026-11-19T10:54:53Z",
-      "open_issues_count": 65,
+      "updated_at": "2026-11-20T04:14:14Z",
+      "pushed_at": "2026-11-20T05:41:42Z",
+      "open_issues_count": 64,
       "commits": [
+        {
+          "id": "55182f0903b8359033fca90560aab871c417465d",
+          "sha": "55182f0903b8359033fca90560aab871c417465d",
+          "message": "Score tracking body velocities relative to the anchor heading. (#1274)",
+          "author": "qiayuanl",
+          "date": "2026-11-20T05:39:33Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d"
+        },
         {
           "id": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
           "sha": "5e3b2e6cf1f00b37515a6658d1972e47e6059da0",
@@ -769,14 +777,6 @@
           "author": "kevinzakka",
           "date": "2026-11-12T01:44:43Z",
           "url": "https://github.com/mujocolab/mjlab/commit/51d54fcc029dbf537a4f090413be0ba07d78e9a9"
-        },
-        {
-          "id": "628608cb6f945a1d60f85f2493992f7765087488",
-          "sha": "628608cb6f945a1d60f85f2493992f7765087488",
-          "message": "Upgrade ty to 0.0.101. (#1321)",
-          "author": "kevinzakka",
-          "date": "2026-11-12T01:00:14Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/628608cb6f945a1d60f85f2493992f7765087488"
         }
       ],
       "releases": [
@@ -810,10 +810,10 @@
           "id": "1274",
           "number": 1274,
           "title": "Score tracking body velocities relative to the anchor heading.",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-19T09:37:22Z",
-          "merged_at": null,
+          "updated_at": "2026-11-20T05:39:36Z",
+          "merged_at": "2026-11-20T05:39:33Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1274"
         },
         {
@@ -867,9 +867,9 @@
         "sha": "c88d9737c1f03eb08c89a5b6acbc3e87889d7748",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/c88d9737c1f03eb08c89a5b6acbc3e87889d7748"
       },
-      "updated_at": "2026-11-19T16:37:27Z",
+      "updated_at": "2026-11-19T23:46:59Z",
       "pushed_at": "2026-11-17T17:14:42Z",
-      "open_issues_count": 43,
+      "open_issues_count": 44,
       "commits": [
         {
           "id": "c88d9737c1f03eb08c89a5b6acbc3e87889d7748",
@@ -964,6 +964,16 @@
       ],
       "pulls": [
         {
+          "id": "304",
+          "number": 304,
+          "title": "Raise the default SAC learning rates to 3e-4",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-19T23:46:41Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/304"
+        },
+        {
           "id": "303",
           "number": 303,
           "title": "Add Alloy to the learning environments list",
@@ -1002,16 +1012,6 @@
           "updated_at": "2026-11-17T17:14:42Z",
           "merged_at": "2026-11-17T17:14:42Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/274"
-        },
-        {
-          "id": "302",
-          "number": 302,
-          "title": "Add optional dynamic batch size to ONNX policy export",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-16T17:25:54Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/302"
         }
       ],
       "issues": []
