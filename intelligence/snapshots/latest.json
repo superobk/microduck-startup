@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T20:26:32Z",
+  "generated_at": "2026-11-21T07:15:39Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "067da712dfd6e402b90d8039473b3913ce1991bf",
-        "url": "https://github.com/superobk/microduck-startup/commit/067da712dfd6e402b90d8039473b3913ce1991bf"
+        "sha": "c7268e2cfee2de036ba1082923753c9ec50ce370",
+        "url": "https://github.com/superobk/microduck-startup/commit/c7268e2cfee2de036ba1082923753c9ec50ce370"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-20T07:23:38Z",
+      "pushed_at": "2026-11-20T20:26:51Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "c7268e2cfee2de036ba1082923753c9ec50ce370",
+          "sha": "c7268e2cfee2de036ba1082923753c9ec50ce370",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-20T20:26:50Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/c7268e2cfee2de036ba1082923753c9ec50ce370"
+        },
         {
           "id": "067da712dfd6e402b90d8039473b3913ce1991bf",
           "sha": "067da712dfd6e402b90d8039473b3913ce1991bf",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-17T07:59:39Z",
           "url": "https://github.com/superobk/microduck-startup/commit/e67708f754fda195a280ba18c6a39e41a2aacaa4"
-        },
-        {
-          "id": "5a34540bdf6f97ab3db3a5eb61d3fe705d838d13",
-          "sha": "5a34540bdf6f97ab3db3a5eb61d3fe705d838d13",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-16T22:10:50Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/5a34540bdf6f97ab3db3a5eb61d3fe705d838d13"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-20T19:28:29Z",
+      "updated_at": "2026-11-21T06:44:59Z",
       "pushed_at": "2026-11-20T17:44:17Z",
       "open_issues_count": 124,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-20T15:26:18Z",
+      "updated_at": "2026-11-21T06:45:34Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 61,
       "commits": [
@@ -418,13 +418,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "50430b77c328bda5e639b49dffbdb00ca549692f",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/50430b77c328bda5e639b49dffbdb00ca549692f"
+        "sha": "ec68fe0ea7945e1cbfdc1783db39fb7b0787d508",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/ec68fe0ea7945e1cbfdc1783db39fb7b0787d508"
       },
-      "updated_at": "2026-11-20T14:01:56Z",
-      "pushed_at": "2026-11-20T16:02:23Z",
+      "updated_at": "2026-11-21T06:56:21Z",
+      "pushed_at": "2026-11-21T04:17:59Z",
       "open_issues_count": 26,
       "commits": [
+        {
+          "id": "ec68fe0ea7945e1cbfdc1783db39fb7b0787d508",
+          "sha": "ec68fe0ea7945e1cbfdc1783db39fb7b0787d508",
+          "message": "docs: track gift autonomy seated skills and read-only OS builds",
+          "author": "fanhao375",
+          "date": "2026-11-21T04:17:53Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/ec68fe0ea7945e1cbfdc1783db39fb7b0787d508"
+        },
         {
           "id": "50430b77c328bda5e639b49dffbdb00ca549692f",
           "sha": "50430b77c328bda5e639b49dffbdb00ca549692f",
@@ -480,14 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-20T08:54:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/cc98dcffe94814991cc6a6d55f5359e7e6d5504e"
-        },
-        {
-          "id": "4840c350b7e494d830f689dd3f190798199d454e",
-          "sha": "4840c350b7e494d830f689dd3f190798199d454e",
-          "message": "docs: track replica integrations and restored 1104 Latest",
-          "author": "fanhao375",
-          "date": "2026-11-20T06:53:21Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/4840c350b7e494d830f689dd3f190798199d454e"
         }
       ],
       "releases": [
@@ -570,6 +570,14 @@
       ],
       "issues": [
         {
+          "id": "49",
+          "number": 49,
+          "title": "拼团咨询：HAT 板 + imu_to_dxl 板（越南） / Group buy inquiry: HAT + IMU board (Vietnam)",
+          "state": "open",
+          "updated_at": "2026-11-21T06:19:39Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/49"
+        },
+        {
           "id": "66",
           "number": 66,
           "title": "交流群二维码过期了",
@@ -587,7 +595,7 @@
         "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec"
       },
-      "updated_at": "2026-11-20T08:26:01Z",
+      "updated_at": "2026-11-20T21:04:06Z",
       "pushed_at": "2026-11-18T20:51:41Z",
       "open_issues_count": 1,
       "commits": [
@@ -720,7 +728,7 @@
         "url": "https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d"
       },
       "updated_at": "2026-11-20T15:29:33Z",
-      "pushed_at": "2026-11-20T10:54:40Z",
+      "pushed_at": "2026-11-21T00:07:42Z",
       "open_issues_count": 65,
       "commits": [
         {
@@ -816,6 +824,16 @@
       ],
       "pulls": [
         {
+          "id": "1368",
+          "number": 1368,
+          "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-21T00:07:44Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1368"
+        },
+        {
           "id": "1289",
           "number": 1289,
           "title": "Read position components without constructing full poses",
@@ -834,16 +852,6 @@
           "updated_at": "2026-11-20T05:39:36Z",
           "merged_at": "2026-11-20T05:39:33Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1274"
-        },
-        {
-          "id": "1368",
-          "number": 1368,
-          "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-18T01:02:07Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1368"
         },
         {
           "id": "1367",
