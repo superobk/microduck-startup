@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T19:20:55Z",
+  "generated_at": "2026-11-22T06:56:42Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "ea095b580cff070bc8063931d1456080898d60ec",
-        "url": "https://github.com/superobk/microduck-startup/commit/ea095b580cff070bc8063931d1456080898d60ec"
+        "sha": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
+        "url": "https://github.com/superobk/microduck-startup/commit/579dc5f9658d9e9cb1c5a61840bf89b158419910"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-21T07:16:01Z",
+      "pushed_at": "2026-11-21T19:21:13Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
+          "sha": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-21T19:21:11Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/579dc5f9658d9e9cb1c5a61840bf89b158419910"
+        },
         {
           "id": "ea095b580cff070bc8063931d1456080898d60ec",
           "sha": "ea095b580cff070bc8063931d1456080898d60ec",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-18T07:35:46Z",
           "url": "https://github.com/superobk/microduck-startup/commit/0bfab27c924c053b61edaad4ae88e4d019050308"
-        },
-        {
-          "id": "2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8",
-          "sha": "2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-17T20:59:21Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/2c14d5e5e4ec2a1f1d309b6ecc9b5dac991168e8"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-21T18:01:09Z",
+      "updated_at": "2026-11-22T06:10:32Z",
       "pushed_at": "2026-11-21T16:22:58Z",
       "open_issues_count": 124,
       "commits": [
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "600",
+          "number": 600,
+          "title": "tof: a return from below the floor is a drop, and the duck stops for it",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-21T20:36:20Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/600"
+        },
+        {
+          "id": "565",
+          "number": 565,
+          "title": "updater: a stuck release reverted by hand is not put back",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-21T20:05:52Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/565"
+        },
+        {
           "id": "537",
           "number": 537,
           "title": "spaces: preserve control replies across HTTP chunks",
@@ -216,26 +236,6 @@
           "updated_at": "2026-11-21T17:54:43Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/536"
-        },
-        {
-          "id": "621",
-          "number": 621,
-          "title": "Skills say where they start: entry_pose standing or seated",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-21T16:24:28Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/621"
-        },
-        {
-          "id": "620",
-          "number": 620,
-          "title": "The duck takes gifts: robotctl object-offer, and autod runs off with them",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-20T17:30:58Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/620"
         }
       ],
       "issues": []
@@ -325,7 +325,7 @@
           "title": "Fit a VelStand gait-onset candidate for duck-sim",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-21T18:02:22Z",
+          "updated_at": "2026-11-22T03:41:52Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/92"
         },
@@ -418,13 +418,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "db596f9f1eead10229728696548465c47a28461c",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/db596f9f1eead10229728696548465c47a28461c"
+        "sha": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/6f3b314c55a0e5e007b73ef567bddaa7e0f502c4"
       },
-      "updated_at": "2026-11-21T15:29:26Z",
-      "pushed_at": "2026-11-21T19:20:32Z",
+      "updated_at": "2026-11-22T04:37:54Z",
+      "pushed_at": "2026-11-22T04:38:44Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
+          "sha": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
+          "message": "docs: record current Microduck PR updates",
+          "author": "fanhao375",
+          "date": "2026-11-22T04:38:42Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/6f3b314c55a0e5e007b73ef567bddaa7e0f502c4"
+        },
         {
           "id": "db596f9f1eead10229728696548465c47a28461c",
           "sha": "db596f9f1eead10229728696548465c47a28461c",
@@ -480,14 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-21T16:32:21Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/aba608b1884e0e465adc3e4e36270f59deb2e6f9"
-        },
-        {
-          "id": "7a0bddf0d73c8201e0b4186c2100c0cd0fafaa4c",
-          "sha": "7a0bddf0d73c8201e0b4186c2100c0cd0fafaa4c",
-          "message": "Bake signed stable software into the ZERO 3W 1104 factory image",
-          "author": "fanhao375",
-          "date": "2026-11-21T15:53:04Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7a0bddf0d73c8201e0b4186c2100c0cd0fafaa4c"
         }
       ],
       "releases": [
@@ -570,20 +570,20 @@
       ],
       "issues": [
         {
+          "id": "49",
+          "number": 49,
+          "title": "拼团咨询：HAT 板 + imu_to_dxl 板（越南） / Group buy inquiry: HAT + IMU board (Vietnam)",
+          "state": "open",
+          "updated_at": "2026-11-21T22:16:14Z",
+          "url": "https://github.com/fanhao375/microduck-replica/issues/49"
+        },
+        {
           "id": "67",
           "number": 67,
           "title": "2026.11.20：FT6 IMU 合并读取时首颗舵机应答缺失，求 robotd .48 对应源码",
           "state": "open",
           "updated_at": "2026-11-21T13:24:43Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/67"
-        },
-        {
-          "id": "49",
-          "number": 49,
-          "title": "拼团咨询：HAT 板 + imu_to_dxl 板（越南） / Group buy inquiry: HAT + IMU board (Vietnam)",
-          "state": "open",
-          "updated_at": "2026-11-21T06:19:39Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/49"
         },
         {
           "id": "66",
@@ -735,7 +735,7 @@
         "sha": "55182f0903b8359033fca90560aab871c417465d",
         "url": "https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d"
       },
-      "updated_at": "2026-11-20T15:29:33Z",
+      "updated_at": "2026-11-22T06:39:32Z",
       "pushed_at": "2026-11-21T11:13:46Z",
       "open_issues_count": 65,
       "commits": [
@@ -832,6 +832,16 @@
       ],
       "pulls": [
         {
+          "id": "1372",
+          "number": 1372,
+          "title": "Preserve camera projection batch dimensions",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-22T06:47:23Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1372"
+        },
+        {
           "id": "1368",
           "number": 1368,
           "title": "Load multi-clip motions and compute tracked bodies with forward kinematics",
@@ -870,16 +880,6 @@
           "updated_at": "2026-11-17T23:59:36Z",
           "merged_at": "2026-11-17T23:59:34Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1367"
-        },
-        {
-          "id": "1230",
-          "number": 1230,
-          "title": "Add opt-in substep observation delay",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-17T06:12:23Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1230"
         }
       ],
       "issues": []
@@ -894,7 +894,7 @@
       },
       "updated_at": "2026-11-21T10:46:29Z",
       "pushed_at": "2026-11-20T17:06:26Z",
-      "open_issues_count": 43,
+      "open_issues_count": 44,
       "commits": [
         {
           "id": "4c9900fe242805266b30a91cd75302a6ad376833",
@@ -989,12 +989,42 @@
       ],
       "pulls": [
         {
+          "id": "275",
+          "number": 275,
+          "title": "Add a TensorRT backend to the ExecuTorch export",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-22T01:21:16Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/275"
+        },
+        {
+          "id": "271",
+          "number": 271,
+          "title": "Add ExecuTorch export for policies",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-22T01:21:09Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/271"
+        },
+        {
+          "id": "305",
+          "number": 305,
+          "title": "SuperMimic: optional BlinkMimic training improvements",
+          "state": "open",
+          "draft": true,
+          "updated_at": "2026-11-22T00:11:07Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/305"
+        },
+        {
           "id": "255",
           "number": 255,
           "title": "[main] Add SuperMimic model-based training",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-21T15:22:29Z",
+          "updated_at": "2026-11-21T22:54:26Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
         },
@@ -1007,36 +1037,6 @@
           "updated_at": "2026-11-20T08:07:22Z",
           "merged_at": "2026-11-20T08:07:22Z",
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/304"
-        },
-        {
-          "id": "303",
-          "number": 303,
-          "title": "Add Alloy to the learning environments list",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-19T14:43:40Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/303"
-        },
-        {
-          "id": "268",
-          "number": 268,
-          "title": "[main] Add distributed SAC and CNN model support",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-18T08:30:14Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/268"
-        },
-        {
-          "id": "270",
-          "number": 270,
-          "title": "Return only the ONNX outputs from the GRU ONNX model",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-18T01:02:07Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/270"
         }
       ],
       "issues": []
