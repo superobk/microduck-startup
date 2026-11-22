@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T06:56:42Z",
+  "generated_at": "2026-11-22T19:44:53Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
-        "url": "https://github.com/superobk/microduck-startup/commit/579dc5f9658d9e9cb1c5a61840bf89b158419910"
+        "sha": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
+        "url": "https://github.com/superobk/microduck-startup/commit/cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-21T19:21:13Z",
+      "pushed_at": "2026-11-22T06:56:55Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
+          "sha": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-22T06:56:54Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6"
+        },
         {
           "id": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
           "sha": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-18T20:36:58Z",
           "url": "https://github.com/superobk/microduck-startup/commit/af12062b440b82f705e873702728bed5fac9ca42"
-        },
-        {
-          "id": "0bfab27c924c053b61edaad4ae88e4d019050308",
-          "sha": "0bfab27c924c053b61edaad4ae88e4d019050308",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-18T07:35:46Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/0bfab27c924c053b61edaad4ae88e4d019050308"
         }
       ],
       "releases": [],
@@ -91,9 +91,9 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-22T06:10:32Z",
+      "updated_at": "2026-11-22T18:56:42Z",
       "pushed_at": "2026-11-21T16:22:58Z",
-      "open_issues_count": 124,
+      "open_issues_count": 125,
       "commits": [
         {
           "id": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
@@ -188,6 +188,16 @@
       ],
       "pulls": [
         {
+          "id": "622",
+          "number": 622,
+          "title": "autod: don't brace a seated duck for backing",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-22T13:41:04Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/622"
+        },
+        {
           "id": "600",
           "number": 600,
           "title": "tof: a return from below the floor is a drop, and the duck stops for it",
@@ -226,16 +236,6 @@
           "updated_at": "2026-11-21T17:55:28Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/538"
-        },
-        {
-          "id": "536",
-          "number": 536,
-          "title": "duck-sim: match shutdown paths literally",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-21T17:54:43Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/536"
         }
       ],
       "issues": []
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-21T09:00:45Z",
+      "updated_at": "2026-11-22T13:36:32Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -325,7 +325,7 @@
           "title": "Fit a VelStand gait-onset candidate for duck-sim",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-22T03:41:52Z",
+          "updated_at": "2026-11-22T11:14:59Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck_rl/pull/92"
         },
@@ -418,13 +418,29 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/6f3b314c55a0e5e007b73ef567bddaa7e0f502c4"
+        "sha": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/74adc7989ebb257b7f0b6aa262d2f85d06ac439f"
       },
-      "updated_at": "2026-11-22T04:37:54Z",
-      "pushed_at": "2026-11-22T04:38:44Z",
+      "updated_at": "2026-11-22T18:54:45Z",
+      "pushed_at": "2026-11-22T15:14:12Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
+          "sha": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
+          "message": "docs: refresh Group 16 WeChat invite for November 30",
+          "author": "fanhao375",
+          "date": "2026-11-22T15:14:11Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/74adc7989ebb257b7f0b6aa262d2f85d06ac439f"
+        },
+        {
+          "id": "c8920e60668eead4b966b57847977e31589589a1",
+          "sha": "c8920e60668eead4b966b57847977e31589589a1",
+          "message": "docs: record Microduck RL simulation PR update",
+          "author": "fanhao375",
+          "date": "2026-11-22T11:39:40Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c8920e60668eead4b966b57847977e31589589a1"
+        },
         {
           "id": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
           "sha": "6f3b314c55a0e5e007b73ef567bddaa7e0f502c4",
@@ -472,22 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-21T18:24:25Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/d68c55fbf7ecc56ca9b1bfdb2e8d160c874a7698"
-        },
-        {
-          "id": "cbfe1bfd746257b47c860f725d0fac2e18a53d09",
-          "sha": "cbfe1bfd746257b47c860f725d0fac2e18a53d09",
-          "message": "docs: link the November 19 Feetech roller skate print project",
-          "author": "fanhao375",
-          "date": "2026-11-21T18:20:09Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/cbfe1bfd746257b47c860f725d0fac2e18a53d09"
-        },
-        {
-          "id": "aba608b1884e0e465adc3e4e36270f59deb2e6f9",
-          "sha": "aba608b1884e0e465adc3e4e36270f59deb2e6f9",
-          "message": "docs: track seated skills API69 and refreshed 1104 release",
-          "author": "fanhao375",
-          "date": "2026-11-21T16:32:21Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/aba608b1884e0e465adc3e4e36270f59deb2e6f9"
         }
       ],
       "releases": [
@@ -732,13 +732,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "55182f0903b8359033fca90560aab871c417465d",
-        "url": "https://github.com/mujocolab/mjlab/commit/55182f0903b8359033fca90560aab871c417465d"
+        "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
+        "url": "https://github.com/mujocolab/mjlab/commit/1f48001802bd89257537c2dc16979d41b9686e86"
       },
-      "updated_at": "2026-11-22T06:39:32Z",
-      "pushed_at": "2026-11-21T11:13:46Z",
-      "open_issues_count": 65,
+      "updated_at": "2026-11-22T18:50:37Z",
+      "pushed_at": "2026-11-22T18:45:18Z",
+      "open_issues_count": 64,
       "commits": [
+        {
+          "id": "1f48001802bd89257537c2dc16979d41b9686e86",
+          "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
+          "message": "Preserve camera projection batch dimensions (#1372)",
+          "author": "Ramcharan49",
+          "date": "2026-11-22T18:43:23Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/1f48001802bd89257537c2dc16979d41b9686e86"
+        },
         {
           "id": "55182f0903b8359033fca90560aab871c417465d",
           "sha": "55182f0903b8359033fca90560aab871c417465d",
@@ -794,14 +802,6 @@
           "author": "kevinzakka",
           "date": "2026-11-13T04:01:17Z",
           "url": "https://github.com/mujocolab/mjlab/commit/84f8df53dbeff58d1f4dbf2f84af7212c1213525"
-        },
-        {
-          "id": "51d54fcc029dbf537a4f090413be0ba07d78e9a9",
-          "sha": "51d54fcc029dbf537a4f090413be0ba07d78e9a9",
-          "message": "Add a tactile sensor and the Sharpa Wave hand. (#1322)",
-          "author": "kevinzakka",
-          "date": "2026-11-12T01:44:43Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/51d54fcc029dbf537a4f090413be0ba07d78e9a9"
         }
       ],
       "releases": [
@@ -835,10 +835,10 @@
           "id": "1372",
           "number": 1372,
           "title": "Preserve camera projection batch dimensions",
-          "state": "open",
+          "state": "closed",
           "draft": false,
-          "updated_at": "2026-11-22T06:47:23Z",
-          "merged_at": null,
+          "updated_at": "2026-11-22T18:43:24Z",
+          "merged_at": "2026-11-22T18:43:23Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1372"
         },
         {
