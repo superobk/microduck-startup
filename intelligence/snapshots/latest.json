@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T19:44:53Z",
+  "generated_at": "2026-11-23T07:50:51Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
-        "url": "https://github.com/superobk/microduck-startup/commit/cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6"
+        "sha": "32001122b30069669facf0e6e4a27b570d454e49",
+        "url": "https://github.com/superobk/microduck-startup/commit/32001122b30069669facf0e6e4a27b570d454e49"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-22T06:56:55Z",
+      "pushed_at": "2026-11-22T19:45:06Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "32001122b30069669facf0e6e4a27b570d454e49",
+          "sha": "32001122b30069669facf0e6e4a27b570d454e49",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-22T19:45:05Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/32001122b30069669facf0e6e4a27b570d454e49"
+        },
         {
           "id": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
           "sha": "cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-19T07:31:34Z",
           "url": "https://github.com/superobk/microduck-startup/commit/0e4776660086f738b5cbab7ffd1a18cac7882296"
-        },
-        {
-          "id": "af12062b440b82f705e873702728bed5fac9ca42",
-          "sha": "af12062b440b82f705e873702728bed5fac9ca42",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-18T20:36:58Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/af12062b440b82f705e873702728bed5fac9ca42"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "56424efe58b7de40efcf3b2d3a5cd169ee83a182",
         "url": "https://github.com/pollen-robotics/microduck/commit/56424efe58b7de40efcf3b2d3a5cd169ee83a182"
       },
-      "updated_at": "2026-11-22T18:56:42Z",
+      "updated_at": "2026-11-23T07:29:15Z",
       "pushed_at": "2026-11-21T16:22:58Z",
       "open_issues_count": 125,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-22T13:36:32Z",
+      "updated_at": "2026-11-23T06:04:37Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -418,13 +418,37 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/74adc7989ebb257b7f0b6aa262d2f85d06ac439f"
+        "sha": "90f48fb5e38f2792d8e1bde68e6acc4faf414386",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/90f48fb5e38f2792d8e1bde68e6acc4faf414386"
       },
-      "updated_at": "2026-11-22T18:54:45Z",
-      "pushed_at": "2026-11-22T15:14:12Z",
+      "updated_at": "2026-11-23T07:02:58Z",
+      "pushed_at": "2026-11-23T04:48:22Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "90f48fb5e38f2792d8e1bde68e6acc4faf414386",
+          "sha": "90f48fb5e38f2792d8e1bde68e6acc4faf414386",
+          "message": "docs: track ground-pick mouth development release",
+          "author": "fanhao375",
+          "date": "2026-11-23T04:48:19Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/90f48fb5e38f2792d8e1bde68e6acc4faf414386"
+        },
+        {
+          "id": "7e4ba6449856a0f6959a3553f25b18fb3cd566cf",
+          "sha": "7e4ba6449856a0f6959a3553f25b18fb3cd566cf",
+          "message": "docs: correct tracked RL PR commit count",
+          "author": "fanhao375",
+          "date": "2026-11-23T01:45:51Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/7e4ba6449856a0f6959a3553f25b18fb3cd566cf"
+        },
+        {
+          "id": "8131371e4d8133b705b910f41ad260abd704f5a0",
+          "sha": "8131371e4d8133b705b910f41ad260abd704f5a0",
+          "message": "docs: record upstream autod PR 622",
+          "author": "fanhao375",
+          "date": "2026-11-22T23:52:54Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8131371e4d8133b705b910f41ad260abd704f5a0"
+        },
         {
           "id": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
           "sha": "74adc7989ebb257b7f0b6aa262d2f85d06ac439f",
@@ -464,30 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-21T19:10:25Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/1f0ff4550f762bb326d9dd3ed757997b2e042cce"
-        },
-        {
-          "id": "24379951746c351c0e2d0f133c51d94d56459375",
-          "sha": "24379951746c351c0e2d0f133c51d94d56459375",
-          "message": "Preserve saved servo centers through onboarding and IMU import",
-          "author": "fanhao375",
-          "date": "2026-11-21T18:46:22Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/24379951746c351c0e2d0f133c51d94d56459375"
-        },
-        {
-          "id": "ae22b8832304a62467d7795b061eb4951904d24a",
-          "sha": "ae22b8832304a62467d7795b061eb4951904d24a",
-          "message": "Studio: import an existing IMU mounting on the IMU page",
-          "author": "fanhao375",
-          "date": "2026-11-21T18:21:30Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/ae22b8832304a62467d7795b061eb4951904d24a"
-        },
-        {
-          "id": "d68c55fbf7ecc56ca9b1bfdb2e8d160c874a7698",
-          "sha": "d68c55fbf7ecc56ca9b1bfdb2e8d160c874a7698",
-          "message": "docs: track VelStand onset draft and refreshed tool PR sources",
-          "author": "fanhao375",
-          "date": "2026-11-21T18:24:25Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/d68c55fbf7ecc56ca9b1bfdb2e8d160c874a7698"
         }
       ],
       "releases": [
@@ -600,13 +600,21 @@
       "role": "community index",
       "branch": "main",
       "head": {
-        "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
-        "url": "https://github.com/joeynyc/awesome-microduck/commit/944ad8fad819756d3d7f98b8458b812dafb466ec"
+        "sha": "418ff4590b3df5d536fda40e75db93fda4d4474e",
+        "url": "https://github.com/joeynyc/awesome-microduck/commit/418ff4590b3df5d536fda40e75db93fda4d4474e"
       },
-      "updated_at": "2026-11-20T21:04:06Z",
-      "pushed_at": "2026-11-18T20:51:41Z",
-      "open_issues_count": 1,
+      "updated_at": "2026-11-23T02:28:55Z",
+      "pushed_at": "2026-11-22T21:28:35Z",
+      "open_issues_count": 0,
       "commits": [
+        {
+          "id": "418ff4590b3df5d536fda40e75db93fda4d4474e",
+          "sha": "418ff4590b3df5d536fda40e75db93fda4d4474e",
+          "message": "Add a hardware-tested docking policy, a trick pack, DuckFightClub sumo and three community entries (#53)",
+          "author": "joeynyc",
+          "date": "2026-11-22T21:28:33Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/commit/418ff4590b3df5d536fda40e75db93fda4d4474e"
+        },
         {
           "id": "944ad8fad819756d3d7f98b8458b812dafb466ec",
           "sha": "944ad8fad819756d3d7f98b8458b812dafb466ec",
@@ -662,18 +670,30 @@
           "author": "joeynyc",
           "date": "2026-11-05T19:49:41Z",
           "url": "https://github.com/joeynyc/awesome-microduck/commit/b99984a56182525598c4187cc0138c89bc1c7c79"
-        },
-        {
-          "id": "673b9ffde7bc01df77c6573de235ff282564de1e",
-          "sha": "673b9ffde7bc01df77c6573de235ff282564de1e",
-          "message": "Add Microduck Jenga simulation and training (#44)",
-          "author": "speccy88",
-          "date": "2026-11-05T19:48:44Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/commit/673b9ffde7bc01df77c6573de235ff282564de1e"
         }
       ],
       "releases": [],
       "pulls": [
+        {
+          "id": "50",
+          "number": 50,
+          "title": "Update DuckSpace entry",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-22T21:52:51Z",
+          "merged_at": null,
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/50"
+        },
+        {
+          "id": "53",
+          "number": 53,
+          "title": "Add a hardware-tested docking policy, a trick pack, DuckFightClub sumo and three community entries",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-22T21:28:35Z",
+          "merged_at": "2026-11-22T21:28:33Z",
+          "url": "https://github.com/joeynyc/awesome-microduck/pull/53"
+        },
         {
           "id": "52",
           "number": 52,
@@ -695,16 +715,6 @@
           "url": "https://github.com/joeynyc/awesome-microduck/pull/51"
         },
         {
-          "id": "50",
-          "number": 50,
-          "title": "Update DuckSpace entry",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-17T08:23:50Z",
-          "merged_at": null,
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/50"
-        },
-        {
           "id": "49",
           "number": 49,
           "title": "Add AMD-trained soccer skills and a ball-balance experiment",
@@ -713,16 +723,6 @@
           "updated_at": "2026-11-16T11:43:35Z",
           "merged_at": "2026-11-16T11:43:32Z",
           "url": "https://github.com/joeynyc/awesome-microduck/pull/49"
-        },
-        {
-          "id": "48",
-          "number": 48,
-          "title": "Add per-robot HD-1910 policies",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-13T21:19:31Z",
-          "merged_at": "2026-11-13T21:19:29Z",
-          "url": "https://github.com/joeynyc/awesome-microduck/pull/48"
         }
       ],
       "issues": []
@@ -735,7 +735,7 @@
         "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
         "url": "https://github.com/mujocolab/mjlab/commit/1f48001802bd89257537c2dc16979d41b9686e86"
       },
-      "updated_at": "2026-11-22T18:50:37Z",
+      "updated_at": "2026-11-23T07:07:39Z",
       "pushed_at": "2026-11-22T18:45:18Z",
       "open_issues_count": 64,
       "commits": [
@@ -892,9 +892,9 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-21T10:46:29Z",
+      "updated_at": "2026-11-23T01:03:52Z",
       "pushed_at": "2026-11-20T17:06:26Z",
-      "open_issues_count": 44,
+      "open_issues_count": 46,
       "commits": [
         {
           "id": "4c9900fe242805266b30a91cd75302a6ad376833",
@@ -989,6 +989,26 @@
       ],
       "pulls": [
         {
+          "id": "307",
+          "number": 307,
+          "title": "Capture PPO updates in a CUDA graph",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-23T07:36:02Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/307"
+        },
+        {
+          "id": "306",
+          "number": 306,
+          "title": "Add iteration callbacks to the on-policy runner",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-22T22:31:28Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/306"
+        },
+        {
           "id": "275",
           "number": 275,
           "title": "Add a TensorRT backend to the ExecuTorch export",
@@ -1017,26 +1037,6 @@
           "updated_at": "2026-11-22T00:11:07Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/305"
-        },
-        {
-          "id": "255",
-          "number": 255,
-          "title": "[main] Add SuperMimic model-based training",
-          "state": "open",
-          "draft": true,
-          "updated_at": "2026-11-21T22:54:26Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
-        },
-        {
-          "id": "304",
-          "number": 304,
-          "title": "Raise the default SAC learning rates to 3e-4",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-20T08:07:22Z",
-          "merged_at": "2026-11-20T08:07:22Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/304"
         }
       ],
       "issues": []
