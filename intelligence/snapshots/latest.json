@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T23:57:37Z",
+  "generated_at": "2026-11-24T09:58:53Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "ad7a239b0a84dfe92ee8f35b4d2b83da7fbff2af",
-        "url": "https://github.com/superobk/microduck-startup/commit/ad7a239b0a84dfe92ee8f35b4d2b83da7fbff2af"
+        "sha": "3eab76418670d2551d7a89ed0de487a57c1e84f6",
+        "url": "https://github.com/superobk/microduck-startup/commit/3eab76418670d2551d7a89ed0de487a57c1e84f6"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-23T07:51:07Z",
+      "pushed_at": "2026-11-23T23:58:00Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "3eab76418670d2551d7a89ed0de487a57c1e84f6",
+          "sha": "3eab76418670d2551d7a89ed0de487a57c1e84f6",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-23T23:57:59Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/3eab76418670d2551d7a89ed0de487a57c1e84f6"
+        },
         {
           "id": "ad7a239b0a84dfe92ee8f35b4d2b83da7fbff2af",
           "sha": "ad7a239b0a84dfe92ee8f35b4d2b83da7fbff2af",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-20T07:23:37Z",
           "url": "https://github.com/superobk/microduck-startup/commit/067da712dfd6e402b90d8039473b3913ce1991bf"
-        },
-        {
-          "id": "bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f",
-          "sha": "bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-19T20:42:36Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/bb6bb2d86d1934dd71d8a9078787fdbe7b9ed75f"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "93b26bbf2acf73babb53cd6b47e800d2661f54f4",
         "url": "https://github.com/pollen-robotics/microduck/commit/93b26bbf2acf73babb53cd6b47e800d2661f54f4"
       },
-      "updated_at": "2026-11-23T23:49:04Z",
+      "updated_at": "2026-11-24T09:53:38Z",
       "pushed_at": "2026-11-23T15:39:44Z",
       "open_issues_count": 117,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-23T08:18:54Z",
+      "updated_at": "2026-11-24T08:41:08Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -418,13 +418,45 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "89e68a99dcfe47752a04c57ee770ccda10d7e499",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/89e68a99dcfe47752a04c57ee770ccda10d7e499"
+        "sha": "3222778b9bab94ce045e1127de71f7d843c35891",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/3222778b9bab94ce045e1127de71f7d843c35891"
       },
-      "updated_at": "2026-11-23T18:23:25Z",
-      "pushed_at": "2026-11-23T15:36:48Z",
+      "updated_at": "2026-11-24T09:19:54Z",
+      "pushed_at": "2026-11-24T09:51:01Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "3222778b9bab94ce045e1127de71f7d843c35891",
+          "sha": "3222778b9bab94ce045e1127de71f7d843c35891",
+          "message": "docs: track Yocto main and beta channel update",
+          "author": "fanhao375",
+          "date": "2026-11-24T09:50:53Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/3222778b9bab94ce045e1127de71f7d843c35891"
+        },
+        {
+          "id": "545bd9dcf825393e8fad779dcaeef6f8825e968a",
+          "sha": "545bd9dcf825393e8fad779dcaeef6f8825e968a",
+          "message": "docs: track Yocto 0.23.1 ORT draft update",
+          "author": "fanhao375",
+          "date": "2026-11-24T08:51:18Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/545bd9dcf825393e8fad779dcaeef6f8825e968a"
+        },
+        {
+          "id": "70bc096594788ede7e6bc1e1971f2125b31cba5d",
+          "sha": "70bc096594788ede7e6bc1e1971f2125b31cba5d",
+          "message": "docs: refresh WeChat invite for Duck Replica Group 17",
+          "author": "fanhao375",
+          "date": "2026-11-24T05:33:29Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/70bc096594788ede7e6bc1e1971f2125b31cba5d"
+        },
+        {
+          "id": "326ad250d77c4b9e2b0f4549450a631aa36c53e1",
+          "sha": "326ad250d77c4b9e2b0f4549450a631aa36c53e1",
+          "message": "docs: record Microduck 0.23.1 release",
+          "author": "fanhao375",
+          "date": "2026-11-24T01:48:03Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/326ad250d77c4b9e2b0f4549450a631aa36c53e1"
+        },
         {
           "id": "89e68a99dcfe47752a04c57ee770ccda10d7e499",
           "sha": "89e68a99dcfe47752a04c57ee770ccda10d7e499",
@@ -456,38 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-23T11:14:47Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/14bb166d54831509dab0615fe91fbc54f0a6127b"
-        },
-        {
-          "id": "b85b6f04b287b1ed029c905855c644e3e2bf2e2a",
-          "sha": "b85b6f04b287b1ed029c905855c644e3e2bf2e2a",
-          "message": "docs: record merged updater rollback guard",
-          "author": "fanhao375",
-          "date": "2026-11-23T09:56:14Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/b85b6f04b287b1ed029c905855c644e3e2bf2e2a"
-        },
-        {
-          "id": "90f48fb5e38f2792d8e1bde68e6acc4faf414386",
-          "sha": "90f48fb5e38f2792d8e1bde68e6acc4faf414386",
-          "message": "docs: track ground-pick mouth development release",
-          "author": "fanhao375",
-          "date": "2026-11-23T04:48:19Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/90f48fb5e38f2792d8e1bde68e6acc4faf414386"
-        },
-        {
-          "id": "7e4ba6449856a0f6959a3553f25b18fb3cd566cf",
-          "sha": "7e4ba6449856a0f6959a3553f25b18fb3cd566cf",
-          "message": "docs: correct tracked RL PR commit count",
-          "author": "fanhao375",
-          "date": "2026-11-23T01:45:51Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7e4ba6449856a0f6959a3553f25b18fb3cd566cf"
-        },
-        {
-          "id": "8131371e4d8133b705b910f41ad260abd704f5a0",
-          "sha": "8131371e4d8133b705b910f41ad260abd704f5a0",
-          "message": "docs: record upstream autod PR 622",
-          "author": "fanhao375",
-          "date": "2026-11-22T23:52:54Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/8131371e4d8133b705b910f41ad260abd704f5a0"
         }
       ],
       "releases": [
@@ -603,7 +603,7 @@
         "sha": "418ff4590b3df5d536fda40e75db93fda4d4474e",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/418ff4590b3df5d536fda40e75db93fda4d4474e"
       },
-      "updated_at": "2026-11-23T02:28:55Z",
+      "updated_at": "2026-11-24T06:21:15Z",
       "pushed_at": "2026-11-22T21:28:35Z",
       "open_issues_count": 0,
       "commits": [
@@ -735,7 +735,7 @@
         "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
         "url": "https://github.com/mujocolab/mjlab/commit/1f48001802bd89257537c2dc16979d41b9686e86"
       },
-      "updated_at": "2026-11-23T18:13:33Z",
+      "updated_at": "2026-11-24T09:05:04Z",
       "pushed_at": "2026-11-22T18:45:18Z",
       "open_issues_count": 64,
       "commits": [
@@ -892,7 +892,7 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-23T12:37:25Z",
+      "updated_at": "2026-11-24T08:36:50Z",
       "pushed_at": "2026-11-20T17:06:26Z",
       "open_issues_count": 45,
       "commits": [
@@ -994,7 +994,7 @@
           "title": "[main] Add SuperMimic model-based training",
           "state": "open",
           "draft": true,
-          "updated_at": "2026-11-23T21:46:42Z",
+          "updated_at": "2026-11-24T09:48:16Z",
           "merged_at": null,
           "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
         },
