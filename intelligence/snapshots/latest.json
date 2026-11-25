@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T22:30:04Z",
+  "generated_at": "2026-11-25T08:42:19Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "a19bd372b5df451f6604782d886b920215ad7103",
-        "url": "https://github.com/superobk/microduck-startup/commit/a19bd372b5df451f6604782d886b920215ad7103"
+        "sha": "d1f2f034969533f4ca09a83cb7e90eebb6ac16cf",
+        "url": "https://github.com/superobk/microduck-startup/commit/d1f2f034969533f4ca09a83cb7e90eebb6ac16cf"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-24T09:59:14Z",
+      "pushed_at": "2026-11-24T22:30:20Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "d1f2f034969533f4ca09a83cb7e90eebb6ac16cf",
+          "sha": "d1f2f034969533f4ca09a83cb7e90eebb6ac16cf",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-24T22:30:18Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/d1f2f034969533f4ca09a83cb7e90eebb6ac16cf"
+        },
         {
           "id": "a19bd372b5df451f6604782d886b920215ad7103",
           "sha": "a19bd372b5df451f6604782d886b920215ad7103",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-21T07:15:59Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ea095b580cff070bc8063931d1456080898d60ec"
-        },
-        {
-          "id": "c7268e2cfee2de036ba1082923753c9ec50ce370",
-          "sha": "c7268e2cfee2de036ba1082923753c9ec50ce370",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-20T20:26:50Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/c7268e2cfee2de036ba1082923753c9ec50ce370"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "93b26bbf2acf73babb53cd6b47e800d2661f54f4",
         "url": "https://github.com/pollen-robotics/microduck/commit/93b26bbf2acf73babb53cd6b47e800d2661f54f4"
       },
-      "updated_at": "2026-11-24T21:32:27Z",
+      "updated_at": "2026-11-25T08:19:52Z",
       "pushed_at": "2026-11-23T15:39:44Z",
       "open_issues_count": 118,
       "commits": [
@@ -248,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-24T08:41:08Z",
+      "updated_at": "2026-11-25T06:34:22Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -418,13 +418,45 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "26e2e38a035901eb50554c7d37ef6a4173d10e11",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/26e2e38a035901eb50554c7d37ef6a4173d10e11"
+        "sha": "66a886a4d31dd417feba0245ce1de56c2b3af831",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/66a886a4d31dd417feba0245ce1de56c2b3af831"
       },
-      "updated_at": "2026-11-24T13:13:38Z",
-      "pushed_at": "2026-11-24T12:51:13Z",
+      "updated_at": "2026-11-25T08:33:03Z",
+      "pushed_at": "2026-11-25T08:20:44Z",
       "open_issues_count": 27,
       "commits": [
+        {
+          "id": "66a886a4d31dd417feba0245ce1de56c2b3af831",
+          "sha": "66a886a4d31dd417feba0245ce1de56c2b3af831",
+          "message": "docs: track pet-detect training PR 452",
+          "author": "fanhao375",
+          "date": "2026-11-25T08:20:37Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/66a886a4d31dd417feba0245ce1de56c2b3af831"
+        },
+        {
+          "id": "8256629afaf547987e3a1ed097ad8caf27d91df9",
+          "sha": "8256629afaf547987e3a1ed097ad8caf27d91df9",
+          "message": "README: 动作库——首页加动作广场的链接和一节介绍（首页 / 全部动作自动横滑）",
+          "author": "fanhao375",
+          "date": "2026-11-25T03:31:56Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8256629afaf547987e3a1ed097ad8caf27d91df9"
+        },
+        {
+          "id": "c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf",
+          "sha": "c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf",
+          "message": "Point existing 1104 cards to the signed 2026.11.25 update",
+          "author": "fanhao375",
+          "date": "2026-11-25T03:22:24Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf"
+        },
+        {
+          "id": "f51826378db353a3b587257dfa69ffa8305132af",
+          "sha": "f51826378db353a3b587257dfa69ffa8305132af",
+          "message": "docs: 动作广场——在网页上看鸭子能做哪些动作、下载动作包",
+          "author": "fanhao375",
+          "date": "2026-11-25T03:13:08Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/f51826378db353a3b587257dfa69ffa8305132af"
+        },
         {
           "id": "26e2e38a035901eb50554c7d37ef6a4173d10e11",
           "sha": "26e2e38a035901eb50554c7d37ef6a4173d10e11",
@@ -456,41 +488,17 @@
           "author": "fanhao375",
           "date": "2026-11-24T08:51:18Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/545bd9dcf825393e8fad779dcaeef6f8825e968a"
-        },
-        {
-          "id": "70bc096594788ede7e6bc1e1971f2125b31cba5d",
-          "sha": "70bc096594788ede7e6bc1e1971f2125b31cba5d",
-          "message": "docs: refresh WeChat invite for Duck Replica Group 17",
-          "author": "fanhao375",
-          "date": "2026-11-24T05:33:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/70bc096594788ede7e6bc1e1971f2125b31cba5d"
-        },
-        {
-          "id": "326ad250d77c4b9e2b0f4549450a631aa36c53e1",
-          "sha": "326ad250d77c4b9e2b0f4549450a631aa36c53e1",
-          "message": "docs: record Microduck 0.23.1 release",
-          "author": "fanhao375",
-          "date": "2026-11-24T01:48:03Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/326ad250d77c4b9e2b0f4549450a631aa36c53e1"
-        },
-        {
-          "id": "89e68a99dcfe47752a04c57ee770ccda10d7e499",
-          "sha": "89e68a99dcfe47752a04c57ee770ccda10d7e499",
-          "message": "docs: record Microduck upstream changes",
-          "author": "fanhao375",
-          "date": "2026-11-23T15:36:42Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/89e68a99dcfe47752a04c57ee770ccda10d7e499"
-        },
-        {
-          "id": "7976595b332ce91e601c2e43f1995b0c4baf4fbc",
-          "sha": "7976595b332ce91e601c2e43f1995b0c4baf4fbc",
-          "message": "docs: record Microduck Yocto gamepad update",
-          "author": "fanhao375",
-          "date": "2026-11-23T14:12:09Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/7976595b332ce91e601c2e43f1995b0c4baf4fbc"
         }
       ],
       "releases": [
+        {
+          "id": "457610797",
+          "tag": "microduck-software-v2026.11.25",
+          "name": "2026.11.25 正式软件 · 动作页，可选外接麦克风",
+          "published_at": "2026-11-25T03:22:17Z",
+          "prerelease": false,
+          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.25"
+        },
         {
           "id": "453915741",
           "tag": "microduck-software-v2026.11.23",
@@ -506,14 +514,6 @@
           "published_at": "2026-11-21T15:54:39Z",
           "prerelease": false,
           "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.22"
-        },
-        {
-          "id": "452238504",
-          "tag": "microduck-software-v2026.11.20",
-          "name": "2026.11.20 正式软件更新 · ZERO 3W 1104 原卡在线升级",
-          "published_at": "2026-11-20T03:40:08Z",
-          "prerelease": false,
-          "url": "https://github.com/fanhao375/microduck-replica/releases/tag/microduck-software-v2026.11.20"
         }
       ],
       "pulls": [
@@ -603,7 +603,7 @@
         "sha": "4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8"
       },
-      "updated_at": "2026-11-24T06:21:15Z",
+      "updated_at": "2026-11-25T04:21:40Z",
       "pushed_at": "2026-11-24T13:37:33Z",
       "open_issues_count": 0,
       "commits": [
@@ -732,13 +732,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
-        "url": "https://github.com/mujocolab/mjlab/commit/1f48001802bd89257537c2dc16979d41b9686e86"
+        "sha": "d872bfd2b048da657345c07669172fa284b38abf",
+        "url": "https://github.com/mujocolab/mjlab/commit/d872bfd2b048da657345c07669172fa284b38abf"
       },
-      "updated_at": "2026-11-24T21:08:17Z",
-      "pushed_at": "2026-11-22T18:45:18Z",
+      "updated_at": "2026-11-25T08:37:48Z",
+      "pushed_at": "2026-11-25T04:11:33Z",
       "open_issues_count": 65,
       "commits": [
+        {
+          "id": "d872bfd2b048da657345c07669172fa284b38abf",
+          "sha": "d872bfd2b048da657345c07669172fa284b38abf",
+          "message": "Add SimulationCfg.nccdmax (#1374)",
+          "author": "bd-pmorais",
+          "date": "2026-11-25T04:09:35Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/d872bfd2b048da657345c07669172fa284b38abf"
+        },
         {
           "id": "1f48001802bd89257537c2dc16979d41b9686e86",
           "sha": "1f48001802bd89257537c2dc16979d41b9686e86",
@@ -794,14 +802,6 @@
           "author": "Kaweees",
           "date": "2026-11-13T04:11:30Z",
           "url": "https://github.com/mujocolab/mjlab/commit/91d898cdc2e474044eaca569ece975746c887e8e"
-        },
-        {
-          "id": "84f8df53dbeff58d1f4dbf2f84af7212c1213525",
-          "sha": "84f8df53dbeff58d1f4dbf2f84af7212c1213525",
-          "message": "Add a docs page for the tactile sensor. (#1327)",
-          "author": "kevinzakka",
-          "date": "2026-11-13T04:01:17Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/84f8df53dbeff58d1f4dbf2f84af7212c1213525"
         }
       ],
       "releases": [
@@ -831,6 +831,16 @@
         }
       ],
       "pulls": [
+        {
+          "id": "1374",
+          "number": 1374,
+          "title": "Add SimulationCfg.nccdmax",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-25T04:09:36Z",
+          "merged_at": "2026-11-25T04:09:36Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1374"
+        },
         {
           "id": "1373",
           "number": 1373,
@@ -870,16 +880,6 @@
           "updated_at": "2026-11-21T00:07:44Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1368"
-        },
-        {
-          "id": "1289",
-          "number": 1289,
-          "title": "Read position components without constructing full poses",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-20T16:52:02Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1289"
         }
       ],
       "issues": []
@@ -892,7 +892,7 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-24T15:50:22Z",
+      "updated_at": "2026-11-25T07:02:29Z",
       "pushed_at": "2026-11-24T21:42:52Z",
       "open_issues_count": 45,
       "commits": [
