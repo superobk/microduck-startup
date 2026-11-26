@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T21:45:05Z",
+  "generated_at": "2026-11-26T08:26:54Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "6b2bc56d969b475d048181903190033aa9e197b9",
-        "url": "https://github.com/superobk/microduck-startup/commit/6b2bc56d969b475d048181903190033aa9e197b9"
+        "sha": "5524622240a249ab4fdf7e571a3be25a9ebc0665",
+        "url": "https://github.com/superobk/microduck-startup/commit/5524622240a249ab4fdf7e571a3be25a9ebc0665"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-25T08:42:42Z",
+      "pushed_at": "2026-11-25T21:45:26Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "5524622240a249ab4fdf7e571a3be25a9ebc0665",
+          "sha": "5524622240a249ab4fdf7e571a3be25a9ebc0665",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-25T21:45:25Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/5524622240a249ab4fdf7e571a3be25a9ebc0665"
+        },
         {
           "id": "6b2bc56d969b475d048181903190033aa9e197b9",
           "sha": "6b2bc56d969b475d048181903190033aa9e197b9",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-22T06:56:54Z",
           "url": "https://github.com/superobk/microduck-startup/commit/cfc0eff5c4a104557ddbd6ba16facdbf20bcbdd6"
-        },
-        {
-          "id": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
-          "sha": "579dc5f9658d9e9cb1c5a61840bf89b158419910",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-21T19:21:11Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/579dc5f9658d9e9cb1c5a61840bf89b158419910"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "4024f6ee4373d38ac0a60a79157bcfb57642be9c",
         "url": "https://github.com/pollen-robotics/microduck/commit/4024f6ee4373d38ac0a60a79157bcfb57642be9c"
       },
-      "updated_at": "2026-11-25T21:26:46Z",
+      "updated_at": "2026-11-26T08:19:18Z",
       "pushed_at": "2026-11-25T16:29:03Z",
       "open_issues_count": 117,
       "commits": [
@@ -238,7 +238,16 @@
           "url": "https://github.com/pollen-robotics/microduck/pull/127"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": "215",
+          "number": 215,
+          "title": "Two-way audio over WebRTC",
+          "state": "open",
+          "updated_at": "2026-11-26T03:45:37Z",
+          "url": "https://github.com/pollen-robotics/microduck/issues/215"
+        }
+      ]
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -248,7 +257,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-25T11:24:20Z",
+      "updated_at": "2026-11-26T04:42:25Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -421,7 +430,7 @@
         "sha": "84566746437369a4558ed5b7e8ad1e41a885085c",
         "url": "https://github.com/fanhao375/microduck-replica/commit/84566746437369a4558ed5b7e8ad1e41a885085c"
       },
-      "updated_at": "2026-11-25T17:32:07Z",
+      "updated_at": "2026-11-26T07:41:37Z",
       "pushed_at": "2026-11-25T10:10:17Z",
       "open_issues_count": 28,
       "commits": [
@@ -523,7 +532,7 @@
           "title": "feat(studio): v0.23 robotd/autod dual-mode compatibility + autonomous UI",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-25T10:00:54Z",
+          "updated_at": "2026-11-26T06:57:48Z",
           "merged_at": null,
           "url": "https://github.com/fanhao375/microduck-replica/pull/68"
         },
@@ -603,7 +612,7 @@
         "sha": "4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8"
       },
-      "updated_at": "2026-11-25T04:21:40Z",
+      "updated_at": "2026-11-26T08:04:46Z",
       "pushed_at": "2026-11-24T13:37:33Z",
       "open_issues_count": 0,
       "commits": [
@@ -735,9 +744,9 @@
         "sha": "d872bfd2b048da657345c07669172fa284b38abf",
         "url": "https://github.com/mujocolab/mjlab/commit/d872bfd2b048da657345c07669172fa284b38abf"
       },
-      "updated_at": "2026-11-25T19:17:38Z",
+      "updated_at": "2026-11-26T07:57:39Z",
       "pushed_at": "2026-11-25T04:11:33Z",
-      "open_issues_count": 68,
+      "open_issues_count": 69,
       "commits": [
         {
           "id": "d872bfd2b048da657345c07669172fa284b38abf",
@@ -832,6 +841,16 @@
       ],
       "pulls": [
         {
+          "id": "1378",
+          "number": 1378,
+          "title": "Fix pattern matching for actuatoed tendons and sites and fix `preserve_order` in actuatoed joints",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-25T23:11:15Z",
+          "merged_at": null,
+          "url": "https://github.com/mujocolab/mjlab/pull/1378"
+        },
+        {
           "id": "1377",
           "number": 1377,
           "title": "Remove deprecated TorchScript APIs",
@@ -870,16 +889,6 @@
           "updated_at": "2026-11-25T04:09:36Z",
           "merged_at": "2026-11-25T04:09:36Z",
           "url": "https://github.com/mujocolab/mjlab/pull/1374"
-        },
-        {
-          "id": "1373",
-          "number": 1373,
-          "title": "Expose more actuation types in ONNX metadata",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-24T14:27:06Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1373"
         }
       ],
       "issues": []
@@ -892,7 +901,7 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-25T11:46:53Z",
+      "updated_at": "2026-11-26T03:16:25Z",
       "pushed_at": "2026-11-25T09:25:21Z",
       "open_issues_count": 44,
       "commits": [
@@ -989,54 +998,54 @@
       ],
       "pulls": [
         {
-          "id": "308",
-          "number": 308,
-          "title": "Accept done-only final observations with learned dynamics",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-25T09:24:38Z",
-          "merged_at": "2026-11-25T09:24:38Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/308"
-        },
-        {
-          "id": "255",
-          "number": 255,
-          "title": "[main] Add SuperMimic model-based training",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-24T21:33:33Z",
-          "merged_at": "2026-11-24T21:33:33Z",
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/255"
-        },
-        {
-          "id": "305",
-          "number": 305,
-          "title": "SuperMimic: optional BlinkMimic training improvements",
-          "state": "closed",
-          "draft": true,
-          "updated_at": "2026-11-23T10:30:41Z",
-          "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/305"
-        },
-        {
-          "id": "306",
-          "number": 306,
-          "title": "Add iteration callbacks to the on-policy runner",
+          "id": "302",
+          "number": 302,
+          "title": "Add optional dynamic batch size to ONNX policy export",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-23T10:18:01Z",
+          "updated_at": "2026-11-26T07:29:31Z",
           "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/306"
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/302"
         },
         {
-          "id": "307",
-          "number": 307,
-          "title": "Capture PPO updates in a CUDA graph",
+          "id": "300",
+          "number": 300,
+          "title": "Add optional pooled advantage normalization for distributed PPO",
           "state": "open",
           "draft": false,
-          "updated_at": "2026-11-23T07:36:02Z",
+          "updated_at": "2026-11-26T07:29:28Z",
           "merged_at": null,
-          "url": "https://github.com/leggedrobotics/rsl_rl/pull/307"
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/300"
+        },
+        {
+          "id": "293",
+          "number": 293,
+          "title": "Prevent finite gradients from overflowing during distributed averaging",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-26T07:29:21Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/293"
+        },
+        {
+          "id": "286",
+          "number": 286,
+          "title": "Preserve RMS normalization precision in half ONNX exports",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-26T07:29:17Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/286"
+        },
+        {
+          "id": "283",
+          "number": 283,
+          "title": "Synchronize SAC target normalizers before bootstrapping",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-26T07:29:13Z",
+          "merged_at": null,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/283"
         }
       ],
       "issues": []
