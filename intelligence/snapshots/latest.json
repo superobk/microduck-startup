@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T21:38:19Z",
+  "generated_at": "2026-11-27T08:41:59Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "472b5038217eaa69d1e88d8830d3aabc542f965c",
-        "url": "https://github.com/superobk/microduck-startup/commit/472b5038217eaa69d1e88d8830d3aabc542f965c"
+        "sha": "a04b42667c70dee87ad9b9a8a2300190edbe33e9",
+        "url": "https://github.com/superobk/microduck-startup/commit/a04b42667c70dee87ad9b9a8a2300190edbe33e9"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-26T08:27:16Z",
+      "pushed_at": "2026-11-26T21:38:34Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "a04b42667c70dee87ad9b9a8a2300190edbe33e9",
+          "sha": "a04b42667c70dee87ad9b9a8a2300190edbe33e9",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-26T21:38:32Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/a04b42667c70dee87ad9b9a8a2300190edbe33e9"
+        },
         {
           "id": "472b5038217eaa69d1e88d8830d3aabc542f965c",
           "sha": "472b5038217eaa69d1e88d8830d3aabc542f965c",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-23T07:51:06Z",
           "url": "https://github.com/superobk/microduck-startup/commit/ad7a239b0a84dfe92ee8f35b4d2b83da7fbff2af"
-        },
-        {
-          "id": "32001122b30069669facf0e6e4a27b570d454e49",
-          "sha": "32001122b30069669facf0e6e4a27b570d454e49",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-22T19:45:05Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/32001122b30069669facf0e6e4a27b570d454e49"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "4024f6ee4373d38ac0a60a79157bcfb57642be9c",
         "url": "https://github.com/pollen-robotics/microduck/commit/4024f6ee4373d38ac0a60a79157bcfb57642be9c"
       },
-      "updated_at": "2026-11-26T21:25:23Z",
+      "updated_at": "2026-11-27T08:31:00Z",
       "pushed_at": "2026-11-26T13:29:20Z",
       "open_issues_count": 118,
       "commits": [
@@ -257,7 +257,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-26T15:44:07Z",
+      "updated_at": "2026-11-27T08:29:55Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -427,13 +427,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "bd3ecb991b2d08e267331fd620a64eadc3c38613",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/bd3ecb991b2d08e267331fd620a64eadc3c38613"
+        "sha": "8009459ed65972d5cb71dc6d2fb9a2d1700f542f",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/8009459ed65972d5cb71dc6d2fb9a2d1700f542f"
       },
-      "updated_at": "2026-11-26T14:39:07Z",
-      "pushed_at": "2026-11-26T13:47:22Z",
-      "open_issues_count": 29,
+      "updated_at": "2026-11-27T05:51:51Z",
+      "pushed_at": "2026-11-27T02:39:13Z",
+      "open_issues_count": 30,
       "commits": [
+        {
+          "id": "8009459ed65972d5cb71dc6d2fb9a2d1700f542f",
+          "sha": "8009459ed65972d5cb71dc6d2fb9a2d1700f542f",
+          "message": "docs: track upstream OS runqemu proposal and validation scope",
+          "author": "fanhao375",
+          "date": "2026-11-27T02:39:10Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/8009459ed65972d5cb71dc6d2fb9a2d1700f542f"
+        },
         {
           "id": "bd3ecb991b2d08e267331fd620a64eadc3c38613",
           "sha": "bd3ecb991b2d08e267331fd620a64eadc3c38613",
@@ -489,14 +497,6 @@
           "author": "fanhao375",
           "date": "2026-11-25T03:31:56Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/8256629afaf547987e3a1ed097ad8caf27d91df9"
-        },
-        {
-          "id": "c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf",
-          "sha": "c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf",
-          "message": "Point existing 1104 cards to the signed 2026.11.25 update",
-          "author": "fanhao375",
-          "date": "2026-11-25T03:22:24Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/c2b4960fcbb176fb4f10b64d79a5f0dc85b362bf"
         }
       ],
       "releases": [
@@ -526,6 +526,16 @@
         }
       ],
       "pulls": [
+        {
+          "id": "70",
+          "number": 70,
+          "title": "Cubie A7Z：交付 Studio 调试、网页遥控及双行走模型整机镜像",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-27T07:43:52Z",
+          "merged_at": null,
+          "url": "https://github.com/fanhao375/microduck-replica/pull/70"
+        },
         {
           "id": "68",
           "number": 68,
@@ -565,16 +575,6 @@
           "updated_at": "2026-11-20T06:34:29Z",
           "merged_at": "2026-11-20T06:34:29Z",
           "url": "https://github.com/fanhao375/microduck-replica/pull/63"
-        },
-        {
-          "id": "62",
-          "number": 62,
-          "title": "feat(studio): 手机 AI 语音、头嘴联动与摄像头识图",
-          "state": "closed",
-          "draft": false,
-          "updated_at": "2026-11-20T06:34:29Z",
-          "merged_at": "2026-11-20T06:34:29Z",
-          "url": "https://github.com/fanhao375/microduck-replica/pull/62"
         }
       ],
       "issues": [
@@ -601,14 +601,6 @@
           "state": "open",
           "updated_at": "2026-11-21T13:24:43Z",
           "url": "https://github.com/fanhao375/microduck-replica/issues/67"
-        },
-        {
-          "id": "66",
-          "number": 66,
-          "title": "交流群二维码过期了",
-          "state": "open",
-          "updated_at": "2026-11-20T12:07:14Z",
-          "url": "https://github.com/fanhao375/microduck-replica/issues/66"
         }
       ]
     },
@@ -620,7 +612,7 @@
         "sha": "4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/4c3cd2f2a913e6a80e8a2e9cde2d33f0e94430c8"
       },
-      "updated_at": "2026-11-26T08:04:46Z",
+      "updated_at": "2026-11-27T05:55:52Z",
       "pushed_at": "2026-11-24T13:37:33Z",
       "open_issues_count": 0,
       "commits": [
@@ -752,7 +744,7 @@
         "sha": "d872bfd2b048da657345c07669172fa284b38abf",
         "url": "https://github.com/mujocolab/mjlab/commit/d872bfd2b048da657345c07669172fa284b38abf"
       },
-      "updated_at": "2026-11-26T16:35:33Z",
+      "updated_at": "2026-11-27T06:21:53Z",
       "pushed_at": "2026-11-26T11:08:19Z",
       "open_issues_count": 69,
       "commits": [
@@ -909,7 +901,7 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-26T15:12:56Z",
+      "updated_at": "2026-11-27T03:40:38Z",
       "pushed_at": "2026-11-25T09:25:21Z",
       "open_issues_count": 50,
       "commits": [
