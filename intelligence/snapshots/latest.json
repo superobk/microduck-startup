@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T21:22:15Z",
+  "generated_at": "2026-11-28T07:55:29Z",
   "github": [
     {
       "repo": "superobk/microduck-startup",
       "role": "workspace orchestrator",
       "branch": "main",
       "head": {
-        "sha": "62d24d926bda46b76dc26ccda72085ef90e1e6e0",
-        "url": "https://github.com/superobk/microduck-startup/commit/62d24d926bda46b76dc26ccda72085ef90e1e6e0"
+        "sha": "7fe893251dcf3d32a76fa4127e8d717ef9bcec35",
+        "url": "https://github.com/superobk/microduck-startup/commit/7fe893251dcf3d32a76fa4127e8d717ef9bcec35"
       },
       "updated_at": "2026-11-12T08:18:01Z",
-      "pushed_at": "2026-11-27T08:42:19Z",
+      "pushed_at": "2026-11-27T21:22:29Z",
       "open_issues_count": 0,
       "commits": [
+        {
+          "id": "7fe893251dcf3d32a76fa4127e8d717ef9bcec35",
+          "sha": "7fe893251dcf3d32a76fa4127e8d717ef9bcec35",
+          "message": "chore(intel): refresh Microduck sources [skip ci]",
+          "author": "github-actions[bot]",
+          "date": "2026-11-27T21:22:27Z",
+          "url": "https://github.com/superobk/microduck-startup/commit/7fe893251dcf3d32a76fa4127e8d717ef9bcec35"
+        },
         {
           "id": "62d24d926bda46b76dc26ccda72085ef90e1e6e0",
           "sha": "62d24d926bda46b76dc26ccda72085ef90e1e6e0",
@@ -69,14 +77,6 @@
           "author": "github-actions[bot]",
           "date": "2026-11-24T09:59:12Z",
           "url": "https://github.com/superobk/microduck-startup/commit/a19bd372b5df451f6604782d886b920215ad7103"
-        },
-        {
-          "id": "3eab76418670d2551d7a89ed0de487a57c1e84f6",
-          "sha": "3eab76418670d2551d7a89ed0de487a57c1e84f6",
-          "message": "chore(intel): refresh Microduck sources [skip ci]",
-          "author": "github-actions[bot]",
-          "date": "2026-11-23T23:57:59Z",
-          "url": "https://github.com/superobk/microduck-startup/commit/3eab76418670d2551d7a89ed0de487a57c1e84f6"
         }
       ],
       "releases": [],
@@ -91,7 +91,7 @@
         "sha": "4024f6ee4373d38ac0a60a79157bcfb57642be9c",
         "url": "https://github.com/pollen-robotics/microduck/commit/4024f6ee4373d38ac0a60a79157bcfb57642be9c"
       },
-      "updated_at": "2026-11-27T20:12:28Z",
+      "updated_at": "2026-11-28T06:44:02Z",
       "pushed_at": "2026-11-26T13:29:20Z",
       "open_issues_count": 119,
       "commits": [
@@ -188,6 +188,26 @@
       ],
       "pulls": [
         {
+          "id": "432",
+          "number": 432,
+          "title": "mediad: date frames on the robot clock",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-28T05:22:44Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/432"
+        },
+        {
+          "id": "594",
+          "number": 594,
+          "title": "configd: build on macOS again",
+          "state": "open",
+          "draft": false,
+          "updated_at": "2026-11-27T23:07:37Z",
+          "merged_at": null,
+          "url": "https://github.com/pollen-robotics/microduck/pull/594"
+        },
+        {
           "id": "617",
           "number": 617,
           "title": "docs: measure duck-sim walking and turning on v8 and v10",
@@ -216,38 +236,9 @@
           "updated_at": "2026-11-27T13:09:41Z",
           "merged_at": null,
           "url": "https://github.com/pollen-robotics/microduck/pull/628"
-        },
-        {
-          "id": "627",
-          "number": 627,
-          "title": "docs/ideas: a smarter duck, and a behavior library",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-26T13:25:17Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/627"
-        },
-        {
-          "id": "432",
-          "number": 432,
-          "title": "mediad: date frames on the robot clock",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-26T10:36:39Z",
-          "merged_at": null,
-          "url": "https://github.com/pollen-robotics/microduck/pull/432"
         }
       ],
-      "issues": [
-        {
-          "id": "215",
-          "number": 215,
-          "title": "Two-way audio over WebRTC",
-          "state": "open",
-          "updated_at": "2026-11-26T11:49:53Z",
-          "url": "https://github.com/pollen-robotics/microduck/issues/215"
-        }
-      ]
+      "issues": []
     },
     {
       "repo": "pollen-robotics/microduck_rl",
@@ -257,7 +248,7 @@
         "sha": "0daab160d3fb1c2cbaba16a4a19052f36709dd9e",
         "url": "https://github.com/pollen-robotics/microduck_rl/commit/0daab160d3fb1c2cbaba16a4a19052f36709dd9e"
       },
-      "updated_at": "2026-11-27T19:34:43Z",
+      "updated_at": "2026-11-28T05:10:01Z",
       "pushed_at": "2026-11-17T06:28:41Z",
       "open_issues_count": 62,
       "commits": [
@@ -427,13 +418,21 @@
       "role": "mechanical reconstruction",
       "branch": "master",
       "head": {
-        "sha": "bc9fe7f88737ce11c2286acc455ad4c04588a44f",
-        "url": "https://github.com/fanhao375/microduck-replica/commit/bc9fe7f88737ce11c2286acc455ad4c04588a44f"
+        "sha": "04b45a467f20c7c62ba78a8593afe55bee235477",
+        "url": "https://github.com/fanhao375/microduck-replica/commit/04b45a467f20c7c62ba78a8593afe55bee235477"
       },
-      "updated_at": "2026-11-27T14:10:19Z",
-      "pushed_at": "2026-11-27T15:01:05Z",
+      "updated_at": "2026-11-28T07:50:44Z",
+      "pushed_at": "2026-11-28T05:59:42Z",
       "open_issues_count": 29,
       "commits": [
+        {
+          "id": "04b45a467f20c7c62ba78a8593afe55bee235477",
+          "sha": "04b45a467f20c7c62ba78a8593afe55bee235477",
+          "message": "docs: track frame-dating diagnostic fixes and CI source provenance",
+          "author": "fanhao375",
+          "date": "2026-11-28T05:59:39Z",
+          "url": "https://github.com/fanhao375/microduck-replica/commit/04b45a467f20c7c62ba78a8593afe55bee235477"
+        },
         {
           "id": "bc9fe7f88737ce11c2286acc455ad4c04588a44f",
           "sha": "bc9fe7f88737ce11c2286acc455ad4c04588a44f",
@@ -489,14 +488,6 @@
           "author": "fanhao375",
           "date": "2026-11-26T08:53:04Z",
           "url": "https://github.com/fanhao375/microduck-replica/commit/90f78aa48ed6ec125e630083984cba0e0ff070fb"
-        },
-        {
-          "id": "84566746437369a4558ed5b7e8ad1e41a885085c",
-          "sha": "84566746437369a4558ed5b7e8ad1e41a885085c",
-          "message": "docs: record verified CI scope for pet-detect PR 452",
-          "author": "fanhao375",
-          "date": "2026-11-25T10:10:05Z",
-          "url": "https://github.com/fanhao375/microduck-replica/commit/84566746437369a4558ed5b7e8ad1e41a885085c"
         }
       ],
       "releases": [
@@ -612,7 +603,7 @@
         "sha": "ed2fd2b327297cf909b495c3513263269e157801",
         "url": "https://github.com/joeynyc/awesome-microduck/commit/ed2fd2b327297cf909b495c3513263269e157801"
       },
-      "updated_at": "2026-11-27T05:55:52Z",
+      "updated_at": "2026-11-28T05:33:13Z",
       "pushed_at": "2026-11-27T20:34:42Z",
       "open_issues_count": 0,
       "commits": [
@@ -741,13 +732,21 @@
       "role": "MuJoCo Warp RL framework",
       "branch": "main",
       "head": {
-        "sha": "d872bfd2b048da657345c07669172fa284b38abf",
-        "url": "https://github.com/mujocolab/mjlab/commit/d872bfd2b048da657345c07669172fa284b38abf"
+        "sha": "a982b2105607524dd5f3567e12ae6cbc325113de",
+        "url": "https://github.com/mujocolab/mjlab/commit/a982b2105607524dd5f3567e12ae6cbc325113de"
       },
-      "updated_at": "2026-11-27T09:15:51Z",
-      "pushed_at": "2026-11-27T11:00:05Z",
+      "updated_at": "2026-11-28T05:09:57Z",
+      "pushed_at": "2026-11-28T00:08:59Z",
       "open_issues_count": 69,
       "commits": [
+        {
+          "id": "a982b2105607524dd5f3567e12ae6cbc325113de",
+          "sha": "a982b2105607524dd5f3567e12ae6cbc325113de",
+          "message": "Download demo assets from a GitHub release instead of GCS. (#1380)",
+          "author": "kevinzakka",
+          "date": "2026-11-28T00:07:06Z",
+          "url": "https://github.com/mujocolab/mjlab/commit/a982b2105607524dd5f3567e12ae6cbc325113de"
+        },
         {
           "id": "d872bfd2b048da657345c07669172fa284b38abf",
           "sha": "d872bfd2b048da657345c07669172fa284b38abf",
@@ -803,17 +802,17 @@
           "author": "Kaweees",
           "date": "2026-11-13T04:16:36Z",
           "url": "https://github.com/mujocolab/mjlab/commit/1b5c91c923ee4bc4159f3dce9cc85b52f88b6bd5"
-        },
-        {
-          "id": "91d898cdc2e474044eaca569ece975746c887e8e",
-          "sha": "91d898cdc2e474044eaca569ece975746c887e8e",
-          "message": "Use configured gravity for entity orientation (#1325)",
-          "author": "Kaweees",
-          "date": "2026-11-13T04:11:30Z",
-          "url": "https://github.com/mujocolab/mjlab/commit/91d898cdc2e474044eaca569ece975746c887e8e"
         }
       ],
       "releases": [
+        {
+          "id": "461166475",
+          "tag": "demo-assets",
+          "name": "Demo assets",
+          "published_at": "2026-11-27T23:53:05Z",
+          "prerelease": true,
+          "url": "https://github.com/mujocolab/mjlab/releases/tag/demo-assets"
+        },
         {
           "id": "445735432",
           "tag": "v1.6.1",
@@ -829,17 +828,19 @@
           "published_at": "2026-08-09T00:26:35Z",
           "prerelease": false,
           "url": "https://github.com/mujocolab/mjlab/releases/tag/v1.6.0"
-        },
-        {
-          "id": "358143221",
-          "tag": "v1.5.3",
-          "name": "mjlab v1.5.3",
-          "published_at": "2026-07-22T15:54:36Z",
-          "prerelease": false,
-          "url": "https://github.com/mujocolab/mjlab/releases/tag/v1.5.3"
         }
       ],
       "pulls": [
+        {
+          "id": "1380",
+          "number": 1380,
+          "title": "Download demo assets from a GitHub release instead of GCS.",
+          "state": "closed",
+          "draft": false,
+          "updated_at": "2026-11-28T00:07:10Z",
+          "merged_at": "2026-11-28T00:07:07Z",
+          "url": "https://github.com/mujocolab/mjlab/pull/1380"
+        },
         {
           "id": "1284",
           "number": 1284,
@@ -879,16 +880,6 @@
           "updated_at": "2026-11-27T10:32:49Z",
           "merged_at": null,
           "url": "https://github.com/mujocolab/mjlab/pull/1276"
-        },
-        {
-          "id": "1378",
-          "number": 1378,
-          "title": "Fix pattern matching for actuatoed tendons and sites and fix `preserve_order` in actuatoed joints",
-          "state": "open",
-          "draft": false,
-          "updated_at": "2026-11-25T23:11:15Z",
-          "merged_at": null,
-          "url": "https://github.com/mujocolab/mjlab/pull/1378"
         }
       ],
       "issues": []
@@ -901,7 +892,7 @@
         "sha": "4c9900fe242805266b30a91cd75302a6ad376833",
         "url": "https://github.com/leggedrobotics/rsl_rl/commit/4c9900fe242805266b30a91cd75302a6ad376833"
       },
-      "updated_at": "2026-11-27T15:09:42Z",
+      "updated_at": "2026-11-28T07:38:24Z",
       "pushed_at": "2026-11-25T09:25:21Z",
       "open_issues_count": 50,
       "commits": [
